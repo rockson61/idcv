@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
-import { Phone, Clock, MapPin, CheckCircle, Crown, Wrench, Calendar, MessageCircle, ArrowRight, Star, Shield, Heart } from "lucide-react"
+import { Phone, Clock, MapPin, CheckCircle, Crown, Wrench, Calendar, MessageCircle, ArrowRight, Star, Shield, Heart, Sparkles, Award, Zap, Users } from "lucide-react"
 import { GlassCard } from "@/components/ui/glass-card"
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from "@/components/ui/modern-card"
 import { SectionContainer } from "@/components/ui/section-container"
@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/badge"
 import { Breadcrumb } from "@/components/ui/breadcrumb"
 import { ServiceReviews } from "@/components/ui/service-reviews"
 import { generateServiceReviews } from "@/lib/review-data"
+import { ServiceSemanticContent } from "@/components/sections/service-semantic-content"
 
 const reviews = generateServiceReviews('Restorative Dentistry', 'default')
 
@@ -214,7 +215,7 @@ const faqs = [
 
 export default function RestorativeDentistryPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-blue-50/30 to-teal-50/30">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50/40 to-teal-50/40">
       {/* Breadcrumb */}
       <SectionContainer className="pt-8">
         <Breadcrumb
@@ -226,111 +227,180 @@ export default function RestorativeDentistryPage() {
         />
       </SectionContainer>
 
-      {/* Hero Section */}
-      <SectionContainer className="pt-24 pb-16">
-        <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <Crown className="h-4 w-4" />
-            Advanced Restorative Solutions
+      {/* Hero Section - Enhanced */}
+      <SectionContainer className="pt-16 pb-20">
+        <div className="relative">
+          {/* Decorative gradient blobs */}
+          <div className="absolute inset-0 -z-10 overflow-hidden">
+            <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-blue-400/20 to-teal-400/20 rounded-full blur-3xl" />
+            <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-purple-400/10 to-pink-400/10 rounded-full blur-3xl" />
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
-            Restorative Dentistry
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Restore your teeth to optimal health, function, and beauty with our advanced restorative dentistry services.
-            Dr. Rockson Samuel uses the latest materials and techniques to bring back your confident smile.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700"
-            >
-              <Phone className="mr-2 h-5 w-5" />
-              Call: 7010650063
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-blue-200 text-blue-700 hover:bg-blue-50 bg-transparent"
-            >
-              <Calendar className="mr-2 h-5 w-5" />
-              Book Consultation
-            </Button>
-          </div>
-        </div>
 
-        {/* Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
-          <GlassCard className="text-center p-6">
-            <div className="text-3xl font-bold text-blue-600 mb-2">5000+</div>
-            <div className="text-gray-600">Restorations Completed</div>
-          </GlassCard>
-          <GlassCard className="text-center p-6">
-            <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
-            <div className="text-gray-600">Years Experience</div>
-          </GlassCard>
-          <GlassCard className="text-center p-6">
-            <div className="text-3xl font-bold text-blue-600 mb-2">95%</div>
-            <div className="text-gray-600">Patient Satisfaction</div>
-          </GlassCard>
-          <GlassCard className="text-center p-6">
-            <div className="text-3xl font-bold text-blue-600 mb-2">10yr</div>
-            <div className="text-gray-600">Warranty Available</div>
-          </GlassCard>
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-100 to-teal-100 text-blue-700 px-5 py-2.5 rounded-full text-sm font-semibold mb-6 shadow-sm border border-blue-200/50">
+              <Crown className="h-4 w-4" />
+              <span>Advanced Restorative Solutions</span>
+              <Sparkles className="h-3.5 w-3.5" />
+            </div>
+            
+            <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+              <span className="bg-gradient-to-r from-blue-600 via-teal-600 to-blue-600 bg-clip-text text-transparent">
+                Restorative Dentistry
+              </span>
+            </h1>
+            
+            <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-4 leading-relaxed">
+              Restore your teeth to <span className="font-semibold text-blue-600">optimal health</span>, function, and beauty with our advanced restorative dentistry services.
+            </p>
+            
+            <p className="text-lg text-gray-500 max-w-3xl mx-auto mb-10">
+              Dr. Rockson Samuel uses the <span className="font-medium text-teal-600">latest materials and techniques</span> to bring back your confident smile with precision and care.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 shadow-lg hover:shadow-xl transition-all duration-300 text-base font-semibold px-8"
+              >
+                <Phone className="mr-2 h-5 w-5" />
+                Call: 7010650063
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-2 border-blue-300 text-blue-700 hover:bg-blue-50 bg-white/80 backdrop-blur-sm shadow-md hover:shadow-lg transition-all duration-300 font-semibold px-8"
+              >
+                <Calendar className="mr-2 h-5 w-5" />
+                Book Consultation
+              </Button>
+            </div>
+
+            {/* Trust indicators */}
+            <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-600">
+              <div className="flex items-center gap-2">
+                <Award className="h-4 w-4 text-amber-500" />
+                <span className="font-medium">5000+ Successful Cases</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Shield className="h-4 w-4 text-green-500" />
+                <span className="font-medium">10-Year Warranty</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Star className="h-4 w-4 text-yellow-500 fill-yellow-500" />
+                <span className="font-medium">4.9/5 Rating</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Stats - Enhanced with icons */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="group">
+              <GlassCard className="text-center p-8 hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-blue-200">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <Users className="h-8 w-8 text-blue-600" />
+                </div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent mb-2">5000+</div>
+                <div className="text-gray-600 font-medium">Restorations Completed</div>
+              </GlassCard>
+            </div>
+            
+            <div className="group">
+              <GlassCard className="text-center p-8 hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-teal-200">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-teal-100 to-teal-200 rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <Award className="h-8 w-8 text-teal-600" />
+                </div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent mb-2">15+</div>
+                <div className="text-gray-600 font-medium">Years Experience</div>
+              </GlassCard>
+            </div>
+            
+            <div className="group">
+              <GlassCard className="text-center p-8 hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-green-200">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-100 to-green-200 rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <Heart className="h-8 w-8 text-green-600" />
+                </div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent mb-2">95%</div>
+                <div className="text-gray-600 font-medium">Patient Satisfaction</div>
+              </GlassCard>
+            </div>
+            
+            <div className="group">
+              <GlassCard className="text-center p-8 hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-purple-200">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <Shield className="h-8 w-8 text-purple-600" />
+                </div>
+                <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-2">10yr</div>
+                <div className="text-gray-600 font-medium">Warranty Available</div>
+              </GlassCard>
+            </div>
+          </div>
         </div>
       </SectionContainer>
 
-      {/* Services Grid */}
-      <SectionContainer className="py-16">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Restorative Services</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Comprehensive restoration solutions to repair, replace, and enhance your teeth
+      {/* Services Grid - Enhanced */}
+      <SectionContainer className="py-20 bg-white/50">
+        <div className="text-center mb-16">
+          <div className="inline-block mb-4">
+            <Badge variant="outline" className="px-4 py-2 text-sm font-semibold border-2 border-blue-200 text-blue-700">
+              Our Services
+            </Badge>
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+            Restorative Services
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            Comprehensive restoration solutions to repair, replace, and enhance your teeth with precision and artistry
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {restorativeServices.map((service, index) => (
-            <GlassCard key={index} className="group hover:shadow-xl transition-all duration-300">
-              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
-                <Image
-                  src={service.image || "/placeholder.svg"}
-                  alt={service.name}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute top-3 right-3 bg-blue-100 text-blue-700 px-2 py-1 rounded-full text-xs font-medium">
-                  {service.material}
-                </div>
-              </div>
-
-              <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">{service.name}</h3>
-              <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-
-              <div className="space-y-2 mb-4">
-                <div className="flex justify-between items-center">
-                  <span className="text-sm text-gray-500">Price:</span>
-                  <span className="font-semibold text-blue-600">{service.price}</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-sm text-gray-500">Duration:</span>
-                  <span className="font-medium">{service.duration}</span>
-                </div>
-              </div>
-
-              <div className="space-y-2 mb-6">
-                {service.features.map((feature, idx) => (
-                  <div key={idx} className="flex items-center text-sm">
-                    <CheckCircle className="h-4 w-4 text-green-500 mr-2 flex-shrink-0" />
-                    <span>{feature}</span>
+            <div key={index} className="group">
+              <GlassCard className="h-full hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-blue-100 overflow-hidden">
+                <div className="relative h-52 mb-5 rounded-xl overflow-hidden">
+                  <Image
+                    src={service.image || "/placeholder.svg"}
+                    alt={service.name}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                  <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-sm text-blue-700 px-3 py-1.5 rounded-full text-xs font-bold shadow-lg">
+                    {service.material}
                   </div>
-                ))}
-              </div>
+                  <div className="absolute bottom-3 left-3 right-3">
+                    <h3 className="text-xl font-bold text-white drop-shadow-lg">{service.name}</h3>
+                  </div>
+                </div>
 
-              <Button className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700">
-                Learn More
-              </Button>
-            </GlassCard>
+                <p className="text-gray-600 text-sm mb-5 leading-relaxed min-h-[60px]">{service.description}</p>
+
+                <div className="space-y-3 mb-5 bg-gradient-to-br from-blue-50/50 to-teal-50/50 rounded-lg p-4">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-gray-600 font-medium">Price:</span>
+                    <span className="font-bold text-blue-600">{service.price}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-gray-600 font-medium">Duration:</span>
+                    <span className="font-semibold text-gray-700">{service.duration}</span>
+                  </div>
+                </div>
+
+                <div className="space-y-2.5 mb-6">
+                  {service.features.map((feature, idx) => (
+                    <div key={idx} className="flex items-start text-sm">
+                      <CheckCircle className="h-4 w-4 text-green-500 mr-2.5 flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+
+                <Button className="w-full bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 shadow-md hover:shadow-lg transition-all duration-300 font-semibold">
+                  <Sparkles className="mr-2 h-4 w-4" />
+                  Learn More
+                </Button>
+              </GlassCard>
+            </div>
           ))}
         </div>
       </SectionContainer>
@@ -577,33 +647,58 @@ export default function RestorativeDentistryPage() {
         </div>
       </SectionContainer>
 
-      {/* Related Services */}
-      <SectionContainer className="py-16 bg-gradient-to-r from-blue-50/50 to-teal-50/50">
+      {/* Semantic Content - Internal Linking */}
+      <SectionContainer className="py-16 bg-gradient-to-br from-blue-50/30 to-teal-50/30">
+        <ServiceSemanticContent serviceName="Restorative Dentistry" />
+      </SectionContainer>
+
+      {/* Related Services - Enhanced */}
+      <SectionContainer className="py-20 bg-gradient-to-r from-blue-50/50 to-teal-50/50">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Related Services</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+            Related Services
+          </h2>
+          <p className="text-lg text-gray-600">Comprehensive dental care for complete oral health</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <GlassCard className="p-6 hover:shadow-xl transition-shadow group">
-            <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">Root Canal Treatment</h3>
-            <p className="text-gray-600 mb-4">Save infected teeth before restoration</p>
-            <Link href="/services/root-canal-treatment" className="text-blue-600 hover:text-blue-700 font-medium flex items-center">
-              Learn More <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </GlassCard>
-          <GlassCard className="p-6 hover:shadow-xl transition-shadow group">
-            <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">Prosthodontics</h3>
-            <p className="text-gray-600 mb-4">Advanced crowns, bridges, dentures</p>
-            <Link href="/services/prosthodontics" className="text-blue-600 hover:text-blue-700 font-medium flex items-center">
-              Learn More <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </GlassCard>
-          <GlassCard className="p-6 hover:shadow-xl transition-shadow group">
-            <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">Cosmetic Dentistry</h3>
-            <p className="text-gray-600 mb-4">Enhance appearance while restoring</p>
-            <Link href="/services/cosmetic-dentistry" className="text-blue-600 hover:text-blue-700 font-medium flex items-center">
-              Learn More <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </GlassCard>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="group">
+            <GlassCard className="p-8 hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-blue-200 h-full">
+              <div className="inline-flex items-center justify-center w-14 h-14 bg-gradient-to-br from-red-100 to-red-200 rounded-2xl mb-5 group-hover:scale-110 transition-transform duration-300">
+                <Zap className="h-7 w-7 text-red-600" />
+              </div>
+              <h3 className="text-2xl font-bold mb-3 group-hover:text-blue-600 transition-colors">Root Canal Treatment</h3>
+              <p className="text-gray-600 mb-5 leading-relaxed">Save infected teeth before restoration with painless endodontic care</p>
+              <Link href="/services/root-canal-treatment" className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold group-hover:gap-3 gap-2 transition-all">
+                Learn More <ArrowRight className="h-5 w-5" />
+              </Link>
+            </GlassCard>
+          </div>
+          
+          <div className="group">
+            <GlassCard className="p-8 hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-teal-200 h-full">
+              <div className="inline-flex items-center justify-center w-14 h-14 bg-gradient-to-br from-teal-100 to-teal-200 rounded-2xl mb-5 group-hover:scale-110 transition-transform duration-300">
+                <Crown className="h-7 w-7 text-teal-600" />
+              </div>
+              <h3 className="text-2xl font-bold mb-3 group-hover:text-teal-600 transition-colors">Prosthodontics</h3>
+              <p className="text-gray-600 mb-5 leading-relaxed">Advanced crowns, bridges, and dentures for complete tooth replacement</p>
+              <Link href="/services/prosthodontics" className="inline-flex items-center text-teal-600 hover:text-teal-700 font-semibold group-hover:gap-3 gap-2 transition-all">
+                Learn More <ArrowRight className="h-5 w-5" />
+              </Link>
+            </GlassCard>
+          </div>
+          
+          <div className="group">
+            <GlassCard className="p-8 hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-purple-200 h-full">
+              <div className="inline-flex items-center justify-center w-14 h-14 bg-gradient-to-br from-purple-100 to-purple-200 rounded-2xl mb-5 group-hover:scale-110 transition-transform duration-300">
+                <Sparkles className="h-7 w-7 text-purple-600" />
+              </div>
+              <h3 className="text-2xl font-bold mb-3 group-hover:text-purple-600 transition-colors">Cosmetic Dentistry</h3>
+              <p className="text-gray-600 mb-5 leading-relaxed">Enhance appearance while restoring function for a confident smile</p>
+              <Link href="/services/cosmetic-dentistry" className="inline-flex items-center text-purple-600 hover:text-purple-700 font-semibold group-hover:gap-3 gap-2 transition-all">
+                Learn More <ArrowRight className="h-5 w-5" />
+              </Link>
+            </GlassCard>
+          </div>
         </div>
       </SectionContainer>
     </div>
