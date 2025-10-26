@@ -1,0 +1,21 @@
+{
+  "name": "Indira Dental Clinic | Dr Rockson Samuel | Top Dentist in Vellore",
+  "short_name": "Indira Dental",
+  "description": "Expert dental care in Vellore including RCT, braces, implants & dental fillings by Dr. Rockson Samuel",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

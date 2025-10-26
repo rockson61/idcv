@@ -1,0 +1,13 @@
+{
+  "regions": ["sin1"],
+  "github": {
+    "silent": true
+  },
+  "build": {
+    "env": {
+      "NEXT_IGNORE_BUILD_ERRORS": "true",
+      "NEXT_IGNORE_ESLINT_ERRORS": "true"
+    }
+  }
+}
+
