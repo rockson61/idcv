@@ -6,6 +6,7 @@ import { DentistsOverview } from "@/components/sections/dentists-overview"
 import { ClinicsOverview } from "@/components/sections/clinics-overview"
 import { Testimonials } from "@/components/sections/testimonials"
 import { CTASection } from "@/components/sections/cta-section"
+import { SemanticLinksSection } from "@/components/sections/semantic-links-section"
 
 export default function ClientHomePage() {
   return (
@@ -19,6 +20,8 @@ export default function ClientHomePage() {
       />
 
       <ServicesOverview />
+      
+      <SemanticLinksSection pageType="homepage" />
 
       <DentistsOverview />
 
