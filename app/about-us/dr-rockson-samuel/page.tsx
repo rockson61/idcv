@@ -168,7 +168,7 @@ export default function DrRocksonSamuelPage() {
           <GlassPanel variant="card" className="text-center">
             <div className="relative w-80 h-80 mx-auto mb-6 rounded-2xl overflow-hidden">
               <Image
-                src="/professional-dentist-portrait.png"
+                src="/dr-rockson-samuel-best-dentist-vellore.jpg"
                 alt="Dr. Rockson Samuel - Leading Dentist in Vellore"
                 fill
                 className="object-cover"

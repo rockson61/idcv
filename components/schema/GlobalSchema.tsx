@@ -23,7 +23,7 @@ export function GlobalSchema() {
         },
         "image": [
           "https://lh3.googleusercontent.com/K8lcq6RY2okp3bLpMSdwccD1j-Xdpy4eY07_YEb1jHr-JXcAyKfOAji1C2SWkQ5hwCF3BJD1_1581Td1=s0",
-          "https://www.dentalclinicinvellore.in/professional-dentist-portrait.png",
+          "https://www.dentalclinicinvellore.in/dr-rockson-samuel-best-dentist-vellore.jpg",
           "https://www.dentalclinicinvellore.in/dental-implant-stages.png",
           "https://www.dentalclinicinvellore.in/root-canal-procedure.png",
           "https://www.dentalclinicinvellore.in/teeth-whitening.jpg",
@@ -349,7 +349,7 @@ export function GlobalSchema() {
         "description": "Dr. Rockson Samuel is a highly skilled and experienced dentist who has been serving the Vellore community for over 15 years. With BDS, PgDM, and BDM qualifications, he specializes in Root Canal Treatment, Dental Implants, Cosmetic Dentistry, and Orthodontics.",
         "image": {
           "@type": "ImageObject",
-          "url": "https://www.dentalclinicinvellore.in/professional-dentist-portrait.png",
+          "url": "https://www.dentalclinicinvellore.in/dr-rockson-samuel-best-dentist-vellore.jpg",
           "caption": "Dr. Rockson Samuel - Leading Dentist in Vellore"
         },
         "url": "https://www.dentalclinicinvellore.in/about-us/dr-rockson-samuel",

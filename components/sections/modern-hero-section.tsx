@@ -97,7 +97,7 @@ export function ModernHeroSection({ locationName = 'Vellore' }: ModernHeroSectio
               <ModernCard variant="glass" className="p-2">
                 <div className="relative h-96 lg:h-[500px] rounded-xl overflow-hidden">
                   <Image
-                    src="/professional-dentist-portrait.png"
+                    src="/dr-rockson-samuel-best-dentist-vellore.jpg"
                     alt="Dr. Rockson Samuel - Expert Dentist in Vellore"
                     fill
                     className="object-cover"

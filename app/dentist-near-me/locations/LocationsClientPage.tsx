@@ -90,7 +90,7 @@ export default function LocationsClientPage() {
           </div>
                 <div className="relative">
                 <Image
-                    src="/professional-dentist-portrait.png"
+                    src="/dr-rockson-samuel-best-dentist-vellore.jpg"
                     alt="Indira Dental Clinic - Vellore"
                     width={400}
                     height={400}

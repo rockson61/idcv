@@ -260,7 +260,7 @@ export default function DentistNearMePage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div className="relative">
                   <img
-                    src="/professional-dentist-portrait.png"
+                    src="/dr-rockson-samuel-best-dentist-vellore.jpg"
                     alt="Dr. Rockson Samuel"
                     className="rounded-lg shadow-lg w-full max-w-md mx-auto"
                   />

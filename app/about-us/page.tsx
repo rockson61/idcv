@@ -191,7 +191,7 @@ export default function AboutUsPage() {
             <GlassCard className="p-8">
               <div className="relative w-full h-96 mb-6 rounded-lg overflow-hidden">
                 <Image
-                  src="/professional-dentist-portrait.png"
+                  src="/dr-rockson-samuel-best-dentist-vellore.jpg"
                   alt="Dr. Rockson Samuel - Best Dentist in Vellore"
                   fill
                   className="object-cover"

@@ -223,7 +223,7 @@ export default function HomePage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div className="relative">
                   <Image
-                    src="/professional-dentist-portrait.png"
+                    src="/dr-rockson-samuel-best-dentist-vellore.jpg"
                     alt="Dr. Rockson Samuel"
                     width={400}
                     height={400}

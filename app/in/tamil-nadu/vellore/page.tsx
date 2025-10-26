@@ -119,7 +119,7 @@ export default function VellorePage() {
     qualification: 'BDS, MDS (Oral & Maxillofacial Surgery)',
     experience: '15+ Years',
     specializations: ['Dental Implants', 'Root Canal Treatment', 'Cosmetic Dentistry', 'Orthodontics'],
-    image: '/professional-dentist-portrait.png'
+    image: '/dr-rockson-samuel-best-dentist-vellore.jpg'
   }
 
   return (

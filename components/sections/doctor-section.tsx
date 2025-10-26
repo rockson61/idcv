@@ -32,7 +32,7 @@ export function DoctorSection() {
             <GlassCard variant="default" className="p-6 bg-white/80 dark:bg-gray-800/80">
               <div className="relative h-[600px] rounded-xl overflow-hidden">
                 <Image
-                  src="/professional-dentist-portrait.png"
+                  src="/dr-rockson-samuel-best-dentist-vellore.jpg"
                   alt="Dr. Rockson Samuel"
                   fill
                   className="object-cover"

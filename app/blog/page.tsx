@@ -198,7 +198,7 @@ const blogPosts = [
     readTime: "4 min read",
     category: "Preventive Care",
     tags: ["Dental Checkups", "Prevention", "Oral Health"],
-    image: "/professional-dentist-portrait.png",
+    image: "/dr-rockson-samuel-best-dentist-vellore.jpg",
   },
 ]
 

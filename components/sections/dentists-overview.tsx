@@ -60,7 +60,7 @@ export function DentistProfile() {
                 {/* Doctor Image */}
                 <div className="relative w-64 h-64 mx-auto">
                   <Image
-                    src="/professional-dentist-portrait.png"
+                    src="/dr-rockson-samuel-best-dentist-vellore.jpg"
                     alt="Dr Rockson Samuel - Best Dentist in Vellore"
                     fill
                     className="rounded-full object-cover border-4 border-[#54CAD3]/20"

@@ -50,7 +50,7 @@ export function LocationPageTemplate({
   dentistName = "Dr. Rockson Samuel",
   dentistQualification = "BDS, PgDM, BDM | General Dentist & Community Leader - DentalReach",
   dentistExperience = "15+",
-  dentistImageUrl = "/professional-dentist-portrait.png",
+  dentistImageUrl = "/dr-rockson-samuel-best-dentist-vellore.jpg",
   testimonials = [
     {
       name: "John Smith",

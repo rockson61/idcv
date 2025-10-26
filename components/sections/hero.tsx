@@ -116,7 +116,7 @@ export function Hero() {
                 <div className="text-center space-y-4">
                   <div className="relative w-48 h-48 mx-auto">
                     <Image
-                      src="/professional-dentist-portrait.png"
+                      src="/dr-rockson-samuel-best-dentist-vellore.jpg"
                       alt="Dr Rockson Samuel - Best Dentist in Vellore"
                       fill
                       className="rounded-full object-cover border-4 border-[#54CAD3]/20"

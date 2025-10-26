@@ -207,7 +207,7 @@ export function SubLocationPageTemplate({
           qualification="BDS, PgDM, BDM | General Dentist & Community Leader - DentalReach"
           experience="15+"
           specializations={["General Dentistry", "Orthodontics", "Dental Implants"]}
-          imageUrl="/professional-dentist-portrait.png"
+          imageUrl="/dr-rockson-samuel-best-dentist-vellore.jpg"
           rating={4.9}
           reviewCount={120}
         />

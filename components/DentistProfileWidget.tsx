@@ -9,7 +9,7 @@ export function DentistProfileWidget() {
   const qualification = "BDS, PgDM, BDM | General Dentist & Community Leader - DentalReach"
   const experience = "15"
   const specializations = ["General Dentistry", "Implants", "Root Canal Treatment", "Orthodontics"]
-  const imageUrl = "/professional-dentist-portrait.png"
+  const imageUrl = "/dr-rockson-samuel-best-dentist-vellore.jpg"
   const rating = 5
   const reviewCount = 39
   const email = "rockson68@hotmail.com"

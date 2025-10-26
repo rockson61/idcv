@@ -32,7 +32,7 @@ export function ConnectWithDentist() {
                   <div className="relative">
                     <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg">
                       <Image
-                        src="/professional-dentist-portrait.png"
+                        src="/dr-rockson-samuel-best-dentist-vellore.jpg"
                         alt="Dr. Rockson Samuel"
                         width={128}
                         height={128}
