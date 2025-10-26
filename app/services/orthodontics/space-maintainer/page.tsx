@@ -403,7 +403,7 @@ export default function SpaceMaintainerPage() {
             questions={[
               {
                 title: "What Causes Teeth Crowding and How is it Treated?",
-                url: "/ask-the-dentist/teeth-crowding-causes-treatment",
+                // url: "/ask-the-dentist/teeth-crowding-causes-treatment",
                 helpfulVotes: 38
               },
               {

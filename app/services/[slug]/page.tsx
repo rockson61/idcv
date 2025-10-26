@@ -95,8 +95,9 @@ export async function generateStaticParams() {
   }))
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const service = services.find((s) => s.slug === params.slug)
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const service = services.find((s) => s.slug === slug)
 
   if (!service) {
     return {
@@ -112,8 +113,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 }
 
-export default async function ServicePage({ params }: { params: { slug: string } }) {
-  const service = services.find((s) => s.slug === params.slug)
+export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const service = services.find((s) => s.slug === slug)
 
   if (!service) {
     notFound()
@@ -122,7 +124,7 @@ export default async function ServicePage({ params }: { params: { slug: string }
   // Generate content for the service if not already available
   // In a real application, this would likely be stored in a database or CMS
   let content = ""
-  let faq = []
+  let faq: { question: string; answer: string }[] = []
   let aftercare = ""
 
   try {
@@ -147,7 +149,7 @@ export default async function ServicePage({ params }: { params: { slug: string }
     if (faqResult.success) {
       // Parse the HTML to extract questions and answers
       const faqHtml = faqResult.content
-      const faqRegex = /<h3>(.*?)<\/h3>\s*<p>(.*?)<\/p>/gs
+      const faqRegex = /<h3>(.*?)<\/h3>\s*<p>(.*?)<\/p>/gi
       const matches = [...faqHtml.matchAll(faqRegex)]
 
       faq = matches.map((match) => ({

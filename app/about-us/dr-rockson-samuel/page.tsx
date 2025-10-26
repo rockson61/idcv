@@ -1,8 +1,8 @@
-import { Hero } from "@/components/sections/hero"
+// Removed Hero import - using custom section instead
 import { SectionContainer } from "@/components/ui/section-container"
 import { GlassPanel } from "@/components/ui/glass-panel"
 import { Button } from "@/components/ui/button"
-import { CTASection } from "@/components/sections/cta-section"
+// Removed CTASection - using custom implementation
 import { Badge } from "@/components/ui/badge"
 import {
   Award,
@@ -153,14 +153,34 @@ const philosophy = [
 export default function DrRocksonSamuelPage() {
   return (
     <main>
-      <Hero
-        title="Dr. Rockson Samuel"
-        subtitle="BDS, PgDM, BDM | General Dentist & Community Leader - DentalReach"
-        description="Meet Vellore's most trusted dentist with over 15 years of experience in providing exceptional dental care. Specializing in advanced treatments with a gentle, patient-centered approach."
-        primaryCTA={{ text: "Book Consultation", href: "/contact" }}
-        secondaryCTA={{ text: "Call: 7010650063", href: "tel:7010650063" }}
-        showStats={false}
-      />
+      {/* Hero Section */}
+      <SectionContainer className="pt-24 pb-16 bg-gradient-to-br from-blue-50 to-teal-50">
+        <div className="text-center max-w-4xl mx-auto">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
+            Dr. Rockson Samuel
+          </h1>
+          <p className="text-xl text-gray-600 mb-6">
+            BDS, PgDM, BDM | General Dentist & Community Leader - DentalReach
+          </p>
+          <p className="text-lg text-gray-500 mb-8">
+            Meet Vellore's most trusted dentist with over 15 years of experience in providing exceptional dental care. Specializing in advanced treatments with a gentle, patient-centered approach.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="/contact"
+              className="inline-flex items-center justify-center px-8 py-3 bg-gradient-to-r from-blue-600 to-teal-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-teal-700 transition-all duration-300 shadow-lg"
+            >
+              Book Consultation
+            </a>
+            <a 
+              href="tel:7010650063"
+              className="inline-flex items-center justify-center px-8 py-3 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-all duration-300"
+            >
+              Call: 7010650063
+            </a>
+          </div>
+        </div>
+      </SectionContainer>
 
       {/* Doctor Profile */}
       <SectionContainer>
@@ -419,11 +439,31 @@ export default function DrRocksonSamuelPage() {
         </div>
       </SectionContainer>
 
-      <CTASection
-        title="Schedule Your Consultation with Dr. Rockson Samuel"
-        description="Experience the difference of personalized, expert dental care. Book your appointment today and discover why Dr. Samuel is Vellore's most trusted dentist."
-        showEmergency={true}
-      />
+      {/* CTA Section */}
+      <SectionContainer className="py-16 bg-gradient-to-br from-blue-600 to-teal-600 text-white">
+        <div className="text-center max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Schedule Your Consultation with Dr. Rockson Samuel
+          </h2>
+          <p className="text-xl mb-8 text-blue-50">
+            Experience the difference of personalized, expert dental care. Book your appointment today and discover why Dr. Samuel is Vellore's most trusted dentist.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="/contact"
+              className="inline-flex items-center justify-center px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-all duration-300 shadow-lg"
+            >
+              Book Appointment
+            </a>
+            <a 
+              href="tel:7010650063"
+              className="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-300"
+            >
+              Call: 7010650063
+            </a>
+          </div>
+        </div>
+      </SectionContainer>
     </main>
   )
 }

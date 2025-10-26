@@ -1,7 +1,8 @@
 import type { NextRequest } from "next/server"
 
-export async function GET(request: NextRequest, { params }: { params: { path: string[] } }) {
-  const path = params.path.join("/")
+export async function GET(request: NextRequest, { params }: { params: Promise<{ path: string[] }> }) {
+  const { path: pathArray } = await params
+  const path = pathArray.join("/")
 
   // This is a placeholder route handler that would normally serve images
   // In a real application, you would fetch images from a storage service
