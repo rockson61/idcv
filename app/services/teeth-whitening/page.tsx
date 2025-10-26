@@ -11,7 +11,7 @@ export default function TeethWhiteningPage() {
     <ServiceContentTemplate
       title="Professional Teeth Whitening"
       description="Transform your smile with our advanced teeth whitening treatments"
-      image="/teeth-whitening.jpg"
+      image="/dental-clinic-vellore.jpg"
       content={`
         <h2 class="text-2xl font-bold mb-4">About Professional Teeth Whitening</h2>
         <p class="mb-4">

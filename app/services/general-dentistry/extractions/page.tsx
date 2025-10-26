@@ -155,7 +155,7 @@ export default function ToothExtractionsPage() {
         {
           title: "Dental Implants",
           href: "/services/dental-implants",
-          image: "/dental-implant-stages.png",
+          image: "/dental-clinic-vellore.jpg",
         },
         {
           title: "Wisdom Teeth Removal",
@@ -165,20 +165,20 @@ export default function ToothExtractionsPage() {
         {
           title: "Dental Bridges",
           href: "/services/dental-bridges",
-          image: "/dental-bridges.jpg",
+          image: "/dental-clinic-vellore.jpg",
         },
       ]}
       testimonials={[
         {
           name: "Vijay Kumar",
-          image: "/young-indian-man.png",
+          image: "/dental-clinic-vellore.jpg",
           rating: 5,
           text: "I was nervous about getting my tooth extracted, but Dr. Rockson made it painless and quick. The aftercare instructions were clear and recovery was smooth.",
           treatment: "Tooth Extraction",
         },
         {
           name: "Anitha Reddy",
-          image: "/middle-aged-indian-woman.png",
+          image: "/dental-clinic-vellore.jpg",
           rating: 5,
           text: "Had to get two wisdom teeth extracted. The procedure was surprisingly comfortable and healing was faster than expected. Excellent care!",
           treatment: "Wisdom Teeth Removal",

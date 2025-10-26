@@ -162,7 +162,7 @@ export default function SingleToothImplantsPage() {
 
           <div className="relative">
             <Image
-              src="/dental-implant-stages.png"
+              src="/dental-clinic-vellore.jpg"
               alt="Single tooth implant procedure stages"
               width={600}
               height={400}

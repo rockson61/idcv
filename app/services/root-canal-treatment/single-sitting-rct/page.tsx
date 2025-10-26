@@ -162,7 +162,7 @@ export default function SingleSittingRCTPage() {
 
           <div className="relative">
             <Image
-              src="/root-canal-procedure.png"
+              src="/dental-clinic-vellore.jpg"
               alt="Single sitting RCT procedure"
               width={600}
               height={400}

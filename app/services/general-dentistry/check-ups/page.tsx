@@ -25,14 +25,14 @@ export default function DentalCheckupsPage() {
         price="500 - 800"
         duration="PT30M"
         url="/services/general-dentistry/check-ups"
-        imageUrl="/dental-checkup.png"
+        imageUrl="/dental-clinic-vellore.jpg"
         category="Preventive Dentistry"
       />
       <ServicePageTemplate
         title="Comprehensive Dental Check-ups"
         subtitle="Preventive Care"
         description="Regular dental check-ups are essential for maintaining optimal oral health. Our thorough examinations detect problems early, preventing costly treatments and preserving your natural teeth."
-        heroImage="/dental-checkup.png"
+        heroImage="/dental-clinic-vellore.jpg"
         price="₹500 - ₹800"
         duration="30-45 minutes"
         stats={[
@@ -164,30 +164,30 @@ export default function DentalCheckupsPage() {
           {
             title: "Professional Cleaning",
             href: "/services/general-dentistry/teeth-cleaning",
-            image: "/teeth-cleaning.jpg",
+            image: "/dental-clinic-vellore.jpg",
           },
           {
             title: "Dental Fillings",
             href: "/services/general-dentistry/fillings",
-            image: "/dental-fillings.jpg",
+            image: "/dental-clinic-vellore.jpg",
           },
           {
             title: "Gum Disease Treatment",
             href: "/services/periodontics",
-            image: "/gum-treatment.jpg",
+            image: "/dental-clinic-vellore.jpg",
           },
         ]}
         testimonials={[
           {
             name: "Arun Prakash",
-            image: "/indian-professional-man.png",
+            image: "/dental-clinic-vellore.jpg",
             rating: 5,
             text: "The check-up was very thorough. Dr. Rockson explained everything clearly and caught a cavity early. Very professional and caring service!",
             treatment: "Comprehensive Exam",
           },
           {
             name: "Lakshmi Devi",
-            image: "/indian-woman-happy.jpg",
+            image: "/dental-clinic-vellore.jpg",
             rating: 5,
             text: "I bring my whole family here for check-ups. The staff is gentle with kids and takes time to educate us about oral health. Highly recommend!",
             treatment: "Family Check-ups",

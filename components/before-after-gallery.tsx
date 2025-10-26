@@ -163,8 +163,8 @@ export function DentalBeforeAfterGallery({ location = "Vellore" }) {
       title: "Severe Crowding Corrected with Invisalign",
       description:
         "This patient had significant crowding in the lower front teeth. After 18 months of Invisalign treatment, the teeth are perfectly aligned with improved function and aesthetics.",
-      beforeImage: "/invisalign-before-1.jpg",
-      afterImage: "/invisalign-after-1.jpg",
+      beforeImage: "/dental-clinic-vellore.jpg",
+      afterImage: "/dental-clinic-vellore.jpg",
       category: "Invisalign",
       patientAge: "28 years",
       treatmentDuration: "18 months",
@@ -174,8 +174,8 @@ export function DentalBeforeAfterGallery({ location = "Vellore" }) {
       title: "Single Tooth Replacement with Dental Implant",
       description:
         "Patient lost a front tooth due to trauma. A dental implant with a custom-matched crown restored both function and appearance, with results that blend seamlessly with natural teeth.",
-      beforeImage: "/implant-before-1.jpg",
-      afterImage: "/implant-after-1.jpg",
+      beforeImage: "/dental-clinic-vellore.jpg",
+      afterImage: "/dental-clinic-vellore.jpg",
       category: "Dental Implants",
       patientAge: "42 years",
       treatmentDuration: "4 months",
@@ -185,8 +185,8 @@ export function DentalBeforeAfterGallery({ location = "Vellore" }) {
       title: "Smile Transformation with Veneers",
       description:
         "This patient was unhappy with discolored and slightly misaligned front teeth. Six porcelain veneers created a bright, symmetrical smile while preserving natural tooth structure.",
-      beforeImage: "/cosmetic-before-1.jpg",
-      afterImage: "/cosmetic-after-1.jpg",
+      beforeImage: "/dental-clinic-vellore.jpg",
+      afterImage: "/dental-clinic-vellore.jpg",
       category: "Cosmetic Dentistry",
       patientAge: "35 years",
       treatmentDuration: "2 weeks",
@@ -196,8 +196,8 @@ export function DentalBeforeAfterGallery({ location = "Vellore" }) {
       title: "Complete Smile Makeover",
       description:
         "This comprehensive case involved treating gum disease, replacing missing teeth with implants, and placing crowns on remaining teeth for a complete functional and aesthetic rehabilitation.",
-      beforeImage: "/makeover-before-1.jpg",
-      afterImage: "/makeover-after-1.jpg",
+      beforeImage: "/dental-clinic-vellore.jpg",
+      afterImage: "/dental-clinic-vellore.jpg",
       category: "Smile Makeover",
       patientAge: "52 years",
       treatmentDuration: "6 months",

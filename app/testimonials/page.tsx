@@ -21,7 +21,7 @@ const testimonials = [
     treatment: "Root Canal Treatment",
     rating: 5,
     date: "2024-01-15",
-    image: "/indian-woman-smiling.png",
+    image: "/dental-clinic-vellore.jpg",
     testimonial:
       "I was terrified of getting a root canal, but Dr. Rockson Samuel made the entire process completely painless. His gentle approach and clear explanations helped me feel comfortable throughout. The treatment was completed in just one sitting, and I experienced no pain afterward. The clinic is very clean and modern. I highly recommend Dr. Rockson for anyone needing dental care.",
     verified: true,
@@ -34,7 +34,7 @@ const testimonials = [
     treatment: "Dental Implants",
     rating: 5,
     date: "2024-02-03",
-    image: "/indian-man-smiling.png",
+    image: "/dental-clinic-vellore.jpg",
     testimonial:
       "After losing two teeth in an accident, I was looking for the best dental implant specialist in Vellore. Dr. Rockson Samuel exceeded my expectations. The implants look and feel completely natural. The entire process was well-planned, and the results are amazing. My confidence is back, and I can eat all my favorite foods again. Thank you, Doctor!",
     verified: true,
@@ -47,7 +47,7 @@ const testimonials = [
     treatment: "Teeth Whitening & Veneers",
     rating: 5,
     date: "2024-01-28",
-    image: "/indian-woman-professional.png",
+    image: "/dental-clinic-vellore.jpg",
     testimonial:
       "I wanted a complete smile makeover for my wedding, and Dr. Rockson delivered beyond my expectations. The teeth whitening and porcelain veneers transformed my smile completely. Everyone at my wedding complimented my beautiful smile. The treatment was comfortable, and the results are stunning. I feel so much more confident now.",
     verified: true,
@@ -60,7 +60,7 @@ const testimonials = [
     treatment: "Invisalign Treatment",
     rating: 5,
     date: "2024-02-10",
-    image: "/indian-professional-man.png",
+    image: "/dental-clinic-vellore.jpg",
     testimonial:
       "As a working professional, I needed a discreet way to straighten my teeth. Dr. Rockson recommended Invisalign, and it was the perfect solution. The aligners were comfortable, and nobody could tell I was wearing them. My teeth are now perfectly aligned, and the entire process was smooth. Excellent service and results!",
     verified: true,
@@ -73,7 +73,7 @@ const testimonials = [
     treatment: "Gum Disease Treatment",
     rating: 5,
     date: "2024-01-20",
-    image: "/indian-woman-middle-aged.jpg",
+    image: "/dental-clinic-vellore.jpg",
     testimonial:
       "I had severe gum disease and was worried about losing my teeth. Dr. Rockson Samuel provided comprehensive periodontal treatment that saved my teeth. His expertise in gum treatment is exceptional. The bleeding and pain are completely gone, and my gums are healthy again. I'm grateful for his skilled care and attention.",
     verified: true,
@@ -86,7 +86,7 @@ const testimonials = [
     treatment: "Emergency Dental Care",
     rating: 5,
     date: "2024-02-05",
-    image: "/young-indian-man.png",
+    image: "/dental-clinic-vellore.jpg",
     testimonial:
       "I had a severe toothache on a Sunday evening and was in excruciating pain. Dr. Rockson Samuel opened the clinic specially for my emergency. He quickly diagnosed the problem and provided immediate relief. His compassionate care during my emergency situation was remarkable. I'm now a regular patient and trust him completely.",
     verified: true,
@@ -99,7 +99,7 @@ const testimonials = [
     treatment: "Braces Treatment",
     rating: 5,
     date: "2024-01-12",
-    image: "/indian-woman-happy.jpg",
+    image: "/dental-clinic-vellore.jpg",
     testimonial:
       "I wore braces for 18 months under Dr. Rockson's care, and the transformation is incredible. My crooked teeth are now perfectly straight. Throughout the treatment, he was patient, encouraging, and always available for any concerns. The clinic staff is also very friendly and professional. Best orthodontic treatment in Vellore!",
     verified: true,
@@ -112,7 +112,7 @@ const testimonials = [
     treatment: "Full Mouth Rehabilitation",
     rating: 5,
     date: "2024-02-01",
-    image: "/middle-aged-indian-woman.png",
+    image: "/dental-clinic-vellore.jpg",
     testimonial:
       "After years of dental problems, Dr. Rockson Samuel gave me a complete smile makeover with full mouth rehabilitation. The comprehensive treatment plan included implants, crowns, and gum treatment. Now I have a beautiful, functional smile. His expertise and attention to detail are outstanding. Life-changing treatment!",
     verified: true,
@@ -125,7 +125,7 @@ const testimonials = [
     treatment: "Pediatric Dental Care",
     rating: 5,
     date: "2024-01-25",
-    image: "/indian-mother-smiling.jpg",
+    image: "/dental-clinic-vellore.jpg",
     testimonial:
       "Dr. Rockson Samuel is amazing with children! My 6-year-old daughter was scared of dentists, but he made her feel comfortable and even excited about dental visits. His gentle approach and child-friendly explanations helped her overcome her fear. The clinic has a welcoming environment for kids. We're so grateful for his patience and care.",
     verified: true,
@@ -138,7 +138,7 @@ const testimonials = [
     treatment: "Dental Crowns",
     rating: 5,
     date: "2024-02-08",
-    image: "/indian-man-smiling.png",
+    image: "/dental-clinic-vellore.jpg",
     testimonial:
       "I needed multiple dental crowns after years of neglecting my teeth. Dr. Rockson Samuel restored my smile with beautiful, natural-looking crowns. The color matching is perfect, and they feel just like my natural teeth. His technical skills and artistic eye are exceptional. I can smile confidently again!",
     verified: true,

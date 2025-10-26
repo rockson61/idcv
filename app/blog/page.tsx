@@ -101,7 +101,7 @@ If you're experiencing tooth pain or have been told you need root canal treatmen
   readTime: "8 min read",
   category: "Endodontics",
   tags: ["Root Canal", "Endodontics", "Tooth Pain", "Dental Treatment"],
-  image: "/root-canal-procedure.png",
+  image: "/dental-clinic-vellore.jpg",
   featured: true,
 }
 
@@ -116,7 +116,7 @@ const blogPosts = [
     readTime: "6 min read",
     category: "Dental Implants",
     tags: ["Dental Implants", "Dentures", "Tooth Replacement"],
-    image: "/dental-implant-stages.png",
+    image: "/dental-clinic-vellore.jpg",
   },
   {
     id: 3,
@@ -128,7 +128,7 @@ const blogPosts = [
     readTime: "4 min read",
     category: "Emergency Dentistry",
     tags: ["Emergency Care", "Dental Health", "Warning Signs"],
-    image: "/emergency-dental.jpg",
+    image: "/dental-clinic-vellore.jpg",
   },
   {
     id: 4,
@@ -140,7 +140,7 @@ const blogPosts = [
     readTime: "7 min read",
     category: "Cosmetic Dentistry",
     tags: ["Teeth Whitening", "Cosmetic Dentistry", "Smile Enhancement"],
-    image: "/teeth-whitening.jpg",
+    image: "/dental-clinic-vellore.jpg",
   },
   {
     id: 5,
@@ -151,7 +151,7 @@ const blogPosts = [
     readTime: "5 min read",
     category: "Orthodontics",
     tags: ["Braces", "Orthodontics", "Oral Hygiene"],
-    image: "/traditional-braces.jpg",
+    image: "/dental-clinic-vellore.jpg",
   },
   {
     id: 6,
@@ -162,7 +162,7 @@ const blogPosts = [
     readTime: "6 min read",
     category: "Periodontics",
     tags: ["Gum Disease", "Prevention", "Oral Health"],
-    image: "/gum-treatment.jpg",
+    image: "/dental-clinic-vellore.jpg",
   },
   {
     id: 7,
@@ -174,7 +174,7 @@ const blogPosts = [
     readTime: "8 min read",
     category: "Pediatric Dentistry",
     tags: ["Children's Dentistry", "Pediatric Care", "Parenting"],
-    image: "/childrens-dental-exam.jpg",
+    image: "/dental-clinic-vellore.jpg",
   },
   {
     id: 8,
@@ -186,7 +186,7 @@ const blogPosts = [
     readTime: "5 min read",
     category: "Patient Care",
     tags: ["Dental Anxiety", "Patient Comfort", "Mental Health"],
-    image: "/dental-checkup.png",
+    image: "/dental-clinic-vellore.jpg",
   },
   {
     id: 9,

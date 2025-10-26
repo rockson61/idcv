@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     url: "https://www.dentalclinicinvellore.in/services/cosmetic-dentistry",
     images: [
       {
-        url: "/cosmetic-dentistry-smile.jpg",
+        url: "/dental-clinic-vellore.jpg",
         width: 1200,
         height: 630,
         alt: "Cosmetic Dentistry Services - Beautiful Smile Transformation"
@@ -52,7 +52,7 @@ const services = [
   {
     title: "Professional Teeth Whitening",
     description: "Safe and effective teeth whitening treatments to brighten your smile by up to 8 shades in just one session with advanced laser technology.",
-    image: "/teeth-whitening.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹3,000 - ₹8,000",
     duration: "60-90 minutes",
     href: "/services/cosmetic-dentistry/teeth-whitening",
@@ -64,7 +64,7 @@ const services = [
   {
     title: "Porcelain Veneers",
     description: "Ultra-thin porcelain shells that cover the front surface of teeth to create a perfect, natural-looking smile with custom design.",
-    image: "/porcelain-veneers.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹8,000 - ₹15,000",
     duration: "2-3 visits",
     href: "/services/cosmetic-dentistry/veneers",
@@ -76,7 +76,7 @@ const services = [
   {
     title: "Dental Bonding",
     description: "Tooth-colored composite resin applied to repair chips, cracks, gaps, and discoloration for an improved smile in single visit.",
-    image: "/dental-bonding.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹2,000 - ₹5,000",
     duration: "30-60 minutes",
     href: "/services/cosmetic-dentistry/bonding",
@@ -88,7 +88,7 @@ const services = [
   {
     title: "Complete Smile Makeover",
     description: "Comprehensive cosmetic treatment combining multiple procedures to completely transform your smile with digital smile design.",
-    image: "/smile-makeover.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹25,000 - ₹75,000",
     duration: "Multiple visits",
     href: "/services/cosmetic-dentistry/smile-makeover",
@@ -100,7 +100,7 @@ const services = [
   {
     title: "Gum Contouring",
     description: "Reshape your gum line to create a more balanced and aesthetically pleasing smile using advanced laser technology.",
-    image: "/gum-contouring.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹5,000 - ₹12,000",
     duration: "60-90 minutes",
     href: "/services/cosmetic-dentistry/gum-contouring",
@@ -112,7 +112,7 @@ const services = [
   {
     title: "Tooth Reshaping",
     description: "Minor adjustments to tooth shape and size to improve overall smile harmony and appearance with conservative approach.",
-    image: "/tooth-reshaping.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹1,500 - ₹3,000",
     duration: "30-45 minutes",
     href: "/services/cosmetic-dentistry/tooth-reshaping",
@@ -163,7 +163,7 @@ const testimonials = [
     rating: 5,
     treatment: "Teeth Whitening",
     text: "Dr. Rockson Samuel provided amazing teeth whitening treatment. My smile is now 8 shades brighter! The procedure was painless and I saved 60% compared to Chennai prices.",
-    image: "/indian-woman-smiling.png"
+    image: "/dental-clinic-vellore.jpg"
   },
   {
     name: "Rajesh Kumar",
@@ -171,7 +171,7 @@ const testimonials = [
     rating: 5,
     treatment: "Porcelain Veneers",
     text: "I got porcelain veneers for my front teeth and the results are incredible! The veneers look completely natural and I'm so confident now. Highly recommended!",
-    image: "/indian-man-smiling.png"
+    image: "/dental-clinic-vellore.jpg"
   },
   {
     name: "Sunita Singh",
@@ -179,7 +179,7 @@ const testimonials = [
     rating: 5,
     treatment: "Smile Makeover",
     text: "Complete smile makeover transformed my confidence completely. Dr. Rockson Samuel's expertise and the modern technology used made the process comfortable and the results amazing.",
-    image: "/indian-woman-happy.jpg"
+    image: "/dental-clinic-vellore.jpg"
   }
 ]
 

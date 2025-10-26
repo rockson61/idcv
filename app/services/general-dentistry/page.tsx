@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: "Comprehensive general dentistry services including checkups, cleanings, and preventive care.",
     images: [
       {
-        url: "/dental-checkup.png",
+        url: "/dental-clinic-vellore.jpg",
         width: 1200,
         height: 630,
         alt: "General Dentistry Services at Indira Dental Clinic",
@@ -48,7 +48,7 @@ const services = [
   {
     title: "Dental Checkups & Examinations",
     description: "Comprehensive oral health examinations to detect problems early and maintain optimal dental health.",
-    image: "/dental-checkup.png",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹500 - ₹800",
     duration: "30-45 minutes",
     href: "/services/general-dentistry/check-ups",
@@ -57,7 +57,7 @@ const services = [
   {
     title: "Professional Teeth Cleaning",
     description: "Deep cleaning to remove plaque, tartar, and stains for healthier teeth and fresher breath.",
-    image: "/teeth-cleaning.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹800 - ₹1,200",
     duration: "45-60 minutes",
     href: "/services/preventive-dentistry",
@@ -66,7 +66,7 @@ const services = [
   {
     title: "Dental Fillings",
     description: "Tooth-colored composite fillings to restore cavities and maintain natural tooth appearance.",
-    image: "/dental-fillings.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹1,000 - ₹2,500",
     duration: "30-60 minutes",
     href: "/services/restorative-dentistry/dental-fillings",
@@ -75,7 +75,7 @@ const services = [
   {
     title: "Tooth Extractions",
     description: "Safe and comfortable tooth removal procedures when restoration is not possible.",
-    image: "/tooth-extraction.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹800 - ₹2,000",
     duration: "20-45 minutes",
     href: "/services/oral-surgery/tooth-extraction",
@@ -228,7 +228,7 @@ export default function GeneralDentistryPage() {
           </div>
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="/dental-checkup.png"
+              src="/dental-clinic-vellore.jpg"
               alt="General Dentistry Services at Indira Dental Clinic Vellore"
               fill
               className="object-cover"

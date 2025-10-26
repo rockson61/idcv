@@ -27,7 +27,7 @@ const restorativeServices = [
     name: "Dental Crowns",
     price: "₹8,000 - ₹25,000",
     duration: "2-3 visits",
-    image: "/dental-crown-procedure.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Porcelain crowns", "Metal-free options", "Same-day crowns", "10-year warranty"],
     material: "Porcelain/Zirconia",
     description: "Custom-made crowns to restore damaged teeth to full function and natural appearance.",
@@ -36,7 +36,7 @@ const restorativeServices = [
     name: "Dental Bridges",
     price: "₹15,000 - ₹45,000",
     duration: "2-3 weeks",
-    image: "/dental-bridges.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["3-unit bridges", "Implant-supported", "Metal-free ceramic", "Natural appearance"],
     material: "Porcelain/Ceramic",
     description: "Replace missing teeth with fixed bridges that restore your smile and bite function.",
@@ -45,7 +45,7 @@ const restorativeServices = [
     name: "Composite Fillings",
     price: "₹1,500 - ₹4,000",
     duration: "30-60 minutes",
-    image: "/composite-fillings.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Tooth-colored", "Mercury-free", "Same-day treatment", "Durable materials"],
     material: "Composite Resin",
     description: "Natural-looking fillings that blend seamlessly with your existing teeth.",
@@ -54,7 +54,7 @@ const restorativeServices = [
     name: "Ceramic Inlays/Onlays",
     price: "₹6,000 - ₹15,000",
     duration: "2 visits",
-    image: "/ceramic-inlays.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Precision fit", "Stain-resistant", "Long-lasting", "Conservative approach"],
     material: "Ceramic/Porcelain",
     description: "Custom ceramic restorations for larger cavities that preserve more tooth structure.",
@@ -63,7 +63,7 @@ const restorativeServices = [
     name: "Full Mouth Rehabilitation",
     price: "₹80,000 - ₹2,50,000",
     duration: "3-6 months",
-    image: "/full-mouth-rehab.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Complete smile makeover", "Functional restoration", "Aesthetic enhancement", "Bite correction"],
     material: "Multiple Materials",
     description: "Comprehensive restoration of all teeth for patients with extensive dental problems.",
@@ -72,7 +72,7 @@ const restorativeServices = [
     name: "Dental Implant Crowns",
     price: "₹15,000 - ₹30,000",
     duration: "3-6 months",
-    image: "/implant-crowns.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Titanium implants", "Custom abutments", "Natural appearance", "Permanent solution"],
     material: "Titanium/Porcelain",
     description: "Complete tooth replacement with implant-supported crowns for optimal function.",
@@ -81,7 +81,7 @@ const restorativeServices = [
     name: "Tooth-Colored Fillings",
     price: "₹2,000 - ₹5,000",
     duration: "45-90 minutes",
-    image: "/tooth-colored-fillings.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Aesthetic appeal", "Bonded restoration", "Fluoride release", "Minimal drilling"],
     material: "Glass Ionomer",
     description: "Advanced filling materials that release fluoride and match your natural tooth color.",
@@ -90,7 +90,7 @@ const restorativeServices = [
     name: "Post & Core Restoration",
     price: "₹3,000 - ₹8,000",
     duration: "2 visits",
-    image: "/post-core.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Root canal preparation", "Custom posts", "Core buildup", "Crown preparation"],
     material: "Fiber Post/Composite",
     description: "Strengthen root canal treated teeth with posts and cores before crown placement.",
@@ -156,26 +156,26 @@ const materials = [
 const beforeAfterCases = [
   {
     title: "Smile Makeover with Crowns",
-    before: "/before-crowns.jpg",
-    after: "/after-crowns.jpg",
+    before: "/dental-clinic-vellore.jpg",
+    after: "/dental-clinic-vellore.jpg",
     description: "Complete transformation with porcelain crowns",
   },
   {
     title: "Bridge Replacement",
-    before: "/before-bridge.jpg",
-    after: "/after-bridge.jpg",
+    before: "/dental-clinic-vellore.jpg",
+    after: "/dental-clinic-vellore.jpg",
     description: "Missing teeth replaced with ceramic bridge",
   },
   {
     title: "Large Filling Restoration",
-    before: "/before-filling.jpg",
-    after: "/after-filling.jpg",
+    before: "/dental-clinic-vellore.jpg",
+    after: "/dental-clinic-vellore.jpg",
     description: "Extensive decay restored with composite",
   },
   {
     title: "Full Mouth Rehabilitation",
-    before: "/before-full-mouth.jpg",
-    after: "/after-full-mouth.jpg",
+    before: "/dental-clinic-vellore.jpg",
+    after: "/dental-clinic-vellore.jpg",
     description: "Complete oral health restoration",
   },
 ]
@@ -531,7 +531,7 @@ export default function RestorativeDentistryPage() {
             </div>
           </div>
           <div className="relative h-96 rounded-2xl overflow-hidden">
-            <Image src="/restorative-dentistry-office.jpg" alt="Modern Dental Office" fill className="object-cover" />
+            <Image src="/dental-clinic-vellore.jpg" alt="Modern Dental Office" fill className="object-cover" />
           </div>
         </div>
       </SectionContainer>

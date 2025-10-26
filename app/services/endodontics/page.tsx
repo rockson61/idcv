@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Root Canal Treatment in Vellore | Endodontics | Dr. Rockson Samuel",
     description: "Expert root canal treatment with 98% success rate. Painless procedures using advanced technology.",
-    images: [{ url: "/root-canal-procedure.png", width: 1200, height: 630 }],
+    images: [{ url: "/dental-clinic-vellore.jpg", width: 1200, height: 630 }],
   },
 }
 
@@ -375,7 +375,7 @@ export default function EndodonticsPage() {
           <div className="relative">
             <GlassCard className="p-8 bg-gradient-to-br from-red-50/50 to-orange-50/50">
               <Image
-                src="/root-canal-procedure.png"
+                src="/dental-clinic-vellore.jpg"
                 alt="Root Canal Treatment Process"
                 width={500}
                 height={400}

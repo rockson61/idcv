@@ -11,7 +11,7 @@ export default function DentalBridgesPage() {
     <ServiceContentTemplate
       title="Dental Bridges"
       description="Restore your smile and bite with custom dental bridges"
-      image="/dental-bridges.jpg"
+      image="/dental-clinic-vellore.jpg"
       content={`
         <h2 class="text-2xl font-bold mb-4">About Dental Bridges</h2>
         <p class="mb-4">

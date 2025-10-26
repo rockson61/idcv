@@ -23,7 +23,7 @@ export const metadata: Metadata = {
       "Professional orthodontic treatment with braces and Invisalign to straighten teeth and improve smiles.",
     images: [
       {
-        url: "/orthodontic-braces.jpg",
+        url: "/dental-clinic-vellore.jpg",
         width: 1200,
         height: 630,
         alt: "Orthodontic Treatment - Braces and Invisalign",
@@ -37,7 +37,7 @@ const services = [
     title: "Traditional Metal Braces",
     description:
       "Proven and effective metal braces that can correct even the most complex orthodontic issues with reliable results.",
-    image: "/traditional-braces.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹25,000 - ₹45,000",
     duration: "18-36 months",
     href: "/services/orthodontics/traditional-braces",
@@ -48,7 +48,7 @@ const services = [
     title: "Ceramic Braces",
     description:
       "Tooth-colored ceramic braces that blend with your natural teeth for a more aesthetic orthodontic treatment.",
-    image: "/ceramic-braces.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹35,000 - ₹55,000",
     duration: "18-30 months",
     href: "/services/orthodontics/ceramic-braces",
@@ -58,7 +58,7 @@ const services = [
     title: "Invisalign Clear Aligners",
     description:
       "Nearly invisible, removable aligners that gradually straighten teeth without the appearance of traditional braces.",
-    image: "/invisalign-aligners.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹80,000 - ₹1,50,000",
     duration: "12-24 months",
     href: "/services/orthodontics/invisalign",
@@ -68,7 +68,7 @@ const services = [
   {
     title: "Lingual Braces",
     description: "Braces placed on the inside surface of teeth, making them completely invisible from the outside.",
-    image: "/lingual-braces.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹1,00,000 - ₹1,80,000",
     duration: "20-36 months",
     href: "/services/orthodontics/lingual-braces",
@@ -77,7 +77,7 @@ const services = [
   {
     title: "Retainers",
     description: "Custom-made retainers to maintain your new smile after orthodontic treatment is completed.",
-    image: "/dental-retainers.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹3,000 - ₹8,000",
     duration: "Ongoing",
     href: "/services/orthodontics/retainers",
@@ -86,7 +86,7 @@ const services = [
   {
     title: "Early Orthodontic Treatment",
     description: "Interceptive orthodontic treatment for children to guide proper jaw and tooth development.",
-    image: "/child-braces.jpg",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹15,000 - ₹35,000",
     duration: "6-18 months",
     href: "/services/orthodontics/early-treatment",
@@ -211,7 +211,7 @@ export default function OrthodonticsPage() {
           <div className="relative">
             <GlassCard className="p-8">
               <Image
-                src="/orthodontic-braces.jpg"
+                src="/dental-clinic-vellore.jpg"
                 alt="Orthodontic Treatment - Braces and Clear Aligners"
                 width={600}
                 height={400}

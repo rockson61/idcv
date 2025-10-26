@@ -8,7 +8,7 @@ const services = [
     slug: "root-canal-treatment",
     title: "Root Canal Treatment",
     description: "Painless and effective treatment to save your natural tooth",
-    image: "/root-canal-procedure.png",
+    image: "/dental-clinic-vellore.jpg",
     relatedServices: [
       { title: "Dental Crowns", slug: "dental-crowns" },
       { title: "Dental Fillings", slug: "dental-fillings" },
@@ -59,7 +59,7 @@ const services = [
     slug: "dental-implants",
     title: "Dental Implants",
     description: "Permanent solution for missing teeth with natural look and function",
-    image: "/dental-implant-stages.png",
+    image: "/dental-clinic-vellore.jpg",
     relatedServices: [
       { title: "Dental Crowns", slug: "dental-crowns" },
       { title: "Bone Grafting", slug: "bone-grafting" },
@@ -75,7 +75,7 @@ const services = [
     slug: "dental-crowns",
     title: "Dental Crowns",
     description: "Restore damaged teeth with durable and natural-looking crowns",
-    image: "/dental-crown-steps.png",
+    image: "/dental-clinic-vellore.jpg",
     relatedServices: [
       { title: "Root Canal Treatment", slug: "root-canal-treatment" },
       { title: "Dental Implants", slug: "dental-implants" },

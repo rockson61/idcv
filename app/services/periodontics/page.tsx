@@ -28,7 +28,7 @@ export default function PeriodonticsPage() {
       duration: "60-90 minutes",
       description: "Deep cleaning to remove plaque and tartar below the gum line",
       features: ["Deep cleaning", "Bacteria removal", "Smooth root surfaces", "Reduced inflammation"],
-      image: "/scaling-root-planing.jpg",
+      image: "/dental-clinic-vellore.jpg",
     },
     {
       name: "Gum Disease Treatment",
@@ -36,7 +36,7 @@ export default function PeriodonticsPage() {
       duration: "45-75 minutes",
       description: "Comprehensive treatment for gingivitis and periodontitis",
       features: ["Complete assessment", "Customized treatment", "Infection control", "Ongoing monitoring"],
-      image: "/gum-disease-treatment.jpg",
+      image: "/dental-clinic-vellore.jpg",
     },
     {
       name: "Gum Grafting",
@@ -44,7 +44,7 @@ export default function PeriodonticsPage() {
       duration: "90-120 minutes",
       description: "Surgical procedure to restore receded gum tissue",
       features: ["Tissue restoration", "Root coverage", "Improved aesthetics", "Long-term stability"],
-      image: "/gum-grafting.jpg",
+      image: "/dental-clinic-vellore.jpg",
     },
     {
       name: "Periodontal Maintenance",
@@ -52,7 +52,7 @@ export default function PeriodonticsPage() {
       duration: "45-60 minutes",
       description: "Regular maintenance therapy for periodontal health",
       features: ["Preventive care", "Regular monitoring", "Professional cleaning", "Oral hygiene guidance"],
-      image: "/periodontal-maintenance.jpg",
+      image: "/dental-clinic-vellore.jpg",
     },
     {
       name: "Crown Lengthening",
@@ -60,7 +60,7 @@ export default function PeriodonticsPage() {
       duration: "60-90 minutes",
       description: "Surgical procedure to expose more tooth structure",
       features: ["Improved crown fit", "Better aesthetics", "Functional improvement", "Precise technique"],
-      image: "/dental-crown-steps.png",
+      image: "/dental-clinic-vellore.jpg",
     },
     {
       name: "Pocket Reduction Surgery",
@@ -68,7 +68,7 @@ export default function PeriodonticsPage() {
       duration: "90-120 minutes",
       description: "Surgical treatment to reduce deep periodontal pockets",
       features: ["Pocket elimination", "Bone recontouring", "Improved access", "Enhanced healing"],
-      image: "/gum-treatment.jpg",
+      image: "/dental-clinic-vellore.jpg",
     },
   ]
 
@@ -234,7 +234,7 @@ export default function PeriodonticsPage() {
             <div className="relative">
               <GlassPanel className="p-8">
                 <img
-                  src="/gum-disease-treatment.jpg"
+                  src="/dental-clinic-vellore.jpg"
                   alt="Periodontal treatment at Indira Dental Clinic"
                   className="w-full h-96 object-cover rounded-lg"
                 />

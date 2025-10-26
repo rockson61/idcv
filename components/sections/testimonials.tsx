@@ -9,7 +9,7 @@ export function TestimonialsSection() {
       name: "Priya Sharma",
       age: 32,
       location: "Gandhi Nagar, Vellore",
-      image: "/indian-woman-smiling.png",
+      image: "/dental-clinic-vellore.jpg",
       rating: 5,
       treatment: "Root Canal Treatment",
       testimonial:
@@ -20,7 +20,7 @@ export function TestimonialsSection() {
       name: "Rajesh Kumar",
       age: 45,
       location: "Katpadi, Vellore",
-      image: "/indian-man-smiling.png",
+      image: "/dental-clinic-vellore.jpg",
       rating: 5,
       treatment: "Dental Implants",
       testimonial:
@@ -31,7 +31,7 @@ export function TestimonialsSection() {
       name: "Meera Patel",
       age: 28,
       location: "Sathuvachari, Vellore",
-      image: "/indian-woman-professional.png",
+      image: "/dental-clinic-vellore.jpg",
       rating: 5,
       treatment: "Cosmetic Dentistry",
       testimonial:
@@ -42,7 +42,7 @@ export function TestimonialsSection() {
       name: "Arjun Reddy",
       age: 35,
       location: "Bagayam, Vellore",
-      image: "/indian-professional-man.png",
+      image: "/dental-clinic-vellore.jpg",
       rating: 5,
       treatment: "Orthodontics",
       testimonial:
@@ -53,7 +53,7 @@ export function TestimonialsSection() {
       name: "Lakshmi Devi",
       age: 52,
       location: "Gandhi Nagar, Vellore",
-      image: "/middle-aged-indian-woman.png",
+      image: "/dental-clinic-vellore.jpg",
       rating: 5,
       treatment: "General Dentistry",
       testimonial:
@@ -64,7 +64,7 @@ export function TestimonialsSection() {
       name: "Vikram Singh",
       age: 29,
       location: "Ranipet",
-      image: "/young-indian-man.png",
+      image: "/dental-clinic-vellore.jpg",
       rating: 5,
       treatment: "Emergency Care",
       testimonial:

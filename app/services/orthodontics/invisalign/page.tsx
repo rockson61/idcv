@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Straighten teeth invisibly with Invisalign. No metal braces. Certified provider Dr. Rockson Samuel.',
     type: 'website',
     images: [{
-      url: '/invisalign-clear-aligners.jpg',
+      url: '/dental-clinic-vellore.jpg',
       width: 1200,
       height: 630,
       alt: 'Invisalign Clear Aligners at Indira Dental Clinic Vellore',
@@ -326,7 +326,7 @@ export default function InvisalignPage() {
           <div className="relative">
             <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/invisalign-clear-aligners.jpg"
+                src="/dental-clinic-vellore.jpg"
                 alt="Invisalign Clear Aligners at Indira Dental Clinic Vellore"
                 fill
                 className="object-cover"

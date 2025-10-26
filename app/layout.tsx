@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     siteName: "Indira Dental Clinic",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/dental-clinic-vellore.jpg",
         width: 1200,
         height: 630,
         alt: "Indira Dental Clinic - Best Dentist in Vellore",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Indira Dental Clinic | Best Dentist in Vellore",
     description: "Expert dental care in Vellore. RCT, Implants, Braces, Cosmetic Dentistry. Book: 7010650063",
-    images: ["/og-image.jpg"],
+    images: ["/dental-clinic-vellore.jpg"],
   },
   robots: {
     index: true,

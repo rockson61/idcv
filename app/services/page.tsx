@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     url: 'https://www.dentalclinicinvellore.in/services',
     images: [
       {
-        url: '/dental-services-vellore.jpg',
+        url: '/dental-clinic-vellore.jpg',
         width: 1200,
         height: 630,
         alt: 'Complete Dental Services in Vellore'
@@ -265,7 +265,7 @@ const testimonials = [
     rating: 5,
     treatment: "Dental Implants",
     text: "Dr. Rockson Samuel provided excellent dental implant treatment. The procedure was painless and the results are amazing. I saved 50% compared to Chennai prices!",
-    image: "/indian-woman-smiling.png"
+    image: "/dental-clinic-vellore.jpg"
   },
   {
     name: "Rajesh Kumar",
@@ -273,7 +273,7 @@ const testimonials = [
     rating: 5,
     treatment: "Root Canal Treatment",
     text: "Best dental clinic in Vellore! The RCT was completed in a single sitting with no pain. Highly recommended for all dental treatments.",
-    image: "/indian-man-smiling.png"
+    image: "/dental-clinic-vellore.jpg"
   },
   {
     name: "Sunita Singh",
@@ -281,7 +281,7 @@ const testimonials = [
     rating: 5,
     treatment: "Braces Treatment",
     text: "My daughter got braces treatment here and we're very satisfied with the results. The clinic is modern and the staff is very friendly.",
-    image: "/indian-woman-happy.jpg"
+    image: "/dental-clinic-vellore.jpg"
   }
 ]
 

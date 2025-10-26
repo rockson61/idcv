@@ -28,7 +28,7 @@ export default function DentalFillingsPage() {
         price="1,500 - 4,000"
         duration="PT30M"
         url="/services/general-dentistry/fillings"
-        imageUrl="/dental-fillings.jpg"
+        imageUrl="/dental-clinic-vellore.jpg"
         category="Restorative Dentistry"
       />
       <div className="container mx-auto px-4 py-8">

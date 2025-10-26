@@ -166,7 +166,7 @@ export default function TraditionalBracesPage() {
 
           <div className="relative">
             <Image
-              src="/orthodontic-braces.jpg"
+              src="/dental-clinic-vellore.jpg"
               alt="Traditional metal braces"
               width={600}
               height={400}

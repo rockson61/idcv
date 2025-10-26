@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     url: 'https://www.dentalclinicinvellore.in/services/root-canal-treatment',
     images: [
       {
-        url: '/root-canal-procedure.png',
+        url: '/dental-clinic-vellore.jpg',
         width: 1200,
         height: 630,
         alt: 'Root Canal Treatment Procedure'
@@ -165,7 +165,7 @@ const patientTestimonials = [
     treatment: "Single Sitting RCT",
     rating: 5,
     testimonial: "I was terrified of getting a root canal, but Dr. Rockson made it completely painless. The entire procedure was done in one sitting, and I felt no discomfort. Highly recommend!",
-    image: "/indian-woman-smiling.png",
+    image: "/dental-clinic-vellore.jpg",
   },
   {
     name: "Rajesh Kumar",
@@ -173,7 +173,7 @@ const patientTestimonials = [
     treatment: "Molar RCT with Crown",
     rating: 5,
     testimonial: "Had severe tooth pain for weeks. Dr. Rockson's root canal treatment gave me immediate relief. The crown looks perfect and feels natural. Excellent care!",
-    image: "/indian-man-smiling.png",
+    image: "/dental-clinic-vellore.jpg",
   },
   {
     name: "Meera Krishnan",
@@ -181,7 +181,7 @@ const patientTestimonials = [
     treatment: "Front Tooth RCT",
     rating: 5,
     testimonial: "Dr. Rockson saved my front tooth with expert root canal treatment. The result is amazing - you can't even tell it was treated. Professional and caring service.",
-    image: "/indian-woman-professional.png",
+    image: "/dental-clinic-vellore.jpg",
   }
 ]
 

@@ -19,7 +19,7 @@ const surgicalServices = [
     name: "Wisdom Tooth Extraction",
     price: "₹3,000 - ₹8,000",
     duration: "30-60 minutes",
-    image: "/wisdom-tooth-extraction.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Painless extraction", "Same-day procedure", "Post-op care included", "Sedation available"],
     urgency: "Moderate",
     description: "Safe removal of impacted or problematic wisdom teeth using advanced surgical techniques.",
@@ -28,7 +28,7 @@ const surgicalServices = [
     name: "Dental Implant Surgery",
     price: "₹25,000 - ₹35,000",
     duration: "60-90 minutes",
-    image: "/dental-implant-surgery.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Titanium implants", "3D guided surgery", "Immediate loading option", "Lifetime warranty"],
     urgency: "Elective",
     description: "Precision implant placement for permanent tooth replacement with natural function.",
@@ -37,7 +37,7 @@ const surgicalServices = [
     name: "Tooth Extraction (Simple)",
     price: "₹800 - ₹2,000",
     duration: "15-30 minutes",
-    image: "/simple-tooth-extraction.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Local anesthesia", "Minimal discomfort", "Quick healing", "Aftercare instructions"],
     urgency: "Urgent",
     description: "Gentle removal of damaged or decayed teeth that cannot be saved.",
@@ -46,7 +46,7 @@ const surgicalServices = [
     name: "Surgical Tooth Extraction",
     price: "₹2,000 - ₹5,000",
     duration: "45-75 minutes",
-    image: "/surgical-extraction.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Advanced techniques", "Bone preservation", "Sutures included", "Pain management"],
     urgency: "Urgent",
     description: "Complex extractions requiring surgical approach for impacted or broken teeth.",
@@ -55,7 +55,7 @@ const surgicalServices = [
     name: "Bone Grafting",
     price: "₹8,000 - ₹15,000",
     duration: "60-90 minutes",
-    image: "/bone-grafting.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Synthetic bone material", "Membrane protection", "Implant preparation", "Healing monitoring"],
     urgency: "Elective",
     description: "Bone augmentation procedures to prepare sites for dental implants.",
@@ -64,7 +64,7 @@ const surgicalServices = [
     name: "Sinus Lift Surgery",
     price: "₹15,000 - ₹25,000",
     duration: "90-120 minutes",
-    image: "/sinus-lift.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Lateral window technique", "Bone graft material", "Membrane placement", "Implant readiness"],
     urgency: "Elective",
     description: "Sinus floor elevation to create adequate bone height for upper jaw implants.",
@@ -73,7 +73,7 @@ const surgicalServices = [
     name: "Cyst Removal",
     price: "₹5,000 - ₹12,000",
     duration: "45-90 minutes",
-    image: "/cyst-removal.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Complete excision", "Histopathology", "Bone healing", "Follow-up care"],
     urgency: "Moderate",
     description: "Surgical removal of oral cysts with complete healing and tissue preservation.",
@@ -82,7 +82,7 @@ const surgicalServices = [
     name: "Apicoectomy",
     price: "₹8,000 - ₹15,000",
     duration: "60-90 minutes",
-    image: "/apicoectomy.jpg",
+    image: "/dental-clinic-vellore.jpg",
     features: ["Root tip removal", "Retrograde filling", "Microsurgery", "Tissue preservation"],
     urgency: "Moderate",
     description: "Surgical root canal treatment when conventional therapy fails.",
@@ -333,7 +333,7 @@ export default function OralSurgeryPage() {
             </div>
           </div>
           <div className="relative h-96 rounded-2xl overflow-hidden">
-            <Image src="/oral-surgery-procedure.jpg" alt="Oral Surgery Procedure" fill className="object-cover" />
+            <Image src="/dental-clinic-vellore.jpg" alt="Oral Surgery Procedure" fill className="object-cover" />
           </div>
         </div>
       </SectionContainer>

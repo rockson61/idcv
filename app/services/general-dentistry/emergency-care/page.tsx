@@ -25,14 +25,14 @@ export default function EmergencyCare() {
         price="1000 - 5000"
         duration="PT30M"
         url="/services/general-dentistry/emergency-care"
-        imageUrl="/emergency-dental-care.jpg"
+        imageUrl="/dental-clinic-vellore.jpg"
         category="Emergency Dentistry"
       />
       <ServicePageTemplate
         title="Emergency Dental Care"
         subtitle="Urgent Treatment"
         description="Dental emergencies can happen at any time and require immediate attention to relieve pain and prevent further damage. We offer same-day emergency appointments to address urgent oral health issues promptly."
-        heroImage="/emergency-dental-care.png"
+        heroImage="/dental-clinic-vellore.jpg"
         price="₹1,000 - ₹5,000"
         duration="30-60 minutes"
         stats={[
@@ -153,30 +153,30 @@ export default function EmergencyCare() {
           {
             title: "Root Canal Treatment",
             href: "/services/root-canal-treatment",
-            image: "/root-canal-treatment.jpg",
+            image: "/dental-clinic-vellore.jpg",
           },
           {
             title: "Tooth Extraction",
             href: "/services/general-dentistry/extractions",
-            image: "/tooth-extraction.jpg",
+            image: "/dental-clinic-vellore.jpg",
           },
           {
             title: "Dental Crowns",
             href: "/services/restorative-dentistry/crowns",
-            image: "/dental-crowns.jpg",
+            image: "/dental-clinic-vellore.jpg",
           },
         ]}
         testimonials={[
           {
             name: "Arun Patel",
-            image: "/young-indian-man.png",
+            image: "/dental-clinic-vellore.jpg",
             rating: 5,
             text: "I had a severe toothache on a Sunday and they saw me the same day. Dr. Rockson provided immediate relief and fixed the problem. Excellent emergency care!",
             treatment: "Emergency Root Canal",
           },
           {
             name: "Lakshmi Iyer",
-            image: "/middle-aged-indian-woman.png",
+            image: "/dental-clinic-vellore.jpg",
             rating: 5,
             text: "My son broke his front tooth playing cricket. They saw us within an hour and restored his tooth beautifully. Very grateful for their quick response!",
             treatment: "Emergency Restoration",

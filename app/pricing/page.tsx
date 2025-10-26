@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     url: 'https://www.dentalclinicinvellore.in/pricing',
     images: [
       {
-        url: '/dental-pricing-vellore.jpg',
+        url: '/dental-clinic-vellore.jpg',
         width: 1200,
         height: 630,
         alt: 'Affordable Dental Treatment Prices in Vellore'

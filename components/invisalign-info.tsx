@@ -22,7 +22,7 @@ export default function InvisalignInfo({ location = "Vellore" }: InvisalignInfoP
       <div className="grid md:grid-cols-2 gap-8 mb-12">
         <div className="relative aspect-video rounded-lg overflow-hidden">
           <Image
-            src="/invisalign-treatment.jpg"
+            src="/dental-clinic-vellore.jpg"
             alt={`Invisalign clear aligners treatment in ${location}`}
             fill
             className="object-cover"

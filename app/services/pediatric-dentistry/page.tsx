@@ -35,7 +35,7 @@ export default function PediatricDentistryPage() {
       duration: "30-45 minutes",
       description: "Comprehensive oral examination for children with gentle approach",
       features: ["Complete oral examination", "Growth assessment", "Oral hygiene education", "Parent consultation"],
-      image: "/childrens-dental-exam.jpg",
+      image: "/dental-clinic-vellore.jpg",
     },
     {
       name: "Fluoride Treatment",
@@ -43,7 +43,7 @@ export default function PediatricDentistryPage() {
       duration: "15-20 minutes",
       description: "Professional fluoride application to strengthen tooth enamel",
       features: ["Cavity prevention", "Enamel strengthening", "Safe application", "Pleasant flavors"],
-      image: "/fluoride-treatment.jpg",
+      image: "/dental-clinic-vellore.jpg",
     },
     {
       name: "Dental Sealants",
@@ -51,7 +51,7 @@ export default function PediatricDentistryPage() {
       duration: "20-30 minutes",
       description: "Protective coating for molars to prevent cavities",
       features: ["Cavity prevention", "Long-lasting protection", "Painless procedure", "Clear or tooth-colored"],
-      image: "/dental-sealants.jpg",
+      image: "/dental-clinic-vellore.jpg",
     },
     {
       name: "Space Maintainers",
@@ -59,7 +59,7 @@ export default function PediatricDentistryPage() {
       duration: "45-60 minutes",
       description: "Custom appliances to maintain space for permanent teeth",
       features: ["Prevents crowding", "Guides tooth eruption", "Custom-made", "Comfortable fit"],
-      image: "/space-maintainers.jpg",
+      image: "/dental-clinic-vellore.jpg",
     },
     {
       name: "Children's Fillings",
@@ -67,7 +67,7 @@ export default function PediatricDentistryPage() {
       duration: "30-45 minutes",
       description: "Tooth-colored fillings for cavities in primary teeth",
       features: ["Pain-free treatment", "Natural appearance", "Durable materials", "Quick procedure"],
-      image: "/dental-fillings.jpg",
+      image: "/dental-clinic-vellore.jpg",
     },
     {
       name: "Pulp Therapy",
@@ -75,7 +75,7 @@ export default function PediatricDentistryPage() {
       duration: "45-60 minutes",
       description: "Treatment for infected or damaged tooth pulp in children",
       features: ["Saves natural tooth", "Pain relief", "Prevents infection", "Gentle technique"],
-      image: "/root-canal-procedure.png",
+      image: "/dental-clinic-vellore.jpg",
     },
   ]
 
@@ -217,7 +217,7 @@ export default function PediatricDentistryPage() {
             <div className="relative">
               <GlassPanel className="p-8">
                 <img
-                  src="/childrens-dental-exam.jpg"
+                  src="/dental-clinic-vellore.jpg"
                   alt="Children's dental examination at Indira Dental Clinic"
                   className="w-full h-96 object-cover rounded-lg"
                 />

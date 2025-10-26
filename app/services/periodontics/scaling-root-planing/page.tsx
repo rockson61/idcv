@@ -170,7 +170,7 @@ export default function ScalingRootPlaningPage() {
 
           <div className="relative">
             <Image
-              src="/scaling-root-planing.jpg"
+              src="/dental-clinic-vellore.jpg"
               alt="Scaling and root planing procedure"
               width={600}
               height={400}

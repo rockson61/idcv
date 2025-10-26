@@ -26,14 +26,14 @@ export default function TeethCleaningPage() {
         price="800 - 1,500"
         duration="PT45M"
         url="/services/general-dentistry/teeth-cleaning"
-        imageUrl="/teeth-cleaning.jpg"
+        imageUrl="/dental-clinic-vellore.jpg"
         category="Preventive Dentistry"
       />
       <ServicePageTemplate
         title="Professional Teeth Cleaning"
         subtitle="Preventive Dentistry"
         description="Maintain optimal oral health with professional teeth cleaning. Our thorough cleaning removes plaque, tartar, and stains that regular brushing can't reach, helping prevent cavities and gum disease."
-        heroImage="/teeth-cleaning.jpg"
+        heroImage="/dental-clinic-vellore.jpg"
         price="₹800 - ₹1,500"
         duration="45-60 minutes"
         successRate="100%"
@@ -161,37 +161,37 @@ export default function TeethCleaningPage() {
           {
             title: "Teeth Whitening",
             href: "/services/cosmetic-dentistry/teeth-whitening",
-            image: "/teeth-whitening.jpg",
+            image: "/dental-clinic-vellore.jpg",
           },
           {
             title: "Dental Check-ups",
             href: "/services/general-dentistry/check-ups",
-            image: "/dental-checkup.png",
+            image: "/dental-clinic-vellore.jpg",
           },
           {
             title: "Fluoride Treatment",
             href: "/services/general-dentistry/preventive-care",
-            image: "/fluoride-treatment.jpg",
+            image: "/dental-clinic-vellore.jpg",
           },
         ]}
         testimonials={[
           {
             name: "Priya Sharma",
-            image: "/indian-woman-smiling.png",
+            image: "/dental-clinic-vellore.jpg",
             rating: 5,
             text: "The cleaning was so thorough yet gentle. My teeth feel amazing and look brighter! The hygienist explained everything and made me feel comfortable.",
             treatment: "Professional Cleaning",
           },
           {
             name: "Rajesh Kumar",
-            image: "/indian-man-smiling.png",
+            image: "/dental-clinic-vellore.jpg",
             rating: 5,
             text: "I've been getting my teeth cleaned here for years. The staff is professional, the clinic is spotless, and my dental health has never been better!",
             treatment: "6-Month Cleaning",
           },
           {
             name: "Meera Krishnan",
-            image: "/indian-woman-professional.png",
+            image: "/dental-clinic-vellore.jpg",
             rating: 5,
             text: "Dr. Rockson Samuel's team is wonderful. They caught a small cavity during my cleaning that would have been a bigger problem if left untreated. Very thorough!",
             treatment: "Preventive Care",

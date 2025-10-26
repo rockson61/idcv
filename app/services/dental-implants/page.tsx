@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     url: 'https://www.dentalclinicinvellore.in/services/dental-implants',
     images: [
       {
-        url: '/dental-implant-stages.png',
+        url: '/dental-clinic-vellore.jpg',
         width: 1200,
         height: 630,
         alt: 'Dental Implant Treatment Process'
@@ -50,7 +50,7 @@ const implantTypes = [
   {
     title: "Single Tooth Implants",
     description: "Perfect for replacing one or more individual missing teeth without affecting adjacent healthy teeth.",
-    image: "/dental-implant-stages.png",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹25,000 - ₹35,000",
     duration: "3-6 months",
     features: [
@@ -66,7 +66,7 @@ const implantTypes = [
   {
     title: "All-on-4 Implants",
     description: "Revolutionary technique that uses just 4 implants to support a full arch of teeth, ideal for those missing all teeth.",
-    image: "/dental-implant-stages.png",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹1,50,000 - ₹2,00,000",
     duration: "3-6 months",
     features: [
@@ -82,7 +82,7 @@ const implantTypes = [
   {
     title: "Implant-Supported Dentures",
     description: "Combines the stability of implants with the affordability of dentures for a secure, comfortable fit.",
-    image: "/dental-implant-stages.png",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹80,000 - ₹1,20,000",
     duration: "2-4 months",
     features: [
@@ -98,7 +98,7 @@ const implantTypes = [
   {
     title: "Multiple Tooth Implants",
     description: "Replace several missing teeth with individual implants for optimal function and aesthetics.",
-    image: "/dental-implant-stages.png",
+    image: "/dental-clinic-vellore.jpg",
     price: "₹60,000 - ₹1,50,000",
     duration: "4-8 months",
     features: [
@@ -181,7 +181,7 @@ const testimonials = [
     rating: 5,
     treatment: "Single Tooth Implant",
     text: "Dr. Rockson Samuel provided excellent dental implant treatment. The procedure was painless and the results are amazing. I saved 55% compared to Chennai prices and now have a perfect smile!",
-    image: "/indian-woman-smiling.png"
+    image: "/dental-clinic-vellore.jpg"
   },
   {
     name: "Rajesh Kumar",
@@ -189,7 +189,7 @@ const testimonials = [
     rating: 5,
     treatment: "Multiple Implants",
     text: "I had two molars replaced with implants and they feel just like my natural teeth. The procedure was well-explained and the follow-up care was thorough. Highly recommended!",
-    image: "/indian-man-smiling.png"
+    image: "/dental-clinic-vellore.jpg"
   },
   {
     name: "Sunita Singh",
@@ -197,7 +197,7 @@ const testimonials = [
     rating: 5,
     treatment: "All-on-4 Implants",
     text: "Complete smile transformation with All-on-4 implants. Dr. Rockson Samuel's expertise and the modern technology used made the process comfortable and the results amazing.",
-    image: "/indian-woman-happy.jpg"
+    image: "/dental-clinic-vellore.jpg"
   }
 ]
 
