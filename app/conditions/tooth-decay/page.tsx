@@ -5,6 +5,7 @@ import { Breadcrumb } from "@/components/ui/breadcrumb"
 import { RelevantQAWidget } from "@/components/widgets/relevant-qa-widget"
 import { CompactServiceWidget } from "@/components/widgets/compact-service-widget"
 import { CTAWidget } from "@/components/widgets/cta-widget"
+import { ConditionSemanticContent } from "@/components/sections/condition-semantic-content"
 
 export const metadata: Metadata = {
   title: "Tooth Decay Treatment | Cavity Prevention | Indira Dental Clinic",
@@ -271,6 +272,9 @@ export default function ToothDecayPage() {
             </Button>
           </div>
         </div>
+
+        {/* Semantic Internal Links */}
+        <ConditionSemanticContent conditionName="Tooth Decay" conditionSlug="tooth-decay" />
 
         {/* CTA Widget */}
         <CTAWidget

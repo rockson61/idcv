@@ -5,6 +5,7 @@ import { Breadcrumb } from "@/components/ui/breadcrumb"
 import { GlassCard } from "@/components/ui/glass-card"
 import { Badge } from "@/components/ui/badge"
 import { AlertCircle, CheckCircle, TrendingDown, Shield, Heart } from "lucide-react"
+import { ConditionSemanticContent } from "@/components/sections/condition-semantic-content"
 
 export const metadata: Metadata = {
   title: "Receding Gums Treatment | Gum Grafting | Gingival Recession | Vellore",
@@ -263,6 +264,9 @@ export default function RecedingGumsPage() {
               </Button>
             </GlassCard>
           </div>
+        {/* Semantic Internal Links */}
+        <ConditionSemanticContent conditionName="Receding Gums" conditionSlug="receding-gums" />
+
 
           <GlassCard className="p-8 text-center bg-gradient-to-r from-pink-50 to-rose-50">
             <TrendingDown className="w-16 h-16 text-pink-600 mx-auto mb-6" />

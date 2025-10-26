@@ -7,6 +7,7 @@ import { RelevantQAWidget } from "@/components/widgets/relevant-qa-widget"
 import { ConditionWidget } from "@/components/widgets/condition-widget"
 import { ServiceReviews } from "@/components/ui/service-reviews"
 import { generateServiceReviews } from "@/lib/review-data"
+import { ServiceSemanticContent } from "@/components/sections/service-semantic-content"
 import { Heart, Shield, CheckCircle2, Phone, Calendar, Clock, Star, AlertTriangle, Zap, Target, Award, Users, TrendingUp, ArrowRight, MapPin, Globe, DollarSign, BookOpen, MessageCircle, Play, Download } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
@@ -621,6 +622,9 @@ export default function RootCanalTreatmentPage() {
             totalReviews={342}
           />
         </section>
+
+        {/* Semantic Internal Links */}
+        <ServiceSemanticContent serviceName="Root Canal Treatment" serviceSlug="root-canal-treatment" />
 
         {/* CTA Section */}
         <section className="text-center">

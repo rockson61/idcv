@@ -5,6 +5,7 @@ import { Breadcrumb } from "@/components/ui/breadcrumb"
 import { GlassCard } from "@/components/ui/glass-card"
 import { Badge } from "@/components/ui/badge"
 import { AlertCircle, CheckCircle, Droplets, Shield, Zap } from "lucide-react"
+import { ConditionSemanticContent } from "@/components/sections/condition-semantic-content"
 
 export const metadata: Metadata = {
   title: "Tooth Erosion Treatment | Enamel Loss | Acid Wear | Vellore",
@@ -263,6 +264,9 @@ export default function ToothErosionPage() {
               </Button>
             </GlassCard>
           </div>
+        {/* Semantic Internal Links */}
+        <ConditionSemanticContent conditionName="Tooth Erosion" conditionSlug="tooth-erosion" />
+
 
           <GlassCard className="p-8 text-center bg-gradient-to-r from-cyan-50 to-sky-50">
             <Droplets className="w-16 h-16 text-cyan-600 mx-auto mb-6" />
