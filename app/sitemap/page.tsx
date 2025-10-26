@@ -119,8 +119,18 @@ const allSitemapUrls = {
     '/testimonials', '/gallery', '/faq', '/faqs',
   ],
   conditions: [
-    '/conditions', '/conditions/bad-breath', '/conditions/dry-mouth', '/conditions/gum-disease',
-    '/conditions/tooth-decay', '/conditions/tooth-sensitivity',
+    '/conditions', 
+    '/conditions/bad-breath', 
+    '/conditions/dry-mouth', 
+    '/conditions/gum-disease',
+    '/conditions/tooth-decay', 
+    '/conditions/tooth-sensitivity',
+    '/conditions/bruxism',
+    '/conditions/tooth-abscess',
+    '/conditions/cracked-teeth',
+    '/conditions/receding-gums',
+    '/conditions/tooth-erosion',
+    '/conditions/impacted-teeth',
   ],
 }
 
