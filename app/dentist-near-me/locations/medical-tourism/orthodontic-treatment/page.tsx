@@ -306,7 +306,7 @@ export default function OrthodonticTreatmentPage() {
             Call: 7010650063
           </a>
           <Link
-            href="/contact-us"
+            href="/contact"
             className="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg font-medium transition-all"
           >
             Contact Form

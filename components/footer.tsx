@@ -94,7 +94,7 @@ export function Footer() {
             {/* Main Vellore Clinic */}
             <div className="mb-3">
               <h4 className="font-semibold text-yellow-300">
-                <Link href="/dentist-near-me/locations/vellore" className="hover:underline">
+                <Link href="/in/tamil-nadu/vellore" className="hover:underline">
                   Vellore Main Clinic <span className="text-xs text-gray-300">(flagship center)</span>
                 </Link>
               </h4>
@@ -104,31 +104,31 @@ export function Footer() {
             {/* Sub-locations in Vellore */}
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/dentist-near-me/locations/vellore/katpadi" className="hover:text-yellow-300">
+                <Link href="/in/tamil-nadu/vellore/katpadi" className="hover:text-yellow-300">
                   Katpadi <span className="text-xs text-gray-300">(near railway station)</span>
                 </Link>
                 <p className="text-xs text-gray-300">Specializing in dental implants & RCT</p>
               </li>
               <li>
-                <Link href="/dentist-near-me/locations/vellore/gandhi-nagar" className="hover:text-yellow-300">
+                <Link href="/in/tamil-nadu/vellore/gandhi-nagar" className="hover:text-yellow-300">
                   Gandhi Nagar <span className="text-xs text-gray-300">(central location)</span>
                 </Link>
                 <p className="text-xs text-gray-300">Cosmetic dentistry & family care</p>
               </li>
               <li>
-                <Link href="/dentist-near-me/locations/vellore/sathuvachari" className="hover:text-yellow-300">
+                <Link href="/in/tamil-nadu/vellore/sathuvachari" className="hover:text-yellow-300">
                   Sathuvachari <span className="text-xs text-gray-300">(residential area)</span>
                 </Link>
                 <p className="text-xs text-gray-300">Pediatric dentistry & orthodontics</p>
               </li>
               <li>
-                <Link href="/dentist-near-me/locations/vellore/bagayam" className="hover:text-yellow-300">
+                <Link href="/in/tamil-nadu/vellore/bagayam" className="hover:text-yellow-300">
                   Bagayam <span className="text-xs text-gray-300">(near CMC)</span>
                 </Link>
                 <p className="text-xs text-gray-300">Advanced surgical procedures</p>
               </li>
               <li>
-                <Link href="/dentist-near-me/locations/vellore/ranipet" className="hover:text-yellow-300">
+                <Link href="/in/tamil-nadu/ranipet" className="hover:text-yellow-300">
                   Ranipet <span className="text-xs text-gray-300">(industrial zone)</span>
                 </Link>
                 <p className="text-xs text-gray-300">Emergency dental care & general dentistry</p>
@@ -251,7 +251,7 @@ export function Footer() {
             <div className="p-4 text-sm">
               <p className="mb-3">
                 Vellore is home to some of the{" "}
-                <Link href="/dentist-near-me/locations/vellore" className="text-yellow-300 hover:underline">
+                <Link href="/in/tamil-nadu/vellore" className="text-yellow-300 hover:underline">
                   best dental clinics
                 </Link>
                 , offering top-notch services for patients seeking quality{" "}
@@ -259,7 +259,7 @@ export function Footer() {
                   dental care
                 </Link>
                 . Whether you're looking for a{" "}
-                <Link href="/dentist-near-me/locations/vellore" className="text-yellow-300 hover:underline">
+                <Link href="/in/tamil-nadu/vellore" className="text-yellow-300 hover:underline">
                   dentist in Vellore
                 </Link>{" "}
                 for routine checkups,{" "}
@@ -286,7 +286,7 @@ export function Footer() {
                   Indira Dental Clinic
                 </Link>
                 ,{" "}
-                <Link href="/about" className="text-yellow-300 hover:underline">
+                <Link href="/about-us" className="text-yellow-300 hover:underline">
                   Dr. Rockson Samuel
                 </Link>{" "}
                 provides comprehensive dental services including{" "}
@@ -366,7 +366,7 @@ export function Footer() {
                 </Link>
                 , we combine years of expertise with modern dental technology to provide exceptional care. Our central
                 location in{" "}
-                <Link href="/dentist-near-me/locations/vellore" className="text-yellow-300 hover:underline">
+                <Link href="/in/tamil-nadu/vellore" className="text-yellow-300 hover:underline">
                   Vellore
                 </Link>{" "}
                 makes us accessible to patients from all areas, and our comprehensive range of{" "}
@@ -501,7 +501,7 @@ export function Footer() {
             <div className="p-4 text-sm">
               <p className="mb-2">
                 Finding the{" "}
-                <Link href="/dentist-near-me/locations/vellore" className="text-yellow-300 hover:underline">
+                <Link href="/in/tamil-nadu/vellore" className="text-yellow-300 hover:underline">
                   best dentist in Vellore
                 </Link>{" "}
                 requires considering:
@@ -509,7 +509,7 @@ export function Footer() {
               <ul className="list-disc pl-5 space-y-2">
                 <li>
                   <strong>
-                    <Link href="/about" className="text-yellow-300 hover:underline">
+                    <Link href="/about-us" className="text-yellow-300 hover:underline">
                       Experience & Qualifications
                     </Link>
                   </strong>{" "}
@@ -517,7 +517,7 @@ export function Footer() {
                 </li>
                 <li>
                   <strong>
-                    <Link href="/about" className="text-yellow-300 hover:underline">
+                    <Link href="/about-us" className="text-yellow-300 hover:underline">
                       Clinic Facilities
                     </Link>
                   </strong>{" "}
@@ -717,7 +717,7 @@ export function Footer() {
                 function and aesthetics.
               </p>
               <p className="mb-3">
-                <Link href="/about" className="text-yellow-300 hover:underline">
+                <Link href="/about-us" className="text-yellow-300 hover:underline">
                   Dr. Rockson Samuel
                 </Link>{" "}
                 specializes in{" "}
@@ -998,22 +998,22 @@ export function Footer() {
               </span>
             </summary>
             <div className="p-4 text-sm grid grid-cols-2 md:grid-cols-3 gap-3">
-              <Link href="/dentist-near-me/locations/vellore" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore" className="text-yellow-300 hover:underline">
                 Dental Clinics in Vellore
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/katpadi" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/katpadi" className="text-yellow-300 hover:underline">
                 Katpadi Dental Hospital
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/gandhi-nagar" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/gandhi-nagar" className="text-yellow-300 hover:underline">
                 Gandhi Nagar Dental Clinic
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/sathuvachari" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/sathuvachari" className="text-yellow-300 hover:underline">
                 Sathuvachari Dental Care
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/bagayam" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/bagayam" className="text-yellow-300 hover:underline">
                 Bagayam Dental Hospital
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/ranipet" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/ranipet" className="text-yellow-300 hover:underline">
                 Ranipet Dental Clinic
               </Link>
               <Link href="/dentist-near-me/locations" className="text-yellow-300 hover:underline">
@@ -1151,22 +1151,22 @@ export function Footer() {
               </span>
             </summary>
             <div className="p-4 text-sm grid grid-cols-2 md:grid-cols-3 gap-3">
-              <Link href="/dentist-near-me/locations/vellore" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore" className="text-yellow-300 hover:underline">
                 Dentist in Vellore
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/katpadi" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/katpadi" className="text-yellow-300 hover:underline">
                 Dentist in Katpadi
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/gandhi-nagar" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/gandhi-nagar" className="text-yellow-300 hover:underline">
                 Dentist in Gandhi Nagar
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/sathuvachari" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/sathuvachari" className="text-yellow-300 hover:underline">
                 Dentist in Sathuvachari
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/bagayam" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/bagayam" className="text-yellow-300 hover:underline">
                 Dentist in Bagayam
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/ranipet" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/ranipet" className="text-yellow-300 hover:underline">
                 Dentist in Ranipet
               </Link>
               <Link href="/dentist-near-me/locations" className="text-yellow-300 hover:underline">
@@ -1202,7 +1202,7 @@ export function Footer() {
               </span>
             </summary>
             <div className="p-4 text-sm grid grid-cols-2 md:grid-cols-3 gap-3">
-              <Link href="/dentist-near-me/locations/vellore" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore" className="text-yellow-300 hover:underline">
                 Best Dental Clinic in Vellore
               </Link>
               <Link href="/about-us" className="text-yellow-300 hover:underline">
@@ -1253,22 +1253,22 @@ export function Footer() {
               </span>
             </summary>
             <div className="p-4 text-sm grid grid-cols-2 md:grid-cols-3 gap-3">
-              <Link href="/dentist-near-me/locations/vellore" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore" className="text-yellow-300 hover:underline">
                 Vellore Dental Clinic
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/katpadi" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/katpadi" className="text-yellow-300 hover:underline">
                 Katpadi Dental Clinic
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/gandhi-nagar" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/gandhi-nagar" className="text-yellow-300 hover:underline">
                 Gandhi Nagar Dental Clinic
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/sathuvachari" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/sathuvachari" className="text-yellow-300 hover:underline">
                 Sathuvachari Dental Clinic
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/bagayam" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/vellore/bagayam" className="text-yellow-300 hover:underline">
                 Bagayam Dental Clinic
               </Link>
-              <Link href="/dentist-near-me/locations/vellore/ranipet" className="text-yellow-300 hover:underline">
+              <Link href="/in/tamil-nadu/ranipet" className="text-yellow-300 hover:underline">
                 Ranipet Dental Clinic
               </Link>
               <Link href="/dentist-near-me/locations" className="text-yellow-300 hover:underline">
@@ -1662,7 +1662,7 @@ export function Footer() {
               <p className="text-sm mb-2">
                 3rd Floor, 54, Katpadi Main Rd, Suthanthira Ponvizha Nagar, Gandhi Nagar, Vellore, Tamil Nadu 632006
               </p>
-              <Link href="/dentist-near-me/locations/vellore" className="text-yellow-300 hover:underline text-sm">
+              <Link href="/in/tamil-nadu/vellore" className="text-yellow-300 hover:underline text-sm">
                 View Details →
               </Link>
             </div>
@@ -1672,7 +1672,7 @@ export function Footer() {
               <h4 className="font-bold text-yellow-300 mb-2">Katpadi Branch</h4>
               <p className="text-sm mb-2">Near Railway Station, Katpadi, Vellore, Tamil Nadu</p>
               <Link
-                href="/dentist-near-me/locations/vellore/katpadi"
+                href="/in/tamil-nadu/vellore/katpadi"
                 className="text-yellow-300 hover:underline text-sm"
               >
                 View Details →
@@ -1684,7 +1684,7 @@ export function Footer() {
               <h4 className="font-bold text-yellow-300 mb-2">Gandhi Nagar Branch</h4>
               <p className="text-sm mb-2">Central Location, Gandhi Nagar, Vellore, Tamil Nadu</p>
               <Link
-                href="/dentist-near-me/locations/vellore/gandhi-nagar"
+                href="/in/tamil-nadu/vellore/gandhi-nagar"
                 className="text-yellow-300 hover:underline text-sm"
               >
                 View Details →
@@ -1696,7 +1696,7 @@ export function Footer() {
               <h4 className="font-bold text-yellow-300 mb-2">Sathuvachari Branch</h4>
               <p className="text-sm mb-2">Residential Area, Sathuvachari, Vellore, Tamil Nadu</p>
               <Link
-                href="/dentist-near-me/locations/vellore/sathuvachari"
+                href="/in/tamil-nadu/vellore/sathuvachari"
                 className="text-yellow-300 hover:underline text-sm"
               >
                 View Details →
@@ -1708,7 +1708,7 @@ export function Footer() {
               <h4 className="font-bold text-yellow-300 mb-2">Bagayam Branch</h4>
               <p className="text-sm mb-2">Near CMC, Bagayam, Vellore, Tamil Nadu</p>
               <Link
-                href="/dentist-near-me/locations/vellore/bagayam"
+                href="/in/tamil-nadu/vellore/bagayam"
                 className="text-yellow-300 hover:underline text-sm"
               >
                 View Details →
@@ -1720,7 +1720,7 @@ export function Footer() {
               <h4 className="font-bold text-yellow-300 mb-2">Ranipet Branch</h4>
               <p className="text-sm mb-2">Industrial Zone, Ranipet, Vellore, Tamil Nadu</p>
               <Link
-                href="/dentist-near-me/locations/vellore/ranipet"
+                href="/in/tamil-nadu/ranipet"
                 className="text-yellow-300 hover:underline text-sm"
               >
                 View Details →

@@ -580,7 +580,7 @@ export default function DentalImplantsGuidePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <Link
-                  href="/appointment"
+                  href="/contact"
                   className="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold text-center hover:bg-blue-700 transition-colors"
                 >
                   📅 Book Your Free Consultation Today!

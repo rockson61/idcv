@@ -79,7 +79,7 @@ export function DoctorProfile() {
             <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <span className="text-3xl font-bold text-[#002B6B]">39</span>
-                <Link href="/patient-reviews" className="text-primary hover:underline">
+                <Link href="/testimonials" className="text-primary hover:underline">
                   patient reviews
                 </Link>
               </div>

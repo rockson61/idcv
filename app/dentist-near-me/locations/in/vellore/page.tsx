@@ -307,7 +307,7 @@ export default function VelloreLocationPage() {
                 Call Now
               </a>
               <Link
-                href="/contact-us"
+                href="/contact"
                 className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg font-medium transition-all"
               >
                 Book Appointment
@@ -386,7 +386,7 @@ export default function VelloreLocationPage() {
         </div>
 
         <div className="text-center mt-6">
-          <Link href="/patient-reviews" className="text-blue-600 hover:text-blue-800 font-medium">
+          <Link href="/testimonials" className="text-blue-600 hover:text-blue-800 font-medium">
             View all patient reviews →
           </Link>
         </div>
@@ -411,7 +411,7 @@ export default function VelloreLocationPage() {
             Call: 7010650063
           </a>
           <Link
-            href="/contact-us"
+            href="/contact"
             className="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg font-medium transition-all"
           >
             Contact Form

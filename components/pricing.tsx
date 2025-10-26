@@ -139,7 +139,7 @@ export function Pricing() {
                     <MessageCircle className="w-4 h-4 mr-2" />
                     WhatsApp
                   </a>
-                  <a href="/book" className="flex items-center hover:text-primary">
+                  <a href="/contact" className="flex items-center hover:text-primary">
                     <Calendar className="w-4 h-4 mr-2" />
                     Schedule
                   </a>

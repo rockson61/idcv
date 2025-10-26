@@ -118,7 +118,7 @@ export default function Header() {
           </div>
 
           <Link
-            href="/about"
+            href="/about-us"
             className={`hover:text-cyan-600 transition-colors ${pathname === "/about" ? "font-medium" : ""}`}
           >
             About Us
@@ -240,7 +240,7 @@ export default function Header() {
             </div>
 
             <Link
-              href="/about"
+              href="/about-us"
               className={`px-4 py-2 hover:bg-blue-50 rounded-md ${pathname === "/about" ? "font-medium bg-blue-50" : ""}`}
               onClick={toggleMenu}
             >

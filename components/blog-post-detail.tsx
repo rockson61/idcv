@@ -58,7 +58,7 @@ export default function BlogPostDetail({
             </div>
             <div>
               <Link
-                href="/appointment"
+                href="/contact"
                 className="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold inline-block hover:bg-blue-700 transition-colors"
               >
                 Book a Consultation

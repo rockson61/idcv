@@ -111,7 +111,7 @@ const Navigation = () => {
               </div>
             </div>
 
-            <Link href="/patient-reviews" className="px-3 py-2 text-gray-700 hover:text-blue-600">
+            <Link href="/testimonials" className="px-3 py-2 text-gray-700 hover:text-blue-600">
               Reviews
             </Link>
 
@@ -119,7 +119,7 @@ const Navigation = () => {
               About Us
             </Link>
 
-            <Link href="/contact-us" className="px-3 py-2 text-gray-700 hover:text-blue-600">
+            <Link href="/contact" className="px-3 py-2 text-gray-700 hover:text-blue-600">
               Contact
             </Link>
           </div>
@@ -234,7 +234,7 @@ const Navigation = () => {
               )}
             </div>
 
-            <Link href="/patient-reviews" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
+            <Link href="/testimonials" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
               Reviews
             </Link>
 
@@ -242,7 +242,7 @@ const Navigation = () => {
               About Us
             </Link>
 
-            <Link href="/contact-us" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
+            <Link href="/contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600">
               Contact
             </Link>
 
