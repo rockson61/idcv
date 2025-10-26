@@ -7,7 +7,7 @@ import { Question } from '@/lib/types/ask-dentist'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { Calendar, User, Eye, ThumbsUp, MessageCircle } from 'lucide-react'
+import { Calendar, User, Eye, ThumbsUp, MessageCircle, MapPin } from 'lucide-react'
 
 interface QuestionListProps {
   searchQuery?: string
@@ -214,6 +214,26 @@ function QuestionCard({ question }: { question: Question }) {
         </div>
       </ModernCardHeader>
       <ModernCardContent>
+        {/* Patient Info */}
+        {(question.patientName || question.location) && (
+          <div className="mb-3 p-3 bg-teal-50 rounded-lg border border-teal-100">
+            <div className="flex items-center gap-3 text-sm">
+              {question.patientName && (
+                <div className="flex items-center text-teal-700 font-medium">
+                  <User className="w-4 h-4 mr-1" />
+                  {question.patientName}
+                </div>
+              )}
+              {question.location && (
+                <div className="flex items-center text-teal-600">
+                  <MapPin className="w-4 h-4 mr-1" />
+                  {question.location}
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+        
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4 text-sm text-gray-500">
             <div className="flex items-center">

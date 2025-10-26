@@ -3,6 +3,8 @@ export interface Reply {
   content: string
   author: string
   authorType: 'patient' | 'dentist'
+  location?: string // City, Country
+  country?: string
   createdAt: string
   updatedAt: string
   helpfulVotes: number
@@ -17,6 +19,9 @@ export interface Question {
   question: string
   answer: string
   author: string
+  patientName?: string
+  location?: string // City, Country
+  country?: string
   createdAt: string
   updatedAt: string
   status: 'published' | 'draft' | 'pending'
@@ -25,8 +30,8 @@ export interface Question {
   helpfulVotes: number
   views: number
   replies: Reply[]
-  conversationCount: number
-  lastActivity: string
+  conversationCount?: number
+  lastActivity?: string
 }
 
 export interface QuestionFormData {
