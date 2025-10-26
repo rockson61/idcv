@@ -55,7 +55,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-yellow-300">
+                <Link href="/about-us" className="hover:text-yellow-300">
                   About Us
                 </Link>
               </li>
@@ -334,7 +334,7 @@ export function Footer() {
             <div className="p-4 text-sm">
               <p className="mb-3">
                 Vellore is known for its{" "}
-                <Link href="/about" className="text-yellow-300 hover:underline">
+                <Link href="/about-us" className="text-yellow-300 hover:underline">
                   top dentists
                 </Link>{" "}
                 and{" "}
@@ -542,7 +542,7 @@ export function Footer() {
                   Indira Dental Clinic
                 </Link>
                 ,{" "}
-                <Link href="/about" className="text-yellow-300 hover:underline">
+                <Link href="/about-us" className="text-yellow-300 hover:underline">
                   Dr. Rockson Samuel
                 </Link>{" "}
                 brings years of experience and expertise to provide top-quality dental care. Our modern facility is
@@ -1019,7 +1019,7 @@ export function Footer() {
               <Link href="/dentist-near-me/locations" className="text-yellow-300 hover:underline">
                 All Dental Locations
               </Link>
-              <Link href="/about" className="text-yellow-300 hover:underline">
+              <Link href="/about-us" className="text-yellow-300 hover:underline">
                 About Our Dental Clinic
               </Link>
               <Link href="/contact" className="text-yellow-300 hover:underline">
@@ -1175,7 +1175,7 @@ export function Footer() {
               <Link href="/contact" className="text-yellow-300 hover:underline">
                 Book Dentist Appointment
               </Link>
-              <Link href="/about" className="text-yellow-300 hover:underline">
+              <Link href="/about-us" className="text-yellow-300 hover:underline">
                 Meet Our Dentists
               </Link>
             </div>
@@ -1205,7 +1205,7 @@ export function Footer() {
               <Link href="/dentist-near-me/locations/vellore" className="text-yellow-300 hover:underline">
                 Best Dental Clinic in Vellore
               </Link>
-              <Link href="/about" className="text-yellow-300 hover:underline">
+              <Link href="/about-us" className="text-yellow-300 hover:underline">
                 Top Dentist in Vellore
               </Link>
               <Link href="/services#dental-implants" className="text-yellow-300 hover:underline">
@@ -1226,7 +1226,7 @@ export function Footer() {
               <Link href="/services#oral-surgery" className="text-yellow-300 hover:underline">
                 Oral Surgeon
               </Link>
-              <Link href="/about" className="text-yellow-300 hover:underline">
+              <Link href="/about-us" className="text-yellow-300 hover:underline">
                 Dr. Rockson Samuel
               </Link>
             </div>
@@ -1742,7 +1742,7 @@ export function Footer() {
               Privacy Policy
             </Link>{" "}
             |
-            <Link href="/terms-of-service" className="hover:text-yellow-300 mx-2">
+            <Link href="/terms" className="hover:text-yellow-300 mx-2">
               Terms of Service
             </Link>
           </p>

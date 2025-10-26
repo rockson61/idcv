@@ -155,7 +155,7 @@ export function Pricing() {
           </p>
           <div className="flex justify-center gap-4">
             <Button variant="link" className="text-primary" asChild>
-              <a href="/insurance">View Insurance Coverage</a>
+              <a href="/financing">View Insurance Coverage</a>
             </Button>
             <Button variant="link" className="text-primary" asChild>
               <a href="/emi">EMI Options</a>
