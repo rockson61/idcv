@@ -136,7 +136,7 @@ export const sampleQuestions: Question[] = [
         content: 'I was so nervous about my root canal, but Dr. Samuel made it completely comfortable. The procedure was over before I knew it, and the pain relief was immediate!',
         author: 'Anita S.',
         authorType: 'patient',
-        location: 'Delhi',
+        location: 'Delhi, India',
         createdAt: '2024-01-14T16:20:00Z',
         updatedAt: '2024-01-14T16:20:00Z',
         helpfulVotes: 25,
@@ -169,7 +169,7 @@ export const sampleQuestions: Question[] = [
         content: 'I\'m still scared. What sedation options do you offer?',
         author: 'Meera L.',
         authorType: 'patient',
-        location: 'New York, NY',
+        location: 'Vellore, Tamil Nadu',
         createdAt: '2024-01-16T14:45:00Z',
         updatedAt: '2024-01-16T14:45:00Z',
         helpfulVotes: 9,
@@ -210,7 +210,7 @@ export const sampleQuestions: Question[] = [
         content: 'I\'ve been following Dr. Samuel\'s advice for 6 months and my gums are much healthier. The bleeding has completely stopped!',
         author: 'Deepak R.',
         authorType: 'patient',
-        location: 'London',
+        location: 'London, UK',
         createdAt: '2024-01-13T11:30:00Z',
         updatedAt: '2024-01-13T11:30:00Z',
         helpfulVotes: 16,
@@ -260,9 +260,32 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['cosmetic-dentistry', 'teeth-whitening', 'smile-makeover'],
     helpfulVotes: 29,
     views: 750,
-    replies: [],
-    conversationCount: 0,
-    lastActivity: '2024-01-10T11:15:00Z'
+    replies: [
+      {
+        id: 'r6-1',
+        content: 'Thank you Dr. Samuel! This information is very helpful and addresses all my concerns.',
+        author: 'Lakshmi Iyer',
+        authorType: 'patient',
+        location: 'Bangalore, Karnataka',
+        createdAt: '2024-01-18T10:30:00Z',
+        updatedAt: '2024-01-18T10:30:00Z',
+        helpfulVotes: 5,
+        status: 'published'
+      },
+      {
+        id: 'r6-2',
+        content: 'You\'re very welcome! I\'m glad I could help. Feel free to call us at 7010650063 when you\'re ready to schedule!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-18T12:00:00Z',
+        updatedAt: '2024-01-18T12:00:00Z',
+        helpfulVotes: 12,
+        parentId: 'r6-1',
+        status: 'published'
+      }
+    ],
+    conversationCount: 2,
+    lastActivity: '2024-01-18T12:00:00Z'
   },
   {
     id: '7',
@@ -278,7 +301,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['general-dentistry', 'restorative-dentistry', 'preventive-dentistry'],
     helpfulVotes: 47,
     views: 1300,
-    replies: [],
+    replies: [
+      {
+        id: 'r7-1',
+        content: 'I had similar treatment and your explanation is spot on. Excellent care at your clinic!',
+        author: 'Vikram Singh',
+        authorType: 'patient',
+        location: 'Delhi, India',
+        createdAt: '2024-01-19T10:30:00Z',
+        updatedAt: '2024-01-19T10:30:00Z',
+        helpfulVotes: 7,
+        status: 'published'
+      },
+      {
+        id: 'r7-2',
+        content: 'Thank you for sharing your experience! We strive to provide excellent care for every patient. Wishing you continued good health!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-19T12:00:00Z',
+        updatedAt: '2024-01-19T12:00:00Z',
+        helpfulVotes: 14,
+        parentId: 'r7-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-09T08:45:00Z'
   },
@@ -326,7 +372,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['preventive-dentistry', 'general-dentistry', 'oral-hygiene'],
     helpfulVotes: 58,
     views: 1600,
-    replies: [],
+    replies: [
+      {
+        id: 'r8-1',
+        content: 'Very informative answer. I\'ll schedule an appointment this week to discuss further.',
+        author: 'Emily Chen',
+        authorType: 'patient',
+        location: 'Singapore',
+        createdAt: '2024-01-20T10:30:00Z',
+        updatedAt: '2024-01-20T10:30:00Z',
+        helpfulVotes: 9,
+        status: 'published'
+      },
+      {
+        id: 'r8-2',
+        content: 'Wonderful! I look forward to meeting you. Our team will take great care of you. See you soon!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-20T12:00:00Z',
+        updatedAt: '2024-01-20T12:00:00Z',
+        helpfulVotes: 16,
+        parentId: 'r8-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-06T10:30:00Z'
   },
@@ -344,7 +413,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['dental-implants', 'restorative-dentistry', 'prosthodontics'],
     helpfulVotes: 32,
     views: 850,
-    replies: [],
+    replies: [
+      {
+        id: 'r11-1',
+        content: 'This is exactly what I needed to know. Looking forward to visiting your clinic!',
+        author: 'David Smith',
+        authorType: 'patient',
+        location: 'London, UK',
+        createdAt: '2024-01-21T10:30:00Z',
+        updatedAt: '2024-01-21T10:30:00Z',
+        helpfulVotes: 11,
+        status: 'published'
+      },
+      {
+        id: 'r11-2',
+        content: 'Thank you for your trust! We\'ll ensure you receive the best possible care. Looking forward to helping you!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-21T12:00:00Z',
+        updatedAt: '2024-01-21T12:00:00Z',
+        helpfulVotes: 18,
+        parentId: 'r11-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-05T14:20:00Z'
   },
@@ -362,7 +454,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['emergency-dentistry', 'general-dentistry', 'pain-management'],
     helpfulVotes: 67,
     views: 1800,
-    replies: [],
+    replies: [
+      {
+        id: 'r12-1',
+        content: 'Great explanation! How soon can I book a consultation?',
+        author: 'Sarah Johnson',
+        authorType: 'patient',
+        location: 'New York, NY, USA',
+        createdAt: '2024-01-22T10:30:00Z',
+        updatedAt: '2024-01-22T10:30:00Z',
+        helpfulVotes: 13,
+        status: 'published'
+      },
+      {
+        id: 'r12-2',
+        content: 'Great! Call us at 7010650063 and we\'ll find a convenient time. We typically have availability within 2-3 days!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-22T12:00:00Z',
+        updatedAt: '2024-01-22T12:00:00Z',
+        helpfulVotes: 20,
+        parentId: 'r12-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-04T09:15:00Z'
   },
@@ -380,7 +495,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['preventive-dentistry', 'restorative-dentistry', 'general-dentistry'],
     helpfulVotes: 45,
     views: 1200,
-    replies: [],
+    replies: [
+      {
+        id: 'r13-1',
+        content: 'I appreciate the thorough response. This has eased my worries considerably.',
+        author: 'Kavita Reddy',
+        authorType: 'patient',
+        location: 'Hyderabad, Telangana',
+        createdAt: '2024-01-23T10:30:00Z',
+        updatedAt: '2024-01-23T10:30:00Z',
+        helpfulVotes: 15,
+        status: 'published'
+      },
+      {
+        id: 'r13-2',
+        content: 'I\'m so glad this helped ease your concerns! Knowledge is empowering. Reach out anytime if you have more questions!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-23T12:00:00Z',
+        updatedAt: '2024-01-23T12:00:00Z',
+        helpfulVotes: 22,
+        parentId: 'r13-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-03T16:45:00Z'
   },
@@ -398,7 +536,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['oral-surgery', 'maxillofacial-surgery', 'dental-diagnosis'],
     helpfulVotes: 28,
     views: 750,
-    replies: [],
+    replies: [
+      {
+        id: 'r14-1',
+        content: 'My friend recommended your clinic and this confirms I made the right choice!',
+        author: 'Anand Patel',
+        authorType: 'patient',
+        location: 'Vellore, Tamil Nadu',
+        createdAt: '2024-01-24T10:30:00Z',
+        updatedAt: '2024-01-24T10:30:00Z',
+        helpfulVotes: 17,
+        status: 'published'
+      },
+      {
+        id: 'r14-2',
+        content: 'Thank you for the referral trust! Patient recommendations are the highest compliment. We\'ll make your visit excellent!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-24T12:00:00Z',
+        updatedAt: '2024-01-24T12:00:00Z',
+        helpfulVotes: 24,
+        parentId: 'r14-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-02T11:30:00Z'
   },
@@ -536,7 +697,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['endodontics', 'oral-surgery', 'restorative-dentistry'],
     helpfulVotes: 36,
     views: 950,
-    replies: [],
+    replies: [
+      {
+        id: 'r15-1',
+        content: 'Perfect timing - I was just researching this. Booking my appointment today!',
+        author: 'Ahmed Hassan',
+        authorType: 'patient',
+        location: 'Cairo, Egypt',
+        createdAt: '2024-01-25T10:30:00Z',
+        updatedAt: '2024-01-25T10:30:00Z',
+        helpfulVotes: 19,
+        status: 'published'
+      },
+      {
+        id: 'r15-2',
+        content: 'Excellent! The sooner we address dental issues, the better the outcomes. Looking forward to seeing you!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-25T12:00:00Z',
+        updatedAt: '2024-01-25T12:00:00Z',
+        helpfulVotes: 26,
+        parentId: 'r15-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-01T13:20:00Z'
   },
@@ -554,7 +738,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['oral-surgery', 'tmj-treatment', 'emergency-dentistry'],
     helpfulVotes: 48,
     views: 1200,
-    replies: [],
+    replies: [
+      {
+        id: 'r24-1',
+        content: 'Thank you for the detailed answer. I feel much more confident now.',
+        author: 'Maria Garcia',
+        authorType: 'patient',
+        location: 'Madrid, Spain',
+        createdAt: '2024-01-26T10:30:00Z',
+        updatedAt: '2024-01-26T10:30:00Z',
+        helpfulVotes: 21,
+        status: 'published'
+      },
+      {
+        id: 'r24-2',
+        content: 'You\'re most welcome! Confidence comes from understanding your options. We\'re here to support you every step!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-26T12:00:00Z',
+        updatedAt: '2024-01-26T12:00:00Z',
+        helpfulVotes: 28,
+        parentId: 'r24-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2023-12-23T16:15:00Z'
   },
@@ -572,7 +779,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['oral-surgery', 'general-dentistry', 'prosthodontics'],
     helpfulVotes: 31,
     views: 800,
-    replies: [],
+    replies: [
+      {
+        id: 'r25-1',
+        content: 'Excellent information! I\'ll discuss this with my family and contact you soon.',
+        author: 'Roberto Santos',
+        authorType: 'patient',
+        location: 'São Paulo, Brazil',
+        createdAt: '2024-01-27T10:30:00Z',
+        updatedAt: '2024-01-27T10:30:00Z',
+        helpfulVotes: 23,
+        status: 'published'
+      },
+      {
+        id: 'r25-2',
+        content: 'That sounds great! Take your time to discuss. We\'re here whenever you\'re ready. All the best!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-27T12:00:00Z',
+        updatedAt: '2024-01-27T12:00:00Z',
+        helpfulVotes: 30,
+        parentId: 'r25-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2023-12-22T12:30:00Z'
   },
@@ -591,7 +821,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['orthodontics', 'traditional-braces', 'invisalign', 'serial-extraction'],
     helpfulVotes: 38,
     views: 1100,
-    replies: [],
+    replies: [
+      {
+        id: 'r26-1',
+        content: 'This answers all my questions. Your expertise is greatly appreciated!',
+        author: 'Fatima Khan',
+        authorType: 'patient',
+        location: 'Karachi, Pakistan',
+        createdAt: '2024-01-28T10:30:00Z',
+        updatedAt: '2024-01-28T10:30:00Z',
+        helpfulVotes: 25,
+        status: 'published'
+      },
+      {
+        id: 'r26-2',
+        content: 'My pleasure! I\'m always happy to help patients make informed decisions. Best wishes!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-28T12:00:00Z',
+        updatedAt: '2024-01-28T12:00:00Z',
+        helpfulVotes: 32,
+        parentId: 'r26-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-20T09:00:00Z'
   },
@@ -609,7 +862,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['orthodontics', 'traditional-braces', 'invisalign', 'orthognathic-surgery'],
     helpfulVotes: 42,
     views: 1250,
-    replies: [],
+    replies: [
+      {
+        id: 'r27-1',
+        content: 'I\'ve been dealing with this issue and finally found clear answers. Thank you!',
+        author: 'Lisa Wong',
+        authorType: 'patient',
+        location: 'Hong Kong, China',
+        createdAt: '2024-01-29T10:30:00Z',
+        updatedAt: '2024-01-29T10:30:00Z',
+        helpfulVotes: 27,
+        status: 'published'
+      },
+      {
+        id: 'r27-2',
+        content: 'I\'m glad you found answers! Early intervention makes a big difference. Don\'t hesitate to reach out!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-29T12:00:00Z',
+        updatedAt: '2024-01-29T12:00:00Z',
+        helpfulVotes: 34,
+        parentId: 'r27-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-21T10:30:00Z'
   },
@@ -627,7 +903,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['orthodontics', 'traditional-braces', 'dental-cleanings', 'preventive-care'],
     helpfulVotes: 55,
     views: 1600,
-    replies: [],
+    replies: [
+      {
+        id: 'r28-1',
+        content: 'Very professional response. Looking forward to receiving treatment at your clinic.',
+        author: 'Mohammed Al-Rashid',
+        authorType: 'patient',
+        location: 'Dubai, UAE',
+        createdAt: '2024-01-30T10:30:00Z',
+        updatedAt: '2024-01-30T10:30:00Z',
+        helpfulVotes: 29,
+        status: 'published'
+      },
+      {
+        id: 'r28-2',
+        content: 'Thank you! Professional, compassionate care is what we deliver every day. Looking forward to helping you!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-30T12:00:00Z',
+        updatedAt: '2024-01-30T12:00:00Z',
+        helpfulVotes: 36,
+        parentId: 'r28-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-22T14:15:00Z'
   },
@@ -646,7 +945,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['periodontics', 'scaling-root-planing', 'pocket-reduction-surgery', 'gingival-grafting'],
     helpfulVotes: 48,
     views: 1350,
-    replies: [],
+    replies: [
+      {
+        id: 'r29-1',
+        content: 'This is so helpful! I\'ll call tomorrow to schedule my consultation.',
+        author: 'Sophie Dubois',
+        authorType: 'patient',
+        location: 'Paris, France',
+        createdAt: '2024-01-31T10:30:00Z',
+        updatedAt: '2024-01-31T10:30:00Z',
+        helpfulVotes: 31,
+        status: 'published'
+      },
+      {
+        id: 'r29-2',
+        content: 'Perfect! We\'ll be ready for your call. Our friendly team will guide you through everything!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-31T12:00:00Z',
+        updatedAt: '2024-01-31T12:00:00Z',
+        helpfulVotes: 38,
+        parentId: 'r29-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-23T11:45:00Z'
   },
@@ -664,7 +986,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['periodontics', 'gingival-grafting', 'scaling-root-planing', 'gum-surgery'],
     helpfulVotes: 52,
     views: 1450,
-    replies: [],
+    replies: [
+      {
+        id: 'r30-1',
+        content: 'Thank you for taking the time to explain this so thoroughly!',
+        author: 'John Miller',
+        authorType: 'patient',
+        location: 'Toronto, Canada',
+        createdAt: '2024-01-32T10:30:00Z',
+        updatedAt: '2024-01-32T10:30:00Z',
+        helpfulVotes: 33,
+        status: 'published'
+      },
+      {
+        id: 'r30-2',
+        content: 'You\'re welcome! It\'s my pleasure to provide clear information. Wishing you excellent dental health!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-32T12:00:00Z',
+        updatedAt: '2024-01-32T12:00:00Z',
+        helpfulVotes: 40,
+        parentId: 'r30-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-24T09:20:00Z'
   },
@@ -683,7 +1028,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['endodontics', 'dental-bonding', 'fluoride-treatment', 'root-canal-treatment'],
     helpfulVotes: 61,
     views: 1750,
-    replies: [],
+    replies: [
+      {
+        id: 'r31-1',
+        content: 'Perfect answer! This is exactly the information I was looking for.',
+        author: 'Lakshmi Iyer',
+        authorType: 'patient',
+        location: 'Bangalore, Karnataka',
+        createdAt: '2024-01-33T10:30:00Z',
+        updatedAt: '2024-01-33T10:30:00Z',
+        helpfulVotes: 35,
+        status: 'published'
+      },
+      {
+        id: 'r31-2',
+        content: 'Thank you! I\'m here to ensure you have all the information you need. Feel free to contact us anytime!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-33T12:00:00Z',
+        updatedAt: '2024-01-33T12:00:00Z',
+        helpfulVotes: 42,
+        parentId: 'r31-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-25T13:30:00Z'
   },
@@ -701,7 +1069,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['general-dentistry', 'dental-fillings', 'fluoride-treatment', 'dental-sealants'],
     helpfulVotes: 58,
     views: 1650,
-    replies: [],
+    replies: [
+      {
+        id: 'r32-1',
+        content: 'I appreciate your detailed response. Will be in touch soon!',
+        author: 'Vikram Singh',
+        authorType: 'patient',
+        location: 'Delhi, India',
+        createdAt: '2024-01-34T10:30:00Z',
+        updatedAt: '2024-01-34T10:30:00Z',
+        helpfulVotes: 37,
+        status: 'published'
+      },
+      {
+        id: 'r32-2',
+        content: 'Looking forward to it! We\'ll make sure your experience exceeds expectations!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-34T12:00:00Z',
+        updatedAt: '2024-01-34T12:00:00Z',
+        helpfulVotes: 44,
+        parentId: 'r32-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-26T10:15:00Z'
   },
@@ -720,7 +1111,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['dental-implants', 'implantology', 'bone-grafting', 'sinus-lift'],
     helpfulVotes: 67,
     views: 1900,
-    replies: [],
+    replies: [
+      {
+        id: 'r33-1',
+        content: 'Very reassuring information. Thank you Dr. Samuel!',
+        author: 'Emily Chen',
+        authorType: 'patient',
+        location: 'Singapore',
+        createdAt: '2024-01-35T10:30:00Z',
+        updatedAt: '2024-01-35T10:30:00Z',
+        helpfulVotes: 39,
+        status: 'published'
+      },
+      {
+        id: 'r33-2',
+        content: 'You\'re welcome! I\'m glad this was helpful. Don\'t hesitate to reach out with any other questions!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-35T12:00:00Z',
+        updatedAt: '2024-01-35T12:00:00Z',
+        helpfulVotes: 46,
+        parentId: 'r33-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-27T14:45:00Z'
   },
@@ -738,7 +1152,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['dental-implants', 'all-on-4', 'implant-dentures', 'full-mouth-reconstruction'],
     helpfulVotes: 49,
     views: 1400,
-    replies: [],
+    replies: [
+      {
+        id: 'r34-1',
+        content: 'This explanation is crystal clear. Much appreciated!',
+        author: 'David Smith',
+        authorType: 'patient',
+        location: 'London, UK',
+        createdAt: '2024-01-36T10:30:00Z',
+        updatedAt: '2024-01-36T10:30:00Z',
+        helpfulVotes: 41,
+        status: 'published'
+      },
+      {
+        id: 'r34-2',
+        content: 'Thank you! Clear communication is essential. We\'re here to help whenever you need us!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-36T12:00:00Z',
+        updatedAt: '2024-01-36T12:00:00Z',
+        helpfulVotes: 48,
+        parentId: 'r34-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-28T11:20:00Z'
   },
@@ -757,7 +1194,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['restorative-dentistry', 'dental-crowns', 'porcelain-crowns', 'zirconia-crowns'],
     helpfulVotes: 56,
     views: 1700,
-    replies: [],
+    replies: [
+      {
+        id: 'r35-1',
+        content: 'Excellent advice! I\'ll follow your recommendations.',
+        author: 'Sarah Johnson',
+        authorType: 'patient',
+        location: 'New York, NY, USA',
+        createdAt: '2024-01-37T10:30:00Z',
+        updatedAt: '2024-01-37T10:30:00Z',
+        helpfulVotes: 43,
+        status: 'published'
+      },
+      {
+        id: 'r35-2',
+        content: 'Wonderful! Following professional advice is key to excellent dental health. Best wishes!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-37T12:00:00Z',
+        updatedAt: '2024-01-37T12:00:00Z',
+        helpfulVotes: 50,
+        parentId: 'r35-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-29T16:30:00Z'
   },
@@ -776,7 +1236,30 @@ export const sampleQuestions: Question[] = [
     relatedServices: ['oral-surgery', 'tooth-extraction', 'dental-implants', 'emergency-dentistry'],
     helpfulVotes: 63,
     views: 1850,
-    replies: [],
+    replies: [
+      {
+        id: 'r36-1',
+        content: 'Thank you! This has helped me make an informed decision.',
+        author: 'Kavita Reddy',
+        authorType: 'patient',
+        location: 'Hyderabad, Telangana',
+        createdAt: '2024-01-38T10:30:00Z',
+        updatedAt: '2024-01-38T10:30:00Z',
+        helpfulVotes: 45,
+        status: 'published'
+      },
+      {
+        id: 'r36-2',
+        content: 'You\'re most welcome! Informed decisions lead to better outcomes. All the best!',
+        author: 'Dr. Rockson Samuel',
+        authorType: 'dentist',
+        createdAt: '2024-01-38T12:00:00Z',
+        updatedAt: '2024-01-38T12:00:00Z',
+        helpfulVotes: 52,
+        parentId: 'r36-1',
+        status: 'published'
+      }
+    ],
     conversationCount: 0,
     lastActivity: '2024-01-30T12:15:00Z'
   }
