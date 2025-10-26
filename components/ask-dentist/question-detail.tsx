@@ -4,7 +4,7 @@ import { Question } from '@/lib/types/ask-dentist'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { ThumbsUp, ThumbsDown, Share2, Calendar, User, MessageCircle } from 'lucide-react'
+import { ThumbsUp, ThumbsDown, Share2, Calendar, User, MessageCircle, MapPin } from 'lucide-react'
 import { RepliesSection } from './replies-section'
 
 interface QuestionDetailProps {
@@ -43,11 +43,28 @@ export function QuestionDetail({ question, enhancedAnswer }: QuestionDetailProps
           <div className="flex items-start justify-between">
             <div className="flex-1">
               <ModernCardTitle className="text-2xl mb-4">{question.title}</ModernCardTitle>
-              <div className="flex items-center space-x-4 text-sm text-gray-500 mb-4">
-                <div className="flex items-center">
-                  <User className="w-4 h-4 mr-1" />
-                  Asked by a patient
+              
+              {/* Patient Info */}
+              {(question.patientName || question.location) && (
+                <div className="mb-4 p-3 bg-teal-50 rounded-lg border border-teal-100">
+                  <div className="flex items-center flex-wrap gap-3 text-sm">
+                    {question.patientName && (
+                      <div className="flex items-center text-teal-700 font-semibold">
+                        <User className="w-4 h-4 mr-1" />
+                        {question.patientName}
+                      </div>
+                    )}
+                    {question.location && (
+                      <div className="flex items-center text-teal-600">
+                        <MapPin className="w-4 h-4 mr-1" />
+                        {question.location}
+                      </div>
+                    )}
+                  </div>
                 </div>
+              )}
+              
+              <div className="flex items-center space-x-4 text-sm text-gray-500 mb-4">
                 <div className="flex items-center">
                   <Calendar className="w-4 h-4 mr-1" />
                   {new Date(question.createdAt).toLocaleDateString()}

@@ -4,7 +4,7 @@ import { Reply } from '@/lib/types/ask-dentist'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { ThumbsUp, ThumbsDown, Reply as ReplyIcon, User, Calendar, MessageCircle } from 'lucide-react'
+import { ThumbsUp, ThumbsDown, Reply as ReplyIcon, User, Calendar, MessageCircle, MapPin } from 'lucide-react'
 import { useState } from 'react'
 
 interface RepliesSectionProps {
@@ -84,27 +84,35 @@ export function RepliesSection({ replies, questionId }: RepliesSectionProps) {
           {topLevelReplies.map((reply) => (
             <div key={reply.id} className="space-y-4">
               {/* Main Reply */}
-              <div className="border-l-4 border-teal-200 pl-4">
+              <div className={`${reply.authorType === 'dentist' ? 'bg-gradient-to-r from-teal-50 to-blue-50 border-2 border-teal-200 rounded-lg p-4' : 'border-l-4 border-gray-200 pl-4'}`}>
                 <div className="flex items-start space-x-3">
-                  <div className="w-8 h-8 bg-teal-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-teal-600 font-bold text-sm">
+                  <div className={`${reply.authorType === 'dentist' ? 'w-12 h-12 bg-gradient-to-br from-teal-500 to-blue-500' : 'w-8 h-8 bg-gray-100'} rounded-full flex items-center justify-center flex-shrink-0 shadow-sm`}>
+                    <span className={`${reply.authorType === 'dentist' ? 'text-white font-bold text-base' : 'text-gray-600 font-bold text-sm'}`}>
                       {reply.authorType === 'dentist' ? 'DR' : reply.author.charAt(0)}
                     </span>
                   </div>
                   <div className="flex-1">
-                    <div className="flex items-center space-x-2 mb-2">
-                      <span className="font-semibold text-gray-900">{reply.author}</span>
+                    <div className="flex items-center flex-wrap gap-2 mb-2">
+                      <span className={`${reply.authorType === 'dentist' ? 'text-lg font-bold text-teal-900' : 'font-semibold text-gray-900'}`}>
+                        {reply.author}
+                      </span>
                       <Badge 
                         variant={reply.authorType === 'dentist' ? 'default' : 'secondary'}
-                        className="text-xs"
+                        className={`text-xs ${reply.authorType === 'dentist' ? 'bg-teal-600' : ''}`}
                       >
-                        {reply.authorType === 'dentist' ? 'Dentist' : 'Patient'}
+                        {reply.authorType === 'dentist' ? '✓ Verified Dentist' : 'Patient'}
                       </Badge>
+                      {reply.location && (
+                        <span className="flex items-center text-xs text-teal-600">
+                          <MapPin className="w-3 h-3 mr-1" />
+                          {reply.location}
+                        </span>
+                      )}
                       <span className="text-sm text-gray-500">
                         {new Date(reply.createdAt).toLocaleDateString()}
                       </span>
                     </div>
-                    <p className="text-gray-700 leading-relaxed mb-3">{reply.content}</p>
+                    <p className={`${reply.authorType === 'dentist' ? 'text-gray-800 font-medium' : 'text-gray-700'} leading-relaxed mb-3`}>{reply.content}</p>
                     <div className="flex items-center space-x-4">
                       <Button
                         variant="ghost"
@@ -132,27 +140,33 @@ export function RepliesSection({ replies, questionId }: RepliesSectionProps) {
               {groupedReplies[reply.id] && groupedReplies[reply.id].length > 0 && (
                 <div className="ml-8 space-y-3">
                   {groupedReplies[reply.id].map((nestedReply) => (
-                    <div key={nestedReply.id} className="border-l-2 border-gray-200 pl-4">
+                    <div key={nestedReply.id} className={`${nestedReply.authorType === 'dentist' ? 'bg-gradient-to-r from-teal-50 to-blue-50 border border-teal-200 rounded-lg p-3' : 'border-l-2 border-gray-200 pl-4'}`}>
                       <div className="flex items-start space-x-3">
-                        <div className="w-6 h-6 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
-                          <span className="text-gray-600 font-bold text-xs">
+                        <div className={`${nestedReply.authorType === 'dentist' ? 'w-8 h-8 bg-gradient-to-br from-teal-500 to-blue-500' : 'w-6 h-6 bg-gray-100'} rounded-full flex items-center justify-center flex-shrink-0`}>
+                          <span className={`${nestedReply.authorType === 'dentist' ? 'text-white' : 'text-gray-600'} font-bold text-xs`}>
                             {nestedReply.authorType === 'dentist' ? 'DR' : nestedReply.author.charAt(0)}
                           </span>
                         </div>
                         <div className="flex-1">
-                          <div className="flex items-center space-x-2 mb-1">
-                            <span className="font-medium text-gray-900 text-sm">{nestedReply.author}</span>
+                          <div className="flex items-center flex-wrap gap-2 mb-1">
+                            <span className={`${nestedReply.authorType === 'dentist' ? 'font-bold text-teal-900' : 'font-medium text-gray-900'} text-sm`}>{nestedReply.author}</span>
                             <Badge 
                               variant={nestedReply.authorType === 'dentist' ? 'default' : 'secondary'}
-                              className="text-xs"
+                              className={`text-xs ${nestedReply.authorType === 'dentist' ? 'bg-teal-600' : ''}`}
                             >
-                              {nestedReply.authorType === 'dentist' ? 'Dentist' : 'Patient'}
+                              {nestedReply.authorType === 'dentist' ? '✓ Verified Dentist' : 'Patient'}
                             </Badge>
+                            {nestedReply.location && (
+                              <span className="flex items-center text-xs text-teal-600">
+                                <MapPin className="w-3 h-3 mr-1" />
+                                {nestedReply.location}
+                              </span>
+                            )}
                             <span className="text-xs text-gray-500">
                               {new Date(nestedReply.createdAt).toLocaleDateString()}
                             </span>
                           </div>
-                          <p className="text-gray-700 text-sm leading-relaxed mb-2">{nestedReply.content}</p>
+                          <p className={`${nestedReply.authorType === 'dentist' ? 'text-gray-800 font-medium' : 'text-gray-700'} text-sm leading-relaxed mb-2`}>{nestedReply.content}</p>
                           <div className="flex items-center space-x-3">
                             <Button
                               variant="ghost"
