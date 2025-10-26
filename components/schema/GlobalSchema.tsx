@@ -272,7 +272,6 @@ export function GlobalSchema() {
           "value": "8"
         },
         "foundingDate": "2008",
-        "yearsInOperation": 17,
         "sameAs": [
           "https://www.facebook.com/indiradentalclinicvellore/",
           "https://www.instagram.com/indiradentalvellore/",
@@ -340,7 +339,7 @@ export function GlobalSchema() {
         ]
       },
       {
-        "@type": ["Person", "Dentist", "MedicalPractitioner"],
+        "@type": ["Person", "Dentist"],
         "@id": "https://www.dentalclinicinvellore.in/#person-drrocksonsam uel",
         "name": "Dr. Rockson Samuel",
         "givenName": "Rockson",
@@ -444,9 +443,6 @@ export function GlobalSchema() {
         "hasOccupation": {
           "@type": "Occupation",
           "name": "Dentist",
-          "occupationLocation": {
-            "@id": "https://www.dentalclinicinvellore.in/#address"
-          },
           "experienceRequirements": "15+ years",
           "skills": [
             "Root Canal Treatment",
@@ -462,24 +458,6 @@ export function GlobalSchema() {
           "Community Leader - DentalReach",
           "Member - Indian Dental Association",
           "Member - Tamil Nadu Dental Council"
-        ],
-        "performerIn": [
-          {
-            "@type": "MedicalProcedure",
-            "name": "Root Canal Treatment"
-          },
-          {
-            "@type": "MedicalProcedure",
-            "name": "Dental Implant Surgery"
-          },
-          {
-            "@type": "MedicalProcedure",
-            "name": "Orthodontic Treatment"
-          },
-          {
-            "@type": "MedicalProcedure",
-            "name": "Cosmetic Dental Procedures"
-          }
         ],
         "telephone": "+91-7010650063",
         "email": "rockson68@hotmail.com"
