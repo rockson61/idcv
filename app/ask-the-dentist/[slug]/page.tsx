@@ -15,9 +15,9 @@ import { Button } from '@/components/ui/button'
 import { ArrowLeft, MessageCircle, Calendar, User, Eye, ThumbsUp } from 'lucide-react'
 
 interface QuestionPageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 export async function generateStaticParams() {
