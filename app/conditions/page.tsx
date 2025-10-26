@@ -11,7 +11,7 @@ import {
   Activity, 
   Shield,
   HeartPulse,
-  Tooth,
+  Sparkles,
   Flame,
   Droplet,
   AlertTriangle,
@@ -222,7 +222,7 @@ export default function ConditionsPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {treatments.map((treatment, index) => (
               <GlassCard key={index} className="p-6">
-                <Tooth className="w-10 h-10 text-teal-600 mb-3" />
+                <Sparkles className="w-10 h-10 text-teal-600 mb-3" />
                 <h3 className="text-lg font-bold mb-2">{treatment.name}</h3>
                 <p className="text-gray-600 text-sm mb-3">{treatment.description}</p>
                 <div className="flex flex-wrap gap-2">
