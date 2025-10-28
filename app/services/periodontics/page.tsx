@@ -199,9 +199,8 @@ export default function PeriodonticsPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-red-100 text-red-700 border-red-200">Periodontics</Badge>
-              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                Expert Gum Disease
-                <span className="text-red-600"> Treatment</span>
+              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Periodontal Treatment Doctors in India - Periodontist Near Me
               </h1>
               <p className="text-xl text-gray-600 mb-8">
                 Comprehensive periodontal care in Vellore with advanced treatments for gum disease, scaling and root

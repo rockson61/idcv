@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import { ServicePeopleAlsoSearchFor } from '@/components/service/ServicePeopleAlsoSearchFor'
 
 export const metadata: Metadata = {
   title: "Dental Crowns | Restorative Dentistry | Indira Dental Clinic Vellore",
@@ -12,7 +13,9 @@ export default function CrownsPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">Dental Crowns</h1>
+        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Restorative Dentistry Doctors in India - Restorative Dentist Near Me
+              </h1>
         <p className="text-lg text-gray-600">
           Restore damaged teeth with custom-made dental crowns that look and function like natural teeth.
         </p>
@@ -195,7 +198,10 @@ export default function CrownsPage() {
               Many dental insurance plans provide partial coverage for crowns, especially when they're medically
               necessary. Our team can help verify your benefits and explain your out-of-pocket costs.
             </p>
-          </div>
+          
+        <ServicePeopleAlsoSearchFor serviceName="" />
+
+        </div>
         </div>
       </div>
     </div>

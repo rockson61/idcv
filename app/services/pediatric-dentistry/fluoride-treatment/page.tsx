@@ -29,7 +29,9 @@ export default function FluorideTreatmentPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-green-100 text-green-700"><Shield className="w-4 h-4 inline mr-1" />Cavity Prevention</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Fluoride Treatment for Kids</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Pediatric Dentistry Doctors in India - Pediatric Dentist Near Me
+              </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Professional fluoride application to strengthen teeth and prevent cavities. Safe, painless, quick procedure for children.</p>
           </div>
 

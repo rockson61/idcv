@@ -12,7 +12,9 @@ export const metadata: Metadata = {
 export default function DentalBondingPage() {
   return (
     <main className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl md:text-4xl font-bold mb-6">Expert Dental Bonding in Vellore</h1>
+      <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Cosmetic Dentistry Doctors in India - Cosmetic Dentist Near Me
+              </h1>
 
       <div className="prose max-w-none">
         <p className="text-lg mb-6">

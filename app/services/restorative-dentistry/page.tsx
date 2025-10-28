@@ -243,11 +243,9 @@ export default function RestorativeDentistryPage() {
               <Sparkles className="h-3.5 w-3.5" />
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
-              <span className="bg-gradient-to-r from-blue-600 via-teal-600 to-blue-600 bg-clip-text text-transparent">
-                Restorative Dentistry
-              </span>
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Restorative Dentistry Doctors in India - Restorative Dentist Near Me
+              </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-4 leading-relaxed">
               Restore your teeth to <span className="font-semibold text-blue-600">optimal health</span>, function, and beauty with our advanced restorative dentistry services.

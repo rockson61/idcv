@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
   title: "Dry Mouth (Xerostomia) | Dental Conditions | Indira Dental Clinic Vellore",
@@ -12,7 +13,7 @@ export default function DryMouthPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">Dry Mouth (Xerostomia)</h1>
+        <h1 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">Dry Mouth (Xerostomia) Causes, Symptoms & Treatment</h1>
         <p className="text-lg text-gray-600">
           Understanding the causes, symptoms, and treatments for insufficient saliva production.
         </p>

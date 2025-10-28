@@ -57,9 +57,9 @@ export default function PocketReductionSurgeryPage() {
             <Badge className="mb-4 bg-teal-100 text-teal-700 border-teal-200">
               Periodontal Surgery
             </Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Pocket Reduction Surgery
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Periodontal Treatment Doctors in India - Periodontist Near Me
+              </h1>
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
               Advanced periodontal surgery to eliminate deep gum pockets and halt progressive bone loss for long-term oral health.
             </p>

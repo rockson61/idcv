@@ -45,33 +45,55 @@ const nearbyAreas = {
 
 const quickLinks = {
   services: [
-    { name: "Root Canal Treatment (RCT)", href: "/services/root-canal-treatment" },
+    { name: "Root Canal Treatment", href: "/services/root-canal-treatment" },
     { name: "Dental Implants", href: "/services/dental-implants" },
-    { name: "Invisalign Clear Aligners", href: "/services/orthodontics/invisalign" },
+    { name: "Invisalign & Clear Aligners", href: "/services/orthodontics/invisalign" },
     { name: "Teeth Whitening", href: "/services/cosmetic-dentistry/teeth-whitening" },
     { name: "Orthodontic Braces", href: "/services/orthodontics" },
     { name: "Cosmetic Dentistry", href: "/services/cosmetic-dentistry" },
-    { name: "Dental Crowns", href: "/services/prosthodontics/dental-crowns" },
+    { name: "Dental Crowns & Bridges", href: "/services/prosthodontics/dental-crowns" },
     { name: "Gum Disease Treatment", href: "/services/periodontics" },
     { name: "Pediatric Dentistry", href: "/services/pediatric-dentistry" },
     { name: "Emergency Dental Care", href: "/services/emergency-dentistry" },
+    { name: "Wisdom Teeth Removal", href: "/services/oral-surgery/wisdom-teeth-removal" },
     { name: "Tooth Extraction", href: "/services/oral-surgery/tooth-extraction" },
-    { name: "Dental Fillings", href: "/services/general-dentistry/fillings" },
-    { name: "View All Services →", href: "/services" },
+    { name: "Dental Fillings", href: "/services/restorative-dentistry/dental-fillings" },
+    { name: "Dentures", href: "/services/prosthodontics/dentures" },
+    { name: "All-on-4 Implants", href: "/services/dental-implants/all-on-4-implants" },
+    { name: "Sedation Dentistry", href: "/services/sedation-dentistry" },
+    { name: "Laser Dentistry", href: "/services/specialized-services/laser-dentistry" },
+    { name: "TMJ Treatment", href: "/services/tmj-treatment" },
+    { name: "View All 100+ Services →", href: "/services" },
   ],
   conditions: [
     { name: "Tooth Decay & Cavities", href: "/conditions/tooth-decay" },
-    { name: "Gum Disease", href: "/conditions/gum-disease" },
+    { name: "Gum Disease & Gingivitis", href: "/conditions/gum-disease" },
     { name: "Tooth Sensitivity", href: "/conditions/tooth-sensitivity" },
-    { name: "Bad Breath (Halitosis)", href: "/conditions/bad-breath" },
-    { name: "Dry Mouth", href: "/conditions/dry-mouth" },
-    { name: "Bruxism (Teeth Grinding)", href: "/conditions/bruxism" },
+    { name: "Bad Breath Treatment", href: "/services/bad-breath-treatment" },
+    { name: "Dry Mouth (Xerostomia)", href: "/conditions/dry-mouth" },
+    { name: "Teeth Grinding (Bruxism)", href: "/conditions/bruxism" },
     { name: "Tooth Abscess", href: "/conditions/tooth-abscess" },
-    { name: "Cracked Teeth", href: "/conditions/cracked-teeth" },
+    { name: "Cracked & Broken Teeth", href: "/conditions/cracked-teeth" },
     { name: "Receding Gums", href: "/conditions/receding-gums" },
     { name: "Tooth Erosion", href: "/conditions/tooth-erosion" },
-    { name: "Impacted Teeth", href: "/conditions/impacted-teeth" },
-    { name: "View All Conditions →", href: "/conditions" },
+    { name: "Impacted Wisdom Teeth", href: "/conditions/impacted-teeth" },
+    { name: "Missing Teeth", href: "/services/dental-implants" },
+    { name: "Crooked Teeth", href: "/services/orthodontics" },
+    { name: "Stained/Yellow Teeth", href: "/services/cosmetic-dentistry/teeth-whitening" },
+    { name: "View All Dental Conditions →", href: "/conditions" },
+  ],
+  tamilNaduCities: [
+    { name: "Best Dentist in Vellore", href: "/in/tamil-nadu/vellore" },
+    { name: "Best Dentist in Ranipet", href: "/in/tamil-nadu/ranipet" },
+    { name: "Best Dentist in Tirupattur", href: "/in/tamil-nadu/tirupattur" },
+    { name: "Best Dentist in Tiruvannamalai", href: "/in/tamil-nadu/tiruvannamalai" },
+    { name: "Best Dentist in Kanchipuram", href: "/in/tamil-nadu/kanchipuram" },
+    { name: "Best Dentist in Chennai", href: "/in/tamil-nadu/chennai" },
+    { name: "Best Dentist in Coimbatore", href: "/in/tamil-nadu/coimbatore" },
+    { name: "Best Dentist in Salem", href: "/in/tamil-nadu/salem" },
+    { name: "Best Dentist in Madurai", href: "/in/tamil-nadu/madurai" },
+    { name: "Best Dentist in Chengalpattu", href: "/in/tamil-nadu/chengalpattu" },
+    { name: "View All TN Districts →", href: "/in/tamil-nadu" },
   ],
   company: [
     { name: "About Indira Dental Clinic", href: "/about-us" },
@@ -92,7 +114,7 @@ const quickLinks = {
     { name: "Insurance & Financing", href: "/financing" },
     { name: "Frequently Asked Questions", href: "/faq" },
     { name: "Contact & Directions", href: "/contact" },
-    { name: "Book Appointment", href: "/contact" },
+    { name: "Book Appointment", href: "/contact#appointment" },
   ],
 }
 
@@ -292,6 +314,83 @@ export function Footer() {
                   </li>
                 ))}
               </ul>
+            </div>
+          </div>
+
+          {/* Tamil Nadu Districts */}
+          <div className="mt-12 pt-8 border-t border-gray-800">
+            <h3 className="font-bold text-white mb-6 text-lg">Best Dentist in Tamil Nadu Districts</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
+              {quickLinks.tamilNaduCities.map((link) => (
+                <Link 
+                  key={link.href} 
+                  href={link.href} 
+                  className="text-gray-400 hover:text-teal-400 transition-colors text-sm flex items-center gap-1 group"
+                >
+                  <ArrowRight className="h-3 w-3 group-hover:translate-x-1 transition-transform flex-shrink-0" />
+                  <span className="truncate">{link.name.replace('Best Dentist in ', '')}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Google Map Section */}
+          <div className="mt-12 pt-8 border-t border-gray-800">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Map Embed */}
+              <div>
+                <h3 className="font-bold text-white mb-4 text-lg flex items-center gap-2">
+                  <MapPin className="h-5 w-5 text-teal-400" />
+                  Find Us on Google Maps
+                </h3>
+                <div className="rounded-lg overflow-hidden border-2 border-gray-700 shadow-xl">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2784186240674!2d79.1369615!3d12.9540278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad394e9843620f%3A0xc7a4b2fb0991e086!2sIndira%20Dental%20Clinic%20%7C%20Dr%20Rockson%20Samuel%20%7C%20Top%20Dentist%20in%20Vellore%20for%20RCT%2C%20Braces%2C%20Implants%2C%20%26%20Dental%20Fillings!5e0!3m2!1sen!2sin!4v1761639111586!5m2!1sen!2sin"
+                    width="100%"
+                    height="450"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Indira Dental Clinic | Dr Rockson Samuel | Top Dentist in Vellore"
+                  ></iframe>
+                </div>
+                <div className="mt-4 flex flex-col gap-2">
+                  <a 
+                    href="https://www.google.com/maps?cid=14385819900995297414"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 text-sm font-semibold"
+                  >
+                    <Navigation className="h-4 w-4" />
+                    Get Directions to Clinic →
+                  </a>
+                  <a 
+                    href="https://www.google.com/maps?cid=14385819900995297414"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 text-sm font-semibold"
+                  >
+                    <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                    View 500+ Google Reviews (5.0★) →
+                  </a>
+                </div>
+              </div>
+
+              {/* Conditions List */}
+              <div>
+                <h3 className="font-bold text-white mb-4 text-lg">Dental Conditions We Treat</h3>
+                <ul className="grid grid-cols-1 gap-2">
+                  {quickLinks.conditions.map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href} className="text-gray-400 hover:text-teal-400 transition-colors text-sm flex items-center gap-2 group">
+                        <ArrowRight className="h-3 w-3 group-hover:translate-x-1 transition-transform" />
+                        {link.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
 

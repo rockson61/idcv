@@ -4,6 +4,7 @@ import Image from "next/image"
 import { Breadcrumb } from "@/components/breadcrumb"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { ServicePeopleAlsoSearchFor } from '@/components/service/ServicePeopleAlsoSearchFor'
 
 export default function DentalCheckUpsPage() {
   return (
@@ -24,7 +25,9 @@ export default function DentalCheckUpsPage() {
       {/* Hero Section */}
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold mb-4">Comprehensive Dental Check-ups</h1>
+          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Dental Check Ups Doctors in India - Dental Specialist Near Me
+              </h1>
           <p className="text-xl text-muted-foreground mb-8">
             Regular dental examinations to maintain your oral health and prevent dental problems
           </p>
@@ -173,7 +176,10 @@ export default function DentalCheckUpsPage() {
                   <p>We'll provide personalized advice on improving your home oral care routine.</p>
                 </CardContent>
               </Card>
-            </div>
+            
+        <ServicePeopleAlsoSearchFor serviceName="" />
+
+        </div>
           </div>
         </div>
       </div>

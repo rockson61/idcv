@@ -52,8 +52,8 @@ export default function SingleSittingRCTPage() {
                 <Zap className="w-4 h-4 mr-2" />
                 Same Day Treatment
               </Badge>
-              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Single Sitting RCT in Vellore
+              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Root Canal Treatment Doctors in India - Endodontist Near Me
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Complete your root canal treatment in just one visit! Get pain-free, same-day RCT in Vellore with advanced techniques by Dr. Rockson Samuel at 50% lower cost.

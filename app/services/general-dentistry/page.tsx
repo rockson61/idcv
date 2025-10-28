@@ -205,9 +205,9 @@ export default function GeneralDentistryPage() {
               <Shield className="w-4 h-4 inline mr-1" />
               Comprehensive Oral Care
             </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              General Dentistry Services in Vellore
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best General Dentistry Doctors in India - Dental Specialist Near Me
+              </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
               Complete dental care for the whole family. From routine checkups to advanced treatments, Dr. Rockson Samuel provides comprehensive general dentistry services to maintain your oral health.
             </p>

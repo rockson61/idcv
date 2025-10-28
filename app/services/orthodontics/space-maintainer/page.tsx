@@ -57,9 +57,9 @@ export default function SpaceMaintainerPage() {
             <Badge className="mb-4 bg-teal-100 text-teal-700 border-teal-200">
               Orthodontic Treatment
             </Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Space Maintainer Treatment
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Orthodontic Treatment Doctors in India - Orthodontist Near Me
+              </h1>
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
               Preserve space for permanent teeth with custom-made space maintainers after premature loss of primary teeth.
             </p>

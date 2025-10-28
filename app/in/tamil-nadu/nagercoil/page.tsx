@@ -113,7 +113,7 @@ export default function NagercoilPage() {
 
   const doctorInfo = {
     name: 'Dr. Rockson Samuel',
-    qualification: 'BDS, MDS (Oral & Maxillofacial Surgery)',
+    qualification: 'BDS, PgDM, BDM | General Dentist & Community Leader - DentalReach',
     experience: '15+ Years',
     specializations: ['Dental Implants', 'Root Canal Treatment', 'Cosmetic Dentistry', 'Orthodontics'],
     image: '/dr-rockson-samuel-best-dentist-vellore.jpg'
@@ -136,7 +136,7 @@ export default function NagercoilPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Dental Services in Nagercoil
+            Best Dentist and Dental Clinic in Nagercoil
           </h1>
           <p className="text-lg text-gray-700 max-w-转入 mx-auto mb-8">
             Experience world-class dental care in Nagercoil, Tamil Nadu. Our expert dentists 

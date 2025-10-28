@@ -6,6 +6,7 @@ import { GlassCard } from "@/components/ui/glass-card"
 import { Badge } from "@/components/ui/badge"
 import { AlertCircle, CheckCircle, Moon, Shield, Zap } from "lucide-react"
 import { ConditionSemanticContent } from "@/components/sections/condition-semantic-content"
+import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
   title: "Bruxism (Teeth Grinding) Treatment | Night Guards | Vellore",

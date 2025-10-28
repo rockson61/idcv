@@ -25,7 +25,9 @@ export default function PreventiveDentistryPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-green-100 text-green-700">Prevention is Better Than Cure</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Preventive Dentistry Services</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Preventive Dentistry Doctors in India - Dental Specialist Near Me
+              </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Maintain optimal oral health with regular preventive care. Save money and avoid complex treatments.</p>
           </div>
 

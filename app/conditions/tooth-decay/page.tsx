@@ -6,6 +6,7 @@ import { RelevantQAWidget } from "@/components/widgets/relevant-qa-widget"
 import { CompactServiceWidget } from "@/components/widgets/compact-service-widget"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { ConditionSemanticContent } from "@/components/sections/condition-semantic-content"
+import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
   title: "Tooth Decay Treatment | Cavity Prevention | Indira Dental Clinic",
@@ -25,9 +26,9 @@ export default function ToothDecayPage() {
         ]}
       />
 
-      <h1 className="text-3xl md:text-4xl font-bold mb-6">Tooth Decay Treatment</h1>
+      <h1 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">Tooth Decay Causes, Symptoms & Treatment</h1>
 
-      <div className="prose max-w-none">
+      <div className="prose prose-lg max-w-none">
         <p className="text-lg mb-6">
           <strong>Tooth decay</strong> (dental caries) is one of the most common dental problems worldwide. At Indira
           Dental Clinic in Vellore, we provide comprehensive care for preventing and treating tooth decay at all stages,
@@ -298,6 +299,13 @@ export default function ToothDecayPage() {
           showRating={true}
           showAvailability={true}
         />
+
+      {/* Medicine & Drugs Section */}
+      <MedicineSection 
+        conditionName="Tooth Decay"
+        medicines={commonMedicines.toothDecay}
+      />
+
       </div>
     </main>
   )

@@ -25,7 +25,9 @@ export default function OralCancerScreeningPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-red-100 text-red-700"><AlertTriangle className="w-4 h-4 inline mr-1" />Early Detection Saves Lives</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Oral Cancer Screening & Detection</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Oral Cancer Screening Doctors in India - Dental Specialist Near Me
+              </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Comprehensive oral cancer screening using advanced diagnostic techniques. Early detection significantly improves treatment outcomes and survival rates.</p>
           </div>
 

@@ -1,0 +1,8267 @@
+{
+  "locations": [
+    {
+      "name": "A Kattupadi",
+      "slug": "a-kattupadi",
+      "taluk": "Vlr",
+      "pincode": "632011"
+    },
+    {
+      "name": "Abdullapuram",
+      "slug": "abdullapuram",
+      "taluk": "Vellore",
+      "pincode": "632010"
+    },
+    {
+      "name": "Achamangalam",
+      "slug": "achamangalam",
+      "taluk": "Tirupattur",
+      "pincode": "635651"
+    },
+    {
+      "name": "Adiyur",
+      "slug": "adiyur",
+      "taluk": "Tirupathur",
+      "pincode": "635602"
+    },
+    {
+      "name": "Agaram",
+      "slug": "agaram",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Agaram TPT",
+      "slug": "agaram-tpt",
+      "taluk": "Tirupathur",
+      "pincode": "635653"
+    },
+    {
+      "name": "Agaramcherry",
+      "slug": "agaramcherry",
+      "taluk": "Vaniyambadi",
+      "pincode": "635804"
+    },
+    {
+      "name": "Agraharam Gudiyattam",
+      "slug": "agraharam-gudiyattam",
+      "taluk": "Gudiyattam",
+      "pincode": "632604"
+    },
+    {
+      "name": "Agraharam Tirupattur",
+      "slug": "agraharam-tirupattur",
+      "taluk": "Tirupattur",
+      "pincode": "635651"
+    },
+    {
+      "name": "Akkachikuppam",
+      "slug": "akkachikuppam",
+      "taluk": "Arakkonam",
+      "pincode": "632510"
+    },
+    {
+      "name": "Alangayam",
+      "slug": "alangayam",
+      "taluk": "Vaniyambadi",
+      "pincode": "635701"
+    },
+    {
+      "name": "Alankuppam",
+      "slug": "alankuppam",
+      "taluk": "Vaniyambadi",
+      "pincode": "635814"
+    },
+    {
+      "name": "Alapakkam",
+      "slug": "alapakkam",
+      "taluk": "Walajapet",
+      "pincode": "632508"
+    },
+    {
+      "name": "Alasandapuram",
+      "slug": "alasandapuram",
+      "taluk": "Tirupattur",
+      "pincode": "635801"
+    },
+    {
+      "name": "Alleri",
+      "slug": "alleri",
+      "taluk": "Vlr",
+      "pincode": "632101"
+    },
+    {
+      "name": "Ambalur",
+      "slug": "ambalur",
+      "taluk": "Tirupattur",
+      "pincode": "635801"
+    },
+    {
+      "name": "Ambur",
+      "slug": "ambur",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Ambur Bazaar",
+      "slug": "ambur-bazaar",
+      "taluk": "Vaniyambadi",
+      "pincode": "635802"
+    },
+    {
+      "name": "Amirdhi",
+      "slug": "amirdhi",
+      "taluk": "Vlr",
+      "pincode": "632102"
+    },
+    {
+      "name": "Ammanur",
+      "slug": "ammanur",
+      "taluk": "Arakkonam",
+      "pincode": "631002"
+    },
+    {
+      "name": "Ammoor",
+      "slug": "ammoor",
+      "taluk": "Wallajah",
+      "pincode": "632501"
+    },
+    {
+      "name": "Ammundi",
+      "slug": "ammundi",
+      "taluk": "Walajapet",
+      "pincode": "632519"
+    },
+    {
+      "name": "Ampuram",
+      "slug": "ampuram",
+      "taluk": "Vellore",
+      "pincode": "632009"
+    },
+    {
+      "name": "Anaicut",
+      "slug": "anaicut",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Anaikkattu",
+      "slug": "anaikkattu",
+      "taluk": "Vellore",
+      "pincode": "632101"
+    },
+    {
+      "name": "Anaimallur",
+      "slug": "anaimallur",
+      "taluk": "Arcot",
+      "pincode": "632507"
+    },
+    {
+      "name": "Anaipakkam",
+      "slug": "anaipakkam",
+      "taluk": "Arakkonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Anandhalai",
+      "slug": "anandhalai",
+      "taluk": "Walajapet",
+      "pincode": "632513"
+    },
+    {
+      "name": "Ananganallore",
+      "slug": "ananganallore",
+      "taluk": "Gudiyattam",
+      "pincode": "635806"
+    },
+    {
+      "name": "Ananthangal",
+      "slug": "ananthangal",
+      "taluk": "Arcot",
+      "pincode": "632511"
+    },
+    {
+      "name": "Andiappanur",
+      "slug": "andiappanur",
+      "taluk": "Tirupattur",
+      "pincode": "635702"
+    },
+    {
+      "name": "Anganathavalasai",
+      "slug": "anganathavalasai",
+      "taluk": "Tirupattur",
+      "pincode": "635652"
+    },
+    {
+      "name": "Angarankuppam",
+      "slug": "angarankuppam",
+      "taluk": "Katpadi",
+      "pincode": "632204"
+    },
+    {
+      "name": "Annangudi",
+      "slug": "annangudi",
+      "taluk": "Katpadi",
+      "pincode": "632202"
+    },
+    {
+      "name": "Anvardhikhanpet",
+      "slug": "anvardhikhanpet",
+      "taluk": "Arakkonam",
+      "pincode": "632502"
+    },
+    {
+      "name": "Appukal",
+      "slug": "appukal",
+      "taluk": "Vellore",
+      "pincode": "632101"
+    },
+    {
+      "name": "Arakkonam",
+      "slug": "arakkonam",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Arangaldurgam",
+      "slug": "arangaldurgam",
+      "taluk": "Vaniyambadi",
+      "pincode": "635811"
+    },
+    {
+      "name": "Arapakkam",
+      "slug": "arapakkam",
+      "taluk": "Walajapet",
+      "pincode": "632517"
+    },
+    {
+      "name": "Aravatla",
+      "slug": "aravatla",
+      "taluk": "Gudiyattam",
+      "pincode": "635810"
+    },
+    {
+      "name": "Arcot",
+      "slug": "arcot",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Arcot Bazaar",
+      "slug": "arcot-bazaar",
+      "taluk": "Arcot",
+      "pincode": "632503"
+    },
+    {
+      "name": "Arcot West",
+      "slug": "arcot-west",
+      "taluk": "Arcot",
+      "pincode": "632503"
+    },
+    {
+      "name": "Arigilapadi",
+      "slug": "arigilapadi",
+      "taluk": "Arakkonam",
+      "pincode": "631151"
+    },
+    {
+      "name": "Arimalai",
+      "slug": "arimalai",
+      "taluk": "Vlr",
+      "pincode": "632107"
+    },
+    {
+      "name": "Ariyur Spinning Mills",
+      "slug": "ariyur-spinning-mills",
+      "taluk": "Vellore",
+      "pincode": "632055"
+    },
+    {
+      "name": "Ariyur Vellore",
+      "slug": "ariyur-vellore",
+      "taluk": "Vellore",
+      "pincode": "632055"
+    },
+    {
+      "name": "Arumbakkam",
+      "slug": "arumbakkam",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Arumbakkam Katpadi",
+      "slug": "arumbakkam-katpadi",
+      "taluk": "Katpadi",
+      "pincode": "632202"
+    },
+    {
+      "name": "Arumparuthi",
+      "slug": "arumparuthi",
+      "taluk": "Katpadi",
+      "pincode": "632106"
+    },
+    {
+      "name": "Arungundram",
+      "slug": "arungundram",
+      "taluk": "Walajapet",
+      "pincode": "632509"
+    },
+    {
+      "name": "Asamandhur",
+      "slug": "asamandhur",
+      "taluk": "Arakkonam",
+      "pincode": "632502"
+    },
+    {
+      "name": "Asanamabattu",
+      "slug": "asanamabattu",
+      "taluk": "Vlr",
+      "pincode": "632107"
+    },
+    {
+      "name": "Ashoknagar Vellore",
+      "slug": "ashoknagar-vellore",
+      "taluk": "Arakonam",
+      "pincode": "631001"
+    },
+    {
+      "name": "Asiriyar Nagar",
+      "slug": "asiriyar-nagar",
+      "taluk": "Tirupathur",
+      "pincode": "635601"
+    },
+    {
+      "name": "Athiperumanur",
+      "slug": "athiperumanur",
+      "taluk": "Tirupathur",
+      "pincode": "635852"
+    },
+    {
+      "name": "Athipet",
+      "slug": "athipet",
+      "taluk": "Tirupathur",
+      "pincode": "635703"
+    },
+    {
+      "name": "Athurkuppam",
+      "slug": "athurkuppam",
+      "taluk": "Tirupattur",
+      "pincode": "635815"
+    },
+    {
+      "name": "Attupakkam",
+      "slug": "attupakkam",
+      "taluk": "Arakkonam",
+      "pincode": "631051"
+    },
+    {
+      "name": "Avarankuppam",
+      "slug": "avarankuppam",
+      "taluk": "Vaniyambadi",
+      "pincode": "635801"
+    },
+    {
+      "name": "Ayal",
+      "slug": "ayal",
+      "taluk": "Arakkonam",
+      "pincode": "632505"
+    },
+    {
+      "name": "Ayarpadi",
+      "slug": "ayarpadi",
+      "taluk": "Arakkonam",
+      "pincode": "632531"
+    },
+    {
+      "name": "Ayilam",
+      "slug": "ayilam",
+      "taluk": "Walajapet",
+      "pincode": "632509"
+    },
+    {
+      "name": "Ayipedu",
+      "slug": "ayipedu",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "Bagayam",
+      "slug": "bagayam",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Bakiyath",
+      "slug": "bakiyath",
+      "taluk": "Vellore",
+      "pincode": "632004"
+    },
+    {
+      "name": "Banavaram",
+      "slug": "banavaram",
+      "taluk": "Arakkonam",
+      "pincode": "632505"
+    },
+    {
+      "name": "Bandarapalli",
+      "slug": "bandarapalli",
+      "taluk": "Tirupattur",
+      "pincode": "635854"
+    },
+    {
+      "name": "Bheemakulam",
+      "slug": "bheemakulam",
+      "taluk": "Vaniyambadi",
+      "pincode": "635701"
+    },
+    {
+      "name": "Bhel Ranipet",
+      "slug": "bhel-ranipet",
+      "taluk": "Walajapet",
+      "pincode": "632406"
+    },
+    {
+      "name": "Bhuvaneswaripet",
+      "slug": "bhuvaneswaripet",
+      "taluk": "Gudiyatham",
+      "pincode": "632602"
+    },
+    {
+      "name": "Bn Palayam",
+      "slug": "bn-palayam",
+      "taluk": "Katpadi",
+      "pincode": "632202"
+    },
+    {
+      "name": "Bommikuppam",
+      "slug": "bommikuppam",
+      "taluk": "Tirupattur",
+      "pincode": "635653"
+    },
+    {
+      "name": "Bramhapuram",
+      "slug": "bramhapuram",
+      "taluk": "Katpadi",
+      "pincode": "632014"
+    },
+    {
+      "name": "Budur",
+      "slug": "budur",
+      "taluk": "Vlr",
+      "pincode": "632105"
+    },
+    {
+      "name": "Chandrapuram",
+      "slug": "chandrapuram",
+      "taluk": "Tirupattur",
+      "pincode": "635651"
+    },
+    {
+      "name": "Chendathur",
+      "slug": "chendathur",
+      "taluk": "Gudiyattam",
+      "pincode": "635805"
+    },
+    {
+      "name": "Chengalnatham",
+      "slug": "chengalnatham",
+      "taluk": "Wallajah",
+      "pincode": "632520"
+    },
+    {
+      "name": "Chennankuppam",
+      "slug": "chennankuppam",
+      "taluk": "Katpadi",
+      "pincode": "632209"
+    },
+    {
+      "name": "Chennasamudram",
+      "slug": "chennasamudram",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Chettiappanur",
+      "slug": "chettiappanur",
+      "taluk": "Vaniyambadi",
+      "pincode": "635751"
+    },
+    {
+      "name": "Chettikuppam",
+      "slug": "chettikuppam",
+      "taluk": "Gudiyattam",
+      "pincode": "635806"
+    },
+    {
+      "name": "Chikkanankuppam",
+      "slug": "chikkanankuppam",
+      "taluk": "Tirupattur",
+      "pincode": "635801"
+    },
+    {
+      "name": "Chinnadamalcheruvu",
+      "slug": "chinnadamalcheruvu",
+      "taluk": "Gudiyattam",
+      "pincode": "635810"
+    },
+    {
+      "name": "Chinnakandili",
+      "slug": "chinnakandili",
+      "taluk": "Tirupattur",
+      "pincode": "635901"
+    },
+    {
+      "name": "Chinnakarumbur",
+      "slug": "chinnakarumbur",
+      "taluk": "Vaniyambadi",
+      "pincode": "635811"
+    },
+    {
+      "name": "Chinnapalampakkam",
+      "slug": "chinnapalampakkam",
+      "taluk": "Vlr",
+      "pincode": "632113"
+    },
+    {
+      "name": "Chinnapallikuppam",
+      "slug": "chinnapallikuppam",
+      "taluk": "Vlr",
+      "pincode": "632107"
+    },
+    {
+      "name": "Chinnapallikuppam Vaniyambadi",
+      "slug": "chinnapallikuppam-vaniyambadi",
+      "taluk": "Vaniyambadi",
+      "pincode": "635754"
+    },
+    {
+      "name": "Chinnasamudram",
+      "slug": "chinnasamudram",
+      "taluk": "Tirupathur",
+      "pincode": "635653"
+    },
+    {
+      "name": "Chinnathottalam",
+      "slug": "chinnathottalam",
+      "taluk": "Gudiyattam",
+      "pincode": "635813"
+    },
+    {
+      "name": "Chinnavarikam",
+      "slug": "chinnavarikam",
+      "taluk": "Gudiyattam",
+      "pincode": "635811"
+    },
+    {
+      "name": "Chinnavattanur",
+      "slug": "chinnavattanur",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Chitteri",
+      "slug": "chitteri",
+      "taluk": "Arakkonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Chitteri Vellore",
+      "slug": "chitteri-vellore",
+      "taluk": "Vellore",
+      "pincode": "632002"
+    },
+    {
+      "name": "Chittoor",
+      "slug": "chittoor",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Cholavaram",
+      "slug": "cholavaram",
+      "taluk": "Vellore",
+      "pincode": "632113"
+    },
+    {
+      "name": "Christianpet",
+      "slug": "christianpet",
+      "taluk": "Vlr",
+      "pincode": "632059"
+    },
+    {
+      "name": "Christukula Ashram",
+      "slug": "christukula-ashram",
+      "taluk": "Tirupathur",
+      "pincode": "635602"
+    },
+    {
+      "name": "CMC H",
+      "slug": "cmc-h",
+      "taluk": "Vellore",
+      "pincode": "632004"
+    },
+    {
+      "name": "CMC Vellore",
+      "slug": "cmc-vellore",
+      "taluk": "Vellore",
+      "pincode": "632002"
+    },
+    {
+      "name": "Dakshinapathapalyaam",
+      "slug": "dakshinapathapalyaam",
+      "taluk": "Gudiyattam",
+      "pincode": "632603"
+    },
+    {
+      "name": "Damalerimuthur",
+      "slug": "damalerimuthur",
+      "taluk": "Tirupattur",
+      "pincode": "635853"
+    },
+    {
+      "name": "Damarapakkam",
+      "slug": "damarapakkam",
+      "taluk": "Arcot",
+      "pincode": "632504"
+    },
+    {
+      "name": "Devalapuram",
+      "slug": "devalapuram",
+      "taluk": "Vaniyambadi",
+      "pincode": "635802"
+    },
+    {
+      "name": "Devarishikuppam",
+      "slug": "devarishikuppam",
+      "taluk": "Katpadi",
+      "pincode": "632209"
+    },
+    {
+      "name": "Devasthanam",
+      "slug": "devasthanam",
+      "taluk": "Vaniyambadi",
+      "pincode": "635751"
+    },
+    {
+      "name": "Devichettikuppam",
+      "slug": "devichettikuppam",
+      "taluk": "Vlr",
+      "pincode": "632107"
+    },
+    {
+      "name": "Dharanampet",
+      "slug": "dharanampet",
+      "taluk": "Gudiyatham",
+      "pincode": "632601"
+    },
+    {
+      "name": "Dharapadavedu",
+      "slug": "dharapadavedu",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Durgam",
+      "slug": "durgam",
+      "taluk": "Arcot",
+      "pincode": "632512"
+    },
+    {
+      "name": "Eachangal",
+      "slug": "eachangal",
+      "taluk": "Vaniyambadi",
+      "pincode": "635801"
+    },
+    {
+      "name": "East Badanavadi",
+      "slug": "east-badanavadi",
+      "taluk": "Tirupathur",
+      "pincode": "635901"
+    },
+    {
+      "name": "Edayansathu",
+      "slug": "edayansathu",
+      "taluk": "Vlr",
+      "pincode": "632002"
+    },
+    {
+      "name": "Ekambaranallur",
+      "slug": "ekambaranallur",
+      "taluk": "Walajapet",
+      "pincode": "632405"
+    },
+    {
+      "name": "Ekhunagar",
+      "slug": "ekhunagar",
+      "taluk": "Arakonam",
+      "pincode": "631004"
+    },
+    {
+      "name": "Elagiri",
+      "slug": "elagiri",
+      "taluk": "Tirupattur",
+      "pincode": "635853"
+    },
+    {
+      "name": "Elavambadi",
+      "slug": "elavambadi",
+      "taluk": "Vlr",
+      "pincode": "632105"
+    },
+    {
+      "name": "Elavampatti",
+      "slug": "elavampatti",
+      "taluk": "Tirupattur",
+      "pincode": "635602"
+    },
+    {
+      "name": "Eranthangal",
+      "slug": "eranthangal",
+      "taluk": "Walajapet",
+      "pincode": "632519"
+    },
+    {
+      "name": "Erayangadu",
+      "slug": "erayangadu",
+      "taluk": "Vlr",
+      "pincode": "632104"
+    },
+    {
+      "name": "Erikutti",
+      "slug": "erikutti",
+      "taluk": "Gudiyattam",
+      "pincode": "635810"
+    },
+    {
+      "name": "Eripudhur",
+      "slug": "eripudhur",
+      "taluk": "Vlr",
+      "pincode": "632101"
+    },
+    {
+      "name": "Eriyur",
+      "slug": "eriyur",
+      "taluk": "Vlr",
+      "pincode": "632103"
+    },
+    {
+      "name": "Eriyur Amirdhi",
+      "slug": "eriyur-amirdhi",
+      "taluk": "Vlr",
+      "pincode": "632102"
+    },
+    {
+      "name": "Erthangal",
+      "slug": "erthangal",
+      "taluk": "Gudiyattam",
+      "pincode": "632604"
+    },
+    {
+      "name": "Erukkambattu",
+      "slug": "erukkambattu",
+      "taluk": "Gudiyattam",
+      "pincode": "635810"
+    },
+    {
+      "name": "Esayanur",
+      "slug": "esayanur",
+      "taluk": "Arcot",
+      "pincode": "632511"
+    },
+    {
+      "name": "Federation Buildings",
+      "slug": "federation-buildings",
+      "taluk": "Walajapet",
+      "pincode": "632509"
+    },
+    {
+      "name": "G.B.Nagar",
+      "slug": "gbnagar",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Ganapathipuram",
+      "slug": "ganapathipuram",
+      "taluk": "Arakkonam",
+      "pincode": "631051"
+    },
+    {
+      "name": "Gandhi Nagar",
+      "slug": "gandhi",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Gandhi Nagar",
+      "slug": "gandhi-nagar",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Gandhinagar",
+      "slug": "gandhinagar",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Gandhinagar East",
+      "slug": "gandhinagar-east",
+      "taluk": "Vellore",
+      "pincode": "632006"
+    },
+    {
+      "name": "Gandhinagar West",
+      "slug": "gandhinagar-west",
+      "taluk": "Vellore",
+      "pincode": "632006"
+    },
+    {
+      "name": "Gandhipet TPT",
+      "slug": "gandhipet-tpt",
+      "taluk": "Tirupathur",
+      "pincode": "635601"
+    },
+    {
+      "name": "Gandhiroad",
+      "slug": "gandhiroad",
+      "taluk": "Vellore",
+      "pincode": "632004"
+    },
+    {
+      "name": "Ganganallur",
+      "slug": "ganganallur",
+      "taluk": "Vlr",
+      "pincode": "632101"
+    },
+    {
+      "name": "Gangapuram",
+      "slug": "gangapuram",
+      "taluk": "Vaniyambadi",
+      "pincode": "635802"
+    },
+    {
+      "name": "Girisamudram",
+      "slug": "girisamudram",
+      "taluk": "Vaniyambadi",
+      "pincode": "635751"
+    },
+    {
+      "name": "Gollamangalam",
+      "slug": "gollamangalam",
+      "taluk": "Katpadi",
+      "pincode": "635809"
+    },
+    {
+      "name": "Govindacherrykuppam",
+      "slug": "govindacherrykuppam",
+      "taluk": "Arakkonam",
+      "pincode": "632505"
+    },
+    {
+      "name": "Govindapuram",
+      "slug": "govindapuram",
+      "taluk": "Vaniyambadi",
+      "pincode": "635751"
+    },
+    {
+      "name": "Govindareddipalayam",
+      "slug": "govindareddipalayam",
+      "taluk": "Vlr",
+      "pincode": "632105"
+    },
+    {
+      "name": "Gudalur",
+      "slug": "gudalur",
+      "taluk": "Arakonam",
+      "pincode": "632510"
+    },
+    {
+      "name": "Gudanagaram",
+      "slug": "gudanagaram",
+      "taluk": "Gudiyattam",
+      "pincode": "635806"
+    },
+    {
+      "name": "Gudimallur",
+      "slug": "gudimallur",
+      "taluk": "Walajapet",
+      "pincode": "632513"
+    },
+    {
+      "name": "Gudiyatham",
+      "slug": "gudiyatham",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Gudiyattam Cutcherry",
+      "slug": "gudiyattam-cutcherry",
+      "taluk": "Gudiyatham",
+      "pincode": "632602"
+    },
+    {
+      "name": "Gudiyattam RS",
+      "slug": "gudiyattam-rs",
+      "taluk": "Gudiyatham",
+      "pincode": "635803"
+    },
+    {
+      "name": "Gudiyattam South",
+      "slug": "gudiyattam-south",
+      "taluk": "Gudiyatham",
+      "pincode": "632602"
+    },
+    {
+      "name": "Gugainallore",
+      "slug": "gugainallore",
+      "taluk": "Walajapet",
+      "pincode": "632515"
+    },
+    {
+      "name": "Gummidigampatti",
+      "slug": "gummidigampatti",
+      "taluk": "Tirupattur",
+      "pincode": "635901"
+    },
+    {
+      "name": "Gundaleri",
+      "slug": "gundaleri",
+      "taluk": "Arcot",
+      "pincode": "632512"
+    },
+    {
+      "name": "Guruvarajapalayam",
+      "slug": "guruvarajapalayam",
+      "taluk": "Vellore",
+      "pincode": "632107"
+    },
+    {
+      "name": "Guruvarajpet",
+      "slug": "guruvarajpet",
+      "taluk": "Arakonam",
+      "pincode": "631101"
+    },
+    {
+      "name": "Hakeemnagar",
+      "slug": "hakeemnagar",
+      "taluk": "Walajapet",
+      "pincode": "632509"
+    },
+    {
+      "name": "Ichiputhur",
+      "slug": "ichiputhur",
+      "taluk": "Arakkonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Ilayanagaram",
+      "slug": "ilayanagaram",
+      "taluk": "Vaniyambadi",
+      "pincode": "635754"
+    },
+    {
+      "name": "Iluppaithandalam",
+      "slug": "iluppaithandalam",
+      "taluk": "Arakkonam",
+      "pincode": "631151"
+    },
+    {
+      "name": "Ins Rajali",
+      "slug": "ins-rajali",
+      "taluk": "Arakonam",
+      "pincode": "631006"
+    },
+    {
+      "name": "Irunapattu",
+      "slug": "irunapattu",
+      "taluk": "Tirupattur",
+      "pincode": "635702"
+    },
+    {
+      "name": "Irungur",
+      "slug": "irungur",
+      "taluk": "Arcot",
+      "pincode": "604407"
+    },
+    {
+      "name": "Jaffarabad",
+      "slug": "jaffarabad",
+      "taluk": "Vaniyambadi",
+      "pincode": "635754"
+    },
+    {
+      "name": "Jaffarapettai",
+      "slug": "jaffarapettai",
+      "taluk": "Katpadi",
+      "pincode": "632006"
+    },
+    {
+      "name": "Jagirthandalam",
+      "slug": "jagirthandalam",
+      "taluk": "Arakkonam",
+      "pincode": "631052"
+    },
+    {
+      "name": "Jagirvalavanur",
+      "slug": "jagirvalavanur",
+      "taluk": "Arcot",
+      "pincode": "632511"
+    },
+    {
+      "name": "Jambukulam",
+      "slug": "jambukulam",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "Jamnapudur",
+      "slug": "jamnapudur",
+      "taluk": "Tirupathur",
+      "pincode": "635652"
+    },
+    {
+      "name": "Jangalapuram",
+      "slug": "jangalapuram",
+      "taluk": "Tirupathur",
+      "pincode": "635852"
+    },
+    {
+      "name": "Jawaharpuram",
+      "slug": "jawaharpuram",
+      "taluk": "Arcot",
+      "pincode": "632503"
+    },
+    {
+      "name": "Jayapuram",
+      "slug": "jayapuram",
+      "taluk": "Tirupathur",
+      "pincode": "635651"
+    },
+    {
+      "name": "Jolarpet",
+      "slug": "jolarpet",
+      "taluk": "Tirupathur",
+      "pincode": "635851"
+    },
+    {
+      "name": "Jordhankollai",
+      "slug": "jordhankollai",
+      "taluk": "Vlr",
+      "pincode": "632113"
+    },
+    {
+      "name": "Jothinagar",
+      "slug": "jothinagar",
+      "taluk": "Arakonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Ka Farm",
+      "slug": "ka-farm",
+      "taluk": "Vlr",
+      "pincode": "632007"
+    },
+    {
+      "name": "Kadambainallore",
+      "slug": "kadambainallore",
+      "taluk": "Arakkonam",
+      "pincode": "631151"
+    },
+    {
+      "name": "Kadaperi",
+      "slug": "kadaperi",
+      "taluk": "Walajapet",
+      "pincode": "632508"
+    },
+    {
+      "name": "Kadhavalam",
+      "slug": "kadhavalam",
+      "taluk": "Gudiyattam",
+      "pincode": "635811"
+    },
+    {
+      "name": "Kadirimangalam",
+      "slug": "kadirimangalam",
+      "taluk": "Tirupattur",
+      "pincode": "635602"
+    },
+    {
+      "name": "Kagithapattarai",
+      "slug": "kagithapattarai",
+      "taluk": "Vellore",
+      "pincode": "632012"
+    },
+    {
+      "name": "Kagithapattrai",
+      "slug": "kagithapattrai",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Kainoor",
+      "slug": "kainoor",
+      "taluk": "Arakkonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Kakangarai RS",
+      "slug": "kakangarai-rs",
+      "taluk": "Tirupattur",
+      "pincode": "635654"
+    },
+    {
+      "name": "Kalambattu",
+      "slug": "kalambattu",
+      "taluk": "Vlr",
+      "pincode": "632202"
+    },
+    {
+      "name": "Kalathur",
+      "slug": "kalathur",
+      "taluk": "Arakkonam",
+      "pincode": "632531"
+    },
+    {
+      "name": "Kalavai",
+      "slug": "kalavai",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Kalendira",
+      "slug": "kalendira",
+      "taluk": "Vaniyambadi",
+      "pincode": "635751"
+    },
+    {
+      "name": "Kallapadi",
+      "slug": "kallapadi",
+      "taluk": "Gudiyattam",
+      "pincode": "632601"
+    },
+    {
+      "name": "Kalmelkuppam",
+      "slug": "kalmelkuppam",
+      "taluk": "Walajapet",
+      "pincode": "632501"
+    },
+    {
+      "name": "Kamalapuram",
+      "slug": "kamalapuram",
+      "taluk": "Gudiyatham",
+      "pincode": "635810"
+    },
+    {
+      "name": "Kambugudi",
+      "slug": "kambugudi",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Kammasamudram",
+      "slug": "kammasamudram",
+      "taluk": "Vellore",
+      "pincode": "632319"
+    },
+    {
+      "name": "Kammavanpettai",
+      "slug": "kammavanpettai",
+      "taluk": "Vellore",
+      "pincode": "632319"
+    },
+    {
+      "name": "Kandaneri",
+      "slug": "kandaneri",
+      "taluk": "Katpadi",
+      "pincode": "635809"
+    },
+    {
+      "name": "Kandhipedu",
+      "slug": "kandhipedu",
+      "taluk": "Vlr",
+      "pincode": "632106"
+    },
+    {
+      "name": "Kandili",
+      "slug": "kandili",
+      "taluk": "Tirupattur",
+      "pincode": "635901"
+    },
+    {
+      "name": "Kangeyanallur",
+      "slug": "kangeyanallur",
+      "taluk": "Vellore",
+      "pincode": "632006"
+    },
+    {
+      "name": "Kanguppam",
+      "slug": "kanguppam",
+      "taluk": "Katpadi",
+      "pincode": "632209"
+    },
+    {
+      "name": "Kaniyambadi",
+      "slug": "kaniyambadi",
+      "taluk": "Vellore",
+      "pincode": "632102"
+    },
+    {
+      "name": "Kaniyanur",
+      "slug": "kaniyanur",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Karai",
+      "slug": "karai",
+      "taluk": "Walajapet",
+      "pincode": "632404"
+    },
+    {
+      "name": "Karapattu",
+      "slug": "karapattu",
+      "taluk": "Gudiyattam",
+      "pincode": "635811"
+    },
+    {
+      "name": "Karasamangalam",
+      "slug": "karasamangalam",
+      "taluk": "Katpadi",
+      "pincode": "632202"
+    },
+    {
+      "name": "Karigiri",
+      "slug": "karigiri",
+      "taluk": "Katpadi",
+      "pincode": "632106"
+    },
+    {
+      "name": "Karikkal",
+      "slug": "karikkal",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "Karikkanthangal",
+      "slug": "karikkanthangal",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Karnambut",
+      "slug": "karnambut",
+      "taluk": "NA",
+      "pincode": "632519"
+    },
+    {
+      "name": "Karnavur",
+      "slug": "karnavur",
+      "taluk": "Arakkonam",
+      "pincode": "631052"
+    },
+    {
+      "name": "Karugambathur",
+      "slug": "karugambathur",
+      "taluk": "Vlr",
+      "pincode": "632013"
+    },
+    {
+      "name": "Karungali",
+      "slug": "karungali",
+      "taluk": "Vaniyambadi",
+      "pincode": "635804"
+    },
+    {
+      "name": "Karuppanur",
+      "slug": "karuppanur",
+      "taluk": "Tirupathur",
+      "pincode": "635602"
+    },
+    {
+      "name": "Kasba Vellore",
+      "slug": "kasba-vellore",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Kaspa",
+      "slug": "kaspa",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Kathari",
+      "slug": "kathari",
+      "taluk": "Tirupattur",
+      "pincode": "635852"
+    },
+    {
+      "name": "Katpadi",
+      "slug": "katpadi",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Katpadi North",
+      "slug": "katpadi-north",
+      "taluk": "Vellore",
+      "pincode": "632007"
+    },
+    {
+      "name": "Katrambakkam",
+      "slug": "katrambakkam",
+      "taluk": "Walajapet",
+      "pincode": "632501"
+    },
+    {
+      "name": "Kattazhambattu",
+      "slug": "kattazhambattu",
+      "taluk": "Vellore",
+      "pincode": "632312"
+    },
+    {
+      "name": "Kattipattu",
+      "slug": "kattipattu",
+      "taluk": "Vlr",
+      "pincode": "632103"
+    },
+    {
+      "name": "Kattupakkam",
+      "slug": "kattupakkam",
+      "taluk": "Arakkonam",
+      "pincode": "632502"
+    },
+    {
+      "name": "Kattuputhur",
+      "slug": "kattuputhur",
+      "taluk": "Vellore",
+      "pincode": "632058"
+    },
+    {
+      "name": "Kavalur",
+      "slug": "kavalur",
+      "taluk": "Vaniyambadi",
+      "pincode": "635701"
+    },
+    {
+      "name": "Kavanur Arakkonam",
+      "slug": "kavanur-arakkonam",
+      "taluk": "Arakkonam",
+      "pincode": "631004"
+    },
+    {
+      "name": "Kavanur Arcot",
+      "slug": "kavanur-arcot",
+      "taluk": "Arcot",
+      "pincode": "632507"
+    },
+    {
+      "name": "Kavasampattu",
+      "slug": "kavasampattu",
+      "taluk": "Vlr",
+      "pincode": "632204"
+    },
+    {
+      "name": "Kaveripak",
+      "slug": "kaveripak",
+      "taluk": "Walajapet",
+      "pincode": "632508"
+    },
+    {
+      "name": "Keerasathu",
+      "slug": "keerasathu",
+      "taluk": "Katpadi",
+      "pincode": "632514"
+    },
+    {
+      "name": "Kesavanankuppam",
+      "slug": "kesavanankuppam",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "Kethandapatti",
+      "slug": "kethandapatti",
+      "taluk": "Tirupattur",
+      "pincode": "635815"
+    },
+    {
+      "name": "Kethandapatti Sugar Mills",
+      "slug": "kethandapatti-sugar-mills",
+      "taluk": "Tirupathur",
+      "pincode": "635815"
+    },
+    {
+      "name": "Khaderpet",
+      "slug": "khaderpet",
+      "taluk": "Vaniyambadi",
+      "pincode": "635751"
+    },
+    {
+      "name": "Kilalathur",
+      "slug": "kilalathur",
+      "taluk": "Gudiyattam",
+      "pincode": "635803"
+    },
+    {
+      "name": "Kilandur",
+      "slug": "kilandur",
+      "taluk": "Arakkonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Kilandurai",
+      "slug": "kilandurai",
+      "taluk": "Arakkonam",
+      "pincode": "631002"
+    },
+    {
+      "name": "Kilanur",
+      "slug": "kilanur",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Kilarasampattu",
+      "slug": "kilarasampattu",
+      "taluk": "Vellore",
+      "pincode": "632312"
+    },
+    {
+      "name": "Kilkothur",
+      "slug": "kilkothur",
+      "taluk": "Vlr",
+      "pincode": "632103"
+    },
+    {
+      "name": "Kilkuppam",
+      "slug": "kilkuppam",
+      "taluk": "Arakkonam",
+      "pincode": "631004"
+    },
+    {
+      "name": "Kilminnal",
+      "slug": "kilminnal",
+      "taluk": "Walajapet",
+      "pincode": "632517"
+    },
+    {
+      "name": "Kilmurungai",
+      "slug": "kilmurungai",
+      "taluk": "Vaniyambadi",
+      "pincode": "635812"
+    },
+    {
+      "name": "Kilmuttukur",
+      "slug": "kilmuttukur",
+      "taluk": "Vlr",
+      "pincode": "632204"
+    },
+    {
+      "name": "Kilpakkam",
+      "slug": "kilpakkam",
+      "taluk": "Arakkonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Kilpatti",
+      "slug": "kilpatti",
+      "taluk": "Gudiyattam",
+      "pincode": "635805"
+    },
+    {
+      "name": "Kilsaranakuppam",
+      "slug": "kilsaranakuppam",
+      "taluk": "Vlr",
+      "pincode": "632102"
+    },
+    {
+      "name": "Kilur",
+      "slug": "kilur",
+      "taluk": "Tirupattur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Kilvayathinankuppam",
+      "slug": "kilvayathinankuppam",
+      "taluk": "Katpadi",
+      "pincode": "632201"
+    },
+    {
+      "name": "Kilveedhi",
+      "slug": "kilveedhi",
+      "taluk": "Arakkonam",
+      "pincode": "632502"
+    },
+    {
+      "name": "Kilveeranam",
+      "slug": "kilveeranam",
+      "taluk": "Arakkonam",
+      "pincode": "632505"
+    },
+    {
+      "name": "Kilvenkatapuram",
+      "slug": "kilvenkatapuram",
+      "taluk": "Arakkonam",
+      "pincode": "631051"
+    },
+    {
+      "name": "Kilvisharam",
+      "slug": "kilvisharam",
+      "taluk": "Walajapet",
+      "pincode": "632509"
+    },
+    {
+      "name": "Kizhavanam",
+      "slug": "kizhavanam",
+      "taluk": "Arakkonam",
+      "pincode": "631101"
+    },
+    {
+      "name": "Kodakkal",
+      "slug": "kodakkal",
+      "taluk": "Wallajah",
+      "pincode": "631102"
+    },
+    {
+      "name": "Kodayanchi",
+      "slug": "kodayanchi",
+      "taluk": "Vaniyambadi",
+      "pincode": "635801"
+    },
+    {
+      "name": "Kodiyur",
+      "slug": "kodiyur",
+      "taluk": "Tirupathur",
+      "pincode": "635851"
+    },
+    {
+      "name": "Kodumampalli",
+      "slug": "kodumampalli",
+      "taluk": "Tirupathur",
+      "pincode": "635653"
+    },
+    {
+      "name": "Kokkalur",
+      "slug": "kokkalur",
+      "taluk": "Gudiyatham",
+      "pincode": "635810"
+    },
+    {
+      "name": "Kokkeri",
+      "slug": "kokkeri",
+      "taluk": "Katpadi",
+      "pincode": "632520"
+    },
+    {
+      "name": "Kombai",
+      "slug": "kombai",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Konavattam",
+      "slug": "konavattam",
+      "taluk": "Vellore",
+      "pincode": "632013"
+    },
+    {
+      "name": "Kondakuppam",
+      "slug": "kondakuppam",
+      "taluk": "Katpadi",
+      "pincode": "632520"
+    },
+    {
+      "name": "Kondapalayam",
+      "slug": "kondapalayam",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "Koranthangal",
+      "slug": "koranthangal",
+      "taluk": "Vlr",
+      "pincode": "632106"
+    },
+    {
+      "name": "Koratti",
+      "slug": "koratti",
+      "taluk": "Tirupattur",
+      "pincode": "635602"
+    },
+    {
+      "name": "Kosapet",
+      "slug": "kosapet",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Kosapet Vellore",
+      "slug": "kosapet-vellore",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Kosapettai",
+      "slug": "kosapettai",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Kosavanpudur",
+      "slug": "kosavanpudur",
+      "taluk": "Gudiyatham",
+      "pincode": "635803"
+    },
+    {
+      "name": "Kothakottai",
+      "slug": "kothakottai",
+      "taluk": "Vaniyambadi",
+      "pincode": "635752"
+    },
+    {
+      "name": "Kothamangalam",
+      "slug": "kothamangalam",
+      "taluk": "Vlr",
+      "pincode": "632104"
+    },
+    {
+      "name": "Kothur",
+      "slug": "kothur",
+      "taluk": "Tirupattur",
+      "pincode": "635854"
+    },
+    {
+      "name": "Kottaiyur",
+      "slug": "kottaiyur",
+      "taluk": "Tirupathur",
+      "pincode": "635853"
+    },
+    {
+      "name": "Kottamitta",
+      "slug": "kottamitta",
+      "taluk": "Gudiyatham",
+      "pincode": "632601"
+    },
+    {
+      "name": "Kottur",
+      "slug": "kottur",
+      "taluk": "Gudiyatham",
+      "pincode": "635808"
+    },
+    {
+      "name": "Kovilandur",
+      "slug": "kovilandur",
+      "taluk": "Vlr",
+      "pincode": "632102"
+    },
+    {
+      "name": "Krishnanagar Vellore",
+      "slug": "krishnanagar-vellore",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Kumaramangalam",
+      "slug": "kumaramangalam",
+      "taluk": "Vaniyambadi",
+      "pincode": "635802"
+    },
+    {
+      "name": "Kumpinipet",
+      "slug": "kumpinipet",
+      "taluk": "Arakkonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Kunnathur",
+      "slug": "kunnathur",
+      "taluk": "Arakkonam",
+      "pincode": "632510"
+    },
+    {
+      "name": "Kuppireddithangal",
+      "slug": "kuppireddithangal",
+      "taluk": "Katpadi",
+      "pincode": "632516"
+    },
+    {
+      "name": "Kurumbakeri",
+      "slug": "kurumbakeri",
+      "taluk": "Tirupathur",
+      "pincode": "635653"
+    },
+    {
+      "name": "Kurumberi",
+      "slug": "kurumberi",
+      "taluk": "Tirupattur",
+      "pincode": "635652"
+    },
+    {
+      "name": "Kurusilapattu",
+      "slug": "kurusilapattu",
+      "taluk": "Tirupattur",
+      "pincode": "635702"
+    },
+    {
+      "name": "Ladavaram",
+      "slug": "ladavaram",
+      "taluk": "Arcot",
+      "pincode": "632503"
+    },
+    {
+      "name": "Lakkinaickenpatti",
+      "slug": "lakkinaickenpatti",
+      "taluk": "Tirupattur",
+      "pincode": "635654"
+    },
+    {
+      "name": "Lalapettai",
+      "slug": "lalapettai",
+      "taluk": "Vaniyambadi",
+      "pincode": "635710"
+    },
+    {
+      "name": "Latteri",
+      "slug": "latteri",
+      "taluk": "Katpadi",
+      "pincode": "632202"
+    },
+    {
+      "name": "Machanur",
+      "slug": "machanur",
+      "taluk": "Katpadi",
+      "pincode": "632209"
+    },
+    {
+      "name": "Madanancherry",
+      "slug": "madanancherry",
+      "taluk": "Vaniyambadi",
+      "pincode": "635754"
+    },
+    {
+      "name": "Madanur",
+      "slug": "madanur",
+      "taluk": "Vaniyambadi",
+      "pincode": "635804"
+    },
+    {
+      "name": "Madavalam",
+      "slug": "madavalam",
+      "taluk": "Tirupathur",
+      "pincode": "635653"
+    },
+    {
+      "name": "Mahendravadi",
+      "slug": "mahendravadi",
+      "taluk": "Arakkonam",
+      "pincode": "632502"
+    },
+    {
+      "name": "Mahimandalam",
+      "slug": "mahimandalam",
+      "taluk": "Katpadi",
+      "pincode": "632516"
+    },
+    {
+      "name": "Mailpatti",
+      "slug": "mailpatti",
+      "taluk": "Gudiyattam",
+      "pincode": "635805"
+    },
+    {
+      "name": "Malaiyandipatti",
+      "slug": "malaiyandipatti",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Mallagunta",
+      "slug": "mallagunta",
+      "taluk": "Tirupattur",
+      "pincode": "635852"
+    },
+    {
+      "name": "Mallapalli",
+      "slug": "mallapalli",
+      "taluk": "Tirupattur",
+      "pincode": "635854"
+    },
+    {
+      "name": "Mambakkam",
+      "slug": "mambakkam",
+      "taluk": "Arcot",
+      "pincode": "632318"
+    },
+    {
+      "name": "Manamadurai",
+      "slug": "manamadurai",
+      "taluk": "Arakkonam",
+      "pincode": "632502"
+    },
+    {
+      "name": "Mandalanayanagunda",
+      "slug": "mandalanayanagunda",
+      "taluk": "Tirupattur",
+      "pincode": "635901"
+    },
+    {
+      "name": "Mandalavadi",
+      "slug": "mandalavadi",
+      "taluk": "Tirupattur",
+      "pincode": "635851"
+    },
+    {
+      "name": "Mandarakuttai",
+      "slug": "mandarakuttai",
+      "taluk": "Vaniyambadi",
+      "pincode": "635701"
+    },
+    {
+      "name": "Mangalam",
+      "slug": "mangalam",
+      "taluk": "Tirupathur",
+      "pincode": "635853"
+    },
+    {
+      "name": "Mangattucherry",
+      "slug": "mangattucherry",
+      "taluk": "Arakkonam",
+      "pincode": "631151"
+    },
+    {
+      "name": "Manthangal",
+      "slug": "manthangal",
+      "taluk": "Wallajah",
+      "pincode": "632404"
+    },
+    {
+      "name": "Marimanikuppam",
+      "slug": "marimanikuppam",
+      "taluk": "Tirupattur",
+      "pincode": "635710"
+    },
+    {
+      "name": "Marudhalam",
+      "slug": "marudhalam",
+      "taluk": "Walajapet",
+      "pincode": "632501"
+    },
+    {
+      "name": "Maruthavallipalayam",
+      "slug": "maruthavallipalayam",
+      "taluk": "Vlr",
+      "pincode": "632104"
+    },
+    {
+      "name": "Masigam",
+      "slug": "masigam",
+      "taluk": "Gudiyattam",
+      "pincode": "635810"
+    },
+    {
+      "name": "Matrapalli",
+      "slug": "matrapalli",
+      "taluk": "Tirupattur",
+      "pincode": "635652"
+    },
+    {
+      "name": "Mazharyur",
+      "slug": "mazharyur",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Mecheri",
+      "slug": "mecheri",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Melakuppam",
+      "slug": "melakuppam",
+      "taluk": "Walajapet",
+      "pincode": "632517"
+    },
+    {
+      "name": "Melalathur",
+      "slug": "melalathur",
+      "taluk": "Gudiyattam",
+      "pincode": "635806"
+    },
+    {
+      "name": "Melapudupakkam",
+      "slug": "melapudupakkam",
+      "taluk": "Arcot",
+      "pincode": "632318"
+    },
+    {
+      "name": "Melapulam",
+      "slug": "melapulam",
+      "taluk": "Arakkonam",
+      "pincode": "631052"
+    },
+    {
+      "name": "Melarasambattu",
+      "slug": "melarasambattu",
+      "taluk": "Vlr",
+      "pincode": "632103"
+    },
+    {
+      "name": "Meleri",
+      "slug": "meleri",
+      "taluk": "Arakonam",
+      "pincode": "632502"
+    },
+    {
+      "name": "Melkalathur",
+      "slug": "melkalathur",
+      "taluk": "Arakonam",
+      "pincode": "632502"
+    },
+    {
+      "name": "Melkavanur",
+      "slug": "melkavanur",
+      "taluk": "Katpadi",
+      "pincode": "632209"
+    },
+    {
+      "name": "Melkuppachinna",
+      "slug": "melkuppachinna",
+      "taluk": "Vlr",
+      "pincode": "632102"
+    },
+    {
+      "name": "Melmankuppam",
+      "slug": "melmankuppam",
+      "taluk": "Katpadi",
+      "pincode": "632203"
+    },
+    {
+      "name": "Melmayil",
+      "slug": "melmayil",
+      "taluk": "Katpadi",
+      "pincode": "632203"
+    },
+    {
+      "name": "Melmonavur",
+      "slug": "melmonavur",
+      "taluk": "Vellore",
+      "pincode": "632010"
+    },
+    {
+      "name": "Melmuttukur",
+      "slug": "melmuttukur",
+      "taluk": "Gudiyattam",
+      "pincode": "635806"
+    },
+    {
+      "name": "Melnathambakkam",
+      "slug": "melnathambakkam",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Melpadi",
+      "slug": "melpadi",
+      "taluk": "Katpadi",
+      "pincode": "632520"
+    },
+    {
+      "name": "Melpattu",
+      "slug": "melpattu",
+      "taluk": "Tirupattur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Melvayathinankuppam",
+      "slug": "melvayathinankuppam",
+      "taluk": "Gudiyattam",
+      "pincode": "635805"
+    },
+    {
+      "name": "Melvisharam",
+      "slug": "melvisharam",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Minnal",
+      "slug": "minnal",
+      "taluk": "Arakkonam",
+      "pincode": "632510"
+    },
+    {
+      "name": "Minnur",
+      "slug": "minnur",
+      "taluk": "Vaniyambadi",
+      "pincode": "635807"
+    },
+    {
+      "name": "Mittalam",
+      "slug": "mittalam",
+      "taluk": "Gudiyattam",
+      "pincode": "635811"
+    },
+    {
+      "name": "Mittapettai",
+      "slug": "mittapettai",
+      "taluk": "Arakkonam",
+      "pincode": "631101"
+    },
+    {
+      "name": "Mittur",
+      "slug": "mittur",
+      "taluk": "Vaniyambadi",
+      "pincode": "635710"
+    },
+    {
+      "name": "Modikuppam",
+      "slug": "modikuppam",
+      "taluk": "Gudiyattam",
+      "pincode": "632601"
+    },
+    {
+      "name": "Mohamedpet",
+      "slug": "mohamedpet",
+      "taluk": "Arcot",
+      "pincode": "632512"
+    },
+    {
+      "name": "Morasapalli",
+      "slug": "morasapalli",
+      "taluk": "Gudiyattam",
+      "pincode": "635810"
+    },
+    {
+      "name": "Mordhana",
+      "slug": "mordhana",
+      "taluk": "Gudiyattam",
+      "pincode": "632604"
+    },
+    {
+      "name": "Mosur",
+      "slug": "mosur",
+      "taluk": "Arakkonam",
+      "pincode": "631004"
+    },
+    {
+      "name": "Mottakkal",
+      "slug": "mottakkal",
+      "taluk": "Vellore",
+      "pincode": "632319"
+    },
+    {
+      "name": "Mudinampattu",
+      "slug": "mudinampattu",
+      "taluk": "Vlr",
+      "pincode": "632204"
+    },
+    {
+      "name": "Mudur",
+      "slug": "mudur",
+      "taluk": "Arakkonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Mukkanur",
+      "slug": "mukkanur",
+      "taluk": "Tirupattur",
+      "pincode": "635651"
+    },
+    {
+      "name": "Mukundarayapuram",
+      "slug": "mukundarayapuram",
+      "taluk": "Walajapet",
+      "pincode": "632405"
+    },
+    {
+      "name": "Munjurpattu",
+      "slug": "munjurpattu",
+      "taluk": "Vellore",
+      "pincode": "632057"
+    },
+    {
+      "name": "Muppathuvetti",
+      "slug": "muppathuvetti",
+      "taluk": "Arcot",
+      "pincode": "632503"
+    },
+    {
+      "name": "Mutharasikuppam",
+      "slug": "mutharasikuppam",
+      "taluk": "Vlr",
+      "pincode": "632106"
+    },
+    {
+      "name": "Nachiarkuppam",
+      "slug": "nachiarkuppam",
+      "taluk": "Tirupattur",
+      "pincode": "635710"
+    },
+    {
+      "name": "Nadanur",
+      "slug": "nadanur",
+      "taluk": "Vlr",
+      "pincode": "632102"
+    },
+    {
+      "name": "Nadukuppam",
+      "slug": "nadukuppam",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Nagalur",
+      "slug": "nagalur",
+      "taluk": "Vellore",
+      "pincode": "632102"
+    },
+    {
+      "name": "Naganadhi",
+      "slug": "naganadhi",
+      "taluk": "Vlr",
+      "pincode": "632113"
+    },
+    {
+      "name": "Nagavedu",
+      "slug": "nagavedu",
+      "taluk": "Arakkonam",
+      "pincode": "631002"
+    },
+    {
+      "name": "Naickaneri",
+      "slug": "naickaneri",
+      "taluk": "Vaniyambadi",
+      "pincode": "635802"
+    },
+    {
+      "name": "Naickanur",
+      "slug": "naickanur",
+      "taluk": "Vaniyambadi",
+      "pincode": "635701"
+    },
+    {
+      "name": "Namali",
+      "slug": "namali",
+      "taluk": "Arakkonam",
+      "pincode": "631051"
+    },
+    {
+      "name": "Nambarai",
+      "slug": "nambarai",
+      "taluk": "Arcot",
+      "pincode": "632512"
+    },
+    {
+      "name": "name",
+      "slug": "name",
+      "taluk": "taluk",
+      "pincode": "pincode"
+    },
+    {
+      "name": "Nammiyambattu",
+      "slug": "nammiyambattu",
+      "taluk": "Vlr",
+      "pincode": "632102"
+    },
+    {
+      "name": "Nandiveduthangal",
+      "slug": "nandiveduthangal",
+      "taluk": "Arakkonam",
+      "pincode": "631101"
+    },
+    {
+      "name": "Nandiyalam",
+      "slug": "nandiyalam",
+      "taluk": "Walajapet",
+      "pincode": "632517"
+    },
+    {
+      "name": "Nanjukondapuram",
+      "slug": "nanjukondapuram",
+      "taluk": "Vellore",
+      "pincode": "632312"
+    },
+    {
+      "name": "Narasingapuram",
+      "slug": "narasingapuram",
+      "taluk": "Vaniyambadi",
+      "pincode": "635701"
+    },
+    {
+      "name": "Nariyambattu",
+      "slug": "nariyambattu",
+      "taluk": "Gudiyattam",
+      "pincode": "635808"
+    },
+    {
+      "name": "Nariyaneri",
+      "slug": "nariyaneri",
+      "taluk": "Tirupattur",
+      "pincode": "635901"
+    },
+    {
+      "name": "Natham",
+      "slug": "natham",
+      "taluk": "Tirupattur",
+      "pincode": "635654"
+    },
+    {
+      "name": "Natrampalli",
+      "slug": "natrampalli",
+      "taluk": "Tirupathur",
+      "pincode": "635852"
+    },
+    {
+      "name": "Navalpur",
+      "slug": "navalpur",
+      "taluk": "Walajapet",
+      "pincode": "632401"
+    },
+    {
+      "name": "Nayakkanur",
+      "slug": "nayakkanur",
+      "taluk": "Tirupattur",
+      "pincode": "635652"
+    },
+    {
+      "name": "Nayanacheruvu",
+      "slug": "nayanacheruvu",
+      "taluk": "Tirupattur",
+      "pincode": "635852"
+    },
+    {
+      "name": "Neelakandarayanpattai",
+      "slug": "neelakandarayanpattai",
+      "taluk": "Walajapet",
+      "pincode": "632501"
+    },
+    {
+      "name": "Nellipattu",
+      "slug": "nellipattu",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Nellivasalnadu",
+      "slug": "nellivasalnadu",
+      "taluk": "Tirupattur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Nelvoy",
+      "slug": "nelvoy",
+      "taluk": "Vlr",
+      "pincode": "632011"
+    },
+    {
+      "name": "Nemandhapuram",
+      "slug": "nemandhapuram",
+      "taluk": "Vlr",
+      "pincode": "632103"
+    },
+    {
+      "name": "Newtown Vaniyambadi",
+      "slug": "newtown-vaniyambadi",
+      "taluk": "Vaniyambadi",
+      "pincode": "635752"
+    },
+    {
+      "name": "Nilavur",
+      "slug": "nilavur",
+      "taluk": "Tirupathur",
+      "pincode": "635853"
+    },
+    {
+      "name": "Nimmiyambattu",
+      "slug": "nimmiyambattu",
+      "taluk": "Vaniyambadi",
+      "pincode": "635752"
+    },
+    {
+      "name": "Ocheri",
+      "slug": "ocheri",
+      "taluk": "Arakkonam",
+      "pincode": "632531"
+    },
+    {
+      "name": "Odiyathur",
+      "slug": "odiyathur",
+      "taluk": "Katpadi",
+      "pincode": "635809"
+    },
+    {
+      "name": "Odugathur",
+      "slug": "odugathur",
+      "taluk": "Vellore",
+      "pincode": "632103"
+    },
+    {
+      "name": "Old District Board Buildings",
+      "slug": "old-district-board-buildings",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Old Town Vellore",
+      "slug": "old-town-vellore",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Ongapadi",
+      "slug": "ongapadi",
+      "taluk": "Vlr",
+      "pincode": "632101"
+    },
+    {
+      "name": "Oomerabad",
+      "slug": "oomerabad",
+      "taluk": "Gudiyatham",
+      "pincode": "635808"
+    },
+    {
+      "name": "Otteri",
+      "slug": "otteri",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Ozhughur",
+      "slug": "ozhughur",
+      "taluk": "Walajapet",
+      "pincode": "632501"
+    },
+    {
+      "name": "Pachal",
+      "slug": "pachal",
+      "taluk": "Tirupattur",
+      "pincode": "635602"
+    },
+    {
+      "name": "Pachur",
+      "slug": "pachur",
+      "taluk": "Tirupattur",
+      "pincode": "635854"
+    },
+    {
+      "name": "Pagaveli",
+      "slug": "pagaveli",
+      "taluk": "Wallajah",
+      "pincode": "632508"
+    },
+    {
+      "name": "Pakkampalayam",
+      "slug": "pakkampalayam",
+      "taluk": "Vlr",
+      "pincode": "632107"
+    },
+    {
+      "name": "Pakkamvenkatapuram",
+      "slug": "pakkamvenkatapuram",
+      "taluk": "Gudiyatham",
+      "pincode": "632601"
+    },
+    {
+      "name": "Pakkirithakka",
+      "slug": "pakkirithakka",
+      "taluk": "Tirupathur",
+      "pincode": "635853"
+    },
+    {
+      "name": "Palamathi",
+      "slug": "palamathi",
+      "taluk": "Vlr",
+      "pincode": "632002"
+    },
+    {
+      "name": "Palambattu",
+      "slug": "palambattu",
+      "taluk": "Vlr",
+      "pincode": "632102"
+    },
+    {
+      "name": "Palanipet",
+      "slug": "palanipet",
+      "taluk": "Arakonam",
+      "pincode": "631002"
+    },
+    {
+      "name": "Palaparambattu",
+      "slug": "palaparambattu",
+      "taluk": "Vlr",
+      "pincode": "632102"
+    },
+    {
+      "name": "Palayakrishnapuram",
+      "slug": "palayakrishnapuram",
+      "taluk": "Katpadi",
+      "pincode": "632209"
+    },
+    {
+      "name": "Palayamangadu",
+      "slug": "palayamangadu",
+      "taluk": "Arcot",
+      "pincode": "632503"
+    },
+    {
+      "name": "Palayanur",
+      "slug": "palayanur",
+      "taluk": "Arcot",
+      "pincode": "632512"
+    },
+    {
+      "name": "Palayapalayam",
+      "slug": "palayapalayam",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Palayapalayamottur",
+      "slug": "palayapalayamottur",
+      "taluk": "Arakkonam",
+      "pincode": "632505"
+    },
+    {
+      "name": "Pallalakuppam",
+      "slug": "pallalakuppam",
+      "taluk": "Gudiyattam",
+      "pincode": "635805"
+    },
+    {
+      "name": "Pallathur",
+      "slug": "pallathur",
+      "taluk": "Tirupathur",
+      "pincode": "635901"
+    },
+    {
+      "name": "Pallavalli",
+      "slug": "pallavalli",
+      "taluk": "Vaniyambadi",
+      "pincode": "635702"
+    },
+    {
+      "name": "Pallikonda",
+      "slug": "pallikonda",
+      "taluk": "Katpadi",
+      "pincode": "635809"
+    },
+    {
+      "name": "Pallikonda Bazaar",
+      "slug": "pallikonda-bazaar",
+      "taluk": "Gudiyatham",
+      "pincode": "635809"
+    },
+    {
+      "name": "Pallikuppam",
+      "slug": "pallikuppam",
+      "taluk": "Vlr",
+      "pincode": "632007"
+    },
+    {
+      "name": "Pallur",
+      "slug": "pallur",
+      "taluk": "Arakkonam",
+      "pincode": "631051"
+    },
+    {
+      "name": "Palur",
+      "slug": "palur",
+      "taluk": "Vaniyambadi",
+      "pincode": "635804"
+    },
+    {
+      "name": "Panaiyur",
+      "slug": "panaiyur",
+      "taluk": "Arakonam",
+      "pincode": "632518"
+    },
+    {
+      "name": "Panamadangi",
+      "slug": "panamadangi",
+      "taluk": "Vlr",
+      "pincode": "632202"
+    },
+    {
+      "name": "Panapakkam",
+      "slug": "panapakkam",
+      "taluk": "Arakkonam",
+      "pincode": "631052"
+    },
+    {
+      "name": "Pandianallore",
+      "slug": "pandianallore",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "Paniyandapalli",
+      "slug": "paniyandapalli",
+      "taluk": "Tirupattur",
+      "pincode": "635651"
+    },
+    {
+      "name": "Paradarami",
+      "slug": "paradarami",
+      "taluk": "Arcot",
+      "pincode": "632512"
+    },
+    {
+      "name": "Paradarami Gudiyattam",
+      "slug": "paradarami-gudiyattam",
+      "taluk": "Gudiyattam",
+      "pincode": "632603"
+    },
+    {
+      "name": "Parandapalli",
+      "slug": "parandapalli",
+      "taluk": "Tirupathur",
+      "pincode": "635651"
+    },
+    {
+      "name": "Paranji",
+      "slug": "paranji",
+      "taluk": "Arakkonam",
+      "pincode": "632510"
+    },
+    {
+      "name": "Paravathur",
+      "slug": "paravathur",
+      "taluk": "NA",
+      "pincode": "632510"
+    },
+    {
+      "name": "Parithiputhur",
+      "slug": "parithiputhur",
+      "taluk": "Arakkonam",
+      "pincode": "631002"
+    },
+    {
+      "name": "Pasumathur",
+      "slug": "pasumathur",
+      "taluk": "Gudiyattam",
+      "pincode": "635803"
+    },
+    {
+      "name": "Peddur",
+      "slug": "peddur",
+      "taluk": "Vaniyambadi",
+      "pincode": "635701"
+    },
+    {
+      "name": "Peenjamandai",
+      "slug": "peenjamandai",
+      "taluk": "NA",
+      "pincode": "632103"
+    },
+    {
+      "name": "Pennagar",
+      "slug": "pennagar",
+      "taluk": "Arcot",
+      "pincode": "632518"
+    },
+    {
+      "name": "Pennathur",
+      "slug": "pennathur",
+      "taluk": "Vellore",
+      "pincode": "632058"
+    },
+    {
+      "name": "Perambattu",
+      "slug": "perambattu",
+      "taluk": "Tirupathur",
+      "pincode": "635652"
+    },
+    {
+      "name": "Periagaram",
+      "slug": "periagaram",
+      "taluk": "Tirupattur",
+      "pincode": "635901"
+    },
+    {
+      "name": "Periamittoor",
+      "slug": "periamittoor",
+      "taluk": "Katpadi",
+      "pincode": "632516"
+    },
+    {
+      "name": "Periasengadu",
+      "slug": "periasengadu",
+      "taluk": "Wallajah",
+      "pincode": "632501"
+    },
+    {
+      "name": "Periyakannalapatti",
+      "slug": "periyakannalapatti",
+      "taluk": "Tirupattur",
+      "pincode": "635654"
+    },
+    {
+      "name": "Periyakasinaickenpatti",
+      "slug": "periyakasinaickenpatti",
+      "taluk": "Tirupattur",
+      "pincode": "635901"
+    },
+    {
+      "name": "Periyakonapattu",
+      "slug": "periyakonapattu",
+      "taluk": "Tirupathur",
+      "pincode": "635651"
+    },
+    {
+      "name": "Periyakunichi",
+      "slug": "periyakunichi",
+      "taluk": "Tirupathur",
+      "pincode": "635602"
+    },
+    {
+      "name": "Periyankuppam",
+      "slug": "periyankuppam",
+      "taluk": "Vaniyambadi",
+      "pincode": "635814"
+    },
+    {
+      "name": "Periyapet",
+      "slug": "periyapet",
+      "taluk": "Vaniyambadi",
+      "pincode": "635751"
+    },
+    {
+      "name": "Periyapudhur",
+      "slug": "periyapudhur",
+      "taluk": "Vlr",
+      "pincode": "632059"
+    },
+    {
+      "name": "Pernambut",
+      "slug": "pernambut",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Perumal Nagar",
+      "slug": "perumal-nagar",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Perumalkuppam",
+      "slug": "perumalkuppam",
+      "taluk": "Katpadi",
+      "pincode": "632520"
+    },
+    {
+      "name": "Perumalpet",
+      "slug": "perumalpet",
+      "taluk": "Vaniyambadi",
+      "pincode": "635751"
+    },
+    {
+      "name": "Perumankuppam",
+      "slug": "perumankuppam",
+      "taluk": "Katpadi",
+      "pincode": "632201"
+    },
+    {
+      "name": "Perumapattu",
+      "slug": "perumapattu",
+      "taluk": "Tirupattur",
+      "pincode": "635702"
+    },
+    {
+      "name": "Perumbulipakkam",
+      "slug": "perumbulipakkam",
+      "taluk": "Arakkonam",
+      "pincode": "632531"
+    },
+    {
+      "name": "Perumpalli",
+      "slug": "perumpalli",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Perumuchi",
+      "slug": "perumuchi",
+      "taluk": "Arakkonam",
+      "pincode": "631002"
+    },
+    {
+      "name": "Perumugai",
+      "slug": "perumugai",
+      "taluk": "Vlr",
+      "pincode": "632009"
+    },
+    {
+      "name": "Perungalathur",
+      "slug": "perungalathur",
+      "taluk": "Arakkonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Perunkanchi",
+      "slug": "perunkanchi",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "Peruvalayam",
+      "slug": "peruvalayam",
+      "taluk": "Arakkonam",
+      "pincode": "631052"
+    },
+    {
+      "name": "Pillaipakkam",
+      "slug": "pillaipakkam",
+      "taluk": "Arakkonam",
+      "pincode": "631052"
+    },
+    {
+      "name": "Pinnathurai",
+      "slug": "pinnathurai",
+      "taluk": "Vlr",
+      "pincode": "632103"
+    },
+    {
+      "name": "Pogalur",
+      "slug": "pogalur",
+      "taluk": "Gudiyattam",
+      "pincode": "635813"
+    },
+    {
+      "name": "Poigai",
+      "slug": "poigai",
+      "taluk": "Vlr",
+      "pincode": "632114"
+    },
+    {
+      "name": "Poigaimottur",
+      "slug": "poigaimottur",
+      "taluk": "Vlr",
+      "pincode": "632114"
+    },
+    {
+      "name": "Polipakkam",
+      "slug": "polipakkam",
+      "taluk": "Arakkonam",
+      "pincode": "632505"
+    },
+    {
+      "name": "Polur",
+      "slug": "polur",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Ponnai",
+      "slug": "ponnai",
+      "taluk": "Katpadi",
+      "pincode": "632514"
+    },
+    {
+      "name": "Ponneri",
+      "slug": "ponneri",
+      "taluk": "Tirupattur",
+      "pincode": "635851"
+    },
+    {
+      "name": "Poondi",
+      "slug": "poondi",
+      "taluk": "Walajapet",
+      "pincode": "632513"
+    },
+    {
+      "name": "Poongulam",
+      "slug": "poongulam",
+      "taluk": "NA",
+      "pincode": "635710"
+    },
+    {
+      "name": "Pudukottai",
+      "slug": "pudukottai",
+      "taluk": "Tirupathur",
+      "pincode": "635602"
+    },
+    {
+      "name": "Pudupadi",
+      "slug": "pudupadi",
+      "taluk": "Arcot",
+      "pincode": "632503"
+    },
+    {
+      "name": "Pudupettai",
+      "slug": "pudupettai",
+      "taluk": "Tirupathur",
+      "pincode": "635651"
+    },
+    {
+      "name": "Pudur Kaniyanur",
+      "slug": "pudur-kaniyanur",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Pudur Nadu",
+      "slug": "pudur-nadu",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Pudur Vaniyambadi",
+      "slug": "pudur-vaniyambadi",
+      "taluk": "Vaniyambadi",
+      "pincode": "635751"
+    },
+    {
+      "name": "Pulimedu",
+      "slug": "pulimedu",
+      "taluk": "Vlr",
+      "pincode": "632105"
+    },
+    {
+      "name": "Pulivalam",
+      "slug": "pulivalam",
+      "taluk": "Arakkonam",
+      "pincode": "632505"
+    },
+    {
+      "name": "Puliyamangalam",
+      "slug": "puliyamangalam",
+      "taluk": "Arakkonam",
+      "pincode": "631004"
+    },
+    {
+      "name": "Puliyankannu",
+      "slug": "puliyankannu",
+      "taluk": "Walajapet",
+      "pincode": "632404"
+    },
+    {
+      "name": "Puliyur Tpt",
+      "slug": "puliyur-tpt",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Pullaneri",
+      "slug": "pullaneri",
+      "taluk": "Tirupathur",
+      "pincode": "635851"
+    },
+    {
+      "name": "Punganur",
+      "slug": "punganur",
+      "taluk": "Arcot",
+      "pincode": "632507"
+    },
+    {
+      "name": "Puthagaram",
+      "slug": "puthagaram",
+      "taluk": "Tirupattur",
+      "pincode": "635651"
+    },
+    {
+      "name": "Puttavaripalli",
+      "slug": "puttavaripalli",
+      "taluk": "Gudiyattam",
+      "pincode": "632603"
+    },
+    {
+      "name": "Puttuthakku",
+      "slug": "puttuthakku",
+      "taluk": "Walajapet",
+      "pincode": "632517"
+    },
+    {
+      "name": "R N Palayam",
+      "slug": "r-n-palayam",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Rachamangalam",
+      "slug": "rachamangalam",
+      "taluk": "Tirupattur",
+      "pincode": "635653"
+    },
+    {
+      "name": "Rajakkal",
+      "slug": "rajakkal",
+      "taluk": "Gudiyattam",
+      "pincode": "635805"
+    },
+    {
+      "name": "Rajakuppam",
+      "slug": "rajakuppam",
+      "taluk": "Gudiyattam",
+      "pincode": "635806"
+    },
+    {
+      "name": "Rajapalayam",
+      "slug": "rajapalayam",
+      "taluk": "Tirupathur",
+      "pincode": "635653"
+    },
+    {
+      "name": "Ramalai",
+      "slug": "ramalai",
+      "taluk": "Gudiyattam",
+      "pincode": "632601"
+    },
+    {
+      "name": "Ramanaickenpettai",
+      "slug": "ramanaickenpettai",
+      "taluk": "Tirupattur",
+      "pincode": "635801"
+    },
+    {
+      "name": "Ramanayanikuppam",
+      "slug": "ramanayanikuppam",
+      "taluk": "Vellore",
+      "pincode": "632107"
+    },
+    {
+      "name": "Rangapuram",
+      "slug": "rangapuram",
+      "taluk": "NA",
+      "pincode": "632009"
+    },
+    {
+      "name": "Ranipet",
+      "slug": "ranipet",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Ranipet Bazar",
+      "slug": "ranipet-bazar",
+      "taluk": "Walaja",
+      "pincode": "632401"
+    },
+    {
+      "name": "Ranipet Industrial Estate",
+      "slug": "ranipet-industrial-estate",
+      "taluk": "Walajapet",
+      "pincode": "632403"
+    },
+    {
+      "name": "Ratnagiri Kilminnal",
+      "slug": "ratnagiri-kilminnal",
+      "taluk": "Walajapet",
+      "pincode": "632517"
+    },
+    {
+      "name": "Reddivalam",
+      "slug": "reddivalam",
+      "taluk": "Arakkonam",
+      "pincode": "631052"
+    },
+    {
+      "name": "Reddiyur",
+      "slug": "reddiyur",
+      "taluk": "Tirupattur",
+      "pincode": "635851"
+    },
+    {
+      "name": "Rendadi",
+      "slug": "rendadi",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "Rottukadai",
+      "slug": "rottukadai",
+      "taluk": "Walajapet",
+      "pincode": "632508"
+    },
+    {
+      "name": "Ruhsa Campus",
+      "slug": "ruhsa-campus",
+      "taluk": "Katpadi",
+      "pincode": "632209"
+    },
+    {
+      "name": "Saduperi",
+      "slug": "saduperi",
+      "taluk": "Vlr",
+      "pincode": "632002"
+    },
+    {
+      "name": "Sagayathottam",
+      "slug": "sagayathottam",
+      "taluk": "Arakkonam",
+      "pincode": "631151"
+    },
+    {
+      "name": "Saidapet",
+      "slug": "saidapet",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Saidapet Vellore",
+      "slug": "saidapet-vellore",
+      "taluk": "Vellore",
+      "pincode": "632012"
+    },
+    {
+      "name": "Sainathapuram",
+      "slug": "sainathapuram",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Sakkaramallur",
+      "slug": "sakkaramallur",
+      "taluk": "Arcot",
+      "pincode": "632511"
+    },
+    {
+      "name": "Sambasivapuram",
+      "slug": "sambasivapuram",
+      "taluk": "Arcot",
+      "pincode": "632507"
+    },
+    {
+      "name": "Sankaranpalayam",
+      "slug": "sankaranpalayam",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Sathambakkam",
+      "slug": "sathambakkam",
+      "taluk": "Gudiyattam",
+      "pincode": "635808"
+    },
+    {
+      "name": "Sathugudi",
+      "slug": "sathugudi",
+      "taluk": "Gudiyatham",
+      "pincode": "635810"
+    },
+    {
+      "name": "Sathupalayam",
+      "slug": "sathupalayam",
+      "taluk": "Vellore",
+      "pincode": "632113"
+    },
+    {
+      "name": "Sathuvachari",
+      "slug": "sathuvachari",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Sathuvachari Extension",
+      "slug": "sathuvachari-extension",
+      "taluk": "Vellore",
+      "pincode": "632009"
+    },
+    {
+      "name": "Sathyamangalam",
+      "slug": "sathyamangalam",
+      "taluk": "Vellore",
+      "pincode": "632114"
+    },
+    {
+      "name": "Sattur",
+      "slug": "sattur",
+      "taluk": "Arcot",
+      "pincode": "632521"
+    },
+    {
+      "name": "Sayanavaram",
+      "slug": "sayanavaram",
+      "taluk": "Arakonam",
+      "pincode": "631051"
+    },
+    {
+      "name": "Sedhuvalai",
+      "slug": "sedhuvalai",
+      "taluk": "Vlr",
+      "pincode": "632104"
+    },
+    {
+      "name": "Sedukarai",
+      "slug": "sedukarai",
+      "taluk": "Gudiyattam",
+      "pincode": "635803"
+    },
+    {
+      "name": "Seekarajapuram",
+      "slug": "seekarajapuram",
+      "taluk": "Wallajah",
+      "pincode": "632515"
+    },
+    {
+      "name": "Sekkanur",
+      "slug": "sekkanur",
+      "taluk": "Vlr",
+      "pincode": "632105"
+    },
+    {
+      "name": "Selandampalli",
+      "slug": "selandampalli",
+      "taluk": "Tirupathur",
+      "pincode": "635653"
+    },
+    {
+      "name": "Sembarayanallur",
+      "slug": "sembarayanallur",
+      "taluk": "Walajapet",
+      "pincode": "632519"
+    },
+    {
+      "name": "Sembedu",
+      "slug": "sembedu",
+      "taluk": "Gudiyattam",
+      "pincode": "635813"
+    },
+    {
+      "name": "Sempalli",
+      "slug": "sempalli",
+      "taluk": "Gudiyattam",
+      "pincode": "632604"
+    },
+    {
+      "name": "Sendamangalam",
+      "slug": "sendamangalam",
+      "taluk": "Arakkonam",
+      "pincode": "631051"
+    },
+    {
+      "name": "Senganavaram",
+      "slug": "senganavaram",
+      "taluk": "Arcot",
+      "pincode": "632518"
+    },
+    {
+      "name": "Sengundram",
+      "slug": "sengundram",
+      "taluk": "Gudiyattam",
+      "pincode": "632601"
+    },
+    {
+      "name": "Senji",
+      "slug": "senji",
+      "taluk": "Katpadi",
+      "pincode": "632202"
+    },
+    {
+      "name": "Senur",
+      "slug": "senur",
+      "taluk": "Vlr",
+      "pincode": "632006"
+    },
+    {
+      "name": "Seri",
+      "slug": "seri",
+      "taluk": "Walajapet",
+      "pincode": "632508"
+    },
+    {
+      "name": "Serkadu",
+      "slug": "serkadu",
+      "taluk": "Vlr",
+      "pincode": "632106"
+    },
+    {
+      "name": "Serpadi",
+      "slug": "serpadi",
+      "taluk": "Vlr",
+      "pincode": "632103"
+    },
+    {
+      "name": "Sethubandai",
+      "slug": "sethubandai",
+      "taluk": "Gudiyattam",
+      "pincode": "635803"
+    },
+    {
+      "name": "Sevathur",
+      "slug": "sevathur",
+      "taluk": "Tirupattur",
+      "pincode": "635654"
+    },
+    {
+      "name": "Sevur",
+      "slug": "sevur",
+      "taluk": "Gudiyattam",
+      "pincode": "632601"
+    },
+    {
+      "name": "Seyyoor",
+      "slug": "seyyoor",
+      "taluk": "Arakkonam",
+      "pincode": "631004"
+    },
+    {
+      "name": "Shanankuppam",
+      "slug": "shanankuppam",
+      "taluk": "Vaniyambadi",
+      "pincode": "635814"
+    },
+    {
+      "name": "Shenbakkam",
+      "slug": "shenbakkam",
+      "taluk": "Vellore",
+      "pincode": "632008"
+    },
+    {
+      "name": "Sholingur",
+      "slug": "sholingur",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Sholingur Bazaar",
+      "slug": "sholingur-bazaar",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "Simnapudur",
+      "slug": "simnapudur",
+      "taluk": "Tirupattur",
+      "pincode": "635652"
+    },
+    {
+      "name": "Sirukarumbur",
+      "slug": "sirukarumbur",
+      "taluk": "Arakkonam",
+      "pincode": "632531"
+    },
+    {
+      "name": "Sirunamalli",
+      "slug": "sirunamalli",
+      "taluk": "Arakkonam",
+      "pincode": "631002"
+    },
+    {
+      "name": "Sivanathapuram",
+      "slug": "sivanathapuram",
+      "taluk": "Vlr",
+      "pincode": "632105"
+    },
+    {
+      "name": "Slr Sanatorium",
+      "slug": "slr-sanatorium",
+      "taluk": "Vellore",
+      "pincode": "632106"
+    },
+    {
+      "name": "Somalapuram",
+      "slug": "somalapuram",
+      "taluk": "Vaniyambadi",
+      "pincode": "635802"
+    },
+    {
+      "name": "Somanaickenpatti",
+      "slug": "somanaickenpatti",
+      "taluk": "Tirupathur",
+      "pincode": "635851"
+    },
+    {
+      "name": "Somasamudram",
+      "slug": "somasamudram",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "Soraiyur",
+      "slug": "soraiyur",
+      "taluk": "Arcot",
+      "pincode": "632318"
+    },
+    {
+      "name": "Sorakayalnatham",
+      "slug": "sorakayalnatham",
+      "taluk": "Tirupattur",
+      "pincode": "635854"
+    },
+    {
+      "name": "Sozhamur",
+      "slug": "sozhamur",
+      "taluk": "Katpadi",
+      "pincode": "632202"
+    },
+    {
+      "name": "Sullivanpet",
+      "slug": "sullivanpet",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Sumaithangi",
+      "slug": "sumaithangi",
+      "taluk": "Walajapet",
+      "pincode": "632508"
+    },
+    {
+      "name": "Sundarampalli",
+      "slug": "sundarampalli",
+      "taluk": "Tirupattur",
+      "pincode": "635654"
+    },
+    {
+      "name": "Surai",
+      "slug": "surai",
+      "taluk": "Arakkonam",
+      "pincode": "632505"
+    },
+    {
+      "name": "Suraksha Cisf Campus",
+      "slug": "suraksha-cisf-campus",
+      "taluk": "Arakkonam",
+      "pincode": "631152"
+    },
+    {
+      "name": "Tajpura",
+      "slug": "tajpura",
+      "taluk": "Arcot",
+      "pincode": "632521"
+    },
+    {
+      "name": "Takkolam",
+      "slug": "takkolam",
+      "taluk": "Arakkonam",
+      "pincode": "631151"
+    },
+    {
+      "name": "Talikkal",
+      "slug": "talikkal",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "TB Sanatorium",
+      "slug": "tb-sanatorium",
+      "taluk": "Vellore",
+      "pincode": "632011"
+    },
+    {
+      "name": "TEL",
+      "slug": "tel",
+      "taluk": "Vellore",
+      "pincode": "632059"
+    },
+    {
+      "name": "Tellai",
+      "slug": "tellai",
+      "taluk": "Vlr",
+      "pincode": "632113"
+    },
+    {
+      "name": "Tellur",
+      "slug": "tellur",
+      "taluk": "Vlr",
+      "pincode": "632105"
+    },
+    {
+      "name": "Tempalle",
+      "slug": "tempalle",
+      "taluk": "Walajapet",
+      "pincode": "632515"
+    },
+    {
+      "name": "Thagarakuppam",
+      "slug": "thagarakuppam",
+      "taluk": "Tirupathur",
+      "pincode": "635655"
+    },
+    {
+      "name": "Thalangai",
+      "slug": "thalangai",
+      "taluk": "Walajapet",
+      "pincode": "632501"
+    },
+    {
+      "name": "Thandalam Krishnapuram",
+      "slug": "thandalam-krishnapuram",
+      "taluk": "Vlr",
+      "pincode": "632006"
+    },
+    {
+      "name": "Thanigaipolur",
+      "slug": "thanigaipolur",
+      "taluk": "Arakonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Thathireddipalle",
+      "slug": "thathireddipalle",
+      "taluk": "Katpadi",
+      "pincode": "632516"
+    },
+    {
+      "name": "Thattaparai",
+      "slug": "thattaparai",
+      "taluk": "Gudiyattam",
+      "pincode": "632601"
+    },
+    {
+      "name": "Thattimanapalli",
+      "slug": "thattimanapalli",
+      "taluk": "Gudiyattam",
+      "pincode": "632601"
+    },
+    {
+      "name": "Thekkupattu",
+      "slug": "thekkupattu",
+      "taluk": "Tirupattur",
+      "pincode": "635801"
+    },
+    {
+      "name": "Thengal Katpadi",
+      "slug": "thengal-katpadi",
+      "taluk": "Katpadi",
+      "pincode": "632514"
+    },
+    {
+      "name": "Thengal Walajapet",
+      "slug": "thengal-walajapet",
+      "taluk": "Walajapet",
+      "pincode": "632404"
+    },
+    {
+      "name": "Thenkadapanthangal",
+      "slug": "thenkadapanthangal",
+      "taluk": "Walajapet",
+      "pincode": "632513"
+    },
+    {
+      "name": "Thennambattu",
+      "slug": "thennambattu",
+      "taluk": "Vaniyambadi",
+      "pincode": "635802"
+    },
+    {
+      "name": "Thimmampet",
+      "slug": "thimmampet",
+      "taluk": "Tirupattur",
+      "pincode": "635801"
+    },
+    {
+      "name": "Thimmanamuthur",
+      "slug": "thimmanamuthur",
+      "taluk": "Tirupathur",
+      "pincode": "635653"
+    },
+    {
+      "name": "Thirumalaicheryy",
+      "slug": "thirumalaicheryy",
+      "taluk": "Walajapet",
+      "pincode": "632513"
+    },
+    {
+      "name": "Thiruparkadal",
+      "slug": "thiruparkadal",
+      "taluk": "Walajapet",
+      "pincode": "632508"
+    },
+    {
+      "name": "Thiruvalluvar University",
+      "slug": "thiruvalluvar-university",
+      "taluk": "Katpadi",
+      "pincode": "632115"
+    },
+    {
+      "name": "Thokkiyam",
+      "slug": "thokkiyam",
+      "taluk": "Tirupattur",
+      "pincode": "635901"
+    },
+    {
+      "name": "Thollapalli",
+      "slug": "thollapalli",
+      "taluk": "Vaniyambadi",
+      "pincode": "635804"
+    },
+    {
+      "name": "Thongumalai",
+      "slug": "thongumalai",
+      "taluk": "Vlr",
+      "pincode": "632103"
+    },
+    {
+      "name": "Thoppukhana",
+      "slug": "thoppukhana",
+      "taluk": "Arcot",
+      "pincode": "632503"
+    },
+    {
+      "name": "Thorapadi",
+      "slug": "thorapadi",
+      "taluk": "Vellore",
+      "pincode": "632002"
+    },
+    {
+      "name": "Thornampathy",
+      "slug": "thornampathy",
+      "taluk": "Tirupathur",
+      "pincode": "635602"
+    },
+    {
+      "name": "Thottalam",
+      "slug": "thottalam",
+      "taluk": "Vaniyambadi",
+      "pincode": "635804"
+    },
+    {
+      "name": "Thottapalayam",
+      "slug": "thottapalayam",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Thottithuraimottur",
+      "slug": "thottithuraimottur",
+      "taluk": "Gudiyattam",
+      "pincode": "635810"
+    },
+    {
+      "name": "Thumberi",
+      "slug": "thumberi",
+      "taluk": "Vaniyambadi",
+      "pincode": "635754"
+    },
+    {
+      "name": "Thuraiperumbakkam",
+      "slug": "thuraiperumbakkam",
+      "taluk": "Walajapet",
+      "pincode": "632508"
+    },
+    {
+      "name": "Thuthikkadu",
+      "slug": "thuthikkadu",
+      "taluk": "Vlr",
+      "pincode": "632113"
+    },
+    {
+      "name": "Thuthipattu",
+      "slug": "thuthipattu",
+      "taluk": "Vlr",
+      "pincode": "632011"
+    },
+    {
+      "name": "Thuthipattu Vaniyambadi",
+      "slug": "thuthipattu-vaniyambadi",
+      "taluk": "Vaniyambadi",
+      "pincode": "635811"
+    },
+    {
+      "name": "Timiri",
+      "slug": "timiri",
+      "taluk": "Arcot",
+      "pincode": "632512"
+    },
+    {
+      "name": "Tippasamudram",
+      "slug": "tippasamudram",
+      "taluk": "Katpadi",
+      "pincode": "635809"
+    },
+    {
+      "name": "Tiriyalam",
+      "slug": "tiriyalam",
+      "taluk": "Tirupattur",
+      "pincode": "635851"
+    },
+    {
+      "name": "Tirumalpur",
+      "slug": "tirumalpur",
+      "taluk": "Arakkonam",
+      "pincode": "631051"
+    },
+    {
+      "name": "Tirumani",
+      "slug": "tirumani",
+      "taluk": "Vlr",
+      "pincode": "632202"
+    },
+    {
+      "name": "Tirupattur Bazaar",
+      "slug": "tirupattur-bazaar",
+      "taluk": "Tirupattur",
+      "pincode": "635602"
+    },
+    {
+      "name": "Tirupattur Fort",
+      "slug": "tirupattur-fort",
+      "taluk": "Tirupathur",
+      "pincode": "635602"
+    },
+    {
+      "name": "Tirupattur TNHB",
+      "slug": "tirupattur-tnhb",
+      "taluk": "Tirupathur",
+      "pincode": "635601"
+    },
+    {
+      "name": "Tiruvalam",
+      "slug": "tiruvalam",
+      "taluk": "Walajapet",
+      "pincode": "632515"
+    },
+    {
+      "name": "Toll Gate",
+      "slug": "toll-gate",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Udayamuthur",
+      "slug": "udayamuthur",
+      "taluk": "Tirupattur",
+      "pincode": "635652"
+    },
+    {
+      "name": "Udayendiram",
+      "slug": "udayendiram",
+      "taluk": "Vaniyambadi",
+      "pincode": "635754"
+    },
+    {
+      "name": "Ulianallore",
+      "slug": "ulianallore",
+      "taluk": "Arakkonam",
+      "pincode": "631052"
+    },
+    {
+      "name": "Ulli",
+      "slug": "ulli",
+      "taluk": "Gudiyattam",
+      "pincode": "635813"
+    },
+    {
+      "name": "Unai",
+      "slug": "unai",
+      "taluk": "Vlr",
+      "pincode": "632101"
+    },
+    {
+      "name": "Unai Vaniyambadi",
+      "slug": "unai-vaniyambadi",
+      "taluk": "Vlr",
+      "pincode": "632101"
+    },
+    {
+      "name": "Unaipalathur",
+      "slug": "unaipalathur",
+      "taluk": "Vlr",
+      "pincode": "632101"
+    },
+    {
+      "name": "Uppupettai",
+      "slug": "uppupettai",
+      "taluk": "Arcot",
+      "pincode": "632521"
+    },
+    {
+      "name": "Uriyur",
+      "slug": "uriyur",
+      "taluk": "Arakkonam",
+      "pincode": "631151"
+    },
+    {
+      "name": "Ussoor",
+      "slug": "ussoor",
+      "taluk": "Vellore",
+      "pincode": "632105"
+    },
+    {
+      "name": "Vadacheri",
+      "slug": "vadacheri",
+      "taluk": "Vaniyambadi",
+      "pincode": "635754"
+    },
+    {
+      "name": "Vadakkathipatti",
+      "slug": "vadakkathipatti",
+      "taluk": "Vaniyambadi",
+      "pincode": "635804"
+    },
+    {
+      "name": "Vadakkupattu",
+      "slug": "vadakkupattu",
+      "taluk": "Tirupattur",
+      "pincode": "635801"
+    },
+    {
+      "name": "Vadamambakkam",
+      "slug": "vadamambakkam",
+      "taluk": "Arakkonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Vadapudupet",
+      "slug": "vadapudupet",
+      "taluk": "Vaniyambadi",
+      "pincode": "635812"
+    },
+    {
+      "name": "Vaduganthangal",
+      "slug": "vaduganthangal",
+      "taluk": "Vellore",
+      "pincode": "632204"
+    },
+    {
+      "name": "Vakkanampatti",
+      "slug": "vakkanampatti",
+      "taluk": "Tirupathur",
+      "pincode": "635851"
+    },
+    {
+      "name": "Valaikulam",
+      "slug": "valaikulam",
+      "taluk": "Arakkonam",
+      "pincode": "631003"
+    },
+    {
+      "name": "Valapandal",
+      "slug": "valapandal",
+      "taluk": "Arcot",
+      "pincode": "632318"
+    },
+    {
+      "name": "Valathoor",
+      "slug": "valathoor",
+      "taluk": "Gudiyattam",
+      "pincode": "635813"
+    },
+    {
+      "name": "Valayalkarapatti",
+      "slug": "valayalkarapatti",
+      "taluk": "Vaniyambadi",
+      "pincode": "635804"
+    },
+    {
+      "name": "Valayambattu",
+      "slug": "valayambattu",
+      "taluk": "Vaniyambadi",
+      "pincode": "635751"
+    },
+    {
+      "name": "Valayathur",
+      "slug": "valayathur",
+      "taluk": "Arcot",
+      "pincode": "632504"
+    },
+    {
+      "name": "Vallam Arni",
+      "slug": "vallam-arni",
+      "taluk": "Vandavasi",
+      "pincode": "604505"
+    },
+    {
+      "name": "Vallam Kannamangalam",
+      "slug": "vallam-kannamangalam",
+      "taluk": "Arni",
+      "pincode": "632311"
+    },
+    {
+      "name": "Vallandramam",
+      "slug": "vallandramam",
+      "taluk": "Vlr",
+      "pincode": "632104"
+    },
+    {
+      "name": "Vallimalai",
+      "slug": "vallimalai",
+      "taluk": "Katpadi",
+      "pincode": "632520"
+    },
+    {
+      "name": "Vallipattu",
+      "slug": "vallipattu",
+      "taluk": "Vaniyambadi",
+      "pincode": "635752"
+    },
+    {
+      "name": "Valluvambakkam",
+      "slug": "valluvambakkam",
+      "taluk": "Walajapet",
+      "pincode": "632513"
+    },
+    {
+      "name": "Vanapadi",
+      "slug": "vanapadi",
+      "taluk": "Walajapet",
+      "pincode": "632404"
+    },
+    {
+      "name": "Vandranthangal",
+      "slug": "vandranthangal",
+      "taluk": "Vl",
+      "pincode": "632059"
+    },
+    {
+      "name": "Vangupattu",
+      "slug": "vangupattu",
+      "taluk": "Arakkonam",
+      "pincode": "631102"
+    },
+    {
+      "name": "Vangur",
+      "slug": "vangur",
+      "taluk": "Walajapet",
+      "pincode": "632501"
+    },
+    {
+      "name": "Vaniyambadi RS",
+      "slug": "vaniyambadi-rs",
+      "taluk": "Vaniyambadi",
+      "pincode": "635751"
+    },
+    {
+      "name": "Vannanthangal",
+      "slug": "vannanthangal",
+      "taluk": "Velr",
+      "pincode": "632103"
+    },
+    {
+      "name": "Vannivedu",
+      "slug": "vannivedu",
+      "taluk": "Walajapet",
+      "pincode": "632513"
+    },
+    {
+      "name": "Varadalambattu",
+      "slug": "varadalambattu",
+      "taluk": "Vlr",
+      "pincode": "632101"
+    },
+    {
+      "name": "Varadareddipalli",
+      "slug": "varadareddipalli",
+      "taluk": "Gudiyattam",
+      "pincode": "632603"
+    },
+    {
+      "name": "Varagur",
+      "slug": "varagur",
+      "taluk": "Arcot",
+      "pincode": "632507"
+    },
+    {
+      "name": "Vasanthapuram",
+      "slug": "vasanthapuram",
+      "taluk": "Vaniyambadi",
+      "pincode": "635701"
+    },
+    {
+      "name": "Vasur",
+      "slug": "vasur",
+      "taluk": "Katpadi",
+      "pincode": "632514"
+    },
+    {
+      "name": "Veerichettipalli",
+      "slug": "veerichettipalli",
+      "taluk": "Gudiyattam",
+      "pincode": "632603"
+    },
+    {
+      "name": "Velakalnatham",
+      "slug": "velakalnatham",
+      "taluk": "Tirupattur",
+      "pincode": "635854"
+    },
+    {
+      "name": "Velam",
+      "slug": "velam",
+      "taluk": "Wallajah",
+      "pincode": "632501"
+    },
+    {
+      "name": "Velangadu",
+      "slug": "velangadu",
+      "taluk": "Vlr",
+      "pincode": "632101"
+    },
+    {
+      "name": "Velapadi",
+      "slug": "velapadi",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Vellakuttai",
+      "slug": "vellakuttai",
+      "taluk": "Vaniyambadi",
+      "pincode": "635752"
+    },
+    {
+      "name": "Vellambi",
+      "slug": "vellambi",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Vellore Bazaar",
+      "slug": "vellore-bazaar",
+      "taluk": "Vellore",
+      "pincode": "632004"
+    },
+    {
+      "name": "Vellore Cantonment",
+      "slug": "vellore-cantonment",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Vellore Collectorate",
+      "slug": "vellore-collectorate",
+      "taluk": "Vellore",
+      "pincode": "632004"
+    },
+    {
+      "name": "Vellore Fort",
+      "slug": "vellore-fort",
+      "taluk": "Vellore",
+      "pincode": "632004"
+    },
+    {
+      "name": "Vellore Institute Of Technology",
+      "slug": "vellore-institute-of-technology",
+      "taluk": "Vellore",
+      "pincode": "632014"
+    },
+    {
+      "name": "Vellore Market",
+      "slug": "vellore-market",
+      "taluk": "Vellore",
+      "pincode": "632004"
+    },
+    {
+      "name": "Vellore South",
+      "slug": "vellore-south",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Vellore Sugar Mills",
+      "slug": "vellore-sugar-mills",
+      "taluk": "Walajapet",
+      "pincode": "632519"
+    },
+    {
+      "name": "Velpadi",
+      "slug": "velpadi",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Velur Kalavai",
+      "slug": "velur-kalavai",
+      "taluk": "Arcot",
+      "pincode": "632506"
+    },
+    {
+      "name": "Vembi",
+      "slug": "vembi",
+      "taluk": "Arcot",
+      "pincode": "632518"
+    },
+    {
+      "name": "Vengalapuram",
+      "slug": "vengalapuram",
+      "taluk": "Tirupattur",
+      "pincode": "635653"
+    },
+    {
+      "name": "Vengili",
+      "slug": "vengili",
+      "taluk": "Vaniyambadi",
+      "pincode": "635812"
+    },
+    {
+      "name": "Venkatapuram",
+      "slug": "venkatapuram",
+      "taluk": "Arcot",
+      "pincode": "632507"
+    },
+    {
+      "name": "Venkatasamudram",
+      "slug": "venkatasamudram",
+      "taluk": "Gudiyattam",
+      "pincode": "635811"
+    },
+    {
+      "name": "Vennampalle",
+      "slug": "vennampalle",
+      "taluk": "Katpadi",
+      "pincode": "632516"
+    },
+    {
+      "name": "Veppalai",
+      "slug": "veppalai",
+      "taluk": "Katpadi",
+      "pincode": "632520"
+    },
+    {
+      "name": "Veppalnatham",
+      "slug": "veppalnatham",
+      "taluk": "Tirupathur",
+      "pincode": "635651"
+    },
+    {
+      "name": "Veppampattu",
+      "slug": "veppampattu",
+      "taluk": "Vellore",
+      "pincode": "632113"
+    },
+    {
+      "name": "Veppankuppam",
+      "slug": "veppankuppam",
+      "taluk": "Vlr",
+      "pincode": "632107"
+    },
+    {
+      "name": "Veppur",
+      "slug": "veppur",
+      "taluk": "Gudiyattam",
+      "pincode": "635803"
+    },
+    {
+      "name": "Vettapattu",
+      "slug": "vettapattu",
+      "taluk": "Tirupattur",
+      "pincode": "635852"
+    },
+    {
+      "name": "Vettuvanam",
+      "slug": "vettuvanam",
+      "taluk": "Gudiyatham",
+      "pincode": "635809"
+    },
+    {
+      "name": "Vilapakkam",
+      "slug": "vilapakkam",
+      "taluk": "Arcot",
+      "pincode": "632521"
+    },
+    {
+      "name": "Viludonpalayam",
+      "slug": "viludonpalayam",
+      "taluk": "Gudiyattam",
+      "pincode": "632603"
+    },
+    {
+      "name": "Vinnamangalam",
+      "slug": "vinnamangalam",
+      "taluk": "Vaniyambadi",
+      "pincode": "635807"
+    },
+    {
+      "name": "Virnjipuram",
+      "slug": "virnjipuram",
+      "taluk": "Vellore",
+      "pincode": "632104"
+    },
+    {
+      "name": "Virudhambattu",
+      "slug": "virudhambattu",
+      "taluk": "Vellore",
+      "pincode": "632006"
+    },
+    {
+      "name": "Virupakshipuram",
+      "slug": "virupakshipuram",
+      "taluk": "Vellore",
+      "pincode": "632002"
+    },
+    {
+      "name": "Viruthampet",
+      "slug": "viruthampet",
+      "taluk": "Vellore",
+      "pincode": ""
+    },
+    {
+      "name": "Vishamangalam",
+      "slug": "vishamangalam",
+      "taluk": "Tirupattur",
+      "pincode": "635652"
+    },
+    {
+      "name": "Voorhees College",
+      "slug": "voorhees-college",
+      "taluk": "Vellore",
+      "pincode": "632001"
+    },
+    {
+      "name": "Walajapet",
+      "slug": "walajapet",
+      "taluk": "Wallajah",
+      "pincode": "632513"
+    },
+    {
+      "name": "Walajapet Bazaar",
+      "slug": "walajapet-bazaar",
+      "taluk": "Wallajah",
+      "pincode": "632513"
+    },
+    {
+      "name": "Yelagiri Hills",
+      "slug": "yelagiri-hills",
+      "taluk": "Tirupattur",
+      "pincode": "635853"
+    }
+  ],
+  "byTaluk": {
+    "Vlr": [
+      {
+        "name": "A Kattupadi",
+        "slug": "a-kattupadi",
+        "taluk": "Vlr",
+        "pincode": "632011"
+      },
+      {
+        "name": "Alleri",
+        "slug": "alleri",
+        "taluk": "Vlr",
+        "pincode": "632101"
+      },
+      {
+        "name": "Amirdhi",
+        "slug": "amirdhi",
+        "taluk": "Vlr",
+        "pincode": "632102"
+      },
+      {
+        "name": "Arimalai",
+        "slug": "arimalai",
+        "taluk": "Vlr",
+        "pincode": "632107"
+      },
+      {
+        "name": "Asanamabattu",
+        "slug": "asanamabattu",
+        "taluk": "Vlr",
+        "pincode": "632107"
+      },
+      {
+        "name": "Budur",
+        "slug": "budur",
+        "taluk": "Vlr",
+        "pincode": "632105"
+      },
+      {
+        "name": "Chinnapalampakkam",
+        "slug": "chinnapalampakkam",
+        "taluk": "Vlr",
+        "pincode": "632113"
+      },
+      {
+        "name": "Chinnapallikuppam",
+        "slug": "chinnapallikuppam",
+        "taluk": "Vlr",
+        "pincode": "632107"
+      },
+      {
+        "name": "Christianpet",
+        "slug": "christianpet",
+        "taluk": "Vlr",
+        "pincode": "632059"
+      },
+      {
+        "name": "Devichettikuppam",
+        "slug": "devichettikuppam",
+        "taluk": "Vlr",
+        "pincode": "632107"
+      },
+      {
+        "name": "Edayansathu",
+        "slug": "edayansathu",
+        "taluk": "Vlr",
+        "pincode": "632002"
+      },
+      {
+        "name": "Elavambadi",
+        "slug": "elavambadi",
+        "taluk": "Vlr",
+        "pincode": "632105"
+      },
+      {
+        "name": "Erayangadu",
+        "slug": "erayangadu",
+        "taluk": "Vlr",
+        "pincode": "632104"
+      },
+      {
+        "name": "Eripudhur",
+        "slug": "eripudhur",
+        "taluk": "Vlr",
+        "pincode": "632101"
+      },
+      {
+        "name": "Eriyur",
+        "slug": "eriyur",
+        "taluk": "Vlr",
+        "pincode": "632103"
+      },
+      {
+        "name": "Eriyur Amirdhi",
+        "slug": "eriyur-amirdhi",
+        "taluk": "Vlr",
+        "pincode": "632102"
+      },
+      {
+        "name": "Ganganallur",
+        "slug": "ganganallur",
+        "taluk": "Vlr",
+        "pincode": "632101"
+      },
+      {
+        "name": "Govindareddipalayam",
+        "slug": "govindareddipalayam",
+        "taluk": "Vlr",
+        "pincode": "632105"
+      },
+      {
+        "name": "Jordhankollai",
+        "slug": "jordhankollai",
+        "taluk": "Vlr",
+        "pincode": "632113"
+      },
+      {
+        "name": "Ka Farm",
+        "slug": "ka-farm",
+        "taluk": "Vlr",
+        "pincode": "632007"
+      },
+      {
+        "name": "Kalambattu",
+        "slug": "kalambattu",
+        "taluk": "Vlr",
+        "pincode": "632202"
+      },
+      {
+        "name": "Kandhipedu",
+        "slug": "kandhipedu",
+        "taluk": "Vlr",
+        "pincode": "632106"
+      },
+      {
+        "name": "Karugambathur",
+        "slug": "karugambathur",
+        "taluk": "Vlr",
+        "pincode": "632013"
+      },
+      {
+        "name": "Kattipattu",
+        "slug": "kattipattu",
+        "taluk": "Vlr",
+        "pincode": "632103"
+      },
+      {
+        "name": "Kavasampattu",
+        "slug": "kavasampattu",
+        "taluk": "Vlr",
+        "pincode": "632204"
+      },
+      {
+        "name": "Kilkothur",
+        "slug": "kilkothur",
+        "taluk": "Vlr",
+        "pincode": "632103"
+      },
+      {
+        "name": "Kilmuttukur",
+        "slug": "kilmuttukur",
+        "taluk": "Vlr",
+        "pincode": "632204"
+      },
+      {
+        "name": "Kilsaranakuppam",
+        "slug": "kilsaranakuppam",
+        "taluk": "Vlr",
+        "pincode": "632102"
+      },
+      {
+        "name": "Koranthangal",
+        "slug": "koranthangal",
+        "taluk": "Vlr",
+        "pincode": "632106"
+      },
+      {
+        "name": "Kothamangalam",
+        "slug": "kothamangalam",
+        "taluk": "Vlr",
+        "pincode": "632104"
+      },
+      {
+        "name": "Kovilandur",
+        "slug": "kovilandur",
+        "taluk": "Vlr",
+        "pincode": "632102"
+      },
+      {
+        "name": "Maruthavallipalayam",
+        "slug": "maruthavallipalayam",
+        "taluk": "Vlr",
+        "pincode": "632104"
+      },
+      {
+        "name": "Melarasambattu",
+        "slug": "melarasambattu",
+        "taluk": "Vlr",
+        "pincode": "632103"
+      },
+      {
+        "name": "Melkuppachinna",
+        "slug": "melkuppachinna",
+        "taluk": "Vlr",
+        "pincode": "632102"
+      },
+      {
+        "name": "Mudinampattu",
+        "slug": "mudinampattu",
+        "taluk": "Vlr",
+        "pincode": "632204"
+      },
+      {
+        "name": "Mutharasikuppam",
+        "slug": "mutharasikuppam",
+        "taluk": "Vlr",
+        "pincode": "632106"
+      },
+      {
+        "name": "Nadanur",
+        "slug": "nadanur",
+        "taluk": "Vlr",
+        "pincode": "632102"
+      },
+      {
+        "name": "Naganadhi",
+        "slug": "naganadhi",
+        "taluk": "Vlr",
+        "pincode": "632113"
+      },
+      {
+        "name": "Nammiyambattu",
+        "slug": "nammiyambattu",
+        "taluk": "Vlr",
+        "pincode": "632102"
+      },
+      {
+        "name": "Nelvoy",
+        "slug": "nelvoy",
+        "taluk": "Vlr",
+        "pincode": "632011"
+      },
+      {
+        "name": "Nemandhapuram",
+        "slug": "nemandhapuram",
+        "taluk": "Vlr",
+        "pincode": "632103"
+      },
+      {
+        "name": "Ongapadi",
+        "slug": "ongapadi",
+        "taluk": "Vlr",
+        "pincode": "632101"
+      },
+      {
+        "name": "Pakkampalayam",
+        "slug": "pakkampalayam",
+        "taluk": "Vlr",
+        "pincode": "632107"
+      },
+      {
+        "name": "Palamathi",
+        "slug": "palamathi",
+        "taluk": "Vlr",
+        "pincode": "632002"
+      },
+      {
+        "name": "Palambattu",
+        "slug": "palambattu",
+        "taluk": "Vlr",
+        "pincode": "632102"
+      },
+      {
+        "name": "Palaparambattu",
+        "slug": "palaparambattu",
+        "taluk": "Vlr",
+        "pincode": "632102"
+      },
+      {
+        "name": "Pallikuppam",
+        "slug": "pallikuppam",
+        "taluk": "Vlr",
+        "pincode": "632007"
+      },
+      {
+        "name": "Panamadangi",
+        "slug": "panamadangi",
+        "taluk": "Vlr",
+        "pincode": "632202"
+      },
+      {
+        "name": "Periyapudhur",
+        "slug": "periyapudhur",
+        "taluk": "Vlr",
+        "pincode": "632059"
+      },
+      {
+        "name": "Perumugai",
+        "slug": "perumugai",
+        "taluk": "Vlr",
+        "pincode": "632009"
+      },
+      {
+        "name": "Pinnathurai",
+        "slug": "pinnathurai",
+        "taluk": "Vlr",
+        "pincode": "632103"
+      },
+      {
+        "name": "Poigai",
+        "slug": "poigai",
+        "taluk": "Vlr",
+        "pincode": "632114"
+      },
+      {
+        "name": "Poigaimottur",
+        "slug": "poigaimottur",
+        "taluk": "Vlr",
+        "pincode": "632114"
+      },
+      {
+        "name": "Pulimedu",
+        "slug": "pulimedu",
+        "taluk": "Vlr",
+        "pincode": "632105"
+      },
+      {
+        "name": "Saduperi",
+        "slug": "saduperi",
+        "taluk": "Vlr",
+        "pincode": "632002"
+      },
+      {
+        "name": "Sedhuvalai",
+        "slug": "sedhuvalai",
+        "taluk": "Vlr",
+        "pincode": "632104"
+      },
+      {
+        "name": "Sekkanur",
+        "slug": "sekkanur",
+        "taluk": "Vlr",
+        "pincode": "632105"
+      },
+      {
+        "name": "Senur",
+        "slug": "senur",
+        "taluk": "Vlr",
+        "pincode": "632006"
+      },
+      {
+        "name": "Serkadu",
+        "slug": "serkadu",
+        "taluk": "Vlr",
+        "pincode": "632106"
+      },
+      {
+        "name": "Serpadi",
+        "slug": "serpadi",
+        "taluk": "Vlr",
+        "pincode": "632103"
+      },
+      {
+        "name": "Sivanathapuram",
+        "slug": "sivanathapuram",
+        "taluk": "Vlr",
+        "pincode": "632105"
+      },
+      {
+        "name": "Tellai",
+        "slug": "tellai",
+        "taluk": "Vlr",
+        "pincode": "632113"
+      },
+      {
+        "name": "Tellur",
+        "slug": "tellur",
+        "taluk": "Vlr",
+        "pincode": "632105"
+      },
+      {
+        "name": "Thandalam Krishnapuram",
+        "slug": "thandalam-krishnapuram",
+        "taluk": "Vlr",
+        "pincode": "632006"
+      },
+      {
+        "name": "Thongumalai",
+        "slug": "thongumalai",
+        "taluk": "Vlr",
+        "pincode": "632103"
+      },
+      {
+        "name": "Thuthikkadu",
+        "slug": "thuthikkadu",
+        "taluk": "Vlr",
+        "pincode": "632113"
+      },
+      {
+        "name": "Thuthipattu",
+        "slug": "thuthipattu",
+        "taluk": "Vlr",
+        "pincode": "632011"
+      },
+      {
+        "name": "Tirumani",
+        "slug": "tirumani",
+        "taluk": "Vlr",
+        "pincode": "632202"
+      },
+      {
+        "name": "Unai",
+        "slug": "unai",
+        "taluk": "Vlr",
+        "pincode": "632101"
+      },
+      {
+        "name": "Unai Vaniyambadi",
+        "slug": "unai-vaniyambadi",
+        "taluk": "Vlr",
+        "pincode": "632101"
+      },
+      {
+        "name": "Unaipalathur",
+        "slug": "unaipalathur",
+        "taluk": "Vlr",
+        "pincode": "632101"
+      },
+      {
+        "name": "Vallandramam",
+        "slug": "vallandramam",
+        "taluk": "Vlr",
+        "pincode": "632104"
+      },
+      {
+        "name": "Varadalambattu",
+        "slug": "varadalambattu",
+        "taluk": "Vlr",
+        "pincode": "632101"
+      },
+      {
+        "name": "Velangadu",
+        "slug": "velangadu",
+        "taluk": "Vlr",
+        "pincode": "632101"
+      },
+      {
+        "name": "Veppankuppam",
+        "slug": "veppankuppam",
+        "taluk": "Vlr",
+        "pincode": "632107"
+      }
+    ],
+    "Vellore": [
+      {
+        "name": "Abdullapuram",
+        "slug": "abdullapuram",
+        "taluk": "Vellore",
+        "pincode": "632010"
+      },
+      {
+        "name": "Ambur",
+        "slug": "ambur",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Ampuram",
+        "slug": "ampuram",
+        "taluk": "Vellore",
+        "pincode": "632009"
+      },
+      {
+        "name": "Anaicut",
+        "slug": "anaicut",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Anaikkattu",
+        "slug": "anaikkattu",
+        "taluk": "Vellore",
+        "pincode": "632101"
+      },
+      {
+        "name": "Appukal",
+        "slug": "appukal",
+        "taluk": "Vellore",
+        "pincode": "632101"
+      },
+      {
+        "name": "Arakkonam",
+        "slug": "arakkonam",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Arcot",
+        "slug": "arcot",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Ariyur Spinning Mills",
+        "slug": "ariyur-spinning-mills",
+        "taluk": "Vellore",
+        "pincode": "632055"
+      },
+      {
+        "name": "Ariyur Vellore",
+        "slug": "ariyur-vellore",
+        "taluk": "Vellore",
+        "pincode": "632055"
+      },
+      {
+        "name": "Bagayam",
+        "slug": "bagayam",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Bakiyath",
+        "slug": "bakiyath",
+        "taluk": "Vellore",
+        "pincode": "632004"
+      },
+      {
+        "name": "Chitteri Vellore",
+        "slug": "chitteri-vellore",
+        "taluk": "Vellore",
+        "pincode": "632002"
+      },
+      {
+        "name": "Cholavaram",
+        "slug": "cholavaram",
+        "taluk": "Vellore",
+        "pincode": "632113"
+      },
+      {
+        "name": "CMC H",
+        "slug": "cmc-h",
+        "taluk": "Vellore",
+        "pincode": "632004"
+      },
+      {
+        "name": "CMC Vellore",
+        "slug": "cmc-vellore",
+        "taluk": "Vellore",
+        "pincode": "632002"
+      },
+      {
+        "name": "Dharapadavedu",
+        "slug": "dharapadavedu",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Gandhi Nagar",
+        "slug": "gandhi",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Gandhi Nagar",
+        "slug": "gandhi-nagar",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Gandhinagar",
+        "slug": "gandhinagar",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Gandhinagar East",
+        "slug": "gandhinagar-east",
+        "taluk": "Vellore",
+        "pincode": "632006"
+      },
+      {
+        "name": "Gandhinagar West",
+        "slug": "gandhinagar-west",
+        "taluk": "Vellore",
+        "pincode": "632006"
+      },
+      {
+        "name": "Gandhiroad",
+        "slug": "gandhiroad",
+        "taluk": "Vellore",
+        "pincode": "632004"
+      },
+      {
+        "name": "Gudiyatham",
+        "slug": "gudiyatham",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Guruvarajapalayam",
+        "slug": "guruvarajapalayam",
+        "taluk": "Vellore",
+        "pincode": "632107"
+      },
+      {
+        "name": "Kagithapattarai",
+        "slug": "kagithapattarai",
+        "taluk": "Vellore",
+        "pincode": "632012"
+      },
+      {
+        "name": "Kagithapattrai",
+        "slug": "kagithapattrai",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Kalavai",
+        "slug": "kalavai",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Kammasamudram",
+        "slug": "kammasamudram",
+        "taluk": "Vellore",
+        "pincode": "632319"
+      },
+      {
+        "name": "Kammavanpettai",
+        "slug": "kammavanpettai",
+        "taluk": "Vellore",
+        "pincode": "632319"
+      },
+      {
+        "name": "Kangeyanallur",
+        "slug": "kangeyanallur",
+        "taluk": "Vellore",
+        "pincode": "632006"
+      },
+      {
+        "name": "Kaniyambadi",
+        "slug": "kaniyambadi",
+        "taluk": "Vellore",
+        "pincode": "632102"
+      },
+      {
+        "name": "Kasba Vellore",
+        "slug": "kasba-vellore",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "Kaspa",
+        "slug": "kaspa",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Katpadi",
+        "slug": "katpadi",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Katpadi North",
+        "slug": "katpadi-north",
+        "taluk": "Vellore",
+        "pincode": "632007"
+      },
+      {
+        "name": "Kattazhambattu",
+        "slug": "kattazhambattu",
+        "taluk": "Vellore",
+        "pincode": "632312"
+      },
+      {
+        "name": "Kattuputhur",
+        "slug": "kattuputhur",
+        "taluk": "Vellore",
+        "pincode": "632058"
+      },
+      {
+        "name": "Kilarasampattu",
+        "slug": "kilarasampattu",
+        "taluk": "Vellore",
+        "pincode": "632312"
+      },
+      {
+        "name": "Konavattam",
+        "slug": "konavattam",
+        "taluk": "Vellore",
+        "pincode": "632013"
+      },
+      {
+        "name": "Kosapet",
+        "slug": "kosapet",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Kosapet Vellore",
+        "slug": "kosapet-vellore",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "Kosapettai",
+        "slug": "kosapettai",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Krishnanagar Vellore",
+        "slug": "krishnanagar-vellore",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "Melmonavur",
+        "slug": "melmonavur",
+        "taluk": "Vellore",
+        "pincode": "632010"
+      },
+      {
+        "name": "Melvisharam",
+        "slug": "melvisharam",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Mottakkal",
+        "slug": "mottakkal",
+        "taluk": "Vellore",
+        "pincode": "632319"
+      },
+      {
+        "name": "Munjurpattu",
+        "slug": "munjurpattu",
+        "taluk": "Vellore",
+        "pincode": "632057"
+      },
+      {
+        "name": "Nagalur",
+        "slug": "nagalur",
+        "taluk": "Vellore",
+        "pincode": "632102"
+      },
+      {
+        "name": "Nanjukondapuram",
+        "slug": "nanjukondapuram",
+        "taluk": "Vellore",
+        "pincode": "632312"
+      },
+      {
+        "name": "Odugathur",
+        "slug": "odugathur",
+        "taluk": "Vellore",
+        "pincode": "632103"
+      },
+      {
+        "name": "Old District Board Buildings",
+        "slug": "old-district-board-buildings",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "Old Town Vellore",
+        "slug": "old-town-vellore",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "Otteri",
+        "slug": "otteri",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Pennathur",
+        "slug": "pennathur",
+        "taluk": "Vellore",
+        "pincode": "632058"
+      },
+      {
+        "name": "Pernambut",
+        "slug": "pernambut",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Perumal Nagar",
+        "slug": "perumal-nagar",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Polur",
+        "slug": "polur",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "R N Palayam",
+        "slug": "r-n-palayam",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "Ramanayanikuppam",
+        "slug": "ramanayanikuppam",
+        "taluk": "Vellore",
+        "pincode": "632107"
+      },
+      {
+        "name": "Ranipet",
+        "slug": "ranipet",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Saidapet",
+        "slug": "saidapet",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Saidapet Vellore",
+        "slug": "saidapet-vellore",
+        "taluk": "Vellore",
+        "pincode": "632012"
+      },
+      {
+        "name": "Sainathapuram",
+        "slug": "sainathapuram",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "Sankaranpalayam",
+        "slug": "sankaranpalayam",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "Sathupalayam",
+        "slug": "sathupalayam",
+        "taluk": "Vellore",
+        "pincode": "632113"
+      },
+      {
+        "name": "Sathuvachari",
+        "slug": "sathuvachari",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Sathuvachari Extension",
+        "slug": "sathuvachari-extension",
+        "taluk": "Vellore",
+        "pincode": "632009"
+      },
+      {
+        "name": "Sathyamangalam",
+        "slug": "sathyamangalam",
+        "taluk": "Vellore",
+        "pincode": "632114"
+      },
+      {
+        "name": "Shenbakkam",
+        "slug": "shenbakkam",
+        "taluk": "Vellore",
+        "pincode": "632008"
+      },
+      {
+        "name": "Sholingur",
+        "slug": "sholingur",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Slr Sanatorium",
+        "slug": "slr-sanatorium",
+        "taluk": "Vellore",
+        "pincode": "632106"
+      },
+      {
+        "name": "Sullivanpet",
+        "slug": "sullivanpet",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "TB Sanatorium",
+        "slug": "tb-sanatorium",
+        "taluk": "Vellore",
+        "pincode": "632011"
+      },
+      {
+        "name": "TEL",
+        "slug": "tel",
+        "taluk": "Vellore",
+        "pincode": "632059"
+      },
+      {
+        "name": "Thorapadi",
+        "slug": "thorapadi",
+        "taluk": "Vellore",
+        "pincode": "632002"
+      },
+      {
+        "name": "Thottapalayam",
+        "slug": "thottapalayam",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Toll Gate",
+        "slug": "toll-gate",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Ussoor",
+        "slug": "ussoor",
+        "taluk": "Vellore",
+        "pincode": "632105"
+      },
+      {
+        "name": "Vaduganthangal",
+        "slug": "vaduganthangal",
+        "taluk": "Vellore",
+        "pincode": "632204"
+      },
+      {
+        "name": "Velapadi",
+        "slug": "velapadi",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "Vellore Bazaar",
+        "slug": "vellore-bazaar",
+        "taluk": "Vellore",
+        "pincode": "632004"
+      },
+      {
+        "name": "Vellore Cantonment",
+        "slug": "vellore-cantonment",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "Vellore Collectorate",
+        "slug": "vellore-collectorate",
+        "taluk": "Vellore",
+        "pincode": "632004"
+      },
+      {
+        "name": "Vellore Fort",
+        "slug": "vellore-fort",
+        "taluk": "Vellore",
+        "pincode": "632004"
+      },
+      {
+        "name": "Vellore Institute Of Technology",
+        "slug": "vellore-institute-of-technology",
+        "taluk": "Vellore",
+        "pincode": "632014"
+      },
+      {
+        "name": "Vellore Market",
+        "slug": "vellore-market",
+        "taluk": "Vellore",
+        "pincode": "632004"
+      },
+      {
+        "name": "Vellore South",
+        "slug": "vellore-south",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      },
+      {
+        "name": "Velpadi",
+        "slug": "velpadi",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Veppampattu",
+        "slug": "veppampattu",
+        "taluk": "Vellore",
+        "pincode": "632113"
+      },
+      {
+        "name": "Virnjipuram",
+        "slug": "virnjipuram",
+        "taluk": "Vellore",
+        "pincode": "632104"
+      },
+      {
+        "name": "Virudhambattu",
+        "slug": "virudhambattu",
+        "taluk": "Vellore",
+        "pincode": "632006"
+      },
+      {
+        "name": "Virupakshipuram",
+        "slug": "virupakshipuram",
+        "taluk": "Vellore",
+        "pincode": "632002"
+      },
+      {
+        "name": "Viruthampet",
+        "slug": "viruthampet",
+        "taluk": "Vellore",
+        "pincode": ""
+      },
+      {
+        "name": "Voorhees College",
+        "slug": "voorhees-college",
+        "taluk": "Vellore",
+        "pincode": "632001"
+      }
+    ],
+    "Tirupattur": [
+      {
+        "name": "Achamangalam",
+        "slug": "achamangalam",
+        "taluk": "Tirupattur",
+        "pincode": "635651"
+      },
+      {
+        "name": "Agraharam Tirupattur",
+        "slug": "agraharam-tirupattur",
+        "taluk": "Tirupattur",
+        "pincode": "635651"
+      },
+      {
+        "name": "Alasandapuram",
+        "slug": "alasandapuram",
+        "taluk": "Tirupattur",
+        "pincode": "635801"
+      },
+      {
+        "name": "Ambalur",
+        "slug": "ambalur",
+        "taluk": "Tirupattur",
+        "pincode": "635801"
+      },
+      {
+        "name": "Andiappanur",
+        "slug": "andiappanur",
+        "taluk": "Tirupattur",
+        "pincode": "635702"
+      },
+      {
+        "name": "Anganathavalasai",
+        "slug": "anganathavalasai",
+        "taluk": "Tirupattur",
+        "pincode": "635652"
+      },
+      {
+        "name": "Athurkuppam",
+        "slug": "athurkuppam",
+        "taluk": "Tirupattur",
+        "pincode": "635815"
+      },
+      {
+        "name": "Bandarapalli",
+        "slug": "bandarapalli",
+        "taluk": "Tirupattur",
+        "pincode": "635854"
+      },
+      {
+        "name": "Bommikuppam",
+        "slug": "bommikuppam",
+        "taluk": "Tirupattur",
+        "pincode": "635653"
+      },
+      {
+        "name": "Chandrapuram",
+        "slug": "chandrapuram",
+        "taluk": "Tirupattur",
+        "pincode": "635651"
+      },
+      {
+        "name": "Chikkanankuppam",
+        "slug": "chikkanankuppam",
+        "taluk": "Tirupattur",
+        "pincode": "635801"
+      },
+      {
+        "name": "Chinnakandili",
+        "slug": "chinnakandili",
+        "taluk": "Tirupattur",
+        "pincode": "635901"
+      },
+      {
+        "name": "Damalerimuthur",
+        "slug": "damalerimuthur",
+        "taluk": "Tirupattur",
+        "pincode": "635853"
+      },
+      {
+        "name": "Elagiri",
+        "slug": "elagiri",
+        "taluk": "Tirupattur",
+        "pincode": "635853"
+      },
+      {
+        "name": "Elavampatti",
+        "slug": "elavampatti",
+        "taluk": "Tirupattur",
+        "pincode": "635602"
+      },
+      {
+        "name": "Gummidigampatti",
+        "slug": "gummidigampatti",
+        "taluk": "Tirupattur",
+        "pincode": "635901"
+      },
+      {
+        "name": "Irunapattu",
+        "slug": "irunapattu",
+        "taluk": "Tirupattur",
+        "pincode": "635702"
+      },
+      {
+        "name": "Kadirimangalam",
+        "slug": "kadirimangalam",
+        "taluk": "Tirupattur",
+        "pincode": "635602"
+      },
+      {
+        "name": "Kakangarai RS",
+        "slug": "kakangarai-rs",
+        "taluk": "Tirupattur",
+        "pincode": "635654"
+      },
+      {
+        "name": "Kandili",
+        "slug": "kandili",
+        "taluk": "Tirupattur",
+        "pincode": "635901"
+      },
+      {
+        "name": "Kathari",
+        "slug": "kathari",
+        "taluk": "Tirupattur",
+        "pincode": "635852"
+      },
+      {
+        "name": "Kethandapatti",
+        "slug": "kethandapatti",
+        "taluk": "Tirupattur",
+        "pincode": "635815"
+      },
+      {
+        "name": "Kilur",
+        "slug": "kilur",
+        "taluk": "Tirupattur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Koratti",
+        "slug": "koratti",
+        "taluk": "Tirupattur",
+        "pincode": "635602"
+      },
+      {
+        "name": "Kothur",
+        "slug": "kothur",
+        "taluk": "Tirupattur",
+        "pincode": "635854"
+      },
+      {
+        "name": "Kurumberi",
+        "slug": "kurumberi",
+        "taluk": "Tirupattur",
+        "pincode": "635652"
+      },
+      {
+        "name": "Kurusilapattu",
+        "slug": "kurusilapattu",
+        "taluk": "Tirupattur",
+        "pincode": "635702"
+      },
+      {
+        "name": "Lakkinaickenpatti",
+        "slug": "lakkinaickenpatti",
+        "taluk": "Tirupattur",
+        "pincode": "635654"
+      },
+      {
+        "name": "Mallagunta",
+        "slug": "mallagunta",
+        "taluk": "Tirupattur",
+        "pincode": "635852"
+      },
+      {
+        "name": "Mallapalli",
+        "slug": "mallapalli",
+        "taluk": "Tirupattur",
+        "pincode": "635854"
+      },
+      {
+        "name": "Mandalanayanagunda",
+        "slug": "mandalanayanagunda",
+        "taluk": "Tirupattur",
+        "pincode": "635901"
+      },
+      {
+        "name": "Mandalavadi",
+        "slug": "mandalavadi",
+        "taluk": "Tirupattur",
+        "pincode": "635851"
+      },
+      {
+        "name": "Marimanikuppam",
+        "slug": "marimanikuppam",
+        "taluk": "Tirupattur",
+        "pincode": "635710"
+      },
+      {
+        "name": "Matrapalli",
+        "slug": "matrapalli",
+        "taluk": "Tirupattur",
+        "pincode": "635652"
+      },
+      {
+        "name": "Melpattu",
+        "slug": "melpattu",
+        "taluk": "Tirupattur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Mukkanur",
+        "slug": "mukkanur",
+        "taluk": "Tirupattur",
+        "pincode": "635651"
+      },
+      {
+        "name": "Nachiarkuppam",
+        "slug": "nachiarkuppam",
+        "taluk": "Tirupattur",
+        "pincode": "635710"
+      },
+      {
+        "name": "Nariyaneri",
+        "slug": "nariyaneri",
+        "taluk": "Tirupattur",
+        "pincode": "635901"
+      },
+      {
+        "name": "Natham",
+        "slug": "natham",
+        "taluk": "Tirupattur",
+        "pincode": "635654"
+      },
+      {
+        "name": "Nayakkanur",
+        "slug": "nayakkanur",
+        "taluk": "Tirupattur",
+        "pincode": "635652"
+      },
+      {
+        "name": "Nayanacheruvu",
+        "slug": "nayanacheruvu",
+        "taluk": "Tirupattur",
+        "pincode": "635852"
+      },
+      {
+        "name": "Nellivasalnadu",
+        "slug": "nellivasalnadu",
+        "taluk": "Tirupattur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Pachal",
+        "slug": "pachal",
+        "taluk": "Tirupattur",
+        "pincode": "635602"
+      },
+      {
+        "name": "Pachur",
+        "slug": "pachur",
+        "taluk": "Tirupattur",
+        "pincode": "635854"
+      },
+      {
+        "name": "Paniyandapalli",
+        "slug": "paniyandapalli",
+        "taluk": "Tirupattur",
+        "pincode": "635651"
+      },
+      {
+        "name": "Periagaram",
+        "slug": "periagaram",
+        "taluk": "Tirupattur",
+        "pincode": "635901"
+      },
+      {
+        "name": "Periyakannalapatti",
+        "slug": "periyakannalapatti",
+        "taluk": "Tirupattur",
+        "pincode": "635654"
+      },
+      {
+        "name": "Periyakasinaickenpatti",
+        "slug": "periyakasinaickenpatti",
+        "taluk": "Tirupattur",
+        "pincode": "635901"
+      },
+      {
+        "name": "Perumapattu",
+        "slug": "perumapattu",
+        "taluk": "Tirupattur",
+        "pincode": "635702"
+      },
+      {
+        "name": "Ponneri",
+        "slug": "ponneri",
+        "taluk": "Tirupattur",
+        "pincode": "635851"
+      },
+      {
+        "name": "Puthagaram",
+        "slug": "puthagaram",
+        "taluk": "Tirupattur",
+        "pincode": "635651"
+      },
+      {
+        "name": "Rachamangalam",
+        "slug": "rachamangalam",
+        "taluk": "Tirupattur",
+        "pincode": "635653"
+      },
+      {
+        "name": "Ramanaickenpettai",
+        "slug": "ramanaickenpettai",
+        "taluk": "Tirupattur",
+        "pincode": "635801"
+      },
+      {
+        "name": "Reddiyur",
+        "slug": "reddiyur",
+        "taluk": "Tirupattur",
+        "pincode": "635851"
+      },
+      {
+        "name": "Sevathur",
+        "slug": "sevathur",
+        "taluk": "Tirupattur",
+        "pincode": "635654"
+      },
+      {
+        "name": "Simnapudur",
+        "slug": "simnapudur",
+        "taluk": "Tirupattur",
+        "pincode": "635652"
+      },
+      {
+        "name": "Sorakayalnatham",
+        "slug": "sorakayalnatham",
+        "taluk": "Tirupattur",
+        "pincode": "635854"
+      },
+      {
+        "name": "Sundarampalli",
+        "slug": "sundarampalli",
+        "taluk": "Tirupattur",
+        "pincode": "635654"
+      },
+      {
+        "name": "Thekkupattu",
+        "slug": "thekkupattu",
+        "taluk": "Tirupattur",
+        "pincode": "635801"
+      },
+      {
+        "name": "Thimmampet",
+        "slug": "thimmampet",
+        "taluk": "Tirupattur",
+        "pincode": "635801"
+      },
+      {
+        "name": "Thokkiyam",
+        "slug": "thokkiyam",
+        "taluk": "Tirupattur",
+        "pincode": "635901"
+      },
+      {
+        "name": "Tiriyalam",
+        "slug": "tiriyalam",
+        "taluk": "Tirupattur",
+        "pincode": "635851"
+      },
+      {
+        "name": "Tirupattur Bazaar",
+        "slug": "tirupattur-bazaar",
+        "taluk": "Tirupattur",
+        "pincode": "635602"
+      },
+      {
+        "name": "Udayamuthur",
+        "slug": "udayamuthur",
+        "taluk": "Tirupattur",
+        "pincode": "635652"
+      },
+      {
+        "name": "Vadakkupattu",
+        "slug": "vadakkupattu",
+        "taluk": "Tirupattur",
+        "pincode": "635801"
+      },
+      {
+        "name": "Velakalnatham",
+        "slug": "velakalnatham",
+        "taluk": "Tirupattur",
+        "pincode": "635854"
+      },
+      {
+        "name": "Vengalapuram",
+        "slug": "vengalapuram",
+        "taluk": "Tirupattur",
+        "pincode": "635653"
+      },
+      {
+        "name": "Vettapattu",
+        "slug": "vettapattu",
+        "taluk": "Tirupattur",
+        "pincode": "635852"
+      },
+      {
+        "name": "Vishamangalam",
+        "slug": "vishamangalam",
+        "taluk": "Tirupattur",
+        "pincode": "635652"
+      },
+      {
+        "name": "Yelagiri Hills",
+        "slug": "yelagiri-hills",
+        "taluk": "Tirupattur",
+        "pincode": "635853"
+      }
+    ],
+    "Tirupathur": [
+      {
+        "name": "Adiyur",
+        "slug": "adiyur",
+        "taluk": "Tirupathur",
+        "pincode": "635602"
+      },
+      {
+        "name": "Agaram TPT",
+        "slug": "agaram-tpt",
+        "taluk": "Tirupathur",
+        "pincode": "635653"
+      },
+      {
+        "name": "Asiriyar Nagar",
+        "slug": "asiriyar-nagar",
+        "taluk": "Tirupathur",
+        "pincode": "635601"
+      },
+      {
+        "name": "Athiperumanur",
+        "slug": "athiperumanur",
+        "taluk": "Tirupathur",
+        "pincode": "635852"
+      },
+      {
+        "name": "Athipet",
+        "slug": "athipet",
+        "taluk": "Tirupathur",
+        "pincode": "635703"
+      },
+      {
+        "name": "Chinnasamudram",
+        "slug": "chinnasamudram",
+        "taluk": "Tirupathur",
+        "pincode": "635653"
+      },
+      {
+        "name": "Chinnavattanur",
+        "slug": "chinnavattanur",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Chittoor",
+        "slug": "chittoor",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Christukula Ashram",
+        "slug": "christukula-ashram",
+        "taluk": "Tirupathur",
+        "pincode": "635602"
+      },
+      {
+        "name": "East Badanavadi",
+        "slug": "east-badanavadi",
+        "taluk": "Tirupathur",
+        "pincode": "635901"
+      },
+      {
+        "name": "Gandhipet TPT",
+        "slug": "gandhipet-tpt",
+        "taluk": "Tirupathur",
+        "pincode": "635601"
+      },
+      {
+        "name": "Jamnapudur",
+        "slug": "jamnapudur",
+        "taluk": "Tirupathur",
+        "pincode": "635652"
+      },
+      {
+        "name": "Jangalapuram",
+        "slug": "jangalapuram",
+        "taluk": "Tirupathur",
+        "pincode": "635852"
+      },
+      {
+        "name": "Jayapuram",
+        "slug": "jayapuram",
+        "taluk": "Tirupathur",
+        "pincode": "635651"
+      },
+      {
+        "name": "Jolarpet",
+        "slug": "jolarpet",
+        "taluk": "Tirupathur",
+        "pincode": "635851"
+      },
+      {
+        "name": "Kambugudi",
+        "slug": "kambugudi",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Karuppanur",
+        "slug": "karuppanur",
+        "taluk": "Tirupathur",
+        "pincode": "635602"
+      },
+      {
+        "name": "Kethandapatti Sugar Mills",
+        "slug": "kethandapatti-sugar-mills",
+        "taluk": "Tirupathur",
+        "pincode": "635815"
+      },
+      {
+        "name": "Kilanur",
+        "slug": "kilanur",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Kodiyur",
+        "slug": "kodiyur",
+        "taluk": "Tirupathur",
+        "pincode": "635851"
+      },
+      {
+        "name": "Kodumampalli",
+        "slug": "kodumampalli",
+        "taluk": "Tirupathur",
+        "pincode": "635653"
+      },
+      {
+        "name": "Kombai",
+        "slug": "kombai",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Kottaiyur",
+        "slug": "kottaiyur",
+        "taluk": "Tirupathur",
+        "pincode": "635853"
+      },
+      {
+        "name": "Kurumbakeri",
+        "slug": "kurumbakeri",
+        "taluk": "Tirupathur",
+        "pincode": "635653"
+      },
+      {
+        "name": "Madavalam",
+        "slug": "madavalam",
+        "taluk": "Tirupathur",
+        "pincode": "635653"
+      },
+      {
+        "name": "Malaiyandipatti",
+        "slug": "malaiyandipatti",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Mangalam",
+        "slug": "mangalam",
+        "taluk": "Tirupathur",
+        "pincode": "635853"
+      },
+      {
+        "name": "Nadukuppam",
+        "slug": "nadukuppam",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Natrampalli",
+        "slug": "natrampalli",
+        "taluk": "Tirupathur",
+        "pincode": "635852"
+      },
+      {
+        "name": "Nellipattu",
+        "slug": "nellipattu",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Nilavur",
+        "slug": "nilavur",
+        "taluk": "Tirupathur",
+        "pincode": "635853"
+      },
+      {
+        "name": "Pakkirithakka",
+        "slug": "pakkirithakka",
+        "taluk": "Tirupathur",
+        "pincode": "635853"
+      },
+      {
+        "name": "Palayapalayam",
+        "slug": "palayapalayam",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Pallathur",
+        "slug": "pallathur",
+        "taluk": "Tirupathur",
+        "pincode": "635901"
+      },
+      {
+        "name": "Parandapalli",
+        "slug": "parandapalli",
+        "taluk": "Tirupathur",
+        "pincode": "635651"
+      },
+      {
+        "name": "Perambattu",
+        "slug": "perambattu",
+        "taluk": "Tirupathur",
+        "pincode": "635652"
+      },
+      {
+        "name": "Periyakonapattu",
+        "slug": "periyakonapattu",
+        "taluk": "Tirupathur",
+        "pincode": "635651"
+      },
+      {
+        "name": "Periyakunichi",
+        "slug": "periyakunichi",
+        "taluk": "Tirupathur",
+        "pincode": "635602"
+      },
+      {
+        "name": "Perumpalli",
+        "slug": "perumpalli",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Pudukottai",
+        "slug": "pudukottai",
+        "taluk": "Tirupathur",
+        "pincode": "635602"
+      },
+      {
+        "name": "Pudupettai",
+        "slug": "pudupettai",
+        "taluk": "Tirupathur",
+        "pincode": "635651"
+      },
+      {
+        "name": "Pudur Nadu",
+        "slug": "pudur-nadu",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Puliyur Tpt",
+        "slug": "puliyur-tpt",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Pullaneri",
+        "slug": "pullaneri",
+        "taluk": "Tirupathur",
+        "pincode": "635851"
+      },
+      {
+        "name": "Rajapalayam",
+        "slug": "rajapalayam",
+        "taluk": "Tirupathur",
+        "pincode": "635653"
+      },
+      {
+        "name": "Selandampalli",
+        "slug": "selandampalli",
+        "taluk": "Tirupathur",
+        "pincode": "635653"
+      },
+      {
+        "name": "Somanaickenpatti",
+        "slug": "somanaickenpatti",
+        "taluk": "Tirupathur",
+        "pincode": "635851"
+      },
+      {
+        "name": "Thagarakuppam",
+        "slug": "thagarakuppam",
+        "taluk": "Tirupathur",
+        "pincode": "635655"
+      },
+      {
+        "name": "Thimmanamuthur",
+        "slug": "thimmanamuthur",
+        "taluk": "Tirupathur",
+        "pincode": "635653"
+      },
+      {
+        "name": "Thornampathy",
+        "slug": "thornampathy",
+        "taluk": "Tirupathur",
+        "pincode": "635602"
+      },
+      {
+        "name": "Tirupattur Fort",
+        "slug": "tirupattur-fort",
+        "taluk": "Tirupathur",
+        "pincode": "635602"
+      },
+      {
+        "name": "Tirupattur TNHB",
+        "slug": "tirupattur-tnhb",
+        "taluk": "Tirupathur",
+        "pincode": "635601"
+      },
+      {
+        "name": "Vakkanampatti",
+        "slug": "vakkanampatti",
+        "taluk": "Tirupathur",
+        "pincode": "635851"
+      },
+      {
+        "name": "Veppalnatham",
+        "slug": "veppalnatham",
+        "taluk": "Tirupathur",
+        "pincode": "635651"
+      }
+    ],
+    "Arcot": [
+      {
+        "name": "Agaram",
+        "slug": "agaram",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Anaimallur",
+        "slug": "anaimallur",
+        "taluk": "Arcot",
+        "pincode": "632507"
+      },
+      {
+        "name": "Ananthangal",
+        "slug": "ananthangal",
+        "taluk": "Arcot",
+        "pincode": "632511"
+      },
+      {
+        "name": "Arcot Bazaar",
+        "slug": "arcot-bazaar",
+        "taluk": "Arcot",
+        "pincode": "632503"
+      },
+      {
+        "name": "Arcot West",
+        "slug": "arcot-west",
+        "taluk": "Arcot",
+        "pincode": "632503"
+      },
+      {
+        "name": "Arumbakkam",
+        "slug": "arumbakkam",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Chennasamudram",
+        "slug": "chennasamudram",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Damarapakkam",
+        "slug": "damarapakkam",
+        "taluk": "Arcot",
+        "pincode": "632504"
+      },
+      {
+        "name": "Durgam",
+        "slug": "durgam",
+        "taluk": "Arcot",
+        "pincode": "632512"
+      },
+      {
+        "name": "Esayanur",
+        "slug": "esayanur",
+        "taluk": "Arcot",
+        "pincode": "632511"
+      },
+      {
+        "name": "G.B.Nagar",
+        "slug": "gbnagar",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Gundaleri",
+        "slug": "gundaleri",
+        "taluk": "Arcot",
+        "pincode": "632512"
+      },
+      {
+        "name": "Irungur",
+        "slug": "irungur",
+        "taluk": "Arcot",
+        "pincode": "604407"
+      },
+      {
+        "name": "Jagirvalavanur",
+        "slug": "jagirvalavanur",
+        "taluk": "Arcot",
+        "pincode": "632511"
+      },
+      {
+        "name": "Jawaharpuram",
+        "slug": "jawaharpuram",
+        "taluk": "Arcot",
+        "pincode": "632503"
+      },
+      {
+        "name": "Kaniyanur",
+        "slug": "kaniyanur",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Karikkanthangal",
+        "slug": "karikkanthangal",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Kavanur Arcot",
+        "slug": "kavanur-arcot",
+        "taluk": "Arcot",
+        "pincode": "632507"
+      },
+      {
+        "name": "Ladavaram",
+        "slug": "ladavaram",
+        "taluk": "Arcot",
+        "pincode": "632503"
+      },
+      {
+        "name": "Mambakkam",
+        "slug": "mambakkam",
+        "taluk": "Arcot",
+        "pincode": "632318"
+      },
+      {
+        "name": "Mazharyur",
+        "slug": "mazharyur",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Mecheri",
+        "slug": "mecheri",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Melapudupakkam",
+        "slug": "melapudupakkam",
+        "taluk": "Arcot",
+        "pincode": "632318"
+      },
+      {
+        "name": "Melnathambakkam",
+        "slug": "melnathambakkam",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Mohamedpet",
+        "slug": "mohamedpet",
+        "taluk": "Arcot",
+        "pincode": "632512"
+      },
+      {
+        "name": "Muppathuvetti",
+        "slug": "muppathuvetti",
+        "taluk": "Arcot",
+        "pincode": "632503"
+      },
+      {
+        "name": "Nambarai",
+        "slug": "nambarai",
+        "taluk": "Arcot",
+        "pincode": "632512"
+      },
+      {
+        "name": "Palayamangadu",
+        "slug": "palayamangadu",
+        "taluk": "Arcot",
+        "pincode": "632503"
+      },
+      {
+        "name": "Palayanur",
+        "slug": "palayanur",
+        "taluk": "Arcot",
+        "pincode": "632512"
+      },
+      {
+        "name": "Paradarami",
+        "slug": "paradarami",
+        "taluk": "Arcot",
+        "pincode": "632512"
+      },
+      {
+        "name": "Pennagar",
+        "slug": "pennagar",
+        "taluk": "Arcot",
+        "pincode": "632518"
+      },
+      {
+        "name": "Pudupadi",
+        "slug": "pudupadi",
+        "taluk": "Arcot",
+        "pincode": "632503"
+      },
+      {
+        "name": "Pudur Kaniyanur",
+        "slug": "pudur-kaniyanur",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Punganur",
+        "slug": "punganur",
+        "taluk": "Arcot",
+        "pincode": "632507"
+      },
+      {
+        "name": "Sakkaramallur",
+        "slug": "sakkaramallur",
+        "taluk": "Arcot",
+        "pincode": "632511"
+      },
+      {
+        "name": "Sambasivapuram",
+        "slug": "sambasivapuram",
+        "taluk": "Arcot",
+        "pincode": "632507"
+      },
+      {
+        "name": "Sattur",
+        "slug": "sattur",
+        "taluk": "Arcot",
+        "pincode": "632521"
+      },
+      {
+        "name": "Senganavaram",
+        "slug": "senganavaram",
+        "taluk": "Arcot",
+        "pincode": "632518"
+      },
+      {
+        "name": "Soraiyur",
+        "slug": "soraiyur",
+        "taluk": "Arcot",
+        "pincode": "632318"
+      },
+      {
+        "name": "Tajpura",
+        "slug": "tajpura",
+        "taluk": "Arcot",
+        "pincode": "632521"
+      },
+      {
+        "name": "Thoppukhana",
+        "slug": "thoppukhana",
+        "taluk": "Arcot",
+        "pincode": "632503"
+      },
+      {
+        "name": "Timiri",
+        "slug": "timiri",
+        "taluk": "Arcot",
+        "pincode": "632512"
+      },
+      {
+        "name": "Uppupettai",
+        "slug": "uppupettai",
+        "taluk": "Arcot",
+        "pincode": "632521"
+      },
+      {
+        "name": "Valapandal",
+        "slug": "valapandal",
+        "taluk": "Arcot",
+        "pincode": "632318"
+      },
+      {
+        "name": "Valayathur",
+        "slug": "valayathur",
+        "taluk": "Arcot",
+        "pincode": "632504"
+      },
+      {
+        "name": "Varagur",
+        "slug": "varagur",
+        "taluk": "Arcot",
+        "pincode": "632507"
+      },
+      {
+        "name": "Vellambi",
+        "slug": "vellambi",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Velur Kalavai",
+        "slug": "velur-kalavai",
+        "taluk": "Arcot",
+        "pincode": "632506"
+      },
+      {
+        "name": "Vembi",
+        "slug": "vembi",
+        "taluk": "Arcot",
+        "pincode": "632518"
+      },
+      {
+        "name": "Venkatapuram",
+        "slug": "venkatapuram",
+        "taluk": "Arcot",
+        "pincode": "632507"
+      },
+      {
+        "name": "Vilapakkam",
+        "slug": "vilapakkam",
+        "taluk": "Arcot",
+        "pincode": "632521"
+      }
+    ],
+    "Vaniyambadi": [
+      {
+        "name": "Agaramcherry",
+        "slug": "agaramcherry",
+        "taluk": "Vaniyambadi",
+        "pincode": "635804"
+      },
+      {
+        "name": "Alangayam",
+        "slug": "alangayam",
+        "taluk": "Vaniyambadi",
+        "pincode": "635701"
+      },
+      {
+        "name": "Alankuppam",
+        "slug": "alankuppam",
+        "taluk": "Vaniyambadi",
+        "pincode": "635814"
+      },
+      {
+        "name": "Ambur Bazaar",
+        "slug": "ambur-bazaar",
+        "taluk": "Vaniyambadi",
+        "pincode": "635802"
+      },
+      {
+        "name": "Arangaldurgam",
+        "slug": "arangaldurgam",
+        "taluk": "Vaniyambadi",
+        "pincode": "635811"
+      },
+      {
+        "name": "Avarankuppam",
+        "slug": "avarankuppam",
+        "taluk": "Vaniyambadi",
+        "pincode": "635801"
+      },
+      {
+        "name": "Bheemakulam",
+        "slug": "bheemakulam",
+        "taluk": "Vaniyambadi",
+        "pincode": "635701"
+      },
+      {
+        "name": "Chettiappanur",
+        "slug": "chettiappanur",
+        "taluk": "Vaniyambadi",
+        "pincode": "635751"
+      },
+      {
+        "name": "Chinnakarumbur",
+        "slug": "chinnakarumbur",
+        "taluk": "Vaniyambadi",
+        "pincode": "635811"
+      },
+      {
+        "name": "Chinnapallikuppam Vaniyambadi",
+        "slug": "chinnapallikuppam-vaniyambadi",
+        "taluk": "Vaniyambadi",
+        "pincode": "635754"
+      },
+      {
+        "name": "Devalapuram",
+        "slug": "devalapuram",
+        "taluk": "Vaniyambadi",
+        "pincode": "635802"
+      },
+      {
+        "name": "Devasthanam",
+        "slug": "devasthanam",
+        "taluk": "Vaniyambadi",
+        "pincode": "635751"
+      },
+      {
+        "name": "Eachangal",
+        "slug": "eachangal",
+        "taluk": "Vaniyambadi",
+        "pincode": "635801"
+      },
+      {
+        "name": "Gangapuram",
+        "slug": "gangapuram",
+        "taluk": "Vaniyambadi",
+        "pincode": "635802"
+      },
+      {
+        "name": "Girisamudram",
+        "slug": "girisamudram",
+        "taluk": "Vaniyambadi",
+        "pincode": "635751"
+      },
+      {
+        "name": "Govindapuram",
+        "slug": "govindapuram",
+        "taluk": "Vaniyambadi",
+        "pincode": "635751"
+      },
+      {
+        "name": "Ilayanagaram",
+        "slug": "ilayanagaram",
+        "taluk": "Vaniyambadi",
+        "pincode": "635754"
+      },
+      {
+        "name": "Jaffarabad",
+        "slug": "jaffarabad",
+        "taluk": "Vaniyambadi",
+        "pincode": "635754"
+      },
+      {
+        "name": "Kalendira",
+        "slug": "kalendira",
+        "taluk": "Vaniyambadi",
+        "pincode": "635751"
+      },
+      {
+        "name": "Karungali",
+        "slug": "karungali",
+        "taluk": "Vaniyambadi",
+        "pincode": "635804"
+      },
+      {
+        "name": "Kavalur",
+        "slug": "kavalur",
+        "taluk": "Vaniyambadi",
+        "pincode": "635701"
+      },
+      {
+        "name": "Khaderpet",
+        "slug": "khaderpet",
+        "taluk": "Vaniyambadi",
+        "pincode": "635751"
+      },
+      {
+        "name": "Kilmurungai",
+        "slug": "kilmurungai",
+        "taluk": "Vaniyambadi",
+        "pincode": "635812"
+      },
+      {
+        "name": "Kodayanchi",
+        "slug": "kodayanchi",
+        "taluk": "Vaniyambadi",
+        "pincode": "635801"
+      },
+      {
+        "name": "Kothakottai",
+        "slug": "kothakottai",
+        "taluk": "Vaniyambadi",
+        "pincode": "635752"
+      },
+      {
+        "name": "Kumaramangalam",
+        "slug": "kumaramangalam",
+        "taluk": "Vaniyambadi",
+        "pincode": "635802"
+      },
+      {
+        "name": "Lalapettai",
+        "slug": "lalapettai",
+        "taluk": "Vaniyambadi",
+        "pincode": "635710"
+      },
+      {
+        "name": "Madanancherry",
+        "slug": "madanancherry",
+        "taluk": "Vaniyambadi",
+        "pincode": "635754"
+      },
+      {
+        "name": "Madanur",
+        "slug": "madanur",
+        "taluk": "Vaniyambadi",
+        "pincode": "635804"
+      },
+      {
+        "name": "Mandarakuttai",
+        "slug": "mandarakuttai",
+        "taluk": "Vaniyambadi",
+        "pincode": "635701"
+      },
+      {
+        "name": "Minnur",
+        "slug": "minnur",
+        "taluk": "Vaniyambadi",
+        "pincode": "635807"
+      },
+      {
+        "name": "Mittur",
+        "slug": "mittur",
+        "taluk": "Vaniyambadi",
+        "pincode": "635710"
+      },
+      {
+        "name": "Naickaneri",
+        "slug": "naickaneri",
+        "taluk": "Vaniyambadi",
+        "pincode": "635802"
+      },
+      {
+        "name": "Naickanur",
+        "slug": "naickanur",
+        "taluk": "Vaniyambadi",
+        "pincode": "635701"
+      },
+      {
+        "name": "Narasingapuram",
+        "slug": "narasingapuram",
+        "taluk": "Vaniyambadi",
+        "pincode": "635701"
+      },
+      {
+        "name": "Newtown Vaniyambadi",
+        "slug": "newtown-vaniyambadi",
+        "taluk": "Vaniyambadi",
+        "pincode": "635752"
+      },
+      {
+        "name": "Nimmiyambattu",
+        "slug": "nimmiyambattu",
+        "taluk": "Vaniyambadi",
+        "pincode": "635752"
+      },
+      {
+        "name": "Pallavalli",
+        "slug": "pallavalli",
+        "taluk": "Vaniyambadi",
+        "pincode": "635702"
+      },
+      {
+        "name": "Palur",
+        "slug": "palur",
+        "taluk": "Vaniyambadi",
+        "pincode": "635804"
+      },
+      {
+        "name": "Peddur",
+        "slug": "peddur",
+        "taluk": "Vaniyambadi",
+        "pincode": "635701"
+      },
+      {
+        "name": "Periyankuppam",
+        "slug": "periyankuppam",
+        "taluk": "Vaniyambadi",
+        "pincode": "635814"
+      },
+      {
+        "name": "Periyapet",
+        "slug": "periyapet",
+        "taluk": "Vaniyambadi",
+        "pincode": "635751"
+      },
+      {
+        "name": "Perumalpet",
+        "slug": "perumalpet",
+        "taluk": "Vaniyambadi",
+        "pincode": "635751"
+      },
+      {
+        "name": "Pudur Vaniyambadi",
+        "slug": "pudur-vaniyambadi",
+        "taluk": "Vaniyambadi",
+        "pincode": "635751"
+      },
+      {
+        "name": "Shanankuppam",
+        "slug": "shanankuppam",
+        "taluk": "Vaniyambadi",
+        "pincode": "635814"
+      },
+      {
+        "name": "Somalapuram",
+        "slug": "somalapuram",
+        "taluk": "Vaniyambadi",
+        "pincode": "635802"
+      },
+      {
+        "name": "Thennambattu",
+        "slug": "thennambattu",
+        "taluk": "Vaniyambadi",
+        "pincode": "635802"
+      },
+      {
+        "name": "Thollapalli",
+        "slug": "thollapalli",
+        "taluk": "Vaniyambadi",
+        "pincode": "635804"
+      },
+      {
+        "name": "Thottalam",
+        "slug": "thottalam",
+        "taluk": "Vaniyambadi",
+        "pincode": "635804"
+      },
+      {
+        "name": "Thumberi",
+        "slug": "thumberi",
+        "taluk": "Vaniyambadi",
+        "pincode": "635754"
+      },
+      {
+        "name": "Thuthipattu Vaniyambadi",
+        "slug": "thuthipattu-vaniyambadi",
+        "taluk": "Vaniyambadi",
+        "pincode": "635811"
+      },
+      {
+        "name": "Udayendiram",
+        "slug": "udayendiram",
+        "taluk": "Vaniyambadi",
+        "pincode": "635754"
+      },
+      {
+        "name": "Vadacheri",
+        "slug": "vadacheri",
+        "taluk": "Vaniyambadi",
+        "pincode": "635754"
+      },
+      {
+        "name": "Vadakkathipatti",
+        "slug": "vadakkathipatti",
+        "taluk": "Vaniyambadi",
+        "pincode": "635804"
+      },
+      {
+        "name": "Vadapudupet",
+        "slug": "vadapudupet",
+        "taluk": "Vaniyambadi",
+        "pincode": "635812"
+      },
+      {
+        "name": "Valayalkarapatti",
+        "slug": "valayalkarapatti",
+        "taluk": "Vaniyambadi",
+        "pincode": "635804"
+      },
+      {
+        "name": "Valayambattu",
+        "slug": "valayambattu",
+        "taluk": "Vaniyambadi",
+        "pincode": "635751"
+      },
+      {
+        "name": "Vallipattu",
+        "slug": "vallipattu",
+        "taluk": "Vaniyambadi",
+        "pincode": "635752"
+      },
+      {
+        "name": "Vaniyambadi RS",
+        "slug": "vaniyambadi-rs",
+        "taluk": "Vaniyambadi",
+        "pincode": "635751"
+      },
+      {
+        "name": "Vasanthapuram",
+        "slug": "vasanthapuram",
+        "taluk": "Vaniyambadi",
+        "pincode": "635701"
+      },
+      {
+        "name": "Vellakuttai",
+        "slug": "vellakuttai",
+        "taluk": "Vaniyambadi",
+        "pincode": "635752"
+      },
+      {
+        "name": "Vengili",
+        "slug": "vengili",
+        "taluk": "Vaniyambadi",
+        "pincode": "635812"
+      },
+      {
+        "name": "Vinnamangalam",
+        "slug": "vinnamangalam",
+        "taluk": "Vaniyambadi",
+        "pincode": "635807"
+      }
+    ],
+    "Gudiyattam": [
+      {
+        "name": "Agraharam Gudiyattam",
+        "slug": "agraharam-gudiyattam",
+        "taluk": "Gudiyattam",
+        "pincode": "632604"
+      },
+      {
+        "name": "Ananganallore",
+        "slug": "ananganallore",
+        "taluk": "Gudiyattam",
+        "pincode": "635806"
+      },
+      {
+        "name": "Aravatla",
+        "slug": "aravatla",
+        "taluk": "Gudiyattam",
+        "pincode": "635810"
+      },
+      {
+        "name": "Chendathur",
+        "slug": "chendathur",
+        "taluk": "Gudiyattam",
+        "pincode": "635805"
+      },
+      {
+        "name": "Chettikuppam",
+        "slug": "chettikuppam",
+        "taluk": "Gudiyattam",
+        "pincode": "635806"
+      },
+      {
+        "name": "Chinnadamalcheruvu",
+        "slug": "chinnadamalcheruvu",
+        "taluk": "Gudiyattam",
+        "pincode": "635810"
+      },
+      {
+        "name": "Chinnathottalam",
+        "slug": "chinnathottalam",
+        "taluk": "Gudiyattam",
+        "pincode": "635813"
+      },
+      {
+        "name": "Chinnavarikam",
+        "slug": "chinnavarikam",
+        "taluk": "Gudiyattam",
+        "pincode": "635811"
+      },
+      {
+        "name": "Dakshinapathapalyaam",
+        "slug": "dakshinapathapalyaam",
+        "taluk": "Gudiyattam",
+        "pincode": "632603"
+      },
+      {
+        "name": "Erikutti",
+        "slug": "erikutti",
+        "taluk": "Gudiyattam",
+        "pincode": "635810"
+      },
+      {
+        "name": "Erthangal",
+        "slug": "erthangal",
+        "taluk": "Gudiyattam",
+        "pincode": "632604"
+      },
+      {
+        "name": "Erukkambattu",
+        "slug": "erukkambattu",
+        "taluk": "Gudiyattam",
+        "pincode": "635810"
+      },
+      {
+        "name": "Gudanagaram",
+        "slug": "gudanagaram",
+        "taluk": "Gudiyattam",
+        "pincode": "635806"
+      },
+      {
+        "name": "Kadhavalam",
+        "slug": "kadhavalam",
+        "taluk": "Gudiyattam",
+        "pincode": "635811"
+      },
+      {
+        "name": "Kallapadi",
+        "slug": "kallapadi",
+        "taluk": "Gudiyattam",
+        "pincode": "632601"
+      },
+      {
+        "name": "Karapattu",
+        "slug": "karapattu",
+        "taluk": "Gudiyattam",
+        "pincode": "635811"
+      },
+      {
+        "name": "Kilalathur",
+        "slug": "kilalathur",
+        "taluk": "Gudiyattam",
+        "pincode": "635803"
+      },
+      {
+        "name": "Kilpatti",
+        "slug": "kilpatti",
+        "taluk": "Gudiyattam",
+        "pincode": "635805"
+      },
+      {
+        "name": "Mailpatti",
+        "slug": "mailpatti",
+        "taluk": "Gudiyattam",
+        "pincode": "635805"
+      },
+      {
+        "name": "Masigam",
+        "slug": "masigam",
+        "taluk": "Gudiyattam",
+        "pincode": "635810"
+      },
+      {
+        "name": "Melalathur",
+        "slug": "melalathur",
+        "taluk": "Gudiyattam",
+        "pincode": "635806"
+      },
+      {
+        "name": "Melmuttukur",
+        "slug": "melmuttukur",
+        "taluk": "Gudiyattam",
+        "pincode": "635806"
+      },
+      {
+        "name": "Melvayathinankuppam",
+        "slug": "melvayathinankuppam",
+        "taluk": "Gudiyattam",
+        "pincode": "635805"
+      },
+      {
+        "name": "Mittalam",
+        "slug": "mittalam",
+        "taluk": "Gudiyattam",
+        "pincode": "635811"
+      },
+      {
+        "name": "Modikuppam",
+        "slug": "modikuppam",
+        "taluk": "Gudiyattam",
+        "pincode": "632601"
+      },
+      {
+        "name": "Morasapalli",
+        "slug": "morasapalli",
+        "taluk": "Gudiyattam",
+        "pincode": "635810"
+      },
+      {
+        "name": "Mordhana",
+        "slug": "mordhana",
+        "taluk": "Gudiyattam",
+        "pincode": "632604"
+      },
+      {
+        "name": "Nariyambattu",
+        "slug": "nariyambattu",
+        "taluk": "Gudiyattam",
+        "pincode": "635808"
+      },
+      {
+        "name": "Pallalakuppam",
+        "slug": "pallalakuppam",
+        "taluk": "Gudiyattam",
+        "pincode": "635805"
+      },
+      {
+        "name": "Paradarami Gudiyattam",
+        "slug": "paradarami-gudiyattam",
+        "taluk": "Gudiyattam",
+        "pincode": "632603"
+      },
+      {
+        "name": "Pasumathur",
+        "slug": "pasumathur",
+        "taluk": "Gudiyattam",
+        "pincode": "635803"
+      },
+      {
+        "name": "Pogalur",
+        "slug": "pogalur",
+        "taluk": "Gudiyattam",
+        "pincode": "635813"
+      },
+      {
+        "name": "Puttavaripalli",
+        "slug": "puttavaripalli",
+        "taluk": "Gudiyattam",
+        "pincode": "632603"
+      },
+      {
+        "name": "Rajakkal",
+        "slug": "rajakkal",
+        "taluk": "Gudiyattam",
+        "pincode": "635805"
+      },
+      {
+        "name": "Rajakuppam",
+        "slug": "rajakuppam",
+        "taluk": "Gudiyattam",
+        "pincode": "635806"
+      },
+      {
+        "name": "Ramalai",
+        "slug": "ramalai",
+        "taluk": "Gudiyattam",
+        "pincode": "632601"
+      },
+      {
+        "name": "Sathambakkam",
+        "slug": "sathambakkam",
+        "taluk": "Gudiyattam",
+        "pincode": "635808"
+      },
+      {
+        "name": "Sedukarai",
+        "slug": "sedukarai",
+        "taluk": "Gudiyattam",
+        "pincode": "635803"
+      },
+      {
+        "name": "Sembedu",
+        "slug": "sembedu",
+        "taluk": "Gudiyattam",
+        "pincode": "635813"
+      },
+      {
+        "name": "Sempalli",
+        "slug": "sempalli",
+        "taluk": "Gudiyattam",
+        "pincode": "632604"
+      },
+      {
+        "name": "Sengundram",
+        "slug": "sengundram",
+        "taluk": "Gudiyattam",
+        "pincode": "632601"
+      },
+      {
+        "name": "Sethubandai",
+        "slug": "sethubandai",
+        "taluk": "Gudiyattam",
+        "pincode": "635803"
+      },
+      {
+        "name": "Sevur",
+        "slug": "sevur",
+        "taluk": "Gudiyattam",
+        "pincode": "632601"
+      },
+      {
+        "name": "Thattaparai",
+        "slug": "thattaparai",
+        "taluk": "Gudiyattam",
+        "pincode": "632601"
+      },
+      {
+        "name": "Thattimanapalli",
+        "slug": "thattimanapalli",
+        "taluk": "Gudiyattam",
+        "pincode": "632601"
+      },
+      {
+        "name": "Thottithuraimottur",
+        "slug": "thottithuraimottur",
+        "taluk": "Gudiyattam",
+        "pincode": "635810"
+      },
+      {
+        "name": "Ulli",
+        "slug": "ulli",
+        "taluk": "Gudiyattam",
+        "pincode": "635813"
+      },
+      {
+        "name": "Valathoor",
+        "slug": "valathoor",
+        "taluk": "Gudiyattam",
+        "pincode": "635813"
+      },
+      {
+        "name": "Varadareddipalli",
+        "slug": "varadareddipalli",
+        "taluk": "Gudiyattam",
+        "pincode": "632603"
+      },
+      {
+        "name": "Veerichettipalli",
+        "slug": "veerichettipalli",
+        "taluk": "Gudiyattam",
+        "pincode": "632603"
+      },
+      {
+        "name": "Venkatasamudram",
+        "slug": "venkatasamudram",
+        "taluk": "Gudiyattam",
+        "pincode": "635811"
+      },
+      {
+        "name": "Veppur",
+        "slug": "veppur",
+        "taluk": "Gudiyattam",
+        "pincode": "635803"
+      },
+      {
+        "name": "Viludonpalayam",
+        "slug": "viludonpalayam",
+        "taluk": "Gudiyattam",
+        "pincode": "632603"
+      }
+    ],
+    "Arakkonam": [
+      {
+        "name": "Akkachikuppam",
+        "slug": "akkachikuppam",
+        "taluk": "Arakkonam",
+        "pincode": "632510"
+      },
+      {
+        "name": "Ammanur",
+        "slug": "ammanur",
+        "taluk": "Arakkonam",
+        "pincode": "631002"
+      },
+      {
+        "name": "Anaipakkam",
+        "slug": "anaipakkam",
+        "taluk": "Arakkonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Anvardhikhanpet",
+        "slug": "anvardhikhanpet",
+        "taluk": "Arakkonam",
+        "pincode": "632502"
+      },
+      {
+        "name": "Arigilapadi",
+        "slug": "arigilapadi",
+        "taluk": "Arakkonam",
+        "pincode": "631151"
+      },
+      {
+        "name": "Asamandhur",
+        "slug": "asamandhur",
+        "taluk": "Arakkonam",
+        "pincode": "632502"
+      },
+      {
+        "name": "Attupakkam",
+        "slug": "attupakkam",
+        "taluk": "Arakkonam",
+        "pincode": "631051"
+      },
+      {
+        "name": "Ayal",
+        "slug": "ayal",
+        "taluk": "Arakkonam",
+        "pincode": "632505"
+      },
+      {
+        "name": "Ayarpadi",
+        "slug": "ayarpadi",
+        "taluk": "Arakkonam",
+        "pincode": "632531"
+      },
+      {
+        "name": "Ayipedu",
+        "slug": "ayipedu",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      },
+      {
+        "name": "Banavaram",
+        "slug": "banavaram",
+        "taluk": "Arakkonam",
+        "pincode": "632505"
+      },
+      {
+        "name": "Chitteri",
+        "slug": "chitteri",
+        "taluk": "Arakkonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Ganapathipuram",
+        "slug": "ganapathipuram",
+        "taluk": "Arakkonam",
+        "pincode": "631051"
+      },
+      {
+        "name": "Govindacherrykuppam",
+        "slug": "govindacherrykuppam",
+        "taluk": "Arakkonam",
+        "pincode": "632505"
+      },
+      {
+        "name": "Ichiputhur",
+        "slug": "ichiputhur",
+        "taluk": "Arakkonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Iluppaithandalam",
+        "slug": "iluppaithandalam",
+        "taluk": "Arakkonam",
+        "pincode": "631151"
+      },
+      {
+        "name": "Jagirthandalam",
+        "slug": "jagirthandalam",
+        "taluk": "Arakkonam",
+        "pincode": "631052"
+      },
+      {
+        "name": "Jambukulam",
+        "slug": "jambukulam",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      },
+      {
+        "name": "Kadambainallore",
+        "slug": "kadambainallore",
+        "taluk": "Arakkonam",
+        "pincode": "631151"
+      },
+      {
+        "name": "Kainoor",
+        "slug": "kainoor",
+        "taluk": "Arakkonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Kalathur",
+        "slug": "kalathur",
+        "taluk": "Arakkonam",
+        "pincode": "632531"
+      },
+      {
+        "name": "Karikkal",
+        "slug": "karikkal",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      },
+      {
+        "name": "Karnavur",
+        "slug": "karnavur",
+        "taluk": "Arakkonam",
+        "pincode": "631052"
+      },
+      {
+        "name": "Kattupakkam",
+        "slug": "kattupakkam",
+        "taluk": "Arakkonam",
+        "pincode": "632502"
+      },
+      {
+        "name": "Kavanur Arakkonam",
+        "slug": "kavanur-arakkonam",
+        "taluk": "Arakkonam",
+        "pincode": "631004"
+      },
+      {
+        "name": "Kesavanankuppam",
+        "slug": "kesavanankuppam",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      },
+      {
+        "name": "Kilandur",
+        "slug": "kilandur",
+        "taluk": "Arakkonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Kilandurai",
+        "slug": "kilandurai",
+        "taluk": "Arakkonam",
+        "pincode": "631002"
+      },
+      {
+        "name": "Kilkuppam",
+        "slug": "kilkuppam",
+        "taluk": "Arakkonam",
+        "pincode": "631004"
+      },
+      {
+        "name": "Kilpakkam",
+        "slug": "kilpakkam",
+        "taluk": "Arakkonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Kilveedhi",
+        "slug": "kilveedhi",
+        "taluk": "Arakkonam",
+        "pincode": "632502"
+      },
+      {
+        "name": "Kilveeranam",
+        "slug": "kilveeranam",
+        "taluk": "Arakkonam",
+        "pincode": "632505"
+      },
+      {
+        "name": "Kilvenkatapuram",
+        "slug": "kilvenkatapuram",
+        "taluk": "Arakkonam",
+        "pincode": "631051"
+      },
+      {
+        "name": "Kizhavanam",
+        "slug": "kizhavanam",
+        "taluk": "Arakkonam",
+        "pincode": "631101"
+      },
+      {
+        "name": "Kondapalayam",
+        "slug": "kondapalayam",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      },
+      {
+        "name": "Kumpinipet",
+        "slug": "kumpinipet",
+        "taluk": "Arakkonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Kunnathur",
+        "slug": "kunnathur",
+        "taluk": "Arakkonam",
+        "pincode": "632510"
+      },
+      {
+        "name": "Mahendravadi",
+        "slug": "mahendravadi",
+        "taluk": "Arakkonam",
+        "pincode": "632502"
+      },
+      {
+        "name": "Manamadurai",
+        "slug": "manamadurai",
+        "taluk": "Arakkonam",
+        "pincode": "632502"
+      },
+      {
+        "name": "Mangattucherry",
+        "slug": "mangattucherry",
+        "taluk": "Arakkonam",
+        "pincode": "631151"
+      },
+      {
+        "name": "Melapulam",
+        "slug": "melapulam",
+        "taluk": "Arakkonam",
+        "pincode": "631052"
+      },
+      {
+        "name": "Minnal",
+        "slug": "minnal",
+        "taluk": "Arakkonam",
+        "pincode": "632510"
+      },
+      {
+        "name": "Mittapettai",
+        "slug": "mittapettai",
+        "taluk": "Arakkonam",
+        "pincode": "631101"
+      },
+      {
+        "name": "Mosur",
+        "slug": "mosur",
+        "taluk": "Arakkonam",
+        "pincode": "631004"
+      },
+      {
+        "name": "Mudur",
+        "slug": "mudur",
+        "taluk": "Arakkonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Nagavedu",
+        "slug": "nagavedu",
+        "taluk": "Arakkonam",
+        "pincode": "631002"
+      },
+      {
+        "name": "Namali",
+        "slug": "namali",
+        "taluk": "Arakkonam",
+        "pincode": "631051"
+      },
+      {
+        "name": "Nandiveduthangal",
+        "slug": "nandiveduthangal",
+        "taluk": "Arakkonam",
+        "pincode": "631101"
+      },
+      {
+        "name": "Ocheri",
+        "slug": "ocheri",
+        "taluk": "Arakkonam",
+        "pincode": "632531"
+      },
+      {
+        "name": "Palayapalayamottur",
+        "slug": "palayapalayamottur",
+        "taluk": "Arakkonam",
+        "pincode": "632505"
+      },
+      {
+        "name": "Pallur",
+        "slug": "pallur",
+        "taluk": "Arakkonam",
+        "pincode": "631051"
+      },
+      {
+        "name": "Panapakkam",
+        "slug": "panapakkam",
+        "taluk": "Arakkonam",
+        "pincode": "631052"
+      },
+      {
+        "name": "Pandianallore",
+        "slug": "pandianallore",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      },
+      {
+        "name": "Paranji",
+        "slug": "paranji",
+        "taluk": "Arakkonam",
+        "pincode": "632510"
+      },
+      {
+        "name": "Parithiputhur",
+        "slug": "parithiputhur",
+        "taluk": "Arakkonam",
+        "pincode": "631002"
+      },
+      {
+        "name": "Perumbulipakkam",
+        "slug": "perumbulipakkam",
+        "taluk": "Arakkonam",
+        "pincode": "632531"
+      },
+      {
+        "name": "Perumuchi",
+        "slug": "perumuchi",
+        "taluk": "Arakkonam",
+        "pincode": "631002"
+      },
+      {
+        "name": "Perungalathur",
+        "slug": "perungalathur",
+        "taluk": "Arakkonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Perunkanchi",
+        "slug": "perunkanchi",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      },
+      {
+        "name": "Peruvalayam",
+        "slug": "peruvalayam",
+        "taluk": "Arakkonam",
+        "pincode": "631052"
+      },
+      {
+        "name": "Pillaipakkam",
+        "slug": "pillaipakkam",
+        "taluk": "Arakkonam",
+        "pincode": "631052"
+      },
+      {
+        "name": "Polipakkam",
+        "slug": "polipakkam",
+        "taluk": "Arakkonam",
+        "pincode": "632505"
+      },
+      {
+        "name": "Pulivalam",
+        "slug": "pulivalam",
+        "taluk": "Arakkonam",
+        "pincode": "632505"
+      },
+      {
+        "name": "Puliyamangalam",
+        "slug": "puliyamangalam",
+        "taluk": "Arakkonam",
+        "pincode": "631004"
+      },
+      {
+        "name": "Reddivalam",
+        "slug": "reddivalam",
+        "taluk": "Arakkonam",
+        "pincode": "631052"
+      },
+      {
+        "name": "Rendadi",
+        "slug": "rendadi",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      },
+      {
+        "name": "Sagayathottam",
+        "slug": "sagayathottam",
+        "taluk": "Arakkonam",
+        "pincode": "631151"
+      },
+      {
+        "name": "Sendamangalam",
+        "slug": "sendamangalam",
+        "taluk": "Arakkonam",
+        "pincode": "631051"
+      },
+      {
+        "name": "Seyyoor",
+        "slug": "seyyoor",
+        "taluk": "Arakkonam",
+        "pincode": "631004"
+      },
+      {
+        "name": "Sholingur Bazaar",
+        "slug": "sholingur-bazaar",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      },
+      {
+        "name": "Sirukarumbur",
+        "slug": "sirukarumbur",
+        "taluk": "Arakkonam",
+        "pincode": "632531"
+      },
+      {
+        "name": "Sirunamalli",
+        "slug": "sirunamalli",
+        "taluk": "Arakkonam",
+        "pincode": "631002"
+      },
+      {
+        "name": "Somasamudram",
+        "slug": "somasamudram",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      },
+      {
+        "name": "Surai",
+        "slug": "surai",
+        "taluk": "Arakkonam",
+        "pincode": "632505"
+      },
+      {
+        "name": "Suraksha Cisf Campus",
+        "slug": "suraksha-cisf-campus",
+        "taluk": "Arakkonam",
+        "pincode": "631152"
+      },
+      {
+        "name": "Takkolam",
+        "slug": "takkolam",
+        "taluk": "Arakkonam",
+        "pincode": "631151"
+      },
+      {
+        "name": "Talikkal",
+        "slug": "talikkal",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      },
+      {
+        "name": "Tirumalpur",
+        "slug": "tirumalpur",
+        "taluk": "Arakkonam",
+        "pincode": "631051"
+      },
+      {
+        "name": "Ulianallore",
+        "slug": "ulianallore",
+        "taluk": "Arakkonam",
+        "pincode": "631052"
+      },
+      {
+        "name": "Uriyur",
+        "slug": "uriyur",
+        "taluk": "Arakkonam",
+        "pincode": "631151"
+      },
+      {
+        "name": "Vadamambakkam",
+        "slug": "vadamambakkam",
+        "taluk": "Arakkonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Valaikulam",
+        "slug": "valaikulam",
+        "taluk": "Arakkonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Vangupattu",
+        "slug": "vangupattu",
+        "taluk": "Arakkonam",
+        "pincode": "631102"
+      }
+    ],
+    "Walajapet": [
+      {
+        "name": "Alapakkam",
+        "slug": "alapakkam",
+        "taluk": "Walajapet",
+        "pincode": "632508"
+      },
+      {
+        "name": "Ammundi",
+        "slug": "ammundi",
+        "taluk": "Walajapet",
+        "pincode": "632519"
+      },
+      {
+        "name": "Anandhalai",
+        "slug": "anandhalai",
+        "taluk": "Walajapet",
+        "pincode": "632513"
+      },
+      {
+        "name": "Arapakkam",
+        "slug": "arapakkam",
+        "taluk": "Walajapet",
+        "pincode": "632517"
+      },
+      {
+        "name": "Arungundram",
+        "slug": "arungundram",
+        "taluk": "Walajapet",
+        "pincode": "632509"
+      },
+      {
+        "name": "Ayilam",
+        "slug": "ayilam",
+        "taluk": "Walajapet",
+        "pincode": "632509"
+      },
+      {
+        "name": "Bhel Ranipet",
+        "slug": "bhel-ranipet",
+        "taluk": "Walajapet",
+        "pincode": "632406"
+      },
+      {
+        "name": "Ekambaranallur",
+        "slug": "ekambaranallur",
+        "taluk": "Walajapet",
+        "pincode": "632405"
+      },
+      {
+        "name": "Eranthangal",
+        "slug": "eranthangal",
+        "taluk": "Walajapet",
+        "pincode": "632519"
+      },
+      {
+        "name": "Federation Buildings",
+        "slug": "federation-buildings",
+        "taluk": "Walajapet",
+        "pincode": "632509"
+      },
+      {
+        "name": "Gudimallur",
+        "slug": "gudimallur",
+        "taluk": "Walajapet",
+        "pincode": "632513"
+      },
+      {
+        "name": "Gugainallore",
+        "slug": "gugainallore",
+        "taluk": "Walajapet",
+        "pincode": "632515"
+      },
+      {
+        "name": "Hakeemnagar",
+        "slug": "hakeemnagar",
+        "taluk": "Walajapet",
+        "pincode": "632509"
+      },
+      {
+        "name": "Kadaperi",
+        "slug": "kadaperi",
+        "taluk": "Walajapet",
+        "pincode": "632508"
+      },
+      {
+        "name": "Kalmelkuppam",
+        "slug": "kalmelkuppam",
+        "taluk": "Walajapet",
+        "pincode": "632501"
+      },
+      {
+        "name": "Karai",
+        "slug": "karai",
+        "taluk": "Walajapet",
+        "pincode": "632404"
+      },
+      {
+        "name": "Katrambakkam",
+        "slug": "katrambakkam",
+        "taluk": "Walajapet",
+        "pincode": "632501"
+      },
+      {
+        "name": "Kaveripak",
+        "slug": "kaveripak",
+        "taluk": "Walajapet",
+        "pincode": "632508"
+      },
+      {
+        "name": "Kilminnal",
+        "slug": "kilminnal",
+        "taluk": "Walajapet",
+        "pincode": "632517"
+      },
+      {
+        "name": "Kilvisharam",
+        "slug": "kilvisharam",
+        "taluk": "Walajapet",
+        "pincode": "632509"
+      },
+      {
+        "name": "Marudhalam",
+        "slug": "marudhalam",
+        "taluk": "Walajapet",
+        "pincode": "632501"
+      },
+      {
+        "name": "Melakuppam",
+        "slug": "melakuppam",
+        "taluk": "Walajapet",
+        "pincode": "632517"
+      },
+      {
+        "name": "Mukundarayapuram",
+        "slug": "mukundarayapuram",
+        "taluk": "Walajapet",
+        "pincode": "632405"
+      },
+      {
+        "name": "Nandiyalam",
+        "slug": "nandiyalam",
+        "taluk": "Walajapet",
+        "pincode": "632517"
+      },
+      {
+        "name": "Navalpur",
+        "slug": "navalpur",
+        "taluk": "Walajapet",
+        "pincode": "632401"
+      },
+      {
+        "name": "Neelakandarayanpattai",
+        "slug": "neelakandarayanpattai",
+        "taluk": "Walajapet",
+        "pincode": "632501"
+      },
+      {
+        "name": "Ozhughur",
+        "slug": "ozhughur",
+        "taluk": "Walajapet",
+        "pincode": "632501"
+      },
+      {
+        "name": "Poondi",
+        "slug": "poondi",
+        "taluk": "Walajapet",
+        "pincode": "632513"
+      },
+      {
+        "name": "Puliyankannu",
+        "slug": "puliyankannu",
+        "taluk": "Walajapet",
+        "pincode": "632404"
+      },
+      {
+        "name": "Puttuthakku",
+        "slug": "puttuthakku",
+        "taluk": "Walajapet",
+        "pincode": "632517"
+      },
+      {
+        "name": "Ranipet Industrial Estate",
+        "slug": "ranipet-industrial-estate",
+        "taluk": "Walajapet",
+        "pincode": "632403"
+      },
+      {
+        "name": "Ratnagiri Kilminnal",
+        "slug": "ratnagiri-kilminnal",
+        "taluk": "Walajapet",
+        "pincode": "632517"
+      },
+      {
+        "name": "Rottukadai",
+        "slug": "rottukadai",
+        "taluk": "Walajapet",
+        "pincode": "632508"
+      },
+      {
+        "name": "Sembarayanallur",
+        "slug": "sembarayanallur",
+        "taluk": "Walajapet",
+        "pincode": "632519"
+      },
+      {
+        "name": "Seri",
+        "slug": "seri",
+        "taluk": "Walajapet",
+        "pincode": "632508"
+      },
+      {
+        "name": "Sumaithangi",
+        "slug": "sumaithangi",
+        "taluk": "Walajapet",
+        "pincode": "632508"
+      },
+      {
+        "name": "Tempalle",
+        "slug": "tempalle",
+        "taluk": "Walajapet",
+        "pincode": "632515"
+      },
+      {
+        "name": "Thalangai",
+        "slug": "thalangai",
+        "taluk": "Walajapet",
+        "pincode": "632501"
+      },
+      {
+        "name": "Thengal Walajapet",
+        "slug": "thengal-walajapet",
+        "taluk": "Walajapet",
+        "pincode": "632404"
+      },
+      {
+        "name": "Thenkadapanthangal",
+        "slug": "thenkadapanthangal",
+        "taluk": "Walajapet",
+        "pincode": "632513"
+      },
+      {
+        "name": "Thirumalaicheryy",
+        "slug": "thirumalaicheryy",
+        "taluk": "Walajapet",
+        "pincode": "632513"
+      },
+      {
+        "name": "Thiruparkadal",
+        "slug": "thiruparkadal",
+        "taluk": "Walajapet",
+        "pincode": "632508"
+      },
+      {
+        "name": "Thuraiperumbakkam",
+        "slug": "thuraiperumbakkam",
+        "taluk": "Walajapet",
+        "pincode": "632508"
+      },
+      {
+        "name": "Tiruvalam",
+        "slug": "tiruvalam",
+        "taluk": "Walajapet",
+        "pincode": "632515"
+      },
+      {
+        "name": "Valluvambakkam",
+        "slug": "valluvambakkam",
+        "taluk": "Walajapet",
+        "pincode": "632513"
+      },
+      {
+        "name": "Vanapadi",
+        "slug": "vanapadi",
+        "taluk": "Walajapet",
+        "pincode": "632404"
+      },
+      {
+        "name": "Vangur",
+        "slug": "vangur",
+        "taluk": "Walajapet",
+        "pincode": "632501"
+      },
+      {
+        "name": "Vannivedu",
+        "slug": "vannivedu",
+        "taluk": "Walajapet",
+        "pincode": "632513"
+      },
+      {
+        "name": "Vellore Sugar Mills",
+        "slug": "vellore-sugar-mills",
+        "taluk": "Walajapet",
+        "pincode": "632519"
+      }
+    ],
+    "Wallajah": [
+      {
+        "name": "Ammoor",
+        "slug": "ammoor",
+        "taluk": "Wallajah",
+        "pincode": "632501"
+      },
+      {
+        "name": "Chengalnatham",
+        "slug": "chengalnatham",
+        "taluk": "Wallajah",
+        "pincode": "632520"
+      },
+      {
+        "name": "Kodakkal",
+        "slug": "kodakkal",
+        "taluk": "Wallajah",
+        "pincode": "631102"
+      },
+      {
+        "name": "Manthangal",
+        "slug": "manthangal",
+        "taluk": "Wallajah",
+        "pincode": "632404"
+      },
+      {
+        "name": "Pagaveli",
+        "slug": "pagaveli",
+        "taluk": "Wallajah",
+        "pincode": "632508"
+      },
+      {
+        "name": "Periasengadu",
+        "slug": "periasengadu",
+        "taluk": "Wallajah",
+        "pincode": "632501"
+      },
+      {
+        "name": "Seekarajapuram",
+        "slug": "seekarajapuram",
+        "taluk": "Wallajah",
+        "pincode": "632515"
+      },
+      {
+        "name": "Velam",
+        "slug": "velam",
+        "taluk": "Wallajah",
+        "pincode": "632501"
+      },
+      {
+        "name": "Walajapet",
+        "slug": "walajapet",
+        "taluk": "Wallajah",
+        "pincode": "632513"
+      },
+      {
+        "name": "Walajapet Bazaar",
+        "slug": "walajapet-bazaar",
+        "taluk": "Wallajah",
+        "pincode": "632513"
+      }
+    ],
+    "Katpadi": [
+      {
+        "name": "Angarankuppam",
+        "slug": "angarankuppam",
+        "taluk": "Katpadi",
+        "pincode": "632204"
+      },
+      {
+        "name": "Annangudi",
+        "slug": "annangudi",
+        "taluk": "Katpadi",
+        "pincode": "632202"
+      },
+      {
+        "name": "Arumbakkam Katpadi",
+        "slug": "arumbakkam-katpadi",
+        "taluk": "Katpadi",
+        "pincode": "632202"
+      },
+      {
+        "name": "Arumparuthi",
+        "slug": "arumparuthi",
+        "taluk": "Katpadi",
+        "pincode": "632106"
+      },
+      {
+        "name": "Bn Palayam",
+        "slug": "bn-palayam",
+        "taluk": "Katpadi",
+        "pincode": "632202"
+      },
+      {
+        "name": "Bramhapuram",
+        "slug": "bramhapuram",
+        "taluk": "Katpadi",
+        "pincode": "632014"
+      },
+      {
+        "name": "Chennankuppam",
+        "slug": "chennankuppam",
+        "taluk": "Katpadi",
+        "pincode": "632209"
+      },
+      {
+        "name": "Devarishikuppam",
+        "slug": "devarishikuppam",
+        "taluk": "Katpadi",
+        "pincode": "632209"
+      },
+      {
+        "name": "Gollamangalam",
+        "slug": "gollamangalam",
+        "taluk": "Katpadi",
+        "pincode": "635809"
+      },
+      {
+        "name": "Jaffarapettai",
+        "slug": "jaffarapettai",
+        "taluk": "Katpadi",
+        "pincode": "632006"
+      },
+      {
+        "name": "Kandaneri",
+        "slug": "kandaneri",
+        "taluk": "Katpadi",
+        "pincode": "635809"
+      },
+      {
+        "name": "Kanguppam",
+        "slug": "kanguppam",
+        "taluk": "Katpadi",
+        "pincode": "632209"
+      },
+      {
+        "name": "Karasamangalam",
+        "slug": "karasamangalam",
+        "taluk": "Katpadi",
+        "pincode": "632202"
+      },
+      {
+        "name": "Karigiri",
+        "slug": "karigiri",
+        "taluk": "Katpadi",
+        "pincode": "632106"
+      },
+      {
+        "name": "Keerasathu",
+        "slug": "keerasathu",
+        "taluk": "Katpadi",
+        "pincode": "632514"
+      },
+      {
+        "name": "Kilvayathinankuppam",
+        "slug": "kilvayathinankuppam",
+        "taluk": "Katpadi",
+        "pincode": "632201"
+      },
+      {
+        "name": "Kokkeri",
+        "slug": "kokkeri",
+        "taluk": "Katpadi",
+        "pincode": "632520"
+      },
+      {
+        "name": "Kondakuppam",
+        "slug": "kondakuppam",
+        "taluk": "Katpadi",
+        "pincode": "632520"
+      },
+      {
+        "name": "Kuppireddithangal",
+        "slug": "kuppireddithangal",
+        "taluk": "Katpadi",
+        "pincode": "632516"
+      },
+      {
+        "name": "Latteri",
+        "slug": "latteri",
+        "taluk": "Katpadi",
+        "pincode": "632202"
+      },
+      {
+        "name": "Machanur",
+        "slug": "machanur",
+        "taluk": "Katpadi",
+        "pincode": "632209"
+      },
+      {
+        "name": "Mahimandalam",
+        "slug": "mahimandalam",
+        "taluk": "Katpadi",
+        "pincode": "632516"
+      },
+      {
+        "name": "Melkavanur",
+        "slug": "melkavanur",
+        "taluk": "Katpadi",
+        "pincode": "632209"
+      },
+      {
+        "name": "Melmankuppam",
+        "slug": "melmankuppam",
+        "taluk": "Katpadi",
+        "pincode": "632203"
+      },
+      {
+        "name": "Melmayil",
+        "slug": "melmayil",
+        "taluk": "Katpadi",
+        "pincode": "632203"
+      },
+      {
+        "name": "Melpadi",
+        "slug": "melpadi",
+        "taluk": "Katpadi",
+        "pincode": "632520"
+      },
+      {
+        "name": "Odiyathur",
+        "slug": "odiyathur",
+        "taluk": "Katpadi",
+        "pincode": "635809"
+      },
+      {
+        "name": "Palayakrishnapuram",
+        "slug": "palayakrishnapuram",
+        "taluk": "Katpadi",
+        "pincode": "632209"
+      },
+      {
+        "name": "Pallikonda",
+        "slug": "pallikonda",
+        "taluk": "Katpadi",
+        "pincode": "635809"
+      },
+      {
+        "name": "Periamittoor",
+        "slug": "periamittoor",
+        "taluk": "Katpadi",
+        "pincode": "632516"
+      },
+      {
+        "name": "Perumalkuppam",
+        "slug": "perumalkuppam",
+        "taluk": "Katpadi",
+        "pincode": "632520"
+      },
+      {
+        "name": "Perumankuppam",
+        "slug": "perumankuppam",
+        "taluk": "Katpadi",
+        "pincode": "632201"
+      },
+      {
+        "name": "Ponnai",
+        "slug": "ponnai",
+        "taluk": "Katpadi",
+        "pincode": "632514"
+      },
+      {
+        "name": "Ruhsa Campus",
+        "slug": "ruhsa-campus",
+        "taluk": "Katpadi",
+        "pincode": "632209"
+      },
+      {
+        "name": "Senji",
+        "slug": "senji",
+        "taluk": "Katpadi",
+        "pincode": "632202"
+      },
+      {
+        "name": "Sozhamur",
+        "slug": "sozhamur",
+        "taluk": "Katpadi",
+        "pincode": "632202"
+      },
+      {
+        "name": "Thathireddipalle",
+        "slug": "thathireddipalle",
+        "taluk": "Katpadi",
+        "pincode": "632516"
+      },
+      {
+        "name": "Thengal Katpadi",
+        "slug": "thengal-katpadi",
+        "taluk": "Katpadi",
+        "pincode": "632514"
+      },
+      {
+        "name": "Thiruvalluvar University",
+        "slug": "thiruvalluvar-university",
+        "taluk": "Katpadi",
+        "pincode": "632115"
+      },
+      {
+        "name": "Tippasamudram",
+        "slug": "tippasamudram",
+        "taluk": "Katpadi",
+        "pincode": "635809"
+      },
+      {
+        "name": "Vallimalai",
+        "slug": "vallimalai",
+        "taluk": "Katpadi",
+        "pincode": "632520"
+      },
+      {
+        "name": "Vasur",
+        "slug": "vasur",
+        "taluk": "Katpadi",
+        "pincode": "632514"
+      },
+      {
+        "name": "Vennampalle",
+        "slug": "vennampalle",
+        "taluk": "Katpadi",
+        "pincode": "632516"
+      },
+      {
+        "name": "Veppalai",
+        "slug": "veppalai",
+        "taluk": "Katpadi",
+        "pincode": "632520"
+      }
+    ],
+    "Arakonam": [
+      {
+        "name": "Ashoknagar Vellore",
+        "slug": "ashoknagar-vellore",
+        "taluk": "Arakonam",
+        "pincode": "631001"
+      },
+      {
+        "name": "Ekhunagar",
+        "slug": "ekhunagar",
+        "taluk": "Arakonam",
+        "pincode": "631004"
+      },
+      {
+        "name": "Gudalur",
+        "slug": "gudalur",
+        "taluk": "Arakonam",
+        "pincode": "632510"
+      },
+      {
+        "name": "Guruvarajpet",
+        "slug": "guruvarajpet",
+        "taluk": "Arakonam",
+        "pincode": "631101"
+      },
+      {
+        "name": "Ins Rajali",
+        "slug": "ins-rajali",
+        "taluk": "Arakonam",
+        "pincode": "631006"
+      },
+      {
+        "name": "Jothinagar",
+        "slug": "jothinagar",
+        "taluk": "Arakonam",
+        "pincode": "631003"
+      },
+      {
+        "name": "Meleri",
+        "slug": "meleri",
+        "taluk": "Arakonam",
+        "pincode": "632502"
+      },
+      {
+        "name": "Melkalathur",
+        "slug": "melkalathur",
+        "taluk": "Arakonam",
+        "pincode": "632502"
+      },
+      {
+        "name": "Palanipet",
+        "slug": "palanipet",
+        "taluk": "Arakonam",
+        "pincode": "631002"
+      },
+      {
+        "name": "Panaiyur",
+        "slug": "panaiyur",
+        "taluk": "Arakonam",
+        "pincode": "632518"
+      },
+      {
+        "name": "Sayanavaram",
+        "slug": "sayanavaram",
+        "taluk": "Arakonam",
+        "pincode": "631051"
+      },
+      {
+        "name": "Thanigaipolur",
+        "slug": "thanigaipolur",
+        "taluk": "Arakonam",
+        "pincode": "631003"
+      }
+    ],
+    "Gudiyatham": [
+      {
+        "name": "Bhuvaneswaripet",
+        "slug": "bhuvaneswaripet",
+        "taluk": "Gudiyatham",
+        "pincode": "632602"
+      },
+      {
+        "name": "Dharanampet",
+        "slug": "dharanampet",
+        "taluk": "Gudiyatham",
+        "pincode": "632601"
+      },
+      {
+        "name": "Gudiyattam Cutcherry",
+        "slug": "gudiyattam-cutcherry",
+        "taluk": "Gudiyatham",
+        "pincode": "632602"
+      },
+      {
+        "name": "Gudiyattam RS",
+        "slug": "gudiyattam-rs",
+        "taluk": "Gudiyatham",
+        "pincode": "635803"
+      },
+      {
+        "name": "Gudiyattam South",
+        "slug": "gudiyattam-south",
+        "taluk": "Gudiyatham",
+        "pincode": "632602"
+      },
+      {
+        "name": "Kamalapuram",
+        "slug": "kamalapuram",
+        "taluk": "Gudiyatham",
+        "pincode": "635810"
+      },
+      {
+        "name": "Kokkalur",
+        "slug": "kokkalur",
+        "taluk": "Gudiyatham",
+        "pincode": "635810"
+      },
+      {
+        "name": "Kosavanpudur",
+        "slug": "kosavanpudur",
+        "taluk": "Gudiyatham",
+        "pincode": "635803"
+      },
+      {
+        "name": "Kottamitta",
+        "slug": "kottamitta",
+        "taluk": "Gudiyatham",
+        "pincode": "632601"
+      },
+      {
+        "name": "Kottur",
+        "slug": "kottur",
+        "taluk": "Gudiyatham",
+        "pincode": "635808"
+      },
+      {
+        "name": "Oomerabad",
+        "slug": "oomerabad",
+        "taluk": "Gudiyatham",
+        "pincode": "635808"
+      },
+      {
+        "name": "Pakkamvenkatapuram",
+        "slug": "pakkamvenkatapuram",
+        "taluk": "Gudiyatham",
+        "pincode": "632601"
+      },
+      {
+        "name": "Pallikonda Bazaar",
+        "slug": "pallikonda-bazaar",
+        "taluk": "Gudiyatham",
+        "pincode": "635809"
+      },
+      {
+        "name": "Sathugudi",
+        "slug": "sathugudi",
+        "taluk": "Gudiyatham",
+        "pincode": "635810"
+      },
+      {
+        "name": "Vettuvanam",
+        "slug": "vettuvanam",
+        "taluk": "Gudiyatham",
+        "pincode": "635809"
+      }
+    ],
+    "NA": [
+      {
+        "name": "Karnambut",
+        "slug": "karnambut",
+        "taluk": "NA",
+        "pincode": "632519"
+      },
+      {
+        "name": "Paravathur",
+        "slug": "paravathur",
+        "taluk": "NA",
+        "pincode": "632510"
+      },
+      {
+        "name": "Peenjamandai",
+        "slug": "peenjamandai",
+        "taluk": "NA",
+        "pincode": "632103"
+      },
+      {
+        "name": "Poongulam",
+        "slug": "poongulam",
+        "taluk": "NA",
+        "pincode": "635710"
+      },
+      {
+        "name": "Rangapuram",
+        "slug": "rangapuram",
+        "taluk": "NA",
+        "pincode": "632009"
+      }
+    ],
+    "taluk": [
+      {
+        "name": "name",
+        "slug": "name",
+        "taluk": "taluk",
+        "pincode": "pincode"
+      }
+    ],
+    "Walaja": [
+      {
+        "name": "Ranipet Bazar",
+        "slug": "ranipet-bazar",
+        "taluk": "Walaja",
+        "pincode": "632401"
+      }
+    ],
+    "Vandavasi": [
+      {
+        "name": "Vallam Arni",
+        "slug": "vallam-arni",
+        "taluk": "Vandavasi",
+        "pincode": "604505"
+      }
+    ],
+    "Arni": [
+      {
+        "name": "Vallam Kannamangalam",
+        "slug": "vallam-kannamangalam",
+        "taluk": "Arni",
+        "pincode": "632311"
+      }
+    ],
+    "Vl": [
+      {
+        "name": "Vandranthangal",
+        "slug": "vandranthangal",
+        "taluk": "Vl",
+        "pincode": "632059"
+      }
+    ],
+    "Velr": [
+      {
+        "name": "Vannanthangal",
+        "slug": "vannanthangal",
+        "taluk": "Velr",
+        "pincode": "632103"
+      }
+    ]
+  },
+  "total": 685
+}

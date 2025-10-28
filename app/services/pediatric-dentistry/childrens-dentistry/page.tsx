@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import { ServicePeopleAlsoSearchFor } from '@/components/service/ServicePeopleAlsoSearchFor'
 
 export const metadata: Metadata = {
   title: "Children's Dentistry | Pediatric Dental Care | Indira Dental Clinic Vellore",
@@ -12,7 +13,9 @@ export default function ChildrensDentistryPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">Children's Dentistry</h1>
+        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Pediatric Dentistry Doctors in India - Pediatric Dentist Near Me
+              </h1>
         <p className="text-lg text-gray-600">
           Specialized dental care for infants, children, and adolescents in a comfortable, child-friendly environment.
         </p>
@@ -230,7 +233,10 @@ export default function ChildrensDentistryPage() {
               dental visits, and choosing a dentist experienced with children. Our team is specially trained to help
               anxious children feel comfortable.
             </p>
-          </div>
+          
+        <ServicePeopleAlsoSearchFor serviceName="" />
+
+        </div>
         </div>
       </div>
     </div>

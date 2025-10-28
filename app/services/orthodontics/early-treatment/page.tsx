@@ -29,7 +29,9 @@ export default function EarlyOrthodonticTreatmentPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-green-100 text-green-700"><Baby className="w-4 h-4 inline mr-1" />Ages 7-11 Recommended</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Early Orthodontic Treatment (Phase 1)</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Orthodontic Treatment Doctors in India - Orthodontist Near Me
+              </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Interceptive orthodontics for children to guide jaw development, create space for permanent teeth, and prevent future orthodontic problems.</p>
           </div>
 

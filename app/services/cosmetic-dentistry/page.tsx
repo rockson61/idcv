@@ -13,6 +13,7 @@ import { RelevantQAWidget } from "@/components/widgets/relevant-qa-widget"
 import { CompactServiceWidget } from "@/components/widgets/compact-service-widget"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { SectionContainer } from "@/components/ui/section-container"
+import { ServicePeopleAlsoSearchFor } from '@/components/service/ServicePeopleAlsoSearchFor'
 
 const reviews = generateServiceReviews('Cosmetic Dentistry', 'teeth-whitening')
 
@@ -256,9 +257,9 @@ export default function CosmeticDentistryPage() {
           <Badge variant="outline" className="mb-4 border-teal-600 text-teal-700 font-semibold">
             Cosmetic Dentistry
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            Transform Your Smile with Expert Cosmetic Dentistry
-            </h1>
+          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Cosmetic Dentistry Doctors in India - Cosmetic Dentist Near Me
+              </h1>
           <p className="text-xl text-gray-700 mb-8 max-w-4xl mx-auto leading-relaxed">
               Achieve the smile of your dreams with our advanced cosmetic dentistry treatments. From teeth whitening to
             complete smile makeovers, <strong className="text-gray-900">Dr. Rockson Samuel</strong> creates beautiful, natural-looking results at{" "}
@@ -721,7 +722,10 @@ export default function CosmeticDentistryPage() {
           }),
         }}
       />
-      </div>
+      
+        <ServicePeopleAlsoSearchFor serviceName="" />
+
+        </div>
     </div>
   )
 }

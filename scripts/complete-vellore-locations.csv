@@ -1,0 +1,654 @@
+name,taluk,pincode,distance,travelTime
+Agaram,Arcot,632506,28 km,40 minutes
+Akkachikuppam,Arakkonam,632510,38 km,50 minutes
+Alapakkam,Walajapet,632508,22 km,32 minutes
+Ammanur,Arakkonam,631002,36 km,48 minutes
+Ammoor,Wallajah,632501,24 km,35 minutes
+Ammundi,Walajapet,632519,26 km,38 minutes
+Anaimallur,Arcot,632507,27 km,39 minutes
+Anaipakkam,Arakkonam,631003,37 km,49 minutes
+Anandhalai,Walajapet,632513,23 km,34 minutes
+Ananthangal,Arcot,632511,29 km,42 minutes
+Anvardhikhanpet,Arakkonam,632502,35 km,47 minutes
+Arapakkam,Walajapet,632517,24 km,36 minutes
+Arcot Bazaar,Arcot,632503,25 km,35 minutes
+Arcot West,Arcot,632503,25 km,35 minutes
+Arigilapadi,Arakkonam,631151,40 km,52 minutes
+Arumbakkam,Arcot,632506,28 km,40 minutes
+Arungundram,Walajapet,632509,22 km,33 minutes
+Asamandhur,Arakkonam,632502,36 km,48 minutes
+Ashoknagar Vellore,Arakonam,631001,35 km,45 minutes
+Attupakkam,Arakkonam,631051,38 km,50 minutes
+Ayal,Arakkonam,632505,36 km,48 minutes
+Ayarpadi,Arakkonam,632531,42 km,55 minutes
+Ayilam,Walajapet,632509,22 km,33 minutes
+Ayipedu,Arakkonam,631102,40 km,52 minutes
+Banavaram,Arakkonam,632505,36 km,48 minutes
+Bhel Ranipet,Walajapet,632406,22 km,32 minutes
+Chengalnatham,Wallajah,632520,28 km,40 minutes
+Chennasamudram,Arcot,632506,28 km,40 minutes
+Chitteri,Arakkonam,631003,37 km,49 minutes
+Damarapakkam,Arcot,632504,26 km,38 minutes
+Durgam,Arcot,632512,30 km,43 minutes
+Ekambaranallur,Walajapet,632405,21 km,31 minutes
+Ekhunagar,Arakonam,631004,36 km,48 minutes
+Eranthangal,Walajapet,632519,26 km,38 minutes
+Esayanur,Arcot,632511,29 km,42 minutes
+Federation Buildings,Walajapet,632509,22 km,33 minutes
+G.B.Nagar,Arcot,632506,28 km,40 minutes
+Ganapathipuram,Arakkonam,631051,38 km,50 minutes
+Govindacherrykuppam,Arakkonam,632505,36 km,48 minutes
+Gudalur,Arakonam,632510,38 km,50 minutes
+Gudimallur,Walajapet,632513,23 km,34 minutes
+Gugainallore,Walajapet,632515,25 km,37 minutes
+Gundaleri,Arcot,632512,30 km,43 minutes
+Guruvarajpet,Arakonam,631101,39 km,51 minutes
+Hakeemnagar,Walajapet,632509,22 km,33 minutes
+Ichiputhur,Arakkonam,631003,37 km,49 minutes
+Iluppaithandalam,Arakkonam,631151,40 km,52 minutes
+Ins Rajali,Arakonam,631006,36 km,48 minutes
+Jagirthandalam,Arakkonam,631052,38 km,50 minutes
+Jagirvalavanur,Arcot,632511,29 km,42 minutes
+Jambukulam,Arakkonam,631102,40 km,52 minutes
+Jawaharpuram,Arcot,632503,25 km,35 minutes
+Jothinagar,Arakonam,631003,37 km,49 minutes
+Kadambainallore,Arakkonam,631151,40 km,52 minutes
+Kadaperi,Walajapet,632508,22 km,32 minutes
+Kainoor,Arakkonam,631003,37 km,49 minutes
+Kalathur,Arakkonam,632531,42 km,55 minutes
+Kalmelkuppam,Walajapet,632501,24 km,35 minutes
+Kaniyanur,Arcot,632506,28 km,40 minutes
+Karai,Walajapet,632404,21 km,31 minutes
+Karikkal,Arakkonam,631102,40 km,52 minutes
+Karikkanthangal,Arcot,632506,28 km,40 minutes
+Karnambut,NA,632519,26 km,38 minutes
+Karnavur,Arakkonam,631052,38 km,50 minutes
+Katrambakkam,Walajapet,632501,24 km,35 minutes
+Kattupakkam,Arakkonam,632502,35 km,47 minutes
+Kavanur Arakkonam,Arakkonam,631004,36 km,48 minutes
+Kavanur Arcot,Arcot,632507,27 km,39 minutes
+Kaveripak,Walajapet,632508,22 km,32 minutes
+Keerasathu,Katpadi,632514,12 km,22 minutes
+Kesavanankuppam,Arakkonam,631102,40 km,52 minutes
+Kilandur,Arakkonam,631003,37 km,49 minutes
+Kilandurai,Arakkonam,631002,36 km,48 minutes
+Kilkuppam,Arakkonam,631004,36 km,48 minutes
+Kilminnal,Walajapet,632517,24 km,36 minutes
+Kilpakkam,Arakkonam,631003,37 km,49 minutes
+Kilveedhi,Arakkonam,632502,35 km,47 minutes
+Kilveeranam,Arakkonam,632505,36 km,48 minutes
+Kilvenkatapuram,Arakkonam,631051,38 km,50 minutes
+Kilvisharam,Walajapet,632509,22 km,33 minutes
+Kizhavanam,Arakkonam,631101,39 km,51 minutes
+Kodakkal,Wallajah,631102,40 km,52 minutes
+Kokkeri,Katpadi,632520,14 km,24 minutes
+Kondakuppam,Katpadi,632520,14 km,24 minutes
+Kondapalayam,Arakkonam,631102,40 km,52 minutes
+Kumpinipet,Arakkonam,631003,37 km,49 minutes
+Kunnathur,Arakkonam,632510,38 km,50 minutes
+Kuppireddithangal,Katpadi,632516,13 km,23 minutes
+Ladavaram,Arcot,632503,25 km,35 minutes
+Mahendravadi,Arakkonam,632502,35 km,47 minutes
+Mahimandalam,Katpadi,632516,13 km,23 minutes
+Mambakkam,Arcot,632318,32 km,45 minutes
+Manamadurai,Arakkonam,632502,35 km,47 minutes
+Mangattucherry,Arakkonam,631151,40 km,52 minutes
+Manthangal,Wallajah,632404,21 km,31 minutes
+Marudhalam,Walajapet,632501,24 km,35 minutes
+Mazharyur,Arcot,632506,28 km,40 minutes
+Mecheri,Arcot,632506,28 km,40 minutes
+Melakuppam,Walajapet,632517,24 km,36 minutes
+Melapudupakkam,Arcot,632318,32 km,45 minutes
+Melapulam,Arakkonam,631052,38 km,50 minutes
+Meleri,Arakonam,632502,35 km,47 minutes
+Melkalathur,Arakonam,632502,35 km,47 minutes
+Melnathambakkam,Arcot,632506,28 km,40 minutes
+Melpadi,Katpadi,632520,14 km,24 minutes
+Minnal,Arakkonam,632510,38 km,50 minutes
+Mittapettai,Arakkonam,631101,39 km,51 minutes
+Mohamedpet,Arcot,632512,30 km,43 minutes
+Mosur,Arakkonam,631004,36 km,48 minutes
+Mudur,Arakkonam,631003,37 km,49 minutes
+Mukundarayapuram,Walajapet,632405,21 km,31 minutes
+Muppathuvetti,Arcot,632503,25 km,35 minutes
+Nagavedu,Arakkonam,631002,36 km,48 minutes
+Namali,Arakkonam,631051,38 km,50 minutes
+Nambarai,Arcot,632512,30 km,43 minutes
+Nandiveduthangal,Arakkonam,631101,39 km,51 minutes
+Nandiyalam,Walajapet,632517,24 km,36 minutes
+Navalpur,Walajapet,632401,20 km,30 minutes
+Neelakandarayanpattai,Walajapet,632501,24 km,35 minutes
+Ocheri,Arakkonam,632531,42 km,55 minutes
+Ozhughur,Walajapet,632501,24 km,35 minutes
+Pagaveli,Wallajah,632508,22 km,32 minutes
+Palanipet,Arakonam,631002,36 km,48 minutes
+Palayamangadu,Arcot,632503,25 km,35 minutes
+Palayanur,Arcot,632512,30 km,43 minutes
+Palayapalayamottur,Arakkonam,632505,36 km,48 minutes
+Pallur,Arakkonam,631051,38 km,50 minutes
+Panaiyur,Arakonam,632518,26 km,38 minutes
+Panapakkam,Arakkonam,631052,38 km,50 minutes
+Pandianallore,Arakkonam,631102,40 km,52 minutes
+Paradarami,Arcot,632512,30 km,43 minutes
+Paranji,Arakkonam,632510,38 km,50 minutes
+Paravathur,NA,632510,38 km,50 minutes
+Parithiputhur,Arakkonam,631002,36 km,48 minutes
+Pennagar,Arcot,632518,26 km,38 minutes
+Periamittoor,Katpadi,632516,13 km,23 minutes
+Periasengadu,Wallajah,632501,24 km,35 minutes
+Perumalkuppam,Katpadi,632520,14 km,24 minutes
+Perumbulipakkam,Arakkonam,632531,42 km,55 minutes
+Perumuchi,Arakkonam,631002,36 km,48 minutes
+Perungalathur,Arakkonam,631003,37 km,49 minutes
+Perunkanchi,Arakkonam,631102,40 km,52 minutes
+Peruvalayam,Arakkonam,631052,38 km,50 minutes
+Pillaipakkam,Arakkonam,631052,38 km,50 minutes
+Polipakkam,Arakkonam,632505,36 km,48 minutes
+Ponnai,Katpadi,632514,12 km,22 minutes
+Poondi,Walajapet,632513,23 km,34 minutes
+Pudupadi,Arcot,632503,25 km,35 minutes
+Pudur Kaniyanur,Arcot,632506,28 km,40 minutes
+Pulivalam,Arakkonam,632505,36 km,48 minutes
+Puliyamangalam,Arakkonam,631004,36 km,48 minutes
+Puliyankannu,Walajapet,632404,21 km,31 minutes
+Punganur,Arcot,632507,27 km,39 minutes
+Puttuthakku,Walajapet,632517,24 km,36 minutes
+Ranipet Bazar,Walaja,632401,20 km,30 minutes
+Ranipet Industrial Estate,Walajapet,632403,21 km,31 minutes
+Ratnagiri Kilminnal,Walajapet,632517,24 km,36 minutes
+Reddivalam,Arakkonam,631052,38 km,50 minutes
+Rendadi,Arakkonam,631102,40 km,52 minutes
+Rottukadai,Walajapet,632508,22 km,32 minutes
+Sagayathottam,Arakkonam,631151,40 km,52 minutes
+Sakkaramallur,Arcot,632511,29 km,42 minutes
+Sambasivapuram,Arcot,632507,27 km,39 minutes
+Sathambakkam,Walajapet,632513,23 km,34 minutes
+Sattur,Arcot,632521,33 km,46 minutes
+Sayanavaram,Arakonam,631051,38 km,50 minutes
+Seekarajapuram,Wallajah,632515,25 km,37 minutes
+Sembarayanallur,Walajapet,632519,26 km,38 minutes
+Sendamangalam,Arakkonam,631051,38 km,50 minutes
+Senganavaram,Arcot,632518,26 km,38 minutes
+Seri,Walajapet,632508,22 km,32 minutes
+Seyyoor,Arakkonam,631004,36 km,48 minutes
+Sholingur Bazaar,Arakkonam,631102,50 km,1 hour
+Sirukarumbur,Arakkonam,632531,42 km,55 minutes
+Sirunamalli,Arakkonam,631002,36 km,48 minutes
+Somasamudram,Arakkonam,631102,40 km,52 minutes
+Soraiyur,Arcot,632318,32 km,45 minutes
+Sumaithangi,Walajapet,632508,22 km,32 minutes
+Surai,Arakkonam,632505,36 km,48 minutes
+Suraksha Cisf Campus,Arakkonam,631152,41 km,53 minutes
+Tajpura,Arcot,632521,33 km,46 minutes
+Takkolam,Arakkonam,631151,40 km,52 minutes
+Talikkal,Arakkonam,631102,40 km,52 minutes
+Tempalle,Walajapet,632515,25 km,37 minutes
+Thalangai,Walajapet,632501,24 km,35 minutes
+Thanigaipolur,Arakonam,631003,37 km,49 minutes
+Thathireddipalle,Katpadi,632516,13 km,23 minutes
+Thengal Walajapet,Walajapet,632404,21 km,31 minutes
+Thengal Katpadi,Katpadi,632514,12 km,22 minutes
+Thenkadapanthangal,Walajapet,632513,23 km,34 minutes
+Thirumalaicheryy,Walajapet,632513,23 km,34 minutes
+Thiruparkadal,Walajapet,632508,22 km,32 minutes
+Thoppukhana,Arcot,632503,25 km,35 minutes
+Thuraiperumbakkam,Walajapet,632508,22 km,32 minutes
+Tirumalpur,Arakkonam,631051,38 km,50 minutes
+Tiruvalam,Walajapet,632515,25 km,37 minutes
+Ulianallore,Arakkonam,631052,38 km,50 minutes
+Uppupettai,Arcot,632521,33 km,46 minutes
+Uriyur,Arakkonam,631151,40 km,52 minutes
+Vadamambakkam,Arakkonam,631003,37 km,49 minutes
+Valaikulam,Arakkonam,631003,37 km,49 minutes
+Valapandal,Arcot,632318,32 km,45 minutes
+Valayathur,Arcot,632504,26 km,38 minutes
+Vallimalai,Katpadi,632520,14 km,24 minutes
+Valluvambakkam,Walajapet,632513,23 km,34 minutes
+Vanapadi,Walajapet,632404,21 km,31 minutes
+Vangupattu,Arakkonam,631102,40 km,52 minutes
+Vangur,Walajapet,632501,24 km,35 minutes
+Vannivedu,Walajapet,632513,23 km,34 minutes
+Varagur,Arcot,632507,27 km,39 minutes
+Vasur,Katpadi,632514,12 km,22 minutes
+Velam,Wallajah,632501,24 km,35 minutes
+Vellambi,Arcot,632506,28 km,40 minutes
+Vellore Sugar Mills,Walajapet,632519,26 km,38 minutes
+Velur Kalavai,Arcot,632506,28 km,40 minutes
+Vembi,Arcot,632518,26 km,38 minutes
+Venkatapuram,Arcot,632507,27 km,39 minutes
+Vennampalle,Katpadi,632516,13 km,23 minutes
+Veppalai,Katpadi,632520,14 km,24 minutes
+Vilapakkam,Arcot,632521,33 km,46 minutes
+Walajapet Bazaar,Wallajah,632513,18 km,28 minutes
+Irungur,Arcot,604407,95 km,2 hours
+Kammasamudram,Vellore,632319,8 km,18 minutes
+Kammavanpettai,Vellore,632319,8 km,18 minutes
+Kattazhambattu,Vellore,632312,10 km,20 minutes
+Kilarasampattu,Vellore,632312,10 km,20 minutes
+Mottakkal,Vellore,632319,8 km,18 minutes
+Nanjukondapuram,Vellore,632312,10 km,20 minutes
+Vallam Arni,Vandavasi,604505,85 km,1.9 hours
+Vallam Kannamangalam,Arni,632311,75 km,1.7 hours
+A Kattupadi,Vlr,632011,7 km,16 minutes
+Abdullapuram,Vellore,632010,6 km,15 minutes
+Alleri,Vlr,632101,15 km,25 minutes
+Amirdhi,Vlr,632102,16 km,26 minutes
+Ampuram,Vellore,632009,8 km,18 minutes
+Anaikkattu,Vellore,632101,15 km,25 minutes
+Angarankuppam,Katpadi,632204,18 km,28 minutes
+Annangudi,Katpadi,632202,17 km,27 minutes
+Appukal,Vellore,632101,15 km,25 minutes
+Arimalai,Vlr,632107,14 km,24 minutes
+Ariyur Vellore,Vellore,632055,11 km,21 minutes
+Ariyur Spinning Mills,Vellore,632055,11 km,21 minutes
+Arumbakkam Katpadi,Katpadi,632202,17 km,27 minutes
+Arumparuthi,Katpadi,632106,12 km,22 minutes
+Asanamabattu,Vlr,632107,14 km,24 minutes
+Bakiyath,Vellore,632004,3 km,10 minutes
+Bn Palayam,Katpadi,632202,17 km,27 minutes
+Bramhapuram,Katpadi,632014,9 km,19 minutes
+Budur,Vlr,632105,13 km,23 minutes
+Chinnapalampakkam,Vlr,632113,16 km,26 minutes
+Chinnapallikuppam,Vlr,632107,14 km,24 minutes
+Chitteri Vellore,Vellore,632002,3 km,10 minutes
+Cholavaram,Vellore,632113,16 km,26 minutes
+Christianpet,Vlr,632059,12 km,22 minutes
+CMC H,Vellore,632004,3 km,10 minutes
+CMC Vellore,Vellore,632002,3 km,10 minutes
+Devichettikuppam,Vlr,632107,14 km,24 minutes
+Edayansathu,Vlr,632002,3 km,10 minutes
+Elavambadi,Vlr,632105,13 km,23 minutes
+Erayangadu,Vlr,632104,13 km,23 minutes
+Eripudhur,Vlr,632101,15 km,25 minutes
+Eriyur Amirdhi,Vlr,632102,16 km,26 minutes
+Eriyur,Vlr,632103,16 km,26 minutes
+Gandhinagar East,Vellore,632006,2 km,8 minutes
+Gandhinagar West,Vellore,632006,2 km,8 minutes
+Gandhiroad,Vellore,632004,3 km,10 minutes
+Ganganallur,Vlr,632101,15 km,25 minutes
+Govindareddipalayam,Vlr,632105,13 km,23 minutes
+Guruvarajapalayam,Vellore,632107,14 km,24 minutes
+Jaffarapettai,Katpadi,632006,7 km,16 minutes
+Jordhankollai,Vlr,632113,16 km,26 minutes
+Ka Farm,Vlr,632007,6 km,15 minutes
+Kagithapattarai,Vellore,632012,7 km,16 minutes
+Kalambattu,Vlr,632202,17 km,27 minutes
+Kandhipedu,Vlr,632106,12 km,22 minutes
+Kangeyanallur,Vellore,632006,2 km,8 minutes
+Kaniyambadi,Vellore,632102,16 km,26 minutes
+Karasamangalam,Katpadi,632202,17 km,27 minutes
+Karigiri,Katpadi,632106,12 km,22 minutes
+Karugambathur,Vlr,632013,9 km,19 minutes
+Kasba Vellore,Vellore,632001,1 km,5 minutes
+Katpadi North,Vellore,632007,6 km,15 minutes
+Kattipattu,Vlr,632103,16 km,26 minutes
+Kattuputhur,Vellore,632058,12 km,22 minutes
+Kavasampattu,Vlr,632204,18 km,28 minutes
+Kilkothur,Vlr,632103,16 km,26 minutes
+Kilmuttukur,Vlr,632204,18 km,28 minutes
+Kilsaranakuppam,Vlr,632102,16 km,26 minutes
+Konavattam,Vellore,632013,9 km,19 minutes
+Koranthangal,Vlr,632106,12 km,22 minutes
+Kosapet Vellore,Vellore,632001,1 km,5 minutes
+Kothamangalam,Vlr,632104,13 km,23 minutes
+Kovilandur,Vlr,632102,16 km,26 minutes
+Krishnanagar Vellore,Vellore,632001,1 km,5 minutes
+Latteri,Katpadi,632202,17 km,27 minutes
+Maruthavallipalayam,Vlr,632104,13 km,23 minutes
+Melarasambattu,Vlr,632103,16 km,26 minutes
+Melkuppachinna,Vlr,632102,16 km,26 minutes
+Melmonavur,Vellore,632010,6 km,15 minutes
+Mudinampattu,Vlr,632204,18 km,28 minutes
+Munjurpattu,Vellore,632057,12 km,22 minutes
+Mutharasikuppam,Vlr,632106,12 km,22 minutes
+Nadanur,Vlr,632102,16 km,26 minutes
+Nagalur,Vellore,632102,16 km,26 minutes
+Naganadhi,Vlr,632113,16 km,26 minutes
+Nammiyambattu,Vlr,632102,16 km,26 minutes
+Nelvoy,Vlr,632011,7 km,16 minutes
+Nemandhapuram,Vlr,632103,16 km,26 minutes
+Odugathur,Vellore,632103,16 km,26 minutes
+Old District Board Buildings,Vellore,632001,1 km,5 minutes
+Old Town Vellore,Vellore,632001,1 km,5 minutes
+Ongapadi,Vlr,632101,15 km,25 minutes
+Pakkampalayam,Vlr,632107,14 km,24 minutes
+Palamathi,Vlr,632002,3 km,10 minutes
+Palambattu,Vlr,632102,16 km,26 minutes
+Palaparambattu,Vlr,632102,16 km,26 minutes
+Pallikuppam,Vlr,632007,6 km,15 minutes
+Panamadangi,Vlr,632202,17 km,27 minutes
+Peenjamandai,NA,632103,16 km,26 minutes
+Pennathur,Vellore,632058,12 km,22 minutes
+Periyapudhur,Vlr,632059,12 km,22 minutes
+Perumugai,Vlr,632009,8 km,18 minutes
+Pinnathurai,Vlr,632103,16 km,26 minutes
+Poigai,Vlr,632114,17 km,27 minutes
+Poigaimottur,Vlr,632114,17 km,27 minutes
+Pulimedu,Vlr,632105,13 km,23 minutes
+R N Palayam,Vellore,632001,1 km,5 minutes
+Ramanayanikuppam,Vellore,632107,14 km,24 minutes
+Rangapuram,NA,632009,8 km,18 minutes
+Saduperi,Vlr,632002,3 km,10 minutes
+Saidapet Vellore,Vellore,632012,7 km,16 minutes
+Sainathapuram,Vellore,632001,1 km,5 minutes
+Sankaranpalayam,Vellore,632001,1 km,5 minutes
+Sathupalayam,Vellore,632113,16 km,26 minutes
+Sathuvachari Extension,Vellore,632009,8 km,18 minutes
+Sathyamangalam,Vellore,632114,17 km,27 minutes
+Sedhuvalai,Vlr,632104,13 km,23 minutes
+Sekkanur,Vlr,632105,13 km,23 minutes
+Sembedu,Vlr,632002,3 km,10 minutes
+Senji,Katpadi,632202,17 km,27 minutes
+Senur,Vlr,632006,2 km,8 minutes
+Serkadu,Vlr,632106,12 km,22 minutes
+Serpadi,Vlr,632103,16 km,26 minutes
+Sevur,Vlr,632106,12 km,22 minutes
+Shenbakkam,Vellore,632008,7 km,16 minutes
+Sivanathapuram,Vlr,632105,13 km,23 minutes
+Slr Sanatorium,Vellore,632106,12 km,22 minutes
+Sozhamur,Katpadi,632202,17 km,27 minutes
+Sullivanpet,Vellore,632001,1 km,5 minutes
+TB Sanatorium,Vellore,632011,7 km,16 minutes
+TEL,Vellore,632059,12 km,22 minutes
+Tellai,Vlr,632113,16 km,26 minutes
+Tellur,Vlr,632105,13 km,23 minutes
+Thandalam Krishnapuram,Vlr,632006,2 km,8 minutes
+Thiruvalluvar University,Katpadi,632115,17 km,27 minutes
+Thongumalai,Vlr,632103,16 km,26 minutes
+Thorapadi,Vellore,632002,3 km,10 minutes
+Thuthikkadu,Vlr,632113,16 km,26 minutes
+Thuthipattu,Vlr,632011,7 km,16 minutes
+Tirumani,Vlr,632202,17 km,27 minutes
+Unai,Vlr,632101,15 km,25 minutes
+Unai Vaniyambadi,Vlr,632101,15 km,25 minutes
+Unaipalathur,Vlr,632101,15 km,25 minutes
+Ussoor,Vellore,632105,13 km,23 minutes
+Vaduganthangal,Vellore,632204,18 km,28 minutes
+Vallandramam,Vlr,632104,13 km,23 minutes
+Vandranthangal,Vl,632059,12 km,22 minutes
+Vannanthangal,Velr,632103,16 km,26 minutes
+Varadalambattu,Vlr,632101,15 km,25 minutes
+Velangadu,Vlr,632101,15 km,25 minutes
+Velapadi,Vellore,632001,4 km,12 minutes
+Vellore Bazaar,Vellore,632004,3 km,10 minutes
+Vellore Cantonment,Vellore,632001,1 km,5 minutes
+Vellore Collectorate,Vellore,632004,3 km,10 minutes
+Vellore Fort,Vellore,632004,3 km,10 minutes
+Vellore Institute Of Technology,Vellore,632014,9 km,19 minutes
+Vellore Market,Vellore,632004,3 km,10 minutes
+Vellore South,Vellore,632001,1 km,5 minutes
+Veppampattu,Vellore,632113,16 km,26 minutes
+Veppankuppam,Vlr,632107,14 km,24 minutes
+Virnjipuram,Vellore,632104,13 km,23 minutes
+Virudhambattu,Vellore,632006,2 km,8 minutes
+Virupakshipuram,Vellore,632002,3 km,10 minutes
+Voorhees College,Vellore,632001,1 km,5 minutes
+Achamangalam,Tirupattur,635651,68 km,1.6 hours
+Adiyur,Tirupathur,635602,66 km,1.5 hours
+Agaram TPT,Tirupathur,635653,67 km,1.6 hours
+Agaramcherry,Vaniyambadi,635804,57 km,1.3 hours
+Agraharam Gudiyattam,Gudiyattam,632604,46 km,1 hour
+Agraharam Tirupattur,Tirupattur,635651,68 km,1.6 hours
+Alankuppam,Vaniyambadi,635814,59 km,1.4 hours
+Alasandapuram,Tirupattur,635801,64 km,1.5 hours
+Ambalur,Tirupattur,635801,64 km,1.5 hours
+Ambur Bazaar,Vaniyambadi,635802,58 km,1.3 hours
+Ananganallore,Gudiyattam,635806,47 km,1 hour
+Andiappanur,Tirupattur,635702,70 km,1.6 hours
+Anganathavalasai,Tirupattur,635652,67 km,1.6 hours
+Arangaldurgam,Vaniyambadi,635811,60 km,1.4 hours
+Aravatla,Gudiyattam,635810,48 km,1.1 hours
+Asiriyar Nagar,Tirupathur,635601,65 km,1.5 hours
+Athiperumanur,Tirupathur,635852,77 km,1.8 hours
+Athipet,Tirupathur,635703,71 km,1.7 hours
+Athurkuppam,Tirupattur,635815,68 km,1.6 hours
+Avarankuppam,Vaniyambadi,635801,56 km,1.3 hours
+Bandarapalli,Tirupattur,635854,78 km,1.8 hours
+Bheemakulam,Vaniyambadi,635701,60 km,1.4 hours
+Bhuvaneswaripet,Gudiyatham,632602,45 km,1 hour
+Bommikuppam,Tirupattur,635653,67 km,1.6 hours
+Chandrapuram,Tirupattur,635651,68 km,1.6 hours
+Chendathur,Gudiyattam,635805,47 km,1 hour
+Chennankuppam,Katpadi,632209,19 km,29 minutes
+Chettiappanur,Vaniyambadi,635751,55 km,1.25 hours
+Chettikuppam,Gudiyattam,635806,47 km,1 hour
+Chikkanankuppam,Tirupattur,635801,64 km,1.5 hours
+Chinnadamalcheruvu,Gudiyattam,635810,48 km,1.1 hours
+Chinnakandili,Tirupattur,635901,72 km,1.7 hours
+Chinnakarumbur,Vaniyambadi,635811,60 km,1.4 hours
+Chinnapallikuppam Vaniyambadi,Vaniyambadi,635754,56 km,1.3 hours
+Chinnasamudram,Tirupathur,635653,67 km,1.6 hours
+Chinnathottalam,Gudiyattam,635813,49 km,1.1 hours
+Chinnavarikam,Gudiyattam,635811,60 km,1.4 hours
+Chinnavattanur,Tirupathur,635655,69 km,1.6 hours
+Chittoor,Tirupathur,635655,69 km,1.6 hours
+Christukula Ashram,Tirupathur,635602,66 km,1.5 hours
+Dakshinapathapalyaam,Gudiyattam,632603,46 km,1 hour
+Damalerimuthur,Tirupattur,635853,77 km,1.8 hours
+Devalapuram,Vaniyambadi,635802,58 km,1.3 hours
+Devarishikuppam,Katpadi,632209,19 km,29 minutes
+Devasthanam,Vaniyambadi,635751,55 km,1.25 hours
+Dharanampet,Gudiyatham,632601,45 km,1 hour
+Eachangal,Vaniyambadi,635801,56 km,1.3 hours
+East Badanavadi,Tirupathur,635901,72 km,1.7 hours
+Elagiri,Tirupattur,635853,77 km,1.8 hours
+Elavampatti,Tirupattur,635602,66 km,1.5 hours
+Erikutti,Gudiyattam,635810,48 km,1.1 hours
+Erthangal,Gudiyattam,632604,46 km,1 hour
+Erukkambattu,Gudiyattam,635810,48 km,1.1 hours
+Gandhipet TPT,Tirupathur,635601,65 km,1.5 hours
+Gangapuram,Vaniyambadi,635802,58 km,1.3 hours
+Girisamudram,Vaniyambadi,635751,55 km,1.25 hours
+Gollamangalam,Katpadi,635809,35 km,48 minutes
+Govindapuram,Vaniyambadi,635751,55 km,1.25 hours
+Gudanagaram,Gudiyattam,635806,47 km,1 hour
+Gudiyattam Cutcherry,Gudiyatham,632602,45 km,1 hour
+Gudiyattam RS,Gudiyatham,635803,46 km,1 hour
+Gudiyattam South,Gudiyatham,632602,45 km,1 hour
+Gummidigampatti,Tirupattur,635901,72 km,1.7 hours
+Ilayanagaram,Vaniyambadi,635754,56 km,1.3 hours
+Irunapattu,Tirupattur,635702,70 km,1.6 hours
+Jaffarabad,Vaniyambadi,635754,56 km,1.3 hours
+Jamnapudur,Tirupathur,635652,67 km,1.6 hours
+Jangalapuram,Tirupathur,635852,77 km,1.8 hours
+Jayapuram,Tirupathur,635651,68 km,1.6 hours
+Kadhavalam,Gudiyattam,635811,60 km,1.4 hours
+Kadirimangalam,Tirupattur,635602,66 km,1.5 hours
+Kakangarai RS,Tirupattur,635654,68 km,1.6 hours
+Kalendira,Vaniyambadi,635751,55 km,1.25 hours
+Kallapadi,Gudiyattam,632601,45 km,1 hour
+Kamalapuram,Gudiyatham,635810,48 km,1.1 hours
+Kambugudi,Tirupathur,635655,69 km,1.6 hours
+Kandaneri,Katpadi,635809,35 km,48 minutes
+Kandili,Tirupattur,635901,72 km,1.7 hours
+Kanguppam,Katpadi,632209,19 km,29 minutes
+Karapattu,Gudiyattam,635811,60 km,1.4 hours
+Karungali,Vaniyambadi,635804,57 km,1.3 hours
+Karuppanur,Tirupathur,635602,66 km,1.5 hours
+Kathari,Tirupattur,635852,77 km,1.8 hours
+Kavalur,Vaniyambadi,635701,60 km,1.4 hours
+Kethandapatti,Tirupattur,635815,68 km,1.6 hours
+Kethandapatti Sugar Mills,Tirupathur,635815,68 km,1.6 hours
+Khaderpet,Vaniyambadi,635751,55 km,1.25 hours
+Kilalathur,Gudiyattam,635803,46 km,1 hour
+Kilanur,Tirupathur,635655,69 km,1.6 hours
+Kilmurungai,Vaniyambadi,635812,60 km,1.4 hours
+Kilpatti,Gudiyattam,635805,47 km,1 hour
+Kilur,Tirupattur,635655,69 km,1.6 hours
+Kilvayathinankuppam,Katpadi,632201,17 km,27 minutes
+Kodayanchi,Vaniyambadi,635801,56 km,1.3 hours
+Kodiyur,Tirupathur,635851,80 km,1.8 hours
+Kodumampalli,Tirupathur,635653,67 km,1.6 hours
+Kokkalur,Gudiyatham,635810,48 km,1.1 hours
+Kombai,Tirupathur,635655,69 km,1.6 hours
+Koratti,Tirupattur,635602,66 km,1.5 hours
+Kosavanpudur,Gudiyatham,635803,46 km,1 hour
+Kothakottai,Vaniyambadi,635752,56 km,1.3 hours
+Kothur,Tirupattur,635854,78 km,1.8 hours
+Kottaiyur,Tirupathur,635853,77 km,1.8 hours
+Kottamitta,Gudiyatham,632601,45 km,1 hour
+Kottur,Gudiyatham,635808,48 km,1.1 hours
+Kumaramangalam,Vaniyambadi,635802,58 km,1.3 hours
+Kurumbakeri,Tirupathur,635653,67 km,1.6 hours
+Kurumberi,Tirupattur,635652,67 km,1.6 hours
+Kurusilapattu,Tirupattur,635702,70 km,1.6 hours
+Lakkinaickenpatti,Tirupattur,635654,68 km,1.6 hours
+Lalapettai,Vaniyambadi,635710,59 km,1.4 hours
+Machanur,Katpadi,632209,19 km,29 minutes
+Madanancherry,Vaniyambadi,635754,56 km,1.3 hours
+Madanur,Vaniyambadi,635804,57 km,1.3 hours
+Madavalam,Tirupathur,635653,67 km,1.6 hours
+Mailpatti,Gudiyattam,635805,47 km,1 hour
+Malaiyandipatti,Tirupathur,635655,69 km,1.6 hours
+Mallagunta,Tirupattur,635852,77 km,1.8 hours
+Mallapalli,Tirupattur,635854,78 km,1.8 hours
+Mandalanayanagunda,Tirupattur,635901,72 km,1.7 hours
+Mandalavadi,Tirupattur,635851,80 km,1.8 hours
+Mandarakuttai,Vaniyambadi,635701,60 km,1.4 hours
+Mangalam,Tirupathur,635853,77 km,1.8 hours
+Marimanikuppam,Tirupattur,635710,59 km,1.4 hours
+Masigam,Gudiyattam,635810,48 km,1.1 hours
+Matrapalli,Tirupattur,635652,67 km,1.6 hours
+Melalathur,Gudiyattam,635806,47 km,1 hour
+Melkavanur,Katpadi,632209,19 km,29 minutes
+Melmankuppam,Katpadi,632203,17 km,27 minutes
+Melmayil,Katpadi,632203,17 km,27 minutes
+Melmuttukur,Gudiyattam,635806,47 km,1 hour
+Melpattu,Tirupattur,635655,69 km,1.6 hours
+Melvayathinankuppam,Gudiyattam,635805,47 km,1 hour
+Minnur,Vaniyambadi,635807,58 km,1.3 hours
+Mittalam,Gudiyattam,635811,60 km,1.4 hours
+Mittur,Vaniyambadi,635710,59 km,1.4 hours
+Modikuppam,Gudiyattam,632601,45 km,1 hour
+Morasapalli,Gudiyattam,635810,48 km,1.1 hours
+Mordhana,Gudiyattam,632604,46 km,1 hour
+Mukkanur,Tirupattur,635651,68 km,1.6 hours
+Nachiarkuppam,Tirupattur,635710,59 km,1.4 hours
+Nadukuppam,Tirupathur,635655,69 km,1.6 hours
+Naickaneri,Vaniyambadi,635802,58 km,1.3 hours
+Naickanur,Vaniyambadi,635701,60 km,1.4 hours
+Narasingapuram,Vaniyambadi,635701,60 km,1.4 hours
+Nariyambattu,Gudiyattam,635808,48 km,1.1 hours
+Nariyaneri,Tirupattur,635901,72 km,1.7 hours
+Natham,Tirupattur,635654,68 km,1.6 hours
+Natrampalli,Tirupathur,635852,75 km,1.7 hours
+Nayakkanur,Tirupattur,635652,67 km,1.6 hours
+Nayanacheruvu,Tirupattur,635852,77 km,1.8 hours
+Nellipattu,Tirupathur,635655,69 km,1.6 hours
+Nellivasalnadu,Tirupattur,635655,69 km,1.6 hours
+Newtown Vaniyambadi,Vaniyambadi,635752,56 km,1.3 hours
+Nilavur,Tirupathur,635853,77 km,1.8 hours
+Nimmiyambattu,Vaniyambadi,635752,56 km,1.3 hours
+Odiyathur,Katpadi,635809,35 km,48 minutes
+Oomerabad,Gudiyatham,635808,48 km,1.1 hours
+Pachal,Tirupattur,635602,66 km,1.5 hours
+Pachur,Tirupattur,635854,78 km,1.8 hours
+Pakkamvenkatapuram,Gudiyatham,632601,45 km,1 hour
+Pakkirithakka,Tirupathur,635853,77 km,1.8 hours
+Palayakrishnapuram,Katpadi,632209,19 km,29 minutes
+Palayapalayam,Tirupathur,635655,69 km,1.6 hours
+Pallalakuppam,Gudiyattam,635805,47 km,1 hour
+Pallathur,Tirupathur,635901,72 km,1.7 hours
+Pallavalli,Vaniyambadi,635702,61 km,1.4 hours
+Pallikonda Bazaar,Gudiyatham,635809,35 km,48 minutes
+Palur,Vaniyambadi,635804,57 km,1.3 hours
+Paniyandapalli,Tirupattur,635651,68 km,1.6 hours
+Paradarami Gudiyattam,Gudiyattam,632603,46 km,1 hour
+Parandapalli,Tirupathur,635651,68 km,1.6 hours
+Pasumathur,Gudiyattam,635803,46 km,1 hour
+Peddur,Vaniyambadi,635701,60 km,1.4 hours
+Perambattu,Tirupathur,635652,67 km,1.6 hours
+Periagaram,Tirupattur,635901,72 km,1.7 hours
+Periyakannalapatti,Tirupattur,635654,68 km,1.6 hours
+Periyakasinaickenpatti,Tirupattur,635901,72 km,1.7 hours
+Periyakonapattu,Tirupathur,635651,68 km,1.6 hours
+Periyakunichi,Tirupathur,635602,66 km,1.5 hours
+Periyankuppam,Vaniyambadi,635814,59 km,1.4 hours
+Periyapet,Vaniyambadi,635751,55 km,1.25 hours
+Perumalpet,Vaniyambadi,635751,55 km,1.25 hours
+Perumankuppam,Katpadi,632201,17 km,27 minutes
+Perumapattu,Tirupattur,635702,70 km,1.6 hours
+Perumpalli,Tirupathur,635655,69 km,1.6 hours
+Pogalur,Gudiyattam,635813,49 km,1.1 hours
+Ponneri,Tirupattur,635851,80 km,1.8 hours
+Poongulam,NA,635710,59 km,1.4 hours
+Pudukottai,Tirupathur,635602,66 km,1.5 hours
+Pudupettai,Tirupathur,635651,68 km,1.6 hours
+Pudur Nadu,Tirupathur,635655,69 km,1.6 hours
+Pudur Vaniyambadi,Vaniyambadi,635751,55 km,1.25 hours
+Puliyur Tpt,Tirupathur,635655,69 km,1.6 hours
+Pullaneri,Tirupathur,635851,80 km,1.8 hours
+Puthagaram,Tirupattur,635651,68 km,1.6 hours
+Puttavaripalli,Gudiyattam,632603,46 km,1 hour
+Rachamangalam,Tirupattur,635653,67 km,1.6 hours
+Rajakkal,Gudiyattam,635805,47 km,1 hour
+Rajakuppam,Gudiyattam,635806,47 km,1 hour
+Rajapalayam,Tirupathur,635653,67 km,1.6 hours
+Ramalai,Gudiyattam,632601,45 km,1 hour
+Ramanaickenpettai,Tirupattur,635801,64 km,1.5 hours
+Reddiyur,Tirupattur,635851,80 km,1.8 hours
+Ruhsa Campus,Katpadi,632209,19 km,29 minutes
+Sathambakkam,Gudiyattam,635808,48 km,1.1 hours
+Sathugudi,Gudiyatham,635810,48 km,1.1 hours
+Sedukarai,Gudiyattam,635803,46 km,1 hour
+Selandampalli,Tirupathur,635653,67 km,1.6 hours
+Sembedu,Gudiyattam,635813,49 km,1.1 hours
+Sempalli,Gudiyattam,632604,46 km,1 hour
+Sengundram,Gudiyattam,632601,45 km,1 hour
+Sethubandai,Gudiyattam,635803,46 km,1 hour
+Sevathur,Tirupattur,635654,68 km,1.6 hours
+Sevur,Gudiyattam,632601,45 km,1 hour
+Shanankuppam,Vaniyambadi,635814,59 km,1.4 hours
+Simnapudur,Tirupattur,635652,67 km,1.6 hours
+Somalapuram,Vaniyambadi,635802,58 km,1.3 hours
+Somanaickenpatti,Tirupathur,635851,80 km,1.8 hours
+Sorakayalnatham,Tirupattur,635854,78 km,1.8 hours
+Sundarampalli,Tirupattur,635654,68 km,1.6 hours
+Thagarakuppam,Tirupathur,635655,69 km,1.6 hours
+Thattaparai,Gudiyattam,632601,45 km,1 hour
+Thattimanapalli,Gudiyattam,632601,45 km,1 hour
+Thekkupattu,Tirupattur,635801,64 km,1.5 hours
+Thennambattu,Vaniyambadi,635802,58 km,1.3 hours
+Thimmampet,Tirupattur,635801,64 km,1.5 hours
+Thimmanamuthur,Tirupathur,635653,67 km,1.6 hours
+Thokkiyam,Tirupattur,635901,72 km,1.7 hours
+Thollapalli,Vaniyambadi,635804,57 km,1.3 hours
+Thornampathy,Tirupathur,635602,66 km,1.5 hours
+Thottalam,Vaniyambadi,635804,57 km,1.3 hours
+Thottithuraimottur,Gudiyattam,635810,48 km,1.1 hours
+Thumberi,Vaniyambadi,635754,56 km,1.3 hours
+Thuthipattu Vaniyambadi,Vaniyambadi,635811,60 km,1.4 hours
+Tippasamudram,Katpadi,635809,35 km,48 minutes
+Tiriyalam,Tirupattur,635851,80 km,1.8 hours
+Tirupattur Bazaar,Tirupattur,635602,66 km,1.5 hours
+Tirupattur Fort,Tirupathur,635602,66 km,1.5 hours
+Tirupattur TNHB,Tirupathur,635601,65 km,1.5 hours
+Udayamuthur,Tirupattur,635652,67 km,1.6 hours
+Udayendiram,Vaniyambadi,635754,56 km,1.3 hours
+Ulli,Gudiyattam,635813,49 km,1.1 hours
+Vadacheri,Vaniyambadi,635754,56 km,1.3 hours
+Vadakkathipatti,Vaniyambadi,635804,57 km,1.3 hours
+Vadakkupattu,Tirupattur,635801,64 km,1.5 hours
+Vadapudupet,Vaniyambadi,635812,60 km,1.4 hours
+Vakkanampatti,Tirupathur,635851,80 km,1.8 hours
+Valathoor,Gudiyattam,635813,49 km,1.1 hours
+Valayalkarapatti,Vaniyambadi,635804,57 km,1.3 hours
+Valayambattu,Vaniyambadi,635751,55 km,1.25 hours
+Vallipattu,Vaniyambadi,635752,56 km,1.3 hours
+Vaniyambadi RS,Vaniyambadi,635751,55 km,1.25 hours
+Varadareddipalli,Gudiyattam,632603,46 km,1 hour
+Vasanthapuram,Vaniyambadi,635701,60 km,1.4 hours
+Veerichettipalli,Gudiyattam,632603,46 km,1 hour
+Velakalnatham,Tirupattur,635854,78 km,1.8 hours
+Vellakuttai,Vaniyambadi,635752,56 km,1.3 hours
+Vengalapuram,Tirupattur,635653,67 km,1.6 hours
+Vengili,Vaniyambadi,635812,60 km,1.4 hours
+Venkatasamudram,Gudiyattam,635811,60 km,1.4 hours
+Veppalnatham,Tirupathur,635651,68 km,1.6 hours
+Veppur,Gudiyattam,635803,46 km,1 hour
+Vettapattu,Tirupattur,635852,77 km,1.8 hours
+Vettuvanam,Gudiyatham,635809,35 km,48 minutes
+Viludonpalayam,Gudiyattam,632603,46 km,1 hour
+Vinnamangalam,Vaniyambadi,635807,58 km,1.3 hours
+Vishamangalam,Tirupattur,635652,67 km,1.6 hours
+

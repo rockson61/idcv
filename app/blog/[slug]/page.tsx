@@ -8,7 +8,7 @@ import { HeadingProcessor } from "@/components/heading-processor"
 const getBlogPost = (slug: string) => {
   // Sample data - in a real app, this would fetch from an API or database
   return {
-    title: "Complete Guide to Root Canal Treatment: What to Expect",
+    title: "[slug]: Complete Expert Guide 2024 | Dr. Rockson Samuel",
     slug: "complete-guide-root-canal-treatment",
     publishDate: "2023-11-15",
     readTime: "8 min read",

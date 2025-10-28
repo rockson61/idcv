@@ -52,9 +52,9 @@ export default function BoneGraftingPage() {
             <Badge className="mb-4 bg-teal-100 text-teal-700 border-teal-200">
               Oral Surgery
             </Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Bone Grafting for Dental Implants
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Oral Surgery Doctors in India - Oral Surgeon Near Me
+              </h1>
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
               Restore lost bone structure in your jaw with advanced bone grafting procedures to support dental implants and improve oral health.
             </p>

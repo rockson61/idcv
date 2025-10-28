@@ -29,7 +29,9 @@ export default function GumGraftingPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-red-100 text-red-700"><Activity className="w-4 h-4 inline mr-1" />Surgical Gum Restoration</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Gum Grafting (Gingival Grafting)</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Periodontal Treatment Doctors in India - Periodontist Near Me
+              </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Advanced surgical procedure to cover exposed tooth roots and restore receding gums. Improve appearance, reduce sensitivity, protect teeth.</p>
           </div>
 

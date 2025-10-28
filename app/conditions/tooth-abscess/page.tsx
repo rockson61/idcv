@@ -6,6 +6,7 @@ import { GlassCard } from "@/components/ui/glass-card"
 import { Badge } from "@/components/ui/badge"
 import { AlertTriangle, CheckCircle, Zap, Shield, Phone } from "lucide-react"
 import { ConditionSemanticContent } from "@/components/sections/condition-semantic-content"
+import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
   title: "Tooth Abscess Treatment | Dental Infection | Emergency Care | Vellore",

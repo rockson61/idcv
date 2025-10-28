@@ -29,7 +29,9 @@ export default function ImpactedWisdomTeethPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-orange-100 text-orange-700"><Activity className="w-4 h-4 inline mr-1" />Surgical Expertise</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Impacted Wisdom Tooth Removal</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Oral Surgery Doctors in India - Oral Surgeon Near Me
+              </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Expert surgical removal of impacted wisdom teeth. 3D imaging for precise planning, sedation available for comfort.</p>
           </div>
 

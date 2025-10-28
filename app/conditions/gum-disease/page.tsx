@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
 import { ChevronRight, AlertCircle, CheckCircle } from "lucide-react"
+import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
   title: "Gum Disease Treatment in Vellore | Indira Dental Clinic",
@@ -52,9 +53,7 @@ export default function GumDiseasePage() {
 
         <div className="relative px-6 py-16 sm:px-12 sm:py-24">
           <div className="max-w-3xl">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
-              Gum Disease (Periodontitis) Treatment
-            </h1>
+            <h1 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">Gum Disease Causes, Symptoms & Treatment</h1>
             <p className="text-xl text-white/90 mb-8">
               Comprehensive care for gum disease to restore your oral health and protect your smile
             </p>

@@ -29,7 +29,9 @@ export default function SmileMakeoverPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-yellow-100 text-yellow-800"><Sparkles className="w-4 h-4 inline mr-1" />Complete Transformation</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Complete Smile Makeover</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Cosmetic Dentistry Doctors in India - Cosmetic Dentist Near Me
+              </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Transform your smile with our comprehensive smile makeover. Combines multiple cosmetic treatments for a stunning, natural-looking result.</p>
           </div>
 

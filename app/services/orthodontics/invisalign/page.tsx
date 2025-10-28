@@ -297,9 +297,9 @@ export default function InvisalignPage() {
               <Sparkles className="w-4 h-4 inline mr-1" />
               Premium Invisible Orthodontics
             </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              <em className="text-blue-600 not-italic">Invisalign</em> Clear Aligners in <strong>Vellore</strong>
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Orthodontic Treatment Doctors in India - Orthodontist Near Me
+              </h1>
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
               Straighten your teeth <strong className="text-gray-900">invisibly</strong> without metal braces. Certified <strong className="text-blue-600">Invisalign Provider</strong> <Link href="/about-us/dr-rockson-samuel" className="font-bold text-gray-900 hover:text-blue-600 transition-colors">Dr. Rockson Samuel (BDS, PgDM, BDM)</Link> offers advanced clear aligner treatment with <strong className="text-gray-900">3D digital smile preview</strong> at <strong className="text-blue-600">30% lower costs</strong> than metro cities.
             </p>

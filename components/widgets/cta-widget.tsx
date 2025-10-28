@@ -43,7 +43,7 @@ export function CTAWidget({
   showRating = true,
   showAvailability = true
 }: CTAWidgetProps) {
-  const PrimaryIcon = primaryAction.icon || Phone
+  const PrimaryIcon = primaryAction?.icon || Phone
   const SecondaryIcon = secondaryAction?.icon || MessageCircle
 
   return (

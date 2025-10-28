@@ -4,6 +4,7 @@ import { CheckCircle, Clock, CircleDollarSign, Phone, Calendar } from "lucide-re
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { ServicePeopleAlsoSearchFor } from '@/components/service/ServicePeopleAlsoSearchFor'
 
 export const metadata: Metadata = {
   title: "Multi-Visit Root Canal Treatment in Vellore | Indira Dental Clinic",
@@ -27,9 +28,9 @@ export default function MultiVisitRCTPage() {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-teal-600 bg-clip-text text-transparent">
-            Multi-Visit Root Canal Treatment
-          </h1>
+          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Root Canal Treatment Doctors in India - Endodontist Near Me
+              </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Comprehensive endodontic therapy for complex cases spread across multiple appointments
           </p>
@@ -275,7 +276,10 @@ export default function MultiVisitRCTPage() {
                 </p>
               </CardContent>
             </Card>
-          </div>
+          
+        <ServicePeopleAlsoSearchFor serviceName="" />
+
+        </div>
         </div>
       </div>
     </div>

@@ -113,7 +113,7 @@ export default function BalliaPage() {
 
   const doctorInfo = {
     name: 'Dr. Rockson Samuel',
-    qualification: 'BDS, MDS (Oral & Maxillofacial Surgery)',
+    qualification: 'BDS, PgDM, BDM | General Dentist & Community Leader - DentalReach',
     experience: '15+ Years',
     specializations: ['Dental Implants', 'Root Canal Treatment', 'Cosmetic Dentistry', 'Orthodontics'],
     image: '/dr-rockson-samuel-best-dentist-vellore.jpg'

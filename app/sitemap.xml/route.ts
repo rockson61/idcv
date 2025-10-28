@@ -59,19 +59,64 @@ export async function GET(): Promise<NextResponse> {
   
   // Determine priority and change frequency based on URL pattern
   const getPageMetadata = (path: string) => {
+    // Homepage - highest priority
     if (path === '/') return { priority: 1.0, changeFrequency: 'daily' }
+    
+    // Main service pages - very high priority
+    if (path === '/services') return { priority: 0.9, changeFrequency: 'weekly' }
     if (path.startsWith('/services/') && path.split('/').length === 3) return { priority: 0.8, changeFrequency: 'weekly' }
     if (path.startsWith('/services/') && path.split('/').length === 4) return { priority: 0.7, changeFrequency: 'monthly' }
-    if (path.startsWith('/services')) return { priority: 0.9, changeFrequency: 'weekly' }
-    if (path.startsWith('/in/tamil-nadu/vellore/') && path.split('/').length === 5) return { priority: 0.7, changeFrequency: 'monthly' }
-    if (path.startsWith('/in/tamil-nadu/vellore')) return { priority: 0.8, changeFrequency: 'weekly' }
+    
+    // Chennai location pages - high priority for SEO (155 pages!)
+    // Main Chennai page
+    if (path === '/in/tamil-nadu/chennai') return { priority: 0.95, changeFrequency: 'weekly' }
+    
+    // Major Chennai areas - very high priority
+    const majorChennaiAreas = ['anna-nagar', 't-nagar', 'thygaraya-nagar', 'adyar', 'velacheri', 'vadapalani', 'nungambakkam', 'mylapore', 'besant-nagar', 'egmore', 'kilpauk', 'kodambakkam', 'tiruvanmiyur', 'koyambedu', 'perambur', 'saidapet', 'guindy-north']
+    const chennaiSlug = path.split('/').pop() || ''
+    if (path.startsWith('/in/tamil-nadu/chennai/') && majorChennaiAreas.includes(chennaiSlug)) {
+      return { priority: 0.85, changeFrequency: 'weekly' }
+    }
+    
+    // All other Chennai locations (140+ pages)
+    if (path.startsWith('/in/tamil-nadu/chennai/') && path.split('/').length === 5) {
+      return { priority: 0.8, changeFrequency: 'monthly' }
+    }
+    
+    // Vellore location pages - high priority for SEO (686 pages!)
+    // Main Vellore page
+    if (path === '/in/tamil-nadu/vellore') return { priority: 0.9, changeFrequency: 'weekly' }
+    
+    // Major Vellore towns - high priority
+    const majorTowns = ['arakkonam', 'arcot', 'ranipet', 'sholingur', 'walajapet', 'tirupattur', 'vaniyambadi', 'ambur', 'gudiyattam', 'jolarpet', 'melvisharam', 'katpadi', 'sathuvachari', 'pallikonda', 'natrampalli', 'yelagiri-hills', 'cmc-vellore', 'vellore-institute-of-technology']
+    const locationSlug = path.split('/').pop() || ''
+    if (path.startsWith('/in/tamil-nadu/vellore/') && majorTowns.includes(locationSlug)) {
+      return { priority: 0.8, changeFrequency: 'weekly' }
+    }
+    
+    // All other Vellore locations (600+ pages)
+    if (path.startsWith('/in/tamil-nadu/vellore/') && path.split('/').length === 5) {
+      return { priority: 0.75, changeFrequency: 'monthly' }
+    }
+    
+    // Other Tamil Nadu locations
     if (path.startsWith('/in/tamil-nadu/')) return { priority: 0.7, changeFrequency: 'monthly' }
+    
+    // Other Indian locations
     if (path.startsWith('/in/')) return { priority: 0.6, changeFrequency: 'monthly' }
+    
+    // Blog and Q&A
+    if (path === '/blog' || path === '/ask-the-dentist') return { priority: 0.8, changeFrequency: 'daily' }
     if (path.includes('/blog/')) return { priority: 0.7, changeFrequency: 'monthly' }
     if (path.includes('/ask-the-dentist/')) return { priority: 0.7, changeFrequency: 'weekly' }
-    if (path === '/ask-the-dentist' || path === '/blog' || path === '/testimonials') return { priority: 0.8, changeFrequency: 'daily' }
+    
+    // Other important pages
+    if (path === '/contact') return { priority: 0.9, changeFrequency: 'monthly' }
+    if (path === '/about-us') return { priority: 0.8, changeFrequency: 'monthly' }
+    if (path === '/testimonials') return { priority: 0.8, changeFrequency: 'weekly' }
     if (path === '/international-patients' || path.startsWith('/international-patients/')) return { priority: 0.8, changeFrequency: 'weekly' }
-    if (path === '/contact' || path === '/about-us') return { priority: 0.8, changeFrequency: 'monthly' }
+    
+    // Default for other pages
     return { priority: 0.6, changeFrequency: 'monthly' }
   }
   

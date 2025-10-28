@@ -29,7 +29,9 @@ export default function ApicoectomyPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-red-100 text-red-700"><Activity className="w-4 h-4 inline mr-1" />Advanced Endodontic Surgery</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Apicoectomy (Root End Surgery)</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Endodontic Treatment Doctors in India - Endodontist Near Me
+              </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Save your tooth when root canal treatment fails. Microsurgical procedure to remove infected root tip and surrounding tissue.</p>
           </div>
 

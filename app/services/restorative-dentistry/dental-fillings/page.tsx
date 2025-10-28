@@ -29,7 +29,9 @@ export default function DentalFillingsPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-blue-100 text-blue-700">Cavity Repair</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Dental Fillings</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Restorative Dentistry Doctors in India - Restorative Dentist Near Me
+              </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Restore cavities with tooth-colored fillings. Painless procedure, natural appearance, same-day completion.</p>
           </div>
 

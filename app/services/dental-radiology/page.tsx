@@ -52,9 +52,9 @@ export default function DentalRadiologyPage() {
             <Badge className="mb-4 bg-blue-100 text-blue-700 border-blue-200">
               Advanced Diagnostic Imaging
             </Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Dental Radiology & Digital Imaging
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Dental Radiology Doctors in India - Dental Specialist Near Me
+              </h1>
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
               State-of-the-art digital imaging technology for precise diagnosis and treatment planning. 80% less radiation than traditional X-rays.
             </p>

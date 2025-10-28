@@ -11,6 +11,7 @@ import { ServiceSemanticContent } from "@/components/sections/service-semantic-c
 import { Heart, Shield, CheckCircle2, Phone, Calendar, Clock, Star, AlertTriangle, Zap, Target, Award, Users, TrendingUp, ArrowRight, MapPin, Globe, DollarSign, BookOpen, MessageCircle, Play, Download } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import { ServicePeopleAlsoSearchFor } from '@/components/service/ServicePeopleAlsoSearchFor'
 
 const reviews = generateServiceReviews('Root Canal Treatment', 'root-canal')
 
@@ -231,7 +232,7 @@ export default function RootCanalTreatmentPage() {
                 Endodontic Treatment
               </Badge>
           <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                <em className="text-teal-600 not-italic">Painless</em> <Link href="/services/root-canal-treatment" className="hover:text-teal-600 transition-colors">Root Canal Treatment</Link> in <strong>Vellore</strong>
+                Best Root Canal Treatment Doctors in India - Endodontist Near Me
               </h1>
           <p className="text-xl text-gray-700 mb-8 max-w-4xl mx-auto leading-relaxed">
             Save your <strong className="text-gray-900">natural tooth</strong> with advanced, <strong className="text-teal-600">painless root canal treatment</strong> by{" "}
@@ -714,7 +715,10 @@ export default function RootCanalTreatmentPage() {
             }),
           }}
         />
-      </div>
+      
+        <ServicePeopleAlsoSearchFor serviceName="" />
+
+        </div>
     </div>
   )
 }

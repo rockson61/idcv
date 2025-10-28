@@ -267,7 +267,7 @@ export default function DentistNearMePage() {
                 </div>
             <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">Dr. Rockson Samuel</h3>
-                  <p className="text-lg text-teal-600 mb-4">BDS, MDS (Oral & Maxillofacial Surgery)</p>
+                  <p className="text-lg text-teal-600 mb-4">BDS, PgDM, BDM | General Dentist & Community Leader - DentalReach</p>
                   <p className="text-gray-600 mb-4">Experience: 15+ Years</p>
                   <div className="mb-6">
                     <h4 className="font-semibold text-gray-900 mb-2">Specializations:</h4>

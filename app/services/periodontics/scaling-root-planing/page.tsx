@@ -56,8 +56,8 @@ export default function ScalingRootPlaningPage() {
                 <Heart className="w-4 h-4 mr-2" />
                 Gum Health Treatment
               </Badge>
-              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Scaling and Root Planing in Vellore
+              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Periodontal Treatment Doctors in India - Periodontist Near Me
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Get professional deep cleaning treatment for gum disease in Vellore. Scaling and root planing by Dr. Rockson Samuel at 50% lower cost with 15+ years experience.

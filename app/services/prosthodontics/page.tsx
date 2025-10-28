@@ -234,9 +234,9 @@ export default function ProsthodonticsPage() {
             <Users className="h-4 w-4" />
             Complete Prosthetic Solutions
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            Prosthodontics & Dentures
-          </h1>
+          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Prosthodontic Treatment Doctors in India - Prosthodontist Near Me
+              </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Restore your smile and confidence with our comprehensive prosthodontic services. From traditional dentures
             to advanced implant-supported prosthetics, Dr. Rockson Samuel provides personalized solutions for every

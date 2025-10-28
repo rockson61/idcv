@@ -182,9 +182,9 @@ export default function OrthodonticsPage() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <Badge className="bg-gradient-to-r from-[#54CAD3] to-[#005f73] text-white mb-4">Orthodontics</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-[#005f73] to-[#54CAD3] bg-clip-text text-transparent">
-              Straighten Your Teeth with Expert Orthodontic Care
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Orthodontic Treatment Doctors in India - Orthodontist Near Me
+              </h1>
             <p className="text-xl text-gray-600 mb-8">
               Achieve a perfectly aligned smile with our comprehensive orthodontic treatments. From traditional braces
               to Invisalign clear aligners, Dr. Rockson Samuel provides personalized care for all ages.

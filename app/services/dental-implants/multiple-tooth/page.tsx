@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Clock, CircleDollarSign, CheckCircle } from "lucide-react"
+import { ServicePeopleAlsoSearchFor } from '@/components/service/ServicePeopleAlsoSearchFor'
 
 export default function MultipleToothImplantPage() {
   return (
@@ -117,7 +118,10 @@ export default function MultipleToothImplantPage() {
             <ArrowRight className="ml-2 w-4 h-4" />
           </Link>
         </Button>
-      </div>
+      
+        <ServicePeopleAlsoSearchFor serviceName="" />
+
+        </div>
     </div>
   )
 }

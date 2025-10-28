@@ -182,9 +182,8 @@ export default function PediatricDentistryPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-pink-100 text-pink-700 border-pink-200">Pediatric Dentistry</Badge>
-              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                Gentle Dental Care for
-                <span className="text-pink-600"> Children</span>
+              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
+                Best Pediatric Dentistry Doctors in India - Pediatric Dentist Near Me
               </h1>
               <p className="text-xl text-gray-600 mb-8">
                 Creating positive dental experiences for children in Vellore with specialized pediatric care, preventive

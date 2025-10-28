@@ -1,0 +1,354 @@
+{
+  "dentistry": {
+    "parent": true,
+    "children": {
+      "antibacterial-mouthwash": { "title": "Antibacterial Mouthwash", "category": "Products" },
+      "antiseptic-mouthwash": { "title": "Antiseptic Mouthwash", "category": "Products" },
+      "baking-soda-toothpaste": { "title": "Baking Soda Toothpaste", "category": "Products" },
+      "best-toothpastes-to-buy": { "title": "Best Toothpastes to Buy", "category": "Products" },
+      "desensitizing-toothpaste": { "title": "Desensitizing Toothpaste", "category": "Products" },
+      "emergency-wisdom-tooth-removal": { "title": "Emergency Wisdom Tooth Removal", "category": "Emergency" },
+      "fix-broken-tooth": { "title": "Fix Broken Tooth", "category": "Emergency" },
+      "laser": { "title": "Laser Dentistry", "category": "Advanced" },
+      "orthodontist-vs-dentist": { "title": "Orthodontist vs Dentist", "category": "Education" },
+      
+      "cosmetic": {
+        "parent": true,
+        "title": "Cosmetic Dentistry",
+        "children": {
+          "enameloplasty": { "title": "Enameloplasty" },
+          "lumineers": { "title": "Lumineers" },
+          "snap-on-smile": { "title": "Snap-On Smile" },
+          "teeth-contouring": { "title": "Teeth Contouring" },
+          "veneers": {
+            "parent": true,
+            "title": "Dental Veneers",
+            "children": {
+              "before-after": { "title": "Veneers Before and After" },
+              "composite": { "title": "Composite Veneers" },
+              "porcelain": { "title": "Porcelain Veneers" },
+              "snap-on": { "title": "Snap-On Veneers" },
+              "types": { "title": "Types of Veneers" }
+            }
+          },
+          "whitening": {
+            "parent": true,
+            "title": "Teeth Whitening",
+            "children": {
+              "arc": { "title": "ARC Teeth Whitening" },
+              "are-teeth-naturally-yellow": { "title": "Are Teeth Naturally Yellow" },
+              "baking-soda-whitening": { "title": "Baking Soda Whitening" },
+              "braces": { "title": "Whitening with Braces" },
+              "carbamide-peroxide": { "title": "Carbamide Peroxide Whitening" },
+              "colgate-optic-white": { "title": "Colgate Optic White" },
+              "crest-emulsions": { "title": "Crest Emulsions" },
+              "hismile-reviews": {
+                "parent": true,
+                "title": "HiSmile Reviews",
+                "children": {
+                  "colour-corrector": { "title": "HiSmile Colour Corrector" }
+                }
+              },
+              "hydrogen-peroxide": { "title": "Hydrogen Peroxide Whitening" },
+              "led": { "title": "LED Teeth Whitening" },
+              "natural": { "title": "Natural Teeth Whitening" },
+              "opalescence": { "title": "Opalescence Whitening" },
+              "pen": { "title": "Whitening Pen" },
+              "snow-whitening": { "title": "Snow Whitening Kit" },
+              "supersmile": { "title": "Supersmile" },
+              "swabs": { "title": "Whitening Swabs" },
+              "teeth-whitening-gel": { "title": "Teeth Whitening Gel" },
+              "trays": { "title": "Whitening Trays" },
+              "zimba": { "title": "Zimba Whitening" }
+            }
+          }
+        }
+      },
+      
+      "general": {
+        "parent": true,
+        "title": "General Dentistry",
+        "children": {
+          "anesthesia": { "title": "Dental Anesthesia" },
+          "apicoectomy": { "title": "Apicoectomy" },
+          "cavity-fillings": {
+            "parent": true,
+            "title": "Cavity Fillings",
+            "children": {
+              "symptoms": { "title": "Cavity Symptoms" }
+            }
+          },
+          "composite-filling": { "title": "Composite Fillings" },
+          "dental-hygienist": { "title": "Dental Hygienist" },
+          "dental-xrays": { "title": "Dental X-Rays" },
+          "exams-cleanings": { "title": "Dental Exams & Cleanings" },
+          "gingivitis": { "title": "Gingivitis Treatment" },
+          "pulpectomy": { "title": "Pulpectomy" },
+          "root-canal": { "title": "Root Canal Treatment" },
+          "sleep-apnea": {
+            "parent": true,
+            "title": "Sleep Apnea Treatment",
+            "children": {
+              "mouthguards": { "title": "Sleep Apnea Mouthguards" }
+            }
+          },
+          "wisdom-teeth-removal": {
+            "parent": true,
+            "title": "Wisdom Teeth Removal",
+            "children": {
+              "cost": { "title": "Wisdom Teeth Removal Cost" }
+            }
+          }
+        }
+      },
+      
+      "family": {
+        "parent": true,
+        "title": "Family Dentistry",
+        "children": {
+          "adults": { "title": "Dentistry for Adults" },
+          "babies": { "title": "Dentistry for Babies" },
+          "children": { "title": "Dentistry for Children" },
+          "seniors": { "title": "Dentistry for Seniors" },
+          "teens": { "title": "Dentistry for Teens" }
+        }
+      },
+      
+      "pediatric": {
+        "parent": true,
+        "title": "Pediatric Dentistry",
+        "children": {
+          "pulpotomy": { "title": "Pulpotomy" },
+          "tooth-sealants": { "title": "Tooth Sealants" },
+          "conditions": {
+            "parent": true,
+            "title": "Pediatric Dental Conditions",
+            "children": {
+              "cleft-lip-and-palate": { "title": "Cleft Lip and Palate" },
+              "gingivitis": { "title": "Pediatric Gingivitis" },
+              "pacifier-teeth": { "title": "Pacifier Teeth" },
+              "periodontitis": { "title": "Pediatric Periodontitis" },
+              "teething-rash": { "title": "Teething Rash" }
+            }
+          },
+          "treatments": {
+            "parent": true,
+            "title": "Pediatric Dental Treatments",
+            "children": {
+              "braces": { "title": "Braces for Kids" },
+              "cavity-fillings": { "title": "Pediatric Cavity Fillings" },
+              "dental-exams": { "title": "Pediatric Dental Exams" },
+              "mouthguards": { "title": "Kids Mouthguards" },
+              "space-maintainers": { "title": "Space Maintainers" },
+              "stainless-steel-crowns": { "title": "Stainless Steel Crowns" }
+            }
+          }
+        }
+      },
+      
+      "restorative": {
+        "parent": true,
+        "title": "Restorative Dentistry",
+        "children": {
+          "bonding": {
+            "parent": true,
+            "title": "Dental Bonding",
+            "children": {
+              "composite": { "title": "Composite Bonding" }
+            }
+          },
+          "bonding-cost": { "title": "Bonding Cost" },
+          "bridges": {
+            "parent": true,
+            "title": "Dental Bridges",
+            "children": {
+              "cantilever": { "title": "Cantilever Bridge" }
+            }
+          },
+          "cerec-crowns": { "title": "CEREC Crowns" },
+          "cerec": { "title": "CEREC Technology" },
+          "chipped-tooth": { "title": "Chipped Tooth Repair" },
+          "crowns": {
+            "parent": true,
+            "title": "Dental Crowns",
+            "children": {
+              "gold": { "title": "Gold Crowns" },
+              "temporary": { "title": "Temporary Crowns" }
+            }
+          },
+          "dentures": {
+            "parent": true,
+            "title": "Dentures",
+            "children": {
+              "adhesive": { "title": "Denture Adhesive" },
+              "best-dentures": { "title": "Best Dentures" },
+              "care": { "title": "Denture Care" },
+              "cheap-dentures": { "title": "Affordable Dentures" },
+              "full": { "title": "Full Dentures" },
+              "hybrid": { "title": "Hybrid Dentures" },
+              "implant-supported": { "title": "Implant-Supported Dentures" },
+              "overdenture": { "title": "Overdentures" },
+              "reline": { "title": "Denture Reline" },
+              "repair": { "title": "Denture Repair" },
+              "same-day": { "title": "Same-Day Dentures" },
+              "snap-in": { "title": "Snap-In Dentures" },
+              "valplast-partial": { "title": "Valplast Partial Dentures" }
+            }
+          },
+          "full-mouth-reconstruction": { "title": "Full Mouth Reconstruction" },
+          "gold-tooth": { "title": "Gold Tooth" },
+          "implants": {
+            "parent": true,
+            "title": "Dental Implants",
+            "children": {
+              "3-on-6-dental-implants": { "title": "3-on-6 Dental Implants" },
+              "abutment": { "title": "Implant Abutment" },
+              "all-on-4": { "title": "All-on-4 Dental Implants" },
+              "clearchoice": { "title": "ClearChoice Implants" },
+              "cost": { "title": "Dental Implant Cost" },
+              "insurance": { "title": "Dental Implant Insurance" },
+              "procedure": { "title": "Dental Implant Procedure" },
+              "single-tooth": { "title": "Single Tooth Implant" }
+            }
+          },
+          "inlays-onlays": { "title": "Inlays and Onlays" },
+          "maryland-bridge": { "title": "Maryland Bridge" },
+          "mini-implants": { "title": "Mini Dental Implants" },
+          "tooth-replacement": { "title": "Tooth Replacement Options" },
+          "types-of-dentures-causes-for-treatment": { "title": "Types of Dentures" }
+        }
+      },
+      
+      "specialties": {
+        "parent": true,
+        "title": "Dental Specialties",
+        "children": {
+          "endodontics": { "title": "Endodontics" },
+          "oral-surgery": {
+            "parent": true,
+            "title": "Oral Surgery",
+            "children": {
+              "crown-lengthening": { "title": "Crown Lengthening" },
+              "double-jaw": { "title": "Double Jaw Surgery" }
+            }
+          },
+          "periodontics": {
+            "parent": true,
+            "title": "Periodontics",
+            "children": {
+              "bone-grafts": { "title": "Bone Grafts" },
+              "deep-cleaning": { "title": "Deep Cleaning" },
+              "flap-surgery": { "title": "Flap Surgery" },
+              "full-mouth-debridement": { "title": "Full Mouth Debridement" },
+              "gum-grafts": { "title": "Gum Grafts" },
+              "hemisection": { "title": "Hemisection" },
+              "lanap": { "title": "LANAP Treatment" },
+              "scaling-and-root-planing": { "title": "Scaling and Root Planing" }
+            }
+          },
+          "sedation": { "title": "Sedation Dentistry" }
+        }
+      }
+    }
+  },
+  
+  "oral-health": {
+    "parent": true,
+    "children": {
+      "bad-breath": { "title": "Bad Breath (Halitosis)", "category": "Conditions" },
+      "bleeding-gums": { "title": "Bleeding Gums", "category": "Conditions" },
+      "bruxism": {
+        "parent": true,
+        "title": "Bruxism (Teeth Grinding)",
+        "category": "Conditions",
+        "children": {
+          "proteethguard": { "title": "ProTeethGuard for Bruxism" }
+        }
+      },
+      "gum-disease": { "title": "Gum Disease", "category": "Conditions" },
+      "sensitive-teeth": { "title": "Sensitive Teeth", "category": "Conditions" },
+      "tmj": { "title": "TMJ Disorder", "category": "Conditions" },
+      "toothaches": { "title": "Toothaches", "category": "Conditions" }
+    }
+  },
+  
+  "orthodontics": {
+    "parent": true,
+    "children": {
+      "malocclusion": {
+        "parent": true,
+        "title": "Malocclusion",
+        "children": {
+          "buck-teeth": { "title": "Buck Teeth" },
+          "crooked-teeth": { "title": "Crooked Teeth" },
+          "crossbite": { "title": "Crossbite" },
+          "crowded-teeth": { "title": "Crowded Teeth" },
+          "diastema": { "title": "Diastema (Gap Teeth)" },
+          "impacted-tooth": { "title": "Impacted Tooth" },
+          "open-bite": { "title": "Open Bite" },
+          "overbite": {
+            "parent": true,
+            "title": "Overbite",
+            "children": {
+              "deep": { "title": "Deep Overbite" },
+              "treatment": { "title": "Overbite Treatment" }
+            }
+          },
+          "overjet": { "title": "Overjet" },
+          "underbite": {
+            "parent": true,
+            "title": "Underbite",
+            "children": {
+              "treatment": { "title": "Underbite Treatment" }
+            }
+          }
+        }
+      },
+      "treatment": {
+        "parent": true,
+        "title": "Orthodontic Treatment",
+        "children": {
+          "braces-alternatives": { "title": "Braces Alternatives" },
+          "braces": {
+            "parent": true,
+            "title": "Braces",
+            "children": {
+              "bite-blocks": { "title": "Bite Blocks" },
+              "ceramic": { "title": "Ceramic Braces" },
+              "damon": { "title": "Damon Braces" },
+              "gold": { "title": "Gold Braces" },
+              "insurance": { "title": "Braces Insurance" },
+              "power-chain": { "title": "Power Chain Braces" },
+              "self-ligating": { "title": "Self-Ligating Braces" },
+              "spacers": { "title": "Braces Spacers" },
+              "swollen-gums": { "title": "Swollen Gums with Braces" }
+            }
+          },
+          "clear-aligners": {
+            "parent": true,
+            "title": "Clear Aligners",
+            "children": {
+              "invisalign-cost": { "title": "Invisalign Cost" },
+              "invisalign-review": { "title": "Invisalign Reviews" },
+              "byte": { "title": "Byte Aligners" },
+              "candid": { "title": "Candid Aligners" },
+              "smiledirectclub": { "title": "SmileDirectClub" },
+              "cheapest": { "title": "Cheapest Clear Aligners" }
+            }
+          },
+          "invisalign-attachments": { "title": "Invisalign Attachments" },
+          "invisalign-cost": { "title": "Invisalign Cost" },
+          "retainers": {
+            "parent": true,
+            "title": "Retainers",
+            "children": {
+              "how-long": { "title": "How Long to Wear Retainers" },
+              "permanent": { "title": "Permanent Retainers" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

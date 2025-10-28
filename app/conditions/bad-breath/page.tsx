@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
   title: "Bad Breath (Halitosis) Treatment | Indira Dental Clinic Vellore",
@@ -11,9 +12,9 @@ export const metadata: Metadata = {
 export default function BadBreathPage() {
   return (
     <main className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl md:text-4xl font-bold mb-6">Bad Breath (Halitosis) Treatment</h1>
+      <h1 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">Bad Breath (Halitosis) Causes, Symptoms & Treatment</h1>
 
-      <div className="prose max-w-none">
+      <div className="prose prose-lg max-w-none">
         <p className="text-lg mb-6">
           <strong>Bad breath</strong>, medically known as <strong>halitosis</strong>, affects millions of people
           worldwide and can cause significant social and psychological distress. At Indira Dental Clinic in Vellore, we
@@ -168,6 +169,13 @@ export default function BadBreathPage() {
             </Button>
           </div>
         </div>
+
+      {/* Medicine & Drugs Section */}
+      <MedicineSection 
+        conditionName="Bad Breath (Halitosis)"
+        medicines={commonMedicines.badBreath}
+      />
+
       </div>
     </main>
   )

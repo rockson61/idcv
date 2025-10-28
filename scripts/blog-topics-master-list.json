@@ -1,0 +1,230 @@
+{
+  "orthodontics": {
+    "conditions": [
+      "Crowded Teeth (Malocclusion)",
+      "Overbite",
+      "Underbite",
+      "Crossbite",
+      "Open Bite",
+      "Spacing Issues",
+      "Midline Deviation",
+      "Deep Bite",
+      "Edge-to-Edge Bite",
+      "Protruding Teeth"
+    ],
+    "treatments": [
+      "Metal Braces",
+      "Ceramic Braces",
+      "Self-Ligating Braces",
+      "Lingual Braces",
+      "Clear Aligners (Invisalign)",
+      "Retainers",
+      "Palatal Expanders",
+      "Space Maintainers",
+      "Headgear",
+      "Elastic Bands"
+    ],
+    "oralHygiene": [
+      "Brushing with Braces",
+      "Flossing with Braces",
+      "Interdental Brushes",
+      "Water Flossers",
+      "Orthodontic Wax",
+      "Foods to Avoid with Braces"
+    ],
+    "anatomy": [
+      "Baby Teeth Eruption Timeline",
+      "Permanent Teeth Eruption",
+      "Wisdom Teeth Development",
+      "Tooth Anatomy Basics"
+    ]
+  },
+  "periodontics": {
+    "conditions": [
+      "Gingivitis",
+      "Periodontitis",
+      "Gum Recession",
+      "Gum Abscess",
+      "Gum Pocket (6mm+)",
+      "Bleeding Gums",
+      "Swollen Gums",
+      "Gum Infection"
+    ],
+    "treatments": [
+      "Scaling & Root Planing",
+      "Gum Graft Surgery",
+      "Flap Surgery",
+      "Bone Grafting for Gums",
+      "Guided Tissue Regeneration",
+      "Periodontal Maintenance",
+      "Laser Gum Treatment",
+      "Crown Lengthening"
+    ]
+  },
+  "endodontics": {
+    "conditions": [
+      "Tooth Pulp Infection",
+      "Root Canal Pain",
+      "Dental Pulpitis",
+      "Periapical Abscess",
+      "Root Canal Failure",
+      "Cracked Tooth Syndrome"
+    ],
+    "treatments": [
+      "Single Sitting RCT",
+      "Multi-Visit RCT",
+      "Molar Root Canal",
+      "Anterior Root Canal",
+      "Root Canal Retreatment (Re-RCT)",
+      "Apicectomy",
+      "Pulpotomy",
+      "Pulp Capping"
+    ]
+  },
+  "prosthodontics": {
+    "conditions": [
+      "Missing Single Tooth",
+      "Multiple Missing Teeth",
+      "Edentulous (No Teeth)",
+      "Worn-Down Teeth",
+      "Broken Crown",
+      "Loose Dentures"
+    ],
+    "treatments": [
+      "Zirconia Crowns",
+      "E-Max Crowns",
+      "PFM Crowns",
+      "Gold Crowns",
+      "Fixed Bridges",
+      "Cantilever Bridge",
+      "Maryland Bridge",
+      "Complete Dentures",
+      "Partial Dentures",
+      "Flexible Dentures",
+      "Implant-Supported Dentures",
+      "Overdentures",
+      "Full Mouth Rehabilitation"
+    ]
+  },
+  "implantology": {
+    "conditions": [
+      "Bone Loss After Extraction",
+      "Failed Dental Implant",
+      "Peri-Implantitis",
+      "Sinus Pneumatization",
+      "Jawbone Atrophy"
+    ],
+    "treatments": [
+      "Single Tooth Implant",
+      "Multiple Implants",
+      "All-on-4 Implants",
+      "All-on-6 Implants",
+      "Zygomatic Implants",
+      "Mini Implants",
+      "Immediate Load Implants",
+      "Delayed Load Implants",
+      "Bone Grafting",
+      "Sinus Lift",
+      "Ridge Augmentation",
+      "Socket Preservation"
+    ]
+  },
+  "oralSurgery": {
+    "conditions": [
+      "Impacted Wisdom Teeth",
+      "Jaw Cysts",
+      "Oral Tumors",
+      "TMJ Disorder",
+      "Jaw Fracture",
+      "Facial Trauma"
+    ],
+    "treatments": [
+      "Simple Tooth Extraction",
+      "Surgical Extraction",
+      "Wisdom Teeth Removal",
+      "Impacted Tooth Extraction",
+      "Jaw Cyst Removal",
+      "Frenectomy",
+      "Alveoloplasty",
+      "Orthognathic Surgery",
+      "TMJ Surgery",
+      "Oral Biopsy"
+    ],
+    "postSurgical": [
+      "Post-Extraction Care",
+      "Managing Swelling After Surgery",
+      "Diet After Oral Surgery",
+      "Pain Management After Extraction",
+      "Preventing Dry Socket",
+      "When to Remove Stitches"
+    ]
+  },
+  "cosmeticDentistry": {
+    "treatments": [
+      "Professional Teeth Whitening",
+      "Home Whitening Kits",
+      "Zoom Whitening",
+      "Laser Whitening",
+      "Porcelain Veneers",
+      "Composite Veneers",
+      "Lumineers",
+      "Smile Makeover",
+      "Gum Contouring",
+      "Dental Bonding",
+      "Tooth Reshaping"
+    ]
+  },
+  "restorativeDentistry": {
+    "conditions": [
+      "Tooth Decay",
+      "Chipped Tooth",
+      "Broken Tooth",
+      "Tooth Fracture",
+      "Large Cavity"
+    ],
+    "treatments": [
+      "Composite Fillings",
+      "Amalgam Fillings",
+      "Glass Ionomer Fillings",
+      "Gold Fillings",
+      "Ceramic Inlays",
+      "Ceramic Onlays",
+      "CEREC Same-Day Restorations"
+    ]
+  },
+  "preventiveDentistry": {
+    "treatments": [
+      "Regular Dental Checkups",
+      "Professional Teeth Cleaning",
+      "Fluoride Treatment",
+      "Dental Sealants",
+      "Oral Cancer Screening",
+      "Digital X-Rays",
+      "Preventive Care for Kids"
+    ]
+  },
+  "pediatricDentistry": {
+    "treatments": [
+      "Children's First Dental Visit",
+      "Cavity Prevention in Kids",
+      "Fluoride for Children",
+      "Dental Sealants for Kids",
+      "Baby Tooth Extraction",
+      "Pulpotomy in Primary Teeth",
+      "Space Maintainers",
+      "Habit Breaking Appliances"
+    ]
+  },
+  "emergencyDentistry": {
+    "conditions": [
+      "Severe Toothache",
+      "Broken Tooth Emergency",
+      "Knocked-Out Tooth",
+      "Dental Abscess Emergency",
+      "Lost Filling or Crown",
+      "Bleeding Gums Emergency",
+      "Jaw Injury"
+    ]
+  }
+}
+
