@@ -391,7 +391,8 @@ export default function BagayamPage() {
               serviceName="dental care"
             />
 
-            <CompactServiceWidget
+            <section className="mb-12">
+        <CompactServiceWidget
               title="Popular Services for Bagayam Patients"
               description="Most requested dental treatments by patients from Bagayam."
               services={[
@@ -403,6 +404,7 @@ export default function BagayamPage() {
               ctaText="View All Services"
               ctaLink="/services"
             />
+        </section>
           </div>
         </section>
 

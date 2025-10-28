@@ -228,7 +228,8 @@ export default function ArakkonamPage() {
 
         {/* Services Widget */}
         <section className="mb-12">
-          <CompactServiceWidget
+          <section className="mb-12">
+        <CompactServiceWidget
             title={`Popular Services for ${locationName} Patients`}
             description="Most requested dental treatments by patients from Arakkonam."
             services={[
@@ -240,6 +241,7 @@ export default function ArakkonamPage() {
             ctaText="View All Services"
             ctaLink="/services"
           />
+        </section>
         </section>
 
         {/* Contact Section */}

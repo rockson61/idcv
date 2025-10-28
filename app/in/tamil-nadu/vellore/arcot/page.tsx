@@ -262,7 +262,8 @@ export default function ArcotPage() {
         </section>
 
         <section className="mb-12">
-          <CompactServiceWidget
+          <section className="mb-12">
+        <CompactServiceWidget
             title={`Popular Services for ${locationName} Patients`}
             description="Most requested dental treatments by patients from Arcot."
             services={[
@@ -274,6 +275,7 @@ export default function ArcotPage() {
             ctaText="View All Services"
             ctaLink="/services"
           />
+        </section>
         </section>
 
         <section className="mb-12" id="contact">

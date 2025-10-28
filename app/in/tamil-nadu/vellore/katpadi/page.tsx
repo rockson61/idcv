@@ -382,7 +382,8 @@ export default function KatpadiPage() {
               serviceName="dental care"
             />
 
-            <CompactServiceWidget
+            <section className="mb-12">
+        <CompactServiceWidget
               title="Popular Services for Katpadi Patients"
               description="Most requested dental treatments by patients from Katpadi."
               services={[
@@ -394,6 +395,7 @@ export default function KatpadiPage() {
               ctaText="View All Services"
               ctaLink="/services"
             />
+        </section>
           </div>
         </section>
 

@@ -391,7 +391,8 @@ export default function AmburPage() {
               serviceName="dental care"
             />
 
-            <CompactServiceWidget
+            <section className="mb-12">
+        <CompactServiceWidget
               title="Popular Services for Ambur Patients"
               description="Most requested dental treatments by patients from Ambur."
               services={[
@@ -403,6 +404,7 @@ export default function AmburPage() {
               ctaText="View All Services"
               ctaLink="/services"
             />
+        </section>
           </div>
         </section>
 

@@ -435,7 +435,8 @@ export default function VellorePage() {
               serviceName="dental tourism"
             />
 
-            <CompactServiceWidget
+            <section className="mb-12">
+        <CompactServiceWidget
               title="Popular Services for Vellore Patients"
               description="Most requested dental treatments by patients visiting from Vellore."
               services={[
@@ -447,6 +448,7 @@ export default function VellorePage() {
               ctaText="View All Services"
               ctaLink="/services"
             />
+        </section>
           </div>
         </section>
 

@@ -96,7 +96,9 @@ export default function VelpadiPage() {
         <section className="mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <RelevantQAWidget title="Common Questions from Velpadi" questions={[{id:'1',title:'Best dental clinic near Velpadi?',slug:'best-dental-clinic-velpadi',excerpt:'Indira Dental Clinic is just 4 km from Velpadi.',helpfulVotes:45,views:1200,createdAt:'2023-12-20T10:30:00Z'},{id:'2',title:'Root canal cost for Velpadi patients?',slug:'root-canal-cost-velpadi',excerpt:'₹3,000-8,000 at our clinic.',helpfulVotes:52,views:1400,createdAt:'2023-12-18T14:15:00Z'}]} serviceName="dental care" />
-            <CompactServiceWidget title="Popular Services" description="Most requested by Velpadi patients." services={[{name:"Root Canal Treatment",slug:"root-canal-treatment",price:"₹3,000 - ₹8,000",duration:"1-2 hours"},{name:"Dental Implants",slug:"dental-implants",price:"₹25,000 - ₹45,000",duration:"2-3 hours"}]} ctaText="View All Services" ctaLink="/services" />
+            <section className="mb-12">
+        <CompactServiceWidget title="Popular Services" description="Most requested by Velpadi patients." services={[{name:"Root Canal Treatment",slug:"root-canal-treatment",price:"₹3,000 - ₹8,000",duration:"1-2 hours"},{name:"Dental Implants",slug:"dental-implants",price:"₹25,000 - ₹45,000",duration:"2-3 hours"}]} ctaText="View All Services" ctaLink="/services" />
+        </section>
           </div>
         </section>
         <section className="text-center mb-12">

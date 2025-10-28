@@ -382,7 +382,8 @@ export default function GudiyathamPage() {
               serviceName="dental care"
             />
 
-            <CompactServiceWidget
+            <section className="mb-12">
+        <CompactServiceWidget
               title="Popular Services for Gudiyatham Patients"
               description="Most requested dental treatments by patients from Gudiyatham."
               services={[
@@ -394,6 +395,7 @@ export default function GudiyathamPage() {
               ctaText="View All Services"
               ctaLink="/services"
             />
+        </section>
           </div>
         </section>
 

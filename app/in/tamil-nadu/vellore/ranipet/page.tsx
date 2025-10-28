@@ -210,6 +210,7 @@ export default function RanipetPage() {
           </div>
         </section>
 
+        <section className="mb-12">
         <CompactServiceWidget
           title="Popular Services for Ranipet Patients"
           description="Most requested by workers from BHEL and industrial areas."
@@ -221,8 +222,9 @@ export default function RanipetPage() {
           ]}
           ctaText="View All"
           ctaLink="/services"
-          className="mb-12"
+         
         />
+        </section>
 
         <section className="mb-12" id="contact">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Contact & Location</h2>

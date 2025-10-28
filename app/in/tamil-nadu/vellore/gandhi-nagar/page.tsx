@@ -381,7 +381,8 @@ export default function GandhiNagarPage() {
               serviceName="dental care"
             />
 
-            <CompactServiceWidget
+            <section className="mb-12">
+        <CompactServiceWidget
               title="Popular Services in Gandhi Nagar"
               description="Most requested dental treatments at our Gandhi Nagar clinic."
               services={[
@@ -393,6 +394,7 @@ export default function GandhiNagarPage() {
               ctaText="View All Services"
               ctaLink="/services"
             />
+        </section>
           </div>
         </section>
 
