@@ -59,7 +59,7 @@ export function EnhancedServicesList({ services, locationName, className = "" }:
 
             <ModernCardHeader>
               <ModernCardTitle className="flex items-center justify-between">
-                {service.title}
+                {serviceTitle}
                 {service.duration && (
                   <span className="text-xs text-gray-500 font-normal flex items-center gap-1">
                     <Clock className="w-3 h-3" />
@@ -84,25 +84,25 @@ export function EnhancedServicesList({ services, locationName, className = "" }:
               </div>
 
               {/* Features */}
-              <ul className="space-y-2 text-sm text-gray-700">
-                {service.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="flex items-start">
-                    <CheckCircle className="w-4 h-4 text-teal-500 mr-2 flex-shrink-0 mt-0.5" />
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
+              {serviceFeatures.length > 0 && (
+                <ul className="space-y-2 text-sm text-gray-700">
+                  {serviceFeatures.map((feature, featureIndex) => (
+                    <li key={featureIndex} className="flex items-start">
+                      <CheckCircle className="w-4 h-4 text-teal-500 mr-2 flex-shrink-0 mt-0.5" />
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
 
               {/* CTA Button */}
-              {service.slug && (
-                <Link
-                  href={`/services/${service.slug}`}
-                  className="mt-4 inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-semibold text-sm group"
-                >
-                  Learn More
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </Link>
-              )}
+              <Link
+                href={serviceLink}
+                className="mt-4 inline-flex items-center gap-2 text-teal-600 hover:text-teal-700 font-semibold text-sm group"
+              >
+                Learn More
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Link>
             </ModernCardContent>
           </ModernCard>
         ))}
