@@ -29,9 +29,7 @@ export default function PostAndCorePage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-orange-100 text-orange-700"><Layers className="w-4 h-4 inline mr-1" />Foundation Build-Up</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Root Canal Treatment Doctors in India - Endodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Post And Core Doctors in India - Dental Specialist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Strengthen root canal-treated teeth with post and core foundation before crown placement. Essential for teeth with extensive damage.</p>
           </div>
 

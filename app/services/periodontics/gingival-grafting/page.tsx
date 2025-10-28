@@ -53,9 +53,7 @@ export default function GingivalGraftingPage() {
             <Badge className="mb-4 bg-teal-100 text-teal-700 border-teal-200">
               Periodontal Surgery
             </Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Periodontal Treatment Doctors in India - Periodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Gingival Grafting Doctors in India - Dental Specialist Near Me</h1>
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
               Restore receded gum tissue and protect exposed tooth roots with advanced gingival grafting procedures.
             </p>

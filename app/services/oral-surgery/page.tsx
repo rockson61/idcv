@@ -185,9 +185,7 @@ export default function OralSurgeryPage() {
             <Shield className="h-4 w-4" />
             Advanced Surgical Procedures
           </div>
-          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Oral Surgery Doctors in India - Oral Surgeon Near Me
-              </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Oral Surgery Doctors in India - Oral Surgeon Near Me</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             Advanced surgical procedures performed by Dr. Rockson Samuel with 15+ years of surgical experience. From
             simple extractions to complex implant surgeries, we ensure safe, comfortable treatment.

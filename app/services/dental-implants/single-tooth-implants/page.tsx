@@ -52,9 +52,7 @@ export default function SingleToothImplantsPage() {
                 <Award className="w-4 h-4 mr-2" />
                 Most Popular Treatment
               </Badge>
-              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Dental Implants Doctors in India - Implantologist Near Me
-              </h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Single Tooth Implants Doctors in India - Implant Specialist Near Me</h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Replace your missing tooth with a permanent, natural-looking solution. Get single tooth implants in Vellore at 50% lower cost with expert care from Dr. Rockson Samuel.
               </p>

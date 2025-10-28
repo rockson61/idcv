@@ -215,9 +215,7 @@ export default function EmergencyDentistryPage() {
             <Zap className="h-4 w-4" />
             24/7 Emergency Care Available
           </div>
-          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Emergency Dental Care Doctors in India - Emergency Dentist Near Me
-              </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Emergency Dentistry Doctors in India - Dental Specialist Near Me</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             When dental emergencies strike, every minute counts. Dr. Rockson Samuel and our emergency team are available
             24/7 to provide immediate relief and treatment for urgent dental conditions.

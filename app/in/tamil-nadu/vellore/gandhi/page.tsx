@@ -25,7 +25,7 @@ export default function GandhiNagarPage() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-teal-100 text-teal-700"><MapPin className="w-4 h-4 inline mr-1" />Gandhi Nagar, Vellore</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Best Dentist and Dental Clinic in Gandhi, Vellore</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dentist and Dental Clinic in Gandhi, Vellore</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Indira Dental Clinic - Your trusted neighborhood dental care provider in Gandhi Nagar. Dr. Rockson Samuel (BDS, PgDM, BDM).</p>
           </div>
 

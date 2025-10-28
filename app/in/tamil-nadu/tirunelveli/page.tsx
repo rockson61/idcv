@@ -135,9 +135,7 @@ export default function TirunelveliPage() {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Dental Services in Tirunelveli
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dentist and Dental Clinic in Tirunelveli</h1>
           <p className="text-lg text-gray-700 max-w-转入 mx-auto mb-8">
             Experience world-class dental care in Tirunelveli, Tamil Nadu. Our expert dentists 
             provide comprehensive dental treatments with modern technology and personalized care.

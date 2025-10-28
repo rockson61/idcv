@@ -52,9 +52,7 @@ export default function TraditionalBracesPage() {
                 <Award className="w-4 h-4 mr-2" />
                 Proven Treatment
               </Badge>
-              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Orthodontic Treatment Doctors in India - Orthodontist Near Me
-              </h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Traditional Braces Doctors in India - Orthodontist Near Me</h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Get reliable, effective orthodontic treatment with traditional metal braces in Vellore. Proven results at 50% lower cost with Dr. Rockson Samuel's expertise.
               </p>

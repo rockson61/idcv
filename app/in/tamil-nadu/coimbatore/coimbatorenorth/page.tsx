@@ -74,7 +74,7 @@ export default function CoimbatoreNorthTalukPage() {
         />
 
         <LocationHeader
-          locationName="Best Dentist and Dental Clinic in Coimbatore(North), Coimbatore"
+          locationName="Best Dentist and Dental Clinic in Coimbatorenorth, Coimbatore"
           taluk="Coimbatore(North)"
           pincode="000000"
           distance="Near Vellore"

@@ -74,7 +74,7 @@ export default function DindigulWestTalukPage() {
         />
 
         <LocationHeader
-          locationName="Best Dentist and Dental Clinic in Dindigul (West), Dindigul"
+          locationName="Best Dentist and Dental Clinic in Dindigul West, Dindigul"
           taluk="Dindigul (West)"
           pincode="000000"
           distance="Near Vellore"

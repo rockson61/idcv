@@ -95,9 +95,7 @@ export default function TemporaryCrownOverviewPage() {
               <Stethoscope className="w-4 h-4" />
               Oral Surgery Treatment
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Oral Surgery Doctors in India - Oral Surgeon Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Temporary Crown Overview Doctors in India - Prosthodontist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Expert temporary crown overview care at Indira Dental Clinic, Vellore. 
               Dr. Rockson Samuel provides advanced oral surgery with modern technology and personalized treatment plans.

@@ -95,9 +95,7 @@ export default function SinusLiftImplantPlacementPage() {
               <Stethoscope className="w-4 h-4" />
               Surgical Procedures Treatment
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Sinus Lift Implant Placement Doctors in India - Dental Specialist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Sinus Lift Implant Placement Doctors in India - Implant Specialist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Expert sinus lift implant placement care at Indira Dental Clinic, Vellore. 
               Dr. Rockson Samuel provides advanced surgical procedures with modern technology and personalized treatment plans.

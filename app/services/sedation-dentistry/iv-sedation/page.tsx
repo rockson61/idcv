@@ -101,9 +101,7 @@ export default function IvSedationPage() {
               <Stethoscope className="w-4 h-4" />
               Sedation Dentistry
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Sedation Dentistry Doctors in India - Sedation Dentist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Iv Sedation Doctors in India - Dental Specialist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Expert iv sedation services by Dr. Rockson Samuel at Indira Dental Clinic. 
               Modern techniques, affordable pricing, and exceptional care.

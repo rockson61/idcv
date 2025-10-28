@@ -25,9 +25,7 @@ export default function DentalCheckUpsPage() {
       {/* Hero Section */}
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Dental Check Ups Doctors in India - Dental Specialist Near Me
-              </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dental Check Ups Doctors in India - Dental Specialist Near Me</h1>
           <p className="text-xl text-muted-foreground mb-8">
             Regular dental examinations to maintain your oral health and prevent dental problems
           </p>

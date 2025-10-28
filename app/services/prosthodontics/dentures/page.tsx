@@ -29,9 +29,7 @@ export default function DenturesPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-pink-100 text-pink-700">Complete Tooth Replacement</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Dentures Doctors in India - Prosthodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dentures Doctors in India - Prosthodontist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Replace all or multiple missing teeth with custom dentures. Comfortable, natural-looking, and affordable.</p>
           </div>
 

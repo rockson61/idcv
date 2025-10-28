@@ -29,9 +29,7 @@ export default function CompositeBondingPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-teal-100 text-teal-700"><Sparkles className="w-4 h-4 inline mr-1" />Same-Day Results</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Restorative Dentistry Doctors in India - Restorative Dentist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Composite Bonding Doctors in India - Dental Specialist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Fix chips, cracks, gaps, and discoloration with tooth-colored composite bonding. Painless, affordable, natural-looking results in one visit.</p>
           </div>
 

@@ -136,9 +136,7 @@ export default function KatpadiPage() {
         />
 
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Best Dentist and Dental Clinic in Katpadi, Vellore
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dentist and Dental Clinic in Katpadi, Vellore</h1>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
             Welcome to Indira Dental Clinic - your trusted dental care provider serving Katpadi and surrounding areas. 
             Conveniently located near Katpadi Junction with comprehensive dental treatments.

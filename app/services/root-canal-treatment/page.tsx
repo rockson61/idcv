@@ -231,9 +231,7 @@ export default function RootCanalTreatmentPage() {
           <Badge variant="outline" className="mb-4 border-teal-600 text-teal-700 font-semibold">
                 Endodontic Treatment
               </Badge>
-          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Root Canal Treatment Doctors in India - Endodontist Near Me
-              </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Root Canal Treatment Doctors in India - Endodontist Near Me</h1>
           <p className="text-xl text-gray-700 mb-8 max-w-4xl mx-auto leading-relaxed">
             Save your <strong className="text-gray-900">natural tooth</strong> with advanced, <strong className="text-teal-600">painless root canal treatment</strong> by{" "}
             <Link href="/about-us/dr-rockson-samuel" className="font-bold text-gray-900 hover:text-teal-600 transition-colors">Dr. Rockson Samuel (BDS, PgDM, BDM)</Link>. Using <strong className="text-gray-900">modern techniques</strong> and equipment for{" "}

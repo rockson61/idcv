@@ -13,9 +13,7 @@ export default function ChildrensDentistryPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">
-        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Pediatric Dentistry Doctors in India - Pediatric Dentist Near Me
-              </h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Childrens Dentistry Doctors in India - Pediatric Dentist Near Me</h1>
         <p className="text-lg text-gray-600">
           Specialized dental care for infants, children, and adolescents in a comfortable, child-friendly environment.
         </p>

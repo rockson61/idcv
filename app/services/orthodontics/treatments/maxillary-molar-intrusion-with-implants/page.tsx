@@ -95,9 +95,7 @@ export default function MaxillaryMolarIntrusionWithImplantsPage() {
               <Stethoscope className="w-4 h-4" />
               Orthodontics Treatment
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Orthodontic Treatment Doctors in India - Orthodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Maxillary Molar Intrusion With Implants Doctors in India - Implant Specialist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Expert maxillary molar intrusion with implants care at Indira Dental Clinic, Vellore. 
               Dr. Rockson Samuel provides advanced orthodontics with modern technology and personalized treatment plans.

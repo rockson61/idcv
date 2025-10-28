@@ -29,9 +29,7 @@ export default function ToothExtractionPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-red-100 text-red-700">Painless & Safe</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Tooth Extraction Doctors in India - Oral Surgeon Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Tooth Extraction Doctors in India - Oral Surgeon Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Safe, painless tooth removal using modern techniques. From simple extractions to complex wisdom teeth removal.</p>
           </div>
 

@@ -29,9 +29,7 @@ export default function AllOn6Page() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-blue-100 text-blue-700"><TrendingUp className="w-4 h-4 inline mr-1" />Enhanced Stability</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Dental Implant Treatment Doctors in India - Implantologist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best All On 6 Doctors in India - Dental Specialist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Advanced full arch restoration with 6 implants for enhanced stability. Better support, longer lasting, ideal for larger jaws.</p>
           </div>
 

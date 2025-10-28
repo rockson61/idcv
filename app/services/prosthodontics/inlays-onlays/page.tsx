@@ -29,9 +29,7 @@ export default function InlaysOnlaysPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-indigo-100 text-indigo-700"><Layers className="w-4 h-4 inline mr-1" />Conservative Restoration</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Prosthodontic Treatment Doctors in India - Prosthodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Inlays Onlays Doctors in India - Dental Specialist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Premium indirect fillings for damaged teeth. More conservative than crowns, stronger than regular fillings.</p>
           </div>
 

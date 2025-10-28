@@ -29,9 +29,7 @@ export default function DentalBridgesPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-blue-100 text-blue-700">Bridge the Gap</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Dental Bridges Doctors in India - Prosthodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dental Bridges Doctors in India - Prosthodontist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Replace missing teeth with fixed or removable bridges. Restore your smile, chewing function, and confidence.</p>
           </div>
 

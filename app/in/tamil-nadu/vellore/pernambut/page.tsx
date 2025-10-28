@@ -52,7 +52,7 @@ export default function PernambultPage() {
       <div className="container mx-auto px-4 py-12">
         <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'India', href: '/in' }, { title: 'Tamil Nadu', href: '/in/tamil-nadu' }, { title: 'Vellore', href: '/in/tamil-nadu/vellore' }, { title: 'Pernambut', href: '/in/tamil-nadu/vellore/pernambut' }]} className="mb-8" />
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Best Dentist for Pernambut, Vellore</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dentist and Dental Clinic in Pernambut, Vellore</h1>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">Welcome to Indira Dental Clinic - serving Pernambut and surrounding areas with comprehensive dental treatments.</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm"><Shield className="w-8 h-8 text-teal-600 mb-2" /><span className="text-sm font-medium text-gray-700">Expert Care</span></div>

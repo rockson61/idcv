@@ -74,7 +74,7 @@ export default function TiruppurNorthTalukPage() {
         />
 
         <LocationHeader
-          locationName="Best Dentist and Dental Clinic in Tiruppur (North), Tiruppur"
+          locationName="Best Dentist and Dental Clinic in Tiruppur North, Tiruppur"
           taluk="Tiruppur (North)"
           pincode="000000"
           distance="Near Vellore"

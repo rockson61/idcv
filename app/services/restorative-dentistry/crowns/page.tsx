@@ -13,9 +13,7 @@ export default function CrownsPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8">
-        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Restorative Dentistry Doctors in India - Restorative Dentist Near Me
-              </h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Crowns Doctors in India - Prosthodontist Near Me</h1>
         <p className="text-lg text-gray-600">
           Restore damaged teeth with custom-made dental crowns that look and function like natural teeth.
         </p>

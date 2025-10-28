@@ -112,9 +112,7 @@ export default function RanipetPage() {
             <Factory className="w-4 h-4" />
             Industrial Town - Leather & Manufacturing Hub
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Best Dentist and Dental Clinic in Ranipet, Vellore
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dentist and Dental Clinic in Ranipet, Vellore</h1>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-6">
             Serving Ranipet's industrial workforce and families with comprehensive dental care. 
             Just {distance} from Ranipet, easily accessible from BHEL and leather industrial areas.

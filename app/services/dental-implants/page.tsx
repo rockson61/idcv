@@ -247,9 +247,7 @@ export default function DentalImplantsPage() {
           <Badge variant="outline" className="mb-4 border-teal-600 text-teal-700 font-semibold">
             Dental Implants
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Dental Implants Doctors in India - Implantologist Near Me
-              </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dental Implants Doctors in India - Implant Specialist Near Me</h1>
           <p className="text-xl text-gray-700 mb-8 max-w-4xl mx-auto leading-relaxed">
             Experience the gold standard in tooth replacement with dental implants at{" "}
             <strong className="text-gray-900">Dr. Rockson Samuel's</strong> clinic in Vellore. Our advanced implant solutions provide{" "}

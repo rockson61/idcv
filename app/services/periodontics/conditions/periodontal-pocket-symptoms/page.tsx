@@ -95,9 +95,7 @@ export default function PeriodontalPocketSymptomsPage() {
               <AlertCircle className="w-4 h-4" />
               Periodontics Condition
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Periodontal Treatment Doctors in India - Periodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Periodontal Pocket Symptoms Doctors in India - Periodontist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Expert periodontal pocket symptoms care at Indira Dental Clinic, Vellore. 
               Dr. Rockson Samuel provides advanced periodontics with modern technology and personalized treatment plans.

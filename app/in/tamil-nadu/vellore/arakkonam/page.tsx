@@ -69,9 +69,7 @@ export default function ArakkonamPage() {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Best Dentist and Dental Clinic in Arakkonam, Vellore
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dentist and Dental Clinic in Arakkonam, Vellore</h1>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-6">
             Welcome to Indira Dental Clinic - your trusted dental care provider serving {locationName} and surrounding areas. 
             Located in Vellore, we offer comprehensive dental treatments with modern technology and personalized care.

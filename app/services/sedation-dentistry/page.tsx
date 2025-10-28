@@ -25,9 +25,7 @@ export default function SedationDentistryPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-purple-100 text-purple-700">Anxiety-Free Dental Care</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Sedation Dentistry Doctors in India - Sedation Dentist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Sedation Dentistry Doctors in India - Dental Specialist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Comfortable, stress-free dental treatments for anxious patients. Safe sedation options for all procedures.</p>
           </div>
 

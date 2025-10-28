@@ -114,9 +114,7 @@ export default function ArcotPage() {
             <Landmark className="w-4 h-4" />
             Historic Town - Arcot Fort
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Best Dentist and Dental Clinic in Arcot, Vellore
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dentist and Dental Clinic in Arcot, Vellore</h1>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-6">
             Welcome to Indira Dental Clinic - serving the historic town of Arcot and surrounding areas. 
             Located just {distance} from Arcot, we offer comprehensive dental treatments with modern technology.

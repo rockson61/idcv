@@ -29,9 +29,7 @@ export default function MetalBracesPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-blue-100 text-blue-700"><Zap className="w-4 h-4 inline mr-1" />Most Effective & Affordable</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Orthodontic Treatment Doctors in India - Orthodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Metal Braces Doctors in India - Orthodontist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">The gold standard in orthodontic treatment. Most effective, durable, and affordable option for teeth straightening.</p>
           </div>
 

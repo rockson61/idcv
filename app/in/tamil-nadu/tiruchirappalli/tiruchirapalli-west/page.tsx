@@ -74,7 +74,7 @@ export default function TiruchirapalliWestTalukPage() {
         />
 
         <LocationHeader
-          locationName="Best Dentist and Dental Clinic in Tiruchirapalli (West), Tiruchirappalli"
+          locationName="Best Dentist and Dental Clinic in Tiruchirapalli West, Tiruchirappalli"
           taluk="Tiruchirapalli (West)"
           pincode="000000"
           distance="Near Vellore"

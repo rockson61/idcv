@@ -29,9 +29,7 @@ export default function SingleImplantPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-teal-100 text-teal-700"><Zap className="w-4 h-4 inline mr-1" />Permanent Solution</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Dental Implants Doctors in India - Implantologist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Single Implant Doctors in India - Implant Specialist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Replace one missing tooth with a permanent dental implant. Looks, feels, and functions exactly like your natural tooth.</p>
           </div>
 

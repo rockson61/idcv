@@ -29,9 +29,7 @@ export default function CeramicBracesPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-pink-100 text-pink-700"><Eye className="w-4 h-4 inline mr-1" />Less Visible & Aesthetic</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Orthodontic Treatment Doctors in India - Orthodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Ceramic Braces Doctors in India - Orthodontist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">Same effectiveness as metal braces, but tooth-colored for a more aesthetic appearance. Perfect for adults and professionals.</p>
           </div>
 

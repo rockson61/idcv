@@ -101,9 +101,7 @@ export default function InmanAlignerPage() {
               <Stethoscope className="w-4 h-4" />
               Orthodontics
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Orthodontic Treatment Doctors in India - Orthodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Inman Aligner Doctors in India - Dental Specialist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Expert inman aligner services by Dr. Rockson Samuel at Indira Dental Clinic. 
               Modern techniques, affordable pricing, and exceptional care.

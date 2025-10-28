@@ -182,9 +182,7 @@ export default function PediatricDentistryPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-pink-100 text-pink-700 border-pink-200">Pediatric Dentistry</Badge>
-              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Pediatric Dentistry Doctors in India - Pediatric Dentist Near Me
-              </h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Pediatric Dentistry Doctors in India - Pediatric Dentist Near Me</h1>
               <p className="text-xl text-gray-600 mb-8">
                 Creating positive dental experiences for children in Vellore with specialized pediatric care, preventive
                 treatments, and a child-friendly environment that makes dental visits fun and stress-free.

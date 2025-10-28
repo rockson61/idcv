@@ -74,7 +74,7 @@ export default function RKPetTalukPage() {
         />
 
         <LocationHeader
-          locationName="Best Dentist and Dental Clinic in R.K. Pet, Thiruvallur"
+          locationName="Best Dentist and Dental Clinic in Rk Pet, Thiruvallur"
           taluk="R.K. Pet"
           pincode="000000"
           distance="Near Vellore"

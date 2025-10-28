@@ -333,9 +333,7 @@ export default function EndodonticsPage() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <Badge className="bg-red-100 text-red-800 mb-4">Endodontics Specialist</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Endodontic Treatment Doctors in India - Endodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Endodontics Doctors in India - Endodontist Near Me</h1>
             <p className="text-xl text-gray-600 mb-8">
               Save your natural teeth with our advanced, painless root canal procedures. Dr. Rockson Samuel offers
               state-of-the-art endodontic treatment with a 98% success rate and same-day completion options.

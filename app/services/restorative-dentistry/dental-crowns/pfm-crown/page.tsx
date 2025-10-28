@@ -102,9 +102,7 @@ export default function PfmCrownPage() {
               <Stethoscope className="w-4 h-4" />
               Restorative Dentistry
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Dental Crowns Doctors in India - Prosthodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Pfm Crown Doctors in India - Prosthodontist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Expert pfm crown services by Dr. Rockson Samuel at Indira Dental Clinic. 
               Modern techniques, affordable pricing, and exceptional care.

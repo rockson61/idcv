@@ -29,9 +29,7 @@ export default function LingualBracesPage() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4 bg-indigo-100 text-indigo-700"><EyeOff className="w-4 h-4 inline mr-1" />100% Invisible</Badge>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Orthodontic Treatment Doctors in India - Orthodontist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Lingual Braces Doctors in India - Orthodontist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">The ultimate invisible orthodontic solution! Braces placed on the inside (tongue side) of teeth - completely hidden from view. Perfect for professionals, models, and anyone wanting total discretion.</p>
           </div>
 

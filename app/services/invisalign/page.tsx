@@ -77,9 +77,7 @@ export default function InvisalignPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
             <div className="mb-8">
-              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Invisalign Treatment Doctors in India - Orthodontist Near Me
-              </h1>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Invisalign Doctors in India - Orthodontist Near Me</h1>
 
               <div className="aspect-video relative rounded-xl overflow-hidden mb-6">
                 <Image

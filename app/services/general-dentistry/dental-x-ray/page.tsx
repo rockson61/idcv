@@ -101,9 +101,7 @@ export default function DentalXRayPage() {
               <Stethoscope className="w-4 h-4" />
               General Dentistry
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-6 font-[family-name:var(--font-exo-2)]">
-                Best Dental X Ray Doctors in India - Dental Specialist Near Me
-              </h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dental X Ray Doctors in India - Dental Specialist Near Me</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Expert dental x ray services by Dr. Rockson Samuel at Indira Dental Clinic. 
               Modern techniques, affordable pricing, and exceptional care.
