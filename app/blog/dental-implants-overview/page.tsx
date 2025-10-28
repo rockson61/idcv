@@ -103,7 +103,7 @@ export default function DentalImplantsOverviewBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Dental Implants Overview' }
+                { title: 'Dental Implants Overview', href: '#' }
               ]}
             />
           </div>

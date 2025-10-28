@@ -83,7 +83,7 @@ export default function SinusLiftImplantPlacementPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Treatments', href: '/services/surgical-procedures/treatments' },
-                { title: 'Sinus Lift Implant Placement' }
+                { title: 'Sinus Lift Implant Placement', href: '#' }
               ]}
             />
           </div>

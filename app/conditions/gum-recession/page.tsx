@@ -21,7 +21,7 @@ export default function GumRecessionPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Gum Recession' }
+              { title: 'Gum Recession', href: '#' }
             ]}
           />
         </div>

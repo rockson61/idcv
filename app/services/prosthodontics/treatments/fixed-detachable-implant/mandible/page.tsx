@@ -83,7 +83,7 @@ export default function FixedDetachableImplantmandiblePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Treatments', href: '/services/prosthodontics/treatments' },
-                { title: 'Fixed Detachable Implant   mandible' }
+                { title: 'Fixed Detachable Implant   mandible', href: '#' }
               ]}
             />
           </div>

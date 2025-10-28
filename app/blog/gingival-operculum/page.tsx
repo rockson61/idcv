@@ -103,7 +103,7 @@ export default function GingivalOperculumBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Wisdom Teeth', href: '/blog/category/wisdom-teeth' },
-                { title: 'Gingival Operculum' }
+                { title: 'Gingival Operculum', href: '#' }
               ]}
             />
           </div>

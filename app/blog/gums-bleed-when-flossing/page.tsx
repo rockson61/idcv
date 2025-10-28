@@ -103,7 +103,7 @@ export default function GumsBleedWhenFlossingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'Gums Bleed When Flossing' }
+                { title: 'Gums Bleed When Flossing', href: '#' }
               ]}
             />
           </div>

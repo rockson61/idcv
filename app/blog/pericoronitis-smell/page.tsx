@@ -103,7 +103,7 @@ export default function PericoronitisSmellBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Wisdom Teeth', href: '/blog/category/wisdom-teeth' },
-                { title: 'Pericoronitis Smell' }
+                { title: 'Pericoronitis Smell', href: '#' }
               ]}
             />
           </div>

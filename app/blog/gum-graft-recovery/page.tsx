@@ -103,7 +103,7 @@ export default function GumGraftRecoveryBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Surgeries', href: '/blog/category/oral-surgeries' },
-                { title: 'Gum Graft Recovery' }
+                { title: 'Gum Graft Recovery', href: '#' }
               ]}
             />
           </div>

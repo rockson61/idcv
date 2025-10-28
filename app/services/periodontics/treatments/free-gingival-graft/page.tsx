@@ -83,7 +83,7 @@ export default function FreeGingivalGraftPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Free Gingival Graft' }
+                { title: 'Free Gingival Graft', href: '#' }
               ]}
             />
           </div>

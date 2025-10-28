@@ -83,7 +83,7 @@ export default function PeriapicalAbscessPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
                 { title: 'Conditions', href: '/services/oral-surgery/conditions' },
-                { title: 'Periapical Abscess' }
+                { title: 'Periapical Abscess', href: '#' }
               ]}
             />
           </div>

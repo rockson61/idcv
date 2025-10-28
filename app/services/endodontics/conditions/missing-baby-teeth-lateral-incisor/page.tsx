@@ -83,7 +83,7 @@ export default function MissingBabyTeethLateralIncisorPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
                 { title: 'Conditions', href: '/services/endodontics/conditions' },
-                { title: 'Missing Baby Teeth Lateral Incisor' }
+                { title: 'Missing Baby Teeth Lateral Incisor', href: '#' }
               ]}
             />
           </div>

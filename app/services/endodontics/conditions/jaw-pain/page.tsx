@@ -83,7 +83,7 @@ export default function JawPainPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
                 { title: 'Conditions', href: '/services/endodontics/conditions' },
-                { title: 'Jaw Pain' }
+                { title: 'Jaw Pain', href: '#' }
               ]}
             />
           </div>

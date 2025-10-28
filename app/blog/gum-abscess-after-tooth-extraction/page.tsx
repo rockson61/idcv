@@ -103,7 +103,7 @@ export default function GumAbscessAfterToothExtractionBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Gum Abscess After Tooth Extraction' }
+                { title: 'Gum Abscess After Tooth Extraction', href: '#' }
               ]}
             />
           </div>

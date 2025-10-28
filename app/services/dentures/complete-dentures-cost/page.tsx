@@ -66,7 +66,7 @@ export default function ServicePage() {
       />
 
       <div className="container mx-auto px-4 py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Complete Dentures Cost & Price Guide' }]} />
+        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Complete Dentures Cost & Price Guide', href: '#' }]} />
         <ModernCard className="mb-8">
           <ModernCardHeader>
             <ModernCardTitle className="text-4xl md:text-5xl text-gray-900">Complete Dentures Cost & Price Guide in Vellore</ModernCardTitle>

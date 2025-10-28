@@ -103,7 +103,7 @@ export default function SmokingAndGumDiseaseBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Smoking Related', href: '/blog/category/smoking-related' },
-                { title: 'Smoking And Gum Disease' }
+                { title: 'Smoking And Gum Disease', href: '#' }
               ]}
             />
           </div>

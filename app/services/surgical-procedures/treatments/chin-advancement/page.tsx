@@ -83,7 +83,7 @@ export default function ChinAdvancementPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Treatments', href: '/services/surgical-procedures/treatments' },
-                { title: 'Chin Advancement' }
+                { title: 'Chin Advancement', href: '#' }
               ]}
             />
           </div>

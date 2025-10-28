@@ -103,7 +103,7 @@ export default function SignsAndSymptomsOfGingivitisBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'Signs And Symptoms Of Gingivitis' }
+                { title: 'Signs And Symptoms Of Gingivitis', href: '#' }
               ]}
             />
           </div>

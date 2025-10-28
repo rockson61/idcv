@@ -88,7 +88,7 @@ export default function DentalXRayPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'General Dentistry', href: '/services/general-dentistry' },
-                { title: 'Dental X Ray' }
+                { title: 'Dental X Ray', href: '#' }
               ]}
             />
           </div>

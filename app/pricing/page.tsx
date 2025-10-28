@@ -81,7 +81,7 @@ export default function ServicePage() {
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
-            { title: 'Dental Treatment Cost & Price List' }
+            { title: 'Dental Treatment Cost & Price List', href: '#' }
           ]}
         />
 

@@ -103,7 +103,7 @@ export default function DoesDiabetesAffectTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Diagnostic Planning', href: '/blog/category/diagnostic-planning' },
-                { title: 'Does Diabetes Affect Teeth' }
+                { title: 'Does Diabetes Affect Teeth', href: '#' }
               ]}
             />
           </div>

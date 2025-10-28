@@ -103,7 +103,7 @@ export default function BottomTeethBridgeBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Bridges Dentures', href: '/blog/category/bridges-dentures' },
-                { title: 'Bottom Teeth Bridge' }
+                { title: 'Bottom Teeth Bridge', href: '#' }
               ]}
             />
           </div>

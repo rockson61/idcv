@@ -88,7 +88,7 @@ export default function GingivitisTreatmentPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
-                { title: 'Gingivitis Treatment' }
+                { title: 'Gingivitis Treatment', href: '#' }
               ]}
             />
           </div>

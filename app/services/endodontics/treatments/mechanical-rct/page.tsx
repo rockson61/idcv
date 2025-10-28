@@ -83,7 +83,7 @@ export default function MechanicalRctPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
                 { title: 'Treatments', href: '/services/endodontics/treatments' },
-                { title: 'Mechanical Rct' }
+                { title: 'Mechanical Rct', href: '#' }
               ]}
             />
           </div>

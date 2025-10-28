@@ -20,7 +20,7 @@ export default function oralhygienemaintenanceCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Oral Hygiene Maintenance' }
+              { title: 'Oral Hygiene Maintenance', href: '#' }
             ]}
           />
         </div>

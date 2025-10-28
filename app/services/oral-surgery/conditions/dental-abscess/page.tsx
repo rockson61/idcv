@@ -83,7 +83,7 @@ export default function DentalAbscessPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
                 { title: 'Conditions', href: '/services/oral-surgery/conditions' },
-                { title: 'Dental Abscess' }
+                { title: 'Dental Abscess', href: '#' }
               ]}
             />
           </div>

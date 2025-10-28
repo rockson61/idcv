@@ -103,7 +103,7 @@ export default function WisdomToothGumFlapBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Wisdom Teeth', href: '/blog/category/wisdom-teeth' },
-                { title: 'Wisdom Tooth Gum Flap' }
+                { title: 'Wisdom Tooth Gum Flap', href: '#' }
               ]}
             />
           </div>

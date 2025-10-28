@@ -103,7 +103,7 @@ export default function BadBreathAfterBrushingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Hygiene Maintenance', href: '/blog/category/oral-hygiene-maintenance' },
-                { title: 'Bad Breath After Brushing' }
+                { title: 'Bad Breath After Brushing', href: '#' }
               ]}
             />
           </div>

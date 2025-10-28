@@ -89,7 +89,7 @@ export default function PartialDenturesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Dentures', href: '/services/prosthodontics/dentures' },
-                { title: 'Partial Dentures' }
+                { title: 'Partial Dentures', href: '#' }
               ]}
             />
           </div>

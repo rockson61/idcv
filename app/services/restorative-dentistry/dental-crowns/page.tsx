@@ -88,7 +88,7 @@ export default function DentalCrownsPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
-                { title: 'Dental Crowns' }
+                { title: 'Dental Crowns', href: '#' }
               ]}
             />
           </div>

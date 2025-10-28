@@ -103,7 +103,7 @@ export default function TemporaryVeneersLookBadBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Temporary Veneers Look Bad' }
+                { title: 'Temporary Veneers Look Bad', href: '#' }
               ]}
             />
           </div>

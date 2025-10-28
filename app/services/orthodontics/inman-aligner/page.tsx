@@ -88,7 +88,7 @@ export default function InmanAlignerPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
-                { title: 'Inman Aligner' }
+                { title: 'Inman Aligner', href: '#' }
               ]}
             />
           </div>

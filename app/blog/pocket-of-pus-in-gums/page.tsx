@@ -103,7 +103,7 @@ export default function PocketOfPusInGumsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Infections', href: '/blog/category/oral-infections' },
-                { title: 'Pocket Of Pus In Gums' }
+                { title: 'Pocket Of Pus In Gums', href: '#' }
               ]}
             />
           </div>

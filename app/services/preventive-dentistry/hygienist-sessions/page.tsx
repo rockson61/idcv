@@ -88,7 +88,7 @@ export default function HygienistSessionsPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Preventive Dentistry', href: '/services/preventive-dentistry' },
-                { title: 'Hygienist Sessions' }
+                { title: 'Hygienist Sessions', href: '#' }
               ]}
             />
           </div>

@@ -88,7 +88,7 @@ export default function EarlyOrthodonticTreatmentPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Pediatric Dentistry', href: '/services/pediatric-dentistry' },
-                { title: 'Early Orthodontic Treatment' }
+                { title: 'Early Orthodontic Treatment', href: '#' }
               ]}
             />
           </div>

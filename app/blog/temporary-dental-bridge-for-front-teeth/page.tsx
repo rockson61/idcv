@@ -103,7 +103,7 @@ export default function TemporaryDentalBridgeForFrontTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Bridges Dentures', href: '/blog/category/bridges-dentures' },
-                { title: 'Temporary Dental Bridge For Front Teeth' }
+                { title: 'Temporary Dental Bridge For Front Teeth', href: '#' }
               ]}
             />
           </div>

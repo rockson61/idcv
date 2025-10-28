@@ -103,7 +103,7 @@ export default function MouthUlcersBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Infections', href: '/blog/category/oral-infections' },
-                { title: 'Mouth Ulcers' }
+                { title: 'Mouth Ulcers', href: '#' }
               ]}
             />
           </div>

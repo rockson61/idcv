@@ -88,7 +88,7 @@ export default function OcclusalAdjustmentsPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Tmj Treatment', href: '/services/tmj-treatment' },
-                { title: 'Occlusal Adjustments' }
+                { title: 'Occlusal Adjustments', href: '#' }
               ]}
             />
           </div>

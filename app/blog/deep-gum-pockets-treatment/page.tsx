@@ -103,7 +103,7 @@ export default function DeepGumPocketsTreatmentBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Deep Gum Pockets Treatment' }
+                { title: 'Deep Gum Pockets Treatment', href: '#' }
               ]}
             />
           </div>

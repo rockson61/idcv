@@ -103,7 +103,7 @@ export default function DoCavityFillingsHurtBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Decay Cavities', href: '/blog/category/tooth-decay-cavities' },
-                { title: 'Do Cavity Fillings Hurt' }
+                { title: 'Do Cavity Fillings Hurt', href: '#' }
               ]}
             />
           </div>

@@ -83,7 +83,7 @@ export default function FixedDetachableImplantmaxillaryPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Treatments', href: '/services/prosthodontics/treatments' },
-                { title: 'Fixed Detachable Implant   maxillary' }
+                { title: 'Fixed Detachable Implant   maxillary', href: '#' }
               ]}
             />
           </div>

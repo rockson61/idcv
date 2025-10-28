@@ -103,7 +103,7 @@ export default function WhiteFillingsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'White Fillings' }
+                { title: 'White Fillings', href: '#' }
               ]}
             />
           </div>

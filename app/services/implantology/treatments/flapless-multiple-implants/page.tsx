@@ -83,7 +83,7 @@ export default function FlaplessMultipleImplantsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'Flapless Multiple Implants' }
+                { title: 'Flapless Multiple Implants', href: '#' }
               ]}
             />
           </div>

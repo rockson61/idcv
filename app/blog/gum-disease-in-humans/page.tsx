@@ -103,7 +103,7 @@ export default function GumDiseaseInHumansBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Gum Disease In Humans' }
+                { title: 'Gum Disease In Humans', href: '#' }
               ]}
             />
           </div>

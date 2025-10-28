@@ -89,7 +89,7 @@ export default function ChildBracesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Braces', href: '/services/orthodontics/braces' },
-                { title: 'Child Braces' }
+                { title: 'Child Braces', href: '#' }
               ]}
             />
           </div>

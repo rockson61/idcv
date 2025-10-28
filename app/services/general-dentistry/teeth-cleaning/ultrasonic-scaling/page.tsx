@@ -89,7 +89,7 @@ export default function UltrasonicScalingPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'General Dentistry', href: '/services/general-dentistry' },
                 { title: 'Teeth Cleaning', href: '/services/general-dentistry/teeth-cleaning' },
-                { title: 'Ultrasonic Scaling' }
+                { title: 'Ultrasonic Scaling', href: '#' }
               ]}
             />
           </div>

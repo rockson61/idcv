@@ -103,7 +103,7 @@ export default function DoesSmokingMakeTeethYellowBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Decay Cavities', href: '/blog/category/tooth-decay-cavities' },
-                { title: 'Does Smoking Make Teeth Yellow' }
+                { title: 'Does Smoking Make Teeth Yellow', href: '#' }
               ]}
             />
           </div>

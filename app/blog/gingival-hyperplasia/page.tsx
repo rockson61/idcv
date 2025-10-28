@@ -103,7 +103,7 @@ export default function GingivalHyperplasiaBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Gingival Hyperplasia' }
+                { title: 'Gingival Hyperplasia', href: '#' }
               ]}
             />
           </div>

@@ -83,7 +83,7 @@ export default function BlockGraftSingleToothPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Treatments', href: '/services/surgical-procedures/treatments' },
-                { title: 'Block Graft Single Tooth' }
+                { title: 'Block Graft Single Tooth', href: '#' }
               ]}
             />
           </div>

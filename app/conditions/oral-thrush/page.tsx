@@ -21,7 +21,7 @@ export default function OralThrushPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Oral Thrush' }
+              { title: 'Oral Thrush', href: '#' }
             ]}
           />
         </div>

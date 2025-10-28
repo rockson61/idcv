@@ -21,7 +21,7 @@ export default function GeographicTonguePage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Geographic Tongue' }
+              { title: 'Geographic Tongue', href: '#' }
             ]}
           />
         </div>

@@ -103,7 +103,7 @@ export default function HowIsGingivitisTreatedBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'How Is Gingivitis Treated' }
+                { title: 'How Is Gingivitis Treated', href: '#' }
               ]}
             />
           </div>

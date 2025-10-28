@@ -89,7 +89,7 @@ export default function DigitalPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'General Dentistry', href: '/services/general-dentistry' },
                 { title: 'Dental X Ray', href: '/services/general-dentistry/dental-x-ray' },
-                { title: 'Digital' }
+                { title: 'Digital', href: '#' }
               ]}
             />
           </div>

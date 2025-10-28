@@ -103,7 +103,7 @@ export default function DentalCariesExplainedBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Decay Cavities', href: '/blog/category/tooth-decay-cavities' },
-                { title: 'Dental Caries Explained' }
+                { title: 'Dental Caries Explained', href: '#' }
               ]}
             />
           </div>

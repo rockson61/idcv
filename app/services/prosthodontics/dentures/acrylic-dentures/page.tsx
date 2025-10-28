@@ -89,7 +89,7 @@ export default function AcrylicDenturesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Dentures', href: '/services/prosthodontics/dentures' },
-                { title: 'Acrylic Dentures' }
+                { title: 'Acrylic Dentures', href: '#' }
               ]}
             />
           </div>

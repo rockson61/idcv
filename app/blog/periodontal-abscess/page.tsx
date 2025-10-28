@@ -103,7 +103,7 @@ export default function PeriodontalAbscessBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Periodontal Abscess' }
+                { title: 'Periodontal Abscess', href: '#' }
               ]}
             />
           </div>

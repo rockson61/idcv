@@ -103,7 +103,7 @@ export default function ToothacheOnlyAtNightBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Pain Sensitivity', href: '/blog/category/tooth-pain-sensitivity' },
-                { title: 'Toothache Only At Night' }
+                { title: 'Toothache Only At Night', href: '#' }
               ]}
             />
           </div>

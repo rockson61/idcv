@@ -103,7 +103,7 @@ export default function InfectedGumPocketBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Infections', href: '/blog/category/oral-infections' },
-                { title: 'Infected Gum Pocket' }
+                { title: 'Infected Gum Pocket', href: '#' }
               ]}
             />
           </div>

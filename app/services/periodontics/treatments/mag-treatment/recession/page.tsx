@@ -83,7 +83,7 @@ export default function MagTreatmentrecessionPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Mag Treatment   recession' }
+                { title: 'Mag Treatment   recession', href: '#' }
               ]}
             />
           </div>

@@ -89,7 +89,7 @@ export default function ThreeUnitBridgePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Dental Bridges', href: '/services/restorative-dentistry/dental-bridges' },
-                { title: '3 Unit Bridge' }
+                { title: '3 Unit Bridge', href: '#' }
               ]}
             />
           </div>

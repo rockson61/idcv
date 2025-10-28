@@ -103,7 +103,7 @@ export default function CavitiesInMolarsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Decay Cavities', href: '/blog/category/tooth-decay-cavities' },
-                { title: 'Cavities In Molars' }
+                { title: 'Cavities In Molars', href: '#' }
               ]}
             />
           </div>

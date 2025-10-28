@@ -103,7 +103,7 @@ export default function GingivitisVsHealthyGumsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'Gingivitis Vs Healthy Gums' }
+                { title: 'Gingivitis Vs Healthy Gums', href: '#' }
               ]}
             />
           </div>

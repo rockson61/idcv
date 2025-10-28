@@ -20,7 +20,7 @@ export default function pediatricdentistryCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Pediatric Dentistry' }
+              { title: 'Pediatric Dentistry', href: '#' }
             ]}
           />
         </div>

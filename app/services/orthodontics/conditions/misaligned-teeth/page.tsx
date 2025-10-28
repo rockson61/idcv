@@ -83,7 +83,7 @@ export default function MisalignedTeethPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Conditions', href: '/services/orthodontics/conditions' },
-                { title: 'Misaligned Teeth' }
+                { title: 'Misaligned Teeth', href: '#' }
               ]}
             />
           </div>

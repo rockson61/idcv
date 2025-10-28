@@ -89,7 +89,7 @@ export default function ZirconiaCrownPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Dental Crowns', href: '/services/restorative-dentistry/dental-crowns' },
-                { title: 'Zirconia Crown' }
+                { title: 'Zirconia Crown', href: '#' }
               ]}
             />
           </div>

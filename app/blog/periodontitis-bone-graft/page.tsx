@@ -103,7 +103,7 @@ export default function PeriodontitisBoneGraftBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Periodontitis Bone Graft' }
+                { title: 'Periodontitis Bone Graft', href: '#' }
               ]}
             />
           </div>

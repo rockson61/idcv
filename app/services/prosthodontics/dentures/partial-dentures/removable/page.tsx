@@ -89,7 +89,7 @@ export default function RemovablePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Dentures', href: '/services/prosthodontics/dentures' },
-                { title: 'Removable' }
+                { title: 'Removable', href: '#' }
               ]}
             />
           </div>

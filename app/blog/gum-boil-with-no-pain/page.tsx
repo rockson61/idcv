@@ -103,7 +103,7 @@ export default function GumBoilWithNoPainBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Infections', href: '/blog/category/oral-infections' },
-                { title: 'Gum Boil With No Pain' }
+                { title: 'Gum Boil With No Pain', href: '#' }
               ]}
             />
           </div>

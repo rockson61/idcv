@@ -89,7 +89,7 @@ export default function CompositeVeneersPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' },
                 { title: 'Veneers', href: '/services/cosmetic-dentistry/veneers' },
-                { title: 'Composite Veneers' }
+                { title: 'Composite Veneers', href: '#' }
               ]}
             />
           </div>

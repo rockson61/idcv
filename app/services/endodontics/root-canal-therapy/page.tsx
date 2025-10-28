@@ -88,7 +88,7 @@ export default function RootCanalTherapyPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
-                { title: 'Root Canal Therapy' }
+                { title: 'Root Canal Therapy', href: '#' }
               ]}
             />
           </div>

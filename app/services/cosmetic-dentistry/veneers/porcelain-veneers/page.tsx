@@ -89,7 +89,7 @@ export default function PorcelainVeneersPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' },
                 { title: 'Veneers', href: '/services/cosmetic-dentistry/veneers' },
-                { title: 'Porcelain Veneers' }
+                { title: 'Porcelain Veneers', href: '#' }
               ]}
             />
           </div>

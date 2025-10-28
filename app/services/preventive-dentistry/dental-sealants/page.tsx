@@ -88,7 +88,7 @@ export default function DentalSealantsPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Preventive Dentistry', href: '/services/preventive-dentistry' },
-                { title: 'Dental Sealants' }
+                { title: 'Dental Sealants', href: '#' }
               ]}
             />
           </div>

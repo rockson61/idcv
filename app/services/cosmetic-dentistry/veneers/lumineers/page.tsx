@@ -89,7 +89,7 @@ export default function LumineersPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' },
                 { title: 'Veneers', href: '/services/cosmetic-dentistry/veneers' },
-                { title: 'Lumineers' }
+                { title: 'Lumineers', href: '#' }
               ]}
             />
           </div>

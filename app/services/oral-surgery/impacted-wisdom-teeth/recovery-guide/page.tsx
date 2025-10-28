@@ -81,7 +81,7 @@ export default function ServicePage() {
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
-            { title: 'Wisdom Tooth Extraction Recovery Guide' }
+            { title: 'Wisdom Tooth Extraction Recovery Guide', href: '#' }
           ]}
         />
 

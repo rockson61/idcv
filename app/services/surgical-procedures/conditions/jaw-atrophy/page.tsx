@@ -83,7 +83,7 @@ export default function JawAtrophyPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Conditions', href: '/services/surgical-procedures/conditions' },
-                { title: 'Jaw Atrophy' }
+                { title: 'Jaw Atrophy', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function TeethCoversForBrokenToothBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Bridges Dentures', href: '/blog/category/bridges-dentures' },
-                { title: 'Teeth Covers For Broken Tooth' }
+                { title: 'Teeth Covers For Broken Tooth', href: '#' }
               ]}
             />
           </div>

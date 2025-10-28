@@ -89,7 +89,7 @@ export default function WisdomToothPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
                 { title: 'Extractions', href: '/services/oral-surgery/extractions' },
-                { title: 'Wisdom Tooth' }
+                { title: 'Wisdom Tooth', href: '#' }
               ]}
             />
           </div>

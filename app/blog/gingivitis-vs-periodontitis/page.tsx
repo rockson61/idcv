@@ -103,7 +103,7 @@ export default function GingivitisVsPeriodontitisBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'Gingivitis Vs Periodontitis' }
+                { title: 'Gingivitis Vs Periodontitis', href: '#' }
               ]}
             />
           </div>

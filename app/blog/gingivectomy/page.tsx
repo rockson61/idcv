@@ -103,7 +103,7 @@ export default function GingivectomyBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Gingivectomy' }
+                { title: 'Gingivectomy', href: '#' }
               ]}
             />
           </div>

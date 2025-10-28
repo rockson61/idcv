@@ -88,7 +88,7 @@ export default function BotoxForTmjPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Specialized Services', href: '/services/specialized-services' },
-                { title: 'Botox For Tmj' }
+                { title: 'Botox For Tmj', href: '#' }
               ]}
             />
           </div>

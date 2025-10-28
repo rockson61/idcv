@@ -83,7 +83,7 @@ export default function RemovablePartialDentureLowerPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Treatments', href: '/services/prosthodontics/treatments' },
-                { title: 'Removable Partial Denture Lower' }
+                { title: 'Removable Partial Denture Lower', href: '#' }
               ]}
             />
           </div>

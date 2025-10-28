@@ -83,7 +83,7 @@ export default function MagTreatmentlowerAnteriorPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Mag Treatment   lower Anterior' }
+                { title: 'Mag Treatment   lower Anterior', href: '#' }
               ]}
             />
           </div>

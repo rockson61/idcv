@@ -66,7 +66,7 @@ export default function ServicePage() {
       />
 
       <div className="container mx-auto px-4 py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Painless Root Canal Treatment' }]} />
+        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Painless Root Canal Treatment', href: '#' }]} />
         <ModernCard className="mb-8">
           <ModernCardHeader>
             <ModernCardTitle className="text-4xl md:text-5xl text-gray-900">Painless Root Canal Treatment in Vellore</ModernCardTitle>

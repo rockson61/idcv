@@ -89,7 +89,7 @@ export default function CeramicBracesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Braces', href: '/services/orthodontics/braces' },
-                { title: 'Ceramic Braces' }
+                { title: 'Ceramic Braces', href: '#' }
               ]}
             />
           </div>

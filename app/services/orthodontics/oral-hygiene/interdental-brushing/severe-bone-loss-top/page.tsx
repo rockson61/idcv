@@ -83,7 +83,7 @@ export default function InterdentalBrushingsevereBoneLossTopPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Oral Hygiene', href: '/services/orthodontics/oral-hygiene' },
-                { title: 'Interdental Brushing   severe Bone Loss Top' }
+                { title: 'Interdental Brushing   severe Bone Loss Top', href: '#' }
               ]}
             />
           </div>

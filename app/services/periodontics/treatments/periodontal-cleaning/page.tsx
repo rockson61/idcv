@@ -83,7 +83,7 @@ export default function PeriodontalCleaningPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Periodontal Cleaning' }
+                { title: 'Periodontal Cleaning', href: '#' }
               ]}
             />
           </div>

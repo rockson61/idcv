@@ -103,7 +103,7 @@ export default function OralHygieneForElderlyWithNoTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Hygiene Maintenance', href: '/blog/category/oral-hygiene-maintenance' },
-                { title: 'Oral Hygiene For Elderly With No Teeth' }
+                { title: 'Oral Hygiene For Elderly With No Teeth', href: '#' }
               ]}
             />
           </div>

@@ -89,7 +89,7 @@ export default function MetalBracesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Braces', href: '/services/orthodontics/braces' },
-                { title: 'Metal Braces' }
+                { title: 'Metal Braces', href: '#' }
               ]}
             />
           </div>

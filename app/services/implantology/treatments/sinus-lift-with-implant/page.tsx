@@ -83,7 +83,7 @@ export default function SinusLiftWithImplantPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'Sinus Lift With Implant' }
+                { title: 'Sinus Lift With Implant', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function CompositeBondingForMissingToothBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Composite Bonding For Missing Tooth' }
+                { title: 'Composite Bonding For Missing Tooth', href: '#' }
               ]}
             />
           </div>

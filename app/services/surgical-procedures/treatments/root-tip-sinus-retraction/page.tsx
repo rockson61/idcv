@@ -83,7 +83,7 @@ export default function RootTipSinusRetractionPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Treatments', href: '/services/surgical-procedures/treatments' },
-                { title: 'Root Tip Sinus Retraction' }
+                { title: 'Root Tip Sinus Retraction', href: '#' }
               ]}
             />
           </div>

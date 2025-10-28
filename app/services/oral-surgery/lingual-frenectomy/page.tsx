@@ -88,7 +88,7 @@ export default function LingualFrenectomyPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
-                { title: 'Lingual Frenectomy' }
+                { title: 'Lingual Frenectomy', href: '#' }
               ]}
             />
           </div>

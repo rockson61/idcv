@@ -88,7 +88,7 @@ export default function TeethContouringPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' },
-                { title: 'Teeth Contouring' }
+                { title: 'Teeth Contouring', href: '#' }
               ]}
             />
           </div>

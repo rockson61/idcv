@@ -88,7 +88,7 @@ export default function SoftTissueGraftsPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
-                { title: 'Soft Tissue Grafts' }
+                { title: 'Soft Tissue Grafts', href: '#' }
               ]}
             />
           </div>

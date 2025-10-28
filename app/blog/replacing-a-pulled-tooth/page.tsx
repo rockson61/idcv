@@ -103,7 +103,7 @@ export default function ReplacingAPulledToothBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Replacing A Pulled Tooth' }
+                { title: 'Replacing A Pulled Tooth', href: '#' }
               ]}
             />
           </div>

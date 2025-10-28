@@ -21,7 +21,7 @@ export default function FracturedTeethPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Fractured Teeth' }
+              { title: 'Fractured Teeth', href: '#' }
             ]}
           />
         </div>

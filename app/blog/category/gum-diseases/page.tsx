@@ -20,7 +20,7 @@ export default function gumdiseasesCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Gum Diseases' }
+              { title: 'Gum Diseases', href: '#' }
             ]}
           />
         </div>

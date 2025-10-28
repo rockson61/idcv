@@ -83,7 +83,7 @@ export default function FullJawAtrophyPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Conditions', href: '/services/surgical-procedures/conditions' },
-                { title: 'Full Jaw Atrophy' }
+                { title: 'Full Jaw Atrophy', href: '#' }
               ]}
             />
           </div>

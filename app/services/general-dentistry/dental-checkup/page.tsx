@@ -88,7 +88,7 @@ export default function DentalCheckupPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'General Dentistry', href: '/services/general-dentistry' },
-                { title: 'Dental Checkup' }
+                { title: 'Dental Checkup', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function BabyBottleToothDecayBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Pediatric Dentistry', href: '/blog/category/pediatric-dentistry' },
-                { title: 'Baby Bottle Tooth Decay' }
+                { title: 'Baby Bottle Tooth Decay', href: '#' }
               ]}
             />
           </div>

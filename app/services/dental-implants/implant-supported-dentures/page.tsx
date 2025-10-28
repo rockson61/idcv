@@ -88,7 +88,7 @@ export default function ImplantSupportedDenturesPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Dental Implants', href: '/services/dental-implants' },
-                { title: 'Implant Supported Dentures' }
+                { title: 'Implant Supported Dentures', href: '#' }
               ]}
             />
           </div>

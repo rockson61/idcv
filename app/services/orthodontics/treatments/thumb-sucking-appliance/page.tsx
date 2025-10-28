@@ -83,7 +83,7 @@ export default function ThumbSuckingAppliancePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Treatments', href: '/services/orthodontics/treatments' },
-                { title: 'Thumb Sucking Appliance' }
+                { title: 'Thumb Sucking Appliance', href: '#' }
               ]}
             />
           </div>

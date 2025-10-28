@@ -83,7 +83,7 @@ export default function PeriodontalDiseasegumViewPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Conditions', href: '/services/periodontics/conditions' },
-                { title: 'Periodontal Disease   gum View' }
+                { title: 'Periodontal Disease   gum View', href: '#' }
               ]}
             />
           </div>

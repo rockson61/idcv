@@ -103,7 +103,7 @@ export default function GumFlapSurgeryOverviewBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Surgeries', href: '/blog/category/oral-surgeries' },
-                { title: 'Gum Flap Surgery Overview' }
+                { title: 'Gum Flap Surgery Overview', href: '#' }
               ]}
             />
           </div>

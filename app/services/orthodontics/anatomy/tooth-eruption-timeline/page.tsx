@@ -83,7 +83,7 @@ export default function ToothEruptionTimelinePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Anatomy', href: '/services/orthodontics/anatomy' },
-                { title: 'Tooth Eruption Timeline' }
+                { title: 'Tooth Eruption Timeline', href: '#' }
               ]}
             />
           </div>

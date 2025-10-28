@@ -103,7 +103,7 @@ export default function BleedingGumsAfterQuittingSmokingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Bleeding Gums After Quitting Smoking' }
+                { title: 'Bleeding Gums After Quitting Smoking', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function GoodOralHygieneButStillHaveBadBreathBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Hygiene Maintenance', href: '/blog/category/oral-hygiene-maintenance' },
-                { title: 'Good Oral Hygiene But Still Have Bad Breath' }
+                { title: 'Good Oral Hygiene But Still Have Bad Breath', href: '#' }
               ]}
             />
           </div>

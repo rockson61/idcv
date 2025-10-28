@@ -89,7 +89,7 @@ export default function FlexiblePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Dentures', href: '/services/prosthodontics/dentures' },
-                { title: 'Flexible' }
+                { title: 'Flexible', href: '#' }
               ]}
             />
           </div>

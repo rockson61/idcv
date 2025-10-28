@@ -103,7 +103,7 @@ export default function WhatBacteriaCauseGingivitisBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'What Bacteria Cause Gingivitis' }
+                { title: 'What Bacteria Cause Gingivitis', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function SmokingAfterOralSurgeryBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Surgeries', href: '/blog/category/oral-surgeries' },
-                { title: 'Smoking After Oral Surgery' }
+                { title: 'Smoking After Oral Surgery', href: '#' }
               ]}
             />
           </div>

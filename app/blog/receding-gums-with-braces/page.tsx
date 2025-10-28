@@ -103,7 +103,7 @@ export default function RecedingGumsWithBracesBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Orthodontics Alignment', href: '/blog/category/orthodontics-alignment' },
-                { title: 'Receding Gums With Braces' }
+                { title: 'Receding Gums With Braces', href: '#' }
               ]}
             />
           </div>

@@ -83,7 +83,7 @@ export default function GummySmileCorrectionPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Treatments', href: '/services/restorative-dentistry/treatments' },
-                { title: 'Gummy Smile Correction' }
+                { title: 'Gummy Smile Correction', href: '#' }
               ]}
             />
           </div>

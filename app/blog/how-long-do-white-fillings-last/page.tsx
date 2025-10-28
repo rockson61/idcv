@@ -103,7 +103,7 @@ export default function HowLongDoWhiteFillingsLastBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Decay Cavities', href: '/blog/category/tooth-decay-cavities' },
-                { title: 'How Long Do White Fillings Last' }
+                { title: 'How Long Do White Fillings Last', href: '#' }
               ]}
             />
           </div>

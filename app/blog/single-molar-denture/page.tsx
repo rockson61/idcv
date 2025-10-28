@@ -103,7 +103,7 @@ export default function SingleMolarDentureBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Bridges Dentures', href: '/blog/category/bridges-dentures' },
-                { title: 'Single Molar Denture' }
+                { title: 'Single Molar Denture', href: '#' }
               ]}
             />
           </div>

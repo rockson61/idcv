@@ -89,7 +89,7 @@ export default function PfmCrownPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Dental Crowns', href: '/services/restorative-dentistry/dental-crowns' },
-                { title: 'Pfm Crown' }
+                { title: 'Pfm Crown', href: '#' }
               ]}
             />
           </div>

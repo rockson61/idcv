@@ -83,7 +83,7 @@ export default function AntibioticsRootCanalPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
                 { title: 'Treatments', href: '/services/endodontics/treatments' },
-                { title: 'Antibiotics Root Canal' }
+                { title: 'Antibiotics Root Canal', href: '#' }
               ]}
             />
           </div>

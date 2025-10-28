@@ -89,7 +89,7 @@ export default function TemporaryCrownPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Dental Crowns', href: '/services/restorative-dentistry/dental-crowns' },
-                { title: 'Temporary Crown' }
+                { title: 'Temporary Crown', href: '#' }
               ]}
             />
           </div>

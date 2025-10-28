@@ -88,7 +88,7 @@ export default function FluorideTreatmentsPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Preventive Dentistry', href: '/services/preventive-dentistry' },
-                { title: 'Fluoride Treatments' }
+                { title: 'Fluoride Treatments', href: '#' }
               ]}
             />
           </div>

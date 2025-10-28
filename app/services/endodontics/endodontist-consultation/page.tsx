@@ -88,7 +88,7 @@ export default function EndodontistConsultationPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
-                { title: 'Endodontist Consultation' }
+                { title: 'Endodontist Consultation', href: '#' }
               ]}
             />
           </div>

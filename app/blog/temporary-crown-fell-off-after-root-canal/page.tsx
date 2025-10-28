@@ -103,7 +103,7 @@ export default function TemporaryCrownFellOffAfterRootCanalBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Temporary Crown Fell Off After Root Canal' }
+                { title: 'Temporary Crown Fell Off After Root Canal', href: '#' }
               ]}
             />
           </div>

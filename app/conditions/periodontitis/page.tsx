@@ -21,7 +21,7 @@ export default function PeriodontitisPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Periodontitis' }
+              { title: 'Periodontitis', href: '#' }
             ]}
           />
         </div>

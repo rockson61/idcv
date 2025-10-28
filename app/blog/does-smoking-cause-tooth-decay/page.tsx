@@ -103,7 +103,7 @@ export default function DoesSmokingCauseToothDecayBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Smoking Related', href: '/blog/category/smoking-related' },
-                { title: 'Does Smoking Cause Tooth Decay' }
+                { title: 'Does Smoking Cause Tooth Decay', href: '#' }
               ]}
             />
           </div>

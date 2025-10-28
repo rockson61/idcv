@@ -103,7 +103,7 @@ export default function MisalignedTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Orthodontics Alignment', href: '/blog/category/orthodontics-alignment' },
-                { title: 'Misaligned Teeth' }
+                { title: 'Misaligned Teeth', href: '#' }
               ]}
             />
           </div>

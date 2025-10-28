@@ -103,7 +103,7 @@ export default function PocketReductionSurgeryBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Pocket Reduction Surgery' }
+                { title: 'Pocket Reduction Surgery', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function PlacingCrownOnCrackedToothBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Placing Crown On Cracked Tooth' }
+                { title: 'Placing Crown On Cracked Tooth', href: '#' }
               ]}
             />
           </div>

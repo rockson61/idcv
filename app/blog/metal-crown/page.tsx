@@ -103,7 +103,7 @@ export default function MetalCrownBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Metal Crown' }
+                { title: 'Metal Crown', href: '#' }
               ]}
             />
           </div>

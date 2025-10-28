@@ -103,7 +103,7 @@ export default function TarStainsOnTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Cosmetic Dentistry', href: '/blog/category/cosmetic-dentistry' },
-                { title: 'Tar Stains On Teeth' }
+                { title: 'Tar Stains On Teeth', href: '#' }
               ]}
             />
           </div>

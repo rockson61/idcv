@@ -103,7 +103,7 @@ export default function BabyToothWithCrownFellOutBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Pediatric Dentistry', href: '/blog/category/pediatric-dentistry' },
-                { title: 'Baby Tooth With Crown Fell Out' }
+                { title: 'Baby Tooth With Crown Fell Out', href: '#' }
               ]}
             />
           </div>

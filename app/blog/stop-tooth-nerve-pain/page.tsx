@@ -103,7 +103,7 @@ export default function StopToothNervePainBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Pain Sensitivity', href: '/blog/category/tooth-pain-sensitivity' },
-                { title: 'Stop Tooth Nerve Pain' }
+                { title: 'Stop Tooth Nerve Pain', href: '#' }
               ]}
             />
           </div>

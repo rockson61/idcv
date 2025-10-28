@@ -83,7 +83,7 @@ export default function AnteriorTeethSplayingPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Treatments', href: '/services/prosthodontics/treatments' },
-                { title: 'Anterior Teeth Splaying' }
+                { title: 'Anterior Teeth Splaying', href: '#' }
               ]}
             />
           </div>

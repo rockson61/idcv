@@ -83,7 +83,7 @@ export default function ToothDecayFromSmokingPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
                 { title: 'Conditions', href: '/services/endodontics/conditions' },
-                { title: 'Tooth Decay From Smoking' }
+                { title: 'Tooth Decay From Smoking', href: '#' }
               ]}
             />
           </div>

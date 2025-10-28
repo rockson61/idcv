@@ -83,7 +83,7 @@ export default function PeriodontalPocketSymptomsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Conditions', href: '/services/periodontics/conditions' },
-                { title: 'Periodontal Pocket Symptoms' }
+                { title: 'Periodontal Pocket Symptoms', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function WisdomToothAbscessBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Wisdom Teeth', href: '/blog/category/wisdom-teeth' },
-                { title: 'Wisdom Tooth Abscess' }
+                { title: 'Wisdom Tooth Abscess', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function ReplacingALostToothBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Replacing A Lost Tooth' }
+                { title: 'Replacing A Lost Tooth', href: '#' }
               ]}
             />
           </div>

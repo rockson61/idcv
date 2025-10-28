@@ -21,7 +21,7 @@ export default function ToothDiscolorationPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Tooth Discoloration' }
+              { title: 'Tooth Discoloration', href: '#' }
             ]}
           />
         </div>

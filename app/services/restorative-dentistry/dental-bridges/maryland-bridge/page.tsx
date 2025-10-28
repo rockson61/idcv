@@ -89,7 +89,7 @@ export default function MarylandBridgePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Dental Bridges', href: '/services/restorative-dentistry/dental-bridges' },
-                { title: 'Maryland Bridge' }
+                { title: 'Maryland Bridge', href: '#' }
               ]}
             />
           </div>

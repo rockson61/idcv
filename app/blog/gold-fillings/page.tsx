@@ -103,7 +103,7 @@ export default function GoldFillingsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Gold Fillings' }
+                { title: 'Gold Fillings', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function GumFlapSurgeryBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Gum Flap Surgery' }
+                { title: 'Gum Flap Surgery', href: '#' }
               ]}
             />
           </div>

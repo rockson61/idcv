@@ -83,7 +83,7 @@ export default function DentalBridgeOneToothPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Treatments', href: '/services/restorative-dentistry/treatments' },
-                { title: 'Dental Bridge One Tooth' }
+                { title: 'Dental Bridge One Tooth', href: '#' }
               ]}
             />
           </div>

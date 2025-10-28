@@ -88,7 +88,7 @@ export default function OralPathologyPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
-                { title: 'Oral Pathology' }
+                { title: 'Oral Pathology', href: '#' }
               ]}
             />
           </div>

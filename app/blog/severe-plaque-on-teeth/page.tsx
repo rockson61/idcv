@@ -103,7 +103,7 @@ export default function SeverePlaqueOnTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Hygiene Maintenance', href: '/blog/category/oral-hygiene-maintenance' },
-                { title: 'Severe Plaque On Teeth' }
+                { title: 'Severe Plaque On Teeth', href: '#' }
               ]}
             />
           </div>

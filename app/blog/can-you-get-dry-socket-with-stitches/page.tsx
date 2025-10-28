@@ -103,7 +103,7 @@ export default function CanYouGetDrySocketWithStitchesBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Can You Get Dry Socket With Stitches' }
+                { title: 'Can You Get Dry Socket With Stitches', href: '#' }
               ]}
             />
           </div>

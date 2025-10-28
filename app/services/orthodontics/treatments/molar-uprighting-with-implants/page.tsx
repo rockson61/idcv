@@ -83,7 +83,7 @@ export default function MolarUprightingWithImplantsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Treatments', href: '/services/orthodontics/treatments' },
-                { title: 'Molar Uprighting With Implants' }
+                { title: 'Molar Uprighting With Implants', href: '#' }
               ]}
             />
           </div>

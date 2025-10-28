@@ -103,7 +103,7 @@ export default function DarkGumsFromSmokingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Smoking Related', href: '/blog/category/smoking-related' },
-                { title: 'Dark Gums From Smoking' }
+                { title: 'Dark Gums From Smoking', href: '#' }
               ]}
             />
           </div>

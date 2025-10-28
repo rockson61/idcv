@@ -103,7 +103,7 @@ export default function BadBreathAfterToothExtractionBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Surgeries', href: '/blog/category/oral-surgeries' },
-                { title: 'Bad Breath After Tooth Extraction' }
+                { title: 'Bad Breath After Tooth Extraction', href: '#' }
               ]}
             />
           </div>

@@ -89,7 +89,7 @@ export default function LaserWhiteningPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' },
                 { title: 'Teeth Whitening', href: '/services/cosmetic-dentistry/teeth-whitening' },
-                { title: 'Laser Whitening' }
+                { title: 'Laser Whitening', href: '#' }
               ]}
             />
           </div>

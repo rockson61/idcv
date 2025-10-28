@@ -103,7 +103,7 @@ export default function PeriodontalDiseaseAndBoneLossBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Periodontal Disease And Bone Loss' }
+                { title: 'Periodontal Disease And Bone Loss', href: '#' }
               ]}
             />
           </div>

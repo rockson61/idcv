@@ -103,7 +103,7 @@ export default function PeriodontalCleaningBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Periodontal Cleaning' }
+                { title: 'Periodontal Cleaning', href: '#' }
               ]}
             />
           </div>

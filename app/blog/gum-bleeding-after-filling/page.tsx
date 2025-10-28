@@ -103,7 +103,7 @@ export default function GumBleedingAfterFillingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Surgeries', href: '/blog/category/oral-surgeries' },
-                { title: 'Gum Bleeding After Filling' }
+                { title: 'Gum Bleeding After Filling', href: '#' }
               ]}
             />
           </div>

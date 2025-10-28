@@ -103,7 +103,7 @@ export default function CavitiesInFrontTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Decay Cavities', href: '/blog/category/tooth-decay-cavities' },
-                { title: 'Cavities In Front Teeth' }
+                { title: 'Cavities In Front Teeth', href: '#' }
               ]}
             />
           </div>

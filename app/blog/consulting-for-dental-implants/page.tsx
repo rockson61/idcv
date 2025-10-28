@@ -103,7 +103,7 @@ export default function ConsultingForDentalImplantsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Diagnostic Planning', href: '/blog/category/diagnostic-planning' },
-                { title: 'Consulting For Dental Implants' }
+                { title: 'Consulting For Dental Implants', href: '#' }
               ]}
             />
           </div>

@@ -83,7 +83,7 @@ export default function SerialExtractionPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Treatments', href: '/services/orthodontics/treatments' },
-                { title: 'Serial Extraction' }
+                { title: 'Serial Extraction', href: '#' }
               ]}
             />
           </div>

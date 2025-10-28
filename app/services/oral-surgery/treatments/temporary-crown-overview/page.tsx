@@ -83,7 +83,7 @@ export default function TemporaryCrownOverviewPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
                 { title: 'Treatments', href: '/services/oral-surgery/treatments' },
-                { title: 'Temporary Crown Overview' }
+                { title: 'Temporary Crown Overview', href: '#' }
               ]}
             />
           </div>

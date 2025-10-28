@@ -103,7 +103,7 @@ export default function LooseBabyToothWithCrownBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Pediatric Dentistry', href: '/blog/category/pediatric-dentistry' },
-                { title: 'Loose Baby Tooth With Crown' }
+                { title: 'Loose Baby Tooth With Crown', href: '#' }
               ]}
             />
           </div>

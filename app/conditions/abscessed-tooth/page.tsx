@@ -21,7 +21,7 @@ export default function AbscessedToothPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Abscessed Tooth' }
+              { title: 'Abscessed Tooth', href: '#' }
             ]}
           />
         </div>

@@ -20,7 +20,7 @@ export default function smokingrelatedCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Smoking Related' }
+              { title: 'Smoking Related', href: '#' }
             ]}
           />
         </div>

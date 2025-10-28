@@ -103,7 +103,7 @@ export default function PericoronitisHomeRemedyBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Wisdom Teeth', href: '/blog/category/wisdom-teeth' },
-                { title: 'Pericoronitis Home Remedy' }
+                { title: 'Pericoronitis Home Remedy', href: '#' }
               ]}
             />
           </div>

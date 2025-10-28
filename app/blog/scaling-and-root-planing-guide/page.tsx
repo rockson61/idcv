@@ -103,7 +103,7 @@ export default function ScalingAndRootPlaningGuideBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Scaling And Root Planing Guide' }
+                { title: 'Scaling And Root Planing Guide', href: '#' }
               ]}
             />
           </div>

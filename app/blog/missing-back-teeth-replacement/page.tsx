@@ -103,7 +103,7 @@ export default function MissingBackTeethReplacementBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Missing Back Teeth Replacement' }
+                { title: 'Missing Back Teeth Replacement', href: '#' }
               ]}
             />
           </div>

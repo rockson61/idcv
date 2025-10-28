@@ -83,7 +83,7 @@ export default function ImplantTypesshortImplantsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'Implant Types   short Implants' }
+                { title: 'Implant Types   short Implants', href: '#' }
               ]}
             />
           </div>

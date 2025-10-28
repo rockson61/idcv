@@ -89,7 +89,7 @@ export default function GoldPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Inlays Onlays', href: '/services/restorative-dentistry/inlays-onlays' },
-                { title: 'Gold' }
+                { title: 'Gold', href: '#' }
               ]}
             />
           </div>

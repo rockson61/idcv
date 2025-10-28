@@ -83,7 +83,7 @@ export default function MandibularPosteriorAtrophyPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Conditions', href: '/services/surgical-procedures/conditions' },
-                { title: 'Mandibular Posterior Atrophy' }
+                { title: 'Mandibular Posterior Atrophy', href: '#' }
               ]}
             />
           </div>

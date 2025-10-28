@@ -89,7 +89,7 @@ export default function SurgicalPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
                 { title: 'Extractions', href: '/services/oral-surgery/extractions' },
-                { title: 'Surgical' }
+                { title: 'Surgical', href: '#' }
               ]}
             />
           </div>

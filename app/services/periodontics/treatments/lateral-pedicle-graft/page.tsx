@@ -83,7 +83,7 @@ export default function LateralPedicleGraftPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Lateral Pedicle Graft' }
+                { title: 'Lateral Pedicle Graft', href: '#' }
               ]}
             />
           </div>

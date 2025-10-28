@@ -83,7 +83,7 @@ export default function PocketOfPusGumsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
                 { title: 'Conditions', href: '/services/oral-surgery/conditions' },
-                { title: 'Pocket Of Pus Gums' }
+                { title: 'Pocket Of Pus Gums', href: '#' }
               ]}
             />
           </div>

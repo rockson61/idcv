@@ -83,7 +83,7 @@ export default function TemporaryBridgeFrontTeethPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
                 { title: 'Treatments', href: '/services/oral-surgery/treatments' },
-                { title: 'Temporary Bridge Front Teeth' }
+                { title: 'Temporary Bridge Front Teeth', href: '#' }
               ]}
             />
           </div>

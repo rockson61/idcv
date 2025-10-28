@@ -103,7 +103,7 @@ export default function ZirconiaVsTitaniumImplantsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Diagnostic Planning', href: '/blog/category/diagnostic-planning' },
-                { title: 'Zirconia Vs Titanium Implants' }
+                { title: 'Zirconia Vs Titanium Implants', href: '#' }
               ]}
             />
           </div>

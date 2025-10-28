@@ -83,7 +83,7 @@ export default function ToothPainSensitivityPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
                 { title: 'Conditions', href: '/services/endodontics/conditions' },
-                { title: 'Tooth Pain Sensitivity' }
+                { title: 'Tooth Pain Sensitivity', href: '#' }
               ]}
             />
           </div>

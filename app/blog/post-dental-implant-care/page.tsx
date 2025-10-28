@@ -103,7 +103,7 @@ export default function PostDentalImplantCareBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Surgeries', href: '/blog/category/oral-surgeries' },
-                { title: 'Post Dental Implant Care' }
+                { title: 'Post Dental Implant Care', href: '#' }
               ]}
             />
           </div>

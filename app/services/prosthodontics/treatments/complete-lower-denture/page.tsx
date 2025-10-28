@@ -83,7 +83,7 @@ export default function CompleteLowerDenturePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Treatments', href: '/services/prosthodontics/treatments' },
-                { title: 'Complete Lower Denture' }
+                { title: 'Complete Lower Denture', href: '#' }
               ]}
             />
           </div>

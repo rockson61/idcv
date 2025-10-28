@@ -89,7 +89,7 @@ export default function DamonBracesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Braces', href: '/services/orthodontics/braces' },
-                { title: 'Damon Braces' }
+                { title: 'Damon Braces', href: '#' }
               ]}
             />
           </div>

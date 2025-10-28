@@ -103,7 +103,7 @@ export default function SilverCapFellOffBabyToothBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Pediatric Dentistry', href: '/blog/category/pediatric-dentistry' },
-                { title: 'Silver Cap Fell Off Baby Tooth' }
+                { title: 'Silver Cap Fell Off Baby Tooth', href: '#' }
               ]}
             />
           </div>

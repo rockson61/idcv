@@ -88,7 +88,7 @@ export default function SinusLiftPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Dental Implants', href: '/services/dental-implants' },
-                { title: 'Sinus Lift' }
+                { title: 'Sinus Lift', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function TeethGrindingBruxismBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Damage Trauma', href: '/blog/category/tooth-damage-trauma' },
-                { title: 'Teeth Grinding Bruxism' }
+                { title: 'Teeth Grinding Bruxism', href: '#' }
               ]}
             />
           </div>

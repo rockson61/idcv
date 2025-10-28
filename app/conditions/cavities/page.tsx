@@ -21,7 +21,7 @@ export default function CavitiesPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Cavities' }
+              { title: 'Cavities', href: '#' }
             ]}
           />
         </div>

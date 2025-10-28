@@ -103,7 +103,7 @@ export default function ToothDecaySmellBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Pain Sensitivity', href: '/blog/category/tooth-pain-sensitivity' },
-                { title: 'Tooth Decay Smell' }
+                { title: 'Tooth Decay Smell', href: '#' }
               ]}
             />
           </div>

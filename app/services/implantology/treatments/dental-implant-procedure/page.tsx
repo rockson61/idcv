@@ -83,7 +83,7 @@ export default function DentalImplantProcedurePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'Dental Implant Procedure' }
+                { title: 'Dental Implant Procedure', href: '#' }
               ]}
             />
           </div>

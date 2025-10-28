@@ -83,7 +83,7 @@ export default function ImplantTypesattachedToTeethPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'Implant Types   attached To Teeth' }
+                { title: 'Implant Types   attached To Teeth', href: '#' }
               ]}
             />
           </div>

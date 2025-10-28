@@ -89,7 +89,7 @@ export default function LingualBracesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Braces', href: '/services/orthodontics/braces' },
-                { title: 'Lingual Braces' }
+                { title: 'Lingual Braces', href: '#' }
               ]}
             />
           </div>

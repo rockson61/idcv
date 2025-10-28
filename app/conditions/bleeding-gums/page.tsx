@@ -21,7 +21,7 @@ export default function BleedingGumsPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Bleeding Gums' }
+              { title: 'Bleeding Gums', href: '#' }
             ]}
           />
         </div>

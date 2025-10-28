@@ -88,7 +88,7 @@ export default function BrokenToothRepairPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Emergency Dentistry', href: '/services/emergency-dentistry' },
-                { title: 'Broken Tooth Repair' }
+                { title: 'Broken Tooth Repair', href: '#' }
               ]}
             />
           </div>

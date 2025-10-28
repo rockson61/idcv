@@ -103,7 +103,7 @@ export default function TartarBreakingOffTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Hygiene Maintenance', href: '/blog/category/oral-hygiene-maintenance' },
-                { title: 'Tartar Breaking Off Teeth' }
+                { title: 'Tartar Breaking Off Teeth', href: '#' }
               ]}
             />
           </div>

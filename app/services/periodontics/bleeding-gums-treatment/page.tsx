@@ -81,7 +81,7 @@ export default function ServicePage() {
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
-            { title: 'Bleeding Gums Treatment' }
+            { title: 'Bleeding Gums Treatment', href: '#' }
           ]}
         />
 

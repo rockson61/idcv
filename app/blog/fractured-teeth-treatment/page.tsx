@@ -103,7 +103,7 @@ export default function FracturedTeethTreatmentBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Damage Trauma', href: '/blog/category/tooth-damage-trauma' },
-                { title: 'Fractured Teeth Treatment' }
+                { title: 'Fractured Teeth Treatment', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function ToothAnatomyGuideBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Diagnostic Planning', href: '/blog/category/diagnostic-planning' },
-                { title: 'Tooth Anatomy Guide' }
+                { title: 'Tooth Anatomy Guide', href: '#' }
               ]}
             />
           </div>

@@ -89,7 +89,7 @@ export default function FullDenturesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Dentures', href: '/services/prosthodontics/dentures' },
-                { title: 'Full Dentures' }
+                { title: 'Full Dentures', href: '#' }
               ]}
             />
           </div>

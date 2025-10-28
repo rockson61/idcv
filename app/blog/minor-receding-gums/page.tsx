@@ -103,7 +103,7 @@ export default function MinorRecedingGumsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Minor Receding Gums' }
+                { title: 'Minor Receding Gums', href: '#' }
               ]}
             />
           </div>

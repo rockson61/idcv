@@ -89,7 +89,7 @@ export default function ImplantBridgePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Dental Bridges', href: '/services/restorative-dentistry/dental-bridges' },
-                { title: 'Implant Bridge' }
+                { title: 'Implant Bridge', href: '#' }
               ]}
             />
           </div>

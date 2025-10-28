@@ -89,7 +89,7 @@ export default function AdjustmentPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Dentures', href: '/services/prosthodontics/dentures' },
-                { title: 'Adjustment' }
+                { title: 'Adjustment', href: '#' }
               ]}
             />
           </div>

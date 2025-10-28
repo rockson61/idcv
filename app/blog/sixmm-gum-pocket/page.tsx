@@ -103,7 +103,7 @@ export default function SixMmGumPocketBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Wisdom Teeth', href: '/blog/category/wisdom-teeth' },
-                { title: '6mm Gum Pocket' }
+                { title: '6mm Gum Pocket', href: '#' }
               ]}
             />
           </div>

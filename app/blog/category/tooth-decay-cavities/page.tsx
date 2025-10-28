@@ -20,7 +20,7 @@ export default function toothdecaycavitiesCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Tooth Decay Cavities' }
+              { title: 'Tooth Decay Cavities', href: '#' }
             ]}
           />
         </div>

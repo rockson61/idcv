@@ -89,7 +89,7 @@ export default function MolarPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
                 { title: 'Root Canal Therapy', href: '/services/endodontics/root-canal-therapy' },
-                { title: 'Molar' }
+                { title: 'Molar', href: '#' }
               ]}
             />
           </div>

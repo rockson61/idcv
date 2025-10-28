@@ -83,7 +83,7 @@ export default function DistractionOsteogenesisPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Treatments', href: '/services/surgical-procedures/treatments' },
-                { title: 'Distraction Osteogenesis' }
+                { title: 'Distraction Osteogenesis', href: '#' }
               ]}
             />
           </div>

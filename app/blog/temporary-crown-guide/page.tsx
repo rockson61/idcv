@@ -103,7 +103,7 @@ export default function TemporaryCrownGuideBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Temporary Crown Guide' }
+                { title: 'Temporary Crown Guide', href: '#' }
               ]}
             />
           </div>

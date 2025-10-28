@@ -103,7 +103,7 @@ export default function TeachingDentalHygieneToPreschoolersBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Hygiene Maintenance', href: '/blog/category/oral-hygiene-maintenance' },
-                { title: 'Teaching Dental Hygiene To Preschoolers' }
+                { title: 'Teaching Dental Hygiene To Preschoolers', href: '#' }
               ]}
             />
           </div>

@@ -83,7 +83,7 @@ export default function ScalingAndRootPlaningPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Scaling And Root Planing' }
+                { title: 'Scaling And Root Planing', href: '#' }
               ]}
             />
           </div>

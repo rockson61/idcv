@@ -103,7 +103,7 @@ export default function DentalTreatmentAnxietyManagementBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Diagnostic Planning', href: '/blog/category/diagnostic-planning' },
-                { title: 'Dental Treatment Anxiety Management' }
+                { title: 'Dental Treatment Anxiety Management', href: '#' }
               ]}
             />
           </div>

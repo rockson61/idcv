@@ -83,7 +83,7 @@ export default function ImplantTypesocclusalAccessPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'Implant Types   occlusal Access' }
+                { title: 'Implant Types   occlusal Access', href: '#' }
               ]}
             />
           </div>

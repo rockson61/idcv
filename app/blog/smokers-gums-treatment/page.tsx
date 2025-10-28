@@ -103,7 +103,7 @@ export default function SmokersGumsTreatmentBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Smoking Related', href: '/blog/category/smoking-related' },
-                { title: 'Smokers Gums Treatment' }
+                { title: 'Smokers Gums Treatment', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function InflamedOperculumBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Wisdom Teeth', href: '/blog/category/wisdom-teeth' },
-                { title: 'Inflamed Operculum' }
+                { title: 'Inflamed Operculum', href: '#' }
               ]}
             />
           </div>

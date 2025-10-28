@@ -83,7 +83,7 @@ export default function ToothDecayCavitiesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
                 { title: 'Conditions', href: '/services/endodontics/conditions' },
-                { title: 'Tooth Decay Cavities' }
+                { title: 'Tooth Decay Cavities', href: '#' }
               ]}
             />
           </div>

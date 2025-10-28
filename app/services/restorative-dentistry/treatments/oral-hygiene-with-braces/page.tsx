@@ -83,7 +83,7 @@ export default function OralHygieneWithBracesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Treatments', href: '/services/restorative-dentistry/treatments' },
-                { title: 'Oral Hygiene With Braces' }
+                { title: 'Oral Hygiene With Braces', href: '#' }
               ]}
             />
           </div>

@@ -88,7 +88,7 @@ export default function PeriodontitisTreatmentPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
-                { title: 'Periodontitis Treatment' }
+                { title: 'Periodontitis Treatment', href: '#' }
               ]}
             />
           </div>

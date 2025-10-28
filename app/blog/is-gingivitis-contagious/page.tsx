@@ -103,7 +103,7 @@ export default function IsGingivitisContagiousBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'Is Gingivitis Contagious' }
+                { title: 'Is Gingivitis Contagious', href: '#' }
               ]}
             />
           </div>

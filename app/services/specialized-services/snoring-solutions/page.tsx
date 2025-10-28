@@ -88,7 +88,7 @@ export default function SnoringSolutionsPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Specialized Services', href: '/services/specialized-services' },
-                { title: 'Snoring Solutions' }
+                { title: 'Snoring Solutions', href: '#' }
               ]}
             />
           </div>

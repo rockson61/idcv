@@ -103,7 +103,7 @@ export default function CompositeFillingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Composite Filling' }
+                { title: 'Composite Filling', href: '#' }
               ]}
             />
           </div>

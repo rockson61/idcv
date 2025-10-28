@@ -103,7 +103,7 @@ export default function PainfulGumsAroundWisdomToothBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Wisdom Teeth', href: '/blog/category/wisdom-teeth' },
-                { title: 'Painful Gums Around Wisdom Tooth' }
+                { title: 'Painful Gums Around Wisdom Tooth', href: '#' }
               ]}
             />
           </div>

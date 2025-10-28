@@ -83,7 +83,7 @@ export default function ProphylaxisWithRecessionPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Prophylaxis With Recession' }
+                { title: 'Prophylaxis With Recession', href: '#' }
               ]}
             />
           </div>

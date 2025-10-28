@@ -83,7 +83,7 @@ export default function GuidedTissueRegenerationPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Guided Tissue Regeneration' }
+                { title: 'Guided Tissue Regeneration', href: '#' }
               ]}
             />
           </div>

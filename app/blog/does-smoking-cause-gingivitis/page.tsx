@@ -103,7 +103,7 @@ export default function DoesSmokingCauseGingivitisBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Smoking Related', href: '/blog/category/smoking-related' },
-                { title: 'Does Smoking Cause Gingivitis' }
+                { title: 'Does Smoking Cause Gingivitis', href: '#' }
               ]}
             />
           </div>

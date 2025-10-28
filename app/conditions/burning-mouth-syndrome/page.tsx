@@ -21,7 +21,7 @@ export default function BurningMouthSyndromePage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Burning Mouth Syndrome' }
+              { title: 'Burning Mouth Syndrome', href: '#' }
             ]}
           />
         </div>

@@ -89,7 +89,7 @@ export default function GoldCrownPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Dental Crowns', href: '/services/restorative-dentistry/dental-crowns' },
-                { title: 'Gold Crown' }
+                { title: 'Gold Crown', href: '#' }
               ]}
             />
           </div>

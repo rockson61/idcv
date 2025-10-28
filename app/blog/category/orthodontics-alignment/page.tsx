@@ -20,7 +20,7 @@ export default function orthodonticsalignmentCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Orthodontics Alignment' }
+              { title: 'Orthodontics Alignment', href: '#' }
             ]}
           />
         </div>

@@ -103,7 +103,7 @@ export default function BleedingWhenBrushingTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'Bleeding When Brushing Teeth' }
+                { title: 'Bleeding When Brushing Teeth', href: '#' }
               ]}
             />
           </div>

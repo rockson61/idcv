@@ -83,7 +83,7 @@ export default function PostDentalImplantCarePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
                 { title: 'Treatments', href: '/services/oral-surgery/treatments' },
-                { title: 'Post Dental Implant Care' }
+                { title: 'Post Dental Implant Care', href: '#' }
               ]}
             />
           </div>

@@ -83,7 +83,7 @@ export default function SootheToothPainPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
                 { title: 'Conditions', href: '/services/endodontics/conditions' },
-                { title: 'Soothe Tooth Pain' }
+                { title: 'Soothe Tooth Pain', href: '#' }
               ]}
             />
           </div>

@@ -88,7 +88,7 @@ export default function SnapOnSmilePage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' },
-                { title: 'Snap On Smile' }
+                { title: 'Snap On Smile', href: '#' }
               ]}
             />
           </div>

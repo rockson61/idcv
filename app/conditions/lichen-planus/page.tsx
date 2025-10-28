@@ -21,7 +21,7 @@ export default function LichenPlanusPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Lichen Planus' }
+              { title: 'Lichen Planus', href: '#' }
             ]}
           />
         </div>

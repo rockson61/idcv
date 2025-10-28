@@ -89,7 +89,7 @@ export default function FixedBracesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Braces', href: '/services/orthodontics/braces' },
-                { title: 'Fixed Braces' }
+                { title: 'Fixed Braces', href: '#' }
               ]}
             />
           </div>

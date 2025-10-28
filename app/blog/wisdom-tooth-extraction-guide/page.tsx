@@ -103,7 +103,7 @@ export default function WisdomToothExtractionGuideBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Wisdom Tooth Extraction Guide' }
+                { title: 'Wisdom Tooth Extraction Guide', href: '#' }
               ]}
             />
           </div>

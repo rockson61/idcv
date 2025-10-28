@@ -20,7 +20,7 @@ export default function restorativedentistryCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry' }
+              { title: 'Restorative Dentistry', href: '#' }
             ]}
           />
         </div>

@@ -83,7 +83,7 @@ export default function FracturedTeethPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Conditions', href: '/services/restorative-dentistry/conditions' },
-                { title: 'Fractured Teeth' }
+                { title: 'Fractured Teeth', href: '#' }
               ]}
             />
           </div>

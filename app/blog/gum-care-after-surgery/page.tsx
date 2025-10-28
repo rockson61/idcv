@@ -103,7 +103,7 @@ export default function GumCareAfterSurgeryBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Surgeries', href: '/blog/category/oral-surgeries' },
-                { title: 'Gum Care After Surgery' }
+                { title: 'Gum Care After Surgery', href: '#' }
               ]}
             />
           </div>

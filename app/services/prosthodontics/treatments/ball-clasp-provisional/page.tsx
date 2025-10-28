@@ -83,7 +83,7 @@ export default function BallClaspProvisionalPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Treatments', href: '/services/prosthodontics/treatments' },
-                { title: 'Ball Clasp Provisional' }
+                { title: 'Ball Clasp Provisional', href: '#' }
               ]}
             />
           </div>

@@ -83,7 +83,7 @@ export default function BarClipRetainedImplantsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'Bar Clip Retained Implants' }
+                { title: 'Bar Clip Retained Implants', href: '#' }
               ]}
             />
           </div>

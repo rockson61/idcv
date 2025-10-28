@@ -103,7 +103,7 @@ export default function GumRecessionFromBracesBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Gum Recession From Braces' }
+                { title: 'Gum Recession From Braces', href: '#' }
               ]}
             />
           </div>

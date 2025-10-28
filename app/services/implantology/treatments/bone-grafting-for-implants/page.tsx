@@ -83,7 +83,7 @@ export default function BoneGraftingForImplantsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'Bone Grafting For Implants' }
+                { title: 'Bone Grafting For Implants', href: '#' }
               ]}
             />
           </div>

@@ -83,7 +83,7 @@ export default function BabyBottleToothDecayPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Treatments', href: '/services/restorative-dentistry/treatments' },
-                { title: 'Baby Bottle Tooth Decay' }
+                { title: 'Baby Bottle Tooth Decay', href: '#' }
               ]}
             />
           </div>

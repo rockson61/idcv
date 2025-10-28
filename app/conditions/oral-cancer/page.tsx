@@ -21,7 +21,7 @@ export default function OralCancerPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Oral Cancer' }
+              { title: 'Oral Cancer', href: '#' }
             ]}
           />
         </div>

@@ -88,7 +88,7 @@ export default function NutritionalCounselingPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Preventive Dentistry', href: '/services/preventive-dentistry' },
-                { title: 'Nutritional Counseling' }
+                { title: 'Nutritional Counseling', href: '#' }
               ]}
             />
           </div>

@@ -20,7 +20,7 @@ export default function extractionsimplantsCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Extractions Implants' }
+              { title: 'Extractions Implants', href: '#' }
             ]}
           />
         </div>

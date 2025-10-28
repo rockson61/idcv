@@ -83,7 +83,7 @@ export default function ChinAutograftMandibularPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Treatments', href: '/services/surgical-procedures/treatments' },
-                { title: 'Chin Autograft Mandibular' }
+                { title: 'Chin Autograft Mandibular', href: '#' }
               ]}
             />
           </div>

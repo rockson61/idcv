@@ -103,7 +103,7 @@ export default function BabyToothInfectionBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Pediatric Dentistry', href: '/blog/category/pediatric-dentistry' },
-                { title: 'Baby Tooth Infection' }
+                { title: 'Baby Tooth Infection', href: '#' }
               ]}
             />
           </div>

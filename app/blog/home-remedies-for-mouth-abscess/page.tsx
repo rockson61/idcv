@@ -103,7 +103,7 @@ export default function HomeRemediesForMouthAbscessBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Infections', href: '/blog/category/oral-infections' },
-                { title: 'Home Remedies For Mouth Abscess' }
+                { title: 'Home Remedies For Mouth Abscess', href: '#' }
               ]}
             />
           </div>

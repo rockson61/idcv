@@ -103,7 +103,7 @@ export default function CavitiesBetweenTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Decay Cavities', href: '/blog/category/tooth-decay-cavities' },
-                { title: 'Cavities Between Teeth' }
+                { title: 'Cavities Between Teeth', href: '#' }
               ]}
             />
           </div>

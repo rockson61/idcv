@@ -20,7 +20,7 @@ export default function toothdamagetraumaCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Tooth Damage Trauma' }
+              { title: 'Tooth Damage Trauma', href: '#' }
             ]}
           />
         </div>

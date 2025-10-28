@@ -83,7 +83,7 @@ export default function GumAbscessPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
                 { title: 'Conditions', href: '/services/oral-surgery/conditions' },
-                { title: 'Gum Abscess' }
+                { title: 'Gum Abscess', href: '#' }
               ]}
             />
           </div>

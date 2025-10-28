@@ -103,7 +103,7 @@ export default function SmokingCausesPeriodontalDiseaseBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Smoking Causes Periodontal Disease' }
+                { title: 'Smoking Causes Periodontal Disease', href: '#' }
               ]}
             />
           </div>

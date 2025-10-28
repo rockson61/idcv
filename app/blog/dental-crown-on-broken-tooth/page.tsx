@@ -103,7 +103,7 @@ export default function DentalCrownOnBrokenToothBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Damage Trauma', href: '/blog/category/tooth-damage-trauma' },
-                { title: 'Dental Crown On Broken Tooth' }
+                { title: 'Dental Crown On Broken Tooth', href: '#' }
               ]}
             />
           </div>

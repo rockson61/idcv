@@ -103,7 +103,7 @@ export default function GumRecedingAroundCrownBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Gum Receding Around Crown' }
+                { title: 'Gum Receding Around Crown', href: '#' }
               ]}
             />
           </div>

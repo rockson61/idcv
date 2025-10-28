@@ -89,7 +89,7 @@ export default function PorcelainBridgePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Dental Bridges', href: '/services/restorative-dentistry/dental-bridges' },
-                { title: 'Porcelain Bridge' }
+                { title: 'Porcelain Bridge', href: '#' }
               ]}
             />
           </div>

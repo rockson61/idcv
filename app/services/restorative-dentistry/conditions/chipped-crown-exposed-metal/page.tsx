@@ -83,7 +83,7 @@ export default function ChippedCrownExposedMetalPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Conditions', href: '/services/restorative-dentistry/conditions' },
-                { title: 'Chipped Crown Exposed Metal' }
+                { title: 'Chipped Crown Exposed Metal', href: '#' }
               ]}
             />
           </div>

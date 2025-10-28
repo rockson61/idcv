@@ -83,7 +83,7 @@ export default function FluorideTreatmentsChildrenPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Treatments', href: '/services/restorative-dentistry/treatments' },
-                { title: 'Fluoride Treatments Children' }
+                { title: 'Fluoride Treatments Children', href: '#' }
               ]}
             />
           </div>

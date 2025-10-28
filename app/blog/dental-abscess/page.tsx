@@ -103,7 +103,7 @@ export default function DentalAbscessBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Infections', href: '/blog/category/oral-infections' },
-                { title: 'Dental Abscess' }
+                { title: 'Dental Abscess', href: '#' }
               ]}
             />
           </div>

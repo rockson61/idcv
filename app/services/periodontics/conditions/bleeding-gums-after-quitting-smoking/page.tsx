@@ -83,7 +83,7 @@ export default function BleedingGumsAfterQuittingSmokingPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Conditions', href: '/services/periodontics/conditions' },
-                { title: 'Bleeding Gums After Quitting Smoking' }
+                { title: 'Bleeding Gums After Quitting Smoking', href: '#' }
               ]}
             />
           </div>

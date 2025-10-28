@@ -88,7 +88,7 @@ export default function InlaysOnlaysPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
-                { title: 'Inlays Onlays' }
+                { title: 'Inlays Onlays', href: '#' }
               ]}
             />
           </div>

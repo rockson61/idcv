@@ -21,7 +21,7 @@ export default function BrokenJawPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Broken Jaw' }
+              { title: 'Broken Jaw', href: '#' }
             ]}
           />
         </div>

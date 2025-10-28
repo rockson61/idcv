@@ -103,7 +103,7 @@ export default function TemporaryCrownBrokeOffBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Temporary Crown Broke Off' }
+                { title: 'Temporary Crown Broke Off', href: '#' }
               ]}
             />
           </div>

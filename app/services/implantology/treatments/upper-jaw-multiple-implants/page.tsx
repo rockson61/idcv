@@ -83,7 +83,7 @@ export default function UpperJawMultipleImplantsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'Upper Jaw Multiple Implants' }
+                { title: 'Upper Jaw Multiple Implants', href: '#' }
               ]}
             />
           </div>

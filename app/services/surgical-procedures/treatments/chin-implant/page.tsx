@@ -83,7 +83,7 @@ export default function ChinImplantPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Treatments', href: '/services/surgical-procedures/treatments' },
-                { title: 'Chin Implant' }
+                { title: 'Chin Implant', href: '#' }
               ]}
             />
           </div>

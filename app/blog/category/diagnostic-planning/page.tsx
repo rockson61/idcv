@@ -20,7 +20,7 @@ export default function diagnosticplanningCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Diagnostic Planning' }
+              { title: 'Diagnostic Planning', href: '#' }
             ]}
           />
         </div>

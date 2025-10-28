@@ -21,7 +21,7 @@ export default function DrySocketPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Dry Socket' }
+              { title: 'Dry Socket', href: '#' }
             ]}
           />
         </div>

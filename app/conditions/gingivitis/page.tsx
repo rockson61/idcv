@@ -21,7 +21,7 @@ export default function GingivitisPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Gingivitis' }
+              { title: 'Gingivitis', href: '#' }
             ]}
           />
         </div>

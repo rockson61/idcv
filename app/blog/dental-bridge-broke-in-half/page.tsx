@@ -103,7 +103,7 @@ export default function DentalBridgeBrokeInHalfBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Bridges Dentures', href: '/blog/category/bridges-dentures' },
-                { title: 'Dental Bridge Broke In Half' }
+                { title: 'Dental Bridge Broke In Half', href: '#' }
               ]}
             />
           </div>

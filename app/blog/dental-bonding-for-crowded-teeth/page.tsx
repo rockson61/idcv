@@ -103,7 +103,7 @@ export default function DentalBondingForCrowdedTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Orthodontics Alignment', href: '/blog/category/orthodontics-alignment' },
-                { title: 'Dental Bonding For Crowded Teeth' }
+                { title: 'Dental Bonding For Crowded Teeth', href: '#' }
               ]}
             />
           </div>

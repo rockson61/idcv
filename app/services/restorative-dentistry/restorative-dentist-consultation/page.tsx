@@ -88,7 +88,7 @@ export default function RestorativeDentistConsultationPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
-                { title: 'Restorative Dentist Consultation' }
+                { title: 'Restorative Dentist Consultation', href: '#' }
               ]}
             />
           </div>

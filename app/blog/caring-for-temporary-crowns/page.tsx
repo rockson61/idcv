@@ -103,7 +103,7 @@ export default function CaringForTemporaryCrownsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Surgeries', href: '/blog/category/oral-surgeries' },
-                { title: 'Caring For Temporary Crowns' }
+                { title: 'Caring For Temporary Crowns', href: '#' }
               ]}
             />
           </div>

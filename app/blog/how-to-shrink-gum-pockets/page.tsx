@@ -103,7 +103,7 @@ export default function HowToShrinkGumPocketsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'How To Shrink Gum Pockets' }
+                { title: 'How To Shrink Gum Pockets', href: '#' }
               ]}
             />
           </div>

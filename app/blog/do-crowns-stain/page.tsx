@@ -103,7 +103,7 @@ export default function DoCrownsStainBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Do Crowns Stain' }
+                { title: 'Do Crowns Stain', href: '#' }
               ]}
             />
           </div>

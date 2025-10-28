@@ -103,7 +103,7 @@ export default function PeriodontalPocketsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Periodontal Pockets' }
+                { title: 'Periodontal Pockets', href: '#' }
               ]}
             />
           </div>

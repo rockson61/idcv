@@ -88,7 +88,7 @@ export default function CosmeticDentistConsultationPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' },
-                { title: 'Cosmetic Dentist Consultation' }
+                { title: 'Cosmetic Dentist Consultation', href: '#' }
               ]}
             />
           </div>

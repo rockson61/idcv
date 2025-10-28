@@ -103,7 +103,7 @@ export default function GettingAFakeToothBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Getting A Fake Tooth' }
+                { title: 'Getting A Fake Tooth', href: '#' }
               ]}
             />
           </div>

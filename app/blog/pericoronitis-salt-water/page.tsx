@@ -103,7 +103,7 @@ export default function PericoronitisSaltWaterBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Wisdom Teeth', href: '/blog/category/wisdom-teeth' },
-                { title: 'Pericoronitis Salt Water' }
+                { title: 'Pericoronitis Salt Water', href: '#' }
               ]}
             />
           </div>

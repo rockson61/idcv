@@ -103,7 +103,7 @@ export default function PeriodontalDiseaseStagesBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Periodontal Disease Stages' }
+                { title: 'Periodontal Disease Stages', href: '#' }
               ]}
             />
           </div>

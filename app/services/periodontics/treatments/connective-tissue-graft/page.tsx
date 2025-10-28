@@ -83,7 +83,7 @@ export default function ConnectiveTissueGraftPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Connective Tissue Graft' }
+                { title: 'Connective Tissue Graft', href: '#' }
               ]}
             />
           </div>

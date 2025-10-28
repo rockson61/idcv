@@ -103,7 +103,7 @@ export default function MissingBabyTeethLateralIncisorBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Pediatric Dentistry', href: '/blog/category/pediatric-dentistry' },
-                { title: 'Missing Baby Teeth Lateral Incisor' }
+                { title: 'Missing Baby Teeth Lateral Incisor', href: '#' }
               ]}
             />
           </div>

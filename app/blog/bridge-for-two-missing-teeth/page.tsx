@@ -103,7 +103,7 @@ export default function BridgeForTwoMissingTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Bridges Dentures', href: '/blog/category/bridges-dentures' },
-                { title: 'Bridge For Two Missing Teeth' }
+                { title: 'Bridge For Two Missing Teeth', href: '#' }
               ]}
             />
           </div>

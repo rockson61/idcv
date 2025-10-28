@@ -83,7 +83,7 @@ export default function PeriodontalAbscessPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Conditions', href: '/services/periodontics/conditions' },
-                { title: 'Periodontal Abscess' }
+                { title: 'Periodontal Abscess', href: '#' }
               ]}
             />
           </div>

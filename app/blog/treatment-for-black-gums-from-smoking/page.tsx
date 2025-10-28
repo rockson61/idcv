@@ -103,7 +103,7 @@ export default function TreatmentForBlackGumsFromSmokingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Smoking Related', href: '/blog/category/smoking-related' },
-                { title: 'Treatment For Black Gums From Smoking' }
+                { title: 'Treatment For Black Gums From Smoking', href: '#' }
               ]}
             />
           </div>

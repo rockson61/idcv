@@ -103,7 +103,7 @@ export default function GumsHealAfterQuittingSmokingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Gums Heal After Quitting Smoking' }
+                { title: 'Gums Heal After Quitting Smoking', href: '#' }
               ]}
             />
           </div>

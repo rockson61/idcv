@@ -88,7 +88,7 @@ export default function NitrousOxideSedationPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Sedation Dentistry', href: '/services/sedation-dentistry' },
-                { title: 'Nitrous Oxide Sedation' }
+                { title: 'Nitrous Oxide Sedation', href: '#' }
               ]}
             />
           </div>

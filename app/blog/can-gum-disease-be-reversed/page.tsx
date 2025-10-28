@@ -103,7 +103,7 @@ export default function CanGumDiseaseBeReversedBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Can Gum Disease Be Reversed' }
+                { title: 'Can Gum Disease Be Reversed', href: '#' }
               ]}
             />
           </div>

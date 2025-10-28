@@ -103,7 +103,7 @@ export default function EarlyGingivitisSymptomsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'Early Gingivitis Symptoms' }
+                { title: 'Early Gingivitis Symptoms', href: '#' }
               ]}
             />
           </div>

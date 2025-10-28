@@ -103,7 +103,7 @@ export default function PorcelainFusedToMetalCrownBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Porcelain Fused To Metal Crown' }
+                { title: 'Porcelain Fused To Metal Crown', href: '#' }
               ]}
             />
           </div>

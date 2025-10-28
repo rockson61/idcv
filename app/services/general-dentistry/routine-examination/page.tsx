@@ -88,7 +88,7 @@ export default function RoutineExaminationPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'General Dentistry', href: '/services/general-dentistry' },
-                { title: 'Routine Examination' }
+                { title: 'Routine Examination', href: '#' }
               ]}
             />
           </div>

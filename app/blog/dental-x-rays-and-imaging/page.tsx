@@ -103,7 +103,7 @@ export default function DentalXRaysAndImagingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Diagnostic Planning', href: '/blog/category/diagnostic-planning' },
-                { title: 'Dental X Rays And Imaging' }
+                { title: 'Dental X Rays And Imaging', href: '#' }
               ]}
             />
           </div>

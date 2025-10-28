@@ -103,7 +103,7 @@ export default function ToothExtractionAftercareBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Tooth Extraction Aftercare' }
+                { title: 'Tooth Extraction Aftercare', href: '#' }
               ]}
             />
           </div>

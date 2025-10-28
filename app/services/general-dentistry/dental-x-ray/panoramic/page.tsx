@@ -89,7 +89,7 @@ export default function PanoramicPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'General Dentistry', href: '/services/general-dentistry' },
                 { title: 'Dental X Ray', href: '/services/general-dentistry/dental-x-ray' },
-                { title: 'Panoramic' }
+                { title: 'Panoramic', href: '#' }
               ]}
             />
           </div>

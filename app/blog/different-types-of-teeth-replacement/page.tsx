@@ -103,7 +103,7 @@ export default function DifferentTypesOfTeethReplacementBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Diagnostic Planning', href: '/blog/category/diagnostic-planning' },
-                { title: 'Different Types Of Teeth Replacement' }
+                { title: 'Different Types Of Teeth Replacement', href: '#' }
               ]}
             />
           </div>

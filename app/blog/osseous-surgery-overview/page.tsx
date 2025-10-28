@@ -103,7 +103,7 @@ export default function OsseousSurgeryOverviewBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Surgeries', href: '/blog/category/oral-surgeries' },
-                { title: 'Osseous Surgery Overview' }
+                { title: 'Osseous Surgery Overview', href: '#' }
               ]}
             />
           </div>

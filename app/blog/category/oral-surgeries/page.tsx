@@ -20,7 +20,7 @@ export default function oralsurgeriesCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Oral Surgeries' }
+              { title: 'Oral Surgeries', href: '#' }
             ]}
           />
         </div>

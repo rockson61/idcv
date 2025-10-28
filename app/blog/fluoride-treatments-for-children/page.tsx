@@ -103,7 +103,7 @@ export default function FluorideTreatmentsForChildrenBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Pediatric Dentistry', href: '/blog/category/pediatric-dentistry' },
-                { title: 'Fluoride Treatments For Children' }
+                { title: 'Fluoride Treatments For Children', href: '#' }
               ]}
             />
           </div>

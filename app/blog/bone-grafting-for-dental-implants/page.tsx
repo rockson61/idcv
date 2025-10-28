@@ -103,7 +103,7 @@ export default function BoneGraftingForDentalImplantsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Bone Grafting For Dental Implants' }
+                { title: 'Bone Grafting For Dental Implants', href: '#' }
               ]}
             />
           </div>

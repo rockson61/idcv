@@ -20,7 +20,7 @@ export default function oralinfectionsCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Oral Infections' }
+              { title: 'Oral Infections', href: '#' }
             ]}
           />
         </div>

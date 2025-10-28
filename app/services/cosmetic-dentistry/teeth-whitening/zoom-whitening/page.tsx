@@ -89,7 +89,7 @@ export default function ZoomWhiteningPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' },
                 { title: 'Teeth Whitening', href: '/services/cosmetic-dentistry/teeth-whitening' },
-                { title: 'Zoom Whitening' }
+                { title: 'Zoom Whitening', href: '#' }
               ]}
             />
           </div>

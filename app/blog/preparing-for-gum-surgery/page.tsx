@@ -103,7 +103,7 @@ export default function PreparingForGumSurgeryBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Diagnostic Planning', href: '/blog/category/diagnostic-planning' },
-                { title: 'Preparing For Gum Surgery' }
+                { title: 'Preparing For Gum Surgery', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function GingivitisFromSmokingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'Gingivitis From Smoking' }
+                { title: 'Gingivitis From Smoking', href: '#' }
               ]}
             />
           </div>

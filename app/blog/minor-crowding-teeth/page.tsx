@@ -103,7 +103,7 @@ export default function MinorCrowdingTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Orthodontics Alignment', href: '/blog/category/orthodontics-alignment' },
-                { title: 'Minor Crowding Teeth' }
+                { title: 'Minor Crowding Teeth', href: '#' }
               ]}
             />
           </div>

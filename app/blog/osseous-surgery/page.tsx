@@ -103,7 +103,7 @@ export default function OsseousSurgeryBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Osseous Surgery' }
+                { title: 'Osseous Surgery', href: '#' }
               ]}
             />
           </div>

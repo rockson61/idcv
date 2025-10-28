@@ -83,7 +83,7 @@ export default function ToothAnatomyPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Anatomy', href: '/services/orthodontics/anatomy' },
-                { title: 'Tooth Anatomy' }
+                { title: 'Tooth Anatomy', href: '#' }
               ]}
             />
           </div>

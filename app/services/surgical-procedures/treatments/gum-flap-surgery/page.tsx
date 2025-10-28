@@ -83,7 +83,7 @@ export default function GumFlapSurgeryPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Treatments', href: '/services/surgical-procedures/treatments' },
-                { title: 'Gum Flap Surgery' }
+                { title: 'Gum Flap Surgery', href: '#' }
               ]}
             />
           </div>

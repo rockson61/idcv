@@ -89,7 +89,7 @@ export default function NonSurgicalPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
                 { title: 'Extractions', href: '/services/oral-surgery/extractions' },
-                { title: 'Non Surgical' }
+                { title: 'Non Surgical', href: '#' }
               ]}
             />
           </div>

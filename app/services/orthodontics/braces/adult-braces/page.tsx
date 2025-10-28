@@ -89,7 +89,7 @@ export default function AdultBracesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Braces', href: '/services/orthodontics/braces' },
-                { title: 'Adult Braces' }
+                { title: 'Adult Braces', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function OralHygieneWithBracesBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Hygiene Maintenance', href: '/blog/category/oral-hygiene-maintenance' },
-                { title: 'Oral Hygiene With Braces' }
+                { title: 'Oral Hygiene With Braces', href: '#' }
               ]}
             />
           </div>

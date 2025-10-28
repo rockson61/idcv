@@ -103,7 +103,7 @@ export default function WhiteTongueDueToPoorOralHygieneBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Hygiene Maintenance', href: '/blog/category/oral-hygiene-maintenance' },
-                { title: 'White Tongue Due To Poor Oral Hygiene' }
+                { title: 'White Tongue Due To Poor Oral Hygiene', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function JawPainReliefBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Pain Sensitivity', href: '/blog/category/tooth-pain-sensitivity' },
-                { title: 'Jaw Pain Relief' }
+                { title: 'Jaw Pain Relief', href: '#' }
               ]}
             />
           </div>

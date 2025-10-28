@@ -103,7 +103,7 @@ export default function HoleInToothPainReliefBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Pain Sensitivity', href: '/blog/category/tooth-pain-sensitivity' },
-                { title: 'Hole In Tooth Pain Relief' }
+                { title: 'Hole In Tooth Pain Relief', href: '#' }
               ]}
             />
           </div>

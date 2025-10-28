@@ -103,7 +103,7 @@ export default function RemovableBridgeForOneToothBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Bridges Dentures', href: '/blog/category/bridges-dentures' },
-                { title: 'Removable Bridge For One Tooth' }
+                { title: 'Removable Bridge For One Tooth', href: '#' }
               ]}
             />
           </div>

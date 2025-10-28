@@ -88,7 +88,7 @@ export default function GumRecessionTreatmentPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
-                { title: 'Gum Recession Treatment' }
+                { title: 'Gum Recession Treatment', href: '#' }
               ]}
             />
           </div>

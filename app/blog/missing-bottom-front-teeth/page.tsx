@@ -103,7 +103,7 @@ export default function MissingBottomFrontTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Missing Bottom Front Teeth' }
+                { title: 'Missing Bottom Front Teeth', href: '#' }
               ]}
             />
           </div>

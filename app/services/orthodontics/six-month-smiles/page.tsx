@@ -88,7 +88,7 @@ export default function SixMonthSmilesPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
-                { title: 'Six Month Smiles' }
+                { title: 'Six Month Smiles', href: '#' }
               ]}
             />
           </div>

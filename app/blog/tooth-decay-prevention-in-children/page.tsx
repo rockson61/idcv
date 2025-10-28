@@ -103,7 +103,7 @@ export default function ToothDecayPreventionInChildrenBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Pediatric Dentistry', href: '/blog/category/pediatric-dentistry' },
-                { title: 'Tooth Decay Prevention In Children' }
+                { title: 'Tooth Decay Prevention In Children', href: '#' }
               ]}
             />
           </div>

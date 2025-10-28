@@ -88,7 +88,7 @@ export default function DenturistConsultationPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
-                { title: 'Denturist Consultation' }
+                { title: 'Denturist Consultation', href: '#' }
               ]}
             />
           </div>

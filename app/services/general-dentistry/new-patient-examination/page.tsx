@@ -88,7 +88,7 @@ export default function NewPatientExaminationPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'General Dentistry', href: '/services/general-dentistry' },
-                { title: 'New Patient Examination' }
+                { title: 'New Patient Examination', href: '#' }
               ]}
             />
           </div>

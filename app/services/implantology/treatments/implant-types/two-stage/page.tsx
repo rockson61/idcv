@@ -83,7 +83,7 @@ export default function ImplantTypestwoStagePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'Implant Types   two Stage' }
+                { title: 'Implant Types   two Stage', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function TeethClenchingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Damage Trauma', href: '/blog/category/tooth-damage-trauma' },
-                { title: 'Teeth Clenching' }
+                { title: 'Teeth Clenching', href: '#' }
               ]}
             />
           </div>

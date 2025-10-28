@@ -103,7 +103,7 @@ export default function GummySmileCorrectionBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Cosmetic Dentistry', href: '/blog/category/cosmetic-dentistry' },
-                { title: 'Gummy Smile Correction' }
+                { title: 'Gummy Smile Correction', href: '#' }
               ]}
             />
           </div>

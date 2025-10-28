@@ -103,7 +103,7 @@ export default function GingivitisInfectionBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'Gingivitis Infection' }
+                { title: 'Gingivitis Infection', href: '#' }
               ]}
             />
           </div>

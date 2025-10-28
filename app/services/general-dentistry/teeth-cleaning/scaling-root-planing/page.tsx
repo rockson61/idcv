@@ -89,7 +89,7 @@ export default function ScalingRootPlaningPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'General Dentistry', href: '/services/general-dentistry' },
                 { title: 'Teeth Cleaning', href: '/services/general-dentistry/teeth-cleaning' },
-                { title: 'Scaling Root Planing' }
+                { title: 'Scaling Root Planing', href: '#' }
               ]}
             />
           </div>

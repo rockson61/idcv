@@ -83,7 +83,7 @@ export default function ToothDecaySmellPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Endodontics', href: '/services/endodontics' },
                 { title: 'Conditions', href: '/services/endodontics/conditions' },
-                { title: 'Tooth Decay Smell' }
+                { title: 'Tooth Decay Smell', href: '#' }
               ]}
             />
           </div>

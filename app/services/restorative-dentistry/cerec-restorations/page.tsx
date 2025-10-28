@@ -88,7 +88,7 @@ export default function CerecRestorationsPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
-                { title: 'Cerec Restorations' }
+                { title: 'Cerec Restorations', href: '#' }
               ]}
             />
           </div>

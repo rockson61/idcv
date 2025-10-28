@@ -103,7 +103,7 @@ export default function SilverFillingsVsWhiteFillingsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Silver Fillings Vs White Fillings' }
+                { title: 'Silver Fillings Vs White Fillings', href: '#' }
               ]}
             />
           </div>

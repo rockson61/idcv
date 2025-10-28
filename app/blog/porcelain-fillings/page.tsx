@@ -103,7 +103,7 @@ export default function PorcelainFillingsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Porcelain Fillings' }
+                { title: 'Porcelain Fillings', href: '#' }
               ]}
             />
           </div>

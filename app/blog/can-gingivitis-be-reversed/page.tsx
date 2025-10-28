@@ -103,7 +103,7 @@ export default function CanGingivitisBeReversedBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Diagnostic Planning', href: '/blog/category/diagnostic-planning' },
-                { title: 'Can Gingivitis Be Reversed' }
+                { title: 'Can Gingivitis Be Reversed', href: '#' }
               ]}
             />
           </div>

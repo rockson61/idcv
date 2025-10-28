@@ -103,7 +103,7 @@ export default function HeavyCalculusOnTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Hygiene Maintenance', href: '/blog/category/oral-hygiene-maintenance' },
-                { title: 'Heavy Calculus On Teeth' }
+                { title: 'Heavy Calculus On Teeth', href: '#' }
               ]}
             />
           </div>

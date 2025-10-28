@@ -103,7 +103,7 @@ export default function PregnancyGingivitisBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'Pregnancy Gingivitis' }
+                { title: 'Pregnancy Gingivitis', href: '#' }
               ]}
             />
           </div>

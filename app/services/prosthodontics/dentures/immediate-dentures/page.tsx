@@ -89,7 +89,7 @@ export default function ImmediateDenturesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Dentures', href: '/services/prosthodontics/dentures' },
-                { title: 'Immediate Dentures' }
+                { title: 'Immediate Dentures', href: '#' }
               ]}
             />
           </div>

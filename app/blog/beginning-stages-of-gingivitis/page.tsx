@@ -103,7 +103,7 @@ export default function BeginningStagesOfGingivitisBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Gum Diseases', href: '/blog/category/gum-diseases' },
-                { title: 'Beginning Stages Of Gingivitis' }
+                { title: 'Beginning Stages Of Gingivitis', href: '#' }
               ]}
             />
           </div>

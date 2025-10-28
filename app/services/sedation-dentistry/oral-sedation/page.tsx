@@ -88,7 +88,7 @@ export default function OralSedationPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Sedation Dentistry', href: '/services/sedation-dentistry' },
-                { title: 'Oral Sedation' }
+                { title: 'Oral Sedation', href: '#' }
               ]}
             />
           </div>

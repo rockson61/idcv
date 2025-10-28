@@ -103,7 +103,7 @@ export default function WhatAreGumPocketsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Diagnostic Planning', href: '/blog/category/diagnostic-planning' },
-                { title: 'What Are Gum Pockets' }
+                { title: 'What Are Gum Pockets', href: '#' }
               ]}
             />
           </div>

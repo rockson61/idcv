@@ -89,7 +89,7 @@ export default function PfmBridgePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Dental Bridges', href: '/services/restorative-dentistry/dental-bridges' },
-                { title: 'Pfm Bridge' }
+                { title: 'Pfm Bridge', href: '#' }
               ]}
             />
           </div>

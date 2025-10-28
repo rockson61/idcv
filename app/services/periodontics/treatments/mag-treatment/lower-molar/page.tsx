@@ -83,7 +83,7 @@ export default function MagTreatmentlowerMolarPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Mag Treatment   lower Molar' }
+                { title: 'Mag Treatment   lower Molar', href: '#' }
               ]}
             />
           </div>

@@ -88,7 +88,7 @@ export default function BracesPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
-                { title: 'Braces' }
+                { title: 'Braces', href: '#' }
               ]}
             />
           </div>

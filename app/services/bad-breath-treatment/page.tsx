@@ -81,7 +81,7 @@ export default function ServicePage() {
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
-            { title: 'Bad Breath Treatment (Halitosis Cure)' }
+            { title: 'Bad Breath Treatment (Halitosis Cure)', href: '#' }
           ]}
         />
 

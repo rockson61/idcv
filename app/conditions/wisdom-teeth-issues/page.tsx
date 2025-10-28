@@ -21,7 +21,7 @@ export default function WisdomTeethIssuesPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Wisdom Teeth Issues' }
+              { title: 'Wisdom Teeth Issues', href: '#' }
             ]}
           />
         </div>

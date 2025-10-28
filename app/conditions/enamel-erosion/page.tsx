@@ -21,7 +21,7 @@ export default function EnamelErosionPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Enamel Erosion' }
+              { title: 'Enamel Erosion', href: '#' }
             ]}
           />
         </div>

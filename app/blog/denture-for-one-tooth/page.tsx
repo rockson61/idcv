@@ -103,7 +103,7 @@ export default function DentureForOneToothBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Bridges Dentures', href: '/blog/category/bridges-dentures' },
-                { title: 'Denture For One Tooth' }
+                { title: 'Denture For One Tooth', href: '#' }
               ]}
             />
           </div>

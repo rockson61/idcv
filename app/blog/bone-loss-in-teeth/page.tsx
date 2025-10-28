@@ -103,7 +103,7 @@ export default function BoneLossInTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Bone Loss In Teeth' }
+                { title: 'Bone Loss In Teeth', href: '#' }
               ]}
             />
           </div>

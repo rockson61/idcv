@@ -83,7 +83,7 @@ export default function BrushingTechniquesbassTechniquePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Oral Hygiene', href: '/services/orthodontics/oral-hygiene' },
-                { title: 'Brushing Techniques   bass Technique' }
+                { title: 'Brushing Techniques   bass Technique', href: '#' }
               ]}
             />
           </div>

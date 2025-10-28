@@ -83,7 +83,7 @@ export default function ToothExtractionComplicationsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Oral Surgery', href: '/services/oral-surgery' },
                 { title: 'Treatments', href: '/services/oral-surgery/treatments' },
-                { title: 'Tooth Extraction Complications' }
+                { title: 'Tooth Extraction Complications', href: '#' }
               ]}
             />
           </div>

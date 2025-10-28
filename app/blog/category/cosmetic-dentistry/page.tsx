@@ -20,7 +20,7 @@ export default function cosmeticdentistryCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Cosmetic Dentistry' }
+              { title: 'Cosmetic Dentistry', href: '#' }
             ]}
           />
         </div>

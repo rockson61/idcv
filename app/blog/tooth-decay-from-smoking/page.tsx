@@ -103,7 +103,7 @@ export default function ToothDecayFromSmokingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Decay Cavities', href: '/blog/category/tooth-decay-cavities' },
-                { title: 'Tooth Decay From Smoking' }
+                { title: 'Tooth Decay From Smoking', href: '#' }
               ]}
             />
           </div>

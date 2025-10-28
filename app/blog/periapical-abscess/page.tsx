@@ -103,7 +103,7 @@ export default function PeriapicalAbscessBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Infections', href: '/blog/category/oral-infections' },
-                { title: 'Periapical Abscess' }
+                { title: 'Periapical Abscess', href: '#' }
               ]}
             />
           </div>

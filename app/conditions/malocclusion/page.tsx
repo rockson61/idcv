@@ -21,7 +21,7 @@ export default function MalocclusionPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Conditions', href: '/conditions' },
-              { title: 'Malocclusion' }
+              { title: 'Malocclusion', href: '#' }
             ]}
           />
         </div>

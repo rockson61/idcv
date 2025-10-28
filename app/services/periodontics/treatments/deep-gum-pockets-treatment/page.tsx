@@ -83,7 +83,7 @@ export default function DeepGumPocketsTreatmentPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Deep Gum Pockets Treatment' }
+                { title: 'Deep Gum Pockets Treatment', href: '#' }
               ]}
             />
           </div>

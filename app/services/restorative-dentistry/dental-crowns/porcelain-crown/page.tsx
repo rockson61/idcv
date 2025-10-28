@@ -89,7 +89,7 @@ export default function PorcelainCrownPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Dental Crowns', href: '/services/restorative-dentistry/dental-crowns' },
-                { title: 'Porcelain Crown' }
+                { title: 'Porcelain Crown', href: '#' }
               ]}
             />
           </div>

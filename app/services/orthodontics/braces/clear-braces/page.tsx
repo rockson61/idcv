@@ -89,7 +89,7 @@ export default function ClearBracesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Braces', href: '/services/orthodontics/braces' },
-                { title: 'Clear Braces' }
+                { title: 'Clear Braces', href: '#' }
               ]}
             />
           </div>

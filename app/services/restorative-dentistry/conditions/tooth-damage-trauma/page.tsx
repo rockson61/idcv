@@ -83,7 +83,7 @@ export default function ToothDamageTraumaPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Conditions', href: '/services/restorative-dentistry/conditions' },
-                { title: 'Tooth Damage Trauma' }
+                { title: 'Tooth Damage Trauma', href: '#' }
               ]}
             />
           </div>

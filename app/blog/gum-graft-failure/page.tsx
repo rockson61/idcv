@@ -103,7 +103,7 @@ export default function GumGraftFailureBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Gum Graft Failure' }
+                { title: 'Gum Graft Failure', href: '#' }
               ]}
             />
           </div>

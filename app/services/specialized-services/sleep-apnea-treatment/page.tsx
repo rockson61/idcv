@@ -88,7 +88,7 @@ export default function SleepApneaTreatmentPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Specialized Services', href: '/services/specialized-services' },
-                { title: 'Sleep Apnea Treatment' }
+                { title: 'Sleep Apnea Treatment', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function InfectionInTheGumsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Wisdom Teeth', href: '/blog/category/wisdom-teeth' },
-                { title: 'Infection In The Gums' }
+                { title: 'Infection In The Gums', href: '#' }
               ]}
             />
           </div>

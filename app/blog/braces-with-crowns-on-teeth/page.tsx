@@ -103,7 +103,7 @@ export default function BracesWithCrownsOnTeethBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Orthodontics Alignment', href: '/blog/category/orthodontics-alignment' },
-                { title: 'Braces With Crowns On Teeth' }
+                { title: 'Braces With Crowns On Teeth', href: '#' }
               ]}
             />
           </div>

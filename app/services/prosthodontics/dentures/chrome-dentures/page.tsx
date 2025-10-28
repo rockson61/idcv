@@ -89,7 +89,7 @@ export default function ChromeDenturesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Dentures', href: '/services/prosthodontics/dentures' },
-                { title: 'Chrome Dentures' }
+                { title: 'Chrome Dentures', href: '#' }
               ]}
             />
           </div>

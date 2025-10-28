@@ -103,7 +103,7 @@ export default function LooseTeethAfterDeepCleaningBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Surgeries', href: '/blog/category/oral-surgeries' },
-                { title: 'Loose Teeth After Deep Cleaning' }
+                { title: 'Loose Teeth After Deep Cleaning', href: '#' }
               ]}
             />
           </div>

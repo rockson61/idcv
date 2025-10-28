@@ -83,7 +83,7 @@ export default function CrownStainingPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Treatments', href: '/services/restorative-dentistry/treatments' },
-                { title: 'Crown Staining' }
+                { title: 'Crown Staining', href: '#' }
               ]}
             />
           </div>

@@ -20,7 +20,7 @@ export default function bridgesdenturesCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Bridges Dentures' }
+              { title: 'Bridges Dentures', href: '#' }
             ]}
           />
         </div>

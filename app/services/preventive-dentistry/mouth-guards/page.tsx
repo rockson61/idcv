@@ -88,7 +88,7 @@ export default function MouthGuardsPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Preventive Dentistry', href: '/services/preventive-dentistry' },
-                { title: 'Mouth Guards' }
+                { title: 'Mouth Guards', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function ReduceGumPocketsNaturallyBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Hygiene Maintenance', href: '/blog/category/oral-hygiene-maintenance' },
-                { title: 'Reduce Gum Pockets Naturally' }
+                { title: 'Reduce Gum Pockets Naturally', href: '#' }
               ]}
             />
           </div>

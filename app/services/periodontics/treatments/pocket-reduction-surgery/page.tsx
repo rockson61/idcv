@@ -83,7 +83,7 @@ export default function PocketReductionSurgeryPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Treatments', href: '/services/periodontics/treatments' },
-                { title: 'Pocket Reduction Surgery' }
+                { title: 'Pocket Reduction Surgery', href: '#' }
               ]}
             />
           </div>

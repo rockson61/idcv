@@ -103,7 +103,7 @@ export default function GingivectomyOverviewBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Surgeries', href: '/blog/category/oral-surgeries' },
-                { title: 'Gingivectomy Overview' }
+                { title: 'Gingivectomy Overview', href: '#' }
               ]}
             />
           </div>

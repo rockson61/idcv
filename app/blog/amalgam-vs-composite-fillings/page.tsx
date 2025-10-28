@@ -103,7 +103,7 @@ export default function AmalgamVsCompositeFillingsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Amalgam Vs Composite Fillings' }
+                { title: 'Amalgam Vs Composite Fillings', href: '#' }
               ]}
             />
           </div>

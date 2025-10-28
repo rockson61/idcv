@@ -89,7 +89,7 @@ export default function CompositeResinInlayOnlayPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'General Dentistry', href: '/services/general-dentistry' },
                 { title: 'Fillings', href: '/services/general-dentistry/fillings' },
-                { title: 'Composite Resin Inlay Onlay' }
+                { title: 'Composite Resin Inlay Onlay', href: '#' }
               ]}
             />
           </div>

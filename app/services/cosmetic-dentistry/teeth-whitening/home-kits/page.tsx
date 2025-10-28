@@ -89,7 +89,7 @@ export default function HomeKitsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' },
                 { title: 'Teeth Whitening', href: '/services/cosmetic-dentistry/teeth-whitening' },
-                { title: 'Home Kits' }
+                { title: 'Home Kits', href: '#' }
               ]}
             />
           </div>

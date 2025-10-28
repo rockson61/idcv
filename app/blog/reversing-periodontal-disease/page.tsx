@@ -103,7 +103,7 @@ export default function ReversingPeriodontalDiseaseBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Reversing Periodontal Disease' }
+                { title: 'Reversing Periodontal Disease', href: '#' }
               ]}
             />
           </div>

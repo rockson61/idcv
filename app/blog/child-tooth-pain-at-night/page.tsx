@@ -103,7 +103,7 @@ export default function ChildToothPainAtNightBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Pain Sensitivity', href: '/blog/category/tooth-pain-sensitivity' },
-                { title: 'Child Tooth Pain At Night' }
+                { title: 'Child Tooth Pain At Night', href: '#' }
               ]}
             />
           </div>

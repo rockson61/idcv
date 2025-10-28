@@ -103,7 +103,7 @@ export default function RepairingChippedCrownWithExposedMetalBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Repairing Chipped Crown With Exposed Metal' }
+                { title: 'Repairing Chipped Crown With Exposed Metal', href: '#' }
               ]}
             />
           </div>

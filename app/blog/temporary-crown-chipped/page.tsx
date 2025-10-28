@@ -103,7 +103,7 @@ export default function TemporaryCrownChippedBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Temporary Crown Chipped' }
+                { title: 'Temporary Crown Chipped', href: '#' }
               ]}
             />
           </div>

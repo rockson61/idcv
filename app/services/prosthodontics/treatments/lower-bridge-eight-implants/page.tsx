@@ -83,7 +83,7 @@ export default function LowerBridgeEightImplantsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Treatments', href: '/services/prosthodontics/treatments' },
-                { title: 'Lower Bridge Eight Implants' }
+                { title: 'Lower Bridge Eight Implants', href: '#' }
               ]}
             />
           </div>

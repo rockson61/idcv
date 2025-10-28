@@ -83,7 +83,7 @@ export default function CrownOnCrackedToothPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Treatments', href: '/services/restorative-dentistry/treatments' },
-                { title: 'Crown On Cracked Tooth' }
+                { title: 'Crown On Cracked Tooth', href: '#' }
               ]}
             />
           </div>

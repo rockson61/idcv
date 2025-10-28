@@ -88,7 +88,7 @@ export default function BadBreathTreatmentPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'General Dentistry', href: '/services/general-dentistry' },
-                { title: 'Bad Breath Treatment' }
+                { title: 'Bad Breath Treatment', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function DentalOperculumBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Diagnostic Planning', href: '/blog/category/diagnostic-planning' },
-                { title: 'Dental Operculum' }
+                { title: 'Dental Operculum', href: '#' }
               ]}
             />
           </div>

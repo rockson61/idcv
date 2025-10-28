@@ -103,7 +103,7 @@ export default function MiniDentalImplantsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Mini Dental Implants' }
+                { title: 'Mini Dental Implants', href: '#' }
               ]}
             />
           </div>

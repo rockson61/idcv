@@ -83,7 +83,7 @@ export default function BridgesVsImplantsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'Bridges Vs Implants' }
+                { title: 'Bridges Vs Implants', href: '#' }
               ]}
             />
           </div>

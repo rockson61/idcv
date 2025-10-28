@@ -83,7 +83,7 @@ export default function UpperDenturePage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Prosthodontics', href: '/services/prosthodontics' },
                 { title: 'Treatments', href: '/services/prosthodontics/treatments' },
-                { title: 'Upper Denture' }
+                { title: 'Upper Denture', href: '#' }
               ]}
             />
           </div>

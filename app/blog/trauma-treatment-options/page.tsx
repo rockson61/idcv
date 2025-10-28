@@ -103,7 +103,7 @@ export default function TraumaTreatmentOptionsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Damage Trauma', href: '/blog/category/tooth-damage-trauma' },
-                { title: 'Trauma Treatment Options' }
+                { title: 'Trauma Treatment Options', href: '#' }
               ]}
             />
           </div>

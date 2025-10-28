@@ -83,7 +83,7 @@ export default function OralHygieneElderlyNoTeethPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Restorative Dentistry', href: '/services/restorative-dentistry' },
                 { title: 'Treatments', href: '/services/restorative-dentistry/treatments' },
-                { title: 'Oral Hygiene Elderly No Teeth' }
+                { title: 'Oral Hygiene Elderly No Teeth', href: '#' }
               ]}
             />
           </div>

@@ -81,7 +81,7 @@ export default function ServicePage() {
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
-            { title: 'Sensitive Teeth Treatment' }
+            { title: 'Sensitive Teeth Treatment', href: '#' }
           ]}
         />
 

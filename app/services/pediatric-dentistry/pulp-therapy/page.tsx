@@ -88,7 +88,7 @@ export default function PulpTherapyPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Pediatric Dentistry', href: '/services/pediatric-dentistry' },
-                { title: 'Pulp Therapy' }
+                { title: 'Pulp Therapy', href: '#' }
               ]}
             />
           </div>

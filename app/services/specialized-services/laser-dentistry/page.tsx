@@ -88,7 +88,7 @@ export default function LaserDentistryPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Specialized Services', href: '/services/specialized-services' },
-                { title: 'Laser Dentistry' }
+                { title: 'Laser Dentistry', href: '#' }
               ]}
             />
           </div>

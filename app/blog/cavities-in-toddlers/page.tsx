@@ -103,7 +103,7 @@ export default function CavitiesInToddlersBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Decay Cavities', href: '/blog/category/tooth-decay-cavities' },
-                { title: 'Cavities In Toddlers' }
+                { title: 'Cavities In Toddlers', href: '#' }
               ]}
             />
           </div>

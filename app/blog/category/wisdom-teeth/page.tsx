@@ -20,7 +20,7 @@ export default function wisdomteethCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Wisdom Teeth' }
+              { title: 'Wisdom Teeth', href: '#' }
             ]}
           />
         </div>

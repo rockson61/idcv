@@ -103,7 +103,7 @@ export default function CeramicCrownBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Ceramic Crown' }
+                { title: 'Ceramic Crown', href: '#' }
               ]}
             />
           </div>

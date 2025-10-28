@@ -88,7 +88,7 @@ export default function NightGuardsPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Tmj Treatment', href: '/services/tmj-treatment' },
-                { title: 'Night Guards' }
+                { title: 'Night Guards', href: '#' }
               ]}
             />
           </div>

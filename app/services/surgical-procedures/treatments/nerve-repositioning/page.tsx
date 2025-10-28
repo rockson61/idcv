@@ -83,7 +83,7 @@ export default function NerveRepositioningPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Treatments', href: '/services/surgical-procedures/treatments' },
-                { title: 'Nerve Repositioning' }
+                { title: 'Nerve Repositioning', href: '#' }
               ]}
             />
           </div>

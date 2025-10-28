@@ -103,7 +103,7 @@ export default function PartialDenturesForMolarsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Bridges Dentures', href: '/blog/category/bridges-dentures' },
-                { title: 'Partial Dentures For Molars' }
+                { title: 'Partial Dentures For Molars', href: '#' }
               ]}
             />
           </div>

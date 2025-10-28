@@ -88,7 +88,7 @@ export default function EmergencyConsultationPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Emergency Dentistry', href: '/services/emergency-dentistry' },
-                { title: 'Emergency Consultation' }
+                { title: 'Emergency Consultation', href: '#' }
               ]}
             />
           </div>

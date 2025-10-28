@@ -88,7 +88,7 @@ export default function DentalBondingPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' },
-                { title: 'Dental Bonding' }
+                { title: 'Dental Bonding', href: '#' }
               ]}
             />
           </div>

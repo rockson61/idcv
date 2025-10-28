@@ -88,7 +88,7 @@ export default function MultipleImplantsPage() {
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },
                 { title: 'Dental Implants', href: '/services/dental-implants' },
-                { title: 'Multiple Implants' }
+                { title: 'Multiple Implants', href: '#' }
               ]}
             />
           </div>

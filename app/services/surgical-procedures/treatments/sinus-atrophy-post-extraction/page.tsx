@@ -83,7 +83,7 @@ export default function SinusAtrophyPostExtractionPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Surgical Procedures', href: '/services/surgical-procedures' },
                 { title: 'Treatments', href: '/services/surgical-procedures/treatments' },
-                { title: 'Sinus Atrophy Post Extraction' }
+                { title: 'Sinus Atrophy Post Extraction', href: '#' }
               ]}
             />
           </div>

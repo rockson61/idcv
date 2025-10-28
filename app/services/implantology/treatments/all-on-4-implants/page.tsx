@@ -83,7 +83,7 @@ export default function AllOn4ImplantsPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Treatments', href: '/services/implantology/treatments' },
-                { title: 'All On 4 Implants' }
+                { title: 'All On 4 Implants', href: '#' }
               ]}
             />
           </div>

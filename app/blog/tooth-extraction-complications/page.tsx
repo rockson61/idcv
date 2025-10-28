@@ -103,7 +103,7 @@ export default function ToothExtractionComplicationsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'Tooth Extraction Complications' }
+                { title: 'Tooth Extraction Complications', href: '#' }
               ]}
             />
           </div>

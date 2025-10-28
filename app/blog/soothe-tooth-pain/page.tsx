@@ -103,7 +103,7 @@ export default function SootheToothPainBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Tooth Pain Sensitivity', href: '/blog/category/tooth-pain-sensitivity' },
-                { title: 'Soothe Tooth Pain' }
+                { title: 'Soothe Tooth Pain', href: '#' }
               ]}
             />
           </div>

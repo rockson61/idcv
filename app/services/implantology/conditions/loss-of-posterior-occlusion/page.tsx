@@ -83,7 +83,7 @@ export default function LossOfPosteriorOcclusionPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Implantology', href: '/services/implantology' },
                 { title: 'Conditions', href: '/services/implantology/conditions' },
-                { title: 'Loss Of Posterior Occlusion' }
+                { title: 'Loss Of Posterior Occlusion', href: '#' }
               ]}
             />
           </div>

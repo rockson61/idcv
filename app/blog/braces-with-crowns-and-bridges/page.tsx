@@ -103,7 +103,7 @@ export default function BracesWithCrownsAndBridgesBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Orthodontics Alignment', href: '/blog/category/orthodontics-alignment' },
-                { title: 'Braces With Crowns And Bridges' }
+                { title: 'Braces With Crowns And Bridges', href: '#' }
               ]}
             />
           </div>

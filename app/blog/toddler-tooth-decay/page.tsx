@@ -103,7 +103,7 @@ export default function ToddlerToothDecayBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Pediatric Dentistry', href: '/blog/category/pediatric-dentistry' },
-                { title: 'Toddler Tooth Decay' }
+                { title: 'Toddler Tooth Decay', href: '#' }
               ]}
             />
           </div>

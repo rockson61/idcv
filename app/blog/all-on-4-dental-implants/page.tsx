@@ -103,7 +103,7 @@ export default function AllOn4DentalImplantsBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Extractions Implants', href: '/blog/category/extractions-implants' },
-                { title: 'All On 4 Dental Implants' }
+                { title: 'All On 4 Dental Implants', href: '#' }
               ]}
             />
           </div>

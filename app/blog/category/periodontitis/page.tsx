@@ -20,7 +20,7 @@ export default function periodontitisCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Periodontitis' }
+              { title: 'Periodontitis', href: '#' }
             ]}
           />
         </div>

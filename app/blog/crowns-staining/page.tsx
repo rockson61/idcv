@@ -103,7 +103,7 @@ export default function CrownsStainingBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Restorative Dentistry', href: '/blog/category/restorative-dentistry' },
-                { title: 'Crowns Staining' }
+                { title: 'Crowns Staining', href: '#' }
               ]}
             />
           </div>

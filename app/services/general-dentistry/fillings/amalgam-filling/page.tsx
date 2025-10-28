@@ -89,7 +89,7 @@ export default function AmalgamFillingPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'General Dentistry', href: '/services/general-dentistry' },
                 { title: 'Fillings', href: '/services/general-dentistry/fillings' },
-                { title: 'Amalgam Filling' }
+                { title: 'Amalgam Filling', href: '#' }
               ]}
             />
           </div>

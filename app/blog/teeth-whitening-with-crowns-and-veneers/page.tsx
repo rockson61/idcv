@@ -103,7 +103,7 @@ export default function TeethWhiteningWithCrownsAndVeneersBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Cosmetic Dentistry', href: '/blog/category/cosmetic-dentistry' },
-                { title: 'Teeth Whitening With Crowns And Veneers' }
+                { title: 'Teeth Whitening With Crowns And Veneers', href: '#' }
               ]}
             />
           </div>

@@ -103,7 +103,7 @@ export default function GumAbscessBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Periodontitis', href: '/blog/category/periodontitis' },
-                { title: 'Gum Abscess' }
+                { title: 'Gum Abscess', href: '#' }
               ]}
             />
           </div>

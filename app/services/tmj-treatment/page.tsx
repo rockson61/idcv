@@ -81,7 +81,7 @@ export default function ServicePage() {
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
-            { title: 'TMJ Disorder Treatment & Jaw Pain Relief' }
+            { title: 'TMJ Disorder Treatment & Jaw Pain Relief', href: '#' }
           ]}
         />
 

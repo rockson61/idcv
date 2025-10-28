@@ -83,7 +83,7 @@ export default function BoneLossInTeethPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Conditions', href: '/services/periodontics/conditions' },
-                { title: 'Bone Loss In Teeth' }
+                { title: 'Bone Loss In Teeth', href: '#' }
               ]}
             />
           </div>

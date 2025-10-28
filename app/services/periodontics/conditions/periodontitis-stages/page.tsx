@@ -83,7 +83,7 @@ export default function PeriodontitisStagesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Periodontics', href: '/services/periodontics' },
                 { title: 'Conditions', href: '/services/periodontics/conditions' },
-                { title: 'Periodontitis Stages' }
+                { title: 'Periodontitis Stages', href: '#' }
               ]}
             />
           </div>

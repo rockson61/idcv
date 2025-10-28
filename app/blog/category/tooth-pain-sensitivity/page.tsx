@@ -20,7 +20,7 @@ export default function toothpainsensitivityCategoryPage() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Tooth Pain Sensitivity' }
+              { title: 'Tooth Pain Sensitivity', href: '#' }
             ]}
           />
         </div>

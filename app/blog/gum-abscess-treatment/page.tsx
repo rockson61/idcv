@@ -103,7 +103,7 @@ export default function GumAbscessTreatmentBlogPost() {
                 { title: 'Home', href: '/' },
                 { title: 'Blog', href: '/blog' },
                 { title: 'Oral Infections', href: '/blog/category/oral-infections' },
-                { title: 'Gum Abscess Treatment' }
+                { title: 'Gum Abscess Treatment', href: '#' }
               ]}
             />
           </div>

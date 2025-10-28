@@ -89,7 +89,7 @@ export default function RemovableBracesPage() {
                 { title: 'Services', href: '/services' },
                 { title: 'Orthodontics', href: '/services/orthodontics' },
                 { title: 'Braces', href: '/services/orthodontics/braces' },
-                { title: 'Removable Braces' }
+                { title: 'Removable Braces', href: '#' }
               ]}
             />
           </div>
