@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         url: '/dental-clinic-vellore.jpg',
         width: 1200,
         height: 630,
-        alt: 'Dental Sealants Protection Kids'
+        alt: 'Dental Sealants Protection Kids\'
       }
     ],
     locale: 'en_IN',
@@ -64,15 +64,15 @@ export const metadata: Metadata = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
-  headline: 'Dental Sealants: Protection for Kids' Teeth',
+  headline: 'Dental Sealants: Protection for Kids\' Teeth',
   image: '/dental-clinic-vellore.jpg',
   author: {
     '@type': 'Person',
-    name: 'Dr. Rockson Samuel'
+    name: 'Dr. Rockson Samuel\'
   },
   publisher: {
     '@type': 'Organization',
-    name: 'Indira Dental Clinic'
+    name: 'Indira Dental Clinic\'
   },
   datePublished: '2024-10-28'
 }
@@ -88,7 +88,7 @@ export default function DentalSealantsProtectionKidsPost() {
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
             { title: 'Preventive Dentistry', href: `/blog/category/'pediatric-dentistry'` },
-            { title: 'Dental Sealants: Protection for Kids' Teeth', href: `/blog/'dental-sealants-protection-kids'` }
+            { title: 'Dental Sealants: Protection for Kids\' Teeth', href: `/blog/'dental-sealants-protection-kids'` }
           ]} />
 
           <article className="mt-8">
