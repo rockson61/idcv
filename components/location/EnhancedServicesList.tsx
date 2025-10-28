@@ -5,11 +5,13 @@ import { CheckCircle, IndianRupee, Clock, Award, Shield, Zap , ArrowRight} from 
 import Link from 'next/link'
 
 interface Service {
-  title: string
+  title?: string
+  name?: string  // Allow either 'title' or 'name'
   slug?: string
+  href?: string  // Allow either 'slug' or 'href'
   description?: string
   price: string
-  features: string[]
+  features?: string[]  // Make features optional
   duration?: string
   popular?: boolean
   badge?: string
