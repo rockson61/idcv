@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Ethiraj Salai", "Chennai")
@@ -94,11 +93,7 @@ export default function EthirajSalaiPage() {
 
         <LocationReviews locationName="Ethiraj Salai" reviews={reviews} />
 
-        <LocationFAQs locationName="Ethiraj Salai" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Ethiraj Salai" city="Chennai" />
+        <LocationFAQs locationName="Ethiraj Salai" faqs={faqs} /><PeopleAlsoSearchFor location="Ethiraj Salai" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Ethiraj Salai Today!"

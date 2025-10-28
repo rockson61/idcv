@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Anna Road", "Chennai")
@@ -94,11 +93,7 @@ export default function AnnaRoadPage() {
 
         <LocationReviews locationName="Anna Road" reviews={reviews} />
 
-        <LocationFAQs locationName="Anna Road" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Anna Road" city="Chennai" />
+        <LocationFAQs locationName="Anna Road" faqs={faqs} /><PeopleAlsoSearchFor location="Anna Road" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Anna Road Today!"

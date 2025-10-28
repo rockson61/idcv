@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Ramakrishna Nagar", "Chennai")
@@ -94,11 +93,7 @@ export default function RamakrishnaNagarPage() {
 
         <LocationReviews locationName="Ramakrishna Nagar" reviews={reviews} />
 
-        <LocationFAQs locationName="Ramakrishna Nagar" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Ramakrishna Nagar" city="Chennai" />
+        <LocationFAQs locationName="Ramakrishna Nagar" faqs={faqs} /><PeopleAlsoSearchFor location="Ramakrishna Nagar" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Ramakrishna Nagar Today!"

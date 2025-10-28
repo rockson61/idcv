@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("ICF Colony", "Chennai")
@@ -94,11 +93,7 @@ export default function ICFColonyPage() {
 
         <LocationReviews locationName="ICF Colony" reviews={reviews} />
 
-        <LocationFAQs locationName="ICF Colony" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="ICF Colony" city="Chennai" />
+        <LocationFAQs locationName="ICF Colony" faqs={faqs} /><PeopleAlsoSearchFor location="ICF Colony" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from ICF Colony Today!"

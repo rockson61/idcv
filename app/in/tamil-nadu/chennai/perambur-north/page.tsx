@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Perambur North", "Chennai")
@@ -94,11 +93,7 @@ export default function PeramburNorthPage() {
 
         <LocationReviews locationName="Perambur North" reviews={reviews} />
 
-        <LocationFAQs locationName="Perambur North" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Perambur North" city="Chennai" />
+        <LocationFAQs locationName="Perambur North" faqs={faqs} /><PeopleAlsoSearchFor location="Perambur North" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Perambur North Today!"

@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Greams Road", "Chennai")
@@ -94,11 +93,7 @@ export default function GreamsRoadPage() {
 
         <LocationReviews locationName="Greams Road" reviews={reviews} />
 
-        <LocationFAQs locationName="Greams Road" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Greams Road" city="Chennai" />
+        <LocationFAQs locationName="Greams Road" faqs={faqs} /><PeopleAlsoSearchFor location="Greams Road" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Greams Road Today!"

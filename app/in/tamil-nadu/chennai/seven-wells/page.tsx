@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Seven Wells", "Chennai")
@@ -94,11 +93,7 @@ export default function SevenWellsPage() {
 
         <LocationReviews locationName="Seven Wells" reviews={reviews} />
 
-        <LocationFAQs locationName="Seven Wells" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Seven Wells" city="Chennai" />
+        <LocationFAQs locationName="Seven Wells" faqs={faqs} /><PeopleAlsoSearchFor location="Seven Wells" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Seven Wells Today!"

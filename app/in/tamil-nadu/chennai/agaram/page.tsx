@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Agaram", "Chennai")
@@ -94,11 +93,7 @@ export default function AgaramPage() {
 
         <LocationReviews locationName="Agaram" reviews={reviews} />
 
-        <LocationFAQs locationName="Agaram" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Agaram" city="Chennai" />
+        <LocationFAQs locationName="Agaram" faqs={faqs} /><PeopleAlsoSearchFor location="Agaram" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Agaram Today!"

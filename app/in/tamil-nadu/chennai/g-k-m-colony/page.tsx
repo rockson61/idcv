@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("G K M Colony", "Chennai")
@@ -94,11 +93,7 @@ export default function GKMColonyPage() {
 
         <LocationReviews locationName="G K M Colony" reviews={reviews} />
 
-        <LocationFAQs locationName="G K M Colony" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="G K M Colony" city="Chennai" />
+        <LocationFAQs locationName="G K M Colony" faqs={faqs} /><PeopleAlsoSearchFor location="G K M Colony" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from G K M Colony Today!"

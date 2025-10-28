@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Tondiarpet West", "Chennai")
@@ -94,11 +93,7 @@ export default function TondiarpetWestPage() {
 
         <LocationReviews locationName="Tondiarpet West" reviews={reviews} />
 
-        <LocationFAQs locationName="Tondiarpet West" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Tondiarpet West" city="Chennai" />
+        <LocationFAQs locationName="Tondiarpet West" faqs={faqs} /><PeopleAlsoSearchFor location="Tondiarpet West" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Tondiarpet West Today!"

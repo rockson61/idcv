@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Chennai", "Chennai")
@@ -137,11 +136,7 @@ export default function ChennaiPage() {
 
         <LocationReviews locationName="Chennai" reviews={reviews} />
 
-        <LocationFAQs locationName="Chennai" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        {/* Nearby Locations */}
+        <LocationFAQs locationName="Chennai" faqs={faqs} />{/* Nearby Locations */}
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-[#005f73] mb-6">Chennai Areas We Serve</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

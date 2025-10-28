@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Washermanpet", "Chennai")
@@ -94,11 +93,7 @@ export default function WashermanpetPage() {
 
         <LocationReviews locationName="Washermanpet" reviews={reviews} />
 
-        <LocationFAQs locationName="Washermanpet" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Washermanpet" city="Chennai" />
+        <LocationFAQs locationName="Washermanpet" faqs={faqs} /><PeopleAlsoSearchFor location="Washermanpet" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Washermanpet Today!"

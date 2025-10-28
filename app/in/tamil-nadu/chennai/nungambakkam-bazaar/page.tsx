@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Nungambakkam Bazaar", "Chennai")
@@ -94,11 +93,7 @@ export default function NungambakkamBazaarPage() {
 
         <LocationReviews locationName="Nungambakkam Bazaar" reviews={reviews} />
 
-        <LocationFAQs locationName="Nungambakkam Bazaar" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Nungambakkam Bazaar" city="Chennai" />
+        <LocationFAQs locationName="Nungambakkam Bazaar" faqs={faqs} /><PeopleAlsoSearchFor location="Nungambakkam Bazaar" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Nungambakkam Bazaar Today!"

@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Velacheri", "Chennai")
@@ -94,11 +93,7 @@ export default function VelacheriPage() {
 
         <LocationReviews locationName="Velacheri" reviews={reviews} />
 
-        <LocationFAQs locationName="Velacheri" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Velacheri" city="Chennai" />
+        <LocationFAQs locationName="Velacheri" faqs={faqs} /><PeopleAlsoSearchFor location="Velacheri" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Velacheri Today!"

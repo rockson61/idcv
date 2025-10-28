@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Nandanam", "Chennai")
@@ -94,11 +93,7 @@ export default function NandanamPage() {
 
         <LocationReviews locationName="Nandanam" reviews={reviews} />
 
-        <LocationFAQs locationName="Nandanam" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Nandanam" city="Chennai" />
+        <LocationFAQs locationName="Nandanam" faqs={faqs} /><PeopleAlsoSearchFor location="Nandanam" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Nandanam Today!"

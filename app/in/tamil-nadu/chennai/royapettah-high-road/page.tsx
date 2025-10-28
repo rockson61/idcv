@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Royapettah High Road", "Chennai")
@@ -94,11 +93,7 @@ export default function RoyapettahHighRoadPage() {
 
         <LocationReviews locationName="Royapettah High Road" reviews={reviews} />
 
-        <LocationFAQs locationName="Royapettah High Road" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Royapettah High Road" city="Chennai" />
+        <LocationFAQs locationName="Royapettah High Road" faqs={faqs} /><PeopleAlsoSearchFor location="Royapettah High Road" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Royapettah High Road Today!"

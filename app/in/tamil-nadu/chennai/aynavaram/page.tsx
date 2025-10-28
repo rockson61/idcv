@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Aynavaram", "Chennai")
@@ -94,11 +93,7 @@ export default function AynavaramPage() {
 
         <LocationReviews locationName="Aynavaram" reviews={reviews} />
 
-        <LocationFAQs locationName="Aynavaram" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Aynavaram" city="Chennai" />
+        <LocationFAQs locationName="Aynavaram" faqs={faqs} /><PeopleAlsoSearchFor location="Aynavaram" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Aynavaram Today!"

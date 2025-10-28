@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("High Court Building", "Chennai")
@@ -94,11 +93,7 @@ export default function HighCourtBuildingPage() {
 
         <LocationReviews locationName="High Court Building" reviews={reviews} />
 
-        <LocationFAQs locationName="High Court Building" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="High Court Building" city="Chennai" />
+        <LocationFAQs locationName="High Court Building" faqs={faqs} /><PeopleAlsoSearchFor location="High Court Building" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from High Court Building Today!"

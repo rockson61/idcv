@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Thygaraya Nagar South", "Chennai")
@@ -94,11 +93,7 @@ export default function ThygarayaNagarSouthPage() {
 
         <LocationReviews locationName="Thygaraya Nagar South" reviews={reviews} />
 
-        <LocationFAQs locationName="Thygaraya Nagar South" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Thygaraya Nagar South" city="Chennai" />
+        <LocationFAQs locationName="Thygaraya Nagar South" faqs={faqs} /><PeopleAlsoSearchFor location="Thygaraya Nagar South" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Thygaraya Nagar South Today!"

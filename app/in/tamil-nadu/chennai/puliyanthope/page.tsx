@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Puliyanthope", "Chennai")
@@ -94,11 +93,7 @@ export default function PuliyanthopePage() {
 
         <LocationReviews locationName="Puliyanthope" reviews={reviews} />
 
-        <LocationFAQs locationName="Puliyanthope" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Puliyanthope" city="Chennai" />
+        <LocationFAQs locationName="Puliyanthope" faqs={faqs} /><PeopleAlsoSearchFor location="Puliyanthope" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Puliyanthope Today!"

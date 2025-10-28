@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Guindy Industrial Estate", "Chennai")
@@ -94,11 +93,7 @@ export default function GuindyIndustrialEstatePage() {
 
         <LocationReviews locationName="Guindy Industrial Estate" reviews={reviews} />
 
-        <LocationFAQs locationName="Guindy Industrial Estate" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Guindy Industrial Estate" city="Chennai" />
+        <LocationFAQs locationName="Guindy Industrial Estate" faqs={faqs} /><PeopleAlsoSearchFor location="Guindy Industrial Estate" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Guindy Industrial Estate Today!"

@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Chetput", "Chennai")
@@ -94,11 +93,7 @@ export default function ChetputPage() {
 
         <LocationReviews locationName="Chetput" reviews={reviews} />
 
-        <LocationFAQs locationName="Chetput" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Chetput" city="Chennai" />
+        <LocationFAQs locationName="Chetput" faqs={faqs} /><PeopleAlsoSearchFor location="Chetput" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Chetput Today!"

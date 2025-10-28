@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Fort St George", "Chennai")
@@ -94,11 +93,7 @@ export default function FortStGeorgePage() {
 
         <LocationReviews locationName="Fort St George" reviews={reviews} />
 
-        <LocationFAQs locationName="Fort St George" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Fort St George" city="Chennai" />
+        <LocationFAQs locationName="Fort St George" faqs={faqs} /><PeopleAlsoSearchFor location="Fort St George" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Fort St George Today!"

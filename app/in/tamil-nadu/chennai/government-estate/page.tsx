@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Government Estate", "Chennai")
@@ -94,11 +93,7 @@ export default function GovernmentEstatePage() {
 
         <LocationReviews locationName="Government Estate" reviews={reviews} />
 
-        <LocationFAQs locationName="Government Estate" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Government Estate" city="Chennai" />
+        <LocationFAQs locationName="Government Estate" faqs={faqs} /><PeopleAlsoSearchFor location="Government Estate" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Government Estate Today!"

@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Choolai", "Chennai")
@@ -94,11 +93,7 @@ export default function ChoolaiPage() {
 
         <LocationReviews locationName="Choolai" reviews={reviews} />
 
-        <LocationFAQs locationName="Choolai" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Choolai" city="Chennai" />
+        <LocationFAQs locationName="Choolai" faqs={faqs} /><PeopleAlsoSearchFor location="Choolai" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Choolai Today!"

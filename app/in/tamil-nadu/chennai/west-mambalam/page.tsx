@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("West Mambalam", "Chennai")
@@ -94,11 +93,7 @@ export default function WestMambalamPage() {
 
         <LocationReviews locationName="West Mambalam" reviews={reviews} />
 
-        <LocationFAQs locationName="West Mambalam" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="West Mambalam" city="Chennai" />
+        <LocationFAQs locationName="West Mambalam" faqs={faqs} /><PeopleAlsoSearchFor location="West Mambalam" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from West Mambalam Today!"

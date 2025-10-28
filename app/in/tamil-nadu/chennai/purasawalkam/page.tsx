@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Purasawalkam", "Chennai")
@@ -94,11 +93,7 @@ export default function PurasawalkamPage() {
 
         <LocationReviews locationName="Purasawalkam" reviews={reviews} />
 
-        <LocationFAQs locationName="Purasawalkam" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Purasawalkam" city="Chennai" />
+        <LocationFAQs locationName="Purasawalkam" faqs={faqs} /><PeopleAlsoSearchFor location="Purasawalkam" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Purasawalkam Today!"

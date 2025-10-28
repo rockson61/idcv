@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Tiruvanmiyur North", "Chennai")
@@ -94,11 +93,7 @@ export default function TiruvanmiyurNorthPage() {
 
         <LocationReviews locationName="Tiruvanmiyur North" reviews={reviews} />
 
-        <LocationFAQs locationName="Tiruvanmiyur North" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Tiruvanmiyur North" city="Chennai" />
+        <LocationFAQs locationName="Tiruvanmiyur North" faqs={faqs} /><PeopleAlsoSearchFor location="Tiruvanmiyur North" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Tiruvanmiyur North Today!"

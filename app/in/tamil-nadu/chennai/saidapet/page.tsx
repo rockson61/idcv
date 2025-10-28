@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Saidapet", "Chennai")
@@ -94,11 +93,7 @@ export default function SaidapetPage() {
 
         <LocationReviews locationName="Saidapet" reviews={reviews} />
 
-        <LocationFAQs locationName="Saidapet" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Saidapet" city="Chennai" />
+        <LocationFAQs locationName="Saidapet" faqs={faqs} /><PeopleAlsoSearchFor location="Saidapet" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Saidapet Today!"

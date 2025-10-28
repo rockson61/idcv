@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Anna Nagar Western Extn", "Chennai")
@@ -94,11 +93,7 @@ export default function AnnaNagarWesternExtnPage() {
 
         <LocationReviews locationName="Anna Nagar Western Extn" reviews={reviews} />
 
-        <LocationFAQs locationName="Anna Nagar Western Extn" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Anna Nagar Western Extn" city="Chennai" />
+        <LocationFAQs locationName="Anna Nagar Western Extn" faqs={faqs} /><PeopleAlsoSearchFor location="Anna Nagar Western Extn" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Anna Nagar Western Extn Today!"

@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Nerkundram", "Chennai")
@@ -94,11 +93,7 @@ export default function NerkundramPage() {
 
         <LocationReviews locationName="Nerkundram" reviews={reviews} />
 
-        <LocationFAQs locationName="Nerkundram" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Nerkundram" city="Chennai" />
+        <LocationFAQs locationName="Nerkundram" faqs={faqs} /><PeopleAlsoSearchFor location="Nerkundram" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Nerkundram Today!"

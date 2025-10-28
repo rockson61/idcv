@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Koyambedu", "Chennai")
@@ -94,11 +93,7 @@ export default function KoyambeduPage() {
 
         <LocationReviews locationName="Koyambedu" reviews={reviews} />
 
-        <LocationFAQs locationName="Koyambedu" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Koyambedu" city="Chennai" />
+        <LocationFAQs locationName="Koyambedu" faqs={faqs} /><PeopleAlsoSearchFor location="Koyambedu" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Koyambedu Today!"

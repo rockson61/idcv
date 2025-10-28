@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Indira Nagar", "Chennai")
@@ -94,11 +93,7 @@ export default function IndiraNagarPage() {
 
         <LocationReviews locationName="Indira Nagar" reviews={reviews} />
 
-        <LocationFAQs locationName="Indira Nagar" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Indira Nagar" city="Chennai" />
+        <LocationFAQs locationName="Indira Nagar" faqs={faqs} /><PeopleAlsoSearchFor location="Indira Nagar" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Indira Nagar Today!"

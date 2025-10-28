@@ -10,7 +10,6 @@ import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { TravelInfoCard } from "@/components/location/TravelInfoCard"
 import { generateLocationReviews } from "@/lib/review-data"
 
 const reviews = generateLocationReviews("Royapuram Market", "Chennai")
@@ -94,11 +93,7 @@ export default function RoyapuramMarketPage() {
 
         <LocationReviews locationName="Royapuram Market" reviews={reviews} />
 
-        <LocationFAQs locationName="Royapuram Market" faqs={faqs} />
-
-        <TravelInfoCard />
-
-        <PeopleAlsoSearchFor location="Royapuram Market" city="Chennai" />
+        <LocationFAQs locationName="Royapuram Market" faqs={faqs} /><PeopleAlsoSearchFor location="Royapuram Market" city="Chennai" />
 
         <CTAWidget
           title="Book Your Appointment from Royapuram Market Today!"
