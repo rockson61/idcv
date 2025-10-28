@@ -79,7 +79,7 @@ export const metadata: Metadata = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
-  headline: 'Large Cavity Treatment: When Filling Isn't Enough',
+  headline: 'Large Cavity Treatment: When Filling Isn\'t Enough',
   image: '/dental-clinic-vellore.jpg',
   author: {
     '@type': 'Person',
@@ -116,8 +116,8 @@ export default function LargeCavityTreatmentBeyondFillingBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'restorative-dentistry'` },
-              { title: 'Large Cavity Treatment: When Filling Isn't Enough', href: `/blog/'large-cavity-treatment-beyond-filling'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/restorative-dentistry` },
+              { title: 'Large Cavity Treatment: When Filling Isn\'t Enough', href: `/blog/large-cavity-treatment-beyond-filling` }
             ]}
           />
 

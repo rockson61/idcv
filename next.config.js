@@ -10,8 +10,8 @@ const nextConfig = {
     optimizeCss: true,
   },
   
-  // Enable SWC minification (2x faster than Terser)
-  swcMinify: true,
+  // SWC minification is enabled by default in Next.js 15
+  // No need to specify swcMinify option
   
   // Disable source maps in production (faster builds)
   productionBrowserSourceMaps: false,
