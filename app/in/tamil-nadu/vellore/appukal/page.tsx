@@ -11,6 +11,8 @@ export const metadata: Metadata = {
 }
 
 export default function AppukalPage() {
+  const distance = "15 km"
+
   const locationName = 'Appukal'
   const services = [
     { title: 'Root Canal', slug: 'root-canal-treatment', price: '₹3,000 - ₹8,000', features: ['Painless', 'Single sitting', 'Crown included'], duration: '1-2 hours', popular: true },

@@ -11,6 +11,8 @@ export const metadata: Metadata = {
 }
 
 export default function MailpattiPage() {
+  const distance = "47 km"
+
   const locationName = 'Mailpatti'
   const services = [
     { title: 'Root Canal', slug: 'root-canal-treatment', price: '₹3,000 - ₹8,000', features: ['Painless', 'Single sitting', 'Crown included'], duration: '1-2 hours', popular: true },
