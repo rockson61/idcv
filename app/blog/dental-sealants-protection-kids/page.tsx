@@ -68,11 +68,11 @@ const articleSchema = {
   image: '/dental-clinic-vellore.jpg',
   author: {
     '@type': 'Person',
-    name: 'Dr. Rockson Samuel\'
+    name: 'Dr. Rockson Samuel'
   },
   publisher: {
     '@type': 'Organization',
-    name: 'Indira Dental Clinic\'
+    name: 'Indira Dental Clinic'
   },
   datePublished: '2024-10-28'
 }

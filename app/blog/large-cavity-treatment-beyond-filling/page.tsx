@@ -79,7 +79,7 @@ export const metadata: Metadata = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
-  headline: 'Large Cavity Treatment: When Filling Isn\\'t Enough',
+  headline: 'Large Cavity Treatment: When Filling Isn\'t Enough',
   image: '/dental-clinic-vellore.jpg',
   author: {
     '@type': 'Person',
@@ -87,7 +87,7 @@ const articleSchema = {
     jobTitle: 'BDS, PgDM, BDM | General Dentist & Community Leader',
     worksFor: {
       '@type': 'Dentist',
-      name: 'Indira Dental Clinic & Implant Center\'
+      name: 'Indira Dental Clinic & Implant Center'
     }
   },
   publisher: {
