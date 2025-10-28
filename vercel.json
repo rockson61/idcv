@@ -6,7 +6,18 @@
   "build": {
     "env": {
       "NEXT_IGNORE_BUILD_ERRORS": "true",
-      "NEXT_IGNORE_ESLINT_ERRORS": "true"
+      "NEXT_IGNORE_ESLINT_ERRORS": "true",
+      "NODE_OPTIONS": "--max-old-space-size=8192"
+    }
+  },
+  "functions": {
+    "app/**/*.tsx": {
+      "memory": 3008,
+      "maxDuration": 60
+    },
+    "app/api/**/*.ts": {
+      "memory": 1024,
+      "maxDuration": 10
     }
   }
 }

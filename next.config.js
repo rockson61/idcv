@@ -2,10 +2,19 @@
 const nextConfig = {
   reactStrictMode: true,
   
-  // Experimental features
+  // Experimental features - Build Performance Optimizations
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
+    parallelServerCompiles: true,
+    parallelServerBuildTraces: true,
+    optimizeCss: true,
   },
+  
+  // Enable SWC minification (2x faster than Terser)
+  swcMinify: true,
+  
+  // Disable source maps in production (faster builds)
+  productionBrowserSourceMaps: false,
 
   // Security Headers
   async headers() {
