@@ -6,7 +6,7 @@ import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { CTAWidget } from '@/components/widgets/cta-widget'
 
 export const metadata: Metadata = {
-  title: 'Lichen Planus Treatment in Vellore | Indira Dental Clinic',
+  title: "Lichen Planus Causes, Symptoms & Treatment | Dr. Rockson Samuel | Vellore",
   description: 'Expert lichen planus treatment in Vellore by Dr. Rockson Samuel. Advanced diagnosis and treatment for lichen planus at Indira Dental Clinic.',
   keywords: 'lichen planus, lichen planus treatment, dental conditions, vellore dentist',
 }
@@ -34,9 +34,11 @@ export default function LichenPlanusPage() {
             <AlertCircle className="w-4 h-4" />
             Dental Condition
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Lichen Planus Treatment in Vellore
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent">
+                Lichen Planus Causes, Symptoms & Treatment
+              </span>
+            </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Expert diagnosis and treatment for lichen planus at Indira Dental Clinic by Dr. Rockson Samuel
           </p>

@@ -9,7 +9,7 @@ import { ConditionSemanticContent } from "@/components/sections/condition-semant
 import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
-  title: "Tooth Abscess Treatment | Dental Infection | Emergency Care | Vellore",
+  title: "Tooth Abscess Causes, Symptoms & Treatment | Dr. Rockson Samuel | Vellore",
   description: "Emergency treatment for tooth abscess and dental infections at Indira Dental Clinic. Expert care for root abscesses, gum abscesses, and periapical infections. Available 24/7.",
   alternates: {
     canonical: "https://www.dentalclinicinvellore.in/conditions/tooth-abscess",
@@ -34,8 +34,8 @@ export default function ToothAbscessPage() {
               Emergency Dental Condition
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">
-                Tooth Abscess Treatment
+              <span className="bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent">
+                Tooth Abscess Causes, Symptoms & Treatment
               </span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">

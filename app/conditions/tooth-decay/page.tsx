@@ -9,7 +9,7 @@ import { ConditionSemanticContent } from "@/components/sections/condition-semant
 import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
-  title: "Tooth Decay Treatment | Cavity Prevention | Indira Dental Clinic",
+  title: "Tooth Decay Causes, Symptoms & Treatment | Dr. Rockson Samuel | Vellore",
   description:
     "Expert treatment for tooth decay and cavities at Indira Dental Clinic in Vellore. Learn about prevention, fillings, and restorative options. Schedule today!",
 }
@@ -26,7 +26,11 @@ export default function ToothDecayPage() {
         ]}
       />
 
-      <h1 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">Tooth Decay Causes, Symptoms & Treatment</h1>
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent">
+                Tooth Decay Causes, Symptoms & Treatment
+              </span>
+            </h1>
 
       <div className="prose prose-lg max-w-none">
         <p className="text-lg mb-6">

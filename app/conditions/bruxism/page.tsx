@@ -9,7 +9,7 @@ import { ConditionSemanticContent } from "@/components/sections/condition-semant
 import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
-  title: "Bruxism (Teeth Grinding) Treatment | Night Guards | Vellore",
+  title: "Bruxism (Teeth Grinding) Causes, Symptoms & Treatment | Dr. Rockson Samuel | Vellore",
   description: "Expert treatment for bruxism and teeth grinding at Indira Dental Clinic. Custom night guards, TMJ therapy, and comprehensive solutions. Book your consultation today!",
   alternates: {
     canonical: "https://www.dentalclinicinvellore.in/conditions/bruxism",
@@ -34,8 +34,8 @@ export default function BruxismPage() {
               Teeth Grinding & Clenching
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                Bruxism (Teeth Grinding) Treatment
+              <span className="bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent">
+                Bruxism (Teeth Grinding) Causes, Symptoms & Treatment
               </span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">

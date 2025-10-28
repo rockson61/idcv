@@ -5,7 +5,7 @@ import { ChevronRight, AlertCircle, CheckCircle } from "lucide-react"
 import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
-  title: "Gum Disease Treatment in Vellore | Indira Dental Clinic",
+  title: "Gum Disease Causes, Symptoms & Treatment | Dr. Rockson Samuel | Vellore",
   description:
     "Expert treatment for gum disease (periodontitis) at Indira Dental Clinic in Vellore. Learn about symptoms, causes, treatments, and prevention of periodontal disease.",
 }
@@ -53,7 +53,11 @@ export default function GumDiseasePage() {
 
         <div className="relative px-6 py-16 sm:px-12 sm:py-24">
           <div className="max-w-3xl">
-            <h1 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">Gum Disease Causes, Symptoms & Treatment</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent">
+                Gum Disease Causes, Symptoms & Treatment
+              </span>
+            </h1>
             <p className="text-xl text-white/90 mb-8">
               Comprehensive care for gum disease to restore your oral health and protect your smile
             </p>

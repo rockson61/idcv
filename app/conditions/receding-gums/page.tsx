@@ -9,7 +9,7 @@ import { ConditionSemanticContent } from "@/components/sections/condition-semant
 import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
-  title: "Receding Gums Treatment | Gum Grafting | Gingival Recession | Vellore",
+  title: "Receding Gums Causes, Symptoms & Treatment | Dr. Rockson Samuel | Vellore",
   description: "Expert treatment for receding gums at Indira Dental Clinic. Gum grafting, deep cleaning, and preventive care to restore your gum line and protect your teeth.",
   alternates: {
     canonical: "https://www.dentalclinicinvellore.in/conditions/receding-gums",
@@ -34,8 +34,8 @@ export default function RecedingGumsPage() {
               Gingival Recession
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-pink-600 to-rose-600 bg-clip-text text-transparent">
-                Receding Gums Treatment
+              <span className="bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent">
+                Receding Gums Causes, Symptoms & Treatment
               </span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">

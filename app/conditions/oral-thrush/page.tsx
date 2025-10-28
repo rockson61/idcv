@@ -6,7 +6,7 @@ import { Breadcrumb } from '@/components/ui/breadcrumb'
 import { CTAWidget } from '@/components/widgets/cta-widget'
 
 export const metadata: Metadata = {
-  title: 'Oral Thrush Treatment in Vellore | Indira Dental Clinic',
+  title: "Oral Thrush Causes, Symptoms & Treatment | Dr. Rockson Samuel | Vellore",
   description: 'Expert oral thrush treatment in Vellore by Dr. Rockson Samuel. Advanced diagnosis and treatment for oral thrush at Indira Dental Clinic.',
   keywords: 'oral thrush, oral thrush treatment, dental conditions, vellore dentist',
 }
@@ -34,9 +34,11 @@ export default function OralThrushPage() {
             <AlertCircle className="w-4 h-4" />
             Dental Condition
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Oral Thrush Treatment in Vellore
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent">
+                Oral Thrush Causes, Symptoms & Treatment
+              </span>
+            </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Expert diagnosis and treatment for oral thrush at Indira Dental Clinic by Dr. Rockson Samuel
           </p>

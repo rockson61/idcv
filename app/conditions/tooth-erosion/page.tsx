@@ -9,7 +9,7 @@ import { ConditionSemanticContent } from "@/components/sections/condition-semant
 import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
-  title: "Tooth Erosion Treatment | Enamel Loss | Acid Wear | Vellore",
+  title: "Tooth Erosion Causes, Symptoms & Treatment | Dr. Rockson Samuel | Vellore",
   description: "Expert treatment for tooth erosion and enamel loss at Indira Dental Clinic. Fluoride treatments, bonding, and preventive care to protect your teeth from acid wear.",
   alternates: {
     canonical: "https://www.dentalclinicinvellore.in/conditions/tooth-erosion",
@@ -34,8 +34,8 @@ export default function ToothErosionPage() {
               Enamel Erosion & Acid Wear
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-cyan-600 to-sky-600 bg-clip-text text-transparent">
-                Tooth Erosion Treatment
+              <span className="bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent">
+                Tooth Erosion Causes, Symptoms & Treatment
               </span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">

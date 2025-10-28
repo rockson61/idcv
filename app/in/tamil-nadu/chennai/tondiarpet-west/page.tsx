@@ -1,0 +1,112 @@
+import type { Metadata } from "next"
+import Link from "next/link"
+import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { LocationHeader } from "@/components/location/LocationHeader"
+import { GoogleMapEmbed } from "@/components/location/GoogleMapEmbed"
+import { EnhancedServicesList } from "@/components/location/EnhancedServicesList"
+import { LocationReviews } from "@/components/location/LocationReviews"
+import { LocationFAQs } from "@/components/location/LocationFAQs"
+import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
+import { CTAWidget } from "@/components/widgets/cta-widget"
+import { WhyChooseUs } from "@/components/location/WhyChooseUs"
+import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
+import { TravelInfoCard } from "@/components/location/TravelInfoCard"
+import { generateLocationReviews } from "@/lib/review-data"
+
+const reviews = generateLocationReviews("Tondiarpet West", "Chennai")
+
+export const metadata: Metadata = {
+  title: "Best Dentist in Tondiarpet West, Chennai | Top Dental Clinic | Indira Dental Clinic",
+  description: "Find the best dental clinic in Tondiarpet West, Chennai for all your dental needs. Dr. Rockson Samuel offers expert treatments including root canals, implants, braces, and cosmetic dentistry.",
+  keywords: ["dentist in Tondiarpet West", "dental clinic Tondiarpet West Chennai", "best dentist Tondiarpet West", "dental care Tondiarpet West", "Indira Dental Clinic Tondiarpet West"],
+  alternates: {
+    canonical: `/in/tamil-nadu/chennai/tondiarpet-west`,
+  },
+}
+
+export default function TondiarpetWestPage() {
+  const services = [
+    { title: "Root Canal Treatment", href: "/services/root-canal-treatment" },
+    { title: "Dental Implants", href: "/services/dental-implants" },
+    { title: "Orthodontic Braces", href: "/services/orthodontics" },
+    { title: "Teeth Whitening", href: "/services/cosmetic-dentistry/teeth-whitening" },
+    { title: "Cosmetic Dentistry", href: "/services/cosmetic-dentistry" },
+    { title: "Pediatric Dentistry", href: "/services/pediatric-dentistry" },
+    { title: "Emergency Dental Care", href: "/services/emergency-dentistry" },
+    { title: "Gum Disease Treatment", href: "/services/periodontics" },
+    { title: "Wisdom Teeth Removal", href: "/services/oral-surgery/wisdom-teeth-removal" },
+    { title: "Dental Crowns & Bridges", href: "/services/restorative-dentistry/dental-crowns" },
+    { title: "General Dentistry", href: "/services/general-dentistry" },
+    { title: "All-on-4 Implants", href: "/services/dental-implants/all-on-4-implants" },
+  ]
+
+  const faqs = [
+    {
+      question: "What dental services are available in Tondiarpet West, Chennai?",
+      answer: "In Tondiarpet West, Chennai, Indira Dental Clinic offers comprehensive dental services including general dentistry, cosmetic treatments, root canal therapy, dental implants, orthodontics (braces & Invisalign), teeth whitening, gum disease treatment, wisdom teeth removal, pediatric dentistry, and emergency dental care.",
+    },
+    {
+      question: "How can I book an appointment with Dr. Rockson Samuel from Tondiarpet West?",
+      answer: "You can book an appointment by calling us at 7010650063 or visiting our website to use the online booking form. We are conveniently located near Chennai and serve patients from Tondiarpet West and all surrounding areas.",
+    },
+    {
+      question: "What are the costs of dental treatments for Tondiarpet West patients?",
+      answer: "Our clinic offers transparent and competitive pricing. Root canal treatment starts from ₹3,000, dental implants from ₹25,000, braces from ₹30,000, and teeth whitening from ₹8,000. We provide detailed cost estimates during your consultation. Patients from Tondiarpet West, Chennai can expect high-quality care at affordable prices.",
+    },
+    {
+      question: "Is emergency dental care available for Tondiarpet West area?",
+      answer: "Yes, we provide 24/7 emergency dental care for patients from Tondiarpet West and all Chennai areas. Whether you have a severe toothache, broken tooth, knocked-out tooth, or any dental emergency, call us immediately at 7010650063.",
+    },
+  ]
+
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+      <div className="container mx-auto px-4 py-8 max-w-7xl">
+        <Breadcrumb
+          items={[
+            { title: 'Home', href: '/' },
+            { title: 'Tamil Nadu', href: '/in/tamil-nadu' },
+            { title: 'Chennai', href: '/in/tamil-nadu/chennai' },
+            { title: 'Tondiarpet West', href: '/in/tamil-nadu/chennai/tondiarpet-west' }
+          ]}
+        />
+
+        <LocationHeader
+          locationName="Best Dentist and Dental Clinic in Tondiarpet West, Chennai"
+          taluk="Tondiarpet West"
+          pincode="600081"
+          distance="130 KM from Vellore"
+          category="town"
+        />
+
+        <div className="mb-8">
+          <GoogleMapEmbed
+            locationName="Tondiarpet West"
+            address="3rd Floor, 54, Katpadi Main Rd, Gandhi Nagar, Vellore, Tamil Nadu - 632006"
+          />
+        </div>
+
+        <WhyChooseUs locationName="Tondiarpet West" />
+
+        <EnhancedServicesList locationName="Tondiarpet West" services={services} />
+
+        <PriceComparisonTable locationName="Tondiarpet West" />
+
+        <LocationReviews locationName="Tondiarpet West" reviews={reviews} />
+
+        <LocationFAQs faqs={faqs} />
+
+        <TravelInfoCard locationName="Tondiarpet West" />
+
+        <PeopleAlsoSearchFor location="Tondiarpet West" city="Chennai" />
+
+        <CTAWidget
+          title="Book Your Appointment from Tondiarpet West Today!"
+          description="Experience expert dental care with Dr. Rockson Samuel. We serve all Chennai areas including Tondiarpet West."
+          primaryAction={{ text: "Call Now: 7010650063", href: "tel:7010650063" }}
+          secondaryAction={{ text: "Book Online", href: "/contact#appointment" }}
+        />
+      </div>
+    </div>
+  )
+}

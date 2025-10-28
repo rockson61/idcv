@@ -3,7 +3,18 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { MapPin, Phone, Calendar, Star, Users, Shield, Award, Clock, Navigation, CheckCircle, DollarSign, MapPinIcon, Stethoscope, Heart, Zap, Globe, Car, Wifi, ParkingCircle, Coffee, Building, CreditCard } from 'lucide-react'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { LocationHeader } from "@/components/location/LocationHeader"
+import { GoogleMapEmbed } from "@/components/location/GoogleMapEmbed"
+import { EnhancedServicesList } from "@/components/location/EnhancedServicesList"
+import { LocationReviews } from "@/components/location/LocationReviews"
+import { LocationFAQs } from "@/components/location/LocationFAQs"
+import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
+import { CTAWidget } from "@/components/widgets/cta-widget"
+import { WhyChooseUs } from "@/components/location/WhyChooseUs"
+import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
+import { TravelInfoCard } from "@/components/location/TravelInfoCard"
+import { generateLocationReviews } from "@/lib/review-data"
 import Image from 'next/image'
 
 export const metadata: Metadata = {
@@ -135,9 +146,13 @@ export default function MumbaiPage() {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Dental Services in Mumbai
-          </h1>
+          <LocationHeader
+          locationName="Best Dentist and Dental Clinic in Mumbai, Maharashtra"
+          taluk="Mumbai"
+          pincode="400001"
+          distance="1,350 KM from Vellore"
+          category="city"
+        />
           <p className="text-lg text-gray-700 max-w-转入 mx-auto mb-8">
             Experience world-class dental care in Mumbai, Maharashtra. Our expert dentists 
             provide comprehensive dental treatments with modern technology and personalized care.

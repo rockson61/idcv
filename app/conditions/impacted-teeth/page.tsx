@@ -9,7 +9,7 @@ import { ConditionSemanticContent } from "@/components/sections/condition-semant
 import { MedicineSection, commonMedicines } from '@/components/condition/MedicineSection'
 
 export const metadata: Metadata = {
-  title: "Impacted Teeth Treatment | Wisdom Teeth Removal | Vellore",
+  title: "Impacted Teeth Causes, Symptoms & Treatment | Dr. Rockson Samuel | Vellore",
   description: "Expert treatment for impacted teeth and wisdom teeth at Indira Dental Clinic. Safe extractions, pain management, and comprehensive oral surgery care.",
   alternates: {
     canonical: "https://www.dentalclinicinvellore.in/conditions/impacted-teeth",
@@ -34,8 +34,8 @@ export default function ImpactedTeethPage() {
               Impacted & Unerupted Teeth
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
-                Impacted Teeth Treatment
+              <span className="bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent">
+                Impacted Teeth Causes, Symptoms & Treatment
               </span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
