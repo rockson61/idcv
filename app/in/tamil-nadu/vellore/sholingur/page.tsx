@@ -337,6 +337,9 @@ export default function SholingurPage() {
         />
 
         {/* Final CTA */}
+        
+        <PeopleAlsoSearchFor location="Sholingur" city="Vellore" />
+
         <CTAWidget
           title={`Book Your Dental Appointment from ${locationName}`}
           description={`Join hundreds of satisfied patients from ${locationName} and nearby areas who trust Indira Dental Clinic for their dental care.`}

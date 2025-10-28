@@ -333,6 +333,9 @@ export default function ArcotPage() {
           </div>
         </section>
 
+        
+        <PeopleAlsoSearchFor location="Arcot" city="Vellore" />
+
         <CTAWidget
           title="Book Your Dental Appointment from Arcot"
           description="Join hundreds of satisfied patients from Arcot and nearby areas who trust Indira Dental Clinic."

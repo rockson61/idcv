@@ -424,6 +424,9 @@ export default function GandhiNagarPage() {
           </ModernCard>
         </section>
 
+        
+        <PeopleAlsoSearchFor location="Gandhi Nagar" city="Vellore" />
+
         <CTAWidget
           title="Start Your Dental Journey Today"
           description="Visit our Gandhi Nagar clinic and join thousands of satisfied patients who trust Indira Dental Clinic."

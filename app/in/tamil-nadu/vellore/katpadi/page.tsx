@@ -426,6 +426,9 @@ export default function KatpadiPage() {
           </ModernCard>
         </section>
 
+        
+        <PeopleAlsoSearchFor location="Katpadi" city="Vellore" />
+
         <CTAWidget
           title="Start Your Dental Journey Today"
           description="Join thousands of satisfied patients from Katpadi and surrounding areas who trust Indira Dental Clinic."

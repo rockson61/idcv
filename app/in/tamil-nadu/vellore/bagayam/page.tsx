@@ -437,6 +437,9 @@ export default function BagayamPage() {
         </section>
 
         {/* Final CTA Widget */}
+        
+        <PeopleAlsoSearchFor location="Bagayam" city="Vellore" />
+
         <CTAWidget
           title="Start Your Dental Journey Today"
           description="Join thousands of satisfied patients from Bagayam and surrounding areas who trust Indira Dental Clinic."

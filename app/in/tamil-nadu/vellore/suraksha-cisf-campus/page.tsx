@@ -42,6 +42,9 @@ export default function SurakshaCisfCampusPage() {
         <LocationReviews reviews={generateDefaultReviews(locationName)} locationName={locationName} className="mb-12"/>
         <LocationFAQs faqs={generateDefaultFAQs(locationName, "41 km")} locationName={locationName} className="mb-12"/>
         <NearbyLocationsWidget currentLocation={locationName} locations={nearbyLocations} className="mb-12"/>
+        
+        <PeopleAlsoSearchFor location="Suraksha Cisf Campus" city="Vellore" />
+
         <CTAWidget title={`Book from ${locationName}`} description="Expert dental care nearby" primaryAction={{text:"Book",href:"/contact"}} secondaryAction={{text:"Call",href:"tel:+917010650063"}} benefits={["15+ years","Modern tech","EMI available",`${distance} away`]} showRating={true} showAvailability={true}/>
       </div>
     </div>

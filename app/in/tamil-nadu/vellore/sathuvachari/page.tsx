@@ -426,6 +426,9 @@ export default function SathuvachariPage() {
           </ModernCard>
         </section>
 
+        
+        <PeopleAlsoSearchFor location="Sathuvachari" city="Vellore" />
+
         <CTAWidget
           title="Start Your Dental Journey Today"
           description="Join thousands of satisfied patients from Sathuvachari and surrounding areas who trust Indira Dental Clinic."

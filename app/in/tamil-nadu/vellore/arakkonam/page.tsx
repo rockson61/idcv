@@ -301,6 +301,9 @@ export default function ArakkonamPage() {
         </section>
 
         {/* Final CTA */}
+        
+        <PeopleAlsoSearchFor location="Arakkonam" city="Vellore" />
+
         <CTAWidget
           title="Book Your Dental Appointment from Arakkonam"
           description="Join thousands of satisfied patients from Arakkonam who trust Indira Dental Clinic for their dental care needs."

@@ -101,6 +101,9 @@ export default function PernambultPage() {
         <section className="text-center mb-12">
           <ModernCard><ModernCardContent className="py-12"><h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to Transform Your Smile?</h2><p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">Book your appointment today. Well connected for Pernambut residents.</p><div className="flex flex-col sm:flex-row gap-4 justify-center"><Link href="/contact" className="inline-flex items-center justify-center px-8 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700 transition-colors"><Phone className="w-5 h-5 mr-2" />Book Appointment</Link><Link href="/services" className="inline-flex items-center justify-center px-8 py-3 border-2 border-teal-600 text-teal-600 rounded-lg font-semibold hover:bg-teal-50 transition-colors"><Navigation className="w-5 h-5 mr-2" />View Services</Link></div></ModernCardContent></ModernCard>
         </section>
+        
+        <PeopleAlsoSearchFor location="Pernambut" city="Vellore" />
+
         <CTAWidget title="Start Your Dental Journey Today" description="Join satisfied patients from Pernambut who trust Indira Dental Clinic." primaryAction={{text:"Book Free Consultation",href:"/contact"}} secondaryAction={{text:"Ask a Question",href:"/ask-the-dentist/submit"}} benefits={["15+ years experience","Modern equipment","Flexible payment plans","Well connected from Pernambut"]} showRating={true} showAvailability={true} />
       </div>
     </div>

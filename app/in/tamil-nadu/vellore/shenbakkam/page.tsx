@@ -42,6 +42,9 @@ export default function ShenbakkamPage() {
         <LocationReviews reviews={generateDefaultReviews(locationName)} locationName={locationName} className="mb-12"/>
         <LocationFAQs faqs={generateDefaultFAQs(locationName, "7 km")} locationName={locationName} className="mb-12"/>
         <NearbyLocationsWidget currentLocation={locationName} locations={nearbyLocations} className="mb-12"/>
+        
+        <PeopleAlsoSearchFor location="Shenbakkam" city="Vellore" />
+
         <CTAWidget title={`Book from ${locationName}`} description="Expert dental care nearby" primaryAction={{text:"Book",href:"/contact"}} secondaryAction={{text:"Call",href:"tel:+917010650063"}} benefits={["15+ years","Modern tech","EMI available",`${distance} away`]} showRating={true} showAvailability={true}/>
       </div>
     </div>

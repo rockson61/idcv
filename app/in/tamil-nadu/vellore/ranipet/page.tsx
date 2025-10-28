@@ -255,6 +255,9 @@ export default function RanipetPage() {
           </div>
         </section>
 
+        
+        <PeopleAlsoSearchFor location="Ranipet" city="Vellore" />
+
         <CTAWidget
           title="Book from Ranipet Today"
           description="Serving BHEL employees, industrial workers, and families in Ranipet."
