@@ -94,7 +94,7 @@ export default function AshoknagarPage() {
 
         <LocationReviews locationName="Ashoknagar" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Ashoknagar" faqs={faqs} />
 
         <TravelInfoCard locationName="Ashoknagar" />
 

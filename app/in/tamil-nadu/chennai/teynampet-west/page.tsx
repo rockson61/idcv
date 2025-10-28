@@ -94,7 +94,7 @@ export default function TeynampetWestPage() {
 
         <LocationReviews locationName="Teynampet West" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Teynampet West" faqs={faqs} />
 
         <TravelInfoCard locationName="Teynampet West" />
 

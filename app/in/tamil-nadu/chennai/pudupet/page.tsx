@@ -94,7 +94,7 @@ export default function PudupetPage() {
 
         <LocationReviews locationName="Pudupet" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Pudupet" faqs={faqs} />
 
         <TravelInfoCard locationName="Pudupet" />
 

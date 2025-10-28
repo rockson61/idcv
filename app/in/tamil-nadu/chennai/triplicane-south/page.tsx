@@ -94,7 +94,7 @@ export default function TriplicaneSouthPage() {
 
         <LocationReviews locationName="Triplicane South" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Triplicane South" faqs={faqs} />
 
         <TravelInfoCard locationName="Triplicane South" />
 

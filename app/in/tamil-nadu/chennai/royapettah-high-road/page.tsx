@@ -94,7 +94,7 @@ export default function RoyapettahHighRoadPage() {
 
         <LocationReviews locationName="Royapettah High Road" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Royapettah High Road" faqs={faqs} />
 
         <TravelInfoCard locationName="Royapettah High Road" />
 

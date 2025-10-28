@@ -94,7 +94,7 @@ export default function MannadyPage() {
 
         <LocationReviews locationName="Mannady" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Mannady" faqs={faqs} />
 
         <TravelInfoCard locationName="Mannady" />
 

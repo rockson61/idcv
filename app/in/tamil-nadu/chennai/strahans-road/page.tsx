@@ -94,7 +94,7 @@ export default function StrahansRoadPage() {
 
         <LocationReviews locationName="Strahans Road" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Strahans Road" faqs={faqs} />
 
         <TravelInfoCard locationName="Strahans Road" />
 

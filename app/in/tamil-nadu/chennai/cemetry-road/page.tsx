@@ -94,7 +94,7 @@ export default function CemetryRoadPage() {
 
         <LocationReviews locationName="Cemetry Road" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Cemetry Road" faqs={faqs} />
 
         <TravelInfoCard locationName="Cemetry Road" />
 

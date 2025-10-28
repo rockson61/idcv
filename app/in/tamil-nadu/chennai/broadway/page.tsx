@@ -94,7 +94,7 @@ export default function BroadwayPage() {
 
         <LocationReviews locationName="Broadway" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Broadway" faqs={faqs} />
 
         <TravelInfoCard locationName="Broadway" />
 

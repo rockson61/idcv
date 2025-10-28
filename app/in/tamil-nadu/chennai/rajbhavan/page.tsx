@@ -94,7 +94,7 @@ export default function RajbhavanPage() {
 
         <LocationReviews locationName="Rajbhavan" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Rajbhavan" faqs={faqs} />
 
         <TravelInfoCard locationName="Rajbhavan" />
 

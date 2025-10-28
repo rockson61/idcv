@@ -94,7 +94,7 @@ export default function JawaharNagarPage() {
 
         <LocationReviews locationName="Jawahar Nagar" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Jawahar Nagar" faqs={faqs} />
 
         <TravelInfoCard locationName="Jawahar Nagar" />
 

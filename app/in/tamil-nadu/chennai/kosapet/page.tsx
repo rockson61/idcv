@@ -94,7 +94,7 @@ export default function KosapetPage() {
 
         <LocationReviews locationName="Kosapet" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Kosapet" faqs={faqs} />
 
         <TravelInfoCard locationName="Kosapet" />
 

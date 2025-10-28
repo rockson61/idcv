@@ -94,7 +94,7 @@ export default function ChoolaiPage() {
 
         <LocationReviews locationName="Choolai" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Choolai" faqs={faqs} />
 
         <TravelInfoCard locationName="Choolai" />
 

@@ -94,7 +94,7 @@ export default function AnnaNagarWesternExtnPage() {
 
         <LocationReviews locationName="Anna Nagar Western Extn" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Anna Nagar Western Extn" faqs={faqs} />
 
         <TravelInfoCard locationName="Anna Nagar Western Extn" />
 

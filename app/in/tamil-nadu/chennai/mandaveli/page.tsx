@@ -94,7 +94,7 @@ export default function MandaveliPage() {
 
         <LocationReviews locationName="Mandaveli" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Mandaveli" faqs={faqs} />
 
         <TravelInfoCard locationName="Mandaveli" />
 

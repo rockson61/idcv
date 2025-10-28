@@ -94,7 +94,7 @@ export default function KorrukupetPage() {
 
         <LocationReviews locationName="Korrukupet" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Korrukupet" faqs={faqs} />
 
         <TravelInfoCard locationName="Korrukupet" />
 

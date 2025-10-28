@@ -94,7 +94,7 @@ export default function NungambakkamBazaarPage() {
 
         <LocationReviews locationName="Nungambakkam Bazaar" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Nungambakkam Bazaar" faqs={faqs} />
 
         <TravelInfoCard locationName="Nungambakkam Bazaar" />
 

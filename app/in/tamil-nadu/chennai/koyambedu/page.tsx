@@ -94,7 +94,7 @@ export default function KoyambeduPage() {
 
         <LocationReviews locationName="Koyambedu" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Koyambedu" faqs={faqs} />
 
         <TravelInfoCard locationName="Koyambedu" />
 

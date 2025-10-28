@@ -94,7 +94,7 @@ export default function VeperyPage() {
 
         <LocationReviews locationName="Vepery" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Vepery" faqs={faqs} />
 
         <TravelInfoCard locationName="Vepery" />
 

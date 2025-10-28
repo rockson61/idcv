@@ -94,7 +94,7 @@ export default function EkkaduthangalPage() {
 
         <LocationReviews locationName="Ekkaduthangal" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Ekkaduthangal" faqs={faqs} />
 
         <TravelInfoCard locationName="Ekkaduthangal" />
 

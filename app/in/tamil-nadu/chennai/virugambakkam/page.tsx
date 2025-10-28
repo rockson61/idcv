@@ -94,7 +94,7 @@ export default function VirugambakkamPage() {
 
         <LocationReviews locationName="Virugambakkam" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Virugambakkam" faqs={faqs} />
 
         <TravelInfoCard locationName="Virugambakkam" />
 

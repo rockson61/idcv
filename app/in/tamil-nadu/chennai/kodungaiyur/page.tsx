@@ -94,7 +94,7 @@ export default function KodungaiyurPage() {
 
         <LocationReviews locationName="Kodungaiyur" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Kodungaiyur" faqs={faqs} />
 
         <TravelInfoCard locationName="Kodungaiyur" />
 

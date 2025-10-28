@@ -94,7 +94,7 @@ export default function RajathottamPage() {
 
         <LocationReviews locationName="Rajathottam" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Rajathottam" faqs={faqs} />
 
         <TravelInfoCard locationName="Rajathottam" />
 

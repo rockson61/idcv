@@ -94,7 +94,7 @@ export default function SaidapetNorthPage() {
 
         <LocationReviews locationName="Saidapet North" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Saidapet North" faqs={faqs} />
 
         <TravelInfoCard locationName="Saidapet North" />
 

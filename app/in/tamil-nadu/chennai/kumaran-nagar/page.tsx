@@ -94,7 +94,7 @@ export default function KumaranNagarPage() {
 
         <LocationReviews locationName="Kumaran Nagar" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Kumaran Nagar" faqs={faqs} />
 
         <TravelInfoCard locationName="Kumaran Nagar" />
 

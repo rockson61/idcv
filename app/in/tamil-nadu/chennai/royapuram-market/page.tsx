@@ -94,7 +94,7 @@ export default function RoyapuramMarketPage() {
 
         <LocationReviews locationName="Royapuram Market" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Royapuram Market" faqs={faqs} />
 
         <TravelInfoCard locationName="Royapuram Market" />
 

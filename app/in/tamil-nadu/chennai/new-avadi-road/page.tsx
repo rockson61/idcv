@@ -94,7 +94,7 @@ export default function NewAvadiRoadPage() {
 
         <LocationReviews locationName="New Avadi Road" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="New Avadi Road" faqs={faqs} />
 
         <TravelInfoCard locationName="New Avadi Road" />
 

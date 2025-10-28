@@ -94,7 +94,7 @@ export default function ChennaiRaceCoursePage() {
 
         <LocationReviews locationName="Chennai Race Course" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Chennai Race Course" faqs={faqs} />
 
         <TravelInfoCard locationName="Chennai Race Course" />
 

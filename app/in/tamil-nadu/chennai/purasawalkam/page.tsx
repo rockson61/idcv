@@ -94,7 +94,7 @@ export default function PurasawalkamPage() {
 
         <LocationReviews locationName="Purasawalkam" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Purasawalkam" faqs={faqs} />
 
         <TravelInfoCard locationName="Purasawalkam" />
 

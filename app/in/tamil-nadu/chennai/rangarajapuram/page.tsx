@@ -94,7 +94,7 @@ export default function RangarajapuramPage() {
 
         <LocationReviews locationName="Rangarajapuram" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Rangarajapuram" faqs={faqs} />
 
         <TravelInfoCard locationName="Rangarajapuram" />
 

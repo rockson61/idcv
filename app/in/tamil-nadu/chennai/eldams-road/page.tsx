@@ -94,7 +94,7 @@ export default function EldamsRoadPage() {
 
         <LocationReviews locationName="Eldams Road" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Eldams Road" faqs={faqs} />
 
         <TravelInfoCard locationName="Eldams Road" />
 

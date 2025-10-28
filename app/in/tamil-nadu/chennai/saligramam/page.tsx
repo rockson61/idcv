@@ -94,7 +94,7 @@ export default function SaligramamPage() {
 
         <LocationReviews locationName="Saligramam" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Saligramam" faqs={faqs} />
 
         <TravelInfoCard locationName="Saligramam" />
 

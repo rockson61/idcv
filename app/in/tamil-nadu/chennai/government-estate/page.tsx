@@ -94,7 +94,7 @@ export default function GovernmentEstatePage() {
 
         <LocationReviews locationName="Government Estate" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Government Estate" faqs={faqs} />
 
         <TravelInfoCard locationName="Government Estate" />
 

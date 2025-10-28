@@ -94,7 +94,7 @@ export default function ChoolaimeduPage() {
 
         <LocationReviews locationName="Choolaimedu" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Choolaimedu" faqs={faqs} />
 
         <TravelInfoCard locationName="Choolaimedu" />
 

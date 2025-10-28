@@ -94,7 +94,7 @@ export default function GuindyNorthPage() {
 
         <LocationReviews locationName="Guindy North" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Guindy North" faqs={faqs} />
 
         <TravelInfoCard locationName="Guindy North" />
 

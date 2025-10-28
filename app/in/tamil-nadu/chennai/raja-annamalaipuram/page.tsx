@@ -94,7 +94,7 @@ export default function RajaAnnamalaipuramPage() {
 
         <LocationReviews locationName="Raja Annamalaipuram" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Raja Annamalaipuram" faqs={faqs} />
 
         <TravelInfoCard locationName="Raja Annamalaipuram" />
 

@@ -94,7 +94,7 @@ export default function NandanamPage() {
 
         <LocationReviews locationName="Nandanam" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Nandanam" faqs={faqs} />
 
         <TravelInfoCard locationName="Nandanam" />
 

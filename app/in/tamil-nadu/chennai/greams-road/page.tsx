@@ -94,7 +94,7 @@ export default function GreamsRoadPage() {
 
         <LocationReviews locationName="Greams Road" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Greams Road" faqs={faqs} />
 
         <TravelInfoCard locationName="Greams Road" />
 

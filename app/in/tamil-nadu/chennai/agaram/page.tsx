@@ -94,7 +94,7 @@ export default function AgaramPage() {
 
         <LocationReviews locationName="Agaram" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Agaram" faqs={faqs} />
 
         <TravelInfoCard locationName="Agaram" />
 

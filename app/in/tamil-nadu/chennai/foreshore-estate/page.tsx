@@ -94,7 +94,7 @@ export default function ForeshoreEstatePage() {
 
         <LocationReviews locationName="Foreshore Estate" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Foreshore Estate" faqs={faqs} />
 
         <TravelInfoCard locationName="Foreshore Estate" />
 

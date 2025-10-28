@@ -94,7 +94,7 @@ export default function TondiarpetBazaarPage() {
 
         <LocationReviews locationName="Tondiarpet Bazaar" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Tondiarpet Bazaar" faqs={faqs} />
 
         <TravelInfoCard locationName="Tondiarpet Bazaar" />
 

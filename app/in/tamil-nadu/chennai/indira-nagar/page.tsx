@@ -94,7 +94,7 @@ export default function IndiraNagarPage() {
 
         <LocationReviews locationName="Indira Nagar" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Indira Nagar" faqs={faqs} />
 
         <TravelInfoCard locationName="Indira Nagar" />
 

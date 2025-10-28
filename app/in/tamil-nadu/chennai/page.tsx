@@ -137,7 +137,7 @@ export default function ChennaiPage() {
 
         <LocationReviews locationName="Chennai" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Chennai" faqs={faqs} />
 
         <TravelInfoCard locationName="Chennai" />
 

@@ -94,7 +94,7 @@ export default function BesantnagarPage() {
 
         <LocationReviews locationName="Besantnagar" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Besantnagar" faqs={faqs} />
 
         <TravelInfoCard locationName="Besantnagar" />
 

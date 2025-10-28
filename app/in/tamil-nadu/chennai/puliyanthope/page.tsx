@@ -94,7 +94,7 @@ export default function PuliyanthopePage() {
 
         <LocationReviews locationName="Puliyanthope" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Puliyanthope" faqs={faqs} />
 
         <TravelInfoCard locationName="Puliyanthope" />
 

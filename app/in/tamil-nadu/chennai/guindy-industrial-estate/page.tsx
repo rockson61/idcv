@@ -94,7 +94,7 @@ export default function GuindyIndustrialEstatePage() {
 
         <LocationReviews locationName="Guindy Industrial Estate" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Guindy Industrial Estate" faqs={faqs} />
 
         <TravelInfoCard locationName="Guindy Industrial Estate" />
 

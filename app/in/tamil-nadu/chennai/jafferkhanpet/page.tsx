@@ -94,7 +94,7 @@ export default function JafferkhanpetPage() {
 
         <LocationReviews locationName="Jafferkhanpet" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Jafferkhanpet" faqs={faqs} />
 
         <TravelInfoCard locationName="Jafferkhanpet" />
 

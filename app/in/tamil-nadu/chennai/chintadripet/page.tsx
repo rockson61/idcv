@@ -94,7 +94,7 @@ export default function ChintadripetPage() {
 
         <LocationReviews locationName="Chintadripet" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Chintadripet" faqs={faqs} />
 
         <TravelInfoCard locationName="Chintadripet" />
 

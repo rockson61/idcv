@@ -94,7 +94,7 @@ export default function TiruvallikkeniPage() {
 
         <LocationReviews locationName="Tiruvallikkeni" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Tiruvallikkeni" faqs={faqs} />
 
         <TravelInfoCard locationName="Tiruvallikkeni" />
 

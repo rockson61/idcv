@@ -94,7 +94,7 @@ export default function FortStGeorgePage() {
 
         <LocationReviews locationName="Fort St George" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Fort St George" faqs={faqs} />
 
         <TravelInfoCard locationName="Fort St George" />
 

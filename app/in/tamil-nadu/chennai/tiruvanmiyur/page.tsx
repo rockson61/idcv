@@ -94,7 +94,7 @@ export default function TiruvanmiyurPage() {
 
         <LocationReviews locationName="Tiruvanmiyur" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Tiruvanmiyur" faqs={faqs} />
 
         <TravelInfoCard locationName="Tiruvanmiyur" />
 

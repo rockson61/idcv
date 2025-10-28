@@ -94,7 +94,7 @@ export default function SanthomePage() {
 
         <LocationReviews locationName="Santhome" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Santhome" faqs={faqs} />
 
         <TravelInfoCard locationName="Santhome" />
 

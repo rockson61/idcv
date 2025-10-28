@@ -94,7 +94,7 @@ export default function ThygarayaNagarPage() {
 
         <LocationReviews locationName="Thygaraya Nagar" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Thygaraya Nagar" faqs={faqs} />
 
         <TravelInfoCard locationName="Thygaraya Nagar" />
 

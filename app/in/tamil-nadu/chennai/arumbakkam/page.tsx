@@ -94,7 +94,7 @@ export default function ArumbakkamPage() {
 
         <LocationReviews locationName="Arumbakkam" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Arumbakkam" faqs={faqs} />
 
         <TravelInfoCard locationName="Arumbakkam" />
 

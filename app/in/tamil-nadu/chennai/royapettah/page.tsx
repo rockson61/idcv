@@ -94,7 +94,7 @@ export default function RoyapettahPage() {
 
         <LocationReviews locationName="Royapettah" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Royapettah" faqs={faqs} />
 
         <TravelInfoCard locationName="Royapettah" />
 

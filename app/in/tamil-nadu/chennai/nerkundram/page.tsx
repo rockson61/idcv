@@ -94,7 +94,7 @@ export default function NerkundramPage() {
 
         <LocationReviews locationName="Nerkundram" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Nerkundram" faqs={faqs} />
 
         <TravelInfoCard locationName="Nerkundram" />
 

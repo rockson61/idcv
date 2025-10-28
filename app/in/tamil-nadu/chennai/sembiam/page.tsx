@@ -94,7 +94,7 @@ export default function SembiamPage() {
 
         <LocationReviews locationName="Sembiam" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Sembiam" faqs={faqs} />
 
         <TravelInfoCard locationName="Sembiam" />
 

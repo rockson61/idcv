@@ -94,7 +94,7 @@ export default function ChamiersRoadPage() {
 
         <LocationReviews locationName="Chamiers Road" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Chamiers Road" faqs={faqs} />
 
         <TravelInfoCard locationName="Chamiers Road" />
 

@@ -94,7 +94,7 @@ export default function HighCourtBuildingPage() {
 
         <LocationReviews locationName="High Court Building" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="High Court Building" faqs={faqs} />
 
         <TravelInfoCard locationName="High Court Building" />
 

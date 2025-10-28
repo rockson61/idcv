@@ -94,7 +94,7 @@ export default function FlowersRoadPage() {
 
         <LocationReviews locationName="Flowers Road" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Flowers Road" faqs={faqs} />
 
         <TravelInfoCard locationName="Flowers Road" />
 

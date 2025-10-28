@@ -94,7 +94,7 @@ export default function AbiramapuramPage() {
 
         <LocationReviews locationName="Abiramapuram" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Abiramapuram" faqs={faqs} />
 
         <TravelInfoCard locationName="Abiramapuram" />
 

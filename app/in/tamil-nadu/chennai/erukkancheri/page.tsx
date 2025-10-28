@@ -94,7 +94,7 @@ export default function ErukkancheriPage() {
 
         <LocationReviews locationName="Erukkancheri" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Erukkancheri" faqs={faqs} />
 
         <TravelInfoCard locationName="Erukkancheri" />
 

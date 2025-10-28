@@ -94,7 +94,7 @@ export default function ShenoyNagarPage() {
 
         <LocationReviews locationName="Shenoy Nagar" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Shenoy Nagar" faqs={faqs} />
 
         <TravelInfoCard locationName="Shenoy Nagar" />
 

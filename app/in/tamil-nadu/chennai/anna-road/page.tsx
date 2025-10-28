@@ -94,7 +94,7 @@ export default function AnnaRoadPage() {
 
         <LocationReviews locationName="Anna Road" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Anna Road" faqs={faqs} />
 
         <TravelInfoCard locationName="Anna Road" />
 

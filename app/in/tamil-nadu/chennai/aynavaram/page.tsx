@@ -94,7 +94,7 @@ export default function AynavaramPage() {
 
         <LocationReviews locationName="Aynavaram" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Aynavaram" faqs={faqs} />
 
         <TravelInfoCard locationName="Aynavaram" />
 

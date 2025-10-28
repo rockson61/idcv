@@ -94,7 +94,7 @@ export default function VyasarpadiPage() {
 
         <LocationReviews locationName="Vyasarpadi" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Vyasarpadi" faqs={faqs} />
 
         <TravelInfoCard locationName="Vyasarpadi" />
 

@@ -94,7 +94,7 @@ export default function SevenWellsPage() {
 
         <LocationReviews locationName="Seven Wells" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Seven Wells" faqs={faqs} />
 
         <TravelInfoCard locationName="Seven Wells" />
 

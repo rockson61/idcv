@@ -94,7 +94,7 @@ export default function MambalamRSPage() {
 
         <LocationReviews locationName="Mambalam R.S." reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Mambalam R.S." faqs={faqs} />
 
         <TravelInfoCard locationName="Mambalam R.S." />
 

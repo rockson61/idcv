@@ -94,7 +94,7 @@ export default function ParkTownPage() {
 
         <LocationReviews locationName="Park Town" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Park Town" faqs={faqs} />
 
         <TravelInfoCard locationName="Park Town" />
 

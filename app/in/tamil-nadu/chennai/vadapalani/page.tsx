@@ -94,7 +94,7 @@ export default function VadapalaniPage() {
 
         <LocationReviews locationName="Vadapalani" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Vadapalani" faqs={faqs} />
 
         <TravelInfoCard locationName="Vadapalani" />
 

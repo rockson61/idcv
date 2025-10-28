@@ -94,7 +94,7 @@ export default function GKMColonyPage() {
 
         <LocationReviews locationName="G K M Colony" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="G K M Colony" faqs={faqs} />
 
         <TravelInfoCard locationName="G K M Colony" />
 

@@ -94,7 +94,7 @@ export default function PeramburBarracksPage() {
 
         <LocationReviews locationName="Perambur Barracks" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Perambur Barracks" faqs={faqs} />
 
         <TravelInfoCard locationName="Perambur Barracks" />
 

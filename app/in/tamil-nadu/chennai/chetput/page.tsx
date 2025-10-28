@@ -94,7 +94,7 @@ export default function ChetputPage() {
 
         <LocationReviews locationName="Chetput" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Chetput" faqs={faqs} />
 
         <TravelInfoCard locationName="Chetput" />
 

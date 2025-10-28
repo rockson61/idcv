@@ -94,7 +94,7 @@ export default function WestMambalamPage() {
 
         <LocationReviews locationName="West Mambalam" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="West Mambalam" faqs={faqs} />
 
         <TravelInfoCard locationName="West Mambalam" />
 

@@ -94,7 +94,7 @@ export default function SowcarpetPage() {
 
         <LocationReviews locationName="Sowcarpet" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Sowcarpet" faqs={faqs} />
 
         <TravelInfoCard locationName="Sowcarpet" />
 

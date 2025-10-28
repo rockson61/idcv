@@ -94,7 +94,7 @@ export default function KotturpuramPage() {
 
         <LocationReviews locationName="Kotturpuram" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Kotturpuram" faqs={faqs} />
 
         <TravelInfoCard locationName="Kotturpuram" />
 

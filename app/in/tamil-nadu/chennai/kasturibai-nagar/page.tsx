@@ -94,7 +94,7 @@ export default function KasturibaiNagarPage() {
 
         <LocationReviews locationName="Kasturibai Nagar" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Kasturibai Nagar" faqs={faqs} />
 
         <TravelInfoCard locationName="Kasturibai Nagar" />
 

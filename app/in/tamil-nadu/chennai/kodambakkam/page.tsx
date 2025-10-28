@@ -94,7 +94,7 @@ export default function KodambakkamPage() {
 
         <LocationReviews locationName="Kodambakkam" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Kodambakkam" faqs={faqs} />
 
         <TravelInfoCard locationName="Kodambakkam" />
 

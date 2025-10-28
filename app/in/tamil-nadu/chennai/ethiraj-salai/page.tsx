@@ -94,7 +94,7 @@ export default function EthirajSalaiPage() {
 
         <LocationReviews locationName="Ethiraj Salai" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Ethiraj Salai" faqs={faqs} />
 
         <TravelInfoCard locationName="Ethiraj Salai" />
 

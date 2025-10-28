@@ -94,7 +94,7 @@ export default function AdyarPage() {
 
         <LocationReviews locationName="Adyar" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Adyar" faqs={faqs} />
 
         <TravelInfoCard locationName="Adyar" />
 

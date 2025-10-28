@@ -94,7 +94,7 @@ export default function VelacheriPage() {
 
         <LocationReviews locationName="Velacheri" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Velacheri" faqs={faqs} />
 
         <TravelInfoCard locationName="Velacheri" />
 

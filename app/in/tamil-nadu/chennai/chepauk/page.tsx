@@ -94,7 +94,7 @@ export default function ChepaukPage() {
 
         <LocationReviews locationName="Chepauk" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Chepauk" faqs={faqs} />
 
         <TravelInfoCard locationName="Chepauk" />
 

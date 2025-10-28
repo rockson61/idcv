@@ -94,7 +94,7 @@ export default function WashermanpetPage() {
 
         <LocationReviews locationName="Washermanpet" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Washermanpet" faqs={faqs} />
 
         <TravelInfoCard locationName="Washermanpet" />
 

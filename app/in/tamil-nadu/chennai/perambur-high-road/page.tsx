@@ -94,7 +94,7 @@ export default function PeramburHighRoadPage() {
 
         <LocationReviews locationName="Perambur High Road" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Perambur High Road" faqs={faqs} />
 
         <TravelInfoCard locationName="Perambur High Road" />
 

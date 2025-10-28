@@ -94,7 +94,7 @@ export default function ICFColonyPage() {
 
         <LocationReviews locationName="ICF Colony" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="ICF Colony" faqs={faqs} />
 
         <TravelInfoCard locationName="ICF Colony" />
 

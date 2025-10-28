@@ -94,7 +94,7 @@ export default function KilpaukPage() {
 
         <LocationReviews locationName="Kilpauk" reviews={reviews} />
 
-        <LocationFAQs faqs={faqs} />
+        <LocationFAQs locationName="Kilpauk" faqs={faqs} />
 
         <TravelInfoCard locationName="Kilpauk" />
 
