@@ -136,7 +136,7 @@ export default function CoimbatorePage() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dentist and Dental Clinic in Coimbatore</h1>
-          <p className="text-lg text-gray-700 max-w-转入 mx-auto mb-8">
+          <p className="text-lg text-gray-700 max-w-4xl mx-auto mb-8">
             Experience world-class dental care in Coimbatore, Tamil Nadu. Our expert dentists 
             provide comprehensive dental treatments with modern technology and personalized care.
           </p>

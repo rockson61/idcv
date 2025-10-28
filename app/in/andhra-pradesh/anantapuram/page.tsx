@@ -138,7 +138,7 @@ export default function AnantapuramPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Dental Services in Anantapuram
           </h1>
-          <p className="text-lg text-gray-700 max-w-转入 mx-auto mb-8">
+          <p className="text-lg text-gray-700 max-w-4xl mx-auto mb-8">
             Experience world-class dental care in Anantapuram, Andhra Pradesh. Our expert dentists 
             provide comprehensive dental treatments with modern technology and personalized care.
           </p>

@@ -119,7 +119,7 @@ export default function ChennaiPage() {
           taluk="Chennai"
           pincode="600001"
           distance="130 KM from Vellore"
-          category="district"
+          category="town"
         />
 
         <div className="mb-8">

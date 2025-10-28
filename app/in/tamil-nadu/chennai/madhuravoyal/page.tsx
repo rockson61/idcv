@@ -26,12 +26,12 @@ const locationData = {
 }
 
 const services = [
-  { name: 'Root Canal Treatment', price: '₹3,500+', href: '/services/root-canal-treatment' },
-  { name: 'Dental Implants', price: '₹25,000+', href: '/services/dental-implants' },
-  { name: 'Invisalign & Braces', price: '₹30,000+', href: '/services/orthodontics' },
-  { name: 'Teeth Whitening', price: '₹8,000+', href: '/services/cosmetic-dentistry/teeth-whitening' },
-  { name: 'Dental Crowns', price: '₹5,000+', href: '/services/prosthodontics/dental-crowns' },
-  { name: 'Gum Treatment', price: '₹2,500+', href: '/services/periodontics' },
+  { title: 'Root Canal Treatment', price: '₹3,500+', href: '/services/root-canal-treatment' },
+  { title: 'Dental Implants', price: '₹25,000+', href: '/services/dental-implants' },
+  { title: 'Invisalign & Braces', price: '₹30,000+', href: '/services/orthodontics' },
+  { title: 'Teeth Whitening', price: '₹8,000+', href: '/services/cosmetic-dentistry/teeth-whitening' },
+  { title: 'Dental Crowns', price: '₹5,000+', href: '/services/prosthodontics/dental-crowns' },
+  { title: 'Gum Treatment', price: '₹2,500+', href: '/services/periodontics' },
 ]
 
 const reviews = [

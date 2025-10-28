@@ -60,7 +60,7 @@ export default function BiharPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Dental Services in Bihar
           </h1>
-          <p className="text-lg text-gray-700 max-w-转入 mx-auto mb-8">
+          <p className="text-lg text-gray-700 max-w-4xl mx-auto mb-8">
             Find comprehensive dental care services across Bihar. Expert dental treatments 
             in all major cities and towns with modern facilities and experienced dentists.
           </p>
