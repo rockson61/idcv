@@ -151,9 +151,9 @@ export default function MumbaiPage() {
           taluk="Mumbai"
           pincode="400001"
           distance="1,350 KM from Vellore"
-          category="city"
+          category="major_town"
         />
-          <p className="text-lg text-gray-700 max-w-转入 mx-auto mb-8">
+          <p className="text-lg text-gray-700 max-w-4xl mx-auto mb-8">
             Experience world-class dental care in Mumbai, Maharashtra. Our expert dentists 
             provide comprehensive dental treatments with modern technology and personalized care.
           </p>
