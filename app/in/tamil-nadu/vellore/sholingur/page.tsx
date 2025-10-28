@@ -1,3 +1,4 @@
+import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
