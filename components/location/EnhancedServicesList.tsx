@@ -1,7 +1,7 @@
 'use client'
 
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
-import { CheckCircle, IndianRupee, Clock, Award, Shield, Zap } from 'lucide-react'
+import { CheckCircle, IndianRupee, Clock, Award, Shield, Zap , ArrowRight} from 'lucide-react'
 import Link from 'next/link'
 
 interface Service {
