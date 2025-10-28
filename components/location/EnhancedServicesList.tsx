@@ -10,7 +10,7 @@ interface Service {
   slug?: string
   href?: string  // Allow either 'slug' or 'href'
   description?: string
-  price: string
+  price?: string  // Make price optional for simple service lists
   features?: string[]  // Make features optional
   duration?: string
   popular?: boolean
@@ -75,13 +75,15 @@ export function EnhancedServicesList({ services, locationName, className = "" }:
               )}
               
               {/* Price Display */}
-              <div className="mb-4 p-3 bg-teal-50 rounded-lg">
-                <div className="flex items-center gap-2">
-                  <IndianRupee className="w-5 h-5 text-teal-600" />
-                  <span className="text-2xl font-bold text-teal-600">{service.price}</span>
+              {service.price && (
+                <div className="mb-4 p-3 bg-teal-50 rounded-lg">
+                  <div className="flex items-center gap-2">
+                    <IndianRupee className="w-5 h-5 text-teal-600" />
+                    <span className="text-2xl font-bold text-teal-600">{service.price}</span>
+                  </div>
+                  <p className="text-xs text-gray-600 mt-1">Transparent pricing • No hidden costs</p>
                 </div>
-                <p className="text-xs text-gray-600 mt-1">Transparent pricing • No hidden costs</p>
-              </div>
+              )}
 
               {/* Features */}
               {serviceFeatures.length > 0 && (
