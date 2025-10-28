@@ -88,7 +88,7 @@ export default function DentalSealantsProtectionKidsPost() {
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
             { title: 'Preventive Dentistry', href: `/blog/category/pediatric-dentistry` },
-            { title: 'Dental Sealants: Protection for Kids' Teeth', href: `/blog/dental-sealants-protection-kids` }
+            { title: "Dental Sealants: Protection for Kids' Teeth", href: `/blog/dental-sealants-protection-kids` }
           ]} />
 
           <article className="mt-8">

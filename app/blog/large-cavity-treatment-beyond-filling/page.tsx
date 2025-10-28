@@ -117,7 +117,7 @@ export default function LargeCavityTreatmentBeyondFillingBlogPost() {
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
               { title: 'Restorative Dentistry', href: `/blog/category/restorative-dentistry` },
-              { title: 'Large Cavity Treatment: When Filling Isn't Enough', href: `/blog/large-cavity-treatment-beyond-filling` }
+              { title: "Large Cavity Treatment: When Filling Isn't Enough", href: `/blog/large-cavity-treatment-beyond-filling` }
             ]}
           />
 
