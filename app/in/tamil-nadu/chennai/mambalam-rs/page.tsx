@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function MambalamR.S.Page() {
+export default function MambalamRSPage() {
   const services = [
     { title: "Root Canal Treatment", href: "/services/root-canal-treatment" },
     { title: "Dental Implants", href: "/services/dental-implants" },
