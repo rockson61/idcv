@@ -6,6 +6,7 @@ import { Header } from "@/components/layout/header"
 import { Footer } from "@/components/layout/footer"
 import { ConnectWithDentist } from "@/components/sections/connect-with-dentist"
 import { GlobalSchema } from "@/components/schema/GlobalSchema"
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const exo2 = Exo_2({ 
@@ -108,6 +109,7 @@ export default function RootLayout({
         {children}
         <ConnectWithDentist />
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
