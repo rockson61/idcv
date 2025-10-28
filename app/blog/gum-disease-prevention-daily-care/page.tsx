@@ -87,8 +87,8 @@ export default function GumDiseasePreventionDailyCarePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'periodontics'` },
-            { title: 'Gum Disease Prevention: Daily Care Tips', href: `/blog/'gum-disease-prevention-daily-care'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/periodontics` },
+            { title: 'Gum Disease Prevention: Daily Care Tips', href: `/blog/gum-disease-prevention-daily-care` }
           ]} />
 
           <article className="mt-8">

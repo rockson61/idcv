@@ -68,8 +68,8 @@ export default function SedationDentistryAnxietyFreePost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Sedation Dentistry: Anxiety-Free Treatment', href: `/blog/'sedation-dentistry-anxiety-free'` }
+          { title: 'Oral Surgery', href: `/blog/category/preventive-dentistry` },
+          { title: 'Sedation Dentistry: Anxiety-Free Treatment', href: `/blog/sedation-dentistry-anxiety-free` }
         ]} />
 
         <article className="mt-8">

@@ -118,8 +118,8 @@ export default function MidlineDeviationCorrectionBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Midline Deviation: Correction with Orthodontics', href: `/blog/'midline-deviation-correction'` }
+              { title: 'Category', href: `/blog/category/preventive-dentistry` },
+              { title: 'Midline Deviation: Correction with Orthodontics', href: `/blog/midline-deviation-correction` }
             ]}
           />
 

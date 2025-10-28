@@ -68,8 +68,8 @@ export default function OralPathologyMouthLesionsPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Oral Pathology: Mouth Lesions and Growths', href: `/blog/'oral-pathology-mouth-lesions'` }
+          { title: 'Oral Surgery', href: `/blog/category/preventive-dentistry` },
+          { title: 'Oral Pathology: Mouth Lesions and Growths', href: `/blog/oral-pathology-mouth-lesions` }
         ]} />
 
         <article className="mt-8">

@@ -120,8 +120,8 @@ export default function RootCanalCostIndiaBreakdownBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Root Canal Cost in India: Complete Breakdown', href: `/blog/'root-canal-cost-india-breakdown'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Root Canal Cost in India: Complete Breakdown', href: `/blog/root-canal-cost-india-breakdown` }
             ]}
           />
 

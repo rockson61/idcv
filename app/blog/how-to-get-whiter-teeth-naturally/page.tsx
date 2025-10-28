@@ -87,8 +87,8 @@ export default function HowToGetWhiterTeethNaturallyPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'How to Get Whiter Teeth Naturally at Home', href: `/blog/'how-to-get-whiter-teeth-naturally'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'How to Get Whiter Teeth Naturally at Home', href: `/blog/how-to-get-whiter-teeth-naturally` }
           ]} />
 
           <article className="mt-8">

@@ -118,8 +118,8 @@ export default function FlapSurgeryGumDiseaseBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Flap Surgery for Gum Disease: What to Expect', href: `/blog/'flap-surgery-gum-disease'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Flap Surgery for Gum Disease: What to Expect', href: `/blog/flap-surgery-gum-disease` }
             ]}
           />
 

@@ -120,8 +120,8 @@ export default function DentalImplantSuccessRateFactorsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Dental Implant Success Rate: Factors and Statistics', href: `/blog/'dental-implant-success-rate-factors'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Dental Implant Success Rate: Factors and Statistics', href: `/blog/dental-implant-success-rate-factors` }
             ]}
           />
 

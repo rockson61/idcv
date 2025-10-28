@@ -68,8 +68,8 @@ export default function SurgicalToothExtractionComplexPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'oral-surgery'` },
-          { title: 'Surgical Tooth Extraction: Complex Cases', href: `/blog/'surgical-tooth-extraction-complex'` }
+          { title: 'Oral Surgery', href: `/blog/category/oral-surgery` },
+          { title: 'Surgical Tooth Extraction: Complex Cases', href: `/blog/surgical-tooth-extraction-complex` }
         ]} />
 
         <article className="mt-8">

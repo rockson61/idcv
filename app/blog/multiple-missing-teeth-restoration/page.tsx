@@ -116,8 +116,8 @@ export default function MultipleMissingTeethRestorationBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Multiple Missing Teeth: Complete Restoration Guide', href: `/blog/'multiple-missing-teeth-restoration'` }
+              { title: 'Prosthodontics', href: `/blog/category/preventive-dentistry` },
+              { title: 'Multiple Missing Teeth: Complete Restoration Guide', href: `/blog/multiple-missing-teeth-restoration` }
             ]}
           />
 

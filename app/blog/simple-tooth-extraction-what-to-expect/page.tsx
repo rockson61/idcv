@@ -68,8 +68,8 @@ export default function SimpleToothExtractionWhatToExpectPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'oral-surgery'` },
-          { title: 'Simple Tooth Extraction: What to Expect', href: `/blog/'simple-tooth-extraction-what-to-expect'` }
+          { title: 'Oral Surgery', href: `/blog/category/oral-surgery` },
+          { title: 'Simple Tooth Extraction: What to Expect', href: `/blog/simple-tooth-extraction-what-to-expect` }
         ]} />
 
         <article className="mt-8">

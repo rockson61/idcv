@@ -118,8 +118,8 @@ export default function CeramicVsMetalBracesBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'orthodontics'` },
-              { title: 'Ceramic Braces vs Metal Braces: Which is Better?', href: `/blog/'ceramic-vs-metal-braces'` }
+              { title: 'Category', href: `/blog/category/orthodontics` },
+              { title: 'Ceramic Braces vs Metal Braces: Which is Better?', href: `/blog/ceramic-vs-metal-braces` }
             ]}
           />
 

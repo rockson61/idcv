@@ -87,8 +87,8 @@ export default function HomeTeethWhiteningKitsEffectivenessPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Home Teeth Whitening Kits: Do They Work?', href: `/blog/'home-teeth-whitening-kits-effectiveness'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Home Teeth Whitening Kits: Do They Work?', href: `/blog/home-teeth-whitening-kits-effectiveness` }
           ]} />
 
           <article className="mt-8">

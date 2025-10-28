@@ -116,8 +116,8 @@ export default function ImplantSupportedDenturesStableSolutionBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'implantology'` },
-              { title: 'Implant-Supported Dentures: Stable Solution', href: `/blog/'implant-supported-dentures-stable-solution'` }
+              { title: 'Prosthodontics', href: `/blog/category/implantology` },
+              { title: 'Implant-Supported Dentures: Stable Solution', href: `/blog/implant-supported-dentures-stable-solution` }
             ]}
           />
 

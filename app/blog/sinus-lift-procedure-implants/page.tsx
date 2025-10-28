@@ -120,8 +120,8 @@ export default function SinusLiftProcedureImplantsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Sinus Lift Procedure: Preparation for Implants', href: `/blog/'sinus-lift-procedure-implants'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Sinus Lift Procedure: Preparation for Implants', href: `/blog/sinus-lift-procedure-implants` }
             ]}
           />
 

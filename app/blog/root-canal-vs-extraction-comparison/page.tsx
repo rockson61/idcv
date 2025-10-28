@@ -120,8 +120,8 @@ export default function RootCanalVsExtractionComparisonBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Root Canal vs Extraction: Which is Better?', href: `/blog/'root-canal-vs-extraction-comparison'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Root Canal vs Extraction: Which is Better?', href: `/blog/root-canal-vs-extraction-comparison` }
             ]}
           />
 

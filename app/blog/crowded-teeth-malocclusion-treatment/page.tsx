@@ -118,8 +118,8 @@ export default function CrowdedTeethMalocclusionTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Complete Guide to Crowded Teeth and Malocclusion Treatment', href: `/blog/'crowded-teeth-malocclusion-treatment'` }
+              { title: 'Category', href: `/blog/category/preventive-dentistry` },
+              { title: 'Complete Guide to Crowded Teeth and Malocclusion Treatment', href: `/blog/crowded-teeth-malocclusion-treatment` }
             ]}
           />
 

@@ -118,8 +118,8 @@ export default function FlossingWithBracesTechniquesBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'orthodontics'` },
-              { title: 'Flossing with Braces: Techniques and Tools', href: `/blog/'flossing-with-braces-techniques'` }
+              { title: 'Category', href: `/blog/category/orthodontics` },
+              { title: 'Flossing with Braces: Techniques and Tools', href: `/blog/flossing-with-braces-techniques` }
             ]}
           />
 

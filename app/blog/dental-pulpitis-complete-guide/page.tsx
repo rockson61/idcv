@@ -120,8 +120,8 @@ export default function DentalPulpitisCompleteGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Dental Pulpitis: Complete Guide to Tooth Inflammation', href: `/blog/'dental-pulpitis-complete-guide'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Dental Pulpitis: Complete Guide to Tooth Inflammation', href: `/blog/dental-pulpitis-complete-guide` }
             ]}
           />
 

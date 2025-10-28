@@ -68,8 +68,8 @@ export default function BleedingAfterExtractionWhenWorryPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'oral-surgery'` },
-          { title: 'Bleeding After Tooth Extraction: When to Worry', href: `/blog/'bleeding-after-extraction-when-worry'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/oral-surgery` },
+          { title: 'Bleeding After Tooth Extraction: When to Worry', href: `/blog/bleeding-after-extraction-when-worry` }
         ]} />
 
         <article className="mt-8">

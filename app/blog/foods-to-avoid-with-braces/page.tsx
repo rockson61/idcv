@@ -118,8 +118,8 @@ export default function FoodsToAvoidWithBracesBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'orthodontics'` },
-              { title: 'Foods to Avoid with Braces: Complete List', href: `/blog/'foods-to-avoid-with-braces'` }
+              { title: 'Category', href: `/blog/category/orthodontics` },
+              { title: 'Foods to Avoid with Braces: Complete List', href: `/blog/foods-to-avoid-with-braces` }
             ]}
           />
 

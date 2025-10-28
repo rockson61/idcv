@@ -118,8 +118,8 @@ export default function LingualBracesInvisibleTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'orthodontics'` },
-              { title: 'Lingual Braces: Invisible Orthodontic Treatment', href: `/blog/'lingual-braces-invisible-treatment'` }
+              { title: 'Category', href: `/blog/category/orthodontics` },
+              { title: 'Lingual Braces: Invisible Orthodontic Treatment', href: `/blog/lingual-braces-invisible-treatment` }
             ]}
           />
 

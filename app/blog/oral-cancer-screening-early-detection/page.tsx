@@ -87,8 +87,8 @@ export default function OralCancerScreeningEarlyDetectionPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Oral Cancer Screening: Early Detection Saves Lives', href: `/blog/'oral-cancer-screening-early-detection'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Oral Cancer Screening: Early Detection Saves Lives', href: `/blog/oral-cancer-screening-early-detection` }
           ]} />
 
           <article className="mt-8">

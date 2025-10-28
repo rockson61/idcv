@@ -118,8 +118,8 @@ export default function SwollenGumsCausesRemediesBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Swollen Gums: Causes and Home Remedies', href: `/blog/'swollen-gums-causes-remedies'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Swollen Gums: Causes and Home Remedies', href: `/blog/swollen-gums-causes-remedies` }
             ]}
           />
 

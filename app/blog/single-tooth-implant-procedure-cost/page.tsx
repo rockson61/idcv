@@ -120,8 +120,8 @@ export default function SingleToothImplantProcedureCostBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Single Tooth Implant: Procedure and Cost', href: `/blog/'single-tooth-implant-procedure-cost'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Single Tooth Implant: Procedure and Cost', href: `/blog/single-tooth-implant-procedure-cost` }
             ]}
           />
 

@@ -116,8 +116,8 @@ export default function ToothFractureTypesTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Tooth Fracture Types and Treatment', href: `/blog/'tooth-fracture-types-treatment'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/preventive-dentistry` },
+              { title: 'Tooth Fracture Types and Treatment', href: `/blog/tooth-fracture-types-treatment` }
             ]}
           />
 

@@ -68,8 +68,8 @@ export default function SevereToothacheReliefImmediatePost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Severe Toothache Relief: Immediate Solutions', href: `/blog/'severe-toothache-relief-immediate'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/preventive-dentistry` },
+          { title: 'Severe Toothache Relief: Immediate Solutions', href: `/blog/severe-toothache-relief-immediate` }
         ]} />
 
         <article className="mt-8">

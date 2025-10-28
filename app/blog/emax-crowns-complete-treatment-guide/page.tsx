@@ -116,8 +116,8 @@ export default function EmaxCrownsCompleteTreatmentGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'E-Max Crowns: Complete Treatment Guide', href: `/blog/'emax-crowns-complete-treatment-guide'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'E-Max Crowns: Complete Treatment Guide', href: `/blog/emax-crowns-complete-treatment-guide` }
             ]}
           />
 

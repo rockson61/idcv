@@ -118,8 +118,8 @@ export default function GuidedTissueRegenerationGumsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Guided Tissue Regeneration for Gum Disease', href: `/blog/'guided-tissue-regeneration-gums'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Guided Tissue Regeneration for Gum Disease', href: `/blog/guided-tissue-regeneration-gums` }
             ]}
           />
 

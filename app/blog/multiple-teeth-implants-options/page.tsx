@@ -120,8 +120,8 @@ export default function MultipleTeethImplantsOptionsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Multiple Teeth Implants: Treatment Options', href: `/blog/'multiple-teeth-implants-options'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Multiple Teeth Implants: Treatment Options', href: `/blog/multiple-teeth-implants-options` }
             ]}
           />
 

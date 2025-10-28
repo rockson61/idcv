@@ -87,8 +87,8 @@ export default function RegularDentalCheckupsEvery6MonthsPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Regular Dental Checkups: Why Every 6 Months?', href: `/blog/'regular-dental-checkups-every-6-months'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Regular Dental Checkups: Why Every 6 Months?', href: `/blog/regular-dental-checkups-every-6-months` }
           ]} />
 
           <article className="mt-8">

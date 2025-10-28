@@ -120,8 +120,8 @@ export default function DentalImplantCostIndia2024BlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Dental Implant Cost in India: 2024 Prices', href: `/blog/'dental-implant-cost-india-2024'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Dental Implant Cost in India: 2024 Prices', href: `/blog/dental-implant-cost-india-2024` }
             ]}
           />
 

@@ -87,8 +87,8 @@ export default function MouthwashWhenHowToUsePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Mouthwash: When and How to Use Effectively', href: `/blog/'mouthwash-when-how-to-use'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Mouthwash: When and How to Use Effectively', href: `/blog/mouthwash-when-how-to-use` }
           ]} />
 
           <article className="mt-8">

@@ -116,8 +116,8 @@ export default function GoldFillingsLongLastingRestorationBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'restorative-dentistry'` },
-              { title: 'Gold Fillings: Long-Lasting Restoration Option', href: `/blog/'gold-fillings-long-lasting-restoration'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/restorative-dentistry` },
+              { title: 'Gold Fillings: Long-Lasting Restoration Option', href: `/blog/gold-fillings-long-lasting-restoration` }
             ]}
           />
 

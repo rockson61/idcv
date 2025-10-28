@@ -116,8 +116,8 @@ export default function FullMouthRehabilitationCompleteRestorationBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Full Mouth Rehabilitation: Complete Restoration', href: `/blog/'full-mouth-rehabilitation-complete-restoration'` }
+              { title: 'Prosthodontics', href: `/blog/category/preventive-dentistry` },
+              { title: 'Full Mouth Rehabilitation: Complete Restoration', href: `/blog/full-mouth-rehabilitation-complete-restoration` }
             ]}
           />
 

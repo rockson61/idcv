@@ -87,8 +87,8 @@ export default function LumineersUltraThinNoPrepVeneersPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Lumineers: Ultra-Thin No-Prep Veneers', href: `/blog/'lumineers-ultra-thin-no-prep-veneers'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Lumineers: Ultra-Thin No-Prep Veneers', href: `/blog/lumineers-ultra-thin-no-prep-veneers` }
           ]} />
 
           <article className="mt-8">

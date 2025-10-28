@@ -87,8 +87,8 @@ export default function ProfessionalTeethWhiteningGuide2024Post() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Professional Teeth Whitening: Complete Guide 2024', href: `/blog/'professional-teeth-whitening-guide-2024'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Professional Teeth Whitening: Complete Guide 2024', href: `/blog/professional-teeth-whitening-guide-2024` }
           ]} />
 
           <article className="mt-8">

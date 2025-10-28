@@ -118,8 +118,8 @@ export default function BabyTeethEruptionTimelineBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'pediatric-dentistry'` },
-              { title: 'Baby Teeth Eruption Timeline: What Parents Should Know', href: `/blog/'baby-teeth-eruption-timeline'` }
+              { title: 'Category', href: `/blog/category/pediatric-dentistry` },
+              { title: 'Baby Teeth Eruption Timeline: What Parents Should Know', href: `/blog/baby-teeth-eruption-timeline` }
             ]}
           />
 

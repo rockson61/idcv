@@ -116,8 +116,8 @@ export default function CeramicOnlaysPartialCrownBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'prosthodontics'` },
-              { title: 'Ceramic Onlays: Partial Crown Alternative', href: `/blog/'ceramic-onlays-partial-crown'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/prosthodontics` },
+              { title: 'Ceramic Onlays: Partial Crown Alternative', href: `/blog/ceramic-onlays-partial-crown` }
             ]}
           />
 

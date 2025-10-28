@@ -68,8 +68,8 @@ export default function SoftTissueInjuryMouthFirstAidPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Soft Tissue Injury in Mouth: First Aid', href: `/blog/'soft-tissue-injury-mouth-first-aid'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/preventive-dentistry` },
+          { title: 'Soft Tissue Injury in Mouth: First Aid', href: `/blog/soft-tissue-injury-mouth-first-aid` }
         ]} />
 
         <article className="mt-8">

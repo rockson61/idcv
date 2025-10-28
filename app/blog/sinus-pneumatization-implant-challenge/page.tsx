@@ -120,8 +120,8 @@ export default function SinusPneumatizationImplantChallengeBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Sinus Pneumatization: Challenge for Implants', href: `/blog/'sinus-pneumatization-implant-challenge'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Sinus Pneumatization: Challenge for Implants', href: `/blog/sinus-pneumatization-implant-challenge` }
             ]}
           />
 

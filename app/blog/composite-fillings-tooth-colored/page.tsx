@@ -116,8 +116,8 @@ export default function CompositeFillingsToothColoredBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'restorative-dentistry'` },
-              { title: 'Composite Fillings: Tooth-Colored Restorations', href: `/blog/'composite-fillings-tooth-colored'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/restorative-dentistry` },
+              { title: 'Composite Fillings: Tooth-Colored Restorations', href: `/blog/composite-fillings-tooth-colored` }
             ]}
           />
 

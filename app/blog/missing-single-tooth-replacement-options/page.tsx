@@ -116,8 +116,8 @@ export default function MissingSingleToothReplacementOptionsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Missing Single Tooth: Best Replacement Options', href: `/blog/'missing-single-tooth-replacement-options'` }
+              { title: 'Prosthodontics', href: `/blog/category/preventive-dentistry` },
+              { title: 'Missing Single Tooth: Best Replacement Options', href: `/blog/missing-single-tooth-replacement-options` }
             ]}
           />
 

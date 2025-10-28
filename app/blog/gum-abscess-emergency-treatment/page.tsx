@@ -118,8 +118,8 @@ export default function GumAbscessEmergencyTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Gum Abscess: Emergency Treatment Guide', href: `/blog/'gum-abscess-emergency-treatment'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Gum Abscess: Emergency Treatment Guide', href: `/blog/gum-abscess-emergency-treatment` }
             ]}
           />
 

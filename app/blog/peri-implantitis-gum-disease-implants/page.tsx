@@ -120,8 +120,8 @@ export default function PeriImplantitisGumDiseaseImplantsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'periodontics'` },
-              { title: 'Peri-Implantitis: Gum Disease Around Implants', href: `/blog/'peri-implantitis-gum-disease-implants'` }
+              { title: 'Implantology', href: `/blog/category/periodontics` },
+              { title: 'Peri-Implantitis: Gum Disease Around Implants', href: `/blog/peri-implantitis-gum-disease-implants` }
             ]}
           />
 

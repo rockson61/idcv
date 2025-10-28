@@ -116,8 +116,8 @@ export default function LooseDenturesCausesSolutionsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'Loose Dentures: Causes and Solutions', href: `/blog/'loose-dentures-causes-solutions'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'Loose Dentures: Causes and Solutions', href: `/blog/loose-dentures-causes-solutions` }
             ]}
           />
 

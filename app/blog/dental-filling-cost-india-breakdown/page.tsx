@@ -116,8 +116,8 @@ export default function DentalFillingCostIndiaBreakdownBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'restorative-dentistry'` },
-              { title: 'Dental Filling Cost in India: Complete Breakdown', href: `/blog/'dental-filling-cost-india-breakdown'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/restorative-dentistry` },
+              { title: 'Dental Filling Cost in India: Complete Breakdown', href: `/blog/dental-filling-cost-india-breakdown` }
             ]}
           />
 

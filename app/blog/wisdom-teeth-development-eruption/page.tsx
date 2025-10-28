@@ -118,8 +118,8 @@ export default function WisdomTeethDevelopmentEruptionBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'oral-surgery'` },
-              { title: 'Wisdom Teeth Development and Eruption', href: `/blog/'wisdom-teeth-development-eruption'` }
+              { title: 'Category', href: `/blog/category/oral-surgery` },
+              { title: 'Wisdom Teeth Development and Eruption', href: `/blog/wisdom-teeth-development-eruption` }
             ]}
           />
 

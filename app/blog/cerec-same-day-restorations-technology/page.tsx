@@ -116,8 +116,8 @@ export default function CerecSameDayRestorationsTechnologyBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'CEREC Same-Day Restorations: Modern Technology', href: `/blog/'cerec-same-day-restorations-technology'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/preventive-dentistry` },
+              { title: 'CEREC Same-Day Restorations: Modern Technology', href: `/blog/cerec-same-day-restorations-technology` }
             ]}
           />
 

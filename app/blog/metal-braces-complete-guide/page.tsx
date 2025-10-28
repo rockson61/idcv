@@ -118,8 +118,8 @@ export default function MetalBracesCompleteGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'orthodontics'` },
-              { title: 'Metal Braces: Complete Guide to Traditional Orthodontics', href: `/blog/'metal-braces-complete-guide'` }
+              { title: 'Category', href: `/blog/category/orthodontics` },
+              { title: 'Metal Braces: Complete Guide to Traditional Orthodontics', href: `/blog/metal-braces-complete-guide` }
             ]}
           />
 

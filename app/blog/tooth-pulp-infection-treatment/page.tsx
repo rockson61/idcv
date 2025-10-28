@@ -120,8 +120,8 @@ export default function ToothPulpInfectionTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Tooth Pulp Infection: Causes, Symptoms & Treatment', href: `/blog/'tooth-pulp-infection-treatment'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Tooth Pulp Infection: Causes, Symptoms & Treatment', href: `/blog/tooth-pulp-infection-treatment` }
             ]}
           />
 

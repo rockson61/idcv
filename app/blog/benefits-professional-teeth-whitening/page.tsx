@@ -103,8 +103,8 @@ export default function BenefitsProfessionalTeethWhiteningBlogPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Benefits of Professional Teeth Whitening', href: `/blog/'benefits-professional-teeth-whitening'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Benefits of Professional Teeth Whitening', href: `/blog/benefits-professional-teeth-whitening` }
           ]} />
 
           <article className="mt-8">

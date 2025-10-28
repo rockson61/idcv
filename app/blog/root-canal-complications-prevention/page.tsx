@@ -120,8 +120,8 @@ export default function RootCanalComplicationsPreventionBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Root Canal Complications: Prevention Guide', href: `/blog/'root-canal-complications-prevention'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Root Canal Complications: Prevention Guide', href: `/blog/root-canal-complications-prevention` }
             ]}
           />
 

@@ -68,8 +68,8 @@ export default function WisdomToothPainEmergencyReliefPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'oral-surgery'` },
-          { title: 'Wisdom Tooth Pain: Emergency Relief', href: `/blog/'wisdom-tooth-pain-emergency-relief'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/oral-surgery` },
+          { title: 'Wisdom Tooth Pain: Emergency Relief', href: `/blog/wisdom-tooth-pain-emergency-relief` }
         ]} />
 
         <article className="mt-8">

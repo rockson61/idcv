@@ -116,8 +116,8 @@ export default function HowLongDentalFillingsLastBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'restorative-dentistry'` },
-              { title: 'How Long Do Dental Fillings Last?', href: `/blog/'how-long-dental-fillings-last'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/restorative-dentistry` },
+              { title: 'How Long Do Dental Fillings Last?', href: `/blog/how-long-dental-fillings-last` }
             ]}
           />
 

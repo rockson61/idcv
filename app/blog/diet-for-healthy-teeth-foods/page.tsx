@@ -87,8 +87,8 @@ export default function DietForHealthyTeethFoodsPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Diet for Healthy Teeth: Foods to Eat and Avoid', href: `/blog/'diet-for-healthy-teeth-foods'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Diet for Healthy Teeth: Foods to Eat and Avoid', href: `/blog/diet-for-healthy-teeth-foods` }
           ]} />
 
           <article className="mt-8">

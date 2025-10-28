@@ -120,8 +120,8 @@ export default function RootCanalRecoveryCareTipsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Root Canal Recovery: Post-Treatment Care', href: `/blog/'root-canal-recovery-care-tips'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Root Canal Recovery: Post-Treatment Care', href: `/blog/root-canal-recovery-care-tips` }
             ]}
           />
 

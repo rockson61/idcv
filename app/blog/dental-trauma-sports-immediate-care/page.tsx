@@ -68,8 +68,8 @@ export default function DentalTraumaSportsImmediateCarePost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'emergency-dentistry'` },
-          { title: 'Dental Trauma in Sports: Immediate Care', href: `/blog/'dental-trauma-sports-immediate-care'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/emergency-dentistry` },
+          { title: 'Dental Trauma in Sports: Immediate Care', href: `/blog/dental-trauma-sports-immediate-care` }
         ]} />
 
         <article className="mt-8">

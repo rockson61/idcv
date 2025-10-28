@@ -103,8 +103,8 @@ export default function CompleteGuideRootCanalTreatmentBlogPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-            { title: 'Complete Guide to Root Canal Treatment', href: `/blog/'complete-guide-root-canal-treatment'` }
+            { title: 'Endodontics', href: `/blog/category/endodontics` },
+            { title: 'Complete Guide to Root Canal Treatment', href: `/blog/complete-guide-root-canal-treatment` }
           ]} />
 
           <article className="mt-8">

@@ -116,8 +116,8 @@ export default function EdentulousJawFullMouthRestorationBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Edentulous Jaw: Full Mouth Restoration Solutions', href: `/blog/'edentulous-jaw-full-mouth-restoration'` }
+              { title: 'Prosthodontics', href: `/blog/category/preventive-dentistry` },
+              { title: 'Edentulous Jaw: Full Mouth Restoration Solutions', href: `/blog/edentulous-jaw-full-mouth-restoration` }
             ]}
           />
 

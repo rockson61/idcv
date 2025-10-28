@@ -118,8 +118,8 @@ export default function GumDiseaseHeartHealthBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Gum Disease and Heart Health Connection', href: `/blog/'gum-disease-heart-health'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Gum Disease and Heart Health Connection', href: `/blog/gum-disease-heart-health` }
             ]}
           />
 

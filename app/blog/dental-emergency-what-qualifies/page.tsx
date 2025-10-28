@@ -68,8 +68,8 @@ export default function DentalEmergencyWhatQualifiesPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'emergency-dentistry'` },
-          { title: 'Dental Emergency: What Qualifies as Emergency?', href: `/blog/'dental-emergency-what-qualifies'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/emergency-dentistry` },
+          { title: 'Dental Emergency: What Qualifies as Emergency?', href: `/blog/dental-emergency-what-qualifies` }
         ]} />
 
         <article className="mt-8">

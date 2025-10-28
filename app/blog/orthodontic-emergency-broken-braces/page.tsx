@@ -68,8 +68,8 @@ export default function OrthodonticEmergencyBrokenBracesPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'orthodontics'` },
-          { title: 'Orthodontic Emergency: Broken Braces Wire', href: `/blog/'orthodontic-emergency-broken-braces'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/orthodontics` },
+          { title: 'Orthodontic Emergency: Broken Braces Wire', href: `/blog/orthodontic-emergency-broken-braces` }
         ]} />
 
         <article className="mt-8">

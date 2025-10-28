@@ -87,8 +87,8 @@ export default function HowToPreventCavitiesGuidePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'How to Prevent Cavities: Complete Guide', href: `/blog/'how-to-prevent-cavities-guide'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'How to Prevent Cavities: Complete Guide', href: `/blog/how-to-prevent-cavities-guide` }
           ]} />
 
           <article className="mt-8">

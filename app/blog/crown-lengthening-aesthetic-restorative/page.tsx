@@ -68,8 +68,8 @@ export default function CrownLengtheningAestheticRestorativePost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'prosthodontics'` },
-          { title: 'Crown Lengthening: Aesthetic and Restorative', href: `/blog/'crown-lengthening-aesthetic-restorative'` }
+          { title: 'Oral Surgery', href: `/blog/category/prosthodontics` },
+          { title: 'Crown Lengthening: Aesthetic and Restorative', href: `/blog/crown-lengthening-aesthetic-restorative` }
         ]} />
 
         <article className="mt-8">

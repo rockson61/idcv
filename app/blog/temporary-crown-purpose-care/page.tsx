@@ -116,8 +116,8 @@ export default function TemporaryCrownPurposeCareBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'prosthodontics'` },
-              { title: 'Temporary Crown: Purpose and Care', href: `/blog/'temporary-crown-purpose-care'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/prosthodontics` },
+              { title: 'Temporary Crown: Purpose and Care', href: `/blog/temporary-crown-purpose-care` }
             ]}
           />
 

@@ -68,8 +68,8 @@ export default function DentureBreakageEmergencyRepairPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'prosthodontics'` },
-          { title: 'Denture Breakage: Emergency Repair Options', href: `/blog/'denture-breakage-emergency-repair'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/prosthodontics` },
+          { title: 'Denture Breakage: Emergency Repair Options', href: `/blog/denture-breakage-emergency-repair` }
         ]} />
 
         <article className="mt-8">

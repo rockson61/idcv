@@ -120,8 +120,8 @@ export default function PainlessRootCanalModernTechniquesBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Painless Root Canal: Modern Techniques', href: `/blog/'painless-root-canal-modern-techniques'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Painless Root Canal: Modern Techniques', href: `/blog/painless-root-canal-modern-techniques` }
             ]}
           />
 

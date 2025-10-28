@@ -118,8 +118,8 @@ export default function PeriodontitisGumDiseaseGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Periodontitis: Complete Guide to Gum Disease', href: `/blog/'periodontitis-gum-disease-guide'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Periodontitis: Complete Guide to Gum Disease', href: `/blog/periodontitis-gum-disease-guide` }
             ]}
           />
 

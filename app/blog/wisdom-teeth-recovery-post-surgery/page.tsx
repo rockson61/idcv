@@ -68,8 +68,8 @@ export default function WisdomTeethRecoveryPostSurgeryPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'oral-surgery'` },
-          { title: 'Wisdom Teeth Recovery: Post-Surgery Care', href: `/blog/'wisdom-teeth-recovery-post-surgery'` }
+          { title: 'Oral Surgery', href: `/blog/category/oral-surgery` },
+          { title: 'Wisdom Teeth Recovery: Post-Surgery Care', href: `/blog/wisdom-teeth-recovery-post-surgery` }
         ]} />
 
         <article className="mt-8">

@@ -87,8 +87,8 @@ export default function YellowTeethTreatmentWhiteSmilePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Yellow Teeth Treatment: Get White Smile', href: `/blog/'yellow-teeth-treatment-white-smile'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Yellow Teeth Treatment: Get White Smile', href: `/blog/yellow-teeth-treatment-white-smile` }
           ]} />
 
           <article className="mt-8">

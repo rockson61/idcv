@@ -116,8 +116,8 @@ export default function WornDownTeethCausesRestorationBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Worn-Down Teeth: Causes and Restoration', href: `/blog/'worn-down-teeth-causes-restoration'` }
+              { title: 'Prosthodontics', href: `/blog/category/preventive-dentistry` },
+              { title: 'Worn-Down Teeth: Causes and Restoration', href: `/blog/worn-down-teeth-causes-restoration` }
             ]}
           />
 

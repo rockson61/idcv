@@ -118,8 +118,8 @@ export default function CrossbiteTreatmentFixBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Crossbite in Children and Adults: How to Fix It', href: `/blog/'crossbite-treatment-fix'` }
+              { title: 'Category', href: `/blog/category/preventive-dentistry` },
+              { title: 'Crossbite in Children and Adults: How to Fix It', href: `/blog/crossbite-treatment-fix` }
             ]}
           />
 

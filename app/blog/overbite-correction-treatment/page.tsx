@@ -118,8 +118,8 @@ export default function OverbiteCorrectionTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Overbite Correction: Causes, Symptoms, and Treatment Options', href: `/blog/'overbite-correction-treatment'` }
+              { title: 'Category', href: `/blog/category/preventive-dentistry` },
+              { title: 'Overbite Correction: Causes, Symptoms, and Treatment Options', href: `/blog/overbite-correction-treatment` }
             ]}
           />
 

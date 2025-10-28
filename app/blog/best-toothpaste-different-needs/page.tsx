@@ -87,8 +87,8 @@ export default function BestToothpasteDifferentNeedsPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Best Toothpaste for Different Dental Needs', href: `/blog/'best-toothpaste-different-needs'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Best Toothpaste for Different Dental Needs', href: `/blog/best-toothpaste-different-needs` }
           ]} />
 
           <article className="mt-8">

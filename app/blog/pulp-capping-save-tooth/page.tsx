@@ -120,8 +120,8 @@ export default function PulpCappingSaveToothBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Pulp Capping: Saving Your Natural Tooth', href: `/blog/'pulp-capping-save-tooth'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Pulp Capping: Saving Your Natural Tooth', href: `/blog/pulp-capping-save-tooth` }
             ]}
           />
 

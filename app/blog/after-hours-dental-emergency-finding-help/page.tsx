@@ -68,8 +68,8 @@ export default function AfterHoursDentalEmergencyFindingHelpPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'emergency-dentistry'` },
-          { title: 'After Hours Dental Emergency: Finding Help', href: `/blog/'after-hours-dental-emergency-finding-help'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/emergency-dentistry` },
+          { title: 'After Hours Dental Emergency: Finding Help', href: `/blog/after-hours-dental-emergency-finding-help` }
         ]} />
 
         <article className="mt-8">

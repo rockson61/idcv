@@ -118,8 +118,8 @@ export default function SelfLigatingBracesBenefitsCostBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'orthodontics'` },
-              { title: 'Self-Ligating Braces: Benefits and Cost in India', href: `/blog/'self-ligating-braces-benefits-cost'` }
+              { title: 'Category', href: `/blog/category/orthodontics` },
+              { title: 'Self-Ligating Braces: Benefits and Cost in India', href: `/blog/self-ligating-braces-benefits-cost` }
             ]}
           />
 

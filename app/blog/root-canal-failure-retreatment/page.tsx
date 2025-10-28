@@ -120,8 +120,8 @@ export default function RootCanalFailureRetreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Root Canal Failure: Causes and Re-Treatment Options', href: `/blog/'root-canal-failure-retreatment'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Root Canal Failure: Causes and Re-Treatment Options', href: `/blog/root-canal-failure-retreatment` }
             ]}
           />
 

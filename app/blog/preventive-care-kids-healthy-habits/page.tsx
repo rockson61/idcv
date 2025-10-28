@@ -87,8 +87,8 @@ export default function PreventiveCareKidsHealthyHabitsPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Pediatric Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Preventive Care for Kids: Building Healthy Habits', href: `/blog/'preventive-care-kids-healthy-habits'` }
+            { title: 'Pediatric Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Preventive Care for Kids: Building Healthy Habits', href: `/blog/preventive-care-kids-healthy-habits` }
           ]} />
 
           <article className="mt-8">

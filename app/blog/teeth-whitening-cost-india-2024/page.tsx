@@ -87,8 +87,8 @@ export default function TeethWhiteningCostIndia2024Post() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Teeth Whitening Cost in India: 2024 Prices', href: `/blog/'teeth-whitening-cost-india-2024'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Teeth Whitening Cost in India: 2024 Prices', href: `/blog/teeth-whitening-cost-india-2024` }
           ]} />
 
           <article className="mt-8">

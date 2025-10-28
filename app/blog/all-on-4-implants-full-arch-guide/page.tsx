@@ -120,8 +120,8 @@ export default function AllOn4ImplantsFullArchGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'All-on-4 Implants: Full Arch Restoration Guide', href: `/blog/'all-on-4-implants-full-arch-guide'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'All-on-4 Implants: Full Arch Restoration Guide', href: `/blog/all-on-4-implants-full-arch-guide` }
             ]}
           />
 

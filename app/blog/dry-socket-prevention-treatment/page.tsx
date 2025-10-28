@@ -68,8 +68,8 @@ export default function DrySocketPreventionTreatmentPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Dry Socket: Prevention and Treatment', href: `/blog/'dry-socket-prevention-treatment'` }
+          { title: 'Oral Surgery', href: `/blog/category/preventive-dentistry` },
+          { title: 'Dry Socket: Prevention and Treatment', href: `/blog/dry-socket-prevention-treatment` }
         ]} />
 
         <article className="mt-8">

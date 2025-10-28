@@ -118,8 +118,8 @@ export default function LaserGumTreatmentBenefitsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Laser Gum Treatment: Benefits and Procedure', href: `/blog/'laser-gum-treatment-benefits'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Laser Gum Treatment: Benefits and Procedure', href: `/blog/laser-gum-treatment-benefits` }
             ]}
           />
 

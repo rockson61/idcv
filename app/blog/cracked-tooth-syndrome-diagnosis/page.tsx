@@ -120,8 +120,8 @@ export default function CrackedToothSyndromeDiagnosisBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Cracked Tooth Syndrome: Diagnosis and Treatment', href: `/blog/'cracked-tooth-syndrome-diagnosis'` }
+              { title: 'Endodontics', href: `/blog/category/preventive-dentistry` },
+              { title: 'Cracked Tooth Syndrome: Diagnosis and Treatment', href: `/blog/cracked-tooth-syndrome-diagnosis` }
             ]}
           />
 

@@ -118,8 +118,8 @@ export default function InvisalignClearAlignersGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'orthodontics'` },
-              { title: 'Invisalign Clear Aligners: Complete Treatment Guide', href: `/blog/'invisalign-clear-aligners-guide'` }
+              { title: 'Category', href: `/blog/category/orthodontics` },
+              { title: 'Invisalign Clear Aligners: Complete Treatment Guide', href: `/blog/invisalign-clear-aligners-guide` }
             ]}
           />
 

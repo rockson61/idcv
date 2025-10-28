@@ -103,8 +103,8 @@ export default function OralHealthTipsBlogPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Essential Oral Health Tips for Everyone', href: `/blog/'oral-health-tips'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Essential Oral Health Tips for Everyone', href: `/blog/oral-health-tips` }
           ]} />
 
           <article className="mt-8">

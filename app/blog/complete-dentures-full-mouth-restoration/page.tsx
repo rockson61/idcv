@@ -116,8 +116,8 @@ export default function CompleteDenturesFullMouthRestorationBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'Complete Dentures: Full Mouth Restoration', href: `/blog/'complete-dentures-full-mouth-restoration'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'Complete Dentures: Full Mouth Restoration', href: `/blog/complete-dentures-full-mouth-restoration` }
             ]}
           />
 

@@ -116,8 +116,8 @@ export default function DentureCareMaintenanceGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'Denture Care and Maintenance: Complete Guide', href: `/blog/'denture-care-maintenance-guide'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'Denture Care and Maintenance: Complete Guide', href: `/blog/denture-care-maintenance-guide` }
             ]}
           />
 

@@ -118,8 +118,8 @@ export default function DiabetesGumDiseaseBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Diabetes and Gum Disease: What You Need to Know', href: `/blog/'diabetes-gum-disease'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Diabetes and Gum Disease: What You Need to Know', href: `/blog/diabetes-gum-disease` }
             ]}
           />
 

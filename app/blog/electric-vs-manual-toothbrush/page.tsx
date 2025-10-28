@@ -87,8 +87,8 @@ export default function ElectricVsManualToothbrushPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Electric vs Manual Toothbrush: Which is Better?', href: `/blog/'electric-vs-manual-toothbrush'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Electric vs Manual Toothbrush: Which is Better?', href: `/blog/electric-vs-manual-toothbrush` }
           ]} />
 
           <article className="mt-8">

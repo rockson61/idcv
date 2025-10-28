@@ -68,8 +68,8 @@ export default function GeneralAnesthesiaDentistryWhenNeededPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'General Anesthesia in Dentistry: When Needed', href: `/blog/'general-anesthesia-dentistry-when-needed'` }
+          { title: 'Oral Surgery', href: `/blog/category/preventive-dentistry` },
+          { title: 'General Anesthesia in Dentistry: When Needed', href: `/blog/general-anesthesia-dentistry-when-needed` }
         ]} />
 
         <article className="mt-8">

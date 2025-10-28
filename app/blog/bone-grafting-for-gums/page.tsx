@@ -118,8 +118,8 @@ export default function BoneGraftingForGumsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Bone Grafting for Gums: When is it Needed?', href: `/blog/'bone-grafting-for-gums'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Bone Grafting for Gums: When is it Needed?', href: `/blog/bone-grafting-for-gums` }
             ]}
           />
 

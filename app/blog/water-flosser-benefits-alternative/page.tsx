@@ -87,8 +87,8 @@ export default function WaterFlosserBenefitsAlternativePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Water Flosser Benefits: Alternative to String Floss', href: `/blog/'water-flosser-benefits-alternative'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Water Flosser Benefits: Alternative to String Floss', href: `/blog/water-flosser-benefits-alternative` }
           ]} />
 
           <article className="mt-8">

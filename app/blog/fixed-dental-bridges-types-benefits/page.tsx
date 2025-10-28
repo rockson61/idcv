@@ -116,8 +116,8 @@ export default function FixedDentalBridgesTypesBenefitsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'Fixed Dental Bridges: Types and Benefits', href: `/blog/'fixed-dental-bridges-types-benefits'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'Fixed Dental Bridges: Types and Benefits', href: `/blog/fixed-dental-bridges-types-benefits` }
             ]}
           />
 

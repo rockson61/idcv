@@ -116,8 +116,8 @@ export default function PfmCrownsPorcelainFusedMetalBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'PFM Crowns: Porcelain Fused to Metal Guide', href: `/blog/'pfm-crowns-porcelain-fused-metal'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'PFM Crowns: Porcelain Fused to Metal Guide', href: `/blog/pfm-crowns-porcelain-fused-metal` }
             ]}
           />
 

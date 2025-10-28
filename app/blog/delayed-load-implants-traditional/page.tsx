@@ -120,8 +120,8 @@ export default function DelayedLoadImplantsTraditionalBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Delayed Load Implants: Traditional Approach', href: `/blog/'delayed-load-implants-traditional'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Delayed Load Implants: Traditional Approach', href: `/blog/delayed-load-implants-traditional` }
             ]}
           />
 

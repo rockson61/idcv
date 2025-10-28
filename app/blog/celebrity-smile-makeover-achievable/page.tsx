@@ -87,8 +87,8 @@ export default function CelebritySmileMakeoverAchievablePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Celebrity Smile Makeover: Achievable Results', href: `/blog/'celebrity-smile-makeover-achievable'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Celebrity Smile Makeover: Achievable Results', href: `/blog/celebrity-smile-makeover-achievable` }
           ]} />
 
           <article className="mt-8">

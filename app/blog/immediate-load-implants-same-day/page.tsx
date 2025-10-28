@@ -120,8 +120,8 @@ export default function ImmediateLoadImplantsSameDayBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Immediate Load Implants: Same-Day Teeth', href: `/blog/'immediate-load-implants-same-day'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Immediate Load Implants: Same-Day Teeth', href: `/blog/immediate-load-implants-same-day` }
             ]}
           />
 

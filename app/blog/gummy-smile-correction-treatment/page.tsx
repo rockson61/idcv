@@ -87,8 +87,8 @@ export default function GummySmileCorrectionTreatmentPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'periodontics'` },
-            { title: 'Gummy Smile Correction: Treatment Options', href: `/blog/'gummy-smile-correction-treatment'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/periodontics` },
+            { title: 'Gummy Smile Correction: Treatment Options', href: `/blog/gummy-smile-correction-treatment` }
           ]} />
 
           <article className="mt-8">

@@ -68,8 +68,8 @@ export default function BiopsyOralLesionsDiagnosticPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Biopsy for Oral Lesions: Diagnostic Procedure', href: `/blog/'biopsy-oral-lesions-diagnostic'` }
+          { title: 'Oral Surgery', href: `/blog/category/preventive-dentistry` },
+          { title: 'Biopsy for Oral Lesions: Diagnostic Procedure', href: `/blog/biopsy-oral-lesions-diagnostic` }
         ]} />
 
         <article className="mt-8">

@@ -118,8 +118,8 @@ export default function HowToBrushWithBracesBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'orthodontics'` },
-              { title: 'How to Brush Teeth with Braces: Complete Guide', href: `/blog/'how-to-brush-with-braces'` }
+              { title: 'Category', href: `/blog/category/orthodontics` },
+              { title: 'How to Brush Teeth with Braces: Complete Guide', href: `/blog/how-to-brush-with-braces` }
             ]}
           />
 

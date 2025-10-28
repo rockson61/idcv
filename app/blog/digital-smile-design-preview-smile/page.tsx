@@ -87,8 +87,8 @@ export default function DigitalSmileDesignPreviewSmilePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Digital Smile Design: Preview Your New Smile', href: `/blog/'digital-smile-design-preview-smile'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Digital Smile Design: Preview Your New Smile', href: `/blog/digital-smile-design-preview-smile` }
           ]} />
 
           <article className="mt-8">

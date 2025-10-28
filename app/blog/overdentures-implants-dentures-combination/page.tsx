@@ -116,8 +116,8 @@ export default function OverdenturesImplantsDenturesCombinationBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'implantology'` },
-              { title: 'Overdentures: Combining Implants and Dentures', href: `/blog/'overdentures-implants-dentures-combination'` }
+              { title: 'Prosthodontics', href: `/blog/category/implantology` },
+              { title: 'Overdentures: Combining Implants and Dentures', href: `/blog/overdentures-implants-dentures-combination` }
             ]}
           />
 

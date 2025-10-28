@@ -120,8 +120,8 @@ export default function JawboneAtrophyBoneGraftingBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Jawbone Atrophy: Causes and Bone Grafting', href: `/blog/'jawbone-atrophy-bone-grafting'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Jawbone Atrophy: Causes and Bone Grafting', href: `/blog/jawbone-atrophy-bone-grafting` }
             ]}
           />
 

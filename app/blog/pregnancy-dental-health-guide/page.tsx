@@ -87,8 +87,8 @@ export default function PregnancyDentalHealthGuidePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Pregnancy and Dental Health: What You Need to Know', href: `/blog/'pregnancy-dental-health-guide'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Pregnancy and Dental Health: What You Need to Know', href: `/blog/pregnancy-dental-health-guide` }
           ]} />
 
           <article className="mt-8">

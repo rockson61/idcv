@@ -118,8 +118,8 @@ export default function PeriodontalMaintenanceGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Periodontal Maintenance: Keeping Gums Healthy', href: `/blog/'periodontal-maintenance-guide'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Periodontal Maintenance: Keeping Gums Healthy', href: `/blog/periodontal-maintenance-guide` }
             ]}
           />
 

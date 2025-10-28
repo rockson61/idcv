@@ -87,8 +87,8 @@ export default function TongueCleaningOralHygienePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Tongue Cleaning: Often Overlooked Oral Hygiene', href: `/blog/'tongue-cleaning-oral-hygiene'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Tongue Cleaning: Often Overlooked Oral Hygiene', href: `/blog/tongue-cleaning-oral-hygiene` }
           ]} />
 
           <article className="mt-8">

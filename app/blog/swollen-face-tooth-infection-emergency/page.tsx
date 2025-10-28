@@ -68,8 +68,8 @@ export default function SwollenFaceToothInfectionEmergencyPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'emergency-dentistry'` },
-          { title: 'Swollen Face from Tooth Infection: Emergency Care', href: `/blog/'swollen-face-tooth-infection-emergency'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/emergency-dentistry` },
+          { title: 'Swollen Face from Tooth Infection: Emergency Care', href: `/blog/swollen-face-tooth-infection-emergency` }
         ]} />
 
         <article className="mt-8">

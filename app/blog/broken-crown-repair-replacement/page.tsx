@@ -116,8 +116,8 @@ export default function BrokenCrownRepairReplacementBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'Broken Crown Repair and Replacement Guide', href: `/blog/'broken-crown-repair-replacement'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'Broken Crown Repair and Replacement Guide', href: `/blog/broken-crown-repair-replacement` }
             ]}
           />
 

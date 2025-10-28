@@ -68,8 +68,8 @@ export default function KnockedOutToothEmergencyAidPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'emergency-dentistry'` },
-          { title: 'Knocked Out Tooth: Emergency First Aid', href: `/blog/'knocked-out-tooth-emergency-aid'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/emergency-dentistry` },
+          { title: 'Knocked Out Tooth: Emergency First Aid', href: `/blog/knocked-out-tooth-emergency-aid` }
         ]} />
 
         <article className="mt-8">

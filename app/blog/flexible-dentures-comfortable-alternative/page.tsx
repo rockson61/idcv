@@ -116,8 +116,8 @@ export default function FlexibleDenturesComfortableAlternativeBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'Flexible Dentures: Comfortable Alternative', href: `/blog/'flexible-dentures-comfortable-alternative'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'Flexible Dentures: Comfortable Alternative', href: `/blog/flexible-dentures-comfortable-alternative` }
             ]}
           />
 

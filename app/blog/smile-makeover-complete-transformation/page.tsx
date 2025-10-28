@@ -87,8 +87,8 @@ export default function SmileMakeoverCompleteTransformationPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Smile Makeover: Complete Transformation Guide', href: `/blog/'smile-makeover-complete-transformation'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Smile Makeover: Complete Transformation Guide', href: `/blog/smile-makeover-complete-transformation` }
           ]} />
 
           <article className="mt-8">

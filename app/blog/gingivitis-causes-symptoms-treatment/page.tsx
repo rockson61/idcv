@@ -118,8 +118,8 @@ export default function GingivitisCausesSymptomsTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Gingivitis: Causes, Symptoms, and Treatment', href: `/blog/'gingivitis-causes-symptoms-treatment'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Gingivitis: Causes, Symptoms, and Treatment', href: `/blog/gingivitis-causes-symptoms-treatment` }
             ]}
           />
 

@@ -87,8 +87,8 @@ export default function ZoomWhiteningProcedureCostResultsPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Zoom Whitening: Procedure, Cost & Results', href: `/blog/'zoom-whitening-procedure-cost-results'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Zoom Whitening: Procedure, Cost & Results', href: `/blog/zoom-whitening-procedure-cost-results` }
           ]} />
 
           <article className="mt-8">

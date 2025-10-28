@@ -120,8 +120,8 @@ export default function BoneGraftingImplantsCompleteGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Bone Grafting for Implants: Complete Guide', href: `/blog/'bone-grafting-implants-complete-guide'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Bone Grafting for Implants: Complete Guide', href: `/blog/bone-grafting-implants-complete-guide` }
             ]}
           />
 

@@ -120,8 +120,8 @@ export default function PulpotomyChildrenProcedureBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Pediatric Dentistry', href: `/blog/category/'endodontics'` },
-              { title: 'Pulpotomy in Children: Procedure and Care', href: `/blog/'pulpotomy-children-procedure'` }
+              { title: 'Pediatric Dentistry', href: `/blog/category/endodontics` },
+              { title: 'Pulpotomy in Children: Procedure and Care', href: `/blog/pulpotomy-children-procedure` }
             ]}
           />
 

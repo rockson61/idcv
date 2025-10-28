@@ -68,8 +68,8 @@ export default function EmergencyToothExtractionWhenNecessaryPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'oral-surgery'` },
-          { title: 'Emergency Tooth Extraction: When Necessary', href: `/blog/'emergency-tooth-extraction-when-necessary'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/oral-surgery` },
+          { title: 'Emergency Tooth Extraction: When Necessary', href: `/blog/emergency-tooth-extraction-when-necessary` }
         ]} />
 
         <article className="mt-8">

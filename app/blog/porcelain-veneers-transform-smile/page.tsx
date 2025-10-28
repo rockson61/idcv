@@ -87,8 +87,8 @@ export default function PorcelainVeneersTransformSmilePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Porcelain Veneers: Transform Your Smile', href: `/blog/'porcelain-veneers-transform-smile'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Porcelain Veneers: Transform Your Smile', href: `/blog/porcelain-veneers-transform-smile` }
           ]} />
 
           <article className="mt-8">

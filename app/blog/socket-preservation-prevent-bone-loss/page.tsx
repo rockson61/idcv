@@ -120,8 +120,8 @@ export default function SocketPreservationPreventBoneLossBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Socket Preservation: Preventing Bone Loss', href: `/blog/'socket-preservation-prevent-bone-loss'` }
+              { title: 'Implantology', href: `/blog/category/preventive-dentistry` },
+              { title: 'Socket Preservation: Preventing Bone Loss', href: `/blog/socket-preservation-prevent-bone-loss` }
             ]}
           />
 

@@ -116,8 +116,8 @@ export default function ChippedToothRepairQuickSolutionsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Chipped Tooth Repair: Quick Solutions', href: `/blog/'chipped-tooth-repair-quick-solutions'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/preventive-dentistry` },
+              { title: 'Chipped Tooth Repair: Quick Solutions', href: `/blog/chipped-tooth-repair-quick-solutions` }
             ]}
           />
 

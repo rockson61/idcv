@@ -118,8 +118,8 @@ export default function UnderbiteTreatmentGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Underbite Treatment Guide: Braces vs Surgery', href: `/blog/'underbite-treatment-guide'` }
+              { title: 'Category', href: `/blog/category/preventive-dentistry` },
+              { title: 'Underbite Treatment Guide: Braces vs Surgery', href: `/blog/underbite-treatment-guide` }
             ]}
           />
 

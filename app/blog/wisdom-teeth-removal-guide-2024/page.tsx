@@ -68,8 +68,8 @@ export default function WisdomTeethRemovalGuide2024Post() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'oral-surgery'` },
-          { title: 'Wisdom Teeth Removal: Complete Guide 2024', href: `/blog/'wisdom-teeth-removal-guide-2024'` }
+          { title: 'Oral Surgery', href: `/blog/category/oral-surgery` },
+          { title: 'Wisdom Teeth Removal: Complete Guide 2024', href: `/blog/wisdom-teeth-removal-guide-2024` }
         ]} />
 
         <article className="mt-8">

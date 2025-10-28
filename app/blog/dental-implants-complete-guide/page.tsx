@@ -103,8 +103,8 @@ export default function DentalImplantsCompleteGuideBlogPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Implantology', href: `/blog/category/'implantology'` },
-            { title: 'Dental Implants: Complete Guide', href: `/blog/'dental-implants-complete-guide'` }
+            { title: 'Implantology', href: `/blog/category/implantology` },
+            { title: 'Dental Implants: Complete Guide', href: `/blog/dental-implants-complete-guide` }
           ]} />
 
           <article className="mt-8">

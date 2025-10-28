@@ -87,8 +87,8 @@ export default function SmileDesignPrinciplesPerfectSmilePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Smile Design Principles: Creating Perfect Smile', href: `/blog/'smile-design-principles-perfect-smile'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Smile Design Principles: Creating Perfect Smile', href: `/blog/smile-design-principles-perfect-smile` }
           ]} />
 
           <article className="mt-8">

@@ -118,8 +118,8 @@ export default function GumRecessionCausesTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Gum Recession: Causes and Treatment Options', href: `/blog/'gum-recession-causes-treatment'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Gum Recession: Causes and Treatment Options', href: `/blog/gum-recession-causes-treatment` }
             ]}
           />
 

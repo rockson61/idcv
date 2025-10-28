@@ -116,8 +116,8 @@ export default function ZirconiaCrownsBenefitsCostLongevityBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'Zirconia Crowns: Benefits, Cost & Longevity', href: `/blog/'zirconia-crowns-benefits-cost-longevity'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'Zirconia Crowns: Benefits, Cost & Longevity', href: `/blog/zirconia-crowns-benefits-cost-longevity` }
             ]}
           />
 

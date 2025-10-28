@@ -68,8 +68,8 @@ export default function LostCrownFillingTemporaryFixesPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'prosthodontics'` },
-          { title: 'Lost Crown or Filling: Temporary Fixes', href: `/blog/'lost-crown-filling-temporary-fixes'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/prosthodontics` },
+          { title: 'Lost Crown or Filling: Temporary Fixes', href: `/blog/lost-crown-filling-temporary-fixes` }
         ]} />
 
         <article className="mt-8">

@@ -87,8 +87,8 @@ export default function ProperBrushingTechniqueStepByStepPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Proper Brushing Technique: Step-by-Step Guide', href: `/blog/'proper-brushing-technique-step-by-step'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Proper Brushing Technique: Step-by-Step Guide', href: `/blog/proper-brushing-technique-step-by-step` }
           ]} />
 
           <article className="mt-8">

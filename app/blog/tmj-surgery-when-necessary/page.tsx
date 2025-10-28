@@ -68,8 +68,8 @@ export default function TmjSurgeryWhenNecessaryPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'oral-surgery'` },
-          { title: 'TMJ Surgery: When is it Necessary?', href: `/blog/'tmj-surgery-when-necessary'` }
+          { title: 'Oral Surgery', href: `/blog/category/oral-surgery` },
+          { title: 'TMJ Surgery: When is it Necessary?', href: `/blog/tmj-surgery-when-necessary` }
         ]} />
 
         <article className="mt-8">

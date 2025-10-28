@@ -118,8 +118,8 @@ export default function GumGraftSurgeryProcedureCostBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Gum Graft Surgery: Procedure, Recovery, Cost', href: `/blog/'gum-graft-surgery-procedure-cost'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Gum Graft Surgery: Procedure, Recovery, Cost', href: `/blog/gum-graft-surgery-procedure-cost` }
             ]}
           />
 

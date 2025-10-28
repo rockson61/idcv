@@ -118,8 +118,8 @@ export default function ToothAnatomyCompleteGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Tooth Anatomy: Complete Guide to Dental Structure', href: `/blog/'tooth-anatomy-complete-guide'` }
+              { title: 'Category', href: `/blog/category/preventive-dentistry` },
+              { title: 'Tooth Anatomy: Complete Guide to Dental Structure', href: `/blog/tooth-anatomy-complete-guide` }
             ]}
           />
 

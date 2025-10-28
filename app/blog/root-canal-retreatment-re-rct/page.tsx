@@ -120,8 +120,8 @@ export default function RootCanalRetreatmentReRctBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Root Canal Retreatment (Re-RCT): When Required', href: `/blog/'root-canal-retreatment-re-rct'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Root Canal Retreatment (Re-RCT): When Required', href: `/blog/root-canal-retreatment-re-rct` }
             ]}
           />
 

@@ -116,8 +116,8 @@ export default function CeramicInlaysAestheticRestorationBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'restorative-dentistry'` },
-              { title: 'Ceramic Inlays: Aesthetic Tooth Restoration', href: `/blog/'ceramic-inlays-aesthetic-restoration'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/restorative-dentistry` },
+              { title: 'Ceramic Inlays: Aesthetic Tooth Restoration', href: `/blog/ceramic-inlays-aesthetic-restoration` }
             ]}
           />
 

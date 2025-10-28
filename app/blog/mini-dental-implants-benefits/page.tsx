@@ -120,8 +120,8 @@ export default function MiniDentalImplantsBenefitsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Mini Dental Implants: Benefits and Applications', href: `/blog/'mini-dental-implants-benefits'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Mini Dental Implants: Benefits and Applications', href: `/blog/mini-dental-implants-benefits` }
             ]}
           />
 

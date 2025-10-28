@@ -87,8 +87,8 @@ export default function LaserTeethWhiteningAdvancedTechnologyPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Laser Teeth Whitening: Advanced Technology', href: `/blog/'laser-teeth-whitening-advanced-technology'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Laser Teeth Whitening: Advanced Technology', href: `/blog/laser-teeth-whitening-advanced-technology` }
           ]} />
 
           <article className="mt-8">

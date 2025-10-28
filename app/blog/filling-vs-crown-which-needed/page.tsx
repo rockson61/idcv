@@ -116,8 +116,8 @@ export default function FillingVsCrownWhichNeededBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'prosthodontics'` },
-              { title: 'Filling vs Crown: Which Do You Need?', href: `/blog/'filling-vs-crown-which-needed'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/prosthodontics` },
+              { title: 'Filling vs Crown: Which Do You Need?', href: `/blog/filling-vs-crown-which-needed` }
             ]}
           />
 

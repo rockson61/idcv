@@ -103,8 +103,8 @@ export default function DentalImplantsVelloreBlogPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Implantology', href: `/blog/category/'implantology'` },
-            { title: 'Dental Implants in Vellore: Best Clinic', href: `/blog/'dental-implants-vellore'` }
+            { title: 'Implantology', href: `/blog/category/implantology` },
+            { title: 'Dental Implants in Vellore: Best Clinic', href: `/blog/dental-implants-vellore` }
           ]} />
 
           <article className="mt-8">

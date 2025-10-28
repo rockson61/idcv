@@ -118,8 +118,8 @@ export default function OrthodonticRetainersTypesCareBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'orthodontics'` },
-              { title: 'Orthodontic Retainers: Types, Care, and Importance', href: `/blog/'orthodontic-retainers-types-care'` }
+              { title: 'Category', href: `/blog/category/orthodontics` },
+              { title: 'Orthodontic Retainers: Types, Care, and Importance', href: `/blog/orthodontic-retainers-types-care` }
             ]}
           />
 

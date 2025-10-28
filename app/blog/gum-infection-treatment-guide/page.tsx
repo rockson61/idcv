@@ -118,8 +118,8 @@ export default function GumInfectionTreatmentGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Gum Infection Treatment: Complete Guide', href: `/blog/'gum-infection-treatment-guide'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Gum Infection Treatment: Complete Guide', href: `/blog/gum-infection-treatment-guide` }
             ]}
           />
 

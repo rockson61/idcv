@@ -116,8 +116,8 @@ export default function AmalgamFillingsSilverExplainedBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'restorative-dentistry'` },
-              { title: 'Amalgam Fillings: Silver Fillings Explained', href: `/blog/'amalgam-fillings-silver-explained'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/restorative-dentistry` },
+              { title: 'Amalgam Fillings: Silver Fillings Explained', href: `/blog/amalgam-fillings-silver-explained` }
             ]}
           />
 

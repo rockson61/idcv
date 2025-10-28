@@ -120,8 +120,8 @@ export default function SingleSittingRootCanalBenefitsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Single Sitting Root Canal: Benefits and Procedure', href: `/blog/'single-sitting-root-canal-benefits'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Single Sitting Root Canal: Benefits and Procedure', href: `/blog/single-sitting-root-canal-benefits` }
             ]}
           />
 

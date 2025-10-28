@@ -120,8 +120,8 @@ export default function ZygomaticImplantsBoneLossSolutionBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Zygomatic Implants: Solution for Severe Bone Loss', href: `/blog/'zygomatic-implants-bone-loss-solution'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Zygomatic Implants: Solution for Severe Bone Loss', href: `/blog/zygomatic-implants-bone-loss-solution` }
             ]}
           />
 

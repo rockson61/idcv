@@ -120,8 +120,8 @@ export default function AllOn6ImplantsTreatmentGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'All-on-6 Implants: Complete Treatment Guide', href: `/blog/'all-on-6-implants-treatment-guide'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'All-on-6 Implants: Complete Treatment Guide', href: `/blog/all-on-6-implants-treatment-guide` }
             ]}
           />
 

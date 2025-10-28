@@ -118,8 +118,8 @@ export default function OpenBiteTreatmentGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Open Bite Treatment: Comprehensive Guide', href: `/blog/'open-bite-treatment-guide'` }
+              { title: 'Category', href: `/blog/category/preventive-dentistry` },
+              { title: 'Open Bite Treatment: Comprehensive Guide', href: `/blog/open-bite-treatment-guide` }
             ]}
           />
 

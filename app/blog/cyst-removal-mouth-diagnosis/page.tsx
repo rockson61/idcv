@@ -68,8 +68,8 @@ export default function CystRemovalMouthDiagnosisPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Cyst Removal in Mouth: Diagnosis and Treatment', href: `/blog/'cyst-removal-mouth-diagnosis'` }
+          { title: 'Oral Surgery', href: `/blog/category/preventive-dentistry` },
+          { title: 'Cyst Removal in Mouth: Diagnosis and Treatment', href: `/blog/cyst-removal-mouth-diagnosis` }
         ]} />
 
         <article className="mt-8">

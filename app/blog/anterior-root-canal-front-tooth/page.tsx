@@ -120,8 +120,8 @@ export default function AnteriorRootCanalFrontToothBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Anterior Root Canal: Front Tooth Treatment', href: `/blog/'anterior-root-canal-front-tooth'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Anterior Root Canal: Front Tooth Treatment', href: `/blog/anterior-root-canal-front-tooth` }
             ]}
           />
 

@@ -116,8 +116,8 @@ export default function CantileverBridgeWhenUsedBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'Cantilever Bridge: When Is It Used?', href: `/blog/'cantilever-bridge-when-used'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'Cantilever Bridge: When Is It Used?', href: `/blog/cantilever-bridge-when-used` }
             ]}
           />
 

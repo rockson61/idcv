@@ -68,8 +68,8 @@ export default function SoftTissueGraftingGumRecessionPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'periodontics'` },
-          { title: 'Soft Tissue Grafting: Gum Recession Treatment', href: `/blog/'soft-tissue-grafting-gum-recession'` }
+          { title: 'Oral Surgery', href: `/blog/category/periodontics` },
+          { title: 'Soft Tissue Grafting: Gum Recession Treatment', href: `/blog/soft-tissue-grafting-gum-recession` }
         ]} />
 
         <article className="mt-8">

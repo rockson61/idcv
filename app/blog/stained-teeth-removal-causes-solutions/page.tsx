@@ -87,8 +87,8 @@ export default function StainedTeethRemovalCausesSolutionsPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Stained Teeth Removal: Causes and Solutions', href: `/blog/'stained-teeth-removal-causes-solutions'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Stained Teeth Removal: Causes and Solutions', href: `/blog/stained-teeth-removal-causes-solutions` }
           ]} />
 
           <article className="mt-8">

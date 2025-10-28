@@ -116,8 +116,8 @@ export default function GoldCrownsWhenRecommendedBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'Gold Crowns: When Are They Recommended?', href: `/blog/'gold-crowns-when-recommended'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'Gold Crowns: When Are They Recommended?', href: `/blog/gold-crowns-when-recommended` }
             ]}
           />
 

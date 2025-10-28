@@ -118,8 +118,8 @@ export default function SpacingBetweenTeethTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Spacing Between Teeth: Causes and Treatment', href: `/blog/'spacing-between-teeth-treatment'` }
+              { title: 'Category', href: `/blog/category/preventive-dentistry` },
+              { title: 'Spacing Between Teeth: Causes and Treatment', href: `/blog/spacing-between-teeth-treatment` }
             ]}
           />
 

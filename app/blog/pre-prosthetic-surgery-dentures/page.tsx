@@ -68,8 +68,8 @@ export default function PreProstheticSurgeryDenturesPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'prosthodontics'` },
-          { title: 'Pre-Prosthetic Surgery: Preparing for Dentures', href: `/blog/'pre-prosthetic-surgery-dentures'` }
+          { title: 'Oral Surgery', href: `/blog/category/prosthodontics` },
+          { title: 'Pre-Prosthetic Surgery: Preparing for Dentures', href: `/blog/pre-prosthetic-surgery-dentures` }
         ]} />
 
         <article className="mt-8">

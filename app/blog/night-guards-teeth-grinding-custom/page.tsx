@@ -87,8 +87,8 @@ export default function NightGuardsTeethGrindingCustomPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Night Guards for Teeth Grinding: Custom vs OTC', href: `/blog/'night-guards-teeth-grinding-custom'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Night Guards for Teeth Grinding: Custom vs OTC', href: `/blog/night-guards-teeth-grinding-custom` }
           ]} />
 
           <article className="mt-8">

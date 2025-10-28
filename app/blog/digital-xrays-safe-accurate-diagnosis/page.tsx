@@ -87,8 +87,8 @@ export default function DigitalXraysSafeAccurateDiagnosisPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Digital X-Rays: Safe & Accurate Diagnosis', href: `/blog/'digital-xrays-safe-accurate-diagnosis'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Digital X-Rays: Safe & Accurate Diagnosis', href: `/blog/digital-xrays-safe-accurate-diagnosis` }
           ]} />
 
           <article className="mt-8">

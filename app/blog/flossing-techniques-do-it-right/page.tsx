@@ -87,8 +87,8 @@ export default function FlossingTechniquesDoItRightPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Flossing Techniques: Do It Right Every Time', href: `/blog/'flossing-techniques-do-it-right'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Flossing Techniques: Do It Right Every Time', href: `/blog/flossing-techniques-do-it-right` }
           ]} />
 
           <article className="mt-8">

@@ -120,8 +120,8 @@ export default function FailedDentalImplantCausesSolutionsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Failed Dental Implant: Causes and Solutions', href: `/blog/'failed-dental-implant-causes-solutions'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Failed Dental Implant: Causes and Solutions', href: `/blog/failed-dental-implant-causes-solutions` }
             ]}
           />
 

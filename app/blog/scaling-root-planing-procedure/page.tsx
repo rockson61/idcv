@@ -118,8 +118,8 @@ export default function ScalingRootPlaningProcedureBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Scaling and Root Planing: Deep Cleaning Procedure', href: `/blog/'scaling-root-planing-procedure'` }
+              { title: 'Category', href: `/blog/category/preventive-dentistry` },
+              { title: 'Scaling and Root Planing: Deep Cleaning Procedure', href: `/blog/scaling-root-planing-procedure` }
             ]}
           />
 

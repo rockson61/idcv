@@ -68,8 +68,8 @@ export default function JawSurgeryOrthognathicGuidePost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'oral-surgery'` },
-          { title: 'Jaw Surgery: Orthognathic Surgery Guide', href: `/blog/'jaw-surgery-orthognathic-guide'` }
+          { title: 'Oral Surgery', href: `/blog/category/oral-surgery` },
+          { title: 'Jaw Surgery: Orthognathic Surgery Guide', href: `/blog/jaw-surgery-orthognathic-guide` }
         ]} />
 
         <article className="mt-8">

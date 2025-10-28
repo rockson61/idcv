@@ -43,7 +43,7 @@ export const metadata: Metadata = {
         url: '/dental-clinic-vellore.jpg',
         width: 1200,
         height: 630,
-        alt: 'Large Cavity Treatment Beyond Filling\'
+        alt: 'Large Cavity Treatment Beyond Filling'
       }
     ],
     locale: 'en_IN',
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
-  headline: 'Large Cavity Treatment: When Filling Isn\'t Enough',
+  headline: 'Large Cavity Treatment: When Filling Isn't Enough',
   image: '/dental-clinic-vellore.jpg',
   author: {
     '@type': 'Person',
@@ -117,7 +117,7 @@ export default function LargeCavityTreatmentBeyondFillingBlogPost() {
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
               { title: 'Restorative Dentistry', href: `/blog/category/restorative-dentistry` },
-              { title: 'Large Cavity Treatment: When Filling Isn\'t Enough', href: `/blog/large-cavity-treatment-beyond-filling` }
+              { title: 'Large Cavity Treatment: When Filling Isn't Enough', href: `/blog/large-cavity-treatment-beyond-filling` }
             ]}
           />
 

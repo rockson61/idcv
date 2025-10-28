@@ -118,8 +118,8 @@ export default function BleedingGumsTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Bleeding Gums: When to Worry and How to Stop', href: `/blog/'bleeding-gums-treatment'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Bleeding Gums: When to Worry and How to Stop', href: `/blog/bleeding-gums-treatment` }
             ]}
           />
 

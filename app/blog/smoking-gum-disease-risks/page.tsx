@@ -118,8 +118,8 @@ export default function SmokingGumDiseaseRisksBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: 'Smoking and Gum Disease: Risks and Prevention', href: `/blog/'smoking-gum-disease-risks'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: 'Smoking and Gum Disease: Risks and Prevention', href: `/blog/smoking-gum-disease-risks` }
             ]}
           />
 

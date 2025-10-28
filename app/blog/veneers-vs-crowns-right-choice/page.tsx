@@ -87,8 +87,8 @@ export default function VeneersVsCrownsRightChoicePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'prosthodontics'` },
-            { title: 'Veneers vs Crowns: Which is Right for You?', href: `/blog/'veneers-vs-crowns-right-choice'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/prosthodontics` },
+            { title: 'Veneers vs Crowns: Which is Right for You?', href: `/blog/veneers-vs-crowns-right-choice` }
           ]} />
 
           <article className="mt-8">

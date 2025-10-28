@@ -116,8 +116,8 @@ export default function MarylandBridgeConservativeReplacementBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'Maryland Bridge: Conservative Tooth Replacement', href: `/blog/'maryland-bridge-conservative-replacement'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'Maryland Bridge: Conservative Tooth Replacement', href: `/blog/maryland-bridge-conservative-replacement` }
             ]}
           />
 

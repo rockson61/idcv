@@ -120,8 +120,8 @@ export default function RootCanalPainManagementBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Root Canal Pain: What to Expect and How to Manage', href: `/blog/'root-canal-pain-management'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Root Canal Pain: What to Expect and How to Manage', href: `/blog/root-canal-pain-management` }
             ]}
           />
 

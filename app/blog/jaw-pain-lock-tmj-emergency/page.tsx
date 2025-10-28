@@ -68,8 +68,8 @@ export default function JawPainLockTmjEmergencyPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'emergency-dentistry'` },
-          { title: 'Jaw Pain and Lock: TMJ Emergency', href: `/blog/'jaw-pain-lock-tmj-emergency'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/emergency-dentistry` },
+          { title: 'Jaw Pain and Lock: TMJ Emergency', href: `/blog/jaw-pain-lock-tmj-emergency` }
         ]} />
 
         <article className="mt-8">

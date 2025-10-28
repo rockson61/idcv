@@ -116,8 +116,8 @@ export default function PostAndCoreFoundationCrownBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'prosthodontics'` },
-              { title: 'Post and Core: Foundation for Crown', href: `/blog/'post-and-core-foundation-crown'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/prosthodontics` },
+              { title: 'Post and Core: Foundation for Crown', href: `/blog/post-and-core-foundation-crown` }
             ]}
           />
 

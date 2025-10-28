@@ -68,8 +68,8 @@ export default function ObjectStuckBetweenTeethRemovalPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Object Stuck Between Teeth: Safe Removal', href: `/blog/'object-stuck-between-teeth-removal'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/preventive-dentistry` },
+          { title: 'Object Stuck Between Teeth: Safe Removal', href: `/blog/object-stuck-between-teeth-removal` }
         ]} />
 
         <article className="mt-8">

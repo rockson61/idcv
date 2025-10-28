@@ -120,8 +120,8 @@ export default function PeriapicalAbscessEmergencyBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'emergency-dentistry'` },
-              { title: 'Periapical Abscess: Emergency Treatment Guide', href: `/blog/'periapical-abscess-emergency'` }
+              { title: 'Endodontics', href: `/blog/category/emergency-dentistry` },
+              { title: 'Periapical Abscess: Emergency Treatment Guide', href: `/blog/periapical-abscess-emergency` }
             ]}
           />
 

@@ -68,8 +68,8 @@ export default function FrenectomyLipTongueTieReleasePost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Frenectomy: Lip and Tongue Tie Release', href: `/blog/'frenectomy-lip-tongue-tie-release'` }
+          { title: 'Oral Surgery', href: `/blog/category/preventive-dentistry` },
+          { title: 'Frenectomy: Lip and Tongue Tie Release', href: `/blog/frenectomy-lip-tongue-tie-release` }
         ]} />
 
         <article className="mt-8">

@@ -87,8 +87,8 @@ export default function CompositeVeneersAffordableMakeoverPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Composite Veneers: Affordable Smile Makeover', href: `/blog/'composite-veneers-affordable-makeover'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Composite Veneers: Affordable Smile Makeover', href: `/blog/composite-veneers-affordable-makeover` }
           ]} />
 
           <article className="mt-8">

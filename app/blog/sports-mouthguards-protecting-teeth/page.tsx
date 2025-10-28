@@ -87,8 +87,8 @@ export default function SportsMouthguardsProtectingTeethPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Sports Mouthguards: Protecting Your Teeth', href: `/blog/'sports-mouthguards-protecting-teeth'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Sports Mouthguards: Protecting Your Teeth', href: `/blog/sports-mouthguards-protecting-teeth` }
           ]} />
 
           <article className="mt-8">

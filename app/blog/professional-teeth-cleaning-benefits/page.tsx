@@ -87,8 +87,8 @@ export default function ProfessionalTeethCleaningBenefitsPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Professional Teeth Cleaning: Benefits & Procedure', href: `/blog/'professional-teeth-cleaning-benefits'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Professional Teeth Cleaning: Benefits & Procedure', href: `/blog/professional-teeth-cleaning-benefits` }
           ]} />
 
           <article className="mt-8">

@@ -120,8 +120,8 @@ export default function DentalImplantsCompleteGuidePermanentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'implantology'` },
-              { title: 'Dental Implants: Complete Guide to Permanent Teeth', href: `/blog/'dental-implants-complete-guide-permanent'` }
+              { title: 'Implantology', href: `/blog/category/implantology` },
+              { title: 'Dental Implants: Complete Guide to Permanent Teeth', href: `/blog/dental-implants-complete-guide-permanent` }
             ]}
           />
 

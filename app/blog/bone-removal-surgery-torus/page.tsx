@@ -68,8 +68,8 @@ export default function BoneRemovalSurgeryTorusPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'oral-surgery'` },
-          { title: 'Bone Removal Surgery: Torus Mandibularis', href: `/blog/'bone-removal-surgery-torus'` }
+          { title: 'Oral Surgery', href: `/blog/category/oral-surgery` },
+          { title: 'Bone Removal Surgery: Torus Mandibularis', href: `/blog/bone-removal-surgery-torus` }
         ]} />
 
         <article className="mt-8">

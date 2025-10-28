@@ -69,7 +69,7 @@ export default function ChildrensDentalEmergencyParentsGuidePost() {
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
           { title: 'Pediatric Emergency', href: `/blog/category/emergency-dentistry` },
-          { title: 'Children\'s Dental Emergency: Parent\'s Guide', href: `/blog/childrens-dental-emergency-parents-guide` }
+          { title: 'Children\'s Dental Emergency: Parent's Guide', href: `/blog/childrens-dental-emergency-parents-guide` }
         ]} />
 
         <article className="mt-8">

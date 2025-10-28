@@ -118,8 +118,8 @@ export default function PermanentTeethEruptionGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Permanent Teeth Eruption: Age-Wise Guide', href: `/blog/'permanent-teeth-eruption-guide'` }
+              { title: 'Category', href: `/blog/category/preventive-dentistry` },
+              { title: 'Permanent Teeth Eruption: Age-Wise Guide', href: `/blog/permanent-teeth-eruption-guide` }
             ]}
           />
 

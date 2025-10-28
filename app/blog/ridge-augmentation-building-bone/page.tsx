@@ -120,8 +120,8 @@ export default function RidgeAugmentationBuildingBoneBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Ridge Augmentation: Building Bone for Implants', href: `/blog/'ridge-augmentation-building-bone'` }
+              { title: 'Implantology', href: `/blog/category/preventive-dentistry` },
+              { title: 'Ridge Augmentation: Building Bone for Implants', href: `/blog/ridge-augmentation-building-bone` }
             ]}
           />
 

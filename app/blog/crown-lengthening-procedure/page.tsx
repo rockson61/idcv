@@ -118,8 +118,8 @@ export default function CrownLengtheningProcedureBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'prosthodontics'` },
-              { title: 'Crown Lengthening: Procedure and Benefits', href: `/blog/'crown-lengthening-procedure'` }
+              { title: 'Category', href: `/blog/category/prosthodontics` },
+              { title: 'Crown Lengthening: Procedure and Benefits', href: `/blog/crown-lengthening-procedure` }
             ]}
           />
 

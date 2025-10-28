@@ -116,8 +116,8 @@ export default function GlassIonomerFillingsBenefitsChildrenBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'restorative-dentistry'` },
-              { title: 'Glass Ionomer Fillings: Benefits for Children', href: `/blog/'glass-ionomer-fillings-benefits-children'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/restorative-dentistry` },
+              { title: 'Glass Ionomer Fillings: Benefits for Children', href: `/blog/glass-ionomer-fillings-benefits-children` }
             ]}
           />
 

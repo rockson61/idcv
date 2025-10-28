@@ -68,8 +68,8 @@ export default function PreventingDentalEmergenciesSafetyTipsPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Preventing Dental Emergencies: Safety Tips', href: `/blog/'preventing-dental-emergencies-safety-tips'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/preventive-dentistry` },
+          { title: 'Preventing Dental Emergencies: Safety Tips', href: `/blog/preventing-dental-emergencies-safety-tips` }
         ]} />
 
         <article className="mt-8">

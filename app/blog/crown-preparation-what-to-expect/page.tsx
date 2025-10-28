@@ -116,8 +116,8 @@ export default function CrownPreparationWhatToExpectBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'prosthodontics'` },
-              { title: 'Crown Preparation: What to Expect', href: `/blog/'crown-preparation-what-to-expect'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/prosthodontics` },
+              { title: 'Crown Preparation: What to Expect', href: `/blog/crown-preparation-what-to-expect` }
             ]}
           />
 

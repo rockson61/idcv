@@ -68,8 +68,8 @@ export default function AbscessEmergencyImmediateTreatmentPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'emergency-dentistry'` },
-          { title: 'Abscess Emergency: Immediate Treatment Needed', href: `/blog/'abscess-emergency-immediate-treatment'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/emergency-dentistry` },
+          { title: 'Abscess Emergency: Immediate Treatment Needed', href: `/blog/abscess-emergency-immediate-treatment` }
         ]} />
 
         <article className="mt-8">

@@ -120,8 +120,8 @@ export default function ApicectomyRootTipSurgeryBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'oral-surgery'` },
-              { title: 'Apicectomy: Root Tip Surgery Explained', href: `/blog/'apicectomy-root-tip-surgery'` }
+              { title: 'Endodontics', href: `/blog/category/oral-surgery` },
+              { title: 'Apicectomy: Root Tip Surgery Explained', href: `/blog/apicectomy-root-tip-surgery` }
             ]}
           />
 

@@ -120,8 +120,8 @@ export default function RootCanalWithCrownTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Root Canal with Crown: Complete Treatment', href: `/blog/'root-canal-with-crown-treatment'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Root Canal with Crown: Complete Treatment', href: `/blog/root-canal-with-crown-treatment` }
             ]}
           />
 

@@ -116,8 +116,8 @@ export default function DentalBridgeVsImplantRightChoiceBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'implantology'` },
-              { title: 'Dental Bridge vs Implant: Making the Right Choice', href: `/blog/'dental-bridge-vs-implant-right-choice'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/implantology` },
+              { title: 'Dental Bridge vs Implant: Making the Right Choice', href: `/blog/dental-bridge-vs-implant-right-choice` }
             ]}
           />
 

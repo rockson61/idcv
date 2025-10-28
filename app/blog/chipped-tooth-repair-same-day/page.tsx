@@ -68,8 +68,8 @@ export default function ChippedToothRepairSameDayPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Emergency Dentistry', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Chipped Tooth Repair: Same-Day Solutions', href: `/blog/'chipped-tooth-repair-same-day'` }
+          { title: 'Emergency Dentistry', href: `/blog/category/preventive-dentistry` },
+          { title: 'Chipped Tooth Repair: Same-Day Solutions', href: `/blog/chipped-tooth-repair-same-day` }
         ]} />
 
         <article className="mt-8">

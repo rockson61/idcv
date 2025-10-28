@@ -87,8 +87,8 @@ export default function DentalBondingQuickCosmeticSolutionPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-            { title: 'Dental Bonding: Quick Cosmetic Solution', href: `/blog/'dental-bonding-quick-cosmetic-solution'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/cosmetic-dentistry` },
+            { title: 'Dental Bonding: Quick Cosmetic Solution', href: `/blog/dental-bonding-quick-cosmetic-solution` }
           ]} />
 
           <article className="mt-8">

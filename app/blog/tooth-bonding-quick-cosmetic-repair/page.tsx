@@ -116,8 +116,8 @@ export default function ToothBondingQuickCosmeticRepairBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'cosmetic-dentistry'` },
-              { title: 'Tooth Bonding: Quick Cosmetic Repair', href: `/blog/'tooth-bonding-quick-cosmetic-repair'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/cosmetic-dentistry` },
+              { title: 'Tooth Bonding: Quick Cosmetic Repair', href: `/blog/tooth-bonding-quick-cosmetic-repair` }
             ]}
           />
 

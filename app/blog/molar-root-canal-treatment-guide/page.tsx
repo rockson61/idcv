@@ -120,8 +120,8 @@ export default function MolarRootCanalTreatmentGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Molar Root Canal: Complete Treatment Guide', href: `/blog/'molar-root-canal-treatment-guide'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Molar Root Canal: Complete Treatment Guide', href: `/blog/molar-root-canal-treatment-guide` }
             ]}
           />
 

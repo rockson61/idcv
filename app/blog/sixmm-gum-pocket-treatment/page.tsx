@@ -118,8 +118,8 @@ export default function SixmmGumPocketTreatmentBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Category', href: `/blog/category/'periodontics'` },
-              { title: '6mm Gum Pocket: What It Means and How to Treat', href: `/blog/'sixmm-gum-pocket-treatment'` }
+              { title: 'Category', href: `/blog/category/periodontics` },
+              { title: '6mm Gum Pocket: What It Means and How to Treat', href: `/blog/sixmm-gum-pocket-treatment` }
             ]}
           />
 

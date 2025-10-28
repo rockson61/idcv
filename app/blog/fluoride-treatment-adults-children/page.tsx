@@ -87,8 +87,8 @@ export default function FluorideTreatmentAdultsChildrenPost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Preventive Dentistry', href: `/blog/category/'pediatric-dentistry'` },
-            { title: 'Fluoride Treatment for Adults and Children', href: `/blog/'fluoride-treatment-adults-children'` }
+            { title: 'Preventive Dentistry', href: `/blog/category/pediatric-dentistry` },
+            { title: 'Fluoride Treatment for Adults and Children', href: `/blog/fluoride-treatment-adults-children` }
           ]} />
 
           <article className="mt-8">

@@ -68,8 +68,8 @@ export default function ImpactedWisdomTeethSymptomsTreatmentPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'oral-surgery'` },
-          { title: 'Impacted Wisdom Teeth: Symptoms and Treatment', href: `/blog/'impacted-wisdom-teeth-symptoms-treatment'` }
+          { title: 'Oral Surgery', href: `/blog/category/oral-surgery` },
+          { title: 'Impacted Wisdom Teeth: Symptoms and Treatment', href: `/blog/impacted-wisdom-teeth-symptoms-treatment` }
         ]} />
 
         <article className="mt-8">

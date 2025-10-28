@@ -116,8 +116,8 @@ export default function BrokenToothEmergencyWhatToDoBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'emergency-dentistry'` },
-              { title: 'Broken Tooth Emergency: What to Do Immediately', href: `/blog/'broken-tooth-emergency-what-to-do'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/emergency-dentistry` },
+              { title: 'Broken Tooth Emergency: What to Do Immediately', href: `/blog/broken-tooth-emergency-what-to-do` }
             ]}
           />
 

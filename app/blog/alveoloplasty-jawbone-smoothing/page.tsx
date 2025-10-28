@@ -68,8 +68,8 @@ export default function AlveoloplastyJawboneSmoothingPost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'preventive-dentistry'` },
-          { title: 'Alveoloplasty: Jawbone Smoothing', href: `/blog/'alveoloplasty-jawbone-smoothing'` }
+          { title: 'Oral Surgery', href: `/blog/category/preventive-dentistry` },
+          { title: 'Alveoloplasty: Jawbone Smoothing', href: `/blog/alveoloplasty-jawbone-smoothing` }
         ]} />
 
         <article className="mt-8">

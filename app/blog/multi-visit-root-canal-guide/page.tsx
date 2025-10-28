@@ -120,8 +120,8 @@ export default function MultiVisitRootCanalGuideBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Endodontics', href: `/blog/category/'endodontics'` },
-              { title: 'Multi-Visit Root Canal: When and Why Needed', href: `/blog/'multi-visit-root-canal-guide'` }
+              { title: 'Endodontics', href: `/blog/category/endodontics` },
+              { title: 'Multi-Visit Root Canal: When and Why Needed', href: `/blog/multi-visit-root-canal-guide` }
             ]}
           />
 

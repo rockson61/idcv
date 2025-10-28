@@ -116,8 +116,8 @@ export default function ToothDecayAdultsTreatmentOptionsBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Restorative Dentistry', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Tooth Decay in Adults: Treatment Options', href: `/blog/'tooth-decay-adults-treatment-options'` }
+              { title: 'Restorative Dentistry', href: `/blog/category/preventive-dentistry` },
+              { title: 'Tooth Decay in Adults: Treatment Options', href: `/blog/tooth-decay-adults-treatment-options` }
             ]}
           />
 

@@ -116,8 +116,8 @@ export default function PartialDenturesReplacingMissingTeethBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Prosthodontics', href: `/blog/category/'prosthodontics'` },
-              { title: 'Partial Dentures: Replacing Some Missing Teeth', href: `/blog/'partial-dentures-replacing-missing-teeth'` }
+              { title: 'Prosthodontics', href: `/blog/category/prosthodontics` },
+              { title: 'Partial Dentures: Replacing Some Missing Teeth', href: `/blog/partial-dentures-replacing-missing-teeth` }
             ]}
           />
 

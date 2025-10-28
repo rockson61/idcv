@@ -120,8 +120,8 @@ export default function BoneLossAfterExtractionPreventionBlogPost() {
             items={[
               { title: 'Home', href: '/' },
               { title: 'Blog', href: '/blog' },
-              { title: 'Implantology', href: `/blog/category/'preventive-dentistry'` },
-              { title: 'Bone Loss After Extraction: Prevention and Treatment', href: `/blog/'bone-loss-after-extraction-prevention'` }
+              { title: 'Implantology', href: `/blog/category/preventive-dentistry` },
+              { title: 'Bone Loss After Extraction: Prevention and Treatment', href: `/blog/bone-loss-after-extraction-prevention` }
             ]}
           />
 

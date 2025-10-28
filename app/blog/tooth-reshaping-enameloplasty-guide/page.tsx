@@ -87,8 +87,8 @@ export default function ToothReshapingEnameloplastyGuidePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'preventive-dentistry'` },
-            { title: 'Tooth Reshaping: Enameloplasty Guide', href: `/blog/'tooth-reshaping-enameloplasty-guide'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/preventive-dentistry` },
+            { title: 'Tooth Reshaping: Enameloplasty Guide', href: `/blog/tooth-reshaping-enameloplasty-guide` }
           ]} />
 
           <article className="mt-8">

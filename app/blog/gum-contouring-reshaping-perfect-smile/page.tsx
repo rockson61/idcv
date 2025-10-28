@@ -87,8 +87,8 @@ export default function GumContouringReshapingPerfectSmilePost() {
           <Breadcrumb items={[
             { title: 'Home', href: '/' },
             { title: 'Blog', href: '/blog' },
-            { title: 'Cosmetic Dentistry', href: `/blog/category/'periodontics'` },
-            { title: 'Gum Contouring: Reshaping for Perfect Smile', href: `/blog/'gum-contouring-reshaping-perfect-smile'` }
+            { title: 'Cosmetic Dentistry', href: `/blog/category/periodontics` },
+            { title: 'Gum Contouring: Reshaping for Perfect Smile', href: `/blog/gum-contouring-reshaping-perfect-smile` }
           ]} />
 
           <article className="mt-8">

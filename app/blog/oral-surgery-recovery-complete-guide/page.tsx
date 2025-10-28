@@ -68,8 +68,8 @@ export default function OralSurgeryRecoveryCompleteGuidePost() {
         <Breadcrumb items={[
           { title: 'Home', href: '/' },
           { title: 'Blog', href: '/blog' },
-          { title: 'Oral Surgery', href: `/blog/category/'oral-surgery'` },
-          { title: 'Oral Surgery Recovery: Complete Guide', href: `/blog/'oral-surgery-recovery-complete-guide'` }
+          { title: 'Oral Surgery', href: `/blog/category/oral-surgery` },
+          { title: 'Oral Surgery Recovery: Complete Guide', href: `/blog/oral-surgery-recovery-complete-guide` }
         ]} />
 
         <article className="mt-8">
