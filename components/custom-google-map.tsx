@@ -1436,13 +1436,19 @@ export function CustomGoogleMap() {
 
   useEffect(() => {
     const initMap = async () => {
+      // Use new functional API instead of Loader class
+      const { Loader } = await import("@googlemaps/js-api-loader")
+      
       const loader = new Loader({
         apiKey: "AIzaSyBt6Eb5jAq42RnaZcfysyXi8HzKL7AiK5k",
         version: "weekly",
         libraries: ["places"],
       })
 
-      const google = await loader.load()
+      await loader.load()
+      
+      // Access google object from window after loading
+      const google = window.google
       setGoogleMaps(google.maps)
 
       if (mapRef.current) {

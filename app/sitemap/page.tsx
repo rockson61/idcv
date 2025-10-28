@@ -14,8 +14,8 @@ const allSitemapUrls = {
     '/', '/about-us', '/about-us/dr-rockson-samuel', '/about-us/our-team', '/contact', 
     '/testimonials', '/blog', '/faq', '/faqs', '/financing', '/dental-tourism', '/dentist-near-me', 
     '/dentist-near-me/locations', '/gallery', '/doctor-profile', '/insurance', '/new-patients',
-    '/privacy-policy', '/terms', '/terms-of-service', '/sitemap', '/complete-sitemap', '/all-pages',
-    '/admin/content-generator', '/locations', '/map', '/medical-tourism',
+    '/privacy-policy', '/terms', '/terms-of-service', '/sitemap', '/locations', '/medical-tourism',
+    '/glossary',
   ],
   
   // ✅ NEW: Districts (8 total, including new ones)
