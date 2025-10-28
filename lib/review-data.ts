@@ -194,51 +194,43 @@ export function generateServiceReviews(serviceName: string, serviceType: string)
 }
 
 export interface LocationReview {
-  id: string
   name: string
   location: string
   rating: number
   date: string
-  treatmentType: string
-  review: string
-  verified: boolean
-  helpful?: number
+  treatment: string  // Changed from 'treatmentType' to 'treatment'
+  text: string  // Changed from 'review' to 'text'
+  verified?: boolean
 }
 
 export function generateLocationReviews(locationName: string, cityName: string = "Vellore"): LocationReview[] {
   const reviews: LocationReview[] = [
     {
-      id: '1',
       name: 'Priya Sharma',
       location: locationName,
       rating: 5,
       date: 'November 2024',
-      treatmentType: 'Root Canal Treatment',
-      review: `I visited Indira Dental Clinic for a root canal and the experience was excellent. Dr. Rockson Samuel is highly skilled and made the entire procedure completely painless. The clinic is conveniently located in ${cityName} and easy to reach from ${locationName}. Highly recommended!`,
-      verified: true,
-      helpful: 28
+      treatment: 'Root Canal Treatment',
+      text: `I visited Indira Dental Clinic for a root canal and the experience was excellent. Dr. Rockson Samuel is highly skilled and made the entire procedure completely painless. The clinic is conveniently located in ${cityName} and easy to reach from ${locationName}. Highly recommended!`,
+      verified: true
     },
     {
-      id: '2',
       name: 'Rajesh Kumar',
       location: locationName,
       rating: 5,
       date: 'October 2024',
-      treatmentType: 'Dental Implants',
-      review: `Best dentist in ${cityName}! I traveled from ${locationName} and it was worth every minute. Dr. Rockson is very professional and the dental implant procedure was smooth. The clinic uses advanced technology and maintains excellent hygiene standards.`,
-      verified: true,
-      helpful: 35
+      treatment: 'Dental Implants',
+      text: `Best dentist in ${cityName}! I traveled from ${locationName} and it was worth every minute. Dr. Rockson is very professional and the dental implant procedure was smooth. The clinic uses advanced technology and maintains excellent hygiene standards.`,
+      verified: true
     },
     {
-      id: '3',
       name: 'Lakshmi Devi',
       location: locationName,
       rating: 5,
       date: 'September 2024',
-      treatmentType: 'Teeth Whitening',
-      review: `Amazing teeth whitening results! Dr. Rockson Samuel at Indira Dental Clinic provided exceptional service. The staff is friendly and professional. I'm very happy with my brighter smile. Easily accessible from ${locationName}!`,
-      verified: true,
-      helpful: 22
+      treatment: 'Teeth Whitening',
+      text: `Amazing teeth whitening results! Dr. Rockson Samuel at Indira Dental Clinic provided exceptional service. The staff is friendly and professional. I'm very happy with my brighter smile. Easily accessible from ${locationName}!`,
+      verified: true
     }
   ]
 
