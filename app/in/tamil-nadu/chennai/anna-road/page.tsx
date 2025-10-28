@@ -96,7 +96,7 @@ export default function AnnaRoadPage() {
 
         <LocationFAQs locationName="Anna Road" faqs={faqs} />
 
-        <TravelInfoCard locationName="Anna Road" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Anna Road" city="Chennai" />
 

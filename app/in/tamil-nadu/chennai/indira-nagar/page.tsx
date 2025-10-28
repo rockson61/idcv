@@ -96,7 +96,7 @@ export default function IndiraNagarPage() {
 
         <LocationFAQs locationName="Indira Nagar" faqs={faqs} />
 
-        <TravelInfoCard locationName="Indira Nagar" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Indira Nagar" city="Chennai" />
 

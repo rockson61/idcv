@@ -96,7 +96,7 @@ export default function GuindyNorthPage() {
 
         <LocationFAQs locationName="Guindy North" faqs={faqs} />
 
-        <TravelInfoCard locationName="Guindy North" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Guindy North" city="Chennai" />
 

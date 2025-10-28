@@ -96,7 +96,7 @@ export default function TondiarpetWestPage() {
 
         <LocationFAQs locationName="Tondiarpet West" faqs={faqs} />
 
-        <TravelInfoCard locationName="Tondiarpet West" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Tondiarpet West" city="Chennai" />
 

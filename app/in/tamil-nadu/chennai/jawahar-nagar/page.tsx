@@ -96,7 +96,7 @@ export default function JawaharNagarPage() {
 
         <LocationFAQs locationName="Jawahar Nagar" faqs={faqs} />
 
-        <TravelInfoCard locationName="Jawahar Nagar" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Jawahar Nagar" city="Chennai" />
 

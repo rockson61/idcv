@@ -96,7 +96,7 @@ export default function PurasawalkamPage() {
 
         <LocationFAQs locationName="Purasawalkam" faqs={faqs} />
 
-        <TravelInfoCard locationName="Purasawalkam" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Purasawalkam" city="Chennai" />
 

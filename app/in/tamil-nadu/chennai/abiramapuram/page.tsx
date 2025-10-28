@@ -96,7 +96,7 @@ export default function AbiramapuramPage() {
 
         <LocationFAQs locationName="Abiramapuram" faqs={faqs} />
 
-        <TravelInfoCard locationName="Abiramapuram" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Abiramapuram" city="Chennai" />
 

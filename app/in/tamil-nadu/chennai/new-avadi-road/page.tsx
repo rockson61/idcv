@@ -96,7 +96,7 @@ export default function NewAvadiRoadPage() {
 
         <LocationFAQs locationName="New Avadi Road" faqs={faqs} />
 
-        <TravelInfoCard locationName="New Avadi Road" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="New Avadi Road" city="Chennai" />
 

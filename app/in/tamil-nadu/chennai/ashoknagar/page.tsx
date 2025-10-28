@@ -96,7 +96,7 @@ export default function AshoknagarPage() {
 
         <LocationFAQs locationName="Ashoknagar" faqs={faqs} />
 
-        <TravelInfoCard locationName="Ashoknagar" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Ashoknagar" city="Chennai" />
 

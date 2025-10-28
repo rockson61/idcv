@@ -96,7 +96,7 @@ export default function PuliyanthopePage() {
 
         <LocationFAQs locationName="Puliyanthope" faqs={faqs} />
 
-        <TravelInfoCard locationName="Puliyanthope" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Puliyanthope" city="Chennai" />
 

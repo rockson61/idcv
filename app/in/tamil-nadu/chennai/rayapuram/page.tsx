@@ -96,7 +96,7 @@ export default function RayapuramPage() {
 
         <LocationFAQs locationName="Rayapuram" faqs={faqs} />
 
-        <TravelInfoCard locationName="Rayapuram" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Rayapuram" city="Chennai" />
 

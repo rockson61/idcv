@@ -96,7 +96,7 @@ export default function KilpaukPage() {
 
         <LocationFAQs locationName="Kilpauk" faqs={faqs} />
 
-        <TravelInfoCard locationName="Kilpauk" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Kilpauk" city="Chennai" />
 

@@ -96,7 +96,7 @@ export default function RoyapettahHighRoadPage() {
 
         <LocationFAQs locationName="Royapettah High Road" faqs={faqs} />
 
-        <TravelInfoCard locationName="Royapettah High Road" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Royapettah High Road" city="Chennai" />
 

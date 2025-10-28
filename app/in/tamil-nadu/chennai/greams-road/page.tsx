@@ -96,7 +96,7 @@ export default function GreamsRoadPage() {
 
         <LocationFAQs locationName="Greams Road" faqs={faqs} />
 
-        <TravelInfoCard locationName="Greams Road" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Greams Road" city="Chennai" />
 

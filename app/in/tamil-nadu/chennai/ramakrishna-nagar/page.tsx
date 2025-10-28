@@ -96,7 +96,7 @@ export default function RamakrishnaNagarPage() {
 
         <LocationFAQs locationName="Ramakrishna Nagar" faqs={faqs} />
 
-        <TravelInfoCard locationName="Ramakrishna Nagar" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Ramakrishna Nagar" city="Chennai" />
 

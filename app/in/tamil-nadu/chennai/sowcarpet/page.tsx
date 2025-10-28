@@ -96,7 +96,7 @@ export default function SowcarpetPage() {
 
         <LocationFAQs locationName="Sowcarpet" faqs={faqs} />
 
-        <TravelInfoCard locationName="Sowcarpet" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Sowcarpet" city="Chennai" />
 

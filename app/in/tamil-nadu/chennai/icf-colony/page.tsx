@@ -96,7 +96,7 @@ export default function ICFColonyPage() {
 
         <LocationFAQs locationName="ICF Colony" faqs={faqs} />
 
-        <TravelInfoCard locationName="ICF Colony" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="ICF Colony" city="Chennai" />
 

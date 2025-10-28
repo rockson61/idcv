@@ -96,7 +96,7 @@ export default function CemetryRoadPage() {
 
         <LocationFAQs locationName="Cemetry Road" faqs={faqs} />
 
-        <TravelInfoCard locationName="Cemetry Road" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Cemetry Road" city="Chennai" />
 

@@ -96,7 +96,7 @@ export default function TeynampetPage() {
 
         <LocationFAQs locationName="Teynampet" faqs={faqs} />
 
-        <TravelInfoCard locationName="Teynampet" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Teynampet" city="Chennai" />
 

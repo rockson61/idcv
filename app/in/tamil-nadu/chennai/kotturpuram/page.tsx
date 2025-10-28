@@ -96,7 +96,7 @@ export default function KotturpuramPage() {
 
         <LocationFAQs locationName="Kotturpuram" faqs={faqs} />
 
-        <TravelInfoCard locationName="Kotturpuram" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Kotturpuram" city="Chennai" />
 

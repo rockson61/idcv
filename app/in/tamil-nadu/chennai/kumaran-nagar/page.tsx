@@ -96,7 +96,7 @@ export default function KumaranNagarPage() {
 
         <LocationFAQs locationName="Kumaran Nagar" faqs={faqs} />
 
-        <TravelInfoCard locationName="Kumaran Nagar" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Kumaran Nagar" city="Chennai" />
 

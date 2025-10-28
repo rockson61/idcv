@@ -96,7 +96,7 @@ export default function JafferkhanpetPage() {
 
         <LocationFAQs locationName="Jafferkhanpet" faqs={faqs} />
 
-        <TravelInfoCard locationName="Jafferkhanpet" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Jafferkhanpet" city="Chennai" />
 

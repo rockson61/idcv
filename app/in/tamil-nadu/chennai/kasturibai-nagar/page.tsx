@@ -96,7 +96,7 @@ export default function KasturibaiNagarPage() {
 
         <LocationFAQs locationName="Kasturibai Nagar" faqs={faqs} />
 
-        <TravelInfoCard locationName="Kasturibai Nagar" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Kasturibai Nagar" city="Chennai" />
 

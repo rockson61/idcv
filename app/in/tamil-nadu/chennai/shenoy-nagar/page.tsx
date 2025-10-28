@@ -96,7 +96,7 @@ export default function ShenoyNagarPage() {
 
         <LocationFAQs locationName="Shenoy Nagar" faqs={faqs} />
 
-        <TravelInfoCard locationName="Shenoy Nagar" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Shenoy Nagar" city="Chennai" />
 

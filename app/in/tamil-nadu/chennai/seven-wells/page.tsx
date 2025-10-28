@@ -96,7 +96,7 @@ export default function SevenWellsPage() {
 
         <LocationFAQs locationName="Seven Wells" faqs={faqs} />
 
-        <TravelInfoCard locationName="Seven Wells" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Seven Wells" city="Chennai" />
 

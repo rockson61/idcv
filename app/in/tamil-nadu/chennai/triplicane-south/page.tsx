@@ -96,7 +96,7 @@ export default function TriplicaneSouthPage() {
 
         <LocationFAQs locationName="Triplicane South" faqs={faqs} />
 
-        <TravelInfoCard locationName="Triplicane South" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Triplicane South" city="Chennai" />
 

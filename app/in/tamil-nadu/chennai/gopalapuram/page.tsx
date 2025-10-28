@@ -96,7 +96,7 @@ export default function GopalapuramPage() {
 
         <LocationFAQs locationName="Gopalapuram" faqs={faqs} />
 
-        <TravelInfoCard locationName="Gopalapuram" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Gopalapuram" city="Chennai" />
 

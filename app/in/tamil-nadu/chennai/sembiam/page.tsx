@@ -96,7 +96,7 @@ export default function SembiamPage() {
 
         <LocationFAQs locationName="Sembiam" faqs={faqs} />
 
-        <TravelInfoCard locationName="Sembiam" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Sembiam" city="Chennai" />
 

@@ -96,7 +96,7 @@ export default function EldamsRoadPage() {
 
         <LocationFAQs locationName="Eldams Road" faqs={faqs} />
 
-        <TravelInfoCard locationName="Eldams Road" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Eldams Road" city="Chennai" />
 

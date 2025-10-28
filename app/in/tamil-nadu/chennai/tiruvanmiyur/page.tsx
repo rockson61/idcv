@@ -96,7 +96,7 @@ export default function TiruvanmiyurPage() {
 
         <LocationFAQs locationName="Tiruvanmiyur" faqs={faqs} />
 
-        <TravelInfoCard locationName="Tiruvanmiyur" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Tiruvanmiyur" city="Chennai" />
 

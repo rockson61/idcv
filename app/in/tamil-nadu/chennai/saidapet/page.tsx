@@ -96,7 +96,7 @@ export default function SaidapetPage() {
 
         <LocationFAQs locationName="Saidapet" faqs={faqs} />
 
-        <TravelInfoCard locationName="Saidapet" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Saidapet" city="Chennai" />
 

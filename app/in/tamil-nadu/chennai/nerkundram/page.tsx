@@ -96,7 +96,7 @@ export default function NerkundramPage() {
 
         <LocationFAQs locationName="Nerkundram" faqs={faqs} />
 
-        <TravelInfoCard locationName="Nerkundram" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Nerkundram" city="Chennai" />
 

@@ -96,7 +96,7 @@ export default function NungambakkamHighRoadPage() {
 
         <LocationFAQs locationName="Nungambakkam High Road" faqs={faqs} />
 
-        <TravelInfoCard locationName="Nungambakkam High Road" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Nungambakkam High Road" city="Chennai" />
 

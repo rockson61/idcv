@@ -96,7 +96,7 @@ export default function StrahansRoadPage() {
 
         <LocationFAQs locationName="Strahans Road" faqs={faqs} />
 
-        <TravelInfoCard locationName="Strahans Road" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Strahans Road" city="Chennai" />
 

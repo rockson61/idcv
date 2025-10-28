@@ -96,7 +96,7 @@ export default function RoyapuramMarketPage() {
 
         <LocationFAQs locationName="Royapuram Market" faqs={faqs} />
 
-        <TravelInfoCard locationName="Royapuram Market" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Royapuram Market" city="Chennai" />
 

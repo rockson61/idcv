@@ -96,7 +96,7 @@ export default function FortStGeorgePage() {
 
         <LocationFAQs locationName="Fort St George" faqs={faqs} />
 
-        <TravelInfoCard locationName="Fort St George" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Fort St George" city="Chennai" />
 

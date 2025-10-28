@@ -96,7 +96,7 @@ export default function MandaveliPage() {
 
         <LocationFAQs locationName="Mandaveli" faqs={faqs} />
 
-        <TravelInfoCard locationName="Mandaveli" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Mandaveli" city="Chennai" />
 

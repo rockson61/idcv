@@ -96,7 +96,7 @@ export default function VadapalaniPage() {
 
         <LocationFAQs locationName="Vadapalani" faqs={faqs} />
 
-        <TravelInfoCard locationName="Vadapalani" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Vadapalani" city="Chennai" />
 

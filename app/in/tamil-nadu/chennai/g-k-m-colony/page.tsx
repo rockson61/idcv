@@ -96,7 +96,7 @@ export default function GKMColonyPage() {
 
         <LocationFAQs locationName="G K M Colony" faqs={faqs} />
 
-        <TravelInfoCard locationName="G K M Colony" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="G K M Colony" city="Chennai" />
 

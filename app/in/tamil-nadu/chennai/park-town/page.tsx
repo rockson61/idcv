@@ -96,7 +96,7 @@ export default function ParkTownPage() {
 
         <LocationFAQs locationName="Park Town" faqs={faqs} />
 
-        <TravelInfoCard locationName="Park Town" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Park Town" city="Chennai" />
 

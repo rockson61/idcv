@@ -96,7 +96,7 @@ export default function PeramburNorthPage() {
 
         <LocationFAQs locationName="Perambur North" faqs={faqs} />
 
-        <TravelInfoCard locationName="Perambur North" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Perambur North" city="Chennai" />
 

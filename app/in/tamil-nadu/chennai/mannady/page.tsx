@@ -96,7 +96,7 @@ export default function MannadyPage() {
 
         <LocationFAQs locationName="Mannady" faqs={faqs} />
 
-        <TravelInfoCard locationName="Mannady" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Mannady" city="Chennai" />
 

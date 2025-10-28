@@ -96,7 +96,7 @@ export default function ArumbakkamPage() {
 
         <LocationFAQs locationName="Arumbakkam" faqs={faqs} />
 
-        <TravelInfoCard locationName="Arumbakkam" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Arumbakkam" city="Chennai" />
 

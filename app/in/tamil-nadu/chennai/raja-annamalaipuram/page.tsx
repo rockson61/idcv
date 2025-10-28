@@ -96,7 +96,7 @@ export default function RajaAnnamalaipuramPage() {
 
         <LocationFAQs locationName="Raja Annamalaipuram" faqs={faqs} />
 
-        <TravelInfoCard locationName="Raja Annamalaipuram" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Raja Annamalaipuram" city="Chennai" />
 

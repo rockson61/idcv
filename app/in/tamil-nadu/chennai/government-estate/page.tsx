@@ -96,7 +96,7 @@ export default function GovernmentEstatePage() {
 
         <LocationFAQs locationName="Government Estate" faqs={faqs} />
 
-        <TravelInfoCard locationName="Government Estate" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Government Estate" city="Chennai" />
 

@@ -96,7 +96,7 @@ export default function WestMambalamPage() {
 
         <LocationFAQs locationName="West Mambalam" faqs={faqs} />
 
-        <TravelInfoCard locationName="West Mambalam" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="West Mambalam" city="Chennai" />
 

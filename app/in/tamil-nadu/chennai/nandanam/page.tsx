@@ -96,7 +96,7 @@ export default function NandanamPage() {
 
         <LocationFAQs locationName="Nandanam" faqs={faqs} />
 
-        <TravelInfoCard locationName="Nandanam" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Nandanam" city="Chennai" />
 

@@ -96,7 +96,7 @@ export default function HighCourtBuildingPage() {
 
         <LocationFAQs locationName="High Court Building" faqs={faqs} />
 
-        <TravelInfoCard locationName="High Court Building" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="High Court Building" city="Chennai" />
 

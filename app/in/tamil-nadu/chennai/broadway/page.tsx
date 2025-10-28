@@ -96,7 +96,7 @@ export default function BroadwayPage() {
 
         <LocationFAQs locationName="Broadway" faqs={faqs} />
 
-        <TravelInfoCard locationName="Broadway" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Broadway" city="Chennai" />
 

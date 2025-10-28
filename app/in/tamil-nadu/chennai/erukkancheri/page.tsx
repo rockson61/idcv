@@ -96,7 +96,7 @@ export default function ErukkancheriPage() {
 
         <LocationFAQs locationName="Erukkancheri" faqs={faqs} />
 
-        <TravelInfoCard locationName="Erukkancheri" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Erukkancheri" city="Chennai" />
 

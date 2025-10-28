@@ -96,7 +96,7 @@ export default function SaligramamPage() {
 
         <LocationFAQs locationName="Saligramam" faqs={faqs} />
 
-        <TravelInfoCard locationName="Saligramam" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Saligramam" city="Chennai" />
 

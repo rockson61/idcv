@@ -96,7 +96,7 @@ export default function RangarajapuramPage() {
 
         <LocationFAQs locationName="Rangarajapuram" faqs={faqs} />
 
-        <TravelInfoCard locationName="Rangarajapuram" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Rangarajapuram" city="Chennai" />
 

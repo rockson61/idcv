@@ -96,7 +96,7 @@ export default function EthirajSalaiPage() {
 
         <LocationFAQs locationName="Ethiraj Salai" faqs={faqs} />
 
-        <TravelInfoCard locationName="Ethiraj Salai" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Ethiraj Salai" city="Chennai" />
 

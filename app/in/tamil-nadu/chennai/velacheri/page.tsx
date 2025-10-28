@@ -96,7 +96,7 @@ export default function VelacheriPage() {
 
         <LocationFAQs locationName="Velacheri" faqs={faqs} />
 
-        <TravelInfoCard locationName="Velacheri" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Velacheri" city="Chennai" />
 

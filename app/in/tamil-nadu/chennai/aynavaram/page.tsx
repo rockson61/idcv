@@ -96,7 +96,7 @@ export default function AynavaramPage() {
 
         <LocationFAQs locationName="Aynavaram" faqs={faqs} />
 
-        <TravelInfoCard locationName="Aynavaram" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Aynavaram" city="Chennai" />
 

@@ -96,7 +96,7 @@ export default function VyasarpadiPage() {
 
         <LocationFAQs locationName="Vyasarpadi" faqs={faqs} />
 
-        <TravelInfoCard locationName="Vyasarpadi" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Vyasarpadi" city="Chennai" />
 

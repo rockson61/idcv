@@ -96,7 +96,7 @@ export default function ChintadripetPage() {
 
         <LocationFAQs locationName="Chintadripet" faqs={faqs} />
 
-        <TravelInfoCard locationName="Chintadripet" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Chintadripet" city="Chennai" />
 

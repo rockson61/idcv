@@ -96,7 +96,7 @@ export default function BesantnagarPage() {
 
         <LocationFAQs locationName="Besantnagar" faqs={faqs} />
 
-        <TravelInfoCard locationName="Besantnagar" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Besantnagar" city="Chennai" />
 

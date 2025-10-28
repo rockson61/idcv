@@ -96,7 +96,7 @@ export default function ForeshoreEstatePage() {
 
         <LocationFAQs locationName="Foreshore Estate" faqs={faqs} />
 
-        <TravelInfoCard locationName="Foreshore Estate" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Foreshore Estate" city="Chennai" />
 

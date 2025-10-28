@@ -96,7 +96,7 @@ export default function FlowersRoadPage() {
 
         <LocationFAQs locationName="Flowers Road" faqs={faqs} />
 
-        <TravelInfoCard locationName="Flowers Road" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Flowers Road" city="Chennai" />
 

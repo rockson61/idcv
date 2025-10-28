@@ -96,7 +96,7 @@ export default function KoyambeduPage() {
 
         <LocationFAQs locationName="Koyambedu" faqs={faqs} />
 
-        <TravelInfoCard locationName="Koyambedu" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Koyambedu" city="Chennai" />
 

@@ -96,7 +96,7 @@ export default function RajathottamPage() {
 
         <LocationFAQs locationName="Rajathottam" faqs={faqs} />
 
-        <TravelInfoCard locationName="Rajathottam" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Rajathottam" city="Chennai" />
 

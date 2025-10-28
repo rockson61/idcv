@@ -96,7 +96,7 @@ export default function KosapetPage() {
 
         <LocationFAQs locationName="Kosapet" faqs={faqs} />
 
-        <TravelInfoCard locationName="Kosapet" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Kosapet" city="Chennai" />
 

@@ -96,7 +96,7 @@ export default function KodungaiyurPage() {
 
         <LocationFAQs locationName="Kodungaiyur" faqs={faqs} />
 
-        <TravelInfoCard locationName="Kodungaiyur" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Kodungaiyur" city="Chennai" />
 

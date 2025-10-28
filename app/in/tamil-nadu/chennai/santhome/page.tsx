@@ -96,7 +96,7 @@ export default function SanthomePage() {
 
         <LocationFAQs locationName="Santhome" faqs={faqs} />
 
-        <TravelInfoCard locationName="Santhome" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Santhome" city="Chennai" />
 

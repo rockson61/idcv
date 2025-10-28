@@ -96,7 +96,7 @@ export default function ChamiersRoadPage() {
 
         <LocationFAQs locationName="Chamiers Road" faqs={faqs} />
 
-        <TravelInfoCard locationName="Chamiers Road" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Chamiers Road" city="Chennai" />
 

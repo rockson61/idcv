@@ -96,7 +96,7 @@ export default function ThygarayaNagarPage() {
 
         <LocationFAQs locationName="Thygaraya Nagar" faqs={faqs} />
 
-        <TravelInfoCard locationName="Thygaraya Nagar" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Thygaraya Nagar" city="Chennai" />
 

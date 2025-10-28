@@ -96,7 +96,7 @@ export default function ChetputPage() {
 
         <LocationFAQs locationName="Chetput" faqs={faqs} />
 
-        <TravelInfoCard locationName="Chetput" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Chetput" city="Chennai" />
 

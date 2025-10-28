@@ -96,7 +96,7 @@ export default function GuindyIndustrialEstatePage() {
 
         <LocationFAQs locationName="Guindy Industrial Estate" faqs={faqs} />
 
-        <TravelInfoCard locationName="Guindy Industrial Estate" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Guindy Industrial Estate" city="Chennai" />
 

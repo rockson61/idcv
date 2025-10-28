@@ -96,7 +96,7 @@ export default function PeramburBarracksPage() {
 
         <LocationFAQs locationName="Perambur Barracks" faqs={faqs} />
 
-        <TravelInfoCard locationName="Perambur Barracks" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Perambur Barracks" city="Chennai" />
 

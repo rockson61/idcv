@@ -96,7 +96,7 @@ export default function RajbhavanPage() {
 
         <LocationFAQs locationName="Rajbhavan" faqs={faqs} />
 
-        <TravelInfoCard locationName="Rajbhavan" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Rajbhavan" city="Chennai" />
 

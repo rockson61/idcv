@@ -96,7 +96,7 @@ export default function ChepaukPage() {
 
         <LocationFAQs locationName="Chepauk" faqs={faqs} />
 
-        <TravelInfoCard locationName="Chepauk" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Chepauk" city="Chennai" />
 

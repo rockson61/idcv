@@ -96,7 +96,7 @@ export default function VeperyPage() {
 
         <LocationFAQs locationName="Vepery" faqs={faqs} />
 
-        <TravelInfoCard locationName="Vepery" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Vepery" city="Chennai" />
 

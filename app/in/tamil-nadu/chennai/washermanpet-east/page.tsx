@@ -96,7 +96,7 @@ export default function WashermanpetEastPage() {
 
         <LocationFAQs locationName="Washermanpet East" faqs={faqs} />
 
-        <TravelInfoCard locationName="Washermanpet East" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Washermanpet East" city="Chennai" />
 

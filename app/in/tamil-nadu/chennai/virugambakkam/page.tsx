@@ -96,7 +96,7 @@ export default function VirugambakkamPage() {
 
         <LocationFAQs locationName="Virugambakkam" faqs={faqs} />
 
-        <TravelInfoCard locationName="Virugambakkam" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Virugambakkam" city="Chennai" />
 

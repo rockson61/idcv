@@ -96,7 +96,7 @@ export default function AgaramPage() {
 
         <LocationFAQs locationName="Agaram" faqs={faqs} />
 
-        <TravelInfoCard locationName="Agaram" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Agaram" city="Chennai" />
 

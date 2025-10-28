@@ -96,7 +96,7 @@ export default function EkkaduthangalPage() {
 
         <LocationFAQs locationName="Ekkaduthangal" faqs={faqs} />
 
-        <TravelInfoCard locationName="Ekkaduthangal" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Ekkaduthangal" city="Chennai" />
 

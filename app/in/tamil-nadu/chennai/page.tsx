@@ -139,7 +139,7 @@ export default function ChennaiPage() {
 
         <LocationFAQs locationName="Chennai" faqs={faqs} />
 
-        <TravelInfoCard locationName="Chennai" />
+        <TravelInfoCard />
 
         {/* Nearby Locations */}
         <div className="mb-12">

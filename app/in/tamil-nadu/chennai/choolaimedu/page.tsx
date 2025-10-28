@@ -96,7 +96,7 @@ export default function ChoolaimeduPage() {
 
         <LocationFAQs locationName="Choolaimedu" faqs={faqs} />
 
-        <TravelInfoCard locationName="Choolaimedu" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Choolaimedu" city="Chennai" />
 

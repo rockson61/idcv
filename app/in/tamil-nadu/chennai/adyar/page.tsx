@@ -96,7 +96,7 @@ export default function AdyarPage() {
 
         <LocationFAQs locationName="Adyar" faqs={faqs} />
 
-        <TravelInfoCard locationName="Adyar" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Adyar" city="Chennai" />
 

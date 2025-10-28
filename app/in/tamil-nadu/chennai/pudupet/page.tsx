@@ -96,7 +96,7 @@ export default function PudupetPage() {
 
         <LocationFAQs locationName="Pudupet" faqs={faqs} />
 
-        <TravelInfoCard locationName="Pudupet" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Pudupet" city="Chennai" />
 

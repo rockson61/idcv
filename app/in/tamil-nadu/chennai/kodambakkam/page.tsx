@@ -96,7 +96,7 @@ export default function KodambakkamPage() {
 
         <LocationFAQs locationName="Kodambakkam" faqs={faqs} />
 
-        <TravelInfoCard locationName="Kodambakkam" />
+        <TravelInfoCard />
 
         <PeopleAlsoSearchFor location="Kodambakkam" city="Chennai" />
 
