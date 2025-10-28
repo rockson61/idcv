@@ -8,10 +8,10 @@ const nextConfig = {
     parallelServerCompiles: true,
     parallelServerBuildTraces: true,
     optimizeCss: true,
-  ,
     turbopack: {
       root: process.cwd(),
-    }},
+    },
+  },
   
   // SWC minification is enabled by default in Next.js 15
   // No need to specify swcMinify option
