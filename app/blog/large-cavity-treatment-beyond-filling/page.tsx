@@ -79,7 +79,7 @@ export const metadata: Metadata = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
-  headline: 'Large Cavity Treatment: When Filling Isn't Enough',
+  headline: 'Large Cavity Treatment: When Filling Isn\'t Enough',
   image: '/dental-clinic-vellore.jpg',
   author: {
     '@type': 'Person',

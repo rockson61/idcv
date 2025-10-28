@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
-  headline: 'Dental Sealants: Protection for Kids' Teeth',
+  headline: 'Dental Sealants: Protection for Kids\' Teeth',
   image: '/dental-clinic-vellore.jpg',
   author: {
     '@type': 'Person',
