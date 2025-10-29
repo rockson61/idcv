@@ -37,7 +37,12 @@ export function EnhancedServicesList({ services, locationName, className = "" }:
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {services.map((service, index) => (
+        {services.map((service, index) => {
+          const serviceTitle = service.title || service.name || 'Dental Service';
+          const serviceLink = service.href || (service.slug ? `/services/${service.slug}` : '#');
+          const serviceFeatures = service.features || [];
+          
+          return (
           <ModernCard 
             key={index} 
             hover 
@@ -107,7 +112,8 @@ export function EnhancedServicesList({ services, locationName, className = "" }:
               </Link>
             </ModernCardContent>
           </ModernCard>
-        ))}
+          );
+        })}
       </div>
 
       {/* Trust Badges */}
