@@ -196,7 +196,12 @@ export default function ServicePage() {
         </ModernCard>
 
         {/* CTA */}
-        <CTAWidget />
+        <CTAWidget
+          title="Book Your Appointment"
+          description="Experience expert dental care with Dr. Rockson Samuel"
+          primaryAction={{ text: "Book Appointment", href: "/contact" }}
+          secondaryAction={{ text: "Call Now: 7010650063", href: "tel:7010650063" }}
+        />
       </div>
     </>
   )

@@ -193,7 +193,12 @@ export default function ServicePage() {
             </Accordion>
           </ModernCardContent>
         </ModernCard>
-        <CTAWidget />
+        <CTAWidget
+          title="Book Your Appointment in Delhi"
+          description="Compare costs and book your dental treatment"
+          primaryAction={{ text: "Book Appointment", href: "/contact" }}
+          secondaryAction={{ text: "Call Now: 7010650063", href: "tel:7010650063" }}
+        />
       </div>
     </>
   )
