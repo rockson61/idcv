@@ -213,7 +213,11 @@ export function ComprehensiveFAQSection({ locationName = "Vellore" }: Comprehens
             {/* Location Services */}
             <ModernCard className="mb-6">
               <ModernCardContent className="py-6">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">Find a Dentist Near You</h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">
+                  <Link href="/dentist-near-me/locations" className="text-gray-900 hover:text-teal-600 transition-colors">
+                    Find a Dentist Near You
+                  </Link>
+                </h4>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
                   {locationServices.map((location, index) => (
                     <Link
@@ -234,14 +238,14 @@ export function ComprehensiveFAQSection({ locationName = "Vellore" }: Comprehens
                 <ModernCardContent className="py-6">
                   <h4 className="text-lg font-semibold text-gray-900 mb-4">Specialized Dental Services</h4>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Emergency Dental Care</li>
-                    <li>• Children's Dentistry</li>
-                    <li>• Geriatric Dentistry</li>
-                    <li>• Sedation Dentistry</li>
-                    <li>• Laser Dentistry</li>
-                    <li>• Digital Dentistry</li>
-                    <li>• Dental Tourism</li>
-                    <li>• Full Mouth Rehabilitation</li>
+                    <li>• <Link href="/services/emergency-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Emergency Dental Care</Link></li>
+                    <li>• <Link href="/services/pediatric-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Children's Dentistry</Link></li>
+                    <li>• <Link href="/services/geriatric-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Geriatric Dentistry</Link></li>
+                    <li>• <Link href="/services/sedation-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Sedation Dentistry</Link></li>
+                    <li>• <Link href="/services/laser-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Laser Dentistry</Link></li>
+                    <li>• <Link href="/services/digital-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Digital Dentistry</Link></li>
+                    <li>• <Link href="/dental-tourism" className="text-teal-600 hover:text-teal-700 hover:underline">Dental Tourism</Link></li>
+                    <li>• <Link href="/services/full-mouth-rehabilitation" className="text-teal-600 hover:text-teal-700 hover:underline">Full Mouth Rehabilitation</Link></li>
                   </ul>
                 </ModernCardContent>
               </ModernCard>
@@ -250,14 +254,14 @@ export function ComprehensiveFAQSection({ locationName = "Vellore" }: Comprehens
                 <ModernCardContent className="py-6">
                   <h4 className="text-lg font-semibold text-gray-900 mb-4">Top-Rated Specialists</h4>
                   <ul className="space-y-2 text-gray-700">
-                    <li>• Best Dental Clinic in {locationName}</li>
-                    <li>• Top Dentist in {locationName}</li>
-                    <li>• Best Implant Dentist</li>
-                    <li>• Root Canal Specialist</li>
-                    <li>• Orthodontist in {locationName}</li>
-                    <li>• Cosmetic Dentist</li>
-                    <li>• Pediatric Dentist</li>
-                    <li>• Oral Surgeon</li>
+                    <li>• <Link href="/dentist-near-me" className="text-teal-600 hover:text-teal-700 hover:underline">Best Dental Clinic in {locationName}</Link></li>
+                    <li>• <Link href="/about-us/dr-rockson-samuel" className="text-teal-600 hover:text-teal-700 hover:underline">Top Dentist in {locationName}</Link></li>
+                    <li>• <Link href="/services/dental-implants" className="text-teal-600 hover:text-teal-700 hover:underline">Best Implant Dentist</Link></li>
+                    <li>• <Link href="/services/endodontics" className="text-teal-600 hover:text-teal-700 hover:underline">Root Canal Specialist</Link></li>
+                    <li>• <Link href="/services/orthodontics" className="text-teal-600 hover:text-teal-700 hover:underline">Orthodontist in {locationName}</Link></li>
+                    <li>• <Link href="/services/cosmetic-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Cosmetic Dentist</Link></li>
+                    <li>• <Link href="/services/pediatric-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Pediatric Dentist</Link></li>
+                    <li>• <Link href="/services/oral-surgery" className="text-teal-600 hover:text-teal-700 hover:underline">Oral Surgeon</Link></li>
                   </ul>
                 </ModernCardContent>
               </ModernCard>
