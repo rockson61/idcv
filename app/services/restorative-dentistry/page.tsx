@@ -645,7 +645,7 @@ export default function RestorativeDentistryPage() {
 
       {/* Semantic Content - Internal Linking */}
       <SectionContainer className="py-16 bg-gradient-to-br from-blue-50/30 to-teal-50/30">
-        <ServiceSemanticContent serviceName="Restorative Dentistry" />
+        <ServiceSemanticContent serviceName="Restorative Dentistry" serviceSlug="restorative-dentistry" />
       </SectionContainer>
 
       {/* Related Services - Enhanced */}
