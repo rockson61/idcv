@@ -98,8 +98,12 @@ export function ComprehensiveFAQSection({ locationName = "Vellore" }: Comprehens
   ]
 
   const locationServices = [
-    "Dentist in Vellore", "Dentist in Katpadi", "Dentist in Gandhi Nagar", 
-    "Dentist in Sathuvachari", "Dentist in Bagayam", "Dentist in Ranipet"
+    { name: "Dentist in Vellore", href: "/in/tamil-nadu/vellore" },
+    { name: "Dentist in Katpadi", href: "/in/tamil-nadu/vellore/katpadi" },
+    { name: "Dentist in Gandhi Nagar", href: "/in/tamil-nadu/vellore/gandhi-nagar" },
+    { name: "Dentist in Sathuvachari", href: "/in/tamil-nadu/vellore/sathuvachari" },
+    { name: "Dentist in Bagayam", href: "/in/tamil-nadu/vellore/bagayam" },
+    { name: "Dentist in Ranipet", href: "/in/tamil-nadu/ranipet" }
   ]
 
   // Generate FAQ Schema
@@ -222,10 +226,10 @@ export function ComprehensiveFAQSection({ locationName = "Vellore" }: Comprehens
                   {locationServices.map((location, index) => (
                     <Link
                       key={index}
-                      href={`/in/tamil-nadu/${location.toLowerCase().replace(/\s+/g, '-')}`}
+                      href={location.href}
                       className="inline-flex items-center justify-center px-3 py-2 bg-teal-50 text-teal-700 rounded-lg text-sm font-medium hover:bg-teal-100 transition-colors"
                     >
-                      {location}
+                      {location.name}
                     </Link>
                   ))}
                 </div>
@@ -240,12 +244,12 @@ export function ComprehensiveFAQSection({ locationName = "Vellore" }: Comprehens
                   <ul className="space-y-2 text-gray-700">
                     <li>• <Link href="/services/emergency-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Emergency Dental Care</Link></li>
                     <li>• <Link href="/services/pediatric-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Children's Dentistry</Link></li>
-                    <li>• <Link href="/services/geriatric-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Geriatric Dentistry</Link></li>
+                    <li>• <Link href="/services/general-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Geriatric Dentistry</Link></li>
                     <li>• <Link href="/services/sedation-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Sedation Dentistry</Link></li>
-                    <li>• <Link href="/services/laser-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Laser Dentistry</Link></li>
-                    <li>• <Link href="/services/digital-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Digital Dentistry</Link></li>
+                    <li>• <Link href="/services/specialized-services/laser-dentistry" className="text-teal-600 hover:text-teal-700 hover:underline">Laser Dentistry</Link></li>
+                    <li>• <Link href="/services/dental-radiology" className="text-teal-600 hover:text-teal-700 hover:underline">Digital Dentistry</Link></li>
                     <li>• <Link href="/dental-tourism" className="text-teal-600 hover:text-teal-700 hover:underline">Dental Tourism</Link></li>
-                    <li>• <Link href="/services/full-mouth-rehabilitation" className="text-teal-600 hover:text-teal-700 hover:underline">Full Mouth Rehabilitation</Link></li>
+                    <li>• <Link href="/services/prosthodontics" className="text-teal-600 hover:text-teal-700 hover:underline">Full Mouth Rehabilitation</Link></li>
                   </ul>
                 </ModernCardContent>
               </ModernCard>
