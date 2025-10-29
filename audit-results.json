@@ -1,0 +1,1115 @@
+{
+  "summary": {
+    "total_pages": 2396,
+    "total_components": 218,
+    "total_widgets": 9,
+    "issues_found": 21,
+    "optimizations_found": 5
+  },
+  "issues": [
+    {
+      "type": "missing_metadata",
+      "file": "app/blog/category/[slug]/page.tsx",
+      "severity": "medium",
+      "details": "Page missing metadata export",
+      "suggested_fix": "Add export const metadata with title and description"
+    },
+    {
+      "type": "missing_metadata",
+      "file": "app/locations/page.tsx",
+      "severity": "medium",
+      "details": "Page missing metadata export",
+      "suggested_fix": "Add export const metadata with title and description"
+    },
+    {
+      "type": "missing_metadata",
+      "file": "app/services/dental-implants/multiple-tooth/page.tsx",
+      "severity": "medium",
+      "details": "Page missing metadata export",
+      "suggested_fix": "Add export const metadata with title and description"
+    },
+    {
+      "type": "missing_metadata",
+      "file": "app/services/dental-implants/single-tooth/page.tsx",
+      "severity": "medium",
+      "details": "Page missing metadata export",
+      "suggested_fix": "Add export const metadata with title and description"
+    },
+    {
+      "type": "missing_metadata",
+      "file": "app/services/general-dentistry/dental-check-ups/page.tsx",
+      "severity": "medium",
+      "details": "Page missing metadata export",
+      "suggested_fix": "Add export const metadata with title and description"
+    },
+    {
+      "type": "missing_metadata",
+      "file": "app/services/maxillofacial-surgery/page.tsx",
+      "severity": "medium",
+      "details": "Page missing metadata export",
+      "suggested_fix": "Add export const metadata with title and description"
+    },
+    {
+      "type": "missing_metadata",
+      "file": "app/sitemap/page.tsx",
+      "severity": "medium",
+      "details": "Page missing metadata export",
+      "suggested_fix": "Add export const metadata with title and description"
+    },
+    {
+      "type": "missing_use_client",
+      "file": "components/booking-widget.tsx",
+      "severity": "high",
+      "details": "Widget uses client hooks but missing 'use client' directive",
+      "suggested_fix": "Add 'use client' at top of file"
+    }
+  ],
+  "duplicates": [
+    {
+      "type": "duplicate_component",
+      "name": "locationfaqs",
+      "files": [
+        "components/LocationFAQs.tsx",
+        "components/location/LocationFAQs.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/LocationFAQs.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "faq-schema",
+      "files": [
+        "components/ask-dentist/faq-schema.tsx",
+        "components/schema/faq-schema.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/ask-dentist/faq-schema.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "breadcrumb",
+      "files": [
+        "components/breadcrumb.tsx",
+        "components/ui/breadcrumb.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/breadcrumb.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "header",
+      "files": [
+        "components/common/Header.tsx",
+        "components/header.tsx",
+        "components/layout/header.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/common/Header.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "emergency-contact",
+      "files": [
+        "components/emergency-contact.tsx",
+        "components/sections/emergency-contact.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/emergency-contact.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "faq-section",
+      "files": [
+        "components/faq-section.tsx",
+        "components/sections/faq-section.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/faq-section.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "footer",
+      "files": [
+        "components/footer.tsx",
+        "components/layout/footer.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/footer.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "hero",
+      "files": [
+        "components/hero.tsx",
+        "components/sections/hero.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/hero.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "location-schema",
+      "files": [
+        "components/location-schema.tsx",
+        "components/schema/location-schema.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/location-schema.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "schema-markup",
+      "files": [
+        "components/schema/schema-markup.tsx",
+        "components/schema-markup.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/schema/schema-markup.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "service-schema",
+      "files": [
+        "components/schema/service-schema.tsx",
+        "components/seo/service-schema.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/schema/service-schema.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "testimonials",
+      "files": [
+        "components/sections/testimonials.tsx",
+        "components/testimonials.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/sections/testimonials.tsx"
+    },
+    {
+      "type": "duplicate_component",
+      "name": "why-choose-us",
+      "files": [
+        "components/sections/why-choose-us.tsx",
+        "components/why-choose-us.tsx"
+      ],
+      "suggested_fix": "Merge into single component: components/sections/why-choose-us.tsx"
+    }
+  ],
+  "unused": [],
+  "optimizations": [
+    {
+      "type": "large_component",
+      "file": "components/appointment-booking-system.tsx",
+      "details": "521 lines, 21.74KB",
+      "suggested_fix": "Split into smaller components",
+      "benefit": "Better code splitting and lazy loading"
+    },
+    {
+      "type": "large_component",
+      "file": "components/custom-google-map.tsx",
+      "details": "1697 lines, 62.13KB",
+      "suggested_fix": "Split into smaller components",
+      "benefit": "Better code splitting and lazy loading"
+    },
+    {
+      "type": "large_component",
+      "file": "components/footer.tsx",
+      "details": "1754 lines, 77.44KB",
+      "suggested_fix": "Split into smaller components",
+      "benefit": "Better code splitting and lazy loading"
+    },
+    {
+      "type": "large_component",
+      "file": "components/location-map.tsx",
+      "details": "888 lines, 24.99KB",
+      "suggested_fix": "Split into smaller components",
+      "benefit": "Better code splitting and lazy loading"
+    },
+    {
+      "type": "large_component",
+      "file": "components/sections/locations-section.tsx",
+      "details": "504 lines, 22.25KB",
+      "suggested_fix": "Split into smaller components",
+      "benefit": "Better code splitting and lazy loading"
+    }
+  ],
+  "performance": [
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/CurrencyCalculator.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/DentistProfileWidget.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/LocationFAQs.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/LocationPageTemplate.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/LocationPricingTable.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/LocationSchema.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/MultiCurrencyPricingTable.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/NearbyCities.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/NearbyLocations.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/PricingTable.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/SchemaMarkup.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/ServicesOverview.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/SubLocationPageTemplate.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/TestimonialCarousel.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/TreatmentComparisonTable.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/TreatmentsAndConditions.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/appointment-booking-system.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/areas-we-serve.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/ask-dentist/question-form.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/ask-dentist/question-list.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/ask-dentist/related-questions.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/ask-dentist/related-services.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/ask-dentist/replies-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/ask-dentist/search-filters.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/before-after-gallery.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/blog/blog-categories.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/blog/blog-posts.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/blog/blog-table-of-contents.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/blog/related-posts.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/breadcrumb-nav.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/breadcrumb.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/clinic-info-card.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/clinic-info.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/clinic-timings.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/clinic-usp.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/condition/MedicineSection.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/dental-health-tips.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/dentist-profile.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/doctor-profile.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/faq-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/faq.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/features.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/floating-menu.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/hero.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/insurance-coverage.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/layout/footer.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/layout/header.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location/EnhancedServicesList.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location/LocalAmenitiesMap.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location/LocationFAQs.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location/LocationHeader.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location/LocationReviews.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location/NearbyLocationsWidget.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location/PeopleAlsoSearchFor.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location/PriceComparisonTable.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location/WhyChooseUs.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location-breadcrumb.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location-card.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location-map.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location-page-template.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/location-search.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/main-header.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/main-nav.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/modern-sidebar.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/nearby-locations.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/patient-reviews.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/pricing-table.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/pricing.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/related-links.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/reviews.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/schema/faq-schema.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/schema/location-schema.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/schema/schema-markup.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/clinics-overview.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/comprehensive-faq-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/dentists-overview.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/doctor-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/emergency-contact.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/emergency-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/faq-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/hero-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/locations-overview.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/locations-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/modern-services-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/modern-testimonials-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/services-overview.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/services-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/stats-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/testimonials-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/testimonials.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/why-choose-section.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sections/why-choose-us.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/seo/structured-data.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/service/ServicePeopleAlsoSearchFor.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/service-cards.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/service-content-template.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/service-detail-modal.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/service-faq.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/service-page-template.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/service-testimonials.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/services-with-images.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/services.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/sidebar.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/smart-navigation.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/smile-transformations.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/staff-directory.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/testimonials.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/treatment-pricing.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/ui/breadcrumb.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/ui/internal-links-widget.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/ui/modern-loading.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/ui/service-reviews.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/vellore-location-template.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/why-choose-us.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/widgets/compact-service-widget.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/widgets/condition-widget.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/widgets/cta-widget.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    },
+    {
+      "type": "potential_memo_candidate",
+      "file": "components/widgets/relevant-qa-widget.tsx",
+      "details": "Component has expensive logic without memoization",
+      "suggested_fix": "Consider React.memo or useMemo"
+    }
+  ],
+  "consistency": [
+    {
+      "type": "inline_styles",
+      "file": "components/booking-widget.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/clinic-info-card.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/doctor-profile.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/enhanced-breadcrumbs.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/header.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/hero.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/layout/footer.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/location/GoogleMapEmbed.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/map.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/sections/clinics-overview.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/sections/doctor-section.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/sections/hero-section.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/sections/hero.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/sections/locations-section.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/sections/why-choose-section.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "inline_styles",
+      "file": "components/ui/modern-loading.tsx",
+      "details": "Uses inline styles",
+      "recommendation": "Prefer Tailwind CSS classes"
+    },
+    {
+      "type": "naming_convention",
+      "count": 30,
+      "details": "Components not following PascalCase convention",
+      "files": [
+        "components/breadcrumb.tsx",
+        "components/faq.tsx",
+        "components/features.tsx",
+        "components/footer.tsx",
+        "components/header.tsx",
+        "components/hero.tsx",
+        "components/layout/footer.tsx",
+        "components/layout/header.tsx",
+        "components/map.tsx",
+        "components/navigation.tsx"
+      ]
+    }
+  ],
+  "widgets": [
+    {
+      "name": "DentistProfileWidget",
+      "path": "components/DentistProfileWidget.tsx",
+      "lines": 124,
+      "hasUseClient": false,
+      "hasClientHooks": false
+    },
+    {
+      "name": "booking-widget",
+      "path": "components/booking-widget.tsx",
+      "lines": 39,
+      "hasUseClient": false,
+      "hasClientHooks": true
+    },
+    {
+      "name": "NearbyLocationsWidget",
+      "path": "components/location/NearbyLocationsWidget.tsx",
+      "lines": 115,
+      "hasUseClient": true,
+      "hasClientHooks": false
+    },
+    {
+      "name": "search-widget",
+      "path": "components/search-widget.tsx",
+      "lines": 12,
+      "hasUseClient": false,
+      "hasClientHooks": false
+    },
+    {
+      "name": "internal-links-widget",
+      "path": "components/ui/internal-links-widget.tsx",
+      "lines": 135,
+      "hasUseClient": false,
+      "hasClientHooks": false
+    },
+    {
+      "name": "compact-service-widget",
+      "path": "components/widgets/compact-service-widget.tsx",
+      "lines": 110,
+      "hasUseClient": false,
+      "hasClientHooks": false
+    },
+    {
+      "name": "condition-widget",
+      "path": "components/widgets/condition-widget.tsx",
+      "lines": 137,
+      "hasUseClient": false,
+      "hasClientHooks": false
+    },
+    {
+      "name": "cta-widget",
+      "path": "components/widgets/cta-widget.tsx",
+      "lines": 129,
+      "hasUseClient": false,
+      "hasClientHooks": false
+    },
+    {
+      "name": "relevant-qa-widget",
+      "path": "components/widgets/relevant-qa-widget.tsx",
+      "lines": 110,
+      "hasUseClient": false,
+      "hasClientHooks": false
+    }
+  ]
+}
