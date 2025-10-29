@@ -3,10 +3,11 @@
 
 export { GoogleMapEmbed } from './GoogleMapEmbed'
 export { LocalAmenitiesMap } from './LocalAmenitiesMap'
-export { LocationReviews, generateDefaultReviews } from './LocationReviews'
+export { LocationReviews } from './LocationReviews'
 export type { Review } from './LocationReviews'
-export { LocationFAQs, generateDefaultFAQs } from './LocationFAQs'
+export { LocationFAQs } from './LocationFAQs'
 export type { FAQ } from './LocationFAQs'
+// Note: generateDefaultReviews and generateDefaultFAQs moved to lib/location-generators.ts
 export { LocationHeader } from './LocationHeader'
 export { NearbyLocationsWidget, QuickNearbyLinks } from './NearbyLocationsWidget'
 export { EnhancedServicesList, serviceCategories } from './EnhancedServicesList'
