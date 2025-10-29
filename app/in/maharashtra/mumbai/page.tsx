@@ -3,12 +3,12 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { MapPin, Phone, Calendar, Star, Users, Shield, Award, Clock, Navigation, CheckCircle, DollarSign, MapPinIcon, Stethoscope, Heart, Zap, Globe, Car, Wifi, ParkingCircle, Coffee, Building, CreditCard } from 'lucide-react'
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 import { LocationHeader } from "@/components/location/LocationHeader"
 import { GoogleMapEmbed } from "@/components/location/GoogleMapEmbed"
 import { EnhancedServicesList } from "@/components/location/EnhancedServicesList"
 import { LocationReviews } from "@/components/location/LocationReviews"
-import { LocationFAQs } from "@/components/location/LocationFAQs"
+import { LocationFAQs } from '@/components/LocationFAQs'
 import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"

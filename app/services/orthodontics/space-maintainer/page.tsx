@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'

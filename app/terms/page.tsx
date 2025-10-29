@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { SectionContainer } from '@/components/ui/section-container'
 import { GlassCard } from '@/components/ui/glass-card'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { FileText, AlertCircle, CheckCircle, XCircle, Scale } from 'lucide-react'
 
 export const metadata: Metadata = {

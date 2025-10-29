@@ -1,6 +1,6 @@
 import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { Metadata } from 'next'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { generateDefaultReviews, generateDefaultFAQs } from '@/lib/location-generators'
 import { GoogleMapEmbed, LocalAmenitiesMap, LocationReviews, LocationFAQs, LocationHeader, NearbyLocationsWidget, EnhancedServicesList, TravelInfoCard, PriceComparisonTable, WhyChooseUs } from '@/components/location'
 import { CTAWidget } from '@/components/widgets/cta-widget'

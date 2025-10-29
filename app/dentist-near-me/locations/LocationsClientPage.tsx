@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { MapPin, Phone, Clock, Star, CheckCircle, Award, Users } from "lucide-react"
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from "@/components/ui/modern-card"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 
 export default function LocationsClientPage() {
   return (

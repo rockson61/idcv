@@ -1,0 +1,416 @@
+STRUCTURAL REFACTOR ANALYSIS REPORT
+====================================
+Generated: 2025-10-29T04:47:23.907Z
+
+FILE INVENTORY
+--------------
+
+/lib/ directory: 21 files
+  1. lib/content-generator.ts
+  2. lib/data/ask-dentist-questions.backup.ts
+  3. lib/data/ask-dentist-questions.ts
+  4. lib/data/blog-posts.ts
+  5. lib/data/enhanced-location-data.ts
+  6. lib/data/location-data.ts
+  7. lib/design-system.ts
+  8. lib/design-tokens.ts
+  9. lib/heading-utils.ts
+  10. lib/internal-links.ts
+  11. lib/location-generators.ts
+  12. lib/review-data.ts
+  13. lib/schema-generator.ts
+  14. lib/schema-templates.ts
+  15. lib/semantic-links.ts
+  16. lib/sidebar-data.ts
+  17. lib/types/ask-dentist.ts
+  18. lib/typography.ts
+  19. lib/utils/internal-linking.ts
+  20. lib/utils/performance.ts
+  21. lib/utils.ts
+
+/utils/ directory: 1 files
+  1. utils/generate-links.ts
+
+CATEGORIZATION
+--------------
+
+Type Files (10):
+  1. lib/data/blog-posts.ts (1 types)
+  2. lib/data/enhanced-location-data.ts (1 types)
+  3. lib/data/location-data.ts (1 types)
+  4. lib/internal-links.ts (1 types)
+  5. lib/location-generators.ts (2 types)
+  6. lib/review-data.ts (2 types)
+  7. lib/semantic-links.ts (1 types)
+  8. lib/sidebar-data.ts (2 types)
+  9. lib/types/ask-dentist.ts (5 types)
+  10. lib/utils/performance.ts (1 types)
+
+Data Files (7):
+  1. lib/data/ask-dentist-questions.backup.ts (5 exports)
+  2. lib/data/ask-dentist-questions.ts (5 exports)
+  3. lib/design-system.ts (3 exports)
+  4. lib/design-tokens.ts (4 exports)
+  5. lib/schema-generator.ts (10 exports)
+  6. lib/typography.ts (2 exports)
+  7. lib/utils.ts (2 exports)
+
+Utility Files (5):
+  1. lib/content-generator.ts (1 exports)
+  2. lib/heading-utils.ts (2 exports)
+  3. lib/schema-templates.ts (5 exports)
+  4. lib/utils/internal-linking.ts (5 exports)
+  5. utils/generate-links.ts (1 exports)
+
+EXPORTS ANALYSIS
+----------------
+
+Total exports: 108
+
+By type:
+  function: 50
+  const: 33
+  interface: 17
+  named: 8
+
+DUPLICATE DETECTION
+-------------------
+
+Found 7 duplicates:
+
+1. getQuestionBySlug
+   Locations:
+   - lib/data/ask-dentist-questions.backup.ts:777
+   - lib/data/ask-dentist-questions.ts:1268
+
+2. getAllQuestions
+   Locations:
+   - lib/data/ask-dentist-questions.backup.ts:781
+   - lib/data/ask-dentist-questions.ts:1272
+
+3. getQuestionsByTag
+   Locations:
+   - lib/data/ask-dentist-questions.backup.ts:785
+   - lib/data/ask-dentist-questions.ts:1276
+
+4. searchQuestions
+   Locations:
+   - lib/data/ask-dentist-questions.backup.ts:791
+   - lib/data/ask-dentist-questions.ts:1282
+
+5. sampleQuestions
+   Locations:
+   - lib/data/ask-dentist-questions.backup.ts:3
+   - lib/data/ask-dentist-questions.ts:3
+
+6. getRelatedServices
+   Locations:
+   - lib/internal-links.ts:231
+   - lib/utils/internal-linking.ts:173
+
+7. getRelatedLinks
+   Locations:
+   - lib/utils.ts:191
+   - utils/generate-links.ts:189
+
+
+FILE DETAILS
+------------
+
+lib/content-generator.ts
+  Size: 6.13KB
+  Lines: 141
+  Exports: 1
+      - function generateContent (line 23)
+
+lib/data/ask-dentist-questions.backup.ts
+  Size: 105.11KB
+  Lines: 802
+  Exports: 5
+      - function getQuestionBySlug (line 777)
+    - function getAllQuestions (line 781)
+    - function getQuestionsByTag (line 785)
+    - function searchQuestions (line 791)
+    - const sampleQuestions (line 3)
+
+lib/data/ask-dentist-questions.ts
+  Size: 121.14KB
+  Lines: 1293
+  Exports: 5
+      - function getQuestionBySlug (line 1268)
+    - function getAllQuestions (line 1272)
+    - function getQuestionsByTag (line 1276)
+    - function searchQuestions (line 1282)
+    - const sampleQuestions (line 3)
+
+lib/data/blog-posts.ts
+  Size: 173.98KB
+  Lines: 3718
+  Exports: 4
+      - const allBlogPosts (line 14)
+    - const getBlogPostsByCategory (line 3707)
+    - const getCategoryCount (line 3714)
+    - interface BlogPost (line 4)
+
+lib/data/enhanced-location-data.ts
+  Size: 16.31KB
+  Lines: 397
+  Exports: 6
+      - function getEnhancedLocationBySlug (line 377)
+    - function getLocationsByTaluk (line 381)
+    - function getLocationsByCategory (line 387)
+    - function getMajorTowns (line 391)
+    - const enhancedVelloreLocations (line 38)
+    - interface EnhancedLocationData (line 4)
+
+lib/data/location-data.ts
+  Size: 5.17KB
+  Lines: 140
+  Exports: 4
+      - function getLocationBySlug (line 126)
+    - function getNearbyLocations (line 131)
+    - const velloreLocations (line 27)
+    - interface LocationData (line 4)
+
+lib/design-system.ts
+  Size: 5.53KB
+  Lines: 224
+  Exports: 3
+      - const designSystem (line 2)
+    - const brandColors (line 199)
+    - const componentVariants (line 210)
+
+lib/design-tokens.ts
+  Size: 4.33KB
+  Lines: 163
+  Exports: 4
+      - function getColor (line 149)
+    - function getTypography (line 158)
+    - const designTokens (line 4)
+    - const a11y (line 142)
+
+lib/heading-utils.ts
+  Size: 1.23KB
+  Lines: 44
+  Exports: 2
+      - function addHeadingIds (line 7)
+    - function withHeadingIds (line 19)
+
+lib/internal-links.ts
+  Size: 16.84KB
+  Lines: 325
+  Exports: 13
+      - function getContextualLinks (line 144)
+    - function getRelatedServices (line 231)
+    - function generateInternalLinkHTML (line 285)
+    - function getSmartInternalLinks (line 294)
+    - const authorityLinks (line 12)
+    - const serviceLSILinks (line 52)
+    - const locationLSILinks (line 117)
+    - const resourceLinks (line 128)
+    - const serviceLinks (line 138)
+    - const locationLinks (line 141)
+    - const footerInternalLinks (line 210)
+    - const locationServiceLinks (line 275)
+    - interface InternalLink (line 4)
+
+lib/location-generators.ts
+  Size: 3.62KB
+  Lines: 88
+  Exports: 4
+      - function generateDefaultReviews (line 21)
+    - function generateDefaultFAQs (line 58)
+    - interface Review (line 4)
+    - interface FAQ (line 14)
+
+lib/review-data.ts
+  Size: 9.71KB
+  Lines: 240
+  Exports: 4
+      - function generateServiceReviews (line 14)
+    - function generateLocationReviews (line 206)
+    - interface ServiceReview (line 2)
+    - interface LocationReview (line 196)
+
+lib/schema-generator.ts
+  Size: 9.85KB
+  Lines: 352
+  Exports: 10
+      - function generateContextualSchema (line 289)
+    - const ENTITY_IDS (line 26)
+    - named generateServiceSchema (line 342)
+    - named generateConditionSchema (line 342)
+    - named generateLocationSchema (line 342)
+    - named generateQAPageSchema (line 342)
+    - named generateBlogSchema (line 342)
+    - named generateProfileSchema (line 342)
+    - named generateContactSchema (line 342)
+    - named inferSchemaType (line 342)
+
+lib/schema-templates.ts
+  Size: 7.25KB
+  Lines: 287
+  Exports: 5
+      - function createServiceSchemaTemplate (line 9)
+    - function createConditionSchemaTemplate (line 72)
+    - function createLocationSchemaTemplate (line 117)
+    - function createQASchemaTemplate (line 187)
+    - function createBlogSchemaTemplate (line 235)
+
+lib/semantic-links.ts
+  Size: 10.39KB
+  Lines: 189
+  Exports: 9
+      - function generateSemanticLink (line 153)
+    - function getContextualSemanticLinks (line 162)
+    - const homepageLinks (line 12)
+    - const servicePageLinks (line 37)
+    - const conditionPageLinks (line 56)
+    - const aboutPageLinks (line 73)
+    - const contactPageLinks (line 86)
+    - const footerSemanticLinks (line 103)
+    - interface SemanticLink (line 4)
+
+lib/sidebar-data.ts
+  Size: 20.94KB
+  Lines: 523
+  Exports: 4
+      - const serviceCategories (line 19)
+    - const conditionCategories (line 385)
+    - interface SidebarItem (line 4)
+    - interface SidebarCategory (line 11)
+
+lib/types/ask-dentist.ts
+  Size: 1.08KB
+  Lines: 57
+  Exports: 5
+      - interface Reply (line 1)
+    - interface Question (line 15)
+    - interface QuestionFormData (line 37)
+    - interface SearchFilters (line 45)
+    - interface PaginationData (line 51)
+
+lib/typography.ts
+  Size: 0.86KB
+  Lines: 26
+  Exports: 2
+      - const typography (line 2)
+    - const spacing (line 22)
+
+lib/utils/internal-linking.ts
+  Size: 12.51KB
+  Lines: 325
+  Exports: 5
+      - function addInternalLinks (line 129)
+    - function getRelatedServices (line 173)
+    - function getRelatedQuestions (line 243)
+    - function getRelatedConditions (line 250)
+    - function generateInternalLinkSuggestions (line 298)
+
+lib/utils/performance.ts
+  Size: 5.66KB
+  Lines: 230
+  Exports: 10
+      - function logWebVitals (line 19)
+    - function reportPerformance (line 57)
+    - function measureRenderTime (line 66)
+    - function shouldStaticGenerate (line 82)
+    - function prefetchCriticalRoutes (line 102)
+    - function monitorLongTasks (line 129)
+    - function getPageLoadMetrics (line 153)
+    - function calculatePerformanceScore (line 174)
+    - const performanceUtils (line 219)
+    - interface WebVitalsMetric (line 7)
+
+lib/utils.ts
+  Size: 6.66KB
+  Lines: 216
+  Exports: 2
+      - function getRelatedLinks (line 191)
+    - const cn (line 213)
+
+utils/generate-links.ts
+  Size: 6.54KB
+  Lines: 210
+  Exports: 1
+      - function getRelatedLinks (line 189)
+
+
+RECOMMENDED STRUCTURE
+---------------------
+
+/lib/
+├── data/
+│   ├── blog-posts.ts
+│   ├── location-data.ts
+│   ├── enhanced-location-data.ts
+│   ├── ask-dentist-questions.ts
+│   └── ... (other data files)
+│
+├── types/
+│   ├── index.ts (central type exports)
+│   ├── ask-dentist.ts
+│   └── ... (other type definitions)
+│
+└── utils/
+    ├── index.ts (central util exports)
+    ├── date.ts (date formatting, parsing)
+    ├── string.ts (string manipulation)
+    ├── array.ts (array utilities)
+    ├── schema.ts (schema generation)
+    ├── links.ts (internal linking, semantic)
+    ├── performance.ts (performance utilities)
+    └── ... (other categorized utils)
+
+MIGRATION PLAN
+--------------
+
+1. Keep all files currently in /lib/data/ → no changes
+2. Keep all files currently in /lib/types/ → no changes
+3. Consolidate /lib/*.ts utils into /lib/utils/
+4. Move /utils/*.ts into /lib/utils/
+5. Delete empty /utils/ directory
+6. Update all imports across codebase
+7. Create index.ts files for clean imports
+
+FILES TO MIGRATE
+----------------
+
+From /lib/ root to /lib/utils/:
+  - lib/content-generator.ts
+  - lib/design-system.ts
+  - lib/design-tokens.ts
+  - lib/heading-utils.ts
+  - lib/internal-links.ts
+  - lib/location-generators.ts
+  - lib/review-data.ts
+  - lib/schema-generator.ts
+  - lib/schema-templates.ts
+  - lib/semantic-links.ts
+  - lib/sidebar-data.ts
+  - lib/typography.ts
+  - lib/utils.ts
+
+From /utils/ to /lib/utils/:
+  - utils/generate-links.ts
+
+ESTIMATED CHANGES
+-----------------
+
+Files to move: 14
+
+Import updates required: ~270 locations
+
+Directory deletions: 1 (/utils/)
+
+NEXT STEPS
+----------
+
+1. Execute migration script
+2. Update all imports (automatic)
+3. Create index.ts files for clean exports
+4. Run TypeScript check (tsc --noEmit)
+5. Run linter (eslint . --fix)
+6. Test build (npm run build)
+
+STATUS: ANALYSIS COMPLETE

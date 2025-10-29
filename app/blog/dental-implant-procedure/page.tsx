@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Calendar, Clock, User, Tag, ArrowRight, BookOpen, CheckCircle, Phone } from 'lucide-react'
 import { ModernCard, ModernCardContent, ModernCardHeader, ModernCardTitle } from '@/components/ui/modern-card'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { Badge } from '@/components/ui/badge'
 
 

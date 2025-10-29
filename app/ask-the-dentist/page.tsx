@@ -5,7 +5,7 @@ import { SearchFilters } from '@/components/ask-dentist/search-filters'
 import { AskQuestionButton } from '@/components/ask-dentist/ask-question-button'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { Badge } from '@/components/ui/badge'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { AskDentistSchema } from '@/components/schema/AskDentistSchema'
 import { MessageCircle, Users, TrendingUp, Clock, HelpCircle } from 'lucide-react'
 

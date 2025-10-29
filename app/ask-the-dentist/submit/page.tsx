@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { QuestionForm } from '@/components/ask-dentist/question-form'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { Badge } from '@/components/ui/badge'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { MessageCircle, Clock, Shield, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {

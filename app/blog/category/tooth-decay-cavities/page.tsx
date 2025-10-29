@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { BookOpen, ArrowRight, Tag } from 'lucide-react'
 import { ModernCard, ModernCardContent, ModernCardHeader, ModernCardTitle } from '@/components/ui/modern-card'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { Badge } from '@/components/ui/badge'
 
 export const metadata: Metadata = {

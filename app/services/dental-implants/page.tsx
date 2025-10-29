@@ -4,7 +4,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ModernCard, ModernCardContent, ModernCardDescription, ModernCardHeader, ModernCardTitle } from "@/components/ui/modern-card"
 import { Badge } from "@/components/ui/badge"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 import { RelevantQAWidget } from "@/components/widgets/relevant-qa-widget"
 import { CompactServiceWidget } from "@/components/widgets/compact-service-widget"
 import { CTAWidget } from "@/components/widgets/cta-widget"

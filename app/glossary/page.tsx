@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { Badge } from '@/components/ui/badge'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { 
   BookOpen, 
   Search, 

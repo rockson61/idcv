@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { AlertCircle, CheckCircle, Phone, Calendar, ArrowRight } from 'lucide-react'
 import { ModernCard, ModernCardContent, ModernCardHeader, ModernCardTitle } from '@/components/ui/modern-card'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { CTAWidget } from '@/components/widgets/cta-widget'
 
 export const metadata: Metadata = {

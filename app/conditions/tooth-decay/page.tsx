@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 import { RelevantQAWidget } from "@/components/widgets/relevant-qa-widget"
 import { CompactServiceWidget } from "@/components/widgets/compact-service-widget"
 import { CTAWidget } from "@/components/widgets/cta-widget"

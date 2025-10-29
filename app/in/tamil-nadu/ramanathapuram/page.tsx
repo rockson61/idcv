@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { MapPin, Phone, Calendar, Navigation, Users, Building, CheckCircle, ArrowRight } from 'lucide-react'
 import { ModernCard, ModernCardContent, ModernCardHeader, ModernCardTitle } from '@/components/ui/modern-card'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { GoogleMapEmbed } from '@/components/location/GoogleMapEmbed'
 import { LocationHeader } from '@/components/location/LocationHeader'
 

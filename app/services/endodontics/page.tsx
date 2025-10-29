@@ -26,7 +26,7 @@ import { GlassCard } from "@/components/ui/glass-card"
 import { SectionContainer } from "@/components/ui/section-container"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 
 export const metadata: Metadata = {
   title: "Root Canal Treatment in Vellore | Endodontics | Dr. Rockson Samuel",

@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { SchemaMarkup } from "@/components/SchemaMarkup"
-import { FaqSchema } from "@/components/schema/faq-schema"
+import { FaqSchema } from '@/components/ask-dentist/faq-schema'
 import { ServiceSchema } from "@/components/schema/service-schema"
 
 interface PageSEOProps {

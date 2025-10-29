@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 import { GlassCard } from "@/components/ui/glass-card"
 import { Badge } from "@/components/ui/badge"
 import { AlertCircle, CheckCircle, Zap, Shield, Activity } from "lucide-react"

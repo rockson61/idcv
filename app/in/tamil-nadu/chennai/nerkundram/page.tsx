@@ -1,11 +1,11 @@
 import type { Metadata } from "next"
 import Link from "next/link"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 import { LocationHeader } from "@/components/location/LocationHeader"
 import { GoogleMapEmbed } from "@/components/location/GoogleMapEmbed"
 import { EnhancedServicesList } from "@/components/location/EnhancedServicesList"
 import { LocationReviews } from "@/components/location/LocationReviews"
-import { LocationFAQs } from "@/components/location/LocationFAQs"
+import { LocationFAQs } from '@/components/LocationFAQs'
 import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"

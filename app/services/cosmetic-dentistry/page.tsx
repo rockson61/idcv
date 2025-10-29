@@ -6,7 +6,7 @@ import { ModernCard, ModernCardContent, ModernCardDescription, ModernCardHeader,
 import { GlassCard } from "@/components/ui/glass-card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 import { ServiceReviews } from "@/components/ui/service-reviews"
 import { generateServiceReviews } from "@/lib/review-data"
 import { RelevantQAWidget } from "@/components/widgets/relevant-qa-widget"

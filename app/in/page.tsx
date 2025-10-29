@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { MapPin, Phone, Calendar, Star, Users, Shield, Award } from 'lucide-react'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Dental Services in undefined | Expert Dentist | Indira Dental Clinic',

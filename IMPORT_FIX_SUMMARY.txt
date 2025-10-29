@@ -1,0 +1,47 @@
+IMPORT FIX SUMMARY
+==================
+Scanned: 2555 files
+Fixed: 2302 files
+
+Import mappings applied:
+@/components/location/LocationFAQs → @/components/LocationFAQs
+../location/LocationFAQs → ../LocationFAQs
+./location/LocationFAQs → ./LocationFAQs
+@/components/schema/faq-schema → @/components/ask-dentist/faq-schema
+../schema/faq-schema → ../ask-dentist/faq-schema
+./schema/faq-schema → ./ask-dentist/faq-schema
+@/components/ui/breadcrumb → @/components/breadcrumb
+../ui/breadcrumb → ../breadcrumb
+./ui/breadcrumb → ./breadcrumb
+@/components/header → @/components/common/Header
+@/components/layout/header → @/components/common/Header
+../header → ../common/Header
+../layout/header → ../common/Header
+./header → ./common/Header
+./layout/header → ./common/Header
+@/components/sections/emergency-contact → @/components/emergency-contact
+../sections/emergency-contact → ../emergency-contact
+./sections/emergency-contact → ./emergency-contact
+@/components/sections/faq-section → @/components/faq-section
+../sections/faq-section → ../faq-section
+./sections/faq-section → ./faq-section
+@/components/layout/footer → @/components/footer
+../layout/footer → ../footer
+./layout/footer → ./footer
+@/components/sections/hero → @/components/hero
+../sections/hero → ../hero
+./sections/hero → ./hero
+@/components/schema/location-schema → @/components/location-schema
+../schema/location-schema → ../location-schema
+./schema/location-schema → ./location-schema
+@/components/schema-markup → @/components/schema/schema-markup
+../schema-markup → ../schema/schema-markup
+./schema-markup → ./schema/schema-markup
+@/components/testimonials → @/components/sections/testimonials
+../testimonials → ../sections/testimonials
+./testimonials → ./sections/testimonials
+@/components/why-choose-us → @/components/sections/why-choose-us
+../why-choose-us → ../sections/why-choose-us
+./why-choose-us → ./sections/why-choose-us
+
+Status: SUCCESS

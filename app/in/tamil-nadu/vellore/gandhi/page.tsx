@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { SectionContainer } from '@/components/ui/section-container'
 import { GlassCard } from '@/components/ui/glass-card'
 import { Badge } from '@/components/ui/badge'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Best Dentist in Gandhi Nagar, Vellore | Indira Dental Clinic | Dr. Rockson Samuel',

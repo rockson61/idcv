@@ -7,7 +7,7 @@ import { RelevantQAWidget } from "@/components/widgets/relevant-qa-widget"
 import { CompactServiceWidget } from "@/components/widgets/compact-service-widget"
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from "@/components/ui/modern-card"
 import { Button } from "@/components/ui/button"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 import { CheckCircle, Star, Shield, Clock, Users, Award, MapPin, Phone, Calendar, ArrowRight } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"

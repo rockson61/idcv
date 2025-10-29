@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { GlassPanel } from "@/components/ui/glass-panel"
 import { SectionContainer } from "@/components/ui/section-container"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 import { ServiceReviews } from "@/components/ui/service-reviews"
 import { generateServiceReviews } from "@/lib/review-data"
 

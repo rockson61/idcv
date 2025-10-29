@@ -4,7 +4,7 @@ import { Phone, Clock, MapPin, Users, CheckCircle, Smile, Calendar, Award } from
 import { GlassCard } from "@/components/ui/glass-card"
 import { SectionContainer } from "@/components/ui/section-container"
 import { Button } from "@/components/ui/button"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 
 export const metadata: Metadata = {
   title: "Prosthodontics in Vellore | Dentures, Partial Dentures & Prosthetic Solutions | Dr. Rockson Samuel",

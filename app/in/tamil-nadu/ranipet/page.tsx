@@ -7,7 +7,7 @@ import { EnhancedServicesList } from "@/components/location/EnhancedServicesList
 import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
 import { WhyChooseUs } from "@/components/location/WhyChooseUs"
 import { LocationReviews } from "@/components/location/LocationReviews"
-import { LocationFAQs } from "@/components/location/LocationFAQs"
+import { LocationFAQs } from '@/components/LocationFAQs'
 import { NearbyLocationsWidget } from "@/components/location/NearbyLocationsWidget"
 import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
 

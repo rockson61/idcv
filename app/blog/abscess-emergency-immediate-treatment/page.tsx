@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ModernCard, ModernCardContent } from '@/components/ui/modern-card'
 import { Badge } from '@/components/ui/badge'
-import { Breadcrumb } from '@/components/ui/breadcrumb'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { Calendar, User, ArrowRight, AlertCircle } from 'lucide-react'
 
 const category = 'Emergency Dentistry'

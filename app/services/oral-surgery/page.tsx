@@ -4,7 +4,7 @@ import { Phone, Clock, MapPin, Shield, CheckCircle, AlertTriangle, Calendar } fr
 import { GlassCard } from "@/components/ui/glass-card"
 import { SectionContainer } from "@/components/ui/section-container"
 import { Button } from "@/components/ui/button"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 
 export const metadata: Metadata = {
   title: "Oral Surgery Services in Vellore | Tooth Extraction & Surgical Procedures | Dr. Rockson Samuel",

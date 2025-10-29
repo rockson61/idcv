@@ -5,7 +5,7 @@ import { MapPin, Star, Phone, Clock, CheckCircle, Shield, Award, Users, Stethosc
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from "@/components/ui/modern-card"
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Find Dentist Near Me | Best Dental Clinics in Your Area | Indira Dental Clinic',

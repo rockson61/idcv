@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { ModernCard, ModernCardContent, ModernCardDescription, ModernCardHeader, ModernCardTitle } from "@/components/ui/modern-card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Breadcrumb } from "@/components/ui/breadcrumb"
+import { Breadcrumb } from '@/components/breadcrumb'
 import { RelevantQAWidget } from "@/components/widgets/relevant-qa-widget"
 import { ConditionWidget } from "@/components/widgets/condition-widget"
 import { ServiceReviews } from "@/components/ui/service-reviews"

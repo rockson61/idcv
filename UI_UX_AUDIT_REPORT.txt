@@ -1,0 +1,563 @@
+UI/UX CONSISTENCY AUDIT REPORT
+================================
+Generated: 2025-10-29T04:41:16.327Z
+
+COMPONENT STRUCTURE ANALYSIS
+----------------------------
+
+Total components scanned: 218
+Duplicate components detected: 13
+
+DUPLICATE COMPONENTS (MERGE REQUIRED):
+
+1. Component: locationfaqs
+   Files:
+   - components/LocationFAQs.tsx
+   - components/location/LocationFAQs.tsx
+   Action: MERGE → Keep components/LocationFAQs.tsx, delete others
+
+2. Component: faq-schema
+   Files:
+   - components/ask-dentist/faq-schema.tsx
+   - components/schema/faq-schema.tsx
+   Action: MERGE → Keep components/ask-dentist/faq-schema.tsx, delete others
+
+3. Component: breadcrumb
+   Files:
+   - components/breadcrumb.tsx
+   - components/ui/breadcrumb.tsx
+   Action: MERGE → Keep components/breadcrumb.tsx, delete others
+
+4. Component: header
+   Files:
+   - components/common/Header.tsx
+   - components/header.tsx
+   - components/layout/header.tsx
+   Action: MERGE → Keep components/common/Header.tsx, delete others
+
+5. Component: emergency-contact
+   Files:
+   - components/emergency-contact.tsx
+   - components/sections/emergency-contact.tsx
+   Action: MERGE → Keep components/emergency-contact.tsx, delete others
+
+6. Component: faq-section
+   Files:
+   - components/faq-section.tsx
+   - components/sections/faq-section.tsx
+   Action: MERGE → Keep components/faq-section.tsx, delete others
+
+7. Component: footer
+   Files:
+   - components/footer.tsx
+   - components/layout/footer.tsx
+   Action: MERGE → Keep components/footer.tsx, delete others
+
+8. Component: hero
+   Files:
+   - components/hero.tsx
+   - components/sections/hero.tsx
+   Action: MERGE → Keep components/hero.tsx, delete others
+
+9. Component: location-schema
+   Files:
+   - components/location-schema.tsx
+   - components/schema/location-schema.tsx
+   Action: MERGE → Keep components/location-schema.tsx, delete others
+
+10. Component: schema-markup
+   Files:
+   - components/schema/schema-markup.tsx
+   - components/schema-markup.tsx
+   Action: MERGE → Keep components/schema/schema-markup.tsx, delete others
+
+11. Component: service-schema
+   Files:
+   - components/schema/service-schema.tsx
+   - components/seo/service-schema.tsx
+   Action: MERGE → Keep components/schema/service-schema.tsx, delete others
+
+12. Component: testimonials
+   Files:
+   - components/sections/testimonials.tsx
+   - components/testimonials.tsx
+   Action: MERGE → Keep components/sections/testimonials.tsx, delete others
+
+13. Component: why-choose-us
+   Files:
+   - components/sections/why-choose-us.tsx
+   - components/why-choose-us.tsx
+   Action: MERGE → Keep components/sections/why-choose-us.tsx, delete others
+
+
+UI DESIGN SYSTEM ANALYSIS
+-------------------------
+
+Font patterns in use: 1
+font-mono
+
+Color patterns in use: 101
+Primary colors detected: teal, blue, amber, gray
+bg-blue-50, bg-gray-50, text-blue-600, text-gray-600, text-blue-500, text-gray-700, text-green-500, bg-blue-100, text-blue-800, bg-gray-100, text-gray-400, text-gray-500, text-gray-900, text-green-600, text-teal-600, bg-green-100, text-green-700, border-green-300, bg-green-50, bg-green-600, bg-green-700, border-red-200, text-red-600, border-red-300, text-red-700, text-red-500, border-green-200, bg-red-600, bg-red-700, bg-teal-50
+
+Spacing patterns: 33
+Common: p-4, p-6, p-8, gap-4, space-y-4
+
+Inline style violations: 16
+- components/booking-widget.tsx: REFACTOR → Use Tailwind utilities
+- components/clinic-info-card.tsx: REFACTOR → Use Tailwind utilities
+- components/doctor-profile.tsx: REFACTOR → Use Tailwind utilities
+- components/enhanced-breadcrumbs.tsx: REFACTOR → Use Tailwind utilities
+- components/header.tsx: REFACTOR → Use Tailwind utilities
+- components/hero.tsx: REFACTOR → Use Tailwind utilities
+- components/layout/footer.tsx: REFACTOR → Use Tailwind utilities
+- components/location/GoogleMapEmbed.tsx: REFACTOR → Use Tailwind utilities
+- components/map.tsx: REFACTOR → Use Tailwind utilities
+- components/sections/clinics-overview.tsx: REFACTOR → Use Tailwind utilities
+
+LAYOUT & ROUTING ANALYSIS
+-------------------------
+
+Total pages: 2396
+Layout files: 1
+
+Global layout structure:
+- Root layout: app/layout.tsx
+- Header: Defined globally
+- Footer: Defined globally
+- Consistent across all routes: VERIFIED
+
+COMPONENT INTEGRITY
+------------------
+
+Broken imports detected: 0
+
+
+UNUSED COMPONENTS (CLEANUP REQUIRED)
+------------------------------------
+
+Total unused: 113
+
+1. components/AIAssistantButton.tsx (0.83KB)
+   Action: ARCHIVE_OR_DELETE
+
+2. components/CurrencyCalculator.tsx (4.64KB)
+   Action: ARCHIVE_OR_DELETE
+
+3. components/DentistProfileWidget.tsx (5.04KB)
+   Action: ARCHIVE_OR_DELETE
+
+4. components/LocationContent.tsx (2.01KB)
+   Action: ARCHIVE_OR_DELETE
+
+5. components/LocationPageTemplate.tsx (10.02KB)
+   Action: ARCHIVE_OR_DELETE
+
+6. components/LocationPricingTable.tsx (4.18KB)
+   Action: ARCHIVE_OR_DELETE
+
+7. components/LocationSchema.tsx (0.58KB)
+   Action: ARCHIVE_OR_DELETE
+
+8. components/MultiCurrencyPricingTable.tsx (5.20KB)
+   Action: ARCHIVE_OR_DELETE
+
+9. components/NearbyCities.tsx (0.69KB)
+   Action: ARCHIVE_OR_DELETE
+
+10. components/PricingTable.tsx (5.16KB)
+   Action: ARCHIVE_OR_DELETE
+
+11. components/SubLocationPageTemplate.tsx (9.89KB)
+   Action: ARCHIVE_OR_DELETE
+
+12. components/TestimonialCarousel.tsx (3.50KB)
+   Action: ARCHIVE_OR_DELETE
+
+13. components/TreatmentComparisonTable.tsx (8.00KB)
+   Action: ARCHIVE_OR_DELETE
+
+14. components/TreatmentsAndConditions.tsx (1.69KB)
+   Action: ARCHIVE_OR_DELETE
+
+15. components/affordable-dentistry-banner.tsx (3.08KB)
+   Action: ARCHIVE_OR_DELETE
+
+16. components/appointment-booking-system.tsx (21.74KB)
+   Action: ARCHIVE_OR_DELETE
+
+17. components/areas-we-serve.tsx (2.73KB)
+   Action: ARCHIVE_OR_DELETE
+
+18. components/ask-dentist/replies-section.tsx (10.33KB)
+   Action: ARCHIVE_OR_DELETE
+
+19. components/before-after-gallery.tsx (8.57KB)
+   Action: ARCHIVE_OR_DELETE
+
+20. components/blog/blog-author-card.tsx (2.01KB)
+   Action: ARCHIVE_OR_DELETE
+
+
+... and 93 more
+
+
+LARGE COMPONENTS (REFACTOR REQUIRED)
+------------------------------------
+
+Components exceeding 500 lines: 5
+
+1. components/appointment-booking-system.tsx
+   Lines: 521
+   Size: 21.74KB
+   Action: SPLIT_INTO_SMALLER_MODULES
+
+2. components/custom-google-map.tsx
+   Lines: 1697
+   Size: 62.13KB
+   Action: SPLIT_INTO_SMALLER_MODULES
+
+3. components/footer.tsx
+   Lines: 1754
+   Size: 77.44KB
+   Action: SPLIT_INTO_SMALLER_MODULES
+
+4. components/location-map.tsx
+   Lines: 888
+   Size: 24.99KB
+   Action: SPLIT_INTO_SMALLER_MODULES
+
+5. components/sections/locations-section.tsx
+   Lines: 504
+   Size: 22.25KB
+   Action: SPLIT_INTO_SMALLER_MODULES
+
+
+DESIGN TOKEN BASELINE
+--------------------
+
+Existing design system files:
+- app/globals.css: EXISTS
+- tailwind.config: MISSING
+- lib/design-tokens.ts: EXISTS
+- lib/design-system.ts: EXISTS
+
+PRIMARY DESIGN TOKENS DETECTED:
+
+Colors:
+- Primary: teal-600, teal-700
+- Secondary: blue-500, blue-600
+- Accent: amber-600, yellow-600
+- Neutral: gray-50 through gray-900
+
+Typography:
+- Sans: Inter (default)
+- Headings: Exo 2
+- Base size: 16px
+- Scale: Tailwind default
+
+Spacing:
+- Base unit: 4px
+- Common: 4, 6, 8, 12, 16, 24
+
+Borders:
+- Radius: rounded, rounded-lg, rounded-xl
+- Width: border, border-2
+
+ACTIONABLE DIRECTIVES
+--------------------
+
+PRIORITY 1: ELIMINATE DUPLICATES
+
+1. MERGE locationfaqs
+   DELETE: components/location/LocationFAQs.tsx
+   KEEP: components/LocationFAQs.tsx
+   UPDATE ALL IMPORTS → components/LocationFAQs.tsx
+
+2. MERGE faq-schema
+   DELETE: components/schema/faq-schema.tsx
+   KEEP: components/ask-dentist/faq-schema.tsx
+   UPDATE ALL IMPORTS → components/ask-dentist/faq-schema.tsx
+
+3. MERGE breadcrumb
+   DELETE: components/ui/breadcrumb.tsx
+   KEEP: components/breadcrumb.tsx
+   UPDATE ALL IMPORTS → components/breadcrumb.tsx
+
+4. MERGE header
+   DELETE: components/header.tsx, components/layout/header.tsx
+   KEEP: components/common/Header.tsx
+   UPDATE ALL IMPORTS → components/common/Header.tsx
+
+5. MERGE emergency-contact
+   DELETE: components/sections/emergency-contact.tsx
+   KEEP: components/emergency-contact.tsx
+   UPDATE ALL IMPORTS → components/emergency-contact.tsx
+
+6. MERGE faq-section
+   DELETE: components/sections/faq-section.tsx
+   KEEP: components/faq-section.tsx
+   UPDATE ALL IMPORTS → components/faq-section.tsx
+
+7. MERGE footer
+   DELETE: components/layout/footer.tsx
+   KEEP: components/footer.tsx
+   UPDATE ALL IMPORTS → components/footer.tsx
+
+8. MERGE hero
+   DELETE: components/sections/hero.tsx
+   KEEP: components/hero.tsx
+   UPDATE ALL IMPORTS → components/hero.tsx
+
+9. MERGE location-schema
+   DELETE: components/schema/location-schema.tsx
+   KEEP: components/location-schema.tsx
+   UPDATE ALL IMPORTS → components/location-schema.tsx
+
+10. MERGE schema-markup
+   DELETE: components/schema-markup.tsx
+   KEEP: components/schema/schema-markup.tsx
+   UPDATE ALL IMPORTS → components/schema/schema-markup.tsx
+
+
+PRIORITY 2: REMOVE UNUSED COMPONENTS
+
+1. DELETE components/AIAssistantButton.tsx (saves 0.83KB)
+2. DELETE components/CurrencyCalculator.tsx (saves 4.64KB)
+3. DELETE components/DentistProfileWidget.tsx (saves 5.04KB)
+4. DELETE components/LocationContent.tsx (saves 2.01KB)
+5. DELETE components/LocationPageTemplate.tsx (saves 10.02KB)
+6. DELETE components/LocationPricingTable.tsx (saves 4.18KB)
+7. DELETE components/LocationSchema.tsx (saves 0.58KB)
+8. DELETE components/MultiCurrencyPricingTable.tsx (saves 5.20KB)
+9. DELETE components/NearbyCities.tsx (saves 0.69KB)
+10. DELETE components/PricingTable.tsx (saves 5.16KB)
+11. DELETE components/SubLocationPageTemplate.tsx (saves 9.89KB)
+12. DELETE components/TestimonialCarousel.tsx (saves 3.50KB)
+13. DELETE components/TreatmentComparisonTable.tsx (saves 8.00KB)
+14. DELETE components/TreatmentsAndConditions.tsx (saves 1.69KB)
+15. DELETE components/affordable-dentistry-banner.tsx (saves 3.08KB)
+
+
+PRIORITY 3: REFACTOR LARGE COMPONENTS
+
+1. SPLIT components/appointment-booking-system.tsx
+   Current: 521 lines
+   Target: < 300 lines per module
+   Extract: Separate concerns into sub-components
+
+2. SPLIT components/custom-google-map.tsx
+   Current: 1697 lines
+   Target: < 300 lines per module
+   Extract: Separate concerns into sub-components
+
+3. SPLIT components/footer.tsx
+   Current: 1754 lines
+   Target: < 300 lines per module
+   Extract: Separate concerns into sub-components
+
+4. SPLIT components/location-map.tsx
+   Current: 888 lines
+   Target: < 300 lines per module
+   Extract: Separate concerns into sub-components
+
+5. SPLIT components/sections/locations-section.tsx
+   Current: 504 lines
+   Target: < 300 lines per module
+   Extract: Separate concerns into sub-components
+
+
+PRIORITY 4: STANDARDIZE INLINE STYLES
+
+1. components/booking-widget.tsx
+   Replace style={{}} with Tailwind classes
+
+2. components/clinic-info-card.tsx
+   Replace style={{}} with Tailwind classes
+
+3. components/doctor-profile.tsx
+   Replace style={{}} with Tailwind classes
+
+4. components/enhanced-breadcrumbs.tsx
+   Replace style={{}} with Tailwind classes
+
+5. components/header.tsx
+   Replace style={{}} with Tailwind classes
+
+6. components/hero.tsx
+   Replace style={{}} with Tailwind classes
+
+7. components/layout/footer.tsx
+   Replace style={{}} with Tailwind classes
+
+8. components/location/GoogleMapEmbed.tsx
+   Replace style={{}} with Tailwind classes
+
+9. components/map.tsx
+   Replace style={{}} with Tailwind classes
+
+10. components/sections/clinics-overview.tsx
+   Replace style={{}} with Tailwind classes
+
+
+RECOMMENDED FILE STRUCTURE
+--------------------------
+
+components/
+├── ui/              (24 primitive components - KEEP)
+│   ├── button.tsx
+│   ├── card.tsx
+│   ├── input.tsx
+│   └── ...
+├── layout/          (2 files - CONSOLIDATE duplicates)
+│   ├── header.tsx   (DELETE: components/header.tsx, components/common/Header.tsx)
+│   └── footer.tsx   (DELETE: components/footer.tsx)
+├── sections/        (26 components - KEEP, review duplicates)
+│   ├── hero.tsx     (DELETE: components/hero.tsx)
+│   ├── cta-section.tsx
+│   └── ...
+├── widgets/         (4 active widgets - KEEP)
+│   ├── cta-widget.tsx
+│   ├── compact-service-widget.tsx
+│   ├── relevant-qa-widget.tsx
+│   └── condition-widget.tsx
+├── location/        (12 components - CONSOLIDATE duplicates)
+│   ├── LocationFAQs.tsx  (DELETE: components/LocationFAQs.tsx)
+│   └── ...
+├── schema/          (12 components - CONSOLIDATE duplicates)
+│   ├── location-schema.tsx  (DELETE: components/location-schema.tsx)
+│   └── ...
+└── seo/             (6 components - KEEP)
+
+DESIGN SYSTEM NORMALIZATION
+---------------------------
+
+SOURCE OF TRUTH:
+File: lib/design-tokens.ts
+Contains: Colors, typography, spacing, borders
+
+ENFORCEMENT:
+1. All new components MUST import from design-tokens.ts
+2. NO inline styles permitted
+3. Tailwind classes ONLY from approved token set
+4. Custom CSS restricted to app/globals.css
+
+TYPOGRAPHY STANDARD:
+- Headings: font-exo (Exo 2)
+- Body: font-inter (Inter)
+- Size scale: text-sm, text-base, text-lg, text-xl, text-2xl, text-3xl, text-4xl, text-5xl
+- Weight: font-normal (400), font-medium (500), font-semibold (600), font-bold (700)
+
+COLOR STANDARD:
+- Primary: teal-600 (actions), teal-700 (hover)
+- Secondary: blue-500, blue-600
+- Accent: amber-600
+- Neutrals: gray-50 to gray-900
+- Success: green-600
+- Error: red-600
+- Warning: yellow-600
+
+SPACING STANDARD:
+- Component padding: p-6, p-8
+- Section spacing: mb-12, mb-16
+- Grid gaps: gap-4, gap-6, gap-8
+- Stack spacing: space-y-4, space-y-6
+
+COMPONENT CONSISTENCY RULES
+---------------------------
+
+BUTTONS:
+Standard: components/ui/button.tsx
+Variants: default, outline, ghost
+Sizes: sm, default, lg
+NO custom button components outside ui/button.tsx
+
+CARDS:
+Standard: components/ui/modern-card.tsx
+Variants: default, glass
+NO inline card styling
+
+INPUTS/FORMS:
+Standard: components/ui/input.tsx, components/ui/select.tsx
+ALL forms use these primitives
+
+NAVIGATION:
+Header: components/layout/header.tsx (DELETE all duplicates)
+Footer: components/layout/footer.tsx (DELETE all duplicates)
+Breadcrumb: components/ui/breadcrumb.tsx (DELETE components/breadcrumb.tsx)
+
+ACCESSIBILITY REQUIREMENTS
+--------------------------
+
+MANDATORY:
+- ALL images: alt attribute
+- ALL buttons: aria-label or text content
+- ALL interactive: keyboard accessible
+- ALL forms: label elements
+- Color contrast: WCAG AA minimum
+
+RESPONSIVE BREAKPOINTS:
+- Mobile first design
+- Breakpoints: sm (640px), md (768px), lg (1024px), xl (1280px)
+- ALL components test at: 375px, 768px, 1024px, 1440px
+
+PERFORMANCE DIRECTIVES
+----------------------
+
+LAZY LOAD:
+- footer.tsx (1754 lines) → SPLIT first, then lazy load sections
+- locations-section.tsx (504 lines) → SPLIT into grid + items
+
+DYNAMIC IMPORT:
+- Heavy widgets (> 100KB)
+- Maps components
+- Analytics scripts
+
+CODE SPLITTING:
+- Route-based automatic (Next.js default)
+- Component-based via dynamic()
+
+CLEANUP ACTIONS (EXECUTE IMMEDIATELY)
+-------------------------------------
+
+STEP 1: Delete duplicate components (13 sets)
+STEP 2: Archive unused components (113 files)
+STEP 3: Split large files (5 files)
+STEP 4: Remove inline styles (16 occurrences)
+STEP 5: Fix broken imports (0 instances)
+STEP 6: Standardize to design tokens
+
+ESTIMATED BUNDLE REDUCTION: 491KB
+
+FINAL PROJECT STRUCTURE
+-----------------------
+
+KEEP:
+- app/ (2396 pages)
+- components/ui/ (24 primitives)
+- components/widgets/ (4 active)
+- components/sections/ (26 sections, merge duplicates)
+- components/layout/ (2 files, delete duplicates)
+- components/location/ (12 files, merge duplicates)
+- components/schema/ (12 files, merge duplicates)
+- lib/design-tokens.ts
+- lib/design-system.ts
+
+DELETE:
+- components/header.tsx (duplicate)
+- components/footer.tsx (duplicate)
+- components/hero.tsx (duplicate)
+- components/breadcrumb.tsx (duplicate)
+- components/LocationFAQs.tsx (duplicate)
+- (8 more duplicates)
+
+ARCHIVE:
+- 113 unused components
+- 0 large unused files
+
+MECHANICAL AUDIT COMPLETE
+=========================
+Next action: Execute cleanup directives
+Timeline: 4-6 hours for full normalization
+Risk: Low (all changes reversible via git)
+Expected outcome: 15-20% bundle reduction, unified UX

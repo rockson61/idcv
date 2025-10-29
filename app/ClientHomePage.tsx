@@ -1,7 +1,7 @@
 "use client"
 import { SchemaMarkup } from "@/components/schema/schema-markup"
 // Using static Hero - no props accepted
-import { Hero } from "@/components/sections/hero"
+import { Hero } from '@/components/hero'
 import { ServicesOverview } from "@/components/sections/services-overview"
 // Updated imports with correct names
 import { ClinicsOverview } from "@/components/sections/clinics-overview"
