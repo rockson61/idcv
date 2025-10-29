@@ -2,8 +2,8 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter, Exo_2 } from "next/font/google"
 import "./globals.css"
-import { Header } from '@/components/common/Header'
-import { Footer } from '@/components/footer'
+import { Header } from "@/components/layout/header"
+import { Footer } from "@/components/layout/footer"
 import { ConnectWithDentist } from "@/components/sections/connect-with-dentist"
 import { GlobalSchema } from "@/components/schema/GlobalSchema"
 import { Analytics } from "@vercel/analytics/next"
