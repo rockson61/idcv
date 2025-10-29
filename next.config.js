@@ -7,7 +7,7 @@ const nextConfig = {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
     parallelServerCompiles: true,
     parallelServerBuildTraces: true,
-    optimizeCss: true,
+    // optimizeCss: true, // Disabled - requires 'critters' module
   },
   
   // Output file tracing - Silence lockfile warnings
