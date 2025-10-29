@@ -79,3 +79,13 @@ logs
 # *.mov
 # *.avi
 .pnpm-store/
+
+# Archive directory (old scripts, docs, logs)
+.archive/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
