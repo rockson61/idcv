@@ -8,9 +8,6 @@ const nextConfig = {
     parallelServerCompiles: true,
     parallelServerBuildTraces: true,
     optimizeCss: true,
-    turbopack: {
-      root: process.cwd(),
-    },
   },
   
   // Output file tracing - Silence lockfile warnings

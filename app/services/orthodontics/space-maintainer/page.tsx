@@ -398,6 +398,7 @@ export default function SpaceMaintainerPage() {
 
           {/* Internal Linking Widgets */}
           <RelevantQAWidget 
+            title="Common Questions About Space Maintainer"
             questions={[
               {
                 id: 'qa-1',

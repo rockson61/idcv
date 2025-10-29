@@ -427,6 +427,7 @@ export default function PocketReductionSurgeryPage() {
 
           {/* Internal Linking Widgets */}
           <RelevantQAWidget 
+            title="Common Questions About Pocket Reduction Surgery"
             questions={[
               {
                 id: 'qa-1',
