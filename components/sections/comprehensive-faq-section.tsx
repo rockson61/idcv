@@ -208,7 +208,7 @@ export function ComprehensiveFAQSection({ locationName = "Vellore" }: Comprehens
 
           {/* Dental Knowledge Hub */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Dental Knowledge Hub - Keyword Clusters</h3>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">Top Dental Clinic Near Me India</h2>
             
             {/* Location Services */}
             <ModernCard className="mb-6">
