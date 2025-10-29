@@ -36,6 +36,27 @@ eslint: {
 
 ## 📋 Known Errors (To Be Fixed Post-Deployment)
 
+### 0. Critters Module Missing (Build Error)
+**Status**: ✅ FIXED (disabled feature)
+
+**Error**:
+```
+Error: Cannot find module 'critters'
+Error occurred prerendering page "/404"
+```
+
+**Root Cause**: `experimental.optimizeCss` requires the `critters` package which was not installed.
+
+**Solution Applied**: Disabled `optimizeCss` in `next.config.js`
+
+**Alternative Fix** (for later):
+```bash
+pnpm add -D critters
+# Then re-enable: optimizeCss: true
+```
+
+---
+
 ### 1. RelevantQAWidget Type Errors
 **Status**: ✅ FIXED (but logged here for reference)
 
