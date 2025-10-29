@@ -400,19 +400,31 @@ export default function SpaceMaintainerPage() {
           <RelevantQAWidget 
             questions={[
               {
+                id: 'qa-1',
                 title: "What Causes Teeth Crowding and How is it Treated?",
-                // url: "/ask-the-dentist/teeth-crowding-causes-treatment",
-                helpfulVotes: 38
+                slug: 'teeth-crowding-causes-treatment',
+                excerpt: "What Causes Teeth Crowding and How is it Treated?",
+                helpfulVotes: 38,
+                views: 2075,
+                createdAt: '2023-12-20T10:30:00Z'
               },
               {
+                id: 'qa-2',
                 title: "What is Malocclusion and What are the Different Types?",
-                url: "/ask-the-dentist/malocclusion-types-treatment", 
-                helpfulVotes: 42
+                slug: 'malocclusion-types-treatment',
+                excerpt: "What is Malocclusion and What are the Different Types?",
+                helpfulVotes: 42,
+                views: 804,
+                createdAt: '2023-12-20T10:30:00Z'
               },
               {
+                id: 'qa-3',
                 title: "How Do I Care for My Teeth While Wearing Braces?",
-                url: "/ask-the-dentist/braces-oral-hygiene-care",
-                helpfulVotes: 55
+                slug: 'braces-oral-hygiene-care',
+                excerpt: "How Do I Care for My Teeth While Wearing Braces?",
+                helpfulVotes: 55,
+                views: 642,
+                createdAt: '2023-12-20T10:30:00Z'
               }
             ]}
           />

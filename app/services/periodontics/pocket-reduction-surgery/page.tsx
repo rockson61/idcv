@@ -429,19 +429,31 @@ export default function PocketReductionSurgeryPage() {
           <RelevantQAWidget 
             questions={[
               {
+                id: 'qa-1',
                 title: "What is Periodontal Disease and How is it Treated?",
-                url: "/ask-the-dentist/periodontal-disease-treatment",
-                helpfulVotes: 48
+                slug: 'periodontal-disease-treatment',
+                excerpt: "What is Periodontal Disease and How is it Treated?",
+                helpfulVotes: 48,
+                views: 812,
+                createdAt: '2023-12-20T10:30:00Z'
               },
               {
+                id: 'qa-2',
                 title: "What Causes Receding Gums and How Can They be Treated?",
-                url: "/ask-the-dentist/receding-gums-causes-treatment", 
-                helpfulVotes: 52
+                slug: 'receding-gums-causes-treatment',
+                excerpt: "What Causes Receding Gums and How Can They be Treated?",
+                helpfulVotes: 52,
+                views: 2394,
+                createdAt: '2023-12-20T10:30:00Z'
               },
               {
+                id: 'qa-3',
                 title: "What Causes Tooth Sensitivity and How Can it be Treated?",
-                url: "/ask-the-dentist/tooth-sensitivity-causes-treatment",
-                helpfulVotes: 61
+                slug: 'tooth-sensitivity-causes-treatment',
+                excerpt: "What Causes Tooth Sensitivity and How Can it be Treated?",
+                helpfulVotes: 61,
+                views: 1449,
+                createdAt: '2023-12-20T10:30:00Z'
               }
             ]}
           />

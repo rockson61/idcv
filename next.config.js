@@ -8,7 +8,13 @@ const nextConfig = {
     parallelServerCompiles: true,
     parallelServerBuildTraces: true,
     optimizeCss: true,
+    turbopack: {
+      root: process.cwd(),
+    },
   },
+  
+  // Output file tracing - Silence lockfile warnings
+  outputFileTracingRoot: __dirname,
   
   // SWC minification is enabled by default in Next.js 15
   // No need to specify swcMinify option
