@@ -36,10 +36,39 @@ function walk(dir, acc = []) {
   return acc;
 }
 
-function ensureImport(src, symbol, from) {
+const barrelFrom = "@/components/location";
+const barrelSymbols = new Set([
+  'GoogleMapEmbed',
+  'LocalAmenitiesMap',
+  'LocationReviews',
+  'LocationFAQs',
+  'LocationHeader',
+  'NearbyLocationsWidget',
+  'EnhancedServicesList',
+  'TravelInfoCard',
+  'PriceComparisonTable',
+  'WhyChooseUs',
+]);
+
+function hasNamedImport(src, symbol, from) {
   const re = new RegExp(`import\\s*\\{[^}]*\\b${symbol}\\b[^}]*\\}\\s*from\\s*['\"]${from}['\"]`);
-  if (re.test(src)) return src;
-  return `import { ${symbol} } from '${from}'\n` + src;
+  return re.test(src);
+}
+
+function ensureImport(src, symbol, from) {
+  // If a barrel import exists for this symbol, skip adding individual import to avoid duplicates
+  if (barrelSymbols.has(symbol) && hasNamedImport(src, symbol, barrelFrom)) return src;
+  if (hasNamedImport(src, symbol, from)) return src;
+  // Insert after the last import statement
+  const importEnd = (() => {
+    const matches = [...src.matchAll(/^import[^\n]*\n/gm)];
+    if (matches.length) {
+      const m = matches[matches.length - 1];
+      return m.index + m[0].length;
+    }
+    return 0;
+  })();
+  return src.slice(0, importEnd) + `import { ${symbol} } from '${from}'\n` + src.slice(importEnd);
 }
 
 function hasJsx(src, name) {
@@ -54,6 +83,30 @@ function insertBeforeClosingContainer(src, snippet) {
   return src.slice(0, idx) + snippet + src.slice(idx);
 }
 
+function isRedirectOnlyPage(src) {
+  // Heuristic: default export function contains redirect( and no 'return (' before its closing brace
+  const defIdx = src.indexOf('export default function');
+  if (defIdx === -1) return false;
+  const bodyStart = src.indexOf('{', defIdx);
+  if (bodyStart === -1) return false;
+  // naive brace matching
+  let depth = 0;
+  for (let i = bodyStart; i < src.length; i++) {
+    if (src[i] === '{') depth++;
+    else if (src[i] === '}') {
+      depth--;
+      if (depth === 0) {
+        const body = src.slice(bodyStart + 1, i);
+        if (/redirect\s*\(/.test(body) && !/return\s*\(/.test(body)) {
+          return { endIndex: i + 1 };
+        }
+        return false;
+      }
+    }
+  }
+  return false;
+}
+
 function main() {
   if (!fs.existsSync(APP_DIR)) {
     console.error('No app/in directory found');
@@ -63,6 +116,17 @@ function main() {
   let changed = 0;
   for (const file of pages) {
     let src = fs.readFileSync(file, 'utf8');
+
+    // If page is redirect-only, do not inject JSX. Also strip any stray JSX appended after the function.
+    const redirectInfo = isRedirectOnlyPage(src);
+    if (redirectInfo) {
+      // Trim any content after default export function closing brace
+      src = src.slice(0, redirectInfo.endIndex) + '\n';
+      // Ensure we didn't accidentally add duplicate imports previously: no change to imports here
+      fs.writeFileSync(file, src);
+      changed++;
+      continue;
+    }
 
     // Ensure compat import for generators exists when we add LocationFAQs
     if (!/generateDefaultFAQs/.test(src)) {

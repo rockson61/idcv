@@ -56,6 +56,10 @@ function main() {
   const rows = [];
   for (const file of pages) {
     const src = fs.readFileSync(file, 'utf8');
+    // Skip redirect-only pages from audit
+    if (/export\s+default\s+function[\s\S]*?\{[\s\S]*?redirect\s*\([\s\S]*?\)[\s\S]*?\}(?![\s\S]*?return\s*\()/.test(src)) {
+      continue;
+    }
     const missingImports = requiredImports.filter(r => !hasImport(src, r.symbol, r.from));
     const missingJsx = requiredJsx.filter(n => !hasJsx(src, n));
     if (missingImports.length || missingJsx.length) {
