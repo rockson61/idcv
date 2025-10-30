@@ -1,13 +1,13 @@
 #!/usr/bin/env node
-// Recreate ALL location pages under app/in/** with a safe template
+// Recreate ALL location pages under app/in/** with a safe template - NO TDZ, NO EDGE RUNTIME
 const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const APP_IN = path.resolve(ROOT, 'app', 'in');
-const recreateOne = require('./recreate-location-page.js');
 
 function walk(dir, acc = []) {
+  if (!fs.existsSync(dir)) return acc;
   const entries = fs.readdirSync(dir, { withFileTypes: true });
   for (const e of entries) {
     const p = path.join(dir, e.name);
@@ -17,39 +17,45 @@ function walk(dir, acc = []) {
   return acc;
 }
 
-function main() {
-  if (!fs.existsSync(APP_IN)) {
-    console.error('No app/in directory found');
-    process.exit(1);
+function humanize(slug) {
+  if (!slug) return '';
+  return slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function buildBreadcrumbItems(stateSlug, cityOrDistrictSlug, areaSlug, relPath) {
+  const items = [
+    { title: 'Home', href: '/' },
+    { title: 'India', href: '/in' },
+  ];
+  
+  const stateName = humanize(stateSlug);
+  items.push({ title: stateName, href: `/in/${stateSlug}` });
+  
+  if (cityOrDistrictSlug && areaSlug !== cityOrDistrictSlug) {
+    const cityName = humanize(cityOrDistrictSlug);
+    items.push({ title: cityName, href: `/in/${stateSlug}/${cityOrDistrictSlug}` });
   }
-  const pages = walk(APP_IN);
-  let recreated = 0;
-  for (const file of pages) {
-    try {
-      // Recreate in-place; import the script as a module isn't straightforward; replicate minimal logic
-      const rel = path.relative(ROOT, file);
-      const parts = rel.split(path.sep);
-      const idxIn = parts.indexOf('in');
-      const stateSlug = parts[idxIn + 1];
-      const next = parts[idxIn + 2];
-      let cityOrDistrictSlug = undefined;
-      let areaSlug = undefined;
-      if (parts.length - 1 === idxIn + 2) {
-        cityOrDistrictSlug = undefined;
-        areaSlug = stateSlug;
-      } else if (parts.length - 1 === idxIn + 3) {
-        cityOrDistrictSlug = undefined;
-        areaSlug = next;
-      } else {
-        cityOrDistrictSlug = next;
-        areaSlug = parts[idxIn + 3];
-      }
-      const relPath = rel.replace(/^app\//, '');
-      const humanize = s => s.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-      const stateName = humanize(stateSlug);
-      const cityName = humanize(cityOrDistrictSlug || stateSlug);
-      const locationName = humanize(areaSlug || cityOrDistrictSlug || stateSlug);
-      const content = `import { Breadcrumb } from '@/components/breadcrumb'
+  
+  if (areaSlug && areaSlug !== stateSlug && areaSlug !== cityOrDistrictSlug) {
+    const areaName = humanize(areaSlug);
+    const cleanPath = relPath.replace(/^app\//, '').replace(/\/page\.tsx$/, '');
+    items.push({ title: areaName, href: `/${cleanPath}` });
+  }
+  
+  return items;
+}
+
+function buildTemplate(stateSlug, cityOrDistrictSlug, areaSlug, relPath) {
+  const stateName = humanize(stateSlug);
+  const cityName = humanize(cityOrDistrictSlug || stateSlug);
+  const locationName = humanize(areaSlug || cityOrDistrictSlug || stateSlug);
+  const breadcrumbItems = buildBreadcrumbItems(stateSlug, cityOrDistrictSlug, areaSlug, relPath);
+  
+  const breadcrumbStr = breadcrumbItems.map(item => 
+    `            { title: '${item.title}', href: '${item.href}' }`
+  ).join(',\n');
+  
+  return `import { Breadcrumb } from '@/components/breadcrumb'
 import { LocationHeader } from '@/components/location/LocationHeader'
 import { GoogleMapEmbed } from '@/components/location/GoogleMapEmbed'
 import { EnhancedServicesList } from '@/components/location/EnhancedServicesList'
@@ -57,6 +63,8 @@ import { LocationReviews } from '@/components/location/LocationReviews'
 import { LocationFAQs } from '@/components/LocationFAQs'
 import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
 import type { Metadata } from 'next'
+
+export const dynamic = 'force-static'
 
 export const metadata: Metadata = {
   title: 'Best Dentist in ${locationName}, ${stateName} | Indira Dental Clinic',
@@ -75,11 +83,7 @@ export default function Page() {
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         <Breadcrumb
           items={[
-            { title: 'Home', href: '/' },
-            { title: 'India', href: '/in' },
-            { title: '${stateName}', href: '/in/${stateSlug}' },
-            ${cityOrDistrictSlug ? `{ title: '${humanize(cityOrDistrictSlug)}', href: '/in/${stateSlug}/${cityOrDistrictSlug}' },` : ''}
-            { title: '${locationName}', href: '/${relPath.replace(/\\\\/g, '/')}' },
+${breadcrumbStr},
           ]}
         />
 
@@ -109,15 +113,76 @@ export default function Page() {
   )
 }
 `;
-      fs.writeFileSync(file, content);
+}
+
+function main() {
+  if (!fs.existsSync(APP_IN)) {
+    console.error('No app/in directory found');
+    process.exit(1);
+  }
+  
+  const pages = walk(APP_IN);
+  let recreated = 0;
+  let errors = 0;
+  
+  console.log(`Found ${pages.length} location pages to process...`);
+  
+  for (const file of pages) {
+    try {
+      const rel = path.relative(ROOT, file);
+      const parts = rel.split(path.sep);
+      const idxIn = parts.indexOf('in');
+      
+      if (idxIn === -1 || parts[parts.length - 1] !== 'page.tsx') {
+        console.warn(`Skipping unexpected path: ${rel}`);
+        continue;
+      }
+      
+      const stateSlug = parts[idxIn + 1];
+      if (!stateSlug) {
+        console.warn(`No state slug found in: ${rel}`);
+        continue;
+      }
+      
+      // Determine structure: app/in/<state>/page.tsx or app/in/<state>/<city>/<area>/page.tsx
+      let cityOrDistrictSlug = undefined;
+      let areaSlug = undefined;
+      
+      if (parts.length === idxIn + 3) {
+        // app/in/<state>/page.tsx (state root)
+        areaSlug = stateSlug;
+      } else if (parts.length === idxIn + 4) {
+        // app/in/<state>/<city-or-area>/page.tsx
+        areaSlug = parts[idxIn + 2];
+      } else if (parts.length >= idxIn + 5) {
+        // app/in/<state>/<city>/<area>/page.tsx
+        cityOrDistrictSlug = parts[idxIn + 2];
+        areaSlug = parts[idxIn + 3];
+      }
+      
+      const content = buildTemplate(stateSlug, cityOrDistrictSlug, areaSlug, rel);
+      fs.writeFileSync(file, content, 'utf8');
       recreated++;
+      
+      if (recreated % 50 === 0) {
+        console.log(`Processed ${recreated} pages...`);
+      }
     } catch (e) {
-      console.error('Failed to recreate', file, e.message);
+      console.error(`Failed to recreate ${file}:`, e.message);
+      errors++;
     }
   }
-  console.log(`Recreated ${recreated} location pages.`);
+  
+  console.log(`\n✅ Recreated ${recreated} location pages.`);
+  if (errors > 0) {
+    console.log(`⚠️  ${errors} pages failed to process.`);
+  }
+  console.log('\nAll pages now have:');
+  console.log('  - Static constants (no TDZ)');
+  console.log('  - force-static export (no edge runtime)');
+  console.log('  - Clean breadcrumb links');
+  console.log('  - Standard component layout');
 }
 
 main();
-
 
