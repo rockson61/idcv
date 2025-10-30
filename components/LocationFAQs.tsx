@@ -36,3 +36,6 @@ export function LocationFAQs({ faqs, locationName }: LocationFAQsProps) {
     </Card>
   )
 }
+
+// Compatibility: re-export server-side generators for existing imports
+export { generateDefaultFAQs, generateDefaultReviews } from '@/lib/location-generators'
