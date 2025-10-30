@@ -22,7 +22,16 @@ function walk(dir, acc = []) {
 function fixSelfRefs(src) {
   // Replace patterns: const name = typeof name !== 'undefined' ? name : VALUE
   return src.replace(/const\s+([A-Za-z_$][\w$]*)\s*=\s*typeof\s+\1\s*!==\s*['"]undefined['"]\s*\?\s*\1\s*:\s*([^\n;]+)(;?)/g,
-    (m, name, value, semi) => `const ${name} = ${value.trim()}${semi || ''}`);
+    (m, name, value, semi) => `const ${name} = ${value.trim()}${semi || ''}`)
+    // Replace patterns: const name = name || VALUE
+    .replace(/\b(const|let)\s+([A-Za-z_$][\w$]*)\s*=\s*\2\s*\|\|\s*([^\n;]+)(;?)/g,
+      (m, decl, name, value, semi) => `${decl} ${name} = ${value.trim()}${semi || ''}`)
+    // Replace patterns: const name = name ?? VALUE
+    .replace(/\b(const|let)\s+([A-Za-z_$][\w$]*)\s*=\s*\2\s*\?\?\s*([^\n;]+)(;?)/g,
+      (m, decl, name, value, semi) => `${decl} ${name} = ${value.trim()}${semi || ''}`)
+    // Replace patterns: const name = (typeof name !== 'undefined' && name) || VALUE
+    .replace(/const\s+([A-Za-z_$][\w$]*)\s*=\s*\(\s*typeof\s+\1\s*!==\s*['"]undefined['"]\s*&&\s*\1\s*\)\s*\|\|\s*([^\n;]+)(;?)/g,
+      (m, name, value, semi) => `const ${name} = ${value.trim()}${semi || ''}`);
 }
 
 function main() {
