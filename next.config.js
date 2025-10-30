@@ -4,9 +4,10 @@ const nextConfig = {
   
   // Experimental features - Build Performance Optimizations
   experimental: {
-    optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
-    parallelServerCompiles: true,
-    parallelServerBuildTraces: true,
+    // Disabled temporarily to reduce memory pressure during builds
+    // optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
+    // parallelServerCompiles: true,
+    // parallelServerBuildTraces: true,
     // optimizeCss: true, // Disabled - requires 'critters' module
   },
   
