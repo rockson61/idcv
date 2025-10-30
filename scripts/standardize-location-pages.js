@@ -18,12 +18,12 @@ const requiredImports = [
 
 const jsxInsertBlocks = [
   { name: 'Breadcrumb', snippet: '        <Breadcrumb items={[{ title: \"Home\", href: \"/\" }]} />\n' },
-  { name: 'LocationHeader', snippet: '        <LocationHeader locationName={locationName} taluk={taluk || locationName} pincode={pincode || \"\"} distance={distance || \"\"} category=\"town\" />\n' },
-  { name: 'GoogleMapEmbed', snippet: '        <GoogleMapEmbed locationName={locationName} address={address || \"\"} />\n' },
-  { name: 'EnhancedServicesList', snippet: '        <EnhancedServicesList locationName={locationName} services={services || []} />\n' },
-  { name: 'LocationReviews', snippet: '        <LocationReviews locationName={locationName} reviews={reviews || []} />\n' },
-  { name: 'LocationFAQs', snippet: '        <LocationFAQs locationName={locationName} faqs={faqs || generateDefaultFAQs(locationName)} />\n' },
-  { name: 'PeopleAlsoSearchFor', snippet: '        <PeopleAlsoSearchFor location={locationName} city={city || locationName} />\n' },
+  { name: 'LocationHeader', snippet: '        <LocationHeader locationName={locationName} category=\"town\" />\n' },
+  { name: 'GoogleMapEmbed', snippet: '        <GoogleMapEmbed locationName={locationName} />\n' },
+  { name: 'EnhancedServicesList', snippet: '        <EnhancedServicesList locationName={locationName} services={services} />\n' },
+  { name: 'LocationReviews', snippet: '        <LocationReviews locationName={locationName} reviews={reviews} />\n' },
+  { name: 'LocationFAQs', snippet: '        <LocationFAQs locationName={locationName} faqs={faqs} />\n' },
+  { name: 'PeopleAlsoSearchFor', snippet: '        <PeopleAlsoSearchFor location={locationName} city={city} />\n' },
 ];
 
 function walk(dir, acc = []) {
@@ -128,14 +128,38 @@ function main() {
       continue;
     }
 
-    // Ensure compat import for generators exists when we add LocationFAQs
-    if (!/generateDefaultFAQs/.test(src)) {
-      src = src.replace(/^(import[^\n]*\n)+/m, (m) => m + "import { generateDefaultFAQs } from '@/components/LocationFAQs'\n");
+    // Ensure safe fallback variables exist at top (after imports) for pages missing them
+    const pathRel = path.relative(ROOT, file);
+    const parts = pathRel.split(path.sep);
+    const slug = parts[parts.length - 2] || 'Location';
+    const humanize = (s) => s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+    const derivedName = humanize(slug);
+
+    function ensureTopVar(name, value) {
+      if (new RegExp(`\\bconst\\s+${name}\\b`).test(src)) return;
+      // Insert after last import line
+      const matches = [...src.matchAll(/^import[^\n]*\n/gm)];
+      const insertAt = matches.length ? (matches[matches.length - 1].index + matches[matches.length - 1][0].length) : 0;
+      const decl = `const ${name} = typeof ${name} !== 'undefined' ? ${name} : ${value}\n`;
+      src = src.slice(0, insertAt) + decl + src.slice(insertAt);
     }
+
+    ensureTopVar('locationName', `'${derivedName}'`);
+    ensureTopVar('city', `'${humanize(parts[parts.length - 3] || 'Vellore')}'`);
+    ensureTopVar('services', '[]');
+    ensureTopVar('reviews', '[]');
+    ensureTopVar('faqs', 'generateDefaultFAQs ? generateDefaultFAQs(locationName) : []');
+    ensureTopVar('address', `''`);
 
     // Ensure imports
     for (const imp of requiredImports) {
       src = ensureImport(src, imp.symbol, imp.from);
+    }
+    // Ensure generator import for faqs fallback if used
+    if (/generateDefaultFAQs\(locationName\)/.test(src) && !/from\s*['\"]@\/components\/LocationFAQs['\"]/.test(src) && !/from\s*['\"]@\/lib\/location-generators['\"]/.test(src)) {
+      const matches2 = [...src.matchAll(/^import[^\n]*\n/gm)];
+      const pos = matches2.length ? (matches2[matches2.length - 1].index + matches2[matches2.length - 1][0].length) : 0;
+      src = src.slice(0, pos) + "import { generateDefaultFAQs } from '@/components/LocationFAQs'\n" + src.slice(pos);
     }
 
     // Ensure JSX sections exist (best-effort, skip if already present)
