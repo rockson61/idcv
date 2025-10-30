@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
@@ -332,5 +333,7 @@ export default function PorcelainBridgePage() {
         </div>
       </div>
     </>
-  )
+  
+		<StandardServiceLayout serviceName="Porcelain Bridge" serviceSlug="porcelain-bridge" showPriceComparison={false} />
+)
 }

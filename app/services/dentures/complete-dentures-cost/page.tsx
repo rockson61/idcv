@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
@@ -166,5 +167,7 @@ items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, 
         />
       </div>
     </>
-  )
+  
+		<StandardServiceLayout serviceName="Complete Dentures Cost" serviceSlug="complete-dentures-cost" showPriceComparison={false} />
+)
 }

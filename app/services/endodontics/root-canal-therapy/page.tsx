@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
@@ -331,5 +332,7 @@ export default function RootCanalTherapyPage() {
         </div>
       </div>
     </>
-  )
+  
+		<StandardServiceLayout serviceName="Root Canal Therapy" serviceSlug="root-canal-therapy" showPriceComparison={false} />
+)
 }

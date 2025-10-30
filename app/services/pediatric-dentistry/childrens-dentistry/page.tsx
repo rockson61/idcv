@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { CTAWidget } from '@/components/widgets/cta-widget'
 import { ServiceSemanticContent } from '@/components/service-content-template'
@@ -253,5 +254,7 @@ items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, 
     </div>
   
 		<CTAWidget title={`Book Childrens Dentistry`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+
+		<StandardServiceLayout serviceName="Childrens Dentistry" serviceSlug="childrens-dentistry" showPriceComparison={false} />
 )
 }

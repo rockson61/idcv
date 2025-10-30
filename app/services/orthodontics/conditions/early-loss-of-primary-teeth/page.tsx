@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
@@ -301,5 +302,7 @@ export default function EarlyLossOfPrimaryTeethPage() {
         </div>
       </div>
     </>
-  )
+  
+		<StandardServiceLayout serviceName="Early Loss Of Primary Teeth" serviceSlug="early-loss-of-primary-teeth" showPriceComparison={false} />
+)
 }

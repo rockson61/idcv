@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { CTAWidget } from '@/components/widgets/cta-widget'
 import { ServiceSemanticContent } from '@/components/service-content-template'
@@ -19,3 +20,7 @@ export default function PartialDenturesPage() {
 		<SectionContainer className="py-12">
 			<ServiceSemanticContent serviceName="Partial Dentures" serviceSlug="partial-dentures" />
 		</SectionContainer>
+
+
+		<StandardServiceLayout serviceName="Partial Dentures" serviceSlug="partial-dentures" showPriceComparison={false} />
+

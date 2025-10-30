@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
 import Image from 'next/image'
@@ -489,5 +490,7 @@ export default function SingleSittingRCTPage() {
         }}
       />
     </div>
-  )
+  
+		<StandardServiceLayout serviceName="Single Sitting Rct" serviceSlug="single-sitting-rct" showPriceComparison={false} />
+)
 }

@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
 import { Breadcrumb } from '@/components/breadcrumb'
@@ -518,5 +519,7 @@ items={breadcrumbItems} />
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<StandardServiceLayout serviceName="Space Maintainer" serviceSlug="space-maintainer" showPriceComparison={false} />
+)
 }

@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
 import Image from 'next/image'
@@ -464,5 +465,7 @@ export default function ScalingRootPlaningPage() {
         />
       </SectionContainer>
     </div>
-  )
+  
+		<StandardServiceLayout serviceName="Scaling Root Planing" serviceSlug="scaling-root-planing" showPriceComparison={false} />
+)
 }

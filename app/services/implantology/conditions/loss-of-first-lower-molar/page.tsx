@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
@@ -301,5 +302,7 @@ export default function LossOfFirstLowerMolarPage() {
         </div>
       </div>
     </>
-  )
+  
+		<StandardServiceLayout serviceName="Loss Of First Lower Molar" serviceSlug="loss-of-first-lower-molar" showPriceComparison={false} />
+)
 }

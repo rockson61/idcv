@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
 import { Breadcrumb } from '@/components/breadcrumb'
@@ -547,5 +548,7 @@ items={breadcrumbItems} />
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<StandardServiceLayout serviceName="Pocket Reduction Surgery" serviceSlug="pocket-reduction-surgery" showPriceComparison={false} />
+)
 }

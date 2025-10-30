@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
 import Image from 'next/image'
@@ -489,5 +490,7 @@ export default function TraditionalBracesPage() {
         }}
       />
     </div>
-  )
+  
+		<StandardServiceLayout serviceName="Traditional Braces" serviceSlug="traditional-braces" showPriceComparison={false} />
+)
 }

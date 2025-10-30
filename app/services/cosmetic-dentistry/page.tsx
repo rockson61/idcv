@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
 import Link from "next/link"
@@ -733,5 +734,7 @@ export default function CosmeticDentistryPage() {
 
         </div>
     </div>
-  )
+  
+		<StandardServiceLayout serviceName="Cosmetic Dentistry" serviceSlug="cosmetic-dentistry" showPriceComparison={false} />
+)
 }

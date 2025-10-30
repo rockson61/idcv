@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
@@ -331,5 +332,7 @@ export default function RoutineExaminationPage() {
         </div>
       </div>
     </>
-  )
+  
+		<StandardServiceLayout serviceName="Routine Examination" serviceSlug="routine-examination" showPriceComparison={false} />
+)
 }

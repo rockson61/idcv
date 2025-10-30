@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
@@ -331,5 +332,7 @@ export default function OcclusalAdjustmentsPage() {
         </div>
       </div>
     </>
-  )
+  
+		<StandardServiceLayout serviceName="Occlusal Adjustments" serviceSlug="occlusal-adjustments" showPriceComparison={false} />
+)
 }

@@ -1,4 +1,5 @@
 import { redirect } from 'next/navigation'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { CTAWidget } from '@/components/widgets/cta-widget'
 import { ServiceSemanticContent } from '@/components/service-content-template'
@@ -12,3 +13,7 @@ export default function MaxillofacialSurgeryRedirect() {
 		<SectionContainer className="py-12">
 			<ServiceSemanticContent serviceName="Maxillofacial Surgery" serviceSlug="maxillofacial-surgery" />
 		</SectionContainer>
+
+
+		<StandardServiceLayout serviceName="Maxillofacial Surgery" serviceSlug="maxillofacial-surgery" showPriceComparison={false} />
+

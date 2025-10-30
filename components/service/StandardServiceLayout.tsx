@@ -1,0 +1,76 @@
+import React from 'react'
+import Link from 'next/link'
+import { Breadcrumb } from '@/components/breadcrumb'
+import { PageHeader } from '@/components/page-header'
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PriceComparisonTable } from '@/components/location/PriceComparisonTable'
+import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
+
+type BreadcrumbItem = { title: string; href?: string }
+
+export interface StandardServiceLayoutProps {
+  serviceName: string
+  serviceSlug: string
+  breadcrumb?: BreadcrumbItem[]
+  showPriceComparison?: boolean
+  defaultLocationName?: string
+  defaultCityName?: string
+}
+
+export function StandardServiceLayout({
+  serviceName,
+  serviceSlug,
+  breadcrumb,
+  showPriceComparison = false,
+  defaultLocationName = 'Vellore',
+  defaultCityName = 'Vellore',
+}: StandardServiceLayoutProps) {
+  const crumb: BreadcrumbItem[] =
+    breadcrumb && breadcrumb.length
+      ? breadcrumb
+      : [
+          { title: 'Home', href: '/' },
+          { title: 'Services', href: '/services' },
+          { title: serviceName },
+        ]
+
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <Breadcrumb items={crumb} />
+
+      <PageHeader
+        title={serviceName}
+        subtitle="Advanced, evidence-based care with modern technology and transparent pricing"
+      />
+
+      <SectionContainer className="py-12">
+        <ServiceSemanticContent serviceName={serviceName} serviceSlug={serviceSlug} />
+      </SectionContainer>
+
+      {showPriceComparison && (
+        <SectionContainer className="py-12">
+          <PriceComparisonTable />
+        </SectionContainer>
+      )}
+
+      <SectionContainer className="py-12">
+        <CTAWidget
+          title={`Book ${serviceName}`}
+          description="Get expert dental care from our experienced clinical team. Flexible scheduling, transparent costs."
+          primaryAction={{ text: 'Book Appointment', href: '/contact' }}
+          secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }}
+          showRating
+          showAvailability
+        />
+      </SectionContainer>
+
+      <SectionContainer className="py-12">
+        <PeopleAlsoSearchFor location={defaultLocationName} city={defaultCityName} />
+      </SectionContainer>
+    </div>
+  )
+}
+
+

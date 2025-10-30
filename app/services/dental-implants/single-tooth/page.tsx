@@ -1,4 +1,5 @@
 import { SEOMetadata } from "@/components/seo/seo-metadata"
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { CTAWidget } from '@/components/widgets/cta-widget'
 import { ServiceSemanticContent } from '@/components/service-content-template'
@@ -134,5 +135,7 @@ export default function SingleToothImplantPage() {
     </div>
   
 		<CTAWidget title={`Book Single Tooth`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+
+		<StandardServiceLayout serviceName="Single Tooth" serviceSlug="single-tooth" showPriceComparison={false} />
 )
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { CTAWidget } from '@/components/widgets/cta-widget'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PageHeader } from '@/components/page-header'
@@ -705,5 +706,7 @@ export default function RestorativeDentistryPage() {
     </div>
   
 		<CTAWidget title={`Book Restorative Dentistry`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+
+		<StandardServiceLayout serviceName="Restorative Dentistry" serviceSlug="restorative-dentistry" showPriceComparison={false} />
 )
 }

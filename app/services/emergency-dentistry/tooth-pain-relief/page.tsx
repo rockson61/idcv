@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
 import { SectionContainer } from '@/components/ui/section-container'
 import { CTAWidget } from '@/components/widgets/cta-widget'
 import { ServiceSemanticContent } from '@/components/service-content-template'
@@ -19,3 +20,7 @@ export default function ToothPainReliefPage() {
 		<SectionContainer className="py-12">
 			<ServiceSemanticContent serviceName="Tooth Pain Relief" serviceSlug="tooth-pain-relief" />
 		</SectionContainer>
+
+
+		<StandardServiceLayout serviceName="Tooth Pain Relief" serviceSlug="tooth-pain-relief" showPriceComparison={false} />
+
