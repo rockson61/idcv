@@ -1,4 +1,9 @@
 import Image from "next/image"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
+import { Breadcrumb } from '@/components/breadcrumb'
 import Link from "next/link"
 import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
@@ -74,6 +79,14 @@ export default function InvisalignPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="container mx-auto px-4 py-8 max-w-7xl">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Invisalign" serviceSlug="invisalign" />
+		</SectionContainer>
+
+		<Breadcrumb 
+		<PageHeader title="Invisalign" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Invisalign' }]} />
+
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
             <div className="mb-8">
@@ -783,5 +796,7 @@ export default function InvisalignPage() {
         </div>
       </div>
     </>
-  )
+  
+		<CTAWidget title={`Book Invisalign`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

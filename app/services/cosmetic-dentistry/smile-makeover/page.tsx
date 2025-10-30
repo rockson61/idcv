@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
@@ -21,8 +24,14 @@ const reviews = generateServiceReviews('Smile Makeover', 'default')
 export default function SmileMakeoverPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-orange-50 to-pink-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Smile Makeover" serviceSlug="smile-makeover" />
+		</SectionContainer>
+
       <SectionContainer className="py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' }, { title: 'Smile Makeover', href: '/services/cosmetic-dentistry/smile-makeover' }]} />
+        <Breadcrumb 
+		<PageHeader title="Smile Makeover" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' }, { title: 'Smile Makeover', href: '/services/cosmetic-dentistry/smile-makeover' }]} />
       </SectionContainer>
 
       <SectionContainer className="py-8">
@@ -110,5 +119,7 @@ export default function SmileMakeoverPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Smile Makeover`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

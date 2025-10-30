@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
@@ -21,8 +24,14 @@ const reviews = generateServiceReviews('Metal Braces', 'orthodontics')
 export default function MetalBracesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Metal Braces" serviceSlug="metal-braces" />
+		</SectionContainer>
+
       <SectionContainer className="py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Orthodontics', href: '/services/orthodontics' }, { title: 'Metal Braces', href: '/services/orthodontics/metal-braces' }]} />
+        <Breadcrumb 
+		<PageHeader title="Metal Braces" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Orthodontics', href: '/services/orthodontics' }, { title: 'Metal Braces', href: '/services/orthodontics/metal-braces' }]} />
       </SectionContainer>
 
       <SectionContainer className="py-8">
@@ -89,6 +98,8 @@ export default function MetalBracesPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Metal Braces`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }
 

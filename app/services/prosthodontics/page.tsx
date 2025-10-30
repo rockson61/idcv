@@ -1,4 +1,7 @@
 import type { Metadata } from "next"
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Image from "next/image"
 import { Phone, Clock, MapPin, Users, CheckCircle, Smile, Calendar, Award } from "lucide-react"
 import { GlassCard } from "@/components/ui/glass-card"
@@ -216,9 +219,15 @@ const faqs = [
 export default function ProsthodonticsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-purple-50/30 to-pink-50/30">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Prosthodontics" serviceSlug="prosthodontics" />
+		</SectionContainer>
+
       {/* Breadcrumb */}
       <SectionContainer className="pt-8">
         <Breadcrumb
+
+		<PageHeader title="Prosthodontics" subtitle="Expert care with modern technology" />
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
@@ -500,5 +509,7 @@ export default function ProsthodonticsPage() {
         </GlassCard>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Prosthodontics`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

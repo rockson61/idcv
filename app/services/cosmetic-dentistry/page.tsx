@@ -1,4 +1,6 @@
 import type { Metadata } from "next"
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, CheckCircle, Phone, Calendar, Clock, Star, Sparkles, Smile, Zap, Award, Users, TrendingUp, Shield, Heart, Globe, DollarSign, Target, BookOpen, MessageCircle, Play, Download, MapPin } from "lucide-react"
@@ -242,9 +244,15 @@ const process = [
 export default function CosmeticDentistryPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Cosmetic Dentistry" serviceSlug="cosmetic-dentistry" />
+		</SectionContainer>
+
       <div className="container mx-auto px-4 py-12">
         {/* Breadcrumb */}
         <Breadcrumb
+
+		<PageHeader title="Cosmetic Dentistry" subtitle="Expert care with modern technology" />
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },

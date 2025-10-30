@@ -1,4 +1,7 @@
 import type { Metadata } from "next"
+import { SectionContainer } from '@/components/ui/section-container'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -232,9 +235,15 @@ const faqs = [
 export default function DentalImplantsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Dental Implants" serviceSlug="dental-implants" />
+		</SectionContainer>
+
     <div className="container mx-auto px-4 py-12">
         {/* Breadcrumb */}
         <Breadcrumb
+
+		<PageHeader title="Dental Implants" subtitle="Expert care with modern technology" />
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },

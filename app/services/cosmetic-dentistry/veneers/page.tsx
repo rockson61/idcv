@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
@@ -21,8 +24,14 @@ const reviews = generateServiceReviews('Porcelain Veneers', 'default')
 export default function VeneersPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-teal-50 via-blue-50 to-purple-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Veneers" serviceSlug="veneers" />
+		</SectionContainer>
+
       <SectionContainer className="py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' }, { title: 'Veneers', href: '/services/cosmetic-dentistry/veneers' }]} />
+        <Breadcrumb 
+		<PageHeader title="Veneers" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Cosmetic Dentistry', href: '/services/cosmetic-dentistry' }, { title: 'Veneers', href: '/services/cosmetic-dentistry/veneers' }]} />
       </SectionContainer>
 
       <SectionContainer className="py-8">
@@ -107,5 +116,7 @@ export default function VeneersPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Veneers`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

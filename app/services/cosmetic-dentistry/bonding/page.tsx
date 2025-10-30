@@ -1,4 +1,9 @@
 import type { Metadata } from "next"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
+import { Breadcrumb } from '@/components/breadcrumb'
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
@@ -11,7 +16,14 @@ export const metadata: Metadata = {
 
 export default function DentalBondingPage() {
   return (
-    <main className="container mx-auto px-4 py-12">
+		<Breadcrumb 
+		<PageHeader title="Bonding" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Bonding' }]} />
+    <main
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Bonding" serviceSlug="bonding" />
+		</SectionContainer>
+ className="container mx-auto px-4 py-12">
       <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Bonding Doctors in India - Dental Specialist Near Me</h1>
 
       <div className="prose max-w-none">
@@ -219,5 +231,7 @@ export default function DentalBondingPage() {
         </div>
       </div>
     </main>
-  )
+  
+		<CTAWidget title={`Book Bonding`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

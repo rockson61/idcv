@@ -1,4 +1,8 @@
 import { ServiceContentTemplate } from "@/components/service-content-template"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { PageHeader } from '@/components/page-header'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { generateContent } from "@/lib/content-generator"
 import { notFound } from "next/navigation"
 
@@ -180,6 +184,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   }
 
   return (
+		<Breadcrumb 
+		<PageHeader title="[Slug]" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: '[Slug]' }]} />
     <ServiceContentTemplate
       title={service.title}
       description={service.description}
@@ -194,3 +201,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
     />
   )
 }
+
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="[Slug]" serviceSlug="[slug]" />
+		</SectionContainer>

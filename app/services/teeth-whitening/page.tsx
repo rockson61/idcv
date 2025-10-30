@@ -1,4 +1,8 @@
 import { ServiceContentTemplate } from "@/components/service-content-template"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { PageHeader } from '@/components/page-header'
+import { Breadcrumb } from '@/components/breadcrumb'
 
 export const metadata = {
   title: "Professional Teeth Whitening in Vellore | Indira Dental Clinic",
@@ -8,6 +12,9 @@ export const metadata = {
 
 export default function TeethWhiteningPage() {
   return (
+		<Breadcrumb 
+		<PageHeader title="Teeth Whitening" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Teeth Whitening' }]} />
     <ServiceContentTemplate
       title="Professional Teeth Whitening"
       description="Transform your smile with our advanced teeth whitening treatments"
@@ -110,3 +117,7 @@ export default function TeethWhiteningPage() {
     />
   )
 }
+
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Teeth Whitening" serviceSlug="teeth-whitening" />
+		</SectionContainer>

@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
@@ -21,8 +24,14 @@ const reviews = generateServiceReviews('Impacted Wisdom Tooth Removal', 'default
 export default function ImpactedWisdomTeethPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Impacted Wisdom Teeth" serviceSlug="impacted-wisdom-teeth" />
+		</SectionContainer>
+
       <SectionContainer className="py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Oral Surgery', href: '/services/oral-surgery' }, { title: 'Impacted Wisdom Teeth', href: '/services/oral-surgery/impacted-wisdom-teeth' }]} />
+        <Breadcrumb 
+		<PageHeader title="Impacted Wisdom Teeth" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Oral Surgery', href: '/services/oral-surgery' }, { title: 'Impacted Wisdom Teeth', href: '/services/oral-surgery/impacted-wisdom-teeth' }]} />
       </SectionContainer>
 
       <SectionContainer className="py-8">
@@ -127,6 +136,8 @@ export default function ImpactedWisdomTeethPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Impacted Wisdom Teeth`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }
 

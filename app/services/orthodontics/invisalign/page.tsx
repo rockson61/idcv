@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Breadcrumb } from '@/components/breadcrumb'
@@ -285,8 +288,14 @@ function RefreshCw(props: any) {
 export default function InvisalignPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Invisalign" serviceSlug="invisalign" />
+		</SectionContainer>
+
       <SectionContainer className="pt-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Orthodontics', href: '/services/orthodontics' }, { title: 'Invisalign', href: '/services/orthodontics/invisalign' }]} />
+        <Breadcrumb 
+		<PageHeader title="Invisalign" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Orthodontics', href: '/services/orthodontics' }, { title: 'Invisalign', href: '/services/orthodontics/invisalign' }]} />
       </SectionContainer>
 
       {/* Hero Section */}
@@ -662,5 +671,7 @@ export default function InvisalignPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Invisalign`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

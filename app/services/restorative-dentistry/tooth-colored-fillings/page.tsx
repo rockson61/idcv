@@ -1,4 +1,9 @@
 import { Metadata } from 'next'
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { redirect } from 'next/navigation'
 
 export const metadata: Metadata = {
@@ -10,3 +15,7 @@ export default function ToothColoredFillingsPage() {
   redirect('/services/restorative-dentistry/dental-fillings')
 }
 
+
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Tooth Colored Fillings" serviceSlug="tooth-colored-fillings" />
+		</SectionContainer>

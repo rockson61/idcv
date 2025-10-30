@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
@@ -21,8 +24,14 @@ const reviews = generateServiceReviews('Dental Inlays & Onlays', 'default')
 export default function InlaysOnlaysPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Inlays Onlays" serviceSlug="inlays-onlays" />
+		</SectionContainer>
+
       <SectionContainer className="py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Prosthodontics', href: '/services/prosthodontics' }, { title: 'Inlays & Onlays', href: '/services/prosthodontics/inlays-onlays' }]} />
+        <Breadcrumb 
+		<PageHeader title="Inlays Onlays" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Prosthodontics', href: '/services/prosthodontics' }, { title: 'Inlays & Onlays', href: '/services/prosthodontics/inlays-onlays' }]} />
       </SectionContainer>
 
       <SectionContainer className="py-8">
@@ -138,6 +147,8 @@ export default function InlaysOnlaysPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Inlays Onlays`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }
 

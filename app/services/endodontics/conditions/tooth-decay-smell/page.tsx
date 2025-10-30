@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { SectionContainer } from '@/components/ui/section-container'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import { 
   AlertCircle, CheckCircle, Phone, Calendar, MapPin, Clock, Star, 
@@ -75,9 +78,15 @@ export default function ToothDecaySmellPage() {
       />
       
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-teal-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Tooth Decay Smell" serviceSlug="tooth-decay-smell" />
+		</SectionContainer>
+
         <div className="bg-white border-b border-gray-200">
           <div className="container mx-auto px-4 py-4">
             <Breadcrumb
+
+		<PageHeader title="Tooth Decay Smell" subtitle="Expert care with modern technology" />
               items={[
                 { title: 'Home', href: '/' },
                 { title: 'Services', href: '/services' },

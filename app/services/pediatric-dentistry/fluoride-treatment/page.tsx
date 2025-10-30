@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
@@ -21,8 +24,14 @@ const reviews = generateServiceReviews('Fluoride Treatment for Kids', 'default')
 export default function FluorideTreatmentPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 via-teal-50 to-blue-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Fluoride Treatment" serviceSlug="fluoride-treatment" />
+		</SectionContainer>
+
       <SectionContainer className="py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Pediatric Dentistry', href: '/services/pediatric-dentistry' }, { title: 'Fluoride Treatment', href: '/services/pediatric-dentistry/fluoride-treatment' }]} />
+        <Breadcrumb 
+		<PageHeader title="Fluoride Treatment" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Pediatric Dentistry', href: '/services/pediatric-dentistry' }, { title: 'Fluoride Treatment', href: '/services/pediatric-dentistry/fluoride-treatment' }]} />
       </SectionContainer>
 
       <SectionContainer className="py-8">
@@ -123,6 +132,8 @@ export default function FluorideTreatmentPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Fluoride Treatment`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }
 

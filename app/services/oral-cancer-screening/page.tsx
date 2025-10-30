@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
@@ -17,8 +20,14 @@ export const metadata: Metadata = {
 export default function OralCancerScreeningPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-red-50 via-orange-50 to-pink-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Oral Cancer Screening" serviceSlug="oral-cancer-screening" />
+		</SectionContainer>
+
       <SectionContainer className="py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Oral Cancer Screening', href: '/services/oral-cancer-screening' }]} />
+        <Breadcrumb 
+		<PageHeader title="Oral Cancer Screening" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Oral Cancer Screening', href: '/services/oral-cancer-screening' }]} />
       </SectionContainer>
 
       <SectionContainer className="py-8">
@@ -86,6 +95,8 @@ export default function OralCancerScreeningPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Oral Cancer Screening`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }
 

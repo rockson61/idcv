@@ -1,4 +1,8 @@
 import { SEOMetadata } from "@/components/seo/seo-metadata"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { LocationBreadcrumb } from "@/components/location-breadcrumb"
 import { PageHeader } from "@/components/page-header"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -10,6 +14,12 @@ import { ServicePeopleAlsoSearchFor } from '@/components/service/ServicePeopleAl
 export default function SingleToothImplantPage() {
   return (
     <div className="container mx-auto px-4 py-8">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Single Tooth" serviceSlug="single-tooth" />
+		</SectionContainer>
+
+		<Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Single Tooth' }]} />
+
       <SEOMetadata
         title="Single Tooth Implant in Vellore | Dental Implant Treatment | Indira Dental Clinic"
         description="Get expert single tooth implant treatment in Vellore at Indira Dental Clinic. Our experienced implantologists provide natural-looking and long-lasting tooth replacement solutions."
@@ -122,5 +132,7 @@ export default function SingleToothImplantPage() {
 
         </div>
     </div>
-  )
+  
+		<CTAWidget title={`Book Single Tooth`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

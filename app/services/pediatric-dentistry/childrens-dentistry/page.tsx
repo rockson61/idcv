@@ -1,4 +1,9 @@
 import type { Metadata } from "next"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
+import { Breadcrumb } from '@/components/breadcrumb'
 import Image from "next/image"
 import Link from "next/link"
 import { ServicePeopleAlsoSearchFor } from '@/components/service/ServicePeopleAlsoSearchFor'
@@ -12,6 +17,14 @@ export const metadata: Metadata = {
 export default function ChildrensDentistryPage() {
   return (
     <div className="container mx-auto px-4 py-8">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Childrens Dentistry" serviceSlug="childrens-dentistry" />
+		</SectionContainer>
+
+		<Breadcrumb 
+		<PageHeader title="Childrens Dentistry" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Childrens Dentistry' }]} />
+
       <div className="mb-8">
         <h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Childrens Dentistry Doctors in India - Pediatric Dentist Near Me</h1>
         <p className="text-lg text-gray-600">
@@ -238,5 +251,7 @@ export default function ChildrensDentistryPage() {
         </div>
       </div>
     </div>
-  )
+  
+		<CTAWidget title={`Book Childrens Dentistry`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

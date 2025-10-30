@@ -1,4 +1,7 @@
 import { Metadata } from "next"
+import { SectionContainer } from '@/components/ui/section-container'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from "@/components/ui/modern-card"
 import { Breadcrumb } from "@/components/breadcrumb"
 import { CTAWidget } from "@/components/widgets/cta-widget"
@@ -66,7 +69,13 @@ export default function ServicePage() {
       />
 
       <div className="container mx-auto px-4 py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Complete Dentures Cost & Price Guide', href: '#' }]} />
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Complete Dentures Cost" serviceSlug="complete-dentures-cost" />
+		</SectionContainer>
+
+        <Breadcrumb 
+		<PageHeader title="Complete Dentures Cost" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Complete Dentures Cost & Price Guide', href: '#' }]} />
         <ModernCard className="mb-8">
           <ModernCardHeader>
             <ModernCardTitle className="text-4xl md:text-5xl text-gray-900">Complete Dentures Cost & Price Guide in Vellore</ModernCardTitle>

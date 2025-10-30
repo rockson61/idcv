@@ -1,4 +1,7 @@
 import type { Metadata } from "next"
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import { ModernCard, ModernCardContent, ModernCardDescription, ModernCardHeader, ModernCardTitle } from "@/components/ui/modern-card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -219,6 +222,8 @@ export default function RootCanalTreatmentPage() {
       <div className="container mx-auto px-4 py-12">
         {/* Breadcrumb */}
         <Breadcrumb
+
+		<PageHeader title="Root Canal Treatment" subtitle="Expert care with modern technology" />
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
@@ -718,5 +723,7 @@ export default function RootCanalTreatmentPage() {
 
         </div>
     </div>
-  )
+  
+		<CTAWidget title={`Book Root Canal Treatment`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

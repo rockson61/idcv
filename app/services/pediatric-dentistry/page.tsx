@@ -1,4 +1,7 @@
 import type { Metadata } from "next"
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from "next/link"
 import { Phone, Clock, MapPin, Star, Heart, Shield, Smile, Baby, Users, Award, MessageCircle, ArrowRight, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -165,9 +168,15 @@ export default function PediatricDentistryPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Pediatric Dentistry" serviceSlug="pediatric-dentistry" />
+		</SectionContainer>
+
       {/* Breadcrumb */}
       <SectionContainer className="pt-8">
         <Breadcrumb
+
+		<PageHeader title="Pediatric Dentistry" subtitle="Expert care with modern technology" />
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
@@ -458,5 +467,7 @@ export default function PediatricDentistryPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Pediatric Dentistry`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

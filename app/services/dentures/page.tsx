@@ -1,4 +1,8 @@
 import { ServiceContentTemplate } from "@/components/service-content-template"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { PageHeader } from '@/components/page-header'
+import { Breadcrumb } from '@/components/breadcrumb'
 
 export const metadata = {
   title: "Dentures in Vellore | Complete & Partial Dentures | Indira Dental Clinic",
@@ -8,6 +12,9 @@ export const metadata = {
 
 export default function DenturesPage() {
   return (
+		<Breadcrumb 
+		<PageHeader title="Dentures" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Dentures' }]} />
     <ServiceContentTemplate
       title="Complete & Partial Dentures"
       description="Restore your smile with comfortable, custom-fitted dentures"
@@ -144,3 +151,7 @@ export default function DenturesPage() {
     />
   )
 }
+
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Dentures" serviceSlug="dentures" />
+		</SectionContainer>

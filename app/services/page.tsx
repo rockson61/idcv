@@ -1,4 +1,7 @@
 import type { Metadata } from "next"
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from "@/components/ui/modern-card"
 import { GlassCard } from "@/components/ui/glass-card"
 import { Badge } from "@/components/ui/badge"
@@ -308,9 +311,15 @@ const faqs = [
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Service" serviceSlug="service" />
+		</SectionContainer>
+
       <div className="container mx-auto px-4 py-12">
         {/* Breadcrumb */}
         <Breadcrumb
+
+		<PageHeader title="Service" subtitle="Expert care with modern technology" />
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
@@ -653,5 +662,7 @@ export default function ServicesPage() {
 
         </div>
     </div>
-  )
+  
+		<CTAWidget title={`Book Service`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

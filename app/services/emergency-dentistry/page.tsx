@@ -1,4 +1,7 @@
 import type { Metadata } from "next"
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from "next/link"
 import Image from "next/image"
 import { Phone, Clock, MapPin, AlertTriangle, Zap, CheckCircle, MessageCircle, ArrowRight, Shield, Star, Heart, Calendar } from "lucide-react"
@@ -195,9 +198,17 @@ const faqs = [
 export default function EmergencyDentistryPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-red-50/30 to-orange-50/30">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Emergency Dentistry" serviceSlug="emergency-dentistry" />
+		</SectionContainer>
+
       {/* Emergency Alert Banner */}
       <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white py-4">
         <div className="container mx-auto px-4">
+		<Breadcrumb 
+		<PageHeader title="Emergency Dentistry" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Emergency Dentistry' }]} />
+
           <div className="flex items-center justify-center text-center">
             <AlertTriangle className="h-6 w-6 mr-3 animate-pulse" />
             <span className="text-lg font-bold">24/7 EMERGENCY DENTAL HOTLINE: </span>
@@ -529,5 +540,7 @@ export default function EmergencyDentistryPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Emergency Dentistry`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

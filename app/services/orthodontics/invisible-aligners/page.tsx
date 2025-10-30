@@ -1,4 +1,9 @@
 import type { Metadata } from "next"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { PageTemplate } from "@/components/PageTemplate"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -19,6 +24,9 @@ export const metadata: Metadata = {
 
 export default function InvisibleAlignersPage() {
   return (
+		<Breadcrumb 
+		<PageHeader title="Invisible Aligners" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Invisible Aligners' }]} />
     <PageTemplate
       title="Invisible Aligners in Vellore"
       description="Straighten your teeth discreetly with custom-made clear aligners at Indira Dental Clinic in Vellore."
@@ -33,6 +41,10 @@ export default function InvisibleAlignersPage() {
       pageSubheading="The clear, comfortable, and removable alternative to traditional braces for a straighter smile."
     >
       <div className="grid md:grid-cols-2 gap-8 mt-8">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Invisible Aligners" serviceSlug="invisible-aligners" />
+		</SectionContainer>
+
         <div>
           <h2 className="text-2xl font-bold mb-4">What Are Invisible Aligners?</h2>
           <p className="mb-4">
@@ -452,5 +464,7 @@ export default function InvisibleAlignersPage() {
         </p>
       </div>
     </PageTemplate>
-  )
+  
+		<CTAWidget title={`Book Invisible Aligners`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

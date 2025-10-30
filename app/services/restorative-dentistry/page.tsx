@@ -1,4 +1,7 @@
 import type { Metadata } from "next"
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from "next/link"
 import Image from "next/image"
 import { Phone, Clock, MapPin, CheckCircle, Crown, Wrench, Calendar, MessageCircle, ArrowRight, Star, Shield, Heart, Sparkles, Award, Zap, Users } from "lucide-react"
@@ -219,6 +222,8 @@ export default function RestorativeDentistryPage() {
       {/* Breadcrumb */}
       <SectionContainer className="pt-8">
         <Breadcrumb
+
+		<PageHeader title="Restorative Dentistry" subtitle="Expert care with modern technology" />
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
@@ -698,5 +703,7 @@ export default function RestorativeDentistryPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Restorative Dentistry`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

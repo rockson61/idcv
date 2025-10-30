@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
@@ -21,8 +24,14 @@ export const metadata: Metadata = {
 export default function PostAndCorePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-red-50 to-pink-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Post And Core" serviceSlug="post-and-core" />
+		</SectionContainer>
+
       <SectionContainer className="py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Root Canal Treatment', href: '/services/root-canal-treatment' }, { title: 'Post and Core', href: '/services/root-canal-treatment/post-and-core' }]} />
+        <Breadcrumb 
+		<PageHeader title="Post And Core" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Root Canal Treatment', href: '/services/root-canal-treatment' }, { title: 'Post and Core', href: '/services/root-canal-treatment/post-and-core' }]} />
       </SectionContainer>
 
       <SectionContainer className="py-8">
@@ -99,6 +108,8 @@ export default function PostAndCorePage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Post And Core`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }
 

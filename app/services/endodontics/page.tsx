@@ -1,4 +1,7 @@
 import Image from "next/image"
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from "next/link"
 import type { Metadata } from "next"
 import { ServiceReviews } from "@/components/ui/service-reviews"
@@ -317,9 +320,15 @@ const faqData = [
 export default function EndodonticsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-red-50/30 to-orange-50/30">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Endodontics" serviceSlug="endodontics" />
+		</SectionContainer>
+
       {/* Breadcrumb */}
       <SectionContainer className="pt-8">
         <Breadcrumb
+
+		<PageHeader title="Endodontics" subtitle="Expert care with modern technology" />
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },
@@ -723,5 +732,7 @@ export default function EndodonticsPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Endodontics`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

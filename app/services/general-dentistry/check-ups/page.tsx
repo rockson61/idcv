@@ -1,4 +1,9 @@
 import type { Metadata } from "next"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { ServicePageTemplate } from "@/components/service-page-template"
 import { ServiceSchema } from "@/components/seo/service-schema"
 import { Search, Shield, AlertTriangle, Heart, CheckCircle, FileText } from "lucide-react"
@@ -18,6 +23,9 @@ export const metadata: Metadata = {
 
 export default function DentalCheckupsPage() {
   return (
+		<Breadcrumb 
+		<PageHeader title="Check Ups" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Check Ups' }]} />
     <>
       <ServiceSchema
         serviceName="Comprehensive Dental Check-up"
@@ -197,3 +205,7 @@ export default function DentalCheckupsPage() {
     </>
   )
 }
+
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Check Ups" serviceSlug="check-ups" />
+		</SectionContainer>

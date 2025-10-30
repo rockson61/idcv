@@ -1,4 +1,6 @@
 import { Metadata } from 'next'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { Badge } from '@/components/ui/badge'
@@ -47,8 +49,14 @@ const breadcrumbItems = [
 export default function PocketReductionSurgeryPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-teal-50 via-blue-50 to-indigo-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Pocket Reduction Surgery" serviceSlug="pocket-reduction-surgery" />
+		</SectionContainer>
+
       <SectionContainer className="py-8">
-        <Breadcrumb items={breadcrumbItems} />
+        <Breadcrumb 
+		<PageHeader title="Pocket Reduction Surgery" subtitle="Expert care with modern technology" />
+items={breadcrumbItems} />
       </SectionContainer>
 
       <SectionContainer className="py-8">

@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
@@ -21,8 +24,14 @@ export const metadata: Metadata = {
 export default function ToothExtractionPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-red-50 via-orange-50 to-yellow-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Tooth Extraction" serviceSlug="tooth-extraction" />
+		</SectionContainer>
+
       <SectionContainer className="py-8">
-        <Breadcrumb items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Oral Surgery', href: '/services/oral-surgery' }, { title: 'Tooth Extraction', href: '/services/oral-surgery/tooth-extraction' }]} />
+        <Breadcrumb 
+		<PageHeader title="Tooth Extraction" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Oral Surgery', href: '/services/oral-surgery' }, { title: 'Tooth Extraction', href: '/services/oral-surgery/tooth-extraction' }]} />
       </SectionContainer>
 
       <SectionContainer className="py-8">
@@ -113,6 +122,8 @@ export default function ToothExtractionPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Tooth Extraction`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }
 

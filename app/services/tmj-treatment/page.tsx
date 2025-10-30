@@ -1,4 +1,7 @@
 import { Metadata } from "next"
+import { SectionContainer } from '@/components/ui/section-container'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from "@/components/ui/modern-card"
 import { Breadcrumb } from "@/components/breadcrumb"
 import { CTAWidget } from "@/components/widgets/cta-widget"
@@ -77,7 +80,13 @@ export default function ServicePage() {
       />
 
       <div className="container mx-auto px-4 py-8">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Tmj Treatment" serviceSlug="tmj-treatment" />
+		</SectionContainer>
+
         <Breadcrumb
+
+		<PageHeader title="Tmj Treatment" subtitle="Expert care with modern technology" />
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },

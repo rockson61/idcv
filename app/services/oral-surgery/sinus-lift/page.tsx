@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Link from 'next/link'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
@@ -41,8 +44,14 @@ const breadcrumbItems = [
 export default function SinusLiftPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-teal-50 via-blue-50 to-indigo-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Sinus Lift" serviceSlug="sinus-lift" />
+		</SectionContainer>
+
       <SectionContainer className="py-8">
-        <Breadcrumb items={breadcrumbItems} />
+        <Breadcrumb 
+		<PageHeader title="Sinus Lift" subtitle="Expert care with modern technology" />
+items={breadcrumbItems} />
       </SectionContainer>
 
       <SectionContainer className="py-8">
@@ -351,6 +360,8 @@ export default function SinusLiftPage() {
         </div>
       </SectionContainer>
     </div>
-  )
+  
+		<CTAWidget title={`Book Sinus Lift`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }
 

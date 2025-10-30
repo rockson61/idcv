@@ -1,4 +1,6 @@
 import { Metadata } from 'next'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
@@ -31,9 +33,15 @@ export const metadata: Metadata = {
 export default function SingleSittingRCTPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Single Sitting Rct" serviceSlug="single-sitting-rct" />
+		</SectionContainer>
+
       {/* Breadcrumb */}
       <SectionContainer className="pt-8 pb-4">
         <Breadcrumb
+
+		<PageHeader title="Single Sitting Rct" subtitle="Expert care with modern technology" />
           items={[
             { title: 'Home', href: '/' },
             { title: 'Services', href: '/services' },

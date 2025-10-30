@@ -1,4 +1,8 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
 import { CheckCircle, Clock } from "lucide-react"
 import Image from "next/image"
 import { Breadcrumb } from "@/components/breadcrumb"
@@ -9,10 +13,16 @@ import { ServicePeopleAlsoSearchFor } from '@/components/service/ServicePeopleAl
 export default function DentalCheckUpsPage() {
   return (
     <div className="min-h-screen">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Dental Check Ups" serviceSlug="dental-check-ups" />
+		</SectionContainer>
+
       {/* Breadcrumb */}
       <div className="bg-muted/50 py-4">
         <div className="container mx-auto px-4">
           <Breadcrumb
+
+		<PageHeader title="Dental Check Ups" subtitle="Expert care with modern technology" />
             items={[
               { title: "Services", href: "/services" },
               { title: "General Dentistry", href: "/services/general-dentistry" },
@@ -182,5 +192,7 @@ export default function DentalCheckUpsPage() {
         </div>
       </div>
     </div>
-  )
+  
+		<CTAWidget title={`Book Dental Check Ups`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }

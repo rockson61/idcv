@@ -1,4 +1,8 @@
 import { ServiceContentTemplate } from "@/components/service-content-template"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { PageHeader } from '@/components/page-header'
+import { Breadcrumb } from '@/components/breadcrumb'
 
 export const metadata = {
   title: "Dental Bridges in Vellore | Replace Missing Teeth | Indira Dental Clinic",
@@ -8,6 +12,9 @@ export const metadata = {
 
 export default function DentalBridgesPage() {
   return (
+		<Breadcrumb 
+		<PageHeader title="Dental Bridges" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Dental Bridges' }]} />
     <ServiceContentTemplate
       title="Dental Bridges"
       description="Restore your smile and bite with custom dental bridges"
@@ -128,3 +135,7 @@ export default function DentalBridgesPage() {
     />
   )
 }
+
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Dental Bridges" serviceSlug="dental-bridges" />
+		</SectionContainer>

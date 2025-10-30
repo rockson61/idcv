@@ -1,4 +1,9 @@
 import { Metadata } from "next"
+import { SectionContainer } from '@/components/ui/section-container'
+import { CTAWidget } from '@/components/widgets/cta-widget'
+import { ServiceSemanticContent } from '@/components/service-content-template'
+import { PageHeader } from '@/components/page-header'
+import { Breadcrumb } from '@/components/breadcrumb'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { CheckCircle, Clock, CircleDollarSign, Phone, Calendar } from "lucide-react"
 import Image from "next/image"
@@ -14,7 +19,15 @@ export const metadata: Metadata = {
 export default function MultiVisitRCTPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-blue-50/30 to-teal-50/30">
+		<SectionContainer className="py-12">
+			<ServiceSemanticContent serviceName="Multi Visit Rct" serviceSlug="multi-visit-rct" />
+		</SectionContainer>
+
       <div className="container mx-auto px-4 py-8 max-w-7xl">
+		<Breadcrumb 
+		<PageHeader title="Multi Visit Rct" subtitle="Expert care with modern technology" />
+items={[{ title: 'Home', href: '/' }, { title: 'Services', href: '/services' }, { title: 'Multi Visit Rct' }]} />
+
         {/* Breadcrumb */}
         <nav className="flex items-center space-x-2 text-sm text-gray-600 mb-8">
           <Link href="/" className="hover:text-primary">Home</Link>
@@ -281,5 +294,7 @@ export default function MultiVisitRCTPage() {
         </div>
       </div>
     </div>
-  )
+  
+		<CTAWidget title={`Book Multi Visit Rct`} description="Get expert dental care from our team" primaryAction={{ text: 'Book Appointment', href: '/contact' }} secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }} showRating showAvailability />
+)
 }
