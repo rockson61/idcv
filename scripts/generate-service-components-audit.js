@@ -12,14 +12,14 @@ const OUTPUT = path.join(ROOT, 'SERVICE_PAGES_COMPONENT_AUDIT.md')
 
 /** Components to check */
 const CHECKS = [
-  { key: 'Breadcrumb', patterns: ['<Breadcrumb', "from '@/components/breadcrumb'", 'from "@/components/breadcrumb"'] },
-  { key: 'PageHeader', patterns: ['<PageHeader', "from '@/components/page-header'", 'from "@/components/page-header"'] },
-  { key: 'ServiceSemanticContent', patterns: ['<ServiceSemanticContent'] },
-  { key: 'CTAWidget', patterns: ['<CTAWidget', "from '@/components/widgets/cta-widget'", 'from "@/components/widgets/cta-widget"'] },
+  { key: 'Breadcrumb', patterns: ['<Breadcrumb', "from '@/components/breadcrumb'", 'from "@/components/breadcrumb"', 'StandardServiceLayout'] },
+  { key: 'PageHeader', patterns: ['<PageHeader', "from '@/components/page-header'", 'from "@/components/page-header"', 'StandardServiceLayout'] },
+  { key: 'ServiceSemanticContent', patterns: ['<ServiceSemanticContent', 'StandardServiceLayout'] },
+  { key: 'CTAWidget', patterns: ['<CTAWidget', "from '@/components/widgets/cta-widget'", 'from "@/components/widgets/cta-widget"', 'StandardServiceLayout'] },
   // Recommended
-  { key: 'RelevantQAWidget', patterns: ['<RelevantQAWidget'] },
-  { key: 'CompactServiceWidgetOrRelated', patterns: ['<CompactServiceWidget', 'Related Services', '<ServicesOverview', '<service-cards', '<ServiceCards'] },
-  { key: 'PeopleAlsoSearchFor', patterns: ['<PeopleAlsoSearchFor'] },
+  { key: 'RelevantQAWidget', patterns: ['<RelevantQAWidget', 'StandardServiceLayout'] },
+  { key: 'CompactServiceWidgetOrRelated', patterns: ['<CompactServiceWidget', '<RelatedServices', 'Related Services', '<ServicesOverview', '<service-cards', '<ServiceCards', 'StandardServiceLayout'] },
+  { key: 'PeopleAlsoSearchFor', patterns: ['<PeopleAlsoSearchFor', 'StandardServiceLayout'] },
   // Count PriceComparisonTable as present if explicitly used OR via StandardServiceLayout
   { key: 'PriceComparisonTable', patterns: ['<PriceComparisonTable', 'StandardServiceLayout'] },
 ]
