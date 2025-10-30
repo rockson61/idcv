@@ -54,6 +54,7 @@ function main() {
   }
   const pages = walk(APP_DIR);
   const rows = [];
+  const missingCounters = Object.fromEntries(requiredJsx.map(n => [n, 0]));
   for (const file of pages) {
     const src = fs.readFileSync(file, 'utf8');
     // Skip redirect-only pages from audit
@@ -65,6 +66,7 @@ function main() {
     if (missingImports.length || missingJsx.length) {
       rows.push({ file: path.relative(ROOT, file), missingImports, missingJsx });
     }
+    for (const n of missingJsx) missingCounters[n]++;
   }
 
   const lines = [];
@@ -81,6 +83,12 @@ function main() {
       const mi = r.missingImports.map(m => `${m.symbol} from ${m.from}`).join('<br/>') || '—';
       const mj = r.missingJsx.join(', ') || '—';
       lines.push(`| ${r.file} | ${mi} | ${mj} |`);
+    }
+    lines.push('');
+    lines.push('## Missing Summary');
+    lines.push('');
+    for (const name of requiredJsx) {
+      lines.push(`- ${name}: ${missingCounters[name] || 0} pages missing`);
     }
   }
 
