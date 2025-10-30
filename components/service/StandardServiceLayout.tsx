@@ -7,6 +7,8 @@ import { CTAWidget } from '@/components/widgets/cta-widget'
 import { ServiceSemanticContent } from '@/components/service-content-template'
 import { PriceComparisonTable } from '@/components/location/PriceComparisonTable'
 import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
+import { RelevantQAWidget } from '@/components/widgets/relevant-qa-widget'
+import { RelatedServices } from '@/components/service/RelatedServices'
 
 type BreadcrumbItem = { title: string; href?: string }
 
@@ -51,7 +53,7 @@ export function StandardServiceLayout({
 
       {showPriceComparison && (
         <SectionContainer className="py-12">
-          <PriceComparisonTable />
+          <PriceComparisonTable locationName={defaultCityName} />
         </SectionContainer>
       )}
 
@@ -63,6 +65,46 @@ export function StandardServiceLayout({
           secondaryAction={{ text: 'Call Now', href: 'tel:+917010650063' }}
           showRating
           showAvailability
+        />
+      </SectionContainer>
+
+      <SectionContainer className="py-12">
+        <RelatedServices serviceSlug={serviceSlug} />
+      </SectionContainer>
+
+      <SectionContainer className="py-12">
+        <RelevantQAWidget
+          title={`Common Questions About ${serviceName}`}
+          serviceName={serviceName}
+          questions={[
+            {
+              id: 'qa-1',
+              title: `${serviceName}: Is it right for me?`,
+              slug: serviceSlug,
+              excerpt: `Learn who benefits most from ${serviceName}, expected results, and safety.`,
+              helpfulVotes: 12,
+              views: 320,
+              createdAt: '2024-01-10T10:00:00Z',
+            },
+            {
+              id: 'qa-2',
+              title: `${serviceName} cost and financing options`,
+              slug: `${serviceSlug}-cost`,
+              excerpt: 'A quick overview of price ranges, EMI availability, and what affects cost.',
+              helpfulVotes: 9,
+              views: 210,
+              createdAt: '2024-02-05T10:00:00Z',
+            },
+            {
+              id: 'qa-3',
+              title: `Recovery time after ${serviceName}`,
+              slug: `${serviceSlug}-recovery-time`,
+              excerpt: 'How long recovery typically takes and how to speed it up.',
+              helpfulVotes: 7,
+              views: 150,
+              createdAt: '2024-03-12T10:00:00Z',
+            },
+          ]}
         />
       </SectionContainer>
 
