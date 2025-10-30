@@ -60,7 +60,7 @@ import { LocationHeader } from '@/components/location/LocationHeader'
 import { GoogleMapEmbed } from '@/components/location/GoogleMapEmbed'
 import { EnhancedServicesList } from '@/components/location/EnhancedServicesList'
 import { LocationReviews } from '@/components/location/LocationReviews'
-import { LocationFAQs } from '@/components/LocationFAQs'
+import { LocationFAQs } from '@/components/location/LocationFAQs'
 import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
 import type { Metadata } from 'next'
 
