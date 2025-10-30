@@ -64,8 +64,6 @@ import { LocationFAQs } from '@/components/LocationFAQs'
 import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
 import type { Metadata } from 'next'
 
-export const dynamic = 'force-static'
-
 export const metadata: Metadata = {
   title: 'Best Dentist in ${locationName}, ${stateName} | Indira Dental Clinic',
   description: 'Top-rated dental care for ${locationName}, ${stateName}. Save on treatments at Indira Dental Clinic, Vellore.',
