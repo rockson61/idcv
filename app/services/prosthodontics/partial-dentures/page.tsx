@@ -1,26 +1,19 @@
 import { Metadata } from 'next'
 import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
-import { SectionContainer } from '@/components/ui/section-container'
-import { CTAWidget } from '@/components/widgets/cta-widget'
-import { ServiceSemanticContent } from '@/components/service-content-template'
-import { PageHeader } from '@/components/page-header'
-import { Breadcrumb } from '@/components/breadcrumb'
-import { redirect } from 'next/navigation'
 
 export const metadata: Metadata = {
-  title: 'Partial Dentures | Removable False Teeth | Indira Dental Clinic Vellore',
-  description: 'Partial dentures in Vellore. Replace multiple missing teeth with comfortable, natural-looking partial dentures. Dr. Rockson Samuel.',
+  title: 'Partial Dentures | Indira Dental Clinic',
+  description: 'Partial Dentures at Indira Dental Clinic. Advanced care, transparent pricing, expert team in Vellore.',
 }
 
-export default function PartialDenturesPage() {
-  redirect('/services/prosthodontics/dentures')
+export default function ServicePage() {
+  return (
+    <StandardServiceLayout
+      serviceName="Partial Dentures"
+      serviceSlug="partial-dentures"
+      showPriceComparison
+      defaultLocationName="Vellore"
+      defaultCityName="Vellore"
+    />
+  )
 }
-
-
-		<SectionContainer className="py-12">
-			<ServiceSemanticContent serviceName="Partial Dentures" serviceSlug="partial-dentures" />
-		</SectionContainer>
-
-
-		<StandardServiceLayout serviceName="Partial Dentures" serviceSlug="partial-dentures" showPriceComparison={false} />
-

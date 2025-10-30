@@ -1,26 +1,19 @@
 import { Metadata } from 'next'
 import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
-import { SectionContainer } from '@/components/ui/section-container'
-import { CTAWidget } from '@/components/widgets/cta-widget'
-import { ServiceSemanticContent } from '@/components/service-content-template'
-import { PageHeader } from '@/components/page-header'
-import { Breadcrumb } from '@/components/breadcrumb'
-import { redirect } from 'next/navigation'
 
 export const metadata: Metadata = {
-  title: 'Orthodontic Treatment | Redirecting...',
+  title: 'Orthodontic Treatment | Indira Dental Clinic',
+  description: 'Orthodontic Treatment at Indira Dental Clinic. Advanced care, transparent pricing, expert team in Vellore.',
 }
 
-// Redirect to main orthodontics page
-export default function OrthodonticTreatmentRedirect() {
-  redirect('/services/orthodontics')
+export default function ServicePage() {
+  return (
+    <StandardServiceLayout
+      serviceName="Orthodontic Treatment"
+      serviceSlug="orthodontic-treatment"
+      showPriceComparison
+      defaultLocationName="Vellore"
+      defaultCityName="Vellore"
+    />
+  )
 }
-
-
-		<SectionContainer className="py-12">
-			<ServiceSemanticContent serviceName="Orthodontic Treatment" serviceSlug="orthodontic-treatment" />
-		</SectionContainer>
-
-
-		<StandardServiceLayout serviceName="Orthodontic Treatment" serviceSlug="orthodontic-treatment" showPriceComparison={false} />
-

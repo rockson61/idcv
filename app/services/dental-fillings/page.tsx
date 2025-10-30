@@ -1,26 +1,19 @@
 import { Metadata } from 'next'
 import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
-import { SectionContainer } from '@/components/ui/section-container'
-import { CTAWidget } from '@/components/widgets/cta-widget'
-import { ServiceSemanticContent } from '@/components/service-content-template'
-import { PageHeader } from '@/components/page-header'
-import { Breadcrumb } from '@/components/breadcrumb'
-import { redirect } from 'next/navigation'
 
 export const metadata: Metadata = {
-  title: 'Dental Fillings | Redirecting...',
+  title: 'Dental Fillings | Indira Dental Clinic',
+  description: 'Dental Fillings at Indira Dental Clinic. Advanced care, transparent pricing, expert team in Vellore.',
 }
 
-// Redirect to restorative dentistry fillings page
-export default function DentalFillingsRedirect() {
-  redirect('/services/restorative-dentistry/dental-fillings')
+export default function ServicePage() {
+  return (
+    <StandardServiceLayout
+      serviceName="Dental Fillings"
+      serviceSlug="dental-fillings"
+      showPriceComparison
+      defaultLocationName="Vellore"
+      defaultCityName="Vellore"
+    />
+  )
 }
-
-
-		<SectionContainer className="py-12">
-			<ServiceSemanticContent serviceName="Dental Fillings" serviceSlug="dental-fillings" />
-		</SectionContainer>
-
-
-		<StandardServiceLayout serviceName="Dental Fillings" serviceSlug="dental-fillings" showPriceComparison={false} />
-

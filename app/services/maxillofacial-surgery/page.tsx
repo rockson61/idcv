@@ -1,19 +1,19 @@
-import { redirect } from 'next/navigation'
+import { Metadata } from 'next'
 import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
-import { SectionContainer } from '@/components/ui/section-container'
-import { CTAWidget } from '@/components/widgets/cta-widget'
-import { ServiceSemanticContent } from '@/components/service-content-template'
-import { PageHeader } from '@/components/page-header'
-import { Breadcrumb } from '@/components/breadcrumb'
 
-export default function MaxillofacialSurgeryRedirect() {
-  redirect('/services/oral-surgery')
+export const metadata: Metadata = {
+  title: 'Maxillofacial Surgery | Indira Dental Clinic',
+  description: 'Maxillofacial Surgery at Indira Dental Clinic. Advanced care, transparent pricing, expert team in Vellore.',
 }
 
-		<SectionContainer className="py-12">
-			<ServiceSemanticContent serviceName="Maxillofacial Surgery" serviceSlug="maxillofacial-surgery" />
-		</SectionContainer>
-
-
-		<StandardServiceLayout serviceName="Maxillofacial Surgery" serviceSlug="maxillofacial-surgery" showPriceComparison={false} />
-
+export default function ServicePage() {
+  return (
+    <StandardServiceLayout
+      serviceName="Maxillofacial Surgery"
+      serviceSlug="maxillofacial-surgery"
+      showPriceComparison
+      defaultLocationName="Vellore"
+      defaultCityName="Vellore"
+    />
+  )
+}
