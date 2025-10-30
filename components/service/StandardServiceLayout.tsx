@@ -23,7 +23,7 @@ export function StandardServiceLayout({
   serviceName,
   serviceSlug,
   breadcrumb,
-  showPriceComparison = false,
+  showPriceComparison = true,
   defaultLocationName = 'Vellore',
   defaultCityName = 'Vellore',
 }: StandardServiceLayoutProps) {
