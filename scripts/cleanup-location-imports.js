@@ -16,6 +16,8 @@ const individualLocationImportPrefixes = [
   "@/components/location/TravelInfoCard",
   "@/components/location/PriceComparisonTable",
   "@/components/location/WhyChooseUs",
+  // Also drop the separate LocationFAQs import when barrel is present to avoid duplicate identifiers
+  "@/components/LocationFAQs",
 ];
 
 function walk(dir, acc = []) {
@@ -37,6 +39,10 @@ function removeIndividualImportsWhenBarrelPresent(src) {
   const lines = src.split('\n');
   const filtered = lines.filter(line => {
     if (!line.startsWith('import')) return true;
+    // Remove standalone LocationFAQs when barrel exists
+    if (line.includes("from '@/components/LocationFAQs'") || line.includes('from "@/components/LocationFAQs"')) {
+      return false;
+    }
     for (const pref of individualLocationImportPrefixes) {
       if (line.includes(`from '${pref}'`) || line.includes(`from \"${pref}\"`)) {
         return false; // drop this individual import
