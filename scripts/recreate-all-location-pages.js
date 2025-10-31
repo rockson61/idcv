@@ -59,13 +59,13 @@ function buildTemplate(stateSlug, cityOrDistrictSlug, areaSlug, relPath) {
 import dynamic from 'next/dynamic'
 import type { Metadata } from 'next'
 
-// Dynamically import client components to avoid SSR issues during static generation
-const LocationHeader = dynamic(() => import('@/components/location/LocationHeader').then(m => ({ default: m.LocationHeader })), { ssr: false })
-const GoogleMapEmbed = dynamic(() => import('@/components/location/GoogleMapEmbed').then(m => ({ default: m.GoogleMapEmbed })), { ssr: false })
-const EnhancedServicesList = dynamic(() => import('@/components/location/EnhancedServicesList').then(m => ({ default: m.EnhancedServicesList })), { ssr: false })
-const LocationReviews = dynamic(() => import('@/components/location/LocationReviews').then(m => ({ default: m.LocationReviews })), { ssr: false })
-const LocationFAQs = dynamic(() => import('@/components/location/LocationFAQs').then(m => ({ default: m.LocationFAQs })), { ssr: false })
-const PeopleAlsoSearchFor = dynamic(() => import('@/components/location/PeopleAlsoSearchFor').then(m => ({ default: m.PeopleAlsoSearchFor })), { ssr: false })
+// Dynamically import client components (they have 'use client' directive)
+const LocationHeader = dynamic(() => import('@/components/location/LocationHeader').then(m => ({ default: m.LocationHeader })))
+const GoogleMapEmbed = dynamic(() => import('@/components/location/GoogleMapEmbed').then(m => ({ default: m.GoogleMapEmbed })))
+const EnhancedServicesList = dynamic(() => import('@/components/location/EnhancedServicesList').then(m => ({ default: m.EnhancedServicesList })))
+const LocationReviews = dynamic(() => import('@/components/location/LocationReviews').then(m => ({ default: m.LocationReviews })))
+const LocationFAQs = dynamic(() => import('@/components/location/LocationFAQs').then(m => ({ default: m.LocationFAQs })))
+const PeopleAlsoSearchFor = dynamic(() => import('@/components/location/PeopleAlsoSearchFor').then(m => ({ default: m.PeopleAlsoSearchFor })))
 
 export const metadata: Metadata = {
   title: 'Best Dentist in ${locationName}, ${stateName} | Indira Dental Clinic',
