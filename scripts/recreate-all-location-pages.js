@@ -57,6 +57,7 @@ function buildTemplate(stateSlug, cityOrDistrictSlug, areaSlug, relPath) {
   
   return `import { Breadcrumb } from '@/components/breadcrumb'
 import dynamic from 'next/dynamic'
+import { Suspense } from 'react'
 import type { Metadata } from 'next'
 
 // Dynamically import client components (they have 'use client' directive)
@@ -88,27 +89,39 @@ ${breadcrumbStr},
           ]}
         />
 
-        <LocationHeader locationName={locationName} category="town" />
+        <Suspense fallback={<div className="h-32 bg-gray-100 animate-pulse rounded" />}>
+          <LocationHeader locationName={locationName} category="town" />
+        </Suspense>
 
-        <div className="mb-8">
-          <GoogleMapEmbed locationName={locationName} />
-        </div>
+        <Suspense fallback={<div className="h-64 bg-gray-100 animate-pulse rounded mb-8" />}>
+          <div className="mb-8">
+            <GoogleMapEmbed locationName={locationName} />
+          </div>
+        </Suspense>
 
-        <div className="mb-8">
-          <EnhancedServicesList locationName={locationName} services={services} />
-        </div>
+        <Suspense fallback={<div className="h-64 bg-gray-100 animate-pulse rounded mb-8" />}>
+          <div className="mb-8">
+            <EnhancedServicesList locationName={locationName} services={services} />
+          </div>
+        </Suspense>
 
-        <div className="mb-8">
-          <LocationReviews locationName={locationName} reviews={reviews} />
-        </div>
+        <Suspense fallback={<div className="h-64 bg-gray-100 animate-pulse rounded mb-8" />}>
+          <div className="mb-8">
+            <LocationReviews locationName={locationName} reviews={reviews} />
+          </div>
+        </Suspense>
 
-        <div className="mb-8">
-          <LocationFAQs locationName={locationName} faqs={faqs} />
-        </div>
+        <Suspense fallback={<div className="h-64 bg-gray-100 animate-pulse rounded mb-8" />}>
+          <div className="mb-8">
+            <LocationFAQs locationName={locationName} faqs={faqs} />
+          </div>
+        </Suspense>
 
-        <div className="mb-8">
-          <PeopleAlsoSearchFor location={locationName} city={city} />
-        </div>
+        <Suspense fallback={<div className="h-32 bg-gray-100 animate-pulse rounded mb-8" />}>
+          <div className="mb-8">
+            <PeopleAlsoSearchFor location={locationName} city={city} />
+          </div>
+        </Suspense>
       </div>
     </div>
   )
