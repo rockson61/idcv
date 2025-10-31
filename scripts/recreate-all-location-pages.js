@@ -56,13 +56,16 @@ function buildTemplate(stateSlug, cityOrDistrictSlug, areaSlug, relPath) {
   ).join(',\n');
   
   return `import { Breadcrumb } from '@/components/breadcrumb'
-import { LocationHeader } from '@/components/location/LocationHeader'
-import { GoogleMapEmbed } from '@/components/location/GoogleMapEmbed'
-import { EnhancedServicesList } from '@/components/location/EnhancedServicesList'
-import { LocationReviews } from '@/components/location/LocationReviews'
-import { LocationFAQs } from '@/components/location/LocationFAQs'
-import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
+import dynamic from 'next/dynamic'
 import type { Metadata } from 'next'
+
+// Dynamically import client components to avoid SSR issues during static generation
+const LocationHeader = dynamic(() => import('@/components/location/LocationHeader').then(m => ({ default: m.LocationHeader })), { ssr: false })
+const GoogleMapEmbed = dynamic(() => import('@/components/location/GoogleMapEmbed').then(m => ({ default: m.GoogleMapEmbed })), { ssr: false })
+const EnhancedServicesList = dynamic(() => import('@/components/location/EnhancedServicesList').then(m => ({ default: m.EnhancedServicesList })), { ssr: false })
+const LocationReviews = dynamic(() => import('@/components/location/LocationReviews').then(m => ({ default: m.LocationReviews })), { ssr: false })
+const LocationFAQs = dynamic(() => import('@/components/location/LocationFAQs').then(m => ({ default: m.LocationFAQs })), { ssr: false })
+const PeopleAlsoSearchFor = dynamic(() => import('@/components/location/PeopleAlsoSearchFor').then(m => ({ default: m.PeopleAlsoSearchFor })), { ssr: false })
 
 export const metadata: Metadata = {
   title: 'Best Dentist in ${locationName}, ${stateName} | Indira Dental Clinic',
