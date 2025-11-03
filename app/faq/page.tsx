@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import Link from "next/link"
+import Link from 'next/link'
 import { FaqSchema } from "@/components/schema/FaqSchema"
 import { Breadcrumb } from '@/components/breadcrumb'
 import { ModernCard, ModernCardContent, ModernCardHeader, ModernCardTitle } from "@/components/ui/modern-card"

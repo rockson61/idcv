@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getQuestionBySlug, getAllQuestions } from '@/lib/data/ask-dentist-questions'
 import { addInternalLinks, getRelatedServices } from '@/lib/utils/internal-linking'
+import { formatDate } from '@/lib/utils/date'
 import { QuestionDetail } from '@/components/ask-dentist/question-detail'
 import { RelatedQuestions } from '@/components/ask-dentist/related-questions'
 import { RelatedServices } from '@/components/ask-dentist/related-services'
@@ -12,7 +13,7 @@ import { FAQSchema } from '@/components/ask-dentist/faq-schema'
 import { Breadcrumb } from '@/components/breadcrumb'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { ArrowLeft, MessageCircle, Calendar, User, Eye, ThumbsUp } from 'lucide-react'
+import { ArrowLeft, Calendar, User, Eye, ThumbsUp } from 'lucide-react'
 
 interface QuestionPageProps {
   params: Promise<{
@@ -157,7 +158,7 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
                       <span className="text-sm text-gray-600">Asked</span>
                     </div>
                     <span className="font-medium">
-                      {new Date(question.createdAt).toLocaleDateString()}
+                      {formatDate(question.createdAt)}
                     </span>
                   </div>
                   <div className="flex items-center justify-between">
@@ -214,14 +215,14 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
                 description="Don't wait for dental problems to worsen. Get expert treatment from Dr. Rockson Samuel."
                 primaryAction={{
                   text: "Book Appointment",
-                  href: "/contact",
-                  icon: Calendar
+                  href: "/contact"
                 }}
                 secondaryAction={{
                   text: "Ask Another Question",
-                  href: "/ask-the-dentist/submit",
-                  icon: MessageCircle
+                  href: "/ask-the-dentist/submit"
                 }}
+                primaryIcon="calendar"
+                secondaryIcon="message"
                 benefits={[
                   "Same day appointments available",
                   "15+ years of experience",

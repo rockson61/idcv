@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from 'next/link'
 import type { Metadata } from "next"
 import { MapPin, Star, Phone, Clock, CheckCircle, Shield, Award, Users, Stethoscope, Calendar } from "lucide-react"
 
@@ -6,11 +6,101 @@ import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from
 import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Breadcrumb } from '@/components/breadcrumb'
+import { MarketingContent } from '@/components/marketing/MarketingContent'
 
 export const metadata: Metadata = {
   title: 'Find Dentist Near Me | Best Dental Clinics in Your Area | Indira Dental Clinic',
   description: 'Find the best dentist near you. Indira Dental Clinic serves patients from all over India. Expert dental care with 50% lower costs. Book appointment now!',
   keywords: ['dentist near me', 'find dentist', 'local dental clinic', 'nearby dentist', 'dental services near me'],
+}
+
+const marketingIntro = {
+  eyebrow: 'Find a Dentist Near You',
+  heading: 'Trusted dental care that travels with you across Tamil Nadu & India',
+  description:
+    'Wherever you search “dentist near me,” Indira Dental Clinic delivers modern technology, compassionate specialists, and transparent pricing. Explore how we support families, students, and dental tourists nationwide.',
+}
+
+const marketingSections = [
+  {
+    id: 'nearby-care',
+    eyebrow: 'Neighbourhood Comfort',
+    heading: 'Neighbourhood dental care with metro-grade technology',
+    content: [
+      'Our flagship Vellore clinic anchors a growing network of partner locations across Tamil Nadu, Karnataka, Maharashtra, and beyond. Each site follows the same sterilisation protocol, clinical pathways, and digital record-keeping so your smile is in safe hands wherever you travel.',
+    ],
+    bullets: [
+      'Flagship clinical hub in Vellore with satellite support in 30+ cities',
+      'CBCT, digital impressions, and microscope-assisted procedures at every partner location',
+      'Centralised patient records for seamless second opinions or follow-up care',
+      'Dedicated travel desk for dental tourists seeking world-class outcomes at Indian prices',
+    ],
+  },
+  {
+    id: 'how-it-works',
+    eyebrow: 'Simple Booking',
+    heading: 'How to choose the right “dentist near me” clinic',
+    steps: [
+      { title: 'Discover clinics near you', description: 'Browse our city pages to see treatments, pricing, travel time, and testimonials from your area.' },
+      { title: 'Schedule a digital consultation', description: 'Share X-rays or selfies securely; our specialists recommend a roadmap before you travel.' },
+      { title: 'Receive guided treatment', description: 'Arrive for a pre-confirmed slot with the senior clinician best suited to your case.' },
+      { title: 'Enjoy ongoing support', description: 'WhatsApp check-ins, tele-dentistry reviews, and preventive reminders keep you smiling between visits.' },
+    ],
+    cta: {
+      text: 'Explore all clinic locations',
+      href: '/dentist-near-me/locations'
+    },
+  },
+  {
+    id: 'pricing-support',
+    eyebrow: 'Affordable Excellence',
+    heading: 'Affordable dentistry without compromising outcomes',
+    content: [
+      'Patients choose Indira Dental Clinic for global-grade implants, aligners, and smile makeovers at rates 50–70% lower than leading metro clinics. Our financial counsellors customise packages for families, students, and NRIs, ensuring you receive lasting results within your budget.',
+    ],
+    bullets: [
+      'Itemised quotations before treatment begins',
+      '0% EMI on implants, aligners, and full-mouth makeover plans',
+      'Group family appointments with bundled preventive discounts',
+      'International patient bundles covering airport pickup, stay, and follow-up kits',
+    ],
+    cta: {
+      text: 'View pricing & EMI options',
+      href: '/pricing'
+    },
+  },
+  {
+    id: 'success-stories',
+    eyebrow: 'Real Smiles',
+    heading: 'Success stories from “dentist near me” searches',
+    content: [
+      '“I searched for a dentist near Katpadi Junction at midnight and found Indira Dental Clinic. Their emergency coordinator booked me in first thing next morning.” — Sahana, Vellore',
+      '“Our family in Ranipet and Chennai uses the same clinic thanks to virtual consults and shared digital records.” — The Rajan family',
+    ],
+  },
+]
+
+const marketingFaqs = [
+  {
+    question: 'Can I start treatment online before visiting the clinic?',
+    answer: 'Yes. Upload previous reports or photos through our secure form, and our clinicians will plan your first visit, estimate costs, and share preparatory advice in advance.',
+  },
+  {
+    question: 'Do you coordinate travel for outstation or international patients?',
+    answer: 'Our dental tourism desk handles travel itineraries, visa letters, accommodation, and post-op dietary guidance so you can focus on healing.',
+  },
+  {
+    question: 'Are weekend and late evening appointments available?',
+    answer: 'We offer extended hours, express pain-management slots, and Sunday consultations to fit busy academic and work schedules.',
+  },
+]
+
+const marketingCTA = {
+  heading: 'We are the “dentist near me” you can count on',
+  description: 'Tell us where you are, and we’ll match you with the closest Indira Dental Clinic partner — complete with transparent pricing and a smiling support team.',
+  primary: { text: 'Book a Nearby Appointment', href: '/contact' },
+  secondary: { text: 'Call 7010 650 063', href: 'tel:+917010650063' },
+  tertiary: { text: 'Chat on WhatsApp', href: 'https://wa.me/917010650063' },
 }
 
 const testimonials = [
@@ -338,6 +428,13 @@ export default function DentistNearMePage() {
           ))}
         </Accordion>
       </section>
+
+      <MarketingContent
+        intro={marketingIntro}
+        sections={marketingSections}
+        faqs={marketingFaqs}
+        cta={marketingCTA}
+      />
 
         {/* CTA Section */}
         <section className="text-center">

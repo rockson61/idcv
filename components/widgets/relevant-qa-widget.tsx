@@ -1,5 +1,7 @@
+'use client'
+
 import React from "react"
-import Link from "next/link"
+import Link from 'next/link'
 import { ModernCard } from "@/components/ui/modern-card"
 import { Badge } from "@/components/ui/badge"
 import { 
@@ -9,6 +11,7 @@ import {
   ArrowRight,
   Star
 } from "lucide-react"
+import { formatDate } from '@/lib/utils/date'
 
 interface QAPreview {
   id: string
@@ -67,7 +70,7 @@ export function RelevantQAWidget({
                   </div>
                   <div className="flex items-center">
                     <Clock className="w-3 h-3 mr-1" />
-                    <span>{new Date(question.createdAt).toLocaleDateString()}</span>
+                    <span>{formatDate(question.createdAt)}</span>
                   </div>
                 </div>
               </Link>

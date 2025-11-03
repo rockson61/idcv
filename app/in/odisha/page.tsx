@@ -1,122 +1,59 @@
-
-import { Metadata } from 'next'
-import Link from 'next/link'
-import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
-import { MapPin, Phone, Calendar, Star, Users, Shield, Award, Clock } from 'lucide-react'
 import { Breadcrumb } from '@/components/breadcrumb'
+import { LocationHeader } from '@/components/location/LocationHeader'
+import { GoogleMapEmbed } from '@/components/location/GoogleMapEmbed'
+import { EnhancedServicesList } from '@/components/location/EnhancedServicesList'
+import { LocationReviews } from '@/components/location/LocationReviews'
+import { LocationFAQs } from '@/components/location/LocationFAQs'
+import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
+import type { Metadata } from 'next'
+
+// Disable static generation so client components render with hooks at runtime
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Dental Services in odisha | Expert Dentist | Indira Dental Clinic',
-  description: 'Comprehensive dental services in odisha. Expert dental care including RCT, implants, braces, cosmetic dentistry. Visit Indira Dental Clinic in Vellore for 50% savings.',
-  keywords: ['dentist odisha', 'dental clinic odisha', 'dental services odisha'],
+  title: 'Best Dentist in Odisha, Odisha | Indira Dental Clinic',
+  description: 'Top-rated dental care for Odisha, Odisha. Save on treatments at Indira Dental Clinic, Vellore.',
 }
 
-export default function OdishaPage() {
-  const cities = [
-    { name: 'Bhubaneswar', href: '/in/odisha/bhubaneswar', description: 'Quality dental services in Bhubaneswar' },
-    { name: 'Cuttack', href: '/in/odisha/cuttack', description: 'Quality dental services in Cuttack' },
-    { name: 'Berhampur', href: '/in/odisha/berhampur', description: 'Quality dental services in Berhampur' },
-    { name: 'Sambalpur', href: '/in/odisha/sambalpur', description: 'Quality dental services in Sambalpur' },
-    { name: 'Puri', href: '/in/odisha/puri', description: 'Quality dental services in Puri' },
-    { name: 'Rourkela', href: '/in/odisha/rourkela', description: 'Quality dental services in Rourkela' },
-    { name: 'Raurkela Industrial Township', href: '/in/odisha/raurkela-industrial-township', description: 'Quality dental services in Raurkela Industrial Township' }
-  ]
+const locationName = 'Odisha'
+const city = 'Odisha'
+const services: any[] = []
+const reviews: any[] = []
+const faqs: any[] = []
 
+export default function Page() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50">
-      <div className="container mx-auto px-4 py-12">
-        {/* Breadcrumb */}
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+      <div className="container mx-auto px-4 py-8 max-w-7xl">
         <Breadcrumb
           items={[
             { title: 'Home', href: '/' },
             { title: 'India', href: '/in' },
-            { title: 'Odisha', href: '/in/odisha' }
+            { title: 'Odisha', href: '/in/odisha' },
           ]}
-          className="mb-8"
         />
 
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Dental Services in Odisha
-          </h1>
-          <p className="text-lg text-gray-700 max-w-4xl mx-auto mb-8">
-            Find comprehensive dental care services across Odisha. Expert dental treatments 
-            in all major cities and towns with modern facilities and experienced dentists.
-          </p>
-          
-          {/* Key Features */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-              <Shield className="w-8 h-8 text-teal-600 mb-2" />
-              <span className="text-sm font-medium text-gray-700">Expert Care</span>
-            </div>
-            <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-              <Users className="w-8 h-8 text-teal-600 mb-2" />
-              <span className="text-sm font-medium text-gray-700">Experienced Team</span>
-            </div>
-            <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-              <Award className="w-8 h-8 text-teal-600 mb-2" />
-              <span className="text-sm font-medium text-gray-700">Quality Service</span>
-            </div>
-            <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-              <Clock className="w-8 h-8 text-teal-600 mb-2" />
-              <span className="text-sm font-medium text-gray-700">Flexible Timings</span>
-            </div>
-          </div>
+        <LocationHeader locationName={locationName} category="town" />
+
+        <div className="mb-8">
+          <GoogleMapEmbed locationName={locationName} />
         </div>
 
-        {/* Cities Grid */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Cities in Odisha</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {cities.map((city, index) => (
-              <Link
-                key={index}
-                href={city.href}
-                className="block p-4 bg-white rounded-lg border border-gray-200 hover:border-teal-300 hover:bg-teal-50 transition-all duration-200 group"
-              >
-                <h3 className="font-semibold text-gray-900 group-hover:text-teal-700 mb-1">
-                  {city.name}
-                </h3>
-                <p className="text-xs text-gray-600">
-                  {city.description}
-                </p>
-              </Link>
-            ))}
-          </div>
-        </section>
+        <div className="mb-8">
+          <EnhancedServicesList locationName={locationName} services={services} />
+        </div>
 
-        {/* CTA Section */}
-        <section className="text-center">
-          <ModernCard>
-            <ModernCardContent className="py-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Find Dental Care in Your City
-              </h2>
-              <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-                Browse through our extensive network of dental services across Odisha. 
-                Find the perfect location for your dental care needs.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center justify-center px-8 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700 transition-colors"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Contact Us
-                </Link>
-                <Link
-                  href="/services"
-                  className="inline-flex items-center justify-center px-8 py-3 border-2 border-teal-600 text-teal-600 rounded-lg font-semibold hover:bg-teal-50 transition-colors"
-                >
-                  <Calendar className="w-5 h-5 mr-2" />
-                  View Services
-                </Link>
-              </div>
-            </ModernCardContent>
-          </ModernCard>
-        </section>
+        <div className="mb-8">
+          <LocationReviews locationName={locationName} reviews={reviews} />
+        </div>
+
+        <div className="mb-8">
+          <LocationFAQs locationName={locationName} faqs={faqs} />
+        </div>
+
+        <div className="mb-8">
+          <PeopleAlsoSearchFor location={locationName} city={city} />
+        </div>
       </div>
     </div>
   )

@@ -1,7 +1,79 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Button } from "@/components/ui/button"
+import { MarketingContent } from '@/components/marketing/MarketingContent'
 import { Plane, Hotel, MapPin, CreditCard, Calendar, Phone } from "lucide-react"
+
+const marketingIntro = {
+  eyebrow: 'Global Smiles, Local Warmth',
+  heading: 'Why international patients trust Indira Dental Clinic for dental tourism in India',
+  description:
+    'We merge world-class clinical protocols with curated travel support so you enjoy a pain-free smile transformation and an unforgettable Indian holiday—at a fraction of Western prices.',
+}
+
+const marketingSections = [
+  {
+    id: 'clinic-advantages',
+    eyebrow: 'Clinic Advantages',
+    heading: 'A centre of excellence for global dental travellers',
+    highlights: [
+      { title: 'International quality assurance', description: 'ISO-graded sterilisation, FDA-approved implant systems, and digital workflows match top clinics in the US, UK, and Australia.' },
+      { title: 'Dedicated tourism concierge', description: 'Airport pickups, visa letters, hotel partnerships, translators, and curated sightseeing help you focus on recovery while we plan the adventure.' },
+      { title: 'Compressed treatment timelines', description: 'Smile makeovers, implants, and aligner starts structured within 5–10 day visits, followed by virtual reviews.' },
+      { title: 'Transparent cost savings', description: 'Save 60–80% versus Western tariffs while retaining lifetime maintenance and online follow-up with your treating specialist.' },
+    ],
+  },
+  {
+    id: 'journey-roadmap',
+    eyebrow: 'Travel Roadmap',
+    heading: 'Your dental tourism journey in five guided steps',
+    steps: [
+      { title: 'Virtual assessment', description: 'Share scans/photos; join a video consult where Dr. Rockson Samuel crafts your treatment itinerary and budget.' },
+      { title: 'Visa & travel coordination', description: 'Receive formal invitation letters, packing checklists, and sightseeing suggestions tailored to your recovery windows.' },
+      { title: 'Arrival and concierge check-in', description: 'Get greeted at Chennai airport, chauffeured to vetted hotels minutes from the clinic, and synced with your treatment coordinator.' },
+      { title: 'Treatment & wellness plan', description: 'Enjoy spa-like operatories, engineered healing diets, and daily progress reviews until completion.' },
+      { title: 'Long-distance follow-up', description: 'Return home with detailed reports, maintenance kits, and scheduled tele-dentistry visits.' },
+    ],
+  },
+  {
+    id: 'popular-packages',
+    eyebrow: 'Popular Packages',
+    heading: 'Handpicked treatment packages for global travellers',
+    bullets: [
+      'Smile makeover vacation: veneers + whitening + heritage trail tour',
+      'Implant staycation: full-arch implants with curated wellness experiences',
+      'Aligner fast-track: digital impressions, aligner delivery, and remote monitoring setup in 72 hours',
+      'Bridal sparkle week: cosmetic contouring, whitening, and bespoke photography session',
+    ],
+    cta: {
+      text: 'Download dental tourism brochure',
+      href: '/dental-tourism/packages'
+    },
+  },
+]
+
+const marketingFaqs = [
+  {
+    question: 'Can you coordinate with my home dentist after treatment?',
+    answer: 'Yes. We share digital records and maintenance protocols with your preferred dentist and are available for joint tele-consults whenever required.',
+  },
+  {
+    question: 'What languages do your coordinators speak?',
+    answer: 'Our team supports English, Tamil, Hindi, and can arrange translators for French, German, and Arabic guests.',
+  },
+  {
+    question: 'How far in advance should I plan my trip?',
+    answer: 'We recommend scheduling 4–6 weeks ahead for visa facilitation and flight deals, but we routinely manage urgent cases within 10 days when needed.',
+  },
+]
+
+const marketingCTA = {
+  heading: 'Start planning your dental holiday today',
+  description: 'Tell us your ideal travel dates and smile goals—we will send a personalised treatment plan, cost breakdown, and curated itinerary within 48 hours.',
+  primary: { text: 'Book a virtual consultation', href: '/contact' },
+  secondary: { text: 'Email your reports', href: 'mailto:rockson68@hotmail.com' },
+  tertiary: { text: 'Chat on WhatsApp', href: 'https://wa.me/917010650063' },
+}
 
 export function DentalTourism() {
   return (
@@ -267,6 +339,13 @@ export function DentalTourism() {
           </div>
         </TabsContent>
       </Tabs>
+
+      <MarketingContent
+        intro={marketingIntro}
+        sections={marketingSections}
+        faqs={marketingFaqs}
+        cta={marketingCTA}
+      />
 
       <div className="bg-primary/5 rounded-lg p-8 mb-12">
         <h2 className="text-3xl font-bold mb-6 text-center">Ready to Start Your Dental Journey?</h2>

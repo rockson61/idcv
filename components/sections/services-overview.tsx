@@ -1,9 +1,11 @@
+'use client'
+
 import { Button } from "@/components/ui/button"
 import { GlassCard } from "@/components/ui/glass-card"
 import { SectionContainer } from "@/components/ui/section-container"
 import { Bluetooth as Tooth, Smile, Zap, Shield, Heart, Baby, ArrowRight, CheckCircle } from "lucide-react"
 import Image from "next/image"
-import Link from "next/link"
+import Link from 'next/link'
 
 export function ServicesOverview() {
   const services = [

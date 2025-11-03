@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { Breadcrumb } from '@/components/breadcrumb'
+import { MarketingContent } from '@/components/marketing/MarketingContent'
 import {
   Phone,
   Mail,
@@ -19,7 +20,81 @@ import {
   Building2,
   Star,
 } from "lucide-react"
-import Link from "next/link"
+import Link from 'next/link'
+
+// marketing content data
+const marketingIntro = {
+  eyebrow: 'Reach Out with Confidence',
+  heading: 'Personalised support from the moment you contact Indira Dental Clinic',
+  description:
+    'Whether you prefer calling, WhatsApp, or a detailed email, our coordinators respond quickly, understand your dental goals, and map out the smoothest appointment journey for you and your family.',
+}
+
+const marketingSections = [
+  {
+    id: 'fast-response',
+    eyebrow: 'Quick Response',
+    heading: 'Fast, friendly responses tailored to your schedule',
+    content: [
+      'Our front-office team is trained to triage everything from emergency toothaches to multi-stage smile makeovers. Share a quick note in the form, and we will reply with available slots, budget guidance, and preparatory instructions the same day.',
+    ],
+    bullets: [
+      'Average response time under 30 minutes during clinic hours',
+      'Priority hotline for urgent pain, swelling, or trauma cases',
+      'WhatsApp coordination for outstation and international patients',
+      'Reminders via SMS, email, and WhatsApp so you never miss a visit',
+    ],
+  },
+  {
+    id: 'visit-prep',
+    eyebrow: 'Plan Your Visit',
+    heading: 'Everything you need before arriving at the clinic',
+    steps: [
+      { title: 'Share your concerns & reports', description: 'Upload past X-rays or snapshots securely so our specialists understand your case in advance.' },
+      { title: 'Choose a preferred time', description: 'Select weekdays, weekends, or extended evening slots based on your work or travel schedule.' },
+      { title: 'Receive a personalised itinerary', description: 'Get directions, parking info, and budget estimates tailored to your chosen treatment.' },
+      { title: 'Enjoy seamless check-in', description: 'Arrive to a dedicated coordinator who guides you from reception to aftercare planning.' },
+    ],
+    cta: {
+      text: 'See first-visit checklist',
+      href: '/new-patients'
+    },
+  },
+  {
+    id: 'support-channels',
+    eyebrow: 'Multi-channel Support',
+    heading: 'Choose the contact channel that suits you best',
+    highlights: [
+      { title: 'Call or WhatsApp 24/7', description: 'A real person answers, day or night, to schedule appointments or offer immediate pain-relief advice.' },
+      { title: 'Detailed email follow-ups', description: 'Receive treatment plans, consent forms, and FAQs directly in your inbox for easy reference.' },
+      { title: 'Video consultations', description: 'Connect virtually for second opinions, aligner reviews, and international case discussions.' },
+      { title: 'Dedicated coordinators', description: 'One point of contact handles scheduling, paperwork, and aftercare instructions for your entire family.' },
+    ],
+  },
+]
+
+const marketingFaqs = [
+  {
+    question: 'How soon will someone respond if I submit the contact form?',
+    answer: 'Our patient relations team monitors submissions in real time. You will receive a call or WhatsApp message within 30 minutes during clinic hours and within 2 hours after hours.',
+  },
+  {
+    question: 'Can I reschedule an appointment easily?',
+    answer: 'Yes. Reply to any reminder message or call us directly, and we will shift your slot without any rescheduling charge when notified 24 hours prior.',
+  },
+  {
+    question: 'Do you assist with insurance and EMI paperwork?',
+    answer: 'Absolutely. Share your insurer details or financing preference, and our coordinators will prepare documentation, eligibility checks, and payment breakdowns before you arrive.',
+  },
+]
+
+const marketingCTA = {
+  heading: 'Let us take care of every detail',
+  description: 'Share your dental goals, pain level, or timeline, and we will build a personalised roadmap—with reminders, cost clarity, and a familiar voice at every step.',
+  primary: { text: 'Message Us on WhatsApp', href: 'https://wa.me/917010650063' },
+  secondary: { text: 'Call 7010 650 063', href: 'tel:+917010650063' },
+  tertiary: { text: 'Book Consultation Online', href: '/contact' },
+}
 
 export const metadata: Metadata = {
   title: 'Contact Best Dental Clinic in Vellore | Book Appointment | Indira Dental Clinic',
@@ -352,6 +427,13 @@ export default function ContactPage() {
             </ModernCard>
           </div>
         </section>
+
+        <MarketingContent
+          intro={marketingIntro}
+          sections={marketingSections}
+          faqs={marketingFaqs}
+          cta={marketingCTA}
+        />
 
         {/* Final CTA */}
         <section className="text-center">

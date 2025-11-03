@@ -1,3 +1,5 @@
+'use client'
+
 import { ModernButton } from '@/components/ui/modern-button';
 import { ModernCard } from '@/components/ui/modern-card';
 import { Phone, Calendar, Star, Users, Award, CheckCircle } from 'lucide-react';

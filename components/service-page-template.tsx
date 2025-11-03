@@ -1,6 +1,8 @@
+'use client'
+
 import type React from "react"
 import Image from "next/image"
-import Link from "next/link"
+import Link from 'next/link'
 import { Phone, Calendar, Clock, Star, CheckCircle, ArrowRight, Heart, Users, Award, AlertCircle } from "lucide-react"
 import { GlassCard } from "@/components/ui/glass-card"
 import { SectionContainer } from "@/components/ui/section-container"

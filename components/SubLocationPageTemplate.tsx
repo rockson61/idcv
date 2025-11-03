@@ -1,7 +1,8 @@
+'use client'
+
 import type React from "react"
-import { SEOMetadata } from "@/components/seo/seo-metadata"
 import { LocationBreadcrumb } from "@/components/location-breadcrumb"
-import Link from "next/link"
+import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { CheckCircle, MapPin, Clock, Phone } from "lucide-react"
@@ -62,7 +63,6 @@ export function SubLocationPageTemplate({
 }: SubLocationPageTemplateProps) {
   return (
     <div className="container mx-auto px-4 py-8">
-      <SEOMetadata title={title} description={description} canonicalUrl={canonicalUrl} />
 
       <LocationBreadcrumb items={breadcrumbItems} />
 

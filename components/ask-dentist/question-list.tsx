@@ -7,6 +7,7 @@ import { Question } from '@/lib/types/ask-dentist'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
+import { formatDate } from '@/lib/utils/date'
 import { Calendar, User, Eye, ThumbsUp, MessageCircle, MapPin } from 'lucide-react'
 
 interface QuestionListProps {
@@ -242,7 +243,7 @@ function QuestionCard({ question }: { question: Question }) {
             </div>
             <div className="flex items-center">
               <Calendar className="w-4 h-4 mr-1" />
-              {new Date(question.createdAt).toLocaleDateString()}
+              {formatDate(question.createdAt)}
             </div>
             <div className="flex items-center">
               <Eye className="w-4 h-4 mr-1" />

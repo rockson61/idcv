@@ -1,4 +1,6 @@
-import Link from "next/link"
+'use client'
+
+import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { RelatedLinks } from "@/components/related-links"
 import { getRelatedLinks } from "@/utils/generate-links"

@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { ThumbsUp, ThumbsDown, Reply as ReplyIcon, User, Calendar, MessageCircle, MapPin } from 'lucide-react'
 import { useState } from 'react'
+import { formatDate } from '@/lib/utils/date'
 
 interface RepliesSectionProps {
   replies?: Reply[]
@@ -109,7 +110,7 @@ export function RepliesSection({ replies, questionId }: RepliesSectionProps) {
                         </span>
                       )}
                       <span className="text-sm text-gray-500">
-                        {new Date(reply.createdAt).toLocaleDateString()}
+                        {formatDate(reply.createdAt)}
                       </span>
                     </div>
                     <p className={`${reply.authorType === 'dentist' ? 'text-gray-800 font-medium' : 'text-gray-700'} leading-relaxed mb-3`}>{reply.content}</p>
@@ -163,7 +164,7 @@ export function RepliesSection({ replies, questionId }: RepliesSectionProps) {
                               </span>
                             )}
                             <span className="text-xs text-gray-500">
-                              {new Date(nestedReply.createdAt).toLocaleDateString()}
+                              {formatDate(nestedReply.createdAt)}
                             </span>
                           </div>
                           <p className={`${nestedReply.authorType === 'dentist' ? 'text-gray-800 font-medium' : 'text-gray-700'} text-sm leading-relaxed mb-2`}>{nestedReply.content}</p>

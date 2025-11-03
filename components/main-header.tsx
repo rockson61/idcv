@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState, useEffect } from "react"
-import Link from "next/link"
+import Link from 'next/link'
 import { Phone, MapPin, Clock, Menu, X, ChevronDown } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { ThemeToggle } from "./theme-toggle"

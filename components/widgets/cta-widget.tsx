@@ -1,11 +1,13 @@
+'use client'
+
 import React from "react"
-import Link from "next/link"
+import Link from 'next/link'
 import { ModernCard } from "@/components/ui/modern-card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { 
-  Phone, 
-  Calendar, 
+import {
+  Phone,
+  Calendar,
   MessageCircle,
   ArrowRight,
   Star,
@@ -14,19 +16,27 @@ import {
   CheckCircle
 } from "lucide-react"
 
+type CTAIcon = "phone" | "calendar" | "message"
+
+const iconMap: Record<CTAIcon, React.ComponentType<any>> = {
+  phone: Phone,
+  calendar: Calendar,
+  message: MessageCircle,
+}
+
 interface CTAWidgetProps {
   title: string
   description: string
   primaryAction: {
     text: string
     href: string
-    icon?: React.ComponentType<any>
   }
   secondaryAction?: {
     text: string
     href: string
-    icon?: React.ComponentType<any>
   }
+  primaryIcon?: CTAIcon
+  secondaryIcon?: CTAIcon
   benefits?: string[]
   urgency?: boolean
   showRating?: boolean
@@ -38,13 +48,15 @@ export function CTAWidget({
   description,
   primaryAction,
   secondaryAction,
+  primaryIcon = "phone",
+  secondaryIcon = "message",
   benefits = [],
   urgency = false,
   showRating = true,
   showAvailability = true
 }: CTAWidgetProps) {
-  const PrimaryIcon = primaryAction?.icon || Phone
-  const SecondaryIcon = secondaryAction?.icon || MessageCircle
+  const PrimaryIcon = iconMap[primaryIcon]
+  const SecondaryIcon = iconMap[secondaryIcon]
 
   return (
     <ModernCard className={`${urgency ? 'bg-gradient-to-br from-red-50 to-orange-50 border-red-200' : 'bg-gradient-to-br from-teal-50 to-blue-50 border-teal-200'}`}>

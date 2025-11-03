@@ -8,8 +8,9 @@ import { CompactServiceWidget } from "@/components/widgets/compact-service-widge
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from "@/components/ui/modern-card"
 import { Button } from "@/components/ui/button"
 import { Breadcrumb } from '@/components/breadcrumb'
+import { MarketingContent } from '@/components/marketing/MarketingContent'
 import { CheckCircle, Star, Shield, Clock, Users, Award, MapPin, Phone, Calendar, ArrowRight } from "lucide-react"
-import Link from "next/link"
+import Link from 'next/link'
 import Image from "next/image"
 
 export const metadata: Metadata = {
@@ -29,40 +30,160 @@ export const metadata: Metadata = {
   },
 }
 
-export default function HomePage() {
-  const features = [
-    {
-      icon: Award,
-      title: "15+ Years Experience",
-      description: "Dr. Rockson Samuel (BDS, PgDM, BDM) brings over 15 years of dental expertise and community leadership through DentalReach."
-    },
-    {
-      icon: Star,
-      title: "4.9/5 Patient Rating",
-      description: "Consistently rated as one of the best dentists in Vellore with hundreds of satisfied patients."
-    },
-    {
-      icon: Shield,
-      title: "Advanced Technology",
-      description: "State-of-the-art equipment including digital X-rays, laser dentistry, and modern implant systems."
-    },
-    {
-      icon: Clock,
-      title: "Flexible Timings",
-      description: "Convenient appointment slots including weekends and emergency dental care services."
-    },
-    {
-      icon: Users,
-      title: "Patient-Centered Care",
-      description: "Personalized treatment plans tailored to each patient's unique dental needs and budget."
-    },
-    {
-      icon: CheckCircle,
-      title: "Comprehensive Services",
-      description: "Complete dental care from routine checkups to complex procedures like implants and orthodontics."
-    }
-  ]
+const marketingStats = [
+  { label: 'Dental specialties under one roof', value: '15+', description: 'Implantology, orthodontics, cosmetic dentistry & more' },
+  { label: 'Patients served across Tamil Nadu', value: '25k+', description: 'Families, working professionals & students' },
+  { label: 'Average savings vs. metro clinics', value: '50%', description: 'Transparent pricing with EMI and insurance assistance' },
+  { label: 'Google Review Rating', value: '4.9/5', description: 'Trusted by Vellore & Katpadi residents' },
+]
 
+const marketingSections = [
+  {
+    id: 'comprehensive-care',
+    eyebrow: 'Complete Dental Health',
+    heading: 'Comprehensive dental treatments tailored to Vellore patients',
+    description: 'From preventive cleanings to complex full-mouth rehabilitation, our team listens first and plans every milestone around your goals, comfort, and budget.',
+    content: [
+      'Every smile tells a story. At Indira Dental Clinic, we begin by understanding your dental history, lifestyle, and expectations. Digital X-rays, intraoral cameras, and smile simulation tools help us explain the “why” behind each recommendation.',
+      'Whether you are a student from VIT, a professional commuting from Katpadi, or a family seeking long-term care, we build flexible sequences so treatment fits neatly into your routine.',
+    ],
+    bullets: [
+      'Preventive visits that catch issues early and reduce long-term spend',
+      'Implant, braces, and cosmetic suites designed for predictable results',
+      'Sedation and pain-management protocols for anxious visitors',
+      'Dedicated WhatsApp follow-ups so you always know what comes next',
+    ],
+  },
+  {
+    id: 'treatment-journey',
+    eyebrow: 'Your Visit, Simplified',
+    heading: 'A guided treatment journey from first consultation to ongoing maintenance',
+    steps: [
+      { title: 'Digital diagnosis & personalised roadmap', description: 'We scan, photograph, and measure to create a transparent plan—with visual previews and itemised costs.' },
+      { title: 'Comfort-focused clinical sessions', description: 'Gentle anaesthesia, soothing operatories, and real-time education ensure you feel relaxed and in control.' },
+      { title: 'Beautiful, functional outcomes', description: 'Our lab partners craft custom crowns, veneers, and aligners that look natural and last.' },
+      { title: 'Lifetime retention & support', description: 'WhatsApp check-ins, maintenance reminders, and annual reviews keep your smile healthy for years.' },
+    ],
+    cta: {
+      text: 'See how your first visit works',
+      href: '/new-patients'
+    },
+  },
+  {
+    id: 'vellore-community',
+    eyebrow: 'Serving Vellore & Katpadi',
+    heading: 'Rooted in the Vellore community with global standards',
+    highlights: [
+      { title: 'Trusted by neighbouring towns', description: 'Patients travel from Ranipet, Arcot, Gudiyatham, and Tiruvannamalai for honest advice and predictable dentistry.' },
+      { title: 'Academic & medical partnerships', description: 'Preferred dental partner for professionals linked with CMC Vellore and VIT, offering urgent slots during exams and conferences.' },
+      { title: 'Dental tourism expertise', description: 'International patients choose us for post-treatment holiday care, translation support, and 70% savings versus Western clinics.' },
+      { title: 'Community education', description: 'We host oral-health workshops and volunteer programs to foster preventive care habits across Vellore.' },
+    ],
+  },
+  {
+    id: 'pricing-transparency',
+    eyebrow: 'Transparent Pricing',
+    heading: '50% cost savings with transparent pricing and flexible payment support',
+    content: [
+      'Quality dentistry should never feel out of reach. Our treatment coordinators outline every option—from budget-friendly fixes to premium smile makeovers—so you can choose with confidence.',
+    ],
+    bullets: [
+      'Up-front estimates with no hidden chairside fees',
+      '0% EMI plans and tie-ups with healthcare financiers',
+      'Guidance with insurance reimbursement and documentation',
+      'Seasonal offers on implants, aligners, whitening, and preventive care',
+    ],
+    cta: {
+      text: 'Explore pricing & EMI support',
+      href: '/pricing'
+    },
+  },
+  {
+    id: 'patient-experiences',
+    eyebrow: 'Real Stories',
+    heading: 'Patient experiences that speak for themselves',
+    description: 'From nervous first-timers to busy professionals in need of quick turnarounds, our reviews highlight compassionate care and lasting results.',
+    content: [
+      '“Two implants and a smile makeover later, I can finally enjoy meals with my family again.” — Rajesh, Ranipet',
+      '“Single-visit root canal before my semester exams, with zero hassle.” — Ananya, VIT Katpadi',
+    ],
+    cta: {
+      text: 'Read all testimonials',
+      href: '/testimonials'
+    },
+  },
+]
+
+const marketingFaqs = [
+  {
+    question: 'How quickly can I get an appointment?',
+    answer: 'We reserve daily express slots for emergency cases and offer extended evening appointments for working professionals. Book online or call us, and our team will confirm within minutes.',
+  },
+  {
+    question: 'Do you provide customised treatment plans for complex cases?',
+    answer: 'Yes. Our multi-disciplinary board reviews implant, orthodontic, and smile design cases to align medical, functional, and aesthetic needs, then shares digital previews before we begin.',
+  },
+  {
+    question: 'What precautions do you take for painless dentistry?',
+    answer: 'We combine topical numbing gels, computer-aided local anaesthesia, conscious sedation options, and calming ambience to ensure a gentle experience from start to finish.',
+  },
+]
+
+const marketingCTA = {
+  heading: 'Let’s design the smile you’ve always wanted',
+  description: 'Chat with our coordinators to choose the ideal treatment path, timeline, and budget. We are here for you from first hello to every follow-up.',
+  primary: { text: 'Book a Consultation', href: '/contact' },
+  secondary: { text: 'Call 7010 650 063', href: 'tel:+917010650063' },
+  tertiary: { text: 'Message us on WhatsApp', href: 'https://wa.me/917010650063' },
+}
+
+const marketingIntro = {
+  eyebrow: 'Vellore’s Trusted Dental Partners',
+  heading: 'More than a clinic — a lifetime dental wellness partner',
+  description:
+    'Discover how Indira Dental Clinic blends global protocols with Vellore hospitality to keep every generation smiling. Explore our approach, pricing, and real patient stories before you book.',
+}
+
+type Feature = {
+  icon: typeof Award
+  title: string
+  description: string
+}
+
+const features: Feature[] = [
+  {
+    icon: Award,
+    title: "15+ Years Experience",
+    description: "Dr. Rockson Samuel (BDS, PgDM, BDM) brings over 15 years of dental expertise and community leadership through DentalReach."
+  },
+  {
+    icon: Star,
+    title: "4.9/5 Patient Rating",
+    description: "Consistently rated as one of the best dentists in Vellore with hundreds of satisfied patients."
+  },
+  {
+    icon: Shield,
+    title: "Advanced Technology",
+    description: "State-of-the-art equipment including digital X-rays, laser dentistry, and modern implant systems."
+  },
+  {
+    icon: Clock,
+    title: "Flexible Timings",
+    description: "Convenient appointment slots including weekends and emergency dental care services."
+  },
+  {
+    icon: Users,
+    title: "Patient-Centered Care",
+    description: "Personalized treatment plans tailored to each patient's unique dental needs and budget."
+  },
+  {
+    icon: CheckCircle,
+    title: "Comprehensive Services",
+    description: "Complete dental care from routine checkups to complex procedures like implants and orthodontics."
+  }
+]
+
+export default function HomePage() {
   const quickServices = [
     {
       title: "Root Canal Treatment",
@@ -370,7 +491,16 @@ export default function HomePage() {
                 </div>
               </section>
 
-              {/* CTA Section */}
+              {/* Marketing Content Section */}
+        <MarketingContent
+          intro={marketingIntro}
+          sections={marketingSections}
+          stats={marketingStats}
+          faqs={marketingFaqs}
+          cta={marketingCTA}
+        />
+
+        {/* CTA Section */}
         <section className="text-center">
           <ModernCard className="bg-gradient-to-r from-teal-600 to-blue-600 text-white">
             <ModernCardContent className="py-12">

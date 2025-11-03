@@ -1,7 +1,7 @@
 import { PageTemplate } from "@/components/PageTemplate"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import Link from 'next/link'
 import { ArrowRight, Clipboard, Clock, FileText, Stethoscope } from "lucide-react"
 import type { Metadata } from "next"
 

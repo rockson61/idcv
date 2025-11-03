@@ -1,6 +1,8 @@
+'use client'
+
 import { GlassmorphicCard } from "@/components/ui/glassmorphic-card"
 import { MapPin, Clock, Car, Bus, ChevronRight } from "lucide-react"
-import Link from "next/link"
+import Link from 'next/link'
 import { Alert } from "@/components/ui/alert"
 
 const locations = [

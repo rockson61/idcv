@@ -1,8 +1,10 @@
+'use client'
+
 import { Button } from "@/components/ui/button"
 import { GlassCard } from "@/components/ui/glass-card"
 import { SectionContainer } from "@/components/ui/section-container"
 import { MapPin, Clock, Phone, Navigation, ArrowRight } from "lucide-react"
-import Link from "next/link"
+import Link from 'next/link'
 
 export function LocationsOverview() {
   const mainLocation = {

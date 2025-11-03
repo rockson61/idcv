@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from 'next/link'
 import Image from "next/image"
 import { ArrowLeft, MapPin, Phone, Clock, Star } from "lucide-react"
 

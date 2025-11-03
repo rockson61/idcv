@@ -280,7 +280,9 @@ export function PeopleAlsoSearchFor({
   ]
 
   // Show first 12 by default, rest after "Show More"
-  const visibleQueries = showMore ? searchQueries : searchQueries.slice(0, 12)
+  const safeQueries = searchQueries.filter((query) => typeof query.url === 'string' && query.url.trim().length > 0)
+
+  const visibleQueries = showMore ? safeQueries : safeQueries.slice(0, 12)
 
   return (
     <ModernCard className={className} id="people-also-search">
@@ -302,7 +304,7 @@ export function PeopleAlsoSearchFor({
             {visibleQueries.map((query, index) => (
               <Link
                 key={index}
-                href={query.url}
+                href={query.url!}
                 className="group flex items-start gap-2 p-3 bg-gray-50 hover:bg-blue-50 rounded-lg transition-colors border border-gray-200 hover:border-blue-300"
               >
                 <Search className="w-4 h-4 text-gray-400 group-hover:text-blue-600 mt-0.5 flex-shrink-0" />

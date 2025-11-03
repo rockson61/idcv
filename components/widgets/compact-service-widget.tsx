@@ -1,5 +1,7 @@
+'use client'
+
 import React from "react"
-import Link from "next/link"
+import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { ModernCard } from "@/components/ui/modern-card"
 import { Badge } from "@/components/ui/badge"

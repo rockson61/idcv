@@ -1,5 +1,7 @@
+'use client'
+
 import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import Link from 'next/link'
 import { Calendar, Phone, Mail, MapPin } from "lucide-react"
 
 interface CTASectionProps {

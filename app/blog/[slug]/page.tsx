@@ -1,8 +1,9 @@
 import Image from "next/image"
-import Link from "next/link"
+import Link from 'next/link'
 import type { Metadata } from "next"
 import { CalendarDays, Clock, Tag, ChevronRight, MapPin, BookOpen } from "lucide-react"
 import { HeadingProcessor } from "@/components/heading-processor"
+import { formatDate } from '@/lib/utils/date'
 
 // This would typically come from a CMS or database
 const getBlogPost = (slug: string) => {
@@ -276,11 +277,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           <div className="flex items-center mr-4 mb-2 md:mb-0">
             <CalendarDays className="w-4 h-4 mr-1" />
             <time dateTime={post.publishDate}>
-              {new Date(post.publishDate).toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
+              {formatDate(post.publishDate, 'en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
             </time>
           </div>
 

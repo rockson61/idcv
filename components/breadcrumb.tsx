@@ -1,9 +1,11 @@
+'use client'
+
 import { ChevronRight, Home } from "lucide-react"
-import Link from "next/link"
+import Link from 'next/link'
 
 interface BreadcrumbItem {
   title: string
-  href: string
+  href?: string
 }
 
 interface BreadcrumbProps {
@@ -17,11 +19,23 @@ export function Breadcrumb({ items }: BreadcrumbProps) {
         <Home className="h-4 w-4" />
       </Link>
       {items.map((item, index) => (
-        <div key={index} className="flex items-center">
+        <div key={`${item.title}-${index}`} className="flex items-center">
           <ChevronRight className="h-4 w-4" />
-          <Link href={item.href} className="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground px-2">
-            {item.title}
-          </Link>
+          {item.href ? (
+            <Link
+              href={item.href}
+              className="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground px-2"
+            >
+              {item.title}
+            </Link>
+          ) : (
+            <span
+              className="overflow-hidden text-ellipsis whitespace-nowrap px-2 text-foreground"
+              aria-current={index === items.length - 1 ? 'page' : undefined}
+            >
+              {item.title}
+            </span>
+          )}
         </div>
       ))}
     </div>

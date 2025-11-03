@@ -1,26 +1,62 @@
-import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
-import { Metadata } from 'next'
-import Link from 'next/link'
-import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
-import { MapPin, Phone, Star, Users, Shield, Award, Clock, Navigation, CheckCircle, Wifi, ParkingCircle, Coffee, Car, Building, CreditCard } from 'lucide-react'
 import { Breadcrumb } from '@/components/breadcrumb'
-import { RelevantQAWidget } from '@/components/widgets/relevant-qa-widget'
-import { CompactServiceWidget } from '@/components/widgets/compact-service-widget'
-import { CTAWidget } from '@/components/widgets/cta-widget'
-import Image from 'next/image'
+import { LocationHeader } from '@/components/location/LocationHeader'
+import { GoogleMapEmbed } from '@/components/location/GoogleMapEmbed'
+import { EnhancedServicesList } from '@/components/location/EnhancedServicesList'
+import { LocationReviews } from '@/components/location/LocationReviews'
+import { LocationFAQs } from '@/components/location/LocationFAQs'
+import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
+import type { Metadata } from 'next'
+
+// Disable static generation so client components render with hooks at runtime
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Best Dentist and Dental Clinic in Gandhinagar, Vellore | Indira Dental Clinic',
-  description: 'Expert dental services in Gandhinagar, Vellore. RCT, dental implants, braces by Dr. Rockson Samuel at our Gandhi Nagar clinic.',
-  keywords: ['dentist Gandhinagar', 'dental clinic Gandhinagar Vellore', 'dental services Gandhinagar', 'best dentist Gandhinagar'],
+  title: 'Best Dentist in Gandhinagar, Tamil Nadu | Indira Dental Clinic',
+  description: 'Top-rated dental care for Gandhinagar, Tamil Nadu. Save on treatments at Indira Dental Clinic, Vellore.',
 }
 
-export default function GandhinagarPage() {
-  const services = [{ title: 'Root Canal Treatment', description: 'Pain-free RCT', price: '₹3,000 - ₹8,000', features: ['Single sitting RCT', 'Painless', 'Digital X-Ray', 'Crown included'] },{ title: 'Dental Implants', description: 'Permanent tooth replacement', price: '₹25,000 - ₹45,000', features: ['Titanium implants', 'Lifetime warranty', 'Natural look', 'Bone grafting'] },{ title: 'Orthodontics & Braces', description: 'Straighten teeth', price: '₹30,000 - ₹80,000', features: ['Metal braces', 'Ceramic braces', 'Invisalign', 'Retainers'] },{ title: 'Cosmetic Dentistry', description: 'Transform your smile', price: '₹5,000 - ₹25,000', features: ['Teeth whitening', 'Veneers', 'Smile makeover', 'Bonding'] },{ title: 'General Dentistry', description: 'Comprehensive care', price: '₹500 - ₹2,000', features: ['Check-ups', 'Cleanings', 'Fillings', 'Extractions'] },{ title: 'Pediatric Dentistry', description: 'Care for children', price: '₹500 - ₹3,000', features: ['First visit', 'Fluoride treatment', 'Sealants', 'Cavity fillings'] }]
-  const faqs = [{ question: 'Where is the clinic in Gandhinagar?', answer: 'Our clinic is located in Gandhi Nagar, Vellore, providing comprehensive dental services to Gandhinagar residents.' },{ question: 'Dental treatment costs?', answer: 'Root canal ₹3,000-8,000, implants ₹25,000-45,000, braces ₹30,000-80,000 with transparent pricing.' },{ question: 'Best dentist for Gandhinagar?', answer: 'Dr. Rockson Samuel with 15+ years experience provides personalized dental care.' },{ question: 'Distance from Gandhinagar?', answer: 'Located in Gandhi Nagar area, very close to Gandhinagar residents.' }]
-  const reviews = [{ name: 'Ravi Kumar', location: 'Gandhinagar', rating: 5, treatment: 'Implants', text: 'Excellent service! Very close to Gandhinagar. Dr. Rockson is highly skilled!', date: '2024-01-15' },{ name: 'Meena Devi', location: 'Gandhinagar', rating: 5, treatment: 'RCT', text: 'Best dentist in Gandhi Nagar! Painless treatment. Highly recommend!', date: '2024-01-10' }]
-  return (<div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50"><div className="container mx-auto px-4 py-12"><Breadcrumb items={[{title:'Home',href:'/'},{title:'India',href:'/in'},{title:'Tamil Nadu',href:'/in/tamil-nadu'},{title:'Vellore',href:'/in/tamil-nadu/vellore'},{title:'Gandhinagar',href:'/in/tamil-nadu/vellore/gandhinagar'}]} className="mb-8"/><div className="text-center mb-12"><h1 className="text-4xl md:text-5xl font-bold text-[#005f73] mb-6 leading-tight">Best Dentist and Dental Clinic in Gandhinagar, Vellore</h1><p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">Located in Gandhi Nagar, serving Gandhinagar residents with comprehensive dental care.</p><div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto"><div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm"><Shield className="w-8 h-8 text-teal-600 mb-2"/><span className="text-sm font-medium text-gray-700">Expert Care</span></div><div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm"><Users className="w-8 h-8 text-teal-600 mb-2"/><span className="text-sm font-medium text-gray-700">15+ Years</span></div><div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm"><Award className="w-8 h-8 text-teal-600 mb-2"/><span className="text-sm font-medium text-gray-700">Quality Service</span></div><div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm"><Clock className="w-8 h-8 text-teal-600 mb-2"/><span className="text-sm font-medium text-gray-700">9 AM - 9 PM</span></div></div></div><section className="mb-12"><h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Our Dental Services</h2><div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">{services.map((s,i)=>(<ModernCard key={i} hover><ModernCardHeader><ModernCardTitle>{s.title}</ModernCardTitle></ModernCardHeader><ModernCardContent><p className="text-gray-600 mb-4">{s.description}</p><div className="mb-4"><span className="text-2xl font-bold text-teal-600">{s.price}</span></div><ul className="space-y-2 text-sm text-gray-600">{s.features.map((f,j)=>(<li key={j} className="flex items-center"><CheckCircle className="w-4 h-4 text-teal-500 mr-2"/>{f}</li>))}</ul></ModernCardContent></ModernCard>))}</div></section><section className="mb-12"><h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Meet Dr. Rockson Samuel</h2><ModernCard><ModernCardContent className="py-8"><div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center"><div><Image src="/dr-rockson-samuel-best-dentist-vellore.jpg" alt="Dr. Rockson Samuel" width={400} height={400} className="rounded-lg shadow-lg"/></div><div><h3 className="text-2xl font-bold text-gray-900 mb-2">Dr. Rockson Samuel</h3><p className="text-lg text-teal-600 mb-4">BDS, PgDM, BDM | General Dentist & Community Leader - DentalReach</p><p className="text-gray-600 mb-4">Experience: 15+ Years</p><div className="flex items-center space-x-4 mb-4"><Star className="w-5 h-5 text-yellow-400 fill-current"/><span>4.9/5 Rating</span><Users className="w-5 h-5 text-teal-600 ml-4"/><span>1000+ Patients</span></div></div></div></ModernCardContent></ModernCard></section><section className="mb-12"><h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Patient Reviews</h2><div className="grid grid-cols-1 md:grid-cols-2 gap-6">{reviews.map((r,i)=>(<ModernCard key={i} className="p-6"><div className="flex items-center mb-4"><div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mr-4"><span className="text-teal-600 font-bold">{r.name.charAt(0)}</span></div><div><h4 className="font-semibold text-gray-900">{r.name}</h4><p className="text-sm text-gray-600">{r.location}</p></div></div><div className="flex mb-3">{[...Array(r.rating)].map((_,j)=>(<Star key={j} className="w-4 h-4 text-yellow-400 fill-current"/>))}</div><p className="text-gray-700 mb-3">"{r.text}"</p></ModernCard>))}</div></section><section className="mb-12"><h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">FAQs</h2><div className="space-y-4">{faqs.map((f,i)=>(<ModernCard key={i} className="p-6"><h3 className="text-lg font-semibold text-gray-900 mb-3">{f.question}</h3><p className="text-gray-700">{f.answer}</p></ModernCard>))}</div></section><section className="mb-12"><ModernCard><ModernCardHeader><ModernCardTitle className="flex items-center gap-2"><MapPin className="w-6 h-6 text-teal-600"/>Contact</ModernCardTitle></ModernCardHeader><ModernCardContent><p className="text-gray-700 mb-4">Indira Dental Clinic<br/>Gandhi Nagar, Vellore<br/>Tamil Nadu - 632001</p><div className="space-y-2"><div className="flex items-center"><Phone className="w-5 h-5 text-teal-600 mr-3"/><span>+91 70106 50063</span></div><div className="flex items-center"><Clock className="w-5 h-5 text-teal-600 mr-3"/><span>Mon-Sun: 9 AM - 9 PM</span></div></div></ModernCardContent></ModernCard></section><section className="text-center mb-12"><ModernCard><ModernCardContent className="py-12"><h2 className="text-3xl font-bold text-gray-900 mb-4">Transform Your Smile</h2><p className="text-lg text-gray-700 mb-8">Book your appointment today!</p><div className="flex flex-col sm:flex-row gap-4 justify-center"><Link href="/contact" className="inline-flex items-center justify-center px-8 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700"><Phone className="w-5 h-5 mr-2"/>Book Now</Link><Link href="/services" className="inline-flex items-center justify-center px-8 py-3 border-2 border-teal-600 text-teal-600 rounded-lg font-semibold hover:bg-teal-50"><Navigation className="w-5 h-5 mr-2"/>Services</Link></div></ModernCardContent></ModernCard></section>
-        <PeopleAlsoSearchFor location="Gandhinagar" city="Vellore" />
+const locationName = 'Gandhinagar'
+const city = 'Vellore'
+const services: any[] = []
+const reviews: any[] = []
+const faqs: any[] = []
 
-        <CTAWidget title="Start Your Dental Journey" description="Join satisfied patients from Gandhinagar." primaryAction={{text:"Book Consultation",href:"/contact"}} secondaryAction={{text:"Ask Question",href:"/ask-the-dentist/submit"}} benefits={["15+ years experience","Modern equipment","Flexible payments","Located in Gandhi Nagar"]} showRating={true} showAvailability={true}/></div></div>)
+export default function Page() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+      <div className="container mx-auto px-4 py-8 max-w-7xl">
+        <Breadcrumb
+          items={[
+            { title: 'Home', href: '/' },
+            { title: 'India', href: '/in' },
+            { title: 'Tamil Nadu', href: '/in/tamil-nadu' },
+            { title: 'Vellore', href: '/in/tamil-nadu/vellore' },
+            { title: 'Gandhinagar', href: '/in/tamil-nadu/vellore/gandhinagar' },
+          ]}
+        />
+
+        <LocationHeader locationName={locationName} category="town" />
+
+        <div className="mb-8">
+          <GoogleMapEmbed locationName={locationName} />
+        </div>
+
+        <div className="mb-8">
+          <EnhancedServicesList locationName={locationName} services={services} />
+        </div>
+
+        <div className="mb-8">
+          <LocationReviews locationName={locationName} reviews={reviews} />
+        </div>
+
+        <div className="mb-8">
+          <LocationFAQs locationName={locationName} faqs={faqs} />
+        </div>
+
+        <div className="mb-8">
+          <PeopleAlsoSearchFor location={locationName} city={city} />
+        </div>
+      </div>
+    </div>
+  )
 }

@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { formatDate } from '@/lib/utils/date'
 
 const reviews = [
   {
@@ -400,7 +401,7 @@ export function PatientReviews() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">{review.review}</p>
-                <p className="text-sm text-muted-foreground mt-2">{new Date(review.date).toLocaleDateString()}</p>
+                <p className="text-sm text-muted-foreground mt-2">{formatDate(review.date)}</p>
               </CardContent>
             </Card>
           ))}

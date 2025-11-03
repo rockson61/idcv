@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { Badge } from '@/components/ui/badge'

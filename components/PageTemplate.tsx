@@ -1,5 +1,4 @@
 import type React from "react"
-import { SEOMetadata } from "@/components/seo/seo-metadata"
 import { LocationBreadcrumb } from "@/components/location-breadcrumb"
 import { PageHeader } from "@/components/page-header"
 import { DentistProfileWidget } from "@/components/DentistProfileWidget"
@@ -38,7 +37,6 @@ export function PageTemplate({
 }: PageTemplateProps) {
   return (
     <div className="container mx-auto px-4 py-8">
-      <SEOMetadata title={title} description={description} canonicalUrl={canonicalUrl} />
       <LocationBreadcrumb items={breadcrumbItems} />
       <PageHeader heading={pageHeading} breadcrumb={breadcrumbItems}>
         {pageSubheading && <p className="text-muted-foreground">{pageSubheading}</p>}

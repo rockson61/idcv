@@ -56,17 +56,16 @@ function buildTemplate(stateSlug, cityOrDistrictSlug, areaSlug, relPath) {
   ).join(',\n');
   
   return `import { Breadcrumb } from '@/components/breadcrumb'
-import dynamic from 'next/dynamic'
-import { Suspense } from 'react'
+import { LocationHeader } from '@/components/location/LocationHeader'
+import { GoogleMapEmbed } from '@/components/location/GoogleMapEmbed'
+import { EnhancedServicesList } from '@/components/location/EnhancedServicesList'
+import { LocationReviews } from '@/components/location/LocationReviews'
+import { LocationFAQs } from '@/components/location/LocationFAQs'
+import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
 import type { Metadata } from 'next'
 
-// Dynamically import client components (they have 'use client' directive)
-const LocationHeader = dynamic(() => import('@/components/location/LocationHeader').then(m => ({ default: m.LocationHeader })))
-const GoogleMapEmbed = dynamic(() => import('@/components/location/GoogleMapEmbed').then(m => ({ default: m.GoogleMapEmbed })))
-const EnhancedServicesList = dynamic(() => import('@/components/location/EnhancedServicesList').then(m => ({ default: m.EnhancedServicesList })))
-const LocationReviews = dynamic(() => import('@/components/location/LocationReviews').then(m => ({ default: m.LocationReviews })))
-const LocationFAQs = dynamic(() => import('@/components/location/LocationFAQs').then(m => ({ default: m.LocationFAQs })))
-const PeopleAlsoSearchFor = dynamic(() => import('@/components/location/PeopleAlsoSearchFor').then(m => ({ default: m.PeopleAlsoSearchFor })))
+// Disable static generation so client components render with hooks at runtime
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Best Dentist in ${locationName}, ${stateName} | Indira Dental Clinic',
@@ -89,39 +88,27 @@ ${breadcrumbStr},
           ]}
         />
 
-        <Suspense fallback={<div className="h-32 bg-gray-100 animate-pulse rounded" />}>
-          <LocationHeader locationName={locationName} category="town" />
-        </Suspense>
+        <LocationHeader locationName={locationName} category="town" />
 
-        <Suspense fallback={<div className="h-64 bg-gray-100 animate-pulse rounded mb-8" />}>
-          <div className="mb-8">
-            <GoogleMapEmbed locationName={locationName} />
-          </div>
-        </Suspense>
+        <div className="mb-8">
+          <GoogleMapEmbed locationName={locationName} />
+        </div>
 
-        <Suspense fallback={<div className="h-64 bg-gray-100 animate-pulse rounded mb-8" />}>
-          <div className="mb-8">
-            <EnhancedServicesList locationName={locationName} services={services} />
-          </div>
-        </Suspense>
+        <div className="mb-8">
+          <EnhancedServicesList locationName={locationName} services={services} />
+        </div>
 
-        <Suspense fallback={<div className="h-64 bg-gray-100 animate-pulse rounded mb-8" />}>
-          <div className="mb-8">
-            <LocationReviews locationName={locationName} reviews={reviews} />
-          </div>
-        </Suspense>
+        <div className="mb-8">
+          <LocationReviews locationName={locationName} reviews={reviews} />
+        </div>
 
-        <Suspense fallback={<div className="h-64 bg-gray-100 animate-pulse rounded mb-8" />}>
-          <div className="mb-8">
-            <LocationFAQs locationName={locationName} faqs={faqs} />
-          </div>
-        </Suspense>
+        <div className="mb-8">
+          <LocationFAQs locationName={locationName} faqs={faqs} />
+        </div>
 
-        <Suspense fallback={<div className="h-32 bg-gray-100 animate-pulse rounded mb-8" />}>
-          <div className="mb-8">
-            <PeopleAlsoSearchFor location={locationName} city={city} />
-          </div>
-        </Suspense>
+        <div className="mb-8">
+          <PeopleAlsoSearchFor location={locationName} city={city} />
+        </div>
       </div>
     </div>
   )
@@ -193,7 +180,7 @@ function main() {
   }
   console.log('\nAll pages now have:');
   console.log('  - Static constants (no TDZ)');
-  console.log('  - force-static export (no edge runtime)');
+  console.log("  - force-dynamic export (renders at request time)");
   console.log('  - Clean breadcrumb links');
   console.log('  - Standard component layout');
 }

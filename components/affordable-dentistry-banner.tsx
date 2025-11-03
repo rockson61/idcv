@@ -1,6 +1,8 @@
+'use client'
+
 import { DollarSign, MapPin, Calendar, Shield } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import Link from 'next/link'
 
 export function AffordableDentistryBanner() {
   return (

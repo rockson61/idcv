@@ -1,6 +1,6 @@
 "use client"
 
-import Link from "next/link"
+import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { ModernCard, ModernCardContent, ModernCardDescription, ModernCardFooter, ModernCardHeader, ModernCardTitle } from "@/components/ui/modern-card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"

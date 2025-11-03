@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { ThumbsUp, ThumbsDown, Share2, Calendar, User, MessageCircle, MapPin } from 'lucide-react'
 import { RepliesSection } from './replies-section'
+import { formatDate } from '@/lib/utils/date'
 
 interface QuestionDetailProps {
   question: Question
@@ -67,7 +68,7 @@ export function QuestionDetail({ question, enhancedAnswer }: QuestionDetailProps
               <div className="flex items-center space-x-4 text-sm text-gray-500 mb-4">
                 <div className="flex items-center">
                   <Calendar className="w-4 h-4 mr-1" />
-                  {new Date(question.createdAt).toLocaleDateString()}
+                  {formatDate(question.createdAt)}
                 </div>
               </div>
             </div>

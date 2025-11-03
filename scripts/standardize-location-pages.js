@@ -136,11 +136,11 @@ function main() {
     const derivedName = humanize(slug);
 
     function ensureTopVar(name, value) {
-      if (new RegExp(`\\bconst\\s+${name}\\b`).test(src)) return;
+      if (new RegExp(`\\b(const|let|var)\\s+${name}\\b`).test(src)) return;
       // Insert after last import line
       const matches = [...src.matchAll(/^import[^\n]*\n/gm)];
       const insertAt = matches.length ? (matches[matches.length - 1].index + matches[matches.length - 1][0].length) : 0;
-      const decl = `const ${name} = typeof ${name} !== 'undefined' ? ${name} : ${value}\n`;
+      const decl = `const ${name} = ${value}\n`;
       src = src.slice(0, insertAt) + decl + src.slice(insertAt);
     }
 
@@ -148,19 +148,14 @@ function main() {
     ensureTopVar('city', `'${humanize(parts[parts.length - 3] || 'Vellore')}'`);
     ensureTopVar('services', '[]');
     ensureTopVar('reviews', '[]');
-    ensureTopVar('faqs', 'generateDefaultFAQs ? generateDefaultFAQs(locationName) : []');
+    ensureTopVar('faqs', '[]');
     ensureTopVar('address', `''`);
 
     // Ensure imports
     for (const imp of requiredImports) {
       src = ensureImport(src, imp.symbol, imp.from);
     }
-    // Ensure generator import for faqs fallback if used
-    if (/generateDefaultFAQs\(locationName\)/.test(src) && !/from\s*['\"]@\/components\/LocationFAQs['\"]/.test(src) && !/from\s*['\"]@\/lib\/location-generators['\"]/.test(src)) {
-      const matches2 = [...src.matchAll(/^import[^\n]*\n/gm)];
-      const pos = matches2.length ? (matches2[matches2.length - 1].index + matches2[matches2.length - 1][0].length) : 0;
-      src = src.slice(0, pos) + "import { generateDefaultFAQs } from '@/components/LocationFAQs'\n" + src.slice(pos);
-    }
+    // No generator import needed with static default []
 
     // Ensure JSX sections exist (best-effort, skip if already present)
     for (const block of jsxInsertBlocks) {

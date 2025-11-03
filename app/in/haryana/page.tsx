@@ -1,137 +1,59 @@
-
-import { Metadata } from 'next'
-import Link from 'next/link'
-import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
-import { MapPin, Phone, Calendar, Star, Users, Shield, Award, Clock } from 'lucide-react'
 import { Breadcrumb } from '@/components/breadcrumb'
+import { LocationHeader } from '@/components/location/LocationHeader'
+import { GoogleMapEmbed } from '@/components/location/GoogleMapEmbed'
+import { EnhancedServicesList } from '@/components/location/EnhancedServicesList'
+import { LocationReviews } from '@/components/location/LocationReviews'
+import { LocationFAQs } from '@/components/location/LocationFAQs'
+import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
+import type { Metadata } from 'next'
+
+// Disable static generation so client components render with hooks at runtime
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Dental Services in haryana | Expert Dentist | Indira Dental Clinic',
-  description: 'Comprehensive dental services in haryana. Expert dental care including RCT, implants, braces, cosmetic dentistry. Visit Indira Dental Clinic in Vellore for 50% savings.',
-  keywords: ['dentist haryana', 'dental clinic haryana', 'dental services haryana'],
+  title: 'Best Dentist in Haryana, Haryana | Indira Dental Clinic',
+  description: 'Top-rated dental care for Haryana, Haryana. Save on treatments at Indira Dental Clinic, Vellore.',
 }
 
-export default function HaryanaPage() {
-  const cities = [
-    { name: 'Ambala', href: '/in/haryana/ambala', description: 'Quality dental services in Ambala' },
-    { name: 'Ballabhgarh', href: '/in/haryana/ballabhgarh', description: 'Quality dental services in Ballabhgarh' },
-    { name: 'Bahadurgarh', href: '/in/haryana/bahadurgarh', description: 'Quality dental services in Bahadurgarh' },
-    { name: 'Bhiwani', href: '/in/haryana/bhiwani', description: 'Quality dental services in Bhiwani' },
-    { name: 'Chandigarh', href: '/in/haryana/chandigarh', description: 'Quality dental services in Chandigarh' },
-    { name: 'Faridabad', href: '/in/haryana/faridabad', description: 'Quality dental services in Faridabad' },
-    { name: 'Gurgaon', href: '/in/haryana/gurgaon', description: 'Quality dental services in Gurgaon' },
-    { name: 'Hisar', href: '/in/haryana/hisar', description: 'Quality dental services in Hisar' },
-    { name: 'Jind', href: '/in/haryana/jind', description: 'Quality dental services in Jind' },
-    { name: 'Jhajjar', href: '/in/haryana/jhajjar', description: 'Quality dental services in Jhajjar' },
-    { name: 'Karnal', href: '/in/haryana/karnal', description: 'Quality dental services in Karnal' },
-    { name: 'Kurukshetra', href: '/in/haryana/kurukshetra', description: 'Quality dental services in Kurukshetra' },
-    { name: 'Kundli', href: '/in/haryana/kundli', description: 'Quality dental services in Kundli' },
-    { name: 'Manesar', href: '/in/haryana/manesar', description: 'Quality dental services in Manesar' },
-    { name: 'Palwal', href: '/in/haryana/palwal', description: 'Quality dental services in Palwal' },
-    { name: 'Panchkula', href: '/in/haryana/panchkula', description: 'Quality dental services in Panchkula' },
-    { name: 'Panipat', href: '/in/haryana/panipat', description: 'Quality dental services in Panipat' },
-    { name: 'Rewari', href: '/in/haryana/rewari', description: 'Quality dental services in Rewari' },
-    { name: 'Rohtak', href: '/in/haryana/rohtak', description: 'Quality dental services in Rohtak' },
-    { name: 'Sirsa', href: '/in/haryana/sirsa', description: 'Quality dental services in Sirsa' },
-    { name: 'Sonipat', href: '/in/haryana/sonipat', description: 'Quality dental services in Sonipat' },
-    { name: 'Yamunanagar', href: '/in/haryana/yamunanagar', description: 'Quality dental services in Yamunanagar' }
-  ]
+const locationName = 'Haryana'
+const city = 'Haryana'
+const services: any[] = []
+const reviews: any[] = []
+const faqs: any[] = []
 
+export default function Page() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50">
-      <div className="container mx-auto px-4 py-12">
-        {/* Breadcrumb */}
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+      <div className="container mx-auto px-4 py-8 max-w-7xl">
         <Breadcrumb
           items={[
             { title: 'Home', href: '/' },
             { title: 'India', href: '/in' },
-            { title: 'Haryana', href: '/in/haryana' }
+            { title: 'Haryana', href: '/in/haryana' },
           ]}
-          className="mb-8"
         />
 
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Dental Services in Haryana
-          </h1>
-          <p className="text-lg text-gray-700 max-w-4xl mx-auto mb-8">
-            Find comprehensive dental care services across Haryana. Expert dental treatments 
-            in all major cities and towns with modern facilities and experienced dentists.
-          </p>
-          
-          {/* Key Features */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-              <Shield className="w-8 h-8 text-teal-600 mb-2" />
-              <span className="text-sm font-medium text-gray-700">Expert Care</span>
-            </div>
-            <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-              <Users className="w-8 h-8 text-teal-600 mb-2" />
-              <span className="text-sm font-medium text-gray-700">Experienced Team</span>
-            </div>
-            <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-              <Award className="w-8 h-8 text-teal-600 mb-2" />
-              <span className="text-sm font-medium text-gray-700">Quality Service</span>
-            </div>
-            <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
-              <Clock className="w-8 h-8 text-teal-600 mb-2" />
-              <span className="text-sm font-medium text-gray-700">Flexible Timings</span>
-            </div>
-          </div>
+        <LocationHeader locationName={locationName} category="town" />
+
+        <div className="mb-8">
+          <GoogleMapEmbed locationName={locationName} />
         </div>
 
-        {/* Cities Grid */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Cities in Haryana</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {cities.map((city, index) => (
-              <Link
-                key={index}
-                href={city.href}
-                className="block p-4 bg-white rounded-lg border border-gray-200 hover:border-teal-300 hover:bg-teal-50 transition-all duration-200 group"
-              >
-                <h3 className="font-semibold text-gray-900 group-hover:text-teal-700 mb-1">
-                  {city.name}
-                </h3>
-                <p className="text-xs text-gray-600">
-                  {city.description}
-                </p>
-              </Link>
-            ))}
-          </div>
-        </section>
+        <div className="mb-8">
+          <EnhancedServicesList locationName={locationName} services={services} />
+        </div>
 
-        {/* CTA Section */}
-        <section className="text-center">
-          <ModernCard>
-            <ModernCardContent className="py-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Find Dental Care in Your City
-              </h2>
-              <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-                Browse through our extensive network of dental services across Haryana. 
-                Find the perfect location for your dental care needs.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center justify-center px-8 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700 transition-colors"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Contact Us
-                </Link>
-                <Link
-                  href="/services"
-                  className="inline-flex items-center justify-center px-8 py-3 border-2 border-teal-600 text-teal-600 rounded-lg font-semibold hover:bg-teal-50 transition-colors"
-                >
-                  <Calendar className="w-5 h-5 mr-2" />
-                  View Services
-                </Link>
-              </div>
-            </ModernCardContent>
-          </ModernCard>
-        </section>
+        <div className="mb-8">
+          <LocationReviews locationName={locationName} reviews={reviews} />
+        </div>
+
+        <div className="mb-8">
+          <LocationFAQs locationName={locationName} faqs={faqs} />
+        </div>
+
+        <div className="mb-8">
+          <PeopleAlsoSearchFor location={locationName} city={city} />
+        </div>
       </div>
     </div>
   )

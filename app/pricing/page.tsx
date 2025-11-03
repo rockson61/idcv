@@ -3,8 +3,78 @@ import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from
 import { Breadcrumb } from "@/components/breadcrumb"
 import { CTAWidget } from "@/components/widgets/cta-widget"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import { MarketingContent } from '@/components/marketing/MarketingContent'
 import { CheckCircle2, Star, Phone, MapPin } from "lucide-react"
-import Link from "next/link"
+import Link from 'next/link'
+
+const marketingIntro = {
+  eyebrow: 'Transparent Pricing',
+  heading: 'Affordable dentistry without surprise add-ons',
+  description:
+    'Indira Dental Clinic believes world-class dentistry should stay within reach. Explore how our pricing philosophy, financing options, and preventive focus keep treatments predictable and budget-friendly.',
+}
+
+const marketingSections = [
+  {
+    id: 'pricing-philosophy',
+    eyebrow: 'Cost Philosophy',
+    heading: 'Every rupee explained before you sit in the chair',
+    content: [
+      'We price treatments based on clinical time, materials, and specialist involvement—never on hidden chairside fees. From simple fillings to full-mouth implants, you receive a printed quote, procedure outline, and maintenance plan before we begin.',
+    ],
+    bullets: [
+      'Detailed estimates for each treatment phase, including follow-up visits',
+      'Optional upgrades (ceramic, zirconia, aligners) clearly labelled',
+      'No weekend or emergency surcharges for existing patients',
+      'Annual preventive packages to reduce long-term costs',
+    ],
+  },
+  {
+    id: 'payment-support',
+    eyebrow: 'Payment Support',
+    heading: 'Flexible payment solutions designed for families, students, and NRIs',
+    highlights: [
+      { title: '0% EMI plans', description: 'Partnered financiers spread implant, aligner, and smile makeover costs over 6–18 months with zero hidden fees.' },
+      { title: 'Insurance desk', description: 'We assist with cashless tie-ups, reimbursement paperwork, and pre-authorisations so you maximise coverage.' },
+      { title: 'Group & corporate rates', description: 'Family and employee plans unlock bundled preventive care and cosmetic upgrades.' },
+      { title: 'Dental tourism bundles', description: 'International patients receive treatment + accommodation itineraries costing 70% less than Western clinics.' },
+    ],
+  },
+  {
+    id: 'value-drivers',
+    eyebrow: 'Value Drivers',
+    heading: 'What’s included in every treatment quote',
+    bullets: [
+      'Digital diagnostics (CBCT, intraoral scans, photography) and detailed case discussions',
+      'Sterilisation & safety consumables meeting ISO standards',
+      'Post-treatment reviews, WhatsApp follow-ups, and maintenance plans',
+      'Access to multi-specialist board opinions for complex cases at no extra charge',
+    ],
+  },
+]
+
+const marketingFaqs = [
+  {
+    question: 'Can I split my treatment into phases to manage cost?',
+    answer: 'Yes. We routinely sequence restorative and cosmetic treatments over multiple visits so you can prioritise urgent care while budgeting for long-term goals.',
+  },
+  {
+    question: 'Do treatment quotes include lab work and follow-up visits?',
+    answer: 'Absolutely. All lab costs, provisional restorations, and scheduled reviews are itemised upfront so you know the full investment from day one.',
+  },
+  {
+    question: 'Are student or senior citizen discounts available?',
+    answer: 'We offer seasonal preventive and orthodontic discounts for students, seniors, and healthcare professionals. Ask our coordinators for the latest offers when you book.',
+  },
+]
+
+const marketingCTA = {
+  heading: 'Ready for a transparent treatment estimate?',
+  description: 'Share your X-rays or smile goals and receive a personalised plan with clear pricing, financing options, and timelines before your first visit.',
+  primary: { text: 'Request a personalised quote', href: '/contact' },
+  secondary: { text: 'Call 7010 650 063', href: 'tel:+917010650063' },
+  tertiary: { text: 'WhatsApp our coordinators', href: 'https://wa.me/917010650063' },
+}
 
 export const metadata: Metadata = {
   title: "Dental Treatment Cost in Vellore | Price List 2025 | Indira Dental Clinic",
@@ -195,6 +265,13 @@ export default function ServicePage() {
             </Accordion>
           </ModernCardContent>
         </ModernCard>
+
+        <MarketingContent
+          intro={marketingIntro}
+          sections={marketingSections}
+          faqs={marketingFaqs}
+          cta={marketingCTA}
+        />
 
         {/* CTA */}
         <CTAWidget

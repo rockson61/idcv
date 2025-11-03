@@ -4,7 +4,8 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Star, Quote, User, Calendar, Phone, Award, Heart, Smile, CheckCircle2, ThumbsUp } from "lucide-react"
 import Image from "next/image"
-import Link from "next/link"
+import Link from 'next/link'
+import { formatDate } from '@/lib/utils/date'
 
 export const metadata: Metadata = {
   title: 'Patient Reviews & Testimonials | Indira Dental Clinic Vellore | Real Success Stories',
@@ -291,7 +292,7 @@ export default function TestimonialsPage() {
                     />
                   ))}
                 </div>
-                <span className="text-sm text-gray-500">{new Date(testimonial.date).toLocaleDateString("en-IN")}</span>
+                <span className="text-sm text-gray-500">{formatDate(testimonial.date)}</span>
               </div>
 
               <div className="mb-4">

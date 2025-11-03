@@ -1,7 +1,7 @@
 "use client"
 
 import { MapPin, Clock, Car, Bus, ArrowRight } from "lucide-react"
-import Link from "next/link"
+import Link from 'next/link'
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { ClinicInfo } from "./clinic-info"
 

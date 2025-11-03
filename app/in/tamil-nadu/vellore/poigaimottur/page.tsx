@@ -1,55 +1,61 @@
-import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
-import { Metadata } from 'next'
 import { Breadcrumb } from '@/components/breadcrumb'
-import { generateDefaultReviews, generateDefaultFAQs } from '@/lib/location-generators'
-import { GoogleMapEmbed, LocalAmenitiesMap, LocationReviews, LocationFAQs, LocationHeader, NearbyLocationsWidget, EnhancedServicesList, TravelInfoCard, PriceComparisonTable, WhyChooseUs } from '@/components/location'
-import { CTAWidget } from '@/components/widgets/cta-widget'
+import { LocationHeader } from '@/components/location/LocationHeader'
+import { GoogleMapEmbed } from '@/components/location/GoogleMapEmbed'
+import { EnhancedServicesList } from '@/components/location/EnhancedServicesList'
+import { LocationReviews } from '@/components/location/LocationReviews'
+import { LocationFAQs } from '@/components/location/LocationFAQs'
+import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
+import type { Metadata } from 'next'
+
+// Disable static generation so client components render with hooks at runtime
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Best Dentist in Poigaimottur, Vlr | Indira Dental Clinic | RCT, Implants',
-  description: 'Expert dental care in Poigaimottur. Dr. Rockson Samuel. PIN: 632114. Book: +91 70106 50063',
-  keywords: ['dentist Poigaimottur', 'dental clinic Poigaimottur', 'Vlr dentist'],
+  title: 'Best Dentist in Poigaimottur, Tamil Nadu | Indira Dental Clinic',
+  description: 'Top-rated dental care for Poigaimottur, Tamil Nadu. Save on treatments at Indira Dental Clinic, Vellore.',
 }
 
-export default function PoigaimotturPage() {
-  const distance = "17 km"
+const locationName = 'Poigaimottur'
+const city = 'Vellore'
+const services: any[] = []
+const reviews: any[] = []
+const faqs: any[] = []
 
-  const locationName = 'Poigaimottur'
-  const services = [
-    { title: 'Root Canal', slug: 'root-canal-treatment', price: '₹3,000 - ₹8,000', features: ['Painless', 'Single sitting', 'Crown included'], duration: '1-2 hours', popular: true },
-    { title: 'Dental Implants', slug: 'dental-implants', price: '₹25,000 - ₹45,000', features: ['Titanium', 'Lifetime warranty', 'Natural look'], duration: '2-3 hours', popular: true },
-    { title: 'Braces', slug: 'orthodontics', price: '₹30,000 - ₹80,000', features: ['Metal/Ceramic', 'Invisalign', 'EMI available'], duration: '18-24 months' },
-    { title: 'Cosmetic', slug: 'cosmetic-dentistry', price: '₹5,000 - ₹25,000', features: ['Whitening', 'Veneers', 'Smile makeover'], duration: '1-3 hours' },
-  ]
-  const amenities = [
-    { name: 'State Bank', type: 'bank' as const, distance: '0.5 km', address: 'Main Road' },
-    { name: 'ATM', type: 'atm' as const, distance: '0.3 km', address: 'Bus Stand' },
-    { name: 'Post Office', type: 'post_office' as const, distance: '0.8 km', address: 'PO Road' },
-    { name: 'PHC', type: 'hospital' as const, distance: '1 km', address: 'Hospital Road' },
-  ]
-  const nearbyLocations = [
-    { name: 'Vellore', distance: '17 km', slug: '', travelTime: '27 minutes', pincode: '632001' },
-    { name: 'Vlr', distance: '5-10 km', slug: 'vlr', travelTime: '15 min', pincode: '632114' },
-  ]
-
+export default function Page() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50">
-      <div className="container mx-auto px-4 py-12">
-        <Breadcrumb items={[{title:'Home',href:'/'},{title:'India',href:'/in'},{title:'Tamil Nadu',href:'/in/tamil-nadu'},{title:'Vellore',href:'/in/tamil-nadu/vellore'},{title:locationName,href:`/in/tamil-nadu/vellore/${locationName.toLowerCase()}`}]} className="mb-8"/>
-        <LocationHeader locationName={locationName} taluk="Vlr" pincode="632114" distance="17 km" category="town" className="mb-12"/>
-        <GoogleMapEmbed locationName={locationName} className="mb-12"/>
-        <EnhancedServicesList services={services} locationName={locationName} className="mb-12"/>
-        <PriceComparisonTable locationName={locationName} className="mb-12"/>
-        <WhyChooseUs locationName={locationName} className="mb-12"/>
-        <LocalAmenitiesMap locationName={locationName} amenities={amenities} touristPlaces={['Local Temple', 'Market']} className="mb-12"/>
-        <TravelInfoCard fromLocation={locationName} distance="17 km" travelTime="27 minutes" options={{bus:{available:true},car:{available:true},auto:{available:true}}} className="mb-12"/>
-        <LocationReviews reviews={generateDefaultReviews(locationName)} locationName={locationName} className="mb-12"/>
-        <LocationFAQs faqs={generateDefaultFAQs(locationName, "17 km")} locationName={locationName} className="mb-12"/>
-        <NearbyLocationsWidget currentLocation={locationName} locations={nearbyLocations} className="mb-12"/>
-        
-        <PeopleAlsoSearchFor location="Poigaimottur" city="Vellore" />
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
+      <div className="container mx-auto px-4 py-8 max-w-7xl">
+        <Breadcrumb
+          items={[
+            { title: 'Home', href: '/' },
+            { title: 'India', href: '/in' },
+            { title: 'Tamil Nadu', href: '/in/tamil-nadu' },
+            { title: 'Vellore', href: '/in/tamil-nadu/vellore' },
+            { title: 'Poigaimottur', href: '/in/tamil-nadu/vellore/poigaimottur' },
+          ]}
+        />
 
-        <CTAWidget title={`Book from ${locationName}`} description="Expert dental care nearby" primaryAction={{text:"Book",href:"/contact"}} secondaryAction={{text:"Call",href:"tel:+917010650063"}} benefits={["15+ years","Modern tech","EMI available",`${distance} away`]} showRating={true} showAvailability={true}/>
+        <LocationHeader locationName={locationName} category="town" />
+
+        <div className="mb-8">
+          <GoogleMapEmbed locationName={locationName} />
+        </div>
+
+        <div className="mb-8">
+          <EnhancedServicesList locationName={locationName} services={services} />
+        </div>
+
+        <div className="mb-8">
+          <LocationReviews locationName={locationName} reviews={reviews} />
+        </div>
+
+        <div className="mb-8">
+          <LocationFAQs locationName={locationName} faqs={faqs} />
+        </div>
+
+        <div className="mb-8">
+          <PeopleAlsoSearchFor location={locationName} city={city} />
+        </div>
       </div>
     </div>
   )

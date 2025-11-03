@@ -1,8 +1,11 @@
+'use client'
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import Link from "next/link"
+import Link from 'next/link'
 import { Calendar, Clock, ArrowRight } from "lucide-react"
 import Image from "next/image"
+import { formatDate } from '@/lib/utils/date'
 
 const posts = [
   {
@@ -155,11 +158,7 @@ export function BlogPosts() {
               <div className="flex items-center gap-1">
                 <Calendar className="w-4 h-4" />
                 <time dateTime={post.date}>
-                  {new Date(post.date).toLocaleDateString("en-US", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
+                  {formatDate(post.date, 'en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
                 </time>
               </div>
               <div className="flex items-center gap-1">

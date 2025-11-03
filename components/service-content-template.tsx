@@ -1,9 +1,11 @@
+'use client'
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Phone, Calendar, Clock, CheckCircle2, AlertCircle, BadgeIndianRupee } from "lucide-react"
 import Image from "next/image"
-import Link from "next/link"
+import Link from 'next/link'
 
 interface ServiceContentTemplateProps {
   title: string

@@ -1,9 +1,11 @@
+'use client'
+
 import { Button } from "@/components/ui/button"
 import { GlassCard } from "@/components/ui/glass-card"
 import { SectionContainer } from "@/components/ui/section-container"
 import { Award, GraduationCap, Users, Clock, Star, Phone, Calendar, CheckCircle } from "lucide-react"
 import Image from "next/image"
-import Link from "next/link"
+import Link from 'next/link'
 
 export function DentistProfile() {
   const achievements = [

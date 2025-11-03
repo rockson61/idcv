@@ -13,7 +13,7 @@ const requiredImports = [
   { symbol: 'GoogleMapEmbed', from: "@/components/location/GoogleMapEmbed" },
   { symbol: 'EnhancedServicesList', from: "@/components/location/EnhancedServicesList" },
   { symbol: 'LocationReviews', from: "@/components/location/LocationReviews" },
-  { symbol: 'LocationFAQs', from: "@/components/LocationFAQs" },
+  { symbol: 'LocationFAQs', from: ["@/components/LocationFAQs", "@/components/location/LocationFAQs"] },
   { symbol: 'PeopleAlsoSearchFor', from: "@/components/location/PeopleAlsoSearchFor" },
 ];
 
@@ -38,8 +38,11 @@ function walk(dir, acc = []) {
 }
 
 function hasImport(src, sym, from) {
-  const re = new RegExp(`import\\s*\\{[^}]*\\b${sym}\\b[^}]*\\}\\s*from\\s*['\"]${from}['\"]`);
-  return re.test(src);
+  const sources = Array.isArray(from) ? from : [from];
+  return sources.some(f => {
+    const re = new RegExp(`import\\s*\\{[^}]*\\b${sym}\\b[^}]*\\}\\s*from\\s*['\"]${f.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}['\"]`);
+    return re.test(src);
+  });
 }
 
 function hasJsx(src, name) {
@@ -80,7 +83,12 @@ function main() {
     lines.push('| Page | Missing Imports | Missing Sections |');
     lines.push('| --- | --- | --- |');
     for (const r of rows) {
-      const mi = r.missingImports.map(m => `${m.symbol} from ${m.from}`).join('<br/>') || '—';
+      const mi = r.missingImports
+        .map(m => {
+          const sources = Array.isArray(m.from) ? m.from.join(' or ') : m.from;
+          return `${m.symbol} from ${sources}`;
+        })
+        .join('<br/>') || '—';
       const mj = r.missingJsx.join(', ') || '—';
       lines.push(`| ${r.file} | ${mi} | ${mj} |`);
     }

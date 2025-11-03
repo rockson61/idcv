@@ -1,5 +1,7 @@
+'use client'
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import Link from "next/link"
+import Link from 'next/link'
 import { ArrowRight } from "lucide-react"
 import Image from "next/image"
 

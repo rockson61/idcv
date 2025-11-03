@@ -1,5 +1,7 @@
+'use client'
+
 import Image from "next/image"
-import Link from "next/link"
+import Link from 'next/link'
 import { Badge } from "@/components/ui/badge"
 import { Card } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"

@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
 import Image from "next/image"
-import Link from "next/link"
+import Link from 'next/link'
 import { GlassCard } from "@/components/ui/glass-card"
 import { SectionContainer } from "@/components/ui/section-container"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import { MarketingContent } from '@/components/marketing/MarketingContent'
 import {
   Award,
   Users,
@@ -23,6 +24,92 @@ import {
   Lightbulb,
   Smile,
 } from "lucide-react"
+
+const marketingIntro = {
+  eyebrow: 'Our Story',
+  heading: 'From a single-chair practice to Vellore’s most trusted dental destination',
+  description:
+    'Discover how Dr. Rockson Samuel and the Indira Dental Clinic team combine compassion, innovation, and community service to redefine dental care for Vellore and beyond.',
+}
+
+const marketingSections = [
+  {
+    id: 'vision',
+    eyebrow: 'Vision & Mission',
+    heading: 'A mission rooted in patient-first dentistry',
+    content: [
+      'Every smile we transform begins with a promise: evidence-based care, transparent communication, and uncompromising safety. Our clinic’s growth stems from the trust families place in us to protect their oral health for life.',
+    ],
+    bullets: [
+      'Preventive dentistry that empowers patients at every age',
+      'A multidisciplinary team collaborating on complex cases',
+      'Ongoing investment in digital dentistry, lasers, and microscopy',
+      'A culture of empathy—because comfort and clarity matter as much as clinical outcomes',
+    ],
+  },
+  {
+    id: 'leadership',
+    eyebrow: 'Leadership',
+    heading: 'Leadership that blends global training with local insight',
+    highlights: [
+      { title: 'International exposure', description: 'Certified by global academies in implantology, cosmetic dentistry, and endodontics, Dr. Samuel brings best practices home to Vellore.' },
+      { title: 'Mentoring the next generation', description: 'Our clinic hosts continuing education programs and mentorship for young dentists who share our patient-first ethos.' },
+      { title: 'Community advocacy', description: 'From dental camps to oral cancer screenings, we reach underserved communities across Vellore district.' },
+      { title: 'Industry recognition', description: '15+ awards and keynote invitations highlight our contributions to clinical excellence and public health awareness.' },
+    ],
+  },
+  {
+    id: 'patient-experience',
+    eyebrow: 'Patient Experience',
+    heading: 'Designing every touchpoint around comfort and clarity',
+    steps: [
+      { title: 'Thoughtful onboarding', description: 'Pre-visit calls, digital forms, and tailored checklists mean you arrive confident and prepared.' },
+      { title: 'Comfort-first operatory design', description: 'Ambient lighting, noise-cancelling headphones, and warm blankets help you feel at ease.' },
+      { title: 'Collaborative treatment planning', description: 'We co-create your roadmap—showing digital scans, timelines, and realistic outcomes before treatment begins.' },
+      { title: 'Lifetime aftercare', description: 'Annual reviews, maintenance reminders, and WhatsApp follow-ups keep your results protected.' },
+    ],
+    cta: {
+      text: 'Explore our new patient experience',
+      href: '/new-patients'
+    },
+  },
+  {
+    id: 'team-culture',
+    eyebrow: 'Team & Culture',
+    heading: 'A team united by shared values and continuous learning',
+    content: [
+      'Our clinicians, hygiene specialists, and support staff are handpicked for expertise and empathy. Weekly clinical rounds, international workshops, and simulation training ensure each member is future-ready.',
+    ],
+    bullets: [
+      'Team-wide certifications in emergency protocols and sedation safety',
+      'Annual patient feedback surveys directly inform process improvements',
+      'Cross-functional case reviews bring multiple specialist perspectives to your smile',
+    ],
+  },
+]
+
+const marketingFaqs = [
+  {
+    question: 'How does Indira Dental Clinic maintain clinical excellence?',
+    answer: 'We standardise every protocol—from sterilisation to documentation—run regular audits, and benchmark against international dental academies to stay ahead of evolving care standards.',
+  },
+  {
+    question: 'Can I meet the wider clinical team before starting treatment?',
+    answer: 'Absolutely. We encourage meet-and-greet sessions with hygienists, orthodontists, implant coordinators, and treatment counsellors so you feel supported by the entire team.',
+  },
+  {
+    question: 'Do you support community outreach or CSR initiatives?',
+    answer: 'Yes. Our team regularly conducts school dental camps, oral hygiene workshops, and low-cost treatment drives across Vellore district.',
+  },
+]
+
+const marketingCTA = {
+  heading: 'Join a clinic that treats you like family',
+  description: 'Book a consultation to experience the warmth, technology, and meticulous care that define Indira Dental Clinic.',
+  primary: { text: 'Schedule a Consultation', href: '/contact' },
+  secondary: { text: 'Call 7010 650 063', href: 'tel:+917010650063' },
+  tertiary: { text: 'View Patient Stories', href: '/testimonials' },
+}
 
 export const metadata: Metadata = {
   title: 'About Indira Dental Clinic Vellore | Expert Dentist Dr. Rockson Samuel | 15+ Years Experience',
@@ -302,6 +389,13 @@ export default function AboutUsPage() {
             ))}
           </div>
         </div>
+
+        <MarketingContent
+          intro={marketingIntro}
+          sections={marketingSections}
+          faqs={marketingFaqs}
+          cta={marketingCTA}
+        />
 
         <GlassCard className="p-8 text-center bg-gradient-to-r from-teal-50 to-blue-50">
           <Trophy className="w-16 h-16 text-teal-600 mx-auto mb-6" />

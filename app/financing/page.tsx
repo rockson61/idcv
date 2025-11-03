@@ -1,9 +1,10 @@
 import type { Metadata } from "next"
-import Link from "next/link"
+import Link from 'next/link'
 import { PageTemplate } from "@/components/PageTemplate"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import { MarketingContent } from '@/components/marketing/MarketingContent'
 import {
   ArrowRight,
   CheckCircle,
@@ -15,6 +16,75 @@ import {
   IndianRupee,
   FileCheck,
 } from "lucide-react"
+
+const marketingIntro = {
+  eyebrow: 'Financing Made Simple',
+  heading: 'Flexible dental financing tailored to your life stage',
+  description:
+    'From students in Katpadi to families planning full-mouth rehabilitation, Indira Dental Clinic removes financial roadblocks with transparent counselling, EMI assistance, and instant insurance verification.',
+}
+
+const marketingSections = [
+  {
+    id: 'financing-journey',
+    eyebrow: 'How It Works',
+    heading: 'A guided path to stress-free dental financing',
+    steps: [
+      { title: 'Share your treatment goals', description: 'Submit X-rays or book an assessment. Our coordinators map the clinical plan and estimated investment.' },
+      { title: 'Choose a payment route', description: 'Compare in-house plans, 0% EMI options, and eligible insurance benefits side by side.' },
+      { title: 'Complete digital paperwork', description: 'We handle documentation, KYC, and insurer queries so approvals happen within hours.' },
+      { title: 'Enjoy ongoing support', description: 'Receive reminders, statements, and maintenance tips throughout your repayment cycle.' },
+    ],
+  },
+  {
+    id: 'emi-benefits',
+    eyebrow: 'EMI Advantages',
+    heading: 'Why patients love our EMI partnerships',
+    highlights: [
+      { title: '0% interest on key treatments', description: 'Implants, aligners, smile makeovers, and full-mouth rehabilitations qualify for zero-interest tenures up to 18 months.' },
+      { title: 'Instant digital approval', description: 'Share basic KYC docs. Most patients receive conditional approval within 10 minutes.' },
+      { title: 'Family-friendly plans', description: 'Bundle orthodontic and preventive treatments for siblings or parents with one consolidated EMI.' },
+      { title: 'Early closure flexibility', description: 'Settle your EMI ahead of schedule without prepayment penalties.' },
+    ],
+  },
+  {
+    id: 'insurance-support',
+    eyebrow: 'Insurance Desk',
+    heading: 'Insurance assistance that keeps paperwork effortless',
+    content: [
+      'Our insurance coordinators liaise with major providers, prepare pre-authorisations, and submit claims—so you focus on healing. We also demystify exclusions and provide medical narratives when required.',
+    ],
+    bullets: [
+      'Cashless links with leading insurers and TPAs',
+      'Pre-treatment estimates shared for your approval',
+      'Dedicated hotline to track claim status in real time',
+      'Guidance for NRIs leveraging international insurance policies',
+    ],
+  },
+]
+
+const marketingFaqs = [
+  {
+    question: 'Can I combine EMI with insurance coverage?',
+    answer: 'Yes. Insurance typically covers medically necessary components, while cosmetic upgrades or deductibles can be converted into EMIs for easier budgeting.',
+  },
+  {
+    question: 'What documents are required for financing approval?',
+    answer: 'A valid ID proof, address proof, and basic income document (salary slip/bank statement) are usually sufficient. Our team shares a checklist tailored to your financier.',
+  },
+  {
+    question: 'Do you offer financing for international patients?',
+    answer: 'We partner with global payment gateways and coordinate with your home-country lenders, making it simple to finance smile makeovers while you’re in India.',
+  },
+]
+
+const marketingCTA = {
+  heading: 'Let our coordinators design your perfect payment plan',
+  description: 'Book a financing consultation to compare EMIs, insurance benefits, and family packages—all customised to your treatment roadmap.',
+  primary: { text: 'Speak with our financing team', href: '/contact' },
+  secondary: { text: 'Call 7010 650 063', href: 'tel:+917010650063' },
+  tertiary: { text: 'Explore dental tourism packages', href: '/dental-tourism' },
+}
 
 export const metadata: Metadata = {
   title: "Dental Financing & Insurance | Affordable Payment Plans | Vellore",
@@ -276,6 +346,13 @@ export default function FinancingPage() {
           </div>
         </CardContent>
       </Card>
+
+      <MarketingContent
+        intro={marketingIntro}
+        sections={marketingSections}
+        faqs={marketingFaqs}
+        cta={marketingCTA}
+      />
 
       {/* CTA Section */}
       <div className="mt-12 text-center bg-gradient-to-r from-teal-50 to-blue-50 rounded-lg p-8">

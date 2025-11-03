@@ -1,106 +1,61 @@
-import type { Metadata } from "next"
-import Link from "next/link"
 import { Breadcrumb } from '@/components/breadcrumb'
-import { LocationHeader } from "@/components/location/LocationHeader"
-import { GoogleMapEmbed } from "@/components/location/GoogleMapEmbed"
-import { EnhancedServicesList } from "@/components/location/EnhancedServicesList"
-import { LocationReviews } from "@/components/location/LocationReviews"
-import { LocationFAQs } from '@/components/LocationFAQs'
-import { PeopleAlsoSearchFor } from "@/components/location/PeopleAlsoSearchFor"
-import { CTAWidget } from "@/components/widgets/cta-widget"
-import { WhyChooseUs } from "@/components/location/WhyChooseUs"
-import { PriceComparisonTable } from "@/components/location/PriceComparisonTable"
-import { generateLocationReviews } from "@/lib/review-data"
+import { LocationHeader } from '@/components/location/LocationHeader'
+import { GoogleMapEmbed } from '@/components/location/GoogleMapEmbed'
+import { EnhancedServicesList } from '@/components/location/EnhancedServicesList'
+import { LocationReviews } from '@/components/location/LocationReviews'
+import { LocationFAQs } from '@/components/location/LocationFAQs'
+import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
+import type { Metadata } from 'next'
 
-const reviews = generateLocationReviews("Perambur Barracks", "Chennai")
+// Disable static generation so client components render with hooks at runtime
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: "Best Dentist in Perambur Barracks, Chennai | Top Dental Clinic | Indira Dental Clinic",
-  description: "Find the best dental clinic in Perambur Barracks, Chennai for all your dental needs. Dr. Rockson Samuel offers expert treatments including root canals, implants, braces, and cosmetic dentistry.",
-  keywords: ["dentist in Perambur Barracks", "dental clinic Perambur Barracks Chennai", "best dentist Perambur Barracks", "dental care Perambur Barracks", "Indira Dental Clinic Perambur Barracks"],
-  alternates: {
-    canonical: `/in/tamil-nadu/chennai/perambur-barracks`,
-  },
+  title: 'Best Dentist in Perambur Barracks, Tamil Nadu | Indira Dental Clinic',
+  description: 'Top-rated dental care for Perambur Barracks, Tamil Nadu. Save on treatments at Indira Dental Clinic, Vellore.',
 }
 
-export default function PeramburBarracksPage() {
-  const services = [
-    { title: "Root Canal Treatment", href: "/services/root-canal-treatment" },
-    { title: "Dental Implants", href: "/services/dental-implants" },
-    { title: "Orthodontic Braces", href: "/services/orthodontics" },
-    { title: "Teeth Whitening", href: "/services/cosmetic-dentistry/teeth-whitening" },
-    { title: "Cosmetic Dentistry", href: "/services/cosmetic-dentistry" },
-    { title: "Pediatric Dentistry", href: "/services/pediatric-dentistry" },
-    { title: "Emergency Dental Care", href: "/services/emergency-dentistry" },
-    { title: "Gum Disease Treatment", href: "/services/periodontics" },
-    { title: "Wisdom Teeth Removal", href: "/services/oral-surgery/wisdom-teeth-removal" },
-    { title: "Dental Crowns & Bridges", href: "/services/restorative-dentistry/dental-crowns" },
-    { title: "General Dentistry", href: "/services/general-dentistry" },
-    { title: "All-on-4 Implants", href: "/services/dental-implants/all-on-4-implants" },
-  ]
+const locationName = 'Perambur Barracks'
+const city = 'Chennai'
+const services: any[] = []
+const reviews: any[] = []
+const faqs: any[] = []
 
-  const faqs = [
-    {
-      question: "What dental services are available in Perambur Barracks, Chennai?",
-      answer: "In Perambur Barracks, Chennai, Indira Dental Clinic offers comprehensive dental services including general dentistry, cosmetic treatments, root canal therapy, dental implants, orthodontics (braces & Invisalign), teeth whitening, gum disease treatment, wisdom teeth removal, pediatric dentistry, and emergency dental care.",
-    },
-    {
-      question: "How can I book an appointment with Dr. Rockson Samuel from Perambur Barracks?",
-      answer: "You can book an appointment by calling us at 7010650063 or visiting our website to use the online booking form. We are conveniently located near Chennai and serve patients from Perambur Barracks and all surrounding areas.",
-    },
-    {
-      question: "What are the costs of dental treatments for Perambur Barracks patients?",
-      answer: "Our clinic offers transparent and competitive pricing. Root canal treatment starts from ₹3,000, dental implants from ₹25,000, braces from ₹30,000, and teeth whitening from ₹8,000. We provide detailed cost estimates during your consultation. Patients from Perambur Barracks, Chennai can expect high-quality care at affordable prices.",
-    },
-    {
-      question: "Is emergency dental care available for Perambur Barracks area?",
-      answer: "Yes, we provide 24/7 emergency dental care for patients from Perambur Barracks and all Chennai areas. Whether you have a severe toothache, broken tooth, knocked-out tooth, or any dental emergency, call us immediately at 7010650063.",
-    },
-  ]
-
+export default function Page() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         <Breadcrumb
           items={[
             { title: 'Home', href: '/' },
+            { title: 'India', href: '/in' },
             { title: 'Tamil Nadu', href: '/in/tamil-nadu' },
             { title: 'Chennai', href: '/in/tamil-nadu/chennai' },
-            { title: 'Perambur Barracks', href: '/in/tamil-nadu/chennai/perambur-barracks' }
+            { title: 'Perambur Barracks', href: '/in/tamil-nadu/chennai/perambur-barracks' },
           ]}
         />
 
-        <LocationHeader
-          locationName="Best Dentist and Dental Clinic in Perambur Barracks, Chennai"
-          taluk="Perambur Barracks"
-          pincode="600012"
-          distance="130 KM from Vellore"
-          category="town"
-        />
+        <LocationHeader locationName={locationName} category="town" />
 
         <div className="mb-8">
-          <GoogleMapEmbed
-            locationName="Perambur Barracks"
-            address="3rd Floor, 54, Katpadi Main Rd, Gandhi Nagar, Vellore, Tamil Nadu - 632006"
-          />
+          <GoogleMapEmbed locationName={locationName} />
         </div>
 
-        <WhyChooseUs locationName="Perambur Barracks" />
+        <div className="mb-8">
+          <EnhancedServicesList locationName={locationName} services={services} />
+        </div>
 
-        <EnhancedServicesList locationName="Perambur Barracks" services={services} />
+        <div className="mb-8">
+          <LocationReviews locationName={locationName} reviews={reviews} />
+        </div>
 
-        <PriceComparisonTable locationName="Perambur Barracks" />
+        <div className="mb-8">
+          <LocationFAQs locationName={locationName} faqs={faqs} />
+        </div>
 
-        <LocationReviews locationName="Perambur Barracks" reviews={reviews} />
-
-        <LocationFAQs locationName="Perambur Barracks" faqs={faqs} /><PeopleAlsoSearchFor location="Perambur Barracks" city="Chennai" />
-
-        <CTAWidget
-          title="Book Your Appointment from Perambur Barracks Today!"
-          description="Experience expert dental care with Dr. Rockson Samuel. We serve all Chennai areas including Perambur Barracks."
-          primaryAction={{ text: "Call Now: 7010650063", href: "tel:7010650063" }}
-          secondaryAction={{ text: "Book Online", href: "/contact#appointment" }}
-        />
+        <div className="mb-8">
+          <PeopleAlsoSearchFor location={locationName} city={city} />
+        </div>
       </div>
     </div>
   )

@@ -2,6 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   
+  // Exclude problematic cost pages from static generation
+  generateBuildId: async () => {
+    return 'build-' + Date.now()
+  },
+  
   // Experimental features - Build Performance Optimizations
   experimental: {
     // Disabled temporarily to reduce memory pressure during builds

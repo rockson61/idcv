@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react"
-import Link from "next/link"
+import Link from 'next/link'
 import { Menu, X, ChevronDown } from "lucide-react"
 
 const Navigation = () => {

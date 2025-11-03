@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import Link from "next/link"
+import Link from 'next/link'
 import { ArrowRight, CheckCircle2, Clock, IndianRupee } from "lucide-react"
 import { Bluetooth as Tooth, Sparkles, AlignJustify, Syringe, Stethoscope, Baby } from "lucide-react"
 import { GlassCard } from "@/components/ui/glass-card"

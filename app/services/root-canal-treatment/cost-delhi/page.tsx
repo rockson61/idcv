@@ -1,19 +1,14 @@
-import { Metadata } from 'next'
-import { StandardServiceLayout } from '@/components/service/StandardServiceLayout'
+'use client'
 
-export const metadata: Metadata = {
-  title: 'Cost Delhi | Indira Dental Clinic',
-  description: 'Cost Delhi at Indira Dental Clinic. Advanced care, transparent pricing, expert team in Vellore.',
-}
+import { CostPageWrapper } from '@/components/service/CostPageWrapper'
 
 export default function ServicePage() {
   return (
-    <StandardServiceLayout
+    <CostPageWrapper
       serviceName="Cost Delhi"
       serviceSlug="cost-delhi"
-      showPriceComparison
-      defaultLocationName="Vellore"
-      defaultCityName="Vellore"
+      title="Cost Delhi | Indira Dental Clinic"
+      description="Cost Delhi at Indira Dental Clinic. Advanced care, transparent pricing, expert team in Vellore."
     />
   )
 }

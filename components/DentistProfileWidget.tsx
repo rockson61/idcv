@@ -1,8 +1,10 @@
+'use client'
+
 import Image from "next/image"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Award, Calendar, Star, User, Mail, Phone, MapPin } from "lucide-react"
-import Link from "next/link"
+import Link from 'next/link'
 
 export function DentistProfileWidget() {
   const name = "Dr. Rockson Samuel"

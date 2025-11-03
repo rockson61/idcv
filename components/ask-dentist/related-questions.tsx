@@ -1,7 +1,10 @@
+'use client'
+
 import Link from 'next/link'
 import { getAllQuestions } from '@/lib/data/ask-dentist-questions'
 import { ModernCard, ModernCardHeader, ModernCardTitle, ModernCardContent } from '@/components/ui/modern-card'
 import { Question } from '@/lib/types/ask-dentist'
+import { formatDate } from '@/lib/utils/date'
 
 interface RelatedQuestionsProps {
   currentSlug: string
@@ -39,7 +42,7 @@ export function RelatedQuestions({ currentSlug, tags }: RelatedQuestionsProps) {
               </h4>
               <div className="flex items-center justify-between text-xs text-gray-500">
                 <span>{question.helpfulVotes} helpful</span>
-                <span>{new Date(question.createdAt).toLocaleDateString()}</span>
+                <span>{formatDate(question.createdAt)}</span>
               </div>
             </Link>
           ))}

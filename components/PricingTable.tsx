@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ChevronDown, ChevronUp, Search } from "lucide-react"
-import Link from "next/link"
+import Link from 'next/link'
 
 const pricingData = [
   {

@@ -5,9 +5,10 @@ import { ModernCard } from "@/components/ui/modern-card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Calendar, Clock, ArrowRight, Search, Tag, ChevronLeft, ChevronRight } from "lucide-react"
-import Link from "next/link"
+import Link from 'next/link'
 import Image from "next/image"
 import { allBlogPosts, getBlogPostsByCategory } from "@/lib/data/blog-posts"
+import { formatDate } from '@/lib/utils/date'
 
 // All blog categories with ACTUAL counts from real data
 const allCategories = [
@@ -140,7 +141,7 @@ export default function BlogClient() {
                       <div className="flex items-center gap-4 text-xs text-gray-500 mb-4">
                         <div className="flex items-center gap-1">
                           <Calendar className="w-3 h-3" />
-                          <span>{new Date(post.date).toLocaleDateString("en-IN")}</span>
+                          <span>{formatDate(post.date)}</span>
                         </div>
                         <div className="flex items-center gap-1">
                           <Clock className="w-3 h-3" />

@@ -3,9 +3,12 @@ import { LocationHeader } from '@/components/location/LocationHeader'
 import { GoogleMapEmbed } from '@/components/location/GoogleMapEmbed'
 import { EnhancedServicesList } from '@/components/location/EnhancedServicesList'
 import { LocationReviews } from '@/components/location/LocationReviews'
-import { LocationFAQs } from '@/components/LocationFAQs'
+import { LocationFAQs } from '@/components/location/LocationFAQs'
 import { PeopleAlsoSearchFor } from '@/components/location/PeopleAlsoSearchFor'
 import type { Metadata } from 'next'
+
+// Disable static generation so client components render with hooks at runtime
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Best Dentist in Assam, Assam | Indira Dental Clinic',

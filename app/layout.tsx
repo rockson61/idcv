@@ -1,20 +1,11 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter, Exo_2 } from "next/font/google"
 import "./globals.css"
 import { Header } from "@/components/layout/header"
 import { Footer } from "@/components/layout/footer"
 import { ConnectWithDentist } from "@/components/sections/connect-with-dentist"
 import { GlobalSchema } from "@/components/schema/GlobalSchema"
 import { Analytics } from "@vercel/analytics/next"
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
-const exo2 = Exo_2({ 
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  style: ["normal", "italic"],
-  variable: "--font-exo-2"
-})
 
 export const metadata: Metadata = {
   title: "Indira Dental Clinic | Best Dentist in Vellore - Dr. Rockson Samuel",
@@ -84,7 +75,7 @@ export const metadata: Metadata = {
   verification: {
     google: "your-google-verification-code",
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export default function RootLayout({
@@ -104,7 +95,7 @@ export default function RootLayout({
         <meta name="format-detection" content="telephone=no" />
         <GlobalSchema />
       </head>
-      <body className={`${inter.variable} ${exo2.variable} font-sans antialiased`}>
+      <body className="font-sans antialiased">
         <Header />
         {children}
         <ConnectWithDentist />

@@ -1,4 +1,6 @@
-import Link from "next/link"
+'use client'
+
+import Link from 'next/link'
 import { MapPin, Phone, Clock, Star } from "lucide-react"
 import Image from "next/image"
 
