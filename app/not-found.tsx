@@ -9,7 +9,10 @@ export const metadata: Metadata = {
   description: 'The page you are looking for could not be found. Explore our dental services or contact us for assistance.',
 }
 
+import { redirect } from 'next/navigation'
+
 export default function NotFound() {
+  redirect('/')
   const popularPages = [
     { name: 'Home', href: '/', icon: Home },
     { name: 'All Services', href: '/services', icon: Search },
@@ -34,7 +37,7 @@ export default function NotFound() {
           <h1 className="text-6xl font-bold text-gray-900 mb-4">404</h1>
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Page Not Found</h2>
           <p className="text-xl text-gray-600 mb-8">
-            Oops! The page you're looking for seems to have wandered off. 
+            Oops! The page you're looking for seems to have wandered off.
             Don't worry, your dental health journey continues here!
           </p>
 

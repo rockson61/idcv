@@ -77,11 +77,11 @@ const marketingCTA = {
 }
 
 export const metadata: Metadata = {
-  title: "Dental Treatment Cost in Vellore | Price List 2025 | Indira Dental Clinic",
+  title: "Dental Treatment Cost in Vellore | Price List 2026 | Indira Dental Clinic",
   description: "Complete dental treatment price list at Indira Dental Clinic, Vellore. Transparent pricing, no hidden costs.",
   keywords: "dental treatment cost, price list, Vellore, affordable dentist",
   openGraph: {
-    title: "Dental Treatment Cost in Vellore | Price List 2025",
+    title: "Dental Treatment Cost in Vellore | Price List 2026",
     description: "Complete dental treatment price list at Indira Dental Clinic, Vellore. Transparent pricing, no hidden costs.",
     images: ['/dental-clinic-vellore.jpg'],
   },

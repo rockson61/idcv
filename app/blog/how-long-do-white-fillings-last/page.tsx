@@ -79,8 +79,8 @@ const articleSchema = {
       "url": "https://indiradental.com/logo.png"
     }
   },
-  "datePublished": "2025-10-28",
-  "dateModified": "2025-10-28",
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://indiradental.com/blog/how-long-do-white-fillings-last"
@@ -132,7 +132,7 @@ export default function HowLongDoWhiteFillingsLastBlogPost() {
               </div>
               <div className="flex items-center gap-2">
                 <Calendar className="w-5 h-5 text-teal-600" />
-                <time>October 28, 2025</time>
+                <time>October 28, 2026</time>
               </div>
             </div>
 

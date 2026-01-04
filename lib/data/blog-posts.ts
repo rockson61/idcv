@@ -1,5 +1,5 @@
 // Auto-generated list of all blog posts
-// Generated: 2025-10-28T09:25:08.851Z
+// Generated: 2026-10-28T09:25:08.851Z
 
 export interface BlogPost {
   slug: string

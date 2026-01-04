@@ -10,7 +10,7 @@ export function NapHeader() {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         <Link href="/" className="flex items-center space-x-2 mb-4 md:mb-0">
           <Image
-            src="https://velloredental.com/oacmojos/2025/01/Indira-dental-logo.jpg"
+            src="https://velloredental.com/oacmojos/2026/01/Indira-dental-logo.jpg"
             alt="Indira Dental Clinic"
             width={200}
             height={80}

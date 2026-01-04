@@ -8,7 +8,7 @@ import { GlassCard } from '@/components/ui/glass-card'
 import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
 
-// ✅ UPDATED: Complete URL database - ALL 1,448 PAGES (October 2025)
+// ✅ UPDATED: Complete URL database - ALL 1,448 PAGES (October 2026)
 const allSitemapUrls = {
   main: [
     '/', '/about-us', '/about-us/dr-rockson-samuel', '/about-us/our-team', '/contact', 
@@ -331,7 +331,7 @@ export default function CompleteSitemapPage() {
     return urls.filter(url => typeof url === 'string' && url.toLowerCase().includes(searchTerm.toLowerCase()))
   }
 
-  // ✅ UPDATED: Total pages = 1,956 (October 28, 2025)
+  // ✅ UPDATED: Total pages = 1,956 (October 28, 2026)
   const totalPages = 1512
 
   return (
@@ -342,7 +342,7 @@ export default function CompleteSitemapPage() {
           <div className="text-center mb-8">
             <Badge className="mb-4 bg-teal-100 text-teal-700 text-lg px-4 py-2">
               <CheckCircle className="w-5 h-5 inline mr-2" />
-              ✅ Updated October 28, 2025 - All 1,956 Pages
+              ✅ Updated October 28, 2026 - All 1,956 Pages
             </Badge>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
               Complete Sitemap - All {totalPages} Pages
@@ -797,7 +797,7 @@ export default function CompleteSitemapPage() {
 
           {/* ✅ UPDATED: Final Summary */}
           <GlassCard className="p-8 bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-center">
-            <h2 className="text-2xl font-bold mb-4">🎊 Most Comprehensive Dental Website in India - October 2025</h2>
+            <h2 className="text-2xl font-bold mb-4">🎊 Most Comprehensive Dental Website in India - October 2026</h2>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mb-6">
               <div>
                 <div className="text-4xl font-bold mb-2">{totalPages}</div>
@@ -829,7 +829,7 @@ export default function CompleteSitemapPage() {
               💡 Use search above to find any specific location, service, or blog topic instantly!
             </p>
             <div className="bg-white/20 rounded-lg p-4 mt-6">
-              <p className="text-sm font-semibold mb-2">🚀 Recent Updates (October 28, 2025):</p>
+              <p className="text-sm font-semibold mb-2">🚀 Recent Updates (October 28, 2026):</p>
               <p className="text-xs opacity-90">
                 +139 specialty service pages • +205 blog posts • +17 blog categories • 
                 Credentials updated (871 files) • Sitemap refreshed • All 404s fixed

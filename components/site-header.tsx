@@ -13,7 +13,7 @@ export function SiteHeader() {
         <div className="py-4 flex justify-center w-full">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="https://www.dentalclinicinvellore.in/oacmojos/2025/01/Indira-dental-logo.jpg"
+              src="https://www.dentalclinicinvellore.in/oacmojos/2026/01/Indira-dental-logo.jpg"
               alt="Indira Dental Clinic"
               width={200}
               height={80}

@@ -222,7 +222,7 @@ export function AskDentistSchema() {
           "@id": "https://www.dentalclinicinvellore.in/ask-the-dentist#breadcrumb"
         },
         "datePublished": "2024-01-01",
-        "dateModified": "2025-10-25",
+        "dateModified": "2026-10-25",
         "inLanguage": "en-IN",
         "potentialAction": [
           {

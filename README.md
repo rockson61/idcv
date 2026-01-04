@@ -392,7 +392,7 @@ Add Google Analytics by:
 
 ## 📄 License
 
-Copyright © 2025 Indira Dental Clinic. All rights reserved.
+Copyright © 2026 Indira Dental Clinic. All rights reserved.
 
 ---
 
@@ -420,4 +420,4 @@ Copyright © 2025 Indira Dental Clinic. All rights reserved.
 
 **Built with ❤️ using Next.js 15.5.6**
 
-**Status**: Production Ready | **Last Updated**: October 29, 2025
+**Status**: Production Ready | **Last Updated**: October 29, 2026

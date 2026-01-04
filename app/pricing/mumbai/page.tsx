@@ -6,11 +6,11 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { CheckCircle2, Star, Phone, MapPin } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Dental Cost Mumbai vs Vellore - Price Comparison 2025 | Indira Dental Clinic",
+  title: "Dental Cost Mumbai vs Vellore - Price Comparison 2026 | Indira Dental Clinic",
   description: "Mumbai dental prices compared to Vellore. Save up to 50% on all treatments.",
   keywords: "dental cost mumbai, price comparison, dental tourism Vellore",
   openGraph: {
-    title: "Dental Cost Mumbai vs Vellore - Price Comparison 2025",
+    title: "Dental Cost Mumbai vs Vellore - Price Comparison 2026",
     description: "Mumbai dental prices compared to Vellore. Save up to 50% on all treatments.",
     images: ['/dental-clinic-vellore.jpg'],
   },
